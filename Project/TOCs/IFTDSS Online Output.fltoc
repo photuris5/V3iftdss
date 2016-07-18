@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Basic Steps">
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/A_Getting Started/Getting Started.htm">
+      <TocEntry
+        Title="IFTDSS Overview" />
+      <TocEntry
+        Title="Set up your account" />
+      <TocEntry
+        Title="Find other users" />
+      <TocEntry
+        Title="Getting help" />
+      <TocEntry
+        Title="Resetting your password" />
+      <TocEntry
+        Title="Projects and runs" />
+    </TocEntry>
+    <TocEntry
+      Title="Importing Data">
+      <TocEntry
+        Title="New Entry" />
+    </TocEntry>
+    <TocEntry
+      Title="Mapping Tools">
+      <TocEntry
+        Title="New Entry" />
+    </TocEntry>
+    <TocEntry
+      Title="Model Runs">
+      <TocEntry
+        Title="New Entry" />
+    </TocEntry>
+    <TocEntry
+      Title="Analysis">
+      <TocEntry
+        Title="New Entry" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Whats New" />
+  <TocEntry
+    Title="Known Issues" />
+  <TocEntry
+    Title="Tutorials">
+    <TocEntry
+      Title="New Entry" />
+  </TocEntry>
+  <TocEntry
+    Title="Resources">
+    <TocEntry
+      Title="New Entry" />
+  </TocEntry>
+  <TocEntry
+    Title="Feedback"></TocEntry>
+  <TocEntry
+    Title="Go to IFTDSS"
+    Link="https://iftdss.firenet.gov/" />
+</CatapultToc>
