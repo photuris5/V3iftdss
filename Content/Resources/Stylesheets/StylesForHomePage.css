@@ -73,10 +73,18 @@ p.Copyright
 
 .whiteheader
 {
-	color: #ffffff;
+	color: #636F57;
 	font-weight: normal;
 }
 
+.tab-bar{
+	position:fixed;
+	z-index:1000;
+	left:0;
+	right:0;
+
+
+}
 .inner-wrap .tab-bar .nav-search
 {
 	display: none;
@@ -200,10 +208,10 @@ p.Copyright
 
 div.topichero
 {
-	background-image: url('../Images/BackgroundImage.png');
+	background-image: url('../Images/coniferbackground.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-top: 20px;
+	padding-top: 80px;
 	height: auto;
 	padding-bottom: 150px;
 }

@@ -1,34 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultVariableSet>
   <Variable
     Comment=""
-    Name="CompanyName">My Company Name, LLC</Variable>
+    Name="CompanyName"
+    EvaluatedDefinition="Wildland Fire Management Research, Development &amp; Application">Wildland Fire Management Research, Development &amp; Application</Variable>
   <Variable
     Comment=""
-    Name="PhoneNumber">858 123 4567</Variable>
+    Name="PhoneNumber"
+    EvaluatedDefinition="555 555 5555">555 555 5555</Variable>
   <Variable
     Name="StreetAddress"
     Comment=""
     Definition="Some text"
-    OriginalName="StreetAddress">1234 Lorem Ipsum</Variable>
+    OriginalName="StreetAddress"
+    EvaluatedDefinition="2141 Airport Way">2141 Airport Way</Variable>
   <Variable
     Name="ProductName"
     Comment=""
-    OriginalName="ProductName">FictionSoft</Variable>
+    OriginalName="ProductName"
+    EvaluatedDefinition="IFTDSS">IFTDSS</Variable>
   <Variable
     Name="Fax"
     Comment=""
-    OriginalName="Fax">Fax 123-987-654</Variable>
+    OriginalName="Fax"
+    EvaluatedDefinition="Fax 555-555-5555">Fax 555-555-5555</Variable>
   <Variable
     Name="CityStateZip"
     Comment=""
-    Definition="Some text">La Jolla, CA 92037</Variable>
+    Definition="Some text"
+    EvaluatedDefinition="Boise, ID 83705">Boise, ID 83705</Variable>
   <Variable
     Name="UserGuideTitle"
-    Comment="">User Guide A</Variable>
+    Comment=""
+    EvaluatedDefinition="IFTDSS User Guide">IFTDSS User Guide</Variable>
   <Variable
     Name="VersionNumber"
-    OriginalName="VersionNumberDot">1.0</Variable>
+    OriginalName="VersionNumberDot"
+    EvaluatedDefinition="3.0">3.0</Variable>
   <Variable
     Name="Year"
     Comment=""
