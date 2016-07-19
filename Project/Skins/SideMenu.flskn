@@ -15,7 +15,7 @@
           <Property
             Name="Width">100%</Property>
           <Property
-            Name="FontFamily">Arial , 'FontAwesome'</Property>
+            Name="FontFamily">Arial , 'FontAwesome' , Helvetica , sans-serif</Property>
         </Properties>
       </Style>
       <Style

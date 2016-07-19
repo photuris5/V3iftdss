@@ -18,7 +18,7 @@
     Name="ProductName"
     Comment=""
     OriginalName="ProductName"
-    EvaluatedDefinition="IFTDSS">IFTDSS</Variable>
+    EvaluatedDefinition="IFTDSS 3.0">IFTDSS 3.0</Variable>
   <Variable
     Name="Fax"
     Comment=""

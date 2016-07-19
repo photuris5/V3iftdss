@@ -4,59 +4,68 @@
   <TocEntry
     Title="Basic Steps">
     <TocEntry
-      Title="Getting Started"
-      Link="/Content/A_Getting Started/Getting Started.htm">
+      Title="Getting Started">
       <TocEntry
-        Title="IFTDSS Overview" />
+        Title="Getting Help"
+        Link="/Content/1_Getting Started/Getting Help.htm" />
       <TocEntry
-        Title="Set up your account" />
-      <TocEntry
-        Title="Find other users" />
-      <TocEntry
-        Title="Getting help" />
-      <TocEntry
-        Title="Resetting your password" />
-      <TocEntry
-        Title="Projects and runs" />
+        Title="Setting up an Account"
+        Link="/Content/1_Getting Started/Setting up an Account.htm" />
     </TocEntry>
     <TocEntry
-      Title="Importing Data">
+      Title="Methods">
       <TocEntry
-        Title="New Entry" />
-    </TocEntry>
-    <TocEntry
-      Title="Mapping Tools">
+        Title="Data Management"
+        Link="/Content/2_Methods/Data Management.htm" />
       <TocEntry
-        Title="New Entry" />
-    </TocEntry>
-    <TocEntry
-      Title="Model Runs">
+        Title="Map Functions"
+        Link="/Content/2_Methods/Map Functions.htm" />
       <TocEntry
-        Title="New Entry" />
-    </TocEntry>
-    <TocEntry
-      Title="Analysis">
+        Title="Overview of Modules"
+        Link="/Content/2_Methods/Overview of Modules.htm" />
       <TocEntry
-        Title="New Entry" />
+        Title="Projects and Runs"
+        Link="/Content/2_Methods/Projects and Runs.htm" />
+      <TocEntry
+        Title="Workflows"
+        Link="/Content/2_Methods/Workflows.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Whats New" />
+    Title="Whats New"
+    Link="/Content/0_IFTDSS/What's New.htm" />
   <TocEntry
-    Title="Known Issues" />
+    Title="Known Issues"
+    Link="/Content/0_IFTDSS/Known Issues.htm" />
   <TocEntry
     Title="Tutorials">
     <TocEntry
-      Title="New Entry" />
+      Title="Tutorials"
+      Link="/Content/3_Tutorials/Tutorials.htm" />
   </TocEntry>
   <TocEntry
     Title="Resources">
     <TocEntry
-      Title="New Entry" />
+      Title="Online Courses"
+      Link="https://www.frames.gov/onlinecourses/" />
+    <TocEntry
+      Title="PDFs" />
+    <TocEntry
+      Title="References">
+      <TocEntry
+        Title="References"
+        Link="/Content/5_References/References.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    <TocEntry
+      Title="Webinars" />
   </TocEntry>
   <TocEntry
-    Title="Feedback"></TocEntry>
+    Title=" Feedback"
+    Link="https://www.google.com/"></TocEntry>
   <TocEntry
-    Title="Go to IFTDSS"
-    Link="https://iftdss.firenet.gov/" />
+    Title=" Log In"
+    Link="https://iftdss.firenet.gov/"></TocEntry>
 </CatapultToc>
