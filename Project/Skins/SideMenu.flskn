@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
   Version="2"
   SkinType="Component"
@@ -14,6 +14,8 @@
             Name="BackgroundColor">#525252</Property>
           <Property
             Name="Width">100%</Property>
+          <Property
+            Name="FontFamily">Arial , 'FontAwesome'</Property>
         </Properties>
       </Style>
       <Style
@@ -84,4 +86,5 @@
       </Medium>
     </Styles>
   </Stylesheet>
+  <Strings />
 </CatapultSkin>
