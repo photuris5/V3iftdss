@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="FileTypes\PU_Initial_Fuel_Moistures.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Initial Fuel Moistures File</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Initial Fuel Moisture File:File Information;Initial Fuel Moisture File;Dead Fuel Moisture Content" />Initial Fuel Moistures File (.FMS)</h1>
+        <p>The Initial Fuel Moistures (.FMS) File is a ASCII text file required 
+ for any <span class="span_2">FlamMap</span> run. This is 
+ the same format used in the <span class="span_2">FARSITE</span> 
+ fire area simulator, so Initial Fuel Moistures (.FMS) Files are interchangeable 
+ between the two applications.</p>
+        <p>The fuel moistures from the Initial Fuel Moistures (.FMS) File can be 
+ used one of two ways in FlamMap.</p>
+        <ol class="ol_1">
+            <li class="p">
+                <p>The fuel moistures from the file are used "as 
+	 is" to calculate the fire behavior characteristics for a FlamMap 
+	 run.</p>
+            </li>
+            <li class="p">
+                <p>Or the fuel moistures are used as a starting point 
+	 for the <a href="../Tech_Topics/Tech_Dead_Fuel_Moisture.htm">optional 
+	 dead fuel moisture model</a> which also requires <a href="PU_Weather_File.htm">Weather 
+	 (.WTR)</a> and <a href="PU_Wind_File.htm">Wind (.WND)</a> Files or 
+	 a <a href="Weather_Stream_File.htm">Weather Stream (.WXS)</a> File. 
+	 The starting dead fuel moistures are modified during a conditioning 
+	 period based on the weather streams, topography, and shading before 
+	 calculating the fire behavior characteristics in the FlamMap run. 
+	 Live fuel moistures are not modified by the dead fuel moisture model. 
+	 </p>
+            </li>
+        </ol>
+        <p>Each Initial Fuel Moistures (.FMS) File must contain at least one line 
+ in the space delimited ASCII format specified below. FlamMap has tools 
+ (see below) to help you create or edit Initial Fuel Moistures (.FMS) Files. 
+ Or, a text editor such as <span class="span_2">Notepad or 
+ WordPad</span>, or a spreadsheet can be used to create or edit ASCII text 
+ files.</p>
+        <p>The following ASCII integer space-delimited format is used;</p>
+        <p class="p_10"><span class="span_3"><span class="span_2">FuelMod 1Hour 10Hour 100Hour LiveH LiveW</span></span>
+        </p>
+        <p>
+            <img src="../flammaprobo_supporing/FMSfile.png" alt="" border="0" class="img_1" />
+        </p>
+        <ul class="ul_1">
+            <li>
+                <p>Fuel Model "0" is the default for fuel models not 
+	 listed in the Initial Fuel Moistures (.FMS) File. </p>
+            </li>
+            <li>
+                <p>Fuel Models 1-256 corresponds to a standard fuel model (Anderson, 
+	 1983 or Scott and Burgan, 2005) or one described in a <a href="PU_Custom_Fuel_Model_File.htm">Custom 
+	 Fuel Model (.FMD) File</a>.</p>
+            </li>
+            <li>
+                <p>Fuel moistures for each category are in percent (integers), 
+	 and may exceed 100. <span class="span_9">LiveH</span> 
+	 and <span class="span_9">LiveW</span> 
+	 indicate "live woody" and "live herbaceous" fuels, 
+	 just like <span class="span_2">BehavePlus</span>. </p>
+            </li>
+            <li>
+                <p>If custom fuel models are used, they can have initial fuel moistures 
+	 specified in this file or rely on the default (fuel model "0") 
+	 values.</p>
+            </li>
+        </ul>
+        <p><span class="span_3">NOTE:</span> An Initial Fuel Moistures 
+ (.FMS) File with one line (using fuel model "0") will suffice 
+ for a run, but creating a line for each fuel model is prefered as this 
+ allows calibration of individual fuel models using the dead and live fuel 
+ moistures. A Initial Fuel Moistures (.FMS) File with all the fuel models 
+ for a landscape can be easily created with the <a href="#New_Initial_Fuel_Moistures_File">Create 
+ New Initial Fuel Moistures File feature</a> described below.</p>
+        <h2><a name="Edit_an_Initial_Fuel_Moistures_File"></a>Edit Existing Initial 
+ Fuel Moistures File</h2>
+        <p>If an Initial Fuel Moistures (.FMS) File is currently loaded on the 
+ <span class="Code-Command">Inputs</span> Tab, clicking the <img src="../flammaprobo_supporing/Button_Editor.gif" alt="" border="0" class="img_1" /> button allows you to inspect 
+ the Initial Fuel Moisture (.FMS) File and modify the fuel moistures or 
+ fuel models using the <a href="../flammaprobo_supporing/FlamMap_Text_Editor.htm">FlamMap Text 
+ Editor</a>. </p>
+        <h2><a name="New_Initial_Fuel_Moistures_File"></a>Create New Initial Fuel Moistures 
+ File</h2>
+        <p>You can create a new&#160;Initial Fuel Moisture (.FMS) File by clicking 
+ the <img alt="" src="../flammaprobo_supporing/Button_DefaultMoistures.png" border="0" class="img_1" /> button which open the "Set Default Fuel 
+ Moistures" dialog box where you set the initial fuel moistures for 
+ all fuel models found in the <a href="PU_Landscape_File.htm">Landscape 
+ (.LCP) File</a>.</p>
+        <p>
+            <img src="../flammaprobo_supporing/SetDefaultFuelMoistures.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>Clicking the <span class="Code-Command">OK</span> button in the "Set 
+ Default Fuel Moistures" dialog box then opens the Initial Fuel Moisture 
+ (.FMS) File in the FlamMap text editor.</p>
+        <p>
+            <img src="../flammaprobo_supporing/NewFMSFile.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>There you can inspect the fuel moisture and modify the fuel moistures 
+ for individual fuel models using the <a href="../flammaprobo_supporing/FlamMap_Text_Editor.htm">FlamMap 
+ Text Editor</a>. Note that the default Fuel Model "0" is included 
+ so the Initial Fuel Moistures (.FMS) File can be used with other landscapes. 
+ </p>
+        <h3>Finally</h3>
+        <p>Before exiting the FlamMap Text Editor make sure the modified file has 
+ been saved with either the <span class="Code-Command">Save</span> <img src="../flammaprobo_supporing/Button_Save.gif" alt="" border="0" class="img_1" /> 
+ or <span class="Code-Command">Save As</span> <img src="../flammaprobo_supporing/SaveAsButton.png" alt="" border="0" class="img_1" /> button. 
+ If you don't save the changes, they will still be in effect for the current 
+ simulation, but they will be lost when the simulation is terminated. However 
+ if the Project (.FPJ) File is saved with an unsaved edited Initial Fuel 
+ Moistures (.FMS) File, the Initial Fuel Moistures (.FMS) File will then 
+ be automatically saved also.</p>
+        <p class="p_2">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Complete">
+    <head><title>Treatments</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Treatment Grid Theme" />Treatments</h1>
+        <h2><a name="TreatmentOpportunityGrid" id="TreatmentOpportunityGrid"></a>Treatment Opportunity Grid</h2>
+        <p>Displays the results of comparing the fire spread rates of the current and ideal landscapes. A positive cell value indicates the ideal landscape has a lower fire spread rate, zero indicates no difference between the two landscape, and a negative value points out where the ideal landscape has a higher spread rate. TOM will identify treatments only in cells with a value of +1. This output grid gives no indication of the magnitude of the spread rate differential between the two landscapes.</p>
+        <p>There are several uses of this grid in evaluating ideal landscapes and the underlying treatment prescriptions. First calculate the treatment opportunity fraction by dividing the number of "+1" cells by the total number of grid cells. Cell frequencies are found on the <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm">"Create/Modify Legend" dialog box</a>. For TOM to work properly the opportunity fraction needs to be greater that the <span class="Code-Command">Treatment Fraction</span> specified on the TOM tab of the "Runs:" dialog box, TOM cannot identify treatments greater than the opportunity fraction. In general higher opportunity fractions will provide better results from TOM. Best results are obtained if the opportunity fraction is at least two or three times the Treatment Fraction value.</p>
+        <h2><a name="TreatmentGrid" id="TreatmentGrid"></a>Treatment Grid</h2>
+        <p>TOM selected cells with a value of “1” for treatment. &#160;Cells with zero values were not selected for treating.</p>
+        <p>The TOM process tends to clump the treated cells into logical treatment units. The treatment grid can be <a href="../Runs/Output_Grids.htm#SaveAs">exported to a GIS</a> and compared to existing stand-polygon coverages to understand the practical implications of the treatment optimization on actual polygons.</p>
+        <p>Reality check; to provide the effects indicated by TOM the actual end results of treatments prescribed on the ground should match the fuel conditions specified in the ideal landscape themes of fuel model, canopy cover, canopy bulk density, canopy base height, and stand height.</p>
+    </body>
+</html>

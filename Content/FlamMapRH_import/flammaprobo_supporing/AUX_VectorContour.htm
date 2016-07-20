@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="VectorContour" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Vector and Contour Themes</title>
+        <link rel="StyleSheet" href="flammap2topic.css" type="text/css" />
+        <style type="text/css">
+/*
+<![CDATA[*/
+body {
+	background-color: #ffffff;
+}
+/*]]></style>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Shapefiles:Using" />Vector and Contour Themes</h1>
+        <p>Auxiliary vector and contour themes are similar;</p>
+        <ul class="ul_1">
+            <li class="BulletFM">They are not required to generate FlamMap output, 
+	 but they are handy for orienting and viewing results.</li>
+            <li class="BulletFM">They do not contribute to any fire behavior calculations.</li>
+            <li class="BulletFM">They are stored as <a href="../FileTypes/PU_Vector_Files.htm">vector 
+	 information</a>.</li>
+        </ul>
+        <p class="Monospace"><a href="../AnalysisCMDs/FM_Project.htm"><img name="nav01" src="nav01_g.gif" onmouseover="nav01.src=&quot;nav01_p.gif&quot;" onmouseout="nav01.src=&quot;nav01_g.gif&quot;" alt="Tutorial tree item" title="Tutorial tree item" id="nav01" width="249" height="18" border="0" class="img_1" /></a><a href="../AnalysisCMDs/FM_Open_Landscape.htm"><br /><img name="nav02" src="nav02_g.gif" onmouseover="nav02.src=&quot;nav02_p.gif&quot;" onmouseout="nav02.src=&quot;nav02_g.gif&quot;" alt="Landscape File tree item" title="Landscape File tree item" id="nav02" width="249" height="16" border="0" class="img_1" /></a><a href="../AnalysisCMDs/AUX_Auxiliary_Themes.htm"><br /><img name="nav03" src="nav03_g.gif" onmouseover="nav03.src=&quot;nav03_p.gif&quot;" onmouseout="nav03.src=&quot;nav03_g.gif&quot;" alt="Auxiliary Themes tree item" title="Auxiliary Themes tree item" id="nav03" width="249" height="16" border="0" class="img_1" /></a><a href="../AnalysisCMDs/AUX_Grid_Themes.htm"><br /><img name="nav04" src="nav04_g.gif" onmouseover="nav04.src=&quot;nav04_p.gif&quot;" onmouseout="nav04.src=&quot;nav04_g.gif&quot;" alt="Grid Themes tree item" title="Grid Themes tree item" id="nav04" width="249" height="16" border="0" class="img_1" /></a><a href="../AnalysisCMDs/AUX_Grid_Themes.htm#SaveAsGrid"><br /><img name="nav05" src="nav05_g.gif" onmouseover="nav05.src=&quot;nav05_p.gif&quot;" onmouseout="nav05.src=&quot;nav05_g.gif&quot;" alt="cover_type tree item" title="cover_type tree item" id="nav05" width="249" height="17" border="0" class="img_1" /></a><a href="#NewVectorTheme"><br /><img name="nav06" src="nav06_w.gif" onmouseover="nav06.src=&quot;nav06_m.gif&quot;" onmouseout="nav06.src=&quot;nav06_w.gif&quot;" alt="Vector Themes tree item" title="Vector Themes tree item" id="nav06" width="249" height="15" border="0" class="img_1" /></a><a href="#ManipulatingVectorsContours"><br /><img name="nav07" src="nav07_w.gif" onmouseover="nav07.src=&quot;nav07_m.gif&quot;" onmouseout="nav07.src=&quot;nav07_w.gif&quot;" alt="rivers-major tree item" title="rivers-major tree item" id="nav07" width="249" height="17" border="0" class="img_1" /></a><a href="#Contours"><br /><img name="nav08" src="nav08_w.gif" onmouseover="nav08.src=&quot;nav08_m.gif&quot;" onmouseout="nav08.src=&quot;nav08_w.gif&quot;" alt="Contours tree item" title="Contours tree item" id="nav08" width="249" height="15" border="0" class="img_1" /></a><a href="#ManipulatingVectorsContours"><br /><img name="nav09" src="nav09_w.gif" onmouseover="nav09.src=&quot;nav09_m.gif&quot;" onmouseout="nav09.src=&quot;nav09_w.gif&quot;" alt="Elevation contour tree item" title="Elevation contour tree item" id="nav09" width="249" height="16" border="0" class="img_1" /></a><a href="../AnalysisCMDs/Wind_Vectors.htm"><br /><img name="nav09a" src="nav09a_g.gif" onmouseover="nav09a.src=&quot;nav09a_p.gif&quot;" onmouseout="nav09a.src=&quot;nav09a_g.gif&quot;" alt="" id="nav09a" width="249" height="15" border="0" class="img_1" /></a><a href="../DisplayCMDs/VectorDisplay.htm"><br /><img name="nav09b" src="nav09b_g.gif" onmouseover="nav09b.src=&quot;nav09b_p.gif&quot;" onmouseout="nav09b.src=&quot;nav09b_g.gif&quot;" alt="" id="nav09b" width="249" height="16" border="0" class="img_1" /></a><a href="../AnalysisCMDs/AA_Analysis_Areas.htm"><br /><img name="nav10" src="nav10_g.gif" onmouseover="nav10.src=&quot;nav10_p.gif&quot;" onmouseout="nav10.src=&quot;nav10_g.gif&quot;" alt="Analysis tree item" title="Analysis tree item" id="nav10" width="249" height="16" border="0" class="img_1" /></a><a href="../AnalysisCMDs/AA_Landscape.htm"><br /><img name="nav11" src="nav11_g.gif" onmouseover="nav11.src=&quot;nav11_p.gif&quot;" onmouseout="nav11.src=&quot;nav11_g.gif&quot;" alt="Entire Landscape tree item" title="Entire Landscape tree item" id="nav11" width="249" height="17" border="0" class="img_1" /></a>
+            <br />
+            <img src="nav12_g.gif" alt="Landscape Themes tree item" title="Landscape Themes tree item" width="249" height="15" border="0" class="img_1" /><a href="../AnalysisCMDs/Landscape_Themes.htm"><br /><img name="nav13" src="nav13_g.gif" onmouseover="nav13.src=&quot;nav13_p.gif&quot;" onmouseout="nav13.src=&quot;nav13_g.gif&quot;" alt="Elevation grid tree item" title="Elevation grid tree item" id="nav13" width="249" height="17" border="0" class="img_1" /><br /><img name="nav14" src="nav14_g.gif" onmouseover="nav14.src=&quot;nav14_p.gif&quot;" onmouseout="nav14.src=&quot;nav14_g.gif&quot;" alt="Slope grid tree item" title="Slope grid tree item" id="nav14" width="249" height="16" border="0" class="img_1" /><br /><img name="nav15" src="nav15_g.gif" onmouseover="nav15.src=&quot;nav15_p.gif&quot;" onmouseout="nav15.src=&quot;nav15_g.gif&quot;" alt="Aspect grid tree item" title="Aspect grid tree item" id="nav15" width="249" height="16" border="0" class="img_1" /><br /><img name="nav16" src="nav16_g.gif" onmouseover="nav16.src=&quot;nav16_p.gif&quot;" onmouseout="nav16.src=&quot;nav16_g.gif&quot;" alt="Fuel Model grid tree item" title="Fuel Model grid tree item" id="nav16" width="249" height="16" border="0" class="img_1" /><br /><img name="nav17" src="nav17_g.gif" onmouseover="nav17.src=&quot;nav17_p.gif&quot;" onmouseout="nav17.src=&quot;nav17_g.gif&quot;" alt="Canopy Cover grid tree item" title="Canopy Cover grid tree item" id="nav17" width="249" height="16" border="0" class="img_1" /><br /><img name="nav18" src="nav18_g.gif" onmouseover="nav18.src=&quot;nav18_p.gif&quot;" onmouseout="nav18.src=&quot;nav18_g.gif&quot;" alt="Height grid tree item" title="Height grid tree item" id="nav18" width="249" height="16" border="0" class="img_1" /><br /><img name="nav19" src="nav19_g.gif" onmouseover="nav19.src=&quot;nav19_p.gif&quot;" onmouseout="nav19.src=&quot;nav19_g.gif&quot;" alt="Crown Base Height tree item" title="Crown Base Height tree item" id="nav19" width="249" height="16" border="0" class="img_1" /><br /><img name="nav20" src="nav20_g.gif" onmouseover="nav20.src=&quot;nav20_p.gif&quot;" onmouseout="nav20.src=&quot;nav20_g.gif&quot;" alt="Crown Bulk Density tree item" title="Crown Bulk Density tree item" id="nav20" width="249" height="16" border="0" class="img_1" /></a><a href="../Runs/Runs.htm"><br /><img name="nav21" src="nav21_g.gif" onmouseover="nav21.src=&quot;nav21_p.gif&quot;" onmouseout="nav21.src=&quot;nav21_g.gif&quot;" alt="Runs tree item" title="Runs tree item" id="nav21" width="249" height="15" border="0" class="img_1" /></a><a href="../Runs/Inputs_Tab.htm"><br /><img name="nav22" src="nav22_g.gif" onmouseover="nav22.src=&quot;nav22_p.gif&quot;" onmouseout="nav22.src=&quot;nav22_g.gif&quot;" alt="First Tutorial tree item" title="First Tutorial tree item" id="nav22" width="249" height="16" border="0" class="img_1" /></a><a href="../Runs/Output_Grids.htm"><br /><img name="nav23" src="nav23_g.gif" onmouseover="nav23.src=&quot;nav23_p.gif&quot;" onmouseout="nav23.src=&quot;nav23_g.gif&quot;" alt="Flame Length grid tree item" title="Flame Length grid tree item" id="nav23" width="249" height="17" border="0" class="img_1" /><br /><img name="nav24" src="nav24_g.gif" onmouseover="nav24.src=&quot;nav24_p.gif&quot;" onmouseout="nav24.src=&quot;nav24_g.gif&quot;" alt="Spread Rate grid tree item" title="Spread Rate grid tree item" id="nav24" width="249" height="16" border="0" class="img_1" /><br /><img name="nav25" src="nav25_g.gif" onmouseover="nav25.src=&quot;nav25_p.gif&quot;" onmouseout="nav25.src=&quot;nav25_g.gif&quot;" alt="Crown Fire Activity grid item" title="Crown Fire Activity grid item" id="nav25" width="249" height="16" border="0" class="img_1" /><br /><img name="nav26" src="nav26_g.gif" onmouseover="nav26.src=&quot;nav26_p.gif&quot;" onmouseout="nav26.src=&quot;nav26_g.gif&quot;" alt="10 hr Fuel Moisture grid item" title="10 hr Fuel Moisture grid item" id="nav26" width="249" height="16" border="0" class="img_1" /></a>
+            <br />
+            <img src="nav27_g.gif" alt="blank" title="blank" width="249" height="8" border="0" class="img_1" />
+        </p>
+        <h2>
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes:New" />
+            <MadCap:keyword term="Load:Auxiliary Vector Theme" />
+            <MadCap:keyword term="Open:Auxiliary Vector Theme" />
+            <MadCap:keyword term="Theme Menu:New Vector Theme" /><a name="NewVectorTheme" id="NewVectorTheme"></a>
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes" />Vector Themes</h2>
+        <p>Vector themes are created elsewhere (in a GIS) and imported into FlamMap 
+ as <a href="../FileTypes/PU_Vector_Files.htm">ArcView shapefiles</a>.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="134" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="134" class="td_1">
+                    <p>
+                        <img src="Shortcut_VectorTheme.gif" alt="Vector theme item shortcut menu" title="Vector theme item shortcut menu" width="134" height="66" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_6">
+                    <p>Right-clicking 
+		 the <span class="Code-Command">Vector Themes</span> item in the "Tree" 
+		 pane displays this short cut menu.</p>
+                </td>
+            </tr>
+        </table>
+        <h3>New Vector Theme</h3>
+        <p>Selecting the <span class="Code-Command">New Vector Theme</span> command 
+ from the shortcut menu (or <span class="Code-Command">Theme &gt; New Vector 
+ Theme</span> from the main menu) displays a standard Window's "Open" 
+ dialog box. Navigate to the appropriate folder, select the desired shapefile 
+ and click the <span class="Code-Command">Open</span> button. Your project 
+ window displays the shapefile on your active grid theme in the "Display" 
+ pane. You may need to expand the <span class="Code-Command">Vector 
+ Themes</span> tree item by clicking it's <img src="PlusButtonx2.gif" alt="" width="14" height="14" border="0" class="img_1" /> box to show 
+ the <img src="CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /><span class="Code-Command">rivers-major</span> item.</p>
+        <h3>Delete All</h3>
+        <p>Selecting the <span class="Code-Command">Delete All</span> command will 
+ remove all of the vector themes from your FlamMap project.</p>
+        <h3>Help</h3>
+        <p>Selecting the <span class="Code-Command">Help</span> command will bring 
+ you to the Vector Themes heading above in this online help system.</p>
+        <h2>
+            <MadCap:keyword term="Auxiliary Themes:Contours" /><a name="Contours" id="Contours"></a>Contours</h2>
+        <p>Contours are a special vector file created from a grid theme. There 
+ are no default contour themes, any or all of them must be created by the 
+ user in FlamMap. <a href="../AnalysisCMDs/Landscape_Themes.htm#CreatingContours">Contours 
+ can be created</a> from any landscape, auxiliary, or output grid theme 
+ by right-clicking a grid theme item in the "Tree" pane and selecting 
+ <span class="Code-Command">Contour</span> from the shortcut menu to display 
+ the "Contouring" dialog box.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="89" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="89" class="td_1">
+                    <p>
+                        <img src="Shortcut_Contours.gif" alt="Contours item shortcut menu" title="Contours item shortcut menu" width="89" height="40" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>Right-clicking 
+		 the <span class="Code-Command">Contours</span> item in the "Tree" 
+		 pane displays this short cut menu.</p>
+                </td>
+            </tr>
+        </table>
+        <h3 class="Monospace">Delete All</h3>
+        <p>Selecting the <span class="Code-Command">Delete All</span> command will 
+ remove all of the contours from your FlamMap project.</p>
+        <h3>Help</h3>
+        <p>Selecting the <span class="Code-Command">Help</span> command will bring 
+ you to the Contours heading above in this online help system.</p>
+        <h2>
+            <MadCap:keyword term="Auxiliary Themes:Contours:Hiding" />
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes:Hiding" /><a name="ManipulatingVectorsContours" id="ManipulatingVectorsContours"></a>Manipulating 
+ Vector Themes or Contours</h2>
+        <p>To temporally hide or display an individual vector or contour theme, 
+ simply double click it's line in the "Tree" pane. A blue check 
+ mark "<img src="BlueCheckmark.gif" alt="blue checkmark" title="blue checkmark" width="10" height="10" border="0" class="img_1" />" 
+ indicates the theme is currently displayed and a red "<span class="span_1">X</span>" indicates it is currently hidden.</p>
+        <p>Right-clicking a individual vector or contour theme item displays the 
+ following shortcut menu (the <span class="Code-Command">Save As</span> 
+ command is not available for vector themes). With these commands you can 
+ delete an individual theme, save contours as a ArcView shapefile, or change 
+ the way a theme displays.</p>
+        <p><a href="#DeleteContours"><img name="ContourNav1" src="ContourNav1_g.gif" onmouseover="ContourNav1.src=&quot;ContourNav1_p.gif&quot;" onmouseout="ContourNav1.src=&quot;ContourNav1_g.gif&quot;" alt="Delete command on Contour shortcut menu" title="Delete command on Contour shortcut menu" id="ContourNav1" width="157" height="20" border="0" class="img_1" /></a><a href="#SavingContours"><br /><img name="ContourNav2" src="ContourNav2_g.gif" onmouseover="ContourNav2.src=&quot;ContourNav2_p.gif&quot;" onmouseout="ContourNav2.src=&quot;ContourNav2_g.gif&quot;" alt="Save As command on Contour shortcut menu" title="Save As command on Contour shortcut menu" id="ContourNav2" width="157" height="16" border="0" class="img_1" /></a>
+            <br />
+            <img src="ContourNav3_g.gif" alt="blank" title="blank" width="157" height="11" border="0" class="img_1" /><a href="#BringToTop"><br /><img name="ContourNav4" src="ContourNav4_g.gif" onmouseover="ContourNav4.src=&quot;ContourNav4_p.gif&quot;" onmouseout="ContourNav4.src=&quot;ContourNav4_g.gif&quot;" alt="Bring to Top command on Contour shortcut menu" title="Bring to Top command on Contour shortcut menu" id="ContourNav4" width="157" height="16" border="0" class="img_1" /></a><a href="#ArrangingThemes"><br /><img name="ContourNav5" onmouseover="ContourNav5.src=&quot;ContourNav5_p.gif&quot;" onmouseout="ContourNav5.src=&quot;ContourNav5_g.gif&quot;" src="ContourNav5_g.gif" alt="Arrange Vector Themes on Vector shortcut menu" title="Arrange Vector Themes on Vector shortcut menu" id="ContourNav5" width="157" height="16" border="0" class="img_1" /></a>
+            <br />
+            <img src="ContourNav6_g.gif" alt="blank" title="blank" width="157" height="10" border="0" class="img_1" /><a href="#Create_Raster_Theme"><br /><img name="ContourNav9" onmouseover="ContourNav9.src=&quot;ContourNav9_p.png&quot;" onmouseout="ContourNav9.src=&quot;ContourNav9_g.png&quot;" src="ContourNav9_g.png" alt="Create Raster Theme command on Vector shortcut menu" title="Create Raster Theme command on Vector shortcut menu" id="ContourNav9" width="157" height="17" border="0" class="img_1" /></a><a href="#Properties"><br /><img name="ContourNav7" onmouseover="ContourNav7.src=&quot;ContourNav7_p.gif&quot;" onmouseout="ContourNav7.src=&quot;ContourNav7_g.gif&quot;" src="ContourNav7_g.gif" alt="Properties command on Vector shortcut menu" title="Properties command on Vector shortcut menu" id="ContourNav7" width="157" height="17" border="0" class="img_1" /></a>
+            <br />
+            <img name="ContourNav8" onmouseover="ContourNav8.src=&quot;ContourNav8_p.gif&quot;" onmouseout="ContourNav8.src=&quot;ContourNav8_g.gif&quot;" src="ContourNav8_g.gif" alt="Help command on Vector shortcut menu" title="Help command on Vector shortcut menu" id="ContourNav8" width="157" height="20" border="0" class="img_1" />
+        </p>
+        <h3>
+            <MadCap:keyword term="Auxiliary Themes:Contours:Deleting" />
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes:Delete" />
+            <MadCap:keyword term="Deleting:Auxiliary Vector Themes" />
+            <MadCap:keyword term="Deleting:Contours" /><a name="DeleteContours" id="DeleteContours"></a>Deleting Vector Themes 
+ or Contours</h3>
+        <p>To delete all of the Auxiliary vector or contour themes, right-click 
+ the <span class="Code-Command">Vector Themes</span> or <span class="Code-Command">Contours</span> 
+ items in the "Tree" pane and select <span class="Code-Command">Delete 
+ All</span> from the shortcut menu.</p>
+        <p>To delete a single contour or vector theme, right-click an individual 
+ item in the "Tree" pane and select <span class="Code-Command">Delete</span> 
+ from the shortcut menu. The following warning asks for confirmation of 
+ your delete request.</p>
+        <p>
+            <img src="DeleteConfirm.gif" alt="Delete Contour Warning" title="Delete Contour Warning" width="273" height="119" border="0" class="img_1" />
+        </p>
+        <h3>
+            <MadCap:keyword term="Auxiliary Themes:Contours:Saving" /><a name="SavingContours" id="SavingContours"></a>Saving Themes</h3>
+        <p>You can save your vector or contour theme in ArcView shapefile format 
+ so you can use it in a GIS. Right-click an individual theme from the "Tree" 
+ pane and select <span class="Code-Command">Save As…</span> 
+ A standard Windows "Save As" dialog box appears where you can 
+ navigate and name your new shapefile. If <a href="../FileTypes/Projection.htm#Valid_Projection">valid 
+ projection information</a> is available for the landscape a <a href="http://vsp.pnnl.gov/help/Vsample/ESRI_PRJ_File.htm">Projection 
+ (.PRJ) File</a> will be included. Remember your Auxiliary Vector Themes 
+ are already shapefiles, this command is designed to export vector output 
+ and contour themes created in FlamMap as shapefiles. </p>
+        <h3>
+            <MadCap:keyword term="Auxiliary Themes:Contours:Arranging" />
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes:Arranging" /><a name="BringToTop" id="BringToTop"></a>Bring Theme to Top</h3>
+        <p>Selecting the <span class="Code-Command">Bring to Top</span> command 
+ from the shortcut menu places the selected theme "on top" of 
+ any other visible vector and contour themes.</p>
+        <h3>
+            <MadCap:keyword term="Auxiliary Themes:Contours:Arranging" />
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes:Arranging" />
+            <MadCap:keyword term="Theme Menu:Arrange Vector Themes" /><a name="ArrangingThemes" id="ArrangingThemes"></a>Arranging Vector Themes 
+ and Contours</h3>
+        <p>You can arrange the layering of all the visible vector and contour themes 
+ by selecting the <span class="Code-Command">Arrange Vector Themes</span> 
+ command from the shortcut menu. This command brings up the following dialog 
+ box.</p>
+        <p>&#160;</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="285" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="285" class="td_7">
+                    <p>
+                        <img src="ArrangeVectors.gif" alt="Arrange Vectors dialog box" id="T1" title="Arrange Vectors dialog box" name="T1" width="285" height="327" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_14">
+                    <p>In the "Set Overlay Theme Draw 
+		 Priority" dialog box select the first theme you wish to re-arrange. 
+		 Then use the arrow buttons below the theme list to move the selected 
+		 theme up or down in the stack;</p>
+                    <p>&#160;</p>
+                    <table id="T2" cellspacing="0" width="100%" class="table_1">
+                        <col width="25" />
+                        <col style="width: 100%;" />
+                        <tr style="height: 30px;" class="tr_1">
+                            <td width="25" class="td_8">
+                                <p>
+                                    <img src="UpArrow.gif" alt="Move theme up button" title="Move theme up button" width="20" height="20" border="0" class="img_1" />
+                                </p>
+                            </td>
+                            <td style="width: 100%;" class="td_9">
+                                <p class="Table">Move selected theme up one level.</p>
+                            </td>
+                        </tr>
+                        <tr style="height: 30px;" class="tr_1">
+                            <td width="25" class="td_10">
+                                <p>
+                                    <img src="DownArrow.gif" alt="Move Theme down button" title="Move Theme down button" width="20" height="20" border="0" class="img_1" />
+                                </p>
+                            </td>
+                            <td style="width: 100%;" class="td_11">
+                                <p class="Table">Move 
+				 selected theme down one level.</p>
+                            </td>
+                        </tr>
+                        <tr style="height: 30px;" class="tr_1">
+                            <td width="25" class="td_10">
+                                <p>
+                                    <img src="TopArrow.gif" alt="Move theme to the top button" title="Move theme to the top button" width="20" height="20" border="0" class="img_1" />
+                                </p>
+                            </td>
+                            <td style="width: 100%;" class="td_11">
+                                <p class="Table">Move 
+				 selected theme to the top of the stack.</p>
+                            </td>
+                        </tr>
+                        <tr style="height: 30px;" class="tr_1">
+                            <td width="25" class="td_12">
+                                <p>
+                                    <img src="BottomArrow.gif" alt="Move theme to bottom button" title="Move theme to bottom button" width="20" height="20" border="0" class="img_1" />
+                                </p>
+                            </td>
+                            <td style="width: 100%;" class="td_13">
+                                <p class="Table">Move selected theme to the bottom of 
+				 the stack.</p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <h3><a name="Create_Raster_Theme"></a>Create Raster Theme</h3>
+        <p>For a polygon Auxiliary Vector Theme the Create Raster Theme command 
+ creates a raster (or grid) theme of the polygon. The new grid theme is 
+ visible as an <a href="../AnalysisCMDs/AUX_Grid_Themes.htm">Auxiliary Grid 
+ Theme</a> where you can <a href="../AnalysisCMDs/AUX_Grid_Themes.htm#SaveAsGrid">save 
+ it</a> for future use.</p>
+        <p>
+            <img src="createRasterExample.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>The Create Raster Theme command opens the "Create Raster Theme" 
+ dialog box. </p>
+        <p>
+            <img src="createRasterDialog.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>The <span class="Code-Command">Field:</span> text box has a drop down 
+ menu containing the attributes of the vector theme, one of these attribute 
+ needs to be selected as the value for each grid cell. The default <span class="Code-Command">Name:</span> is the <span class="Code-Command">Field:</span> 
+ (attribute) name selected appended to the vector theme name. Otherwise 
+ the user can enter any name for the new grid, no file extension is needed.</p>
+        <p><span class="span_3">NOTE:</span> This command is not available 
+ for point or line vectors.</p>
+        <p>This command is useful for creating new landscape themes from a shapefile, 
+ but there are some caveats;</p>
+        <ul class="ul_1">
+            <li class="BulletFM">the shapefile extent should be at least that of 
+	 the currently loaded landscape,</li>
+            <li class="BulletFM">polygons should have coincident boundaries (no 
+	 slivers or overlaps), </li>
+            <li class="BulletFM">every polygon should have a value for the attribute 
+	 you select for the grid theme values.</li>
+        </ul>
+        <h3>
+            <MadCap:keyword term="Auxiliary Themes:Contours:Properties" />
+            <MadCap:keyword term="Auxiliary Themes:Vector Themes:Properties" />
+            <MadCap:keyword term="Editing:Legends" />
+            <MadCap:keyword term="Properties:Contours" />
+            <MadCap:keyword term="Properties:Vector Themes" /><a name="Properties" id="Properties"></a>Properties</h3>
+        <p>The properties dialog boxes for contours and vector themes are very 
+ similar. They are used to control how the contour or vector themes are 
+ shown in the "Display" pane. The <a href="../FileTypes/Spread_Vectors.htm">Spread</a>, 
+ <a href="../FileTypes/Maximum_Spot_Vectors.htm">Max Spot</a>, and <a href="../FileTypes/Wind_Vectors.htm">Wind 
+ Vector</a> Themes use the <a href="../DisplayCMDs/VectorDisplay.htm">"Vector 
+ Legend"</a> dialog box to control the display of these unique themes.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="248" />
+            <col width="274" />
+            <tr class="tr_1">
+                <td width="248" class="td_1">
+                    <p>
+                        <img src="ContourProperties.gif" alt="Contour Properties dialog box" title="Contour Properties dialog box" width="248" height="236" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td width="274" class="td_2">
+                    <p>
+                        <img src="VectorProperties.gif" alt="Vector properties dialog box" title="Vector properties dialog box" width="264" height="256" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p><span class="Code-Command">Title:</span> - The contents in this text 
+ box are shown as the tree item in the "Tree" pane. The default 
+ is the name of the shapefile for vector themes or the name of the source 
+ grid theme for contours. The contents can be edited by clicking in the 
+ text box.</p>
+        <p><span class="Code-Command">Contour Interval:</span> - For contours only, 
+ this is only for information. You cannot edit the contour interval in 
+ this dialog box. To change the contour interval you need to <a href="#DeleteContours">delete</a> 
+ the current contour and <a href="../AnalysisCMDs/Landscape_Themes.htm#CreatingContours">create 
+ a new contour</a> with the desired interval.</p>
+        <p><span class="Code-Command">Source File Name:</span> - For vector themes 
+ only, this path of the shapefile is for information only. To change the 
+ source file of the vector theme you should delete the current theme and 
+ <a href="#NewVectorTheme">add a New Vector Theme</a>.</p>
+        <p><span class="Code-Command">Visible</span> - This checkbox controls whether 
+ the theme is visible or not in the "Display" pane. You can also 
+ control the visibility by double clicking the individual tree item as 
+ discussed above.</p>
+        <p><span class="Code-Command">Color:</span> - You can control the color 
+ of your vector or contour theme by double-clicking the color box to display 
+ the <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm#ColorPicker">"Color" 
+ dialog box</a>.</p>
+        <p><span class="Code-Command">Line Style:</span> - To change the line style 
+ of your vector theme or contour click the <img src="Button_DropDown.gif" alt="Drop down list button" title="Drop down list button" width="16" height="17" border="0" class="img_1" /> button in 
+ the text box and simply select one of the styles from the drop down list.</p>
+        <p><span class="Code-Command">Line Width:</span> - To change the line width 
+ of your vector theme or contour click the <img src="Button_DropDown.gif" alt="Drop down list button" title="Drop down list button" width="16" height="17" border="0" class="img_1" /> button in 
+ the text box and simply select one of the widths from the drop down list.</p>
+        <h2>Exceptions for Spread, Wind, and Max Spot Vectors</h2>
+        <p>Spread, Wind, and Max Spot Vectors are point shapefiles and contain 
+ attributes (in the .dbf file) that are used in the display. Thus the display 
+ properties and legending of these shapefiles is different from other shapefiles 
+ in FlamMap. When you select the <span class="Code-Command">Properties</span> 
+ command for one of these Output Vector Themes the corresponding <a href="../DisplayCMDs/VectorDisplay.htm">"Vector 
+ Legend"</a> dialog box opens from which you control the display of 
+ these unique themes.</p>
+    </body>
+</html>

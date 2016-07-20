@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Optional_Lesson" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Complete">
+    <head><title>Variable Fuel Moistures</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1 class="SubTitle">Advanced Lesson</h1>
+        <h1 class="h1_1">Variable Fuel Moistures</h1>
+        <p>The basic "First Tutorial" run uses the fuel moistures from the broad.fms file. The fuel moistures in the Initial Fuel Moistures (.FMS) File can vary only with the fuel model. In reality dead fuel moistures vary widely with topography and shading from clouds and tree canopy. So FlamMap has a &#160;<span class="Code-Command">Fuel Moisture Conditioning Period</span> feature that varies the dead fuel moistures for the different environmental conditions within the landscape. The <span class="Code-Command">Fuel Moisture Conditioning Period</span> can be used when calculating any of the FlamMap products, Fire Behavior Output, MTT fire growth, Burn Probabilities, or Treatment Optimization.</p>
+        <p>Weather (.WTR) and Wind (.WND) Files included with the FlamMap installation in the Tutorial folder so in this lesson you can see how <a href="../Tech_Topics/Tech_Dead_Fuel_Moisture.htm">FlamMap's dead fuel moisture model</a> affects fire behavior.</p>
+        <h2>Open your Project</h2>
+        <p>If you have closed your project or shut down FlamMap, you can reopen the project by selecting the <span class="Code-Command">File &gt; Open</span> command from the menu bar. In the "Open" dialog box select the file Tutorial.fmp and click the <span class="Code-Command">Open</span> button. Your FlamMap project will display just the way it was when you last saved it.</p>
+        <h2>Create a New Run</h2>
+        <p>Create a new run, by right-clicking the <span class="Code-Command">Runs</span> tree item and select <span class="Code-Command">New Run</span> from the shortcut menu. We will keep all the inputs the same except use a Fuel Moisture Conditioning period. Then you can compare the outputs between the two runs.</p>
+        <h3>Inputs Tab</h3>
+        <ul class="ul_2">
+            <li class="p">
+                <p>Name the new run "Variable Fuel Moistures".</p>
+            </li>
+            <li class="p">
+                <p>Load the broad.fms file for the Fuel Moisture File. You still need a Fuel Moisture (.fms) File to provide a starting point for the dead fuel moisture model.</p>
+            </li>
+            <li class="p">
+                <p>Select the <span class="Code-Command">Wind Blowing Uphill</span> radio button and enter a wind speed of 35 mph.</p>
+            </li>
+            <li class="p">
+                <p>In the <span class="Code-Command">Canopy Characteristics</span> group make sure the foliar moisture content is 100%. The other three spin boxes should be dimmed.</p>
+            </li>
+            <li class="p">
+                <p>In the <span class="Code-Command">Fuel Moisture Settings</span> area select the <span class="Code-Command">Use Fuel Moisture Conditioning</span> radio button, open broad.wtr for the Weather (.WTR) File and broad.wnd for the Wind (.WND) File by clicking the <img src="../flammaprobo_supporing/Button_Browse.gif" alt="Button for Open File dialog box" title="Button for Open File dialog box" width="24" height="16" border="0" class="img_1" /> button.</p>
+            </li>
+            <li class="p">
+                <p>In the <span class="Code-Command">Fuel Moisture Conditioning Period</span> area select a start day/time of 7/10 12:00 PM and an end time of 7/13 16:00 PM. The dead fuel moistures used for the run will be those calculated at the specified <span class="Code-Command">End</span> day &amp; time, they DO NOT vary with time as in <span class="span_2">FARSITE</span>. Live fuel moistures are not affected by the conditioning period, so the live fuel moistures found in the Fuel Moisture (.fms) File will be used in the fire behavior calculations.</p>
+            </li>
+        </ul>
+        <p>The <span class="Code-Command">Inputs</span> tab should now look like this.</p>
+        <p>
+            <img src="../flammaprobo_supporing/NewRun_Optional.gif" alt="Run: dialog box showing Input tab for moisture model run" title="Run: dialog box showing Input tab for moisture model run" width="455" height="594" border="0" class="img_1" />
+        </p>
+        <h3>Outputs Tab</h3>
+        <p>Select the following from the <span class="Code-Command">Outputs Grids</span> area,</p>
+        <ul class="ul_2">
+            <li class="p">
+                <p><span class="Code-Command">Rate of Spread</span> checkbox,</p>
+            </li>
+            <li class="p">
+                <p><span class="Code-Command">Flame Length</span> checkbox,</p>
+            </li>
+            <li class="p">
+                <p><span class="Code-Command">Crown Fire Activity</span> checkbox.</p>
+            </li>
+        </ul>
+        <p>From the <span class="Code-Command">Non-Fixed Fuel Moisture Outputs</span> area select</p>
+        <ul class="ul_2">
+            <li class="p">
+                <p><span class="Code-Command">1hr Fuel Moisture</span> checkbox.</p>
+            </li>
+        </ul>
+        <p>Stick with the defaults for the <span class="Code-Command">Processor Usage</span>, <span class="Code-Command">Memory/Disk Usage</span>, and <span class="Code-Command">Options</span> groups. Click the <span class="Code-Command">Apply</span> button and the status bar should indicate Inputs OK and 4 outputs selected.</p>
+        <h2>Launch the Variable Fuel Moistures Run</h2>
+        <p>Click the <span class="Code-Command">Launch</span> button and the "FlamMap Progress" status box appears for several seconds. When the fire behavior calculations are complete click <span class="Code-Command">OK</span> in the information box and click <span class="Code-Command">OK</span> in the "Run:Variable Fuel Moistures" dialog box.</p>
+        <h2>View Outputs</h2>
+        <p>There are now two separate FlamMap runs for the same landscape, the "First Tutorial" run using fixed dead fuel moistures and the "Variable Fuel Moistures" run which calculate fuel moisture with the dead fuel moisture model.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="323" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="323" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/LeftPane6.gif" alt="Tree pane showing two runs" title="Tree pane showing two runs" width="323" height="530" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>Hide the contours by double clicking the <img src="../flammaprobo_supporing/BlueCheckmark.gif" alt="Blue checkmark icon for vector themes" title="Blue checkmark icon for vector themes" width="10" height="10" border="0" class="img_1" /><span class="Code-Command">Elevation</span> contour in the "Tree" pane. Now expand the <img src="../flammaprobo_supporing/Page-Icon.gif" alt="" width="9" height="11" border="0" class="img_1" /> <span class="Code-Command">Variable Fuel Moistures</span> line in the "Tree" pane by clicking it's <img src="../flammaprobo_supporing/PlusButtonx2.gif" alt="" width="14" height="14" border="0" class="img_1" /> icon and your "Tree" pane will now look similar to this.</p>
+                    <p>&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>Alternately select the Rate of Spread grid under the "First Tutorial" and "Variable Fuel Moistures" runs to view differences as shown below. The darker the color the higher the rate of spread.</p>
+        <table cellspacing="0" width="550" class="table_1">
+            <col width="270" />
+            <col width="280" />
+            <tr class="tr_1">
+                <td width="270" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/DisplayPane4.gif" alt="Rate of spread grid for First Tutorial run" title="Rate of spread grid for First Tutorial run" width="270" height="342" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td width="280" class="td_2">
+                    <p>
+                        <img src="../flammaprobo_supporing/DisplayPane5.gif" alt="Rate of spread grid for Variable Fuel Moistures run" title="Rate of spread grid for Variable Fuel Moistures run" width="270" height="342" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td class="td_1" width="270"><span class="span_16">Rate of spread grid using fixed dead fuel moistures.</span>
+                </td>
+                <td class="td_2" width="280"><span class="span_16">Rate of spread grid using variable fuel moistures from the dead fuel moisture model.</span>
+                </td>
+            </tr>
+        </table>
+        <p>This dramatic difference can also be seen in the Flame Length and Crown Fire Activity grids. Now select the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">1hr Fuel Moisture</span> item under the "Variable Fuel Moistures" run as the active theme.</p>
+        <p>
+            <img src="../flammaprobo_supporing/DisplayPane6.gif" alt="! hour fuel moisture grid from Variable Fuel Moisture run" title="! hour fuel moisture grid from Variable Fuel Moisture run" width="609" height="524" border="0" class="img_1" />
+        </p>
+        <p>Notice the variation of 1 hr dead fuel moistures and compare this grid with the constant value of 0.04 used for the fixed fuel moisture ("First Tutorial") run.</p>
+        <h2>You're Finished</h2>
+        <p>You now have completed this lesson showing how to use the dead fuel moisture model. You should save your project so you can refer to it later.</p>
+        <p>
+            <MadCap:relatedTopics class="relatedTopics_1">
+                <MadCap:relatedTopic src="../Tech_Topics/Tech_Dead_Fuel_Moisture.htm" />
+                <MadCap:relatedTopic src="../Runs/Inputs_Tab.htm#FMSettings" />
+                <MadCap:relatedTopic src="../AnalysisCMDs/AA_Analysis_Areas.htm#NewAnalysisArea" />
+                <MadCap:relatedTopic src="../Runs/Runs.htm" />
+            </MadCap:relatedTopics> <![CDATA[ ]]></p>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet Type="RoboHelpStatus">
+    <FileTag Name="Ready for Review" />
+    <FileTag Name="Complete" />
+    <FileTag Name="In Progress" />
+</CatapultFileTagSet>

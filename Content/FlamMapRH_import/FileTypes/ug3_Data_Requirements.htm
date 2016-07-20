@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Data Requirements</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Wind File;Weather File;Stand Height Theme;Slope Theme;Grid Themes:Landscape Grid Themes;Fuel Model Theme;Elevation Theme;Canopy Cover Theme;Canopy Bulk Density Theme;Canopy Base Height Theme;Aspect Theme" /><span class="span_14"><MadCap:keyword term="Data Requirements" />Data Requirements</span>
+        </h1>
+        <hr size="3" width="100%" align="center" />
+        <p>Before beginning a FlamMap project it is important to spend some time 
+ to identify the project data needs and the data sources. FlamMap utilizes 
+ the same data as <span class="span_2">FARSITE</span>, so 
+ if you have the data to do <span class="span_2">FARSITE</span> 
+ fire simulations for a project, you are all set to use FlamMap.</p>
+        <p>FlamMap requires the support of a Geographic Information System (GIS) 
+ to <a href="ug_Creating_GIS_Themes.htm">generate, manage, and provide 
+ spatial data themes containing fuels, vegetation, and topography</a>. 
+ Five <a href="PU_Grid_Files.htm">raster data</a> themes are required to 
+ run FlamMap; these include elevation, slope, aspect, fuel model, and canopy 
+ cover and must be downloaded as GRASS ASCII or ARC GRID ASCII format and 
+ combined to a single <a href="PU_Landscape_File.htm">Landscape (.LCP) 
+ or GeoTIFF (.TIF) File</a>. (see <span class="Code-Command"><a href="../AnalysisCMDs/LU_Generate_Landscape.htm">File 
+ &gt; Generate Landscape</a></span>). All themes must be:</p>
+        <ul class="ul_1">
+            <li class="BulletFM"><span class="span_3">co-registered</span> 
+	 (e.g. have the same reference point and units)</li>
+            <li class="BulletFM"><span class="span_3">identical resolution</span> 
+	 (e.g. cell size must be the same for all themes)</li>
+            <li class="BulletFM"><span class="span_3">same extent</span> 
+	 (the corners of the rectangular spatial region must be the same)</li>
+            <li class="BulletFM"><span class="span_3">same projection 
+	 and datum</span> (the methods to show a curved world as a flat surface)</li>
+        </ul>
+        <p>There is one non-raster text file required to run FlamMap, the <a href="PU_Initial_Fuel_Moistures.htm" target="_popup">Initial Fuel Moistures (.FMS) File</a>.</p>
+        <p>Some GIS data themes are described as "optional". This means 
+ only that you do not need them to run a surface fire simulation. &#160;It 
+ DOES NOT mean that these are not required to calculate some aspects of 
+ fire behavior (e.g. crown fire) that are important to your analysis.</p>
+        <p>
+            <MadCap:keyword term="Weather Stream File" />To utilize the dead fuel moisture model in FlamMap you also need text 
+ files of weather and wind data.&#160;Weather (.WTR) and Wind (.WND) Files 
+ are the same needed to run FARSITE. FlamMap also has the option of using 
+ a Weather Stream File (.WXS) for the weather and wind data.</p>
+        <h2><span class="span_2">FlamMap</span> Input Data Files<a name="Input_Files" id="Input_Files"></a></h2>
+        <p class="p_2">&#160;</p>
+        <table cellspacing="0" width="100%" border="1" class="table_2">
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="p_3"><span class="span_3">File 
+		 Name</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_3">File 
+		 Ext.</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_3">File 
+		 Type</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_3"><span class="span_3">Required</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_3"><span class="span_3">Optional</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="p_4"><a href="PU_Landscape_File.htm" target="_popup">Landscape</a>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">.LCP</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">Raster</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_4"><a href="PU_Fuel_Model_Theme.htm" target="_popup">Fuel 
+		 Model</a>, <a href="PU_Slope_Theme.htm" target="_popup">Slope</a>, <a href="PU_Aspect_Theme.htm" target="_popup">Aspect</a>, <a href="PU_Elevation_Theme.htm" target="_popup">Elevation</a>, 
+		 <a href="PU_Canopy_Cover_Theme.htm" target="_popup">Canopy Cover</a></p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_4"><a href="PU_Crown_Bulk_Density.htm" target="_popup">Canopy 
+		 Bulk Density</a>, <a href="PU_Crown_Base_Height.htm" target="_popup">Canopy Base 
+		 Height</a>, and <a href="PU_Stand_Height_Theme.htm" target="_popup">Stand Height</a>, 
+		 themes</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="p_4"><a href="PU_Weather_File.htm" target="_popup">Weather</a>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">.WTR</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">Text</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_2"><span class="span_5">none</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_4"><span class="span_2">FlamMap</span> 
+		 requires a .WTR or .WXS file to utilize the optional dead fuel 
+		 moisture model.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="p_4"><a href="PU_Wind_File.htm" target="_popup">Wind</a>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">.WND</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">Text</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_2"><span class="span_5">none</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_18"><span class="span_2">FlamMap</span> requires a .WND or 
+		 .WXS file to utilize the optional dead fuel moisture model.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="p_4"><a href="PU_Initial_Fuel_Moistures.htm" target="_popup">Initial 
+		 Fuel Moisture</a>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">.FMS</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">Text</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_4"><span class="span_2">FlamMap</span><span>needs beginning live and dead fuel moistures.</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">none</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="p_4"><a href="Weather_Stream_File.htm" target="_popup">Weather 
+		 Stream</a>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">.WXS</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">Text</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_2"><span class="span_5">none</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_4">yes - this file 
+		 can replace both the &#160;.WTR and .WND files.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 15%;" class="td_5">
+                    <p class="Table_2"><a href="PU_Custom_Fuel_Model_File.htm" target="_popup">Custom Fuel Models</a>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">.FMD</span>
+                    </p>
+                </td>
+                <td style="width: 10%;" class="td_5">
+                    <p class="p_3"><span class="span_5">Text</span>
+                    </p>
+                </td>
+                <td style="width: 30%;" class="td_5">
+                    <p class="p_2"><span class="span_5">none</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">For 
+		 fuel models other than the standard fire behavior fuel models.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2>Raster File Data Units<a name="GIS_Data_Units" id="GIS_Data_Units"></a></h2>
+        <p class="p_2">&#160;</p>
+        <table cellspacing="0" width="100%" border="1" class="table_2">
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_3"><span class="span_3">File 
+		 Theme</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_3">Required</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_3"><span class="span_3">Default 
+		 Units</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_3"><span class="span_3">Alternate 
+		 Units</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">elevation</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">yes</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">meters</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">feet</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">slope</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">yes</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">degrees</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">percent</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">aspect</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">yes</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">categories 
+		 1-25</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">degrees</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">fuel 
+		 model</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">yes</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">13 
+		 NFFL models</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">custom 
+		 or converted models</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">canopy 
+		 cover</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">yes</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">categories 
+		 1-4</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">percent</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">tree 
+		 height</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">no</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">meters*10</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">meters, 
+		 feet, feet*10</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">crown 
+		 base height</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">no</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">meters*10</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">meters, 
+		 feet, feet*10</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 25%;" class="td_5">
+                    <p class="p_2"><span class="span_5">crown 
+		 bulk density</span>
+                    </p>
+                </td>
+                <td style="width: 14%;" class="td_5">
+                    <p class="p_3"><span class="span_5">no</span>
+                    </p>
+                </td>
+                <td style="width: 26%;" class="td_5">
+                    <p class="p_2"><span class="span_5">kg/m</span><span class="Superscript">3</span><span class="span_5">*100,</span>
+                    </p>
+                </td>
+                <td style="width: 35%;" class="td_5">
+                    <p class="p_2"><span class="span_5">kg/m</span><span class="Superscript">3</span><span class="span_5">, 
+		 lbs/ft</span><span class="Superscript">3</span><span class="span_5">, 
+		 lbs/ft</span><span class="Superscript">3</span><span class="span_5">*100</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

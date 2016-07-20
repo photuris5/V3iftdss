@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="Output_Grids" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Using Output Grids</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Grid Themes:Output Grid Themes;Output Grids" />Output Grids</h1>
+        <p>A variety of output grids and display units are available from a <a href="Runs.htm">FlamMap Run</a>. Output grids available are listed 
+ in the <span class="Code-Command">Outputs</span> sections of the <span class="Code-Command"><a href="Fire_Behavior_Outputs_Tab.htm#OutputGrids">Fire 
+ Behavior Outputs</a></span>, <span class="Code-Command"><a href="Minimum_Travel_Time_Tab.htm#MTToutputs">Minimum 
+ Travel Time</a></span>, and <span class="Code-Command"><a href="Treatment_Optimization_Model_Tab.htm#TOMOutputs">Treatment 
+ Optimization Model</a></span> tabs of the "Run:" dialog box. 
+ After a run is completed expand the run tree item by clicking it's <img src="../flammaprobo_supporing/PlusButtonx2.gif" alt="" width="14" height="14" border="0" class="img_1" /> box to show the output grids. To display 
+ the output grid as your active grid theme in the "Display" Pane 
+ click it's <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="inactive grid icon (magnifying glass)" title="inactive grid icon (magnifying glass)" width="11" height="11" border="0" class="img_1" /> icon.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="122" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="122" class="td_1">
+                    <p><a href="#SaveAs"><img name="GridNav1" onmouseover="GridNav1.src=&quot;../GridNav1_p.gif&quot;" onmouseout="GridNav1.src=&quot;../GridNav1_g.gif&quot;" src="../flammaprobo_supporing/GridNav1_g.gif" alt="Save As command on individual grid theme shortcut menu" title="Save As command on individual grid theme shortcut menu" id="GridNav1" width="93" height="20" border="0" class="img_1" /></a>
+                        <br />
+                        <img src="../flammaprobo_supporing/GridNav3_g.gif" alt="blank" title="blank" width="93" height="10" border="0" class="img_1" /><a href="#Contouring"><br /><img name="GridNav4" onmouseover="GridNav4.src=&quot;../GridNav4_p.gif&quot;" onmouseout="GridNav4.src=&quot;../GridNav4_g.gif&quot;" src="../flammaprobo_supporing/GridNav4_g.gif" alt="Contour command on individual grid theme shortcut menu" title="Contour command on individual grid theme shortcut menu" id="GridNav4" width="93" height="16" border="0" class="img_1" /></a>
+                        <br />
+                        <img src="../flammaprobo_supporing/GridNav5_g.gif" alt="blank" title="blank" width="93" height="10" border="0" class="img_1" /><a href="#Properties"><br /><img name="GridNav6" onmouseover="GridNav6.src=&quot;../GridNav6_p.gif&quot;" onmouseout="GridNav6.src=&quot;../GridNav6_g.gif&quot;" src="../flammaprobo_supporing/GridNav6_g.gif" alt="Properties command on individual grid theme shortcut menu" title="Properties command on individual grid theme shortcut menu" id="GridNav6" width="93" height="17" border="0" class="img_1" /></a>
+                        <br /><a href="#Statistics"><img name="GridNav8" onmouseover="GridNav8.src=&quot;../GridNav8_p.png&quot;" onmouseout="GridNav8.src=&quot;../GridNav8_g.png&quot;" src="../flammaprobo_supporing/GridNav8_g.png" alt="Statistics command on individual grid theme shortcut menu" title="Statistics command on individual grid theme shortcut menu" id="GridNav8" border="0" class="img_1" /></a><a href="#Help"><br /><img name="GridNav7" onmouseover="GridNav7.src=&quot;../GridNav7_p.gif&quot;" onmouseout="GridNav7.src=&quot;../GridNav7_g.gif&quot;" src="../flammaprobo_supporing/GridNav7_g.gif" alt="Help command on individual grid theme shortcut menu" title="Help command on individual grid theme shortcut menu" id="GridNav7" width="93" height="20" border="0" class="img_1" /></a>
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>Right-clicking 
+		 any individual output grid item in the "Tree" Pane displays 
+		 this short cut menu.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>
+            <MadCap:keyword term="Output Grids:Saving" />
+            <MadCap:keyword term="Projection" />
+            <MadCap:keyword term="Save:Output Grid Themes" /><a name="SaveAs" id="SaveAs"></a>Saving an Individual Output Grid File</h2>
+        <p>You can save your output grids in several formats so you can use it 
+ in a GIS, image editor, or word processor. Right-click an individual grid 
+ theme from the "Tree" pane and select <span class="Code-Command">Save 
+ As…</span> A standard 
+ Windows "Save As" dialog box appears where you can navigate 
+ and name your new file.</p>
+        <p>
+            <img src="../flammaprobo_supporing/SaveAs_OutputGrid.gif" alt="Save As dialog box for output grids" title="Save As dialog box for output grids" width="429" height="309" border="0" class="img_1" />
+        </p>
+        <p>When you save an output theme as an ASCII grid file the grid values 
+ are saved in the same units as currently displayed in the legend to 6 
+ decimal places. You can change the output units in the <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm">"Create/Modify 
+ Legend" dialog box</a>. If <a href="../FileTypes/Projection.htm#Valid_Projection">projection 
+ information</a> is available for the landscape a <a href="http://vsp.pnnl.gov/help/Vsample/ESRI_PRJ_File.htm">Projection 
+ (.PRJ) File</a> will also be saved.</p>
+        <p>In addition to saving your grid in ASCII Grid format, Bitmap, JPEG, 
+ GIF, PNG, and TIFF image formats are also available from the <span class="Code-Command">Save 
+ as Type:</span> drop-down list for using your output theme in an image 
+ or word processor.</p>
+        <h2>
+            <MadCap:keyword term="Contouring" />
+            <MadCap:keyword term="Contouring:Output Themes" />
+            <MadCap:keyword term="Output Grids:Contouring" /><a name="Contouring" id="Contouring"></a>Contouring an Output Grid</h2>
+        <p>There are no default contour themes, any or all of them must be created 
+ by the user in FlamMap. <a href="../AnalysisCMDs/Landscape_Themes.htm#CreatingContours">Contours 
+ can be created</a> from any landscape or output grid file by right-clicking 
+ a grid theme item in the "Tree" pane and selecting <span class="Code-Command">Contour</span> 
+ from the shortcut menu to display the "Contouring" dialog box.</p>
+        <h2>
+            <MadCap:keyword term="Output Grids:Properties" /><a name="Properties" id="Properties"></a>Properties of Output Grids</h2>
+        <p>The <span class="Code-Command">Properties</span> command displays the 
+ <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm">"Create/Modify 
+ Legend" dialog box</a> where you can change the colors and ranges 
+ of values your output grid displays.</p>
+        <p>
+            <img src="../flammaprobo_supporing/CreateMod_Legend_Output.png" alt="Create/Modify Legend for Max Spread Direction Output Grid" title="Create/Modify Legend for Max Spread Direction Output Grid" width="528" height="574" border="0" class="img_1" />
+        </p>
+        <h2>
+            <MadCap:keyword term="CSV File" /><a name="Statistics"></a>Statistics</h2>
+        <p>The <span class="Code-Command">Statistics</span> command displays the 
+ "Theme Statistics" dialog which consists of two tabs. The first 
+ is the <span class="Code-Command">General Statistics</span> tab which 
+ displays general information about the grid theme and summary statistics. 
+ </p>
+        <p>NOTE: For themes with class units (like the crown fire activity example 
+ shown) some of the summary statistics are meaningless.</p>
+        <p>The <span class="Code-Command">Save As</span> button opens a "Save 
+ As" dialog box for the user to save the tab contents&#160;in a plain 
+ text (.TXT) format file.</p>
+        <p>
+            <img src="../flammaprobo_supporing/Statistics_crownFireActivity_general.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>The second <span class="Code-Command">Classes</span> tab displays the 
+ legend bins as determined by the <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm">"Create/Modify 
+ Legend" dialog box</a>. Cell frequency and area data is also shown. 
+ </p>
+        <p>The <span class="Code-Command">Save As</span> button opens a "Save 
+ As" dialog box for the user to save the tab contents&#160;in a comma 
+ separated value (.CSV) format file which can be imported into a text editor 
+ or spreadsheet application. </p>
+        <p>
+            <img src="../flammaprobo_supporing/Statistics_crownFireActivity_classes.png" alt="" border="0" class="img_1" />
+        </p>
+        <h2 class="Monospace"><a name="Help" id="Help"></a>Help</h2>
+        <p>Selecting the <span class="Code-Command">Help</span> command will bring 
+ you to the Output Grids heading above in this online help system.</p>
+    </body>
+</html>

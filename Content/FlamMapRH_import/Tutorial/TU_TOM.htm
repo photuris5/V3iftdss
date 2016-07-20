@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Complete">
+    <head><title>Treatment Optimization Model</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1 class="SubTitle">Advanced Lesson</h1>
+        <h1>Treatment Optimization Model</h1>
+        <p>The Treatment Optimization Model (TOM) identifies areas where treatments will have the most effect at reducing fire spread across the landscape. There are a number of assumptions of this analysis that are discussed in the <a href="../Tech_Topics/Tech_TOM.htm">Technical Topics</a>. Since TOM uses the <a href="../FileTypes/Flow_Paths_Themes.htm#MTTMajorPaths">MTT Major Paths</a> to identify landscape fire spread it is recommended you complete the <a href="TU_MTT.htm">Minimum Travel Time lesson</a> before attempting this lesson.</p>
+        <p>The Minimum Travel Time and Treatment Optimization features in FlamMap v. 3 can be very computer intensive. However this tutorial is designed to work in a reasonable time on a computer with the recommended requirements found on the FlamMap website. (Pentium 4 processor, 256 MB RAM, and Windows 2000 operating system)</p>
+        <p>The data files for this tutorial are found in your ...FlamMap3\Tutorial\Schley\ folder (directory). This lesson begins with loading the Landscape (.LCP) File and assumes you have a empty FlamMap project window ready for input. Click here to review <a href="../AnalysisCMDs/FM_Project.htm">FlamMap projects</a>.</p>
+        <h2>Load a Landscape (.LCP) File</h2>
+        <p>Select the <span class="Code-Command">Open</span> command from the shortcut menu to open a standard Window's "Open" dialog box. Navigate to the …FlamMap3\Tutorial\Schley\ folder and select schley_pre.LCP as your Landscape (.LCP) File and click the <span class="Code-Command">Open</span> button. Your project window will look like this. To match the fuel model colors used in this tutorial <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm#PredefinedLegend">select the <span class="Code-Command">Standard13</span> predefined legend</a>.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_MTT_Project1.gif" alt="Project window after loading LCP file" title="Project window after loading LCP file" width="691" height="372" border="0" class="img_1" />
+        </p>
+        <h2>The Inputs Tab</h2>
+        <p>For a TOM run the <span class="Code-Command">Inputs Tab</span> is identical to other FlamMap runs. Like all FlamMap runs you can utilize wind grids and conditioning periods, but this lesson will use simple wind and weather inputs. Fill in the <span class="Code-Command">Inputs</span> tab as shown below. Usually you will want to design fuel treatments for severe fire conditions (i.e. 97th percentile) since these are the situations when fires have rapid growth, are difficult to control, and burn large areas.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_InputTab1.gif" alt="Input tab for TOM run" title="Input tab for TOM run" width="455" height="594" border="0" class="img_1" />
+        </p>
+        <p>It is important to re-emphasize one of the major FlamMap assumptions at this point; all wind and fuel moisture conditions are constant for every cell on the landscape. When a conditioning period is not utilized they do not even vary by aspect, elevation, or shading. In this run FlamMap will use the fuel moisture values in the Fuel Moisture (.fms) File for all calculations.</p>
+        <p>For TOM runs winds should be either from a specific direction or use a wind grid (which would also be for a specific speed and direction). You should also know the ignition pattern or file to be used at this point also, this will become obvious when you load the ignition file later in the lesson.</p>
+        <p>Make sure to click the <span class="Code-Command">Apply</span> button before moving on to the next step.</p>
+        <h2>The Treatment Optimization Model Tab</h2>
+        <p>Next select the <span class="Code-Command">Treatment Optimization Model</span> tab in the "Run:" dialog box.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_TomTab1.gif" alt="Blank TOM Tab" title="Blank TOM Tab" width="455" height="594" border="0" class="img_1" />
+        </p>
+        <h3>Ignition File</h3>
+        <p>For a TOM ignition you can use an existing shapefile made elsewhere or <a href="../Runs/Minimum_Travel_Time_Tab.htm#MTTIgnitions">create a shapefile</a> in FlamMap. For this run we will use an existing shapefile named start.shp. Click the <img src="../flammaprobo_supporing/Button_Open_File.gif" alt="Inputs tab Open File button" title="Inputs tab Open File button" width="24" height="20" border="0" class="img_1" /> button and in the "Open" dialog box navigate to …FlamMap3\Tutorial\Schley\ folder and select the start.shp file.</p>
+        <ul class="ul_2">
+            <li class="p">
+                <p>Set the <span class="Code-Command"><a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMResolution">Resolution of calculations</a></span> to 60. This sets the node spacing for the fire behavior calculations as well as the grid output cell size.</p>
+            </li>
+        </ul>
+        <h3>Ideal Landscape</h3>
+        <p>Click the <img src="../flammaprobo_supporing/Button_Open_File.gif" alt="Inputs tab Open File button" title="Inputs tab Open File button" width="24" height="20" border="0" class="img_1" /> button next to the <span class="Code-Command">Ideal Landscape:</span> text box and in the "Open" dialog box navigate to …FlamMap3\Tutorial\Schley\ folder and select the schley_max.LCP file.</p>
+        <ul class="ul_2">
+            <li class="p">
+                <p>Change the <span class="Code-Command"><a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMMaxTreatDimension" target="_popup">Maximum Treatment Dimension (m):</a></span> spin box to 500.</p>
+            </li>
+            <li class="p">
+                <p>Leave the <span class="Code-Command"><a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMIterations_Treatment" target="_popup">Iterations/Treatment Level (1-5):</a></span> spin box at the default of 1.</p>
+            </li>
+            <li class="p">
+                <p>Set the <span class="Code-Command"><a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMTreatmentFraction" target="_popup">Treatment Fraction:</a></span> spin box to 0.20.</p>
+            </li>
+        </ul>
+        <h3>Outputs</h3>
+        <p>Click the <span class="Code-Command">Select All</span> button. We'll be looking at all the possible TOM outputs and your "Run:" dialog box should look like this.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_TomTab2.gif" alt="Completed TOM tab in the Run dialog box." title="Completed TOM tab in the Run dialog box." width="455" height="594" border="0" class="img_1" />
+        </p>
+        <p>Make sure to click the <span class="Code-Command">Apply</span> button, if all the setting and inputs are selected the <span class="Code-Command">Launch</span> button will become active. But just click the OK button for now to close the "Run:" dialog box, we are going to explore the ideal landscape for a few minutes before completing the run.</p>
+        <h2>Review the Ideal Landscape</h2>
+        <p>The key to creating a meaningful TOM run is the ideal Landscape (.LCP) File. The ideal Landscape (.LCP) File contains all the information for the possible fuel treatments on the landscape. Thus all possible fuel treatments need to be described in terms of the five fuel themes contained in a Landscape &#160;(.LCP) File; fuel model, canopy cover, stand height, canopy base height, and canopy bulk density.</p>
+        <p>To view the ideal Landscape (.LCP) File;</p>
+        <ol class="ol_1">
+            <li class="p">
+                <p>expand the run item <img src="../flammaprobo_supporing/Page-Icon.gif" alt="" width="9" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Optimization</span> by clicking the <img src="../flammaprobo_supporing/PlusButtonx2.gif" alt="" width="14" height="14" border="0" class="img_1" /> icon in the "Tree" pane to show all the output items,</p>
+            </li>
+            <li class="p">
+                <p>expand the <span class="Code-Command">Ideal Landscape Themes</span> item to show the landscape themes,</p>
+            </li>
+            <li class="p">
+                <p>select the <span class="Code-Command">Ideal Landscape Themes &gt; <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> Fuel Model</span> item to make it the active theme,</p>
+            </li>
+            <li class="p">
+                <p>to match the fuel model colors used for the entire landscape <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm#PredefinedLegend">select the <span class="Code-Command">Standard13</span> predefined legend</a>.</p>
+            </li>
+        </ol>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project9.gif" alt="Flammap project window displaying ideal landscape fuel model theme" title="Flammap project window displaying ideal landscape fuel model theme" width="697" height="431" border="0" class="img_1" />
+        </p>
+        <p>One they have the same legend you can click between the two fuel model themes to see how they differ. They are shown side by side below.</p>
+        <table cellspacing="0" width="1070" class="table_1">
+            <col width="530" />
+            <col width="540" />
+            <tr class="tr_1">
+                <td style="width: 50%;" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_ExistFuelModel.gif" alt="Existing landscape fuel model theme" title="Existing landscape fuel model theme" width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 50%;" class="td_2">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_IdealFuelModel.gif" alt="Ideal landscape fuel model theme" title="Ideal landscape fuel model theme" width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 5px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Existing landscape Fuel Model theme.</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Ideal landscape Fuel Model theme.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="195" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="195" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_FuelModelLegend.gif" alt="Standard 13 fuel model legend" title="Standard 13 fuel model legend" width="195" height="348" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>In the ideal landscape the fuel models 9 and 10 were changed to fuel model 8 to simulate treatment. Fuel models 1, 2, 5, and 8 were not changed. Fuel model 99 was changed to 8, but that was not supposed to happen.</p>
+                    <p>These are only the changes to the fuel model themes, but all the landscape themes affect fire behavior, so review the others to understand what kind of changes were made in the ideal landscape to reflect treatments. &#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>Read more about <a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMIdealLandscape" target="_popup">the ideal landscape</a> and make sure to view it while evaluating your TOM outputs.</p>
+        <h2>Complete the Run</h2>
+        <p>Reopen the "Run:" dialog box by double clicking the <img src="../flammaprobo_supporing/Page-Icon.gif" alt="" width="9" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Optimization</span> item.</p>
+        <p>Click the <span class="Code-Command">Launch</span> button to begin your TOM run, you should see the following "FlamMap Progress…" dialog box. If the <span class="Code-Command">Launch</span> button is not available, click the <span class="Code-Command">Apply</span> button first, if the <span class="Code-Command">Apply</span> button is not available check the inputs on the <span class="Code-Command">Treatment Optimization Model</span> tab. &#160;</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_ProgressBar1.gif" alt="" width="372" height="204" border="0" class="img_1" /> &#160;</p>
+        <p>Depending on your computer the run should take between 10 and 60 minutes.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_ProgressBar2.gif" alt="Progress bar for completed run." title="Progress bar for completed run." width="372" height="204" border="0" class="img_1" />
+        </p>
+        <p>When the run is completed, click the <span class="Code-Command">OK</span> button to return to the "Run:" dialog box. Now click the <span class="Code-Command">OK</span> button in the "Run:" dialog box to return to the "Project" window where you can view the outputs of the run.</p>
+        <h2>Outputs</h2>
+        <p>After closing the "Run:" dialog box the "Project" window will look like this.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project2.gif" alt="Project window after completed TOM run." title="Project window after completed TOM run." width="694" height="387" border="0" class="img_1" />
+        </p>
+        <p>Now expand the <img src="../flammaprobo_supporing/Page-Icon.gif" alt="" width="9" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Optimization</span> run item (by clicking the <img src="../flammaprobo_supporing/PlusButtonx2.gif" alt="" width="14" height="14" border="0" class="img_1" /> icon) in the "Tree" pane to show all the output items.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project3.gif" alt="Project window showing TOM outputs in the tree pane" title="Project window showing TOM outputs in the tree pane" width="694" height="387" border="0" class="img_1" />
+        </p>
+        <p>You should save the project at this point with the <span class="Code-Command">File &gt; SaveAs</span> command. Select a name for the project, don't just use the default FlamMap1 name, and remember the directory where you saved it. Then open the <a href="TU_Evaluating_TOM_Outputs.htm">Evaluating TOM Outputs</a> lesson to further explore the results of this run.</p>
+    </body>
+</html>

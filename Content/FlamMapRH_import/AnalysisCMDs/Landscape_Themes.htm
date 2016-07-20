@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Landscape Themes</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Grid Themes:Landscape Grid Themes" />Landscape Themes</h1>
+        <p>The landscape consists of between five required and five optional themes, 
+ each with their own line in the "Tree" Pane. These themes are;</p>
+        <ul class="ul_1">
+            <li class="P"><a href="../FileTypes/PU_Elevation_Theme.htm">Elevation</a> 
+	 (required)</li>
+            <li class="P"><a href="../FileTypes/PU_Slope_Theme.htm">Slope</a> (required)</li>
+            <li class="P"><a href="../FileTypes/PU_Aspect_Theme.htm">Aspect</a> 
+	 (required)</li>
+            <li class="P"><a href="../FileTypes/PU_Fuel_Model_Theme.htm">Fuel Model</a> 
+	 (required)</li>
+            <li class="P"><a href="../FileTypes/PU_Canopy_Cover_Theme.htm">Canopy 
+	 Cover</a> (required)</li>
+            <li class="P"><a href="../FileTypes/PU_Stand_Height_Theme.htm">Stand 
+	 Height</a> (optional for torching, spotting, and crown fire models)</li>
+            <li class="P"><a href="../FileTypes/PU_Crown_Base_Height.htm">Crown 
+	 Base Height</a> (optional for torching, spotting, and crown fire models)</li>
+            <li class="P"><a href="../FileTypes/PU_Crown_Bulk_Density.htm">Crown 
+	 Bulk Density</a> (optional for torching, spotting, and crown fire 
+	 models)</li>
+            <li class="P">Coarse Woody Fuels (optional, not yet utilized in FlamMap)</li>
+            <li class="P">Duff Loading (optional, not yet utilized in FlamMap)</li>
+        </ul>
+        <p>If any of the five optional themes are not available, they can be set 
+ globally (the same value across the entire ) with a constant in the Landscape 
+ (.LCP) File Generation dialog box. Constants for stand height, crown base 
+ height, and canopy bulk density can also be entered at run time on the 
+ <span class="Code-Command"><a href="../Runs/Inputs_Tab.htm#CanopyChar">Inputs</a></span> 
+ tab of the "Run:" dialog box if no values are available from 
+ the Landscape (.LCP) File.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="93" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="93" class="td_1">
+                    <p><a href="#SaveGrid"><img name="GridNav1" onmouseover="GridNav1.src=&quot;../GridNav1_p.gif&quot;" onmouseout="GridNav1.src=&quot;../GridNav1_g.gif&quot;" src="../flammaprobo_supporing/GridNav1_g.gif" alt="Save As command on individual grid theme shortcut menu" title="Save As command on individual grid theme shortcut menu" id="GridNav1" width="93" height="20" border="0" class="img_1" /></a>
+                        <br />
+                        <img src="../flammaprobo_supporing/GridNav3_g.gif" alt="blank" title="blank" width="93" height="10" border="0" class="img_1" />
+                        <br /><a href="#CreatingContours"><img name="GridNav4" onmouseover="GridNav4.src=&quot;../GridNav4_p.gif&quot;" onmouseout="GridNav4.src=&quot;../GridNav4_g.gif&quot;" src="../flammaprobo_supporing/GridNav4_g.gif" alt="Contour command on individual grid theme shortcut menu" title="Contour command on individual grid theme shortcut menu" id="GridNav4" width="93" height="16" border="0" class="img_1" /></a>
+                        <br />
+                        <img src="../flammaprobo_supporing/GridNav5_g.gif" alt="blank" title="blank" width="93" height="10" border="0" class="img_1" />
+                        <br /><a href="#ThemeProperties"><img name="GridNav6" onmouseover="GridNav6.src=&quot;../GridNav6_p.gif&quot;" onmouseout="GridNav6.src=&quot;../GridNav6_g.gif&quot;" src="../flammaprobo_supporing/GridNav6_g.gif" alt="Properties command on individual grid theme shortcut menu" title="Properties command on individual grid theme shortcut menu" id="GridNav6" width="93" height="17" border="0" class="img_1" /></a>
+                        <br /><a href="#Grid_Statistics"><img name="GridNav8" onmouseover="GridNav8.src=&quot;../GridNav8_p.png&quot;" onmouseout="GridNav8.src=&quot;../GridNav8_g.png&quot;" src="../flammaprobo_supporing/GridNav8_g.png" alt="Statistics command on individual grid theme shortcut menu" title="Statistics command on individual grid theme shortcut menu" id="GridNav8" border="0" class="img_1" /></a>
+                        <br /><a href="#Help"><img name="GridNav7" onmouseover="GridNav7.src=&quot;../GridNav7_p.gif&quot;" onmouseout="GridNav7.src=&quot;../GridNav7_g.gif&quot;" src="../flammaprobo_supporing/GridNav7_g.gif" alt="Help command on individual grid theme shortcut menu" title="Help command on individual grid theme shortcut menu" id="GridNav7" width="93" height="20" border="0" class="img_1" /></a>
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>Right-clicking 
+		 any individual tree item (i.e. <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="" width="11" height="11" border="0" class="img_1" /><span class="Code-Command">Canopy Cover</span>) under the  
+		 <span class="Code-Command">Themes</span> item in the "Tree" 
+		 Pane displays this short cut menu.</p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Monospace"><a name="CreatingContours" id="CreatingContours"></a>Creating 
+ Contours</h2>
+        <p>Contours can be created from any landscape, auxiliary, or output grid 
+ file by right-clicking a grid theme in the "Tree Pane" or right-clicking 
+ the "Display" pane, then selecting <span class="Code-Command">Contour</span> 
+ from the shortcut menu to display the "Contouring" dialog box.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="213" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="213" class="td_3">
+                    <p>
+                        <img src="../flammaprobo_supporing/ContouringDialog.gif" alt="Contouring Dialog Box" title="Contouring Dialog Box" width="213" height="217" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_4">
+                    <p>The 
+		 <span class="Code-Command">Theme Value Range</span> gives the 
+		 range of values over the theme for the entire landscape. You cannot 
+		 edit this range.</p>
+                    <p>You can set the contour interval in the <span class="Code-Command">Contour 
+		 Interval</span> spin box. The units are whatever the grid theme 
+		 is currently displayed in.</p>
+                    <p>The <span class="Code-Command">Minimum Distance between points 
+		 on a contour line:</span> spin box controls how smooth you contour 
+		 is. Smaller values create smoother contours.</p>
+                    <p>Click the <span class="Code-Command">OK</span> button and the 
+		 contours will be generated and displayed in the default black 
+		 color.</p>
+                </td>
+            </tr>
+        </table>
+        <p>To temporally hide or display an individual contour theme, simply double 
+ click it's line in the left pane tree. A blue check mark "<img src="../flammaprobo_supporing/CheckMark.gif" alt="" width="10" height="12" border="0" class="img_1" />" 
+ indicates the theme is currently displayed and a red "<span class="span_1">X</span>" indicates it is currently hidden.</p>
+        <h2><a name="SaveGrid" id="SaveGrid"></a>Save a Landscape File Grid</h2>
+        <p>You can save your grids in several formats so you can use it in a GIS, 
+ image editor, or word processor. Right-click an individual grid theme 
+ from the "Tree" pane and select <span class="Code-Command">Save 
+ As…</span> A standard 
+ Windows "Save As" dialog box appears where you can navigate 
+ and name your new file.</p>
+        <p>
+            <img src="../flammaprobo_supporing/SaveAs_Grid.gif" alt="Save As dialog box for grids" title="Save As dialog box for grids" width="428" height="308" border="0" class="img_1" />
+        </p>
+        <p>In addition to saving your grid in ASCII Grid format, Bitmap, JPEG, 
+ and TIFF image formats are also available from the <span class="Code-Command">Save 
+ as Type:</span> drop-down list for using your grid as an image in an image 
+ or word processor.</p>
+        <h2>
+            <MadCap:keyword term="Properties:Landscape Themes" /><a name="ThemeProperties" id="ThemeProperties"></a>Theme Properties</h2>
+        <p>Selecting the <span class="Code-Command">Properties</span> command displays 
+ the <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm">"Create/Modify 
+ Legend" dialog box</a> where you can change the colors and number 
+ of categories displayed. </p>
+        <h2>
+            <MadCap:keyword term="CSV File" /><a name="Grid_Statistics"></a>Statistics</h2>
+        <p>The <span class="Code-Command">Statistics</span> command displays the 
+ "Theme Statistics" dialog which consists of two tabs. The first 
+ is the <span class="Code-Command">General Statistics</span> tab which 
+ displays general information about the grid theme and summary statistics. 
+ </p>
+        <p>NOTE: For themes with class units (like the fuel model example shown) 
+ some of the summary statistics are meaningless.</p>
+        <p>The <span class="Code-Command">Save As</span> button opens a "Save 
+ As" dialog box for the user to save the tab contents&#160;in a plain 
+ text (.TXT) format file.</p>
+        <p>
+            <img src="../flammaprobo_supporing/Statistics_fuelModel_general.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>The second <span class="Code-Command">Classes</span> tab displays the 
+ legend bins as determined by the <a href="../DisplayCMDs/RH_Create_Modify_Legend.htm">"Create/Modify 
+ Legend" dialog box</a>. Cell frequency and area data is also shown.</p>
+        <p>The <span class="Code-Command">Save As</span> button opens a "Save 
+ As" dialog box for the user to save the tab contents&#160;in a comma 
+ separated value (.CSV) format file which can be imported into a text editor 
+ or spreadsheet application. </p>
+        <p>
+            <img src="../flammaprobo_supporing/Statistics_fuelModel_classes.png" alt="" border="0" class="img_1" />
+        </p>
+        <h2><a name="Help" id="Help"></a>Help</h2>
+        <p>Selecting the <span class="Code-Command">Help</span> command will bring 
+ you to the Landscape Area heading above in this online help system.</p>
+    </body>
+</html>

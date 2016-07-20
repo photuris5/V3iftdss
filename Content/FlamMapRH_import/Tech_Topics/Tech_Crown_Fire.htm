@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Complete">
+    <head><title>Crown Fire</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Crown Fire (technical documentation)</h1>
+        <hr size="3" width="100%" align="center" />
+        <p>A surface fire may make the transition to some form of crown fire depending 
+ on the surface intensity and crown characteristics (Van Wagner 1977, 1993). 
+ The crown characteristics that are used to compute crown fire activity 
+ are,</p>
+        <ul class="ul_1">
+            <li class="BulletFM">canopy base height</li>
+            <li class="BulletFM">stand height</li>
+            <li class="BulletFM">canopy bulk density</li>
+            <li class="BulletFM">foliar moisture content</li>
+        </ul>
+        <p>Low canopy base height (including ladder fuels) facilitates ignition 
+ of the crown fuels by the surface fire and then, transition to some form 
+ of crown fire. Canopy bulk density is used to determine threshold values 
+ for active crown fire, which spreads much faster than a surface fire. 
+ Stand height is used as the upper level of the crown space for determining 
+ crown fuel loading and the starting height for lofting embers.</p>
+        <p class="p_14">
+            <img src="../flammaprobo_supporing/CrownFuels.jpg" alt="Crown Fuel Data used for FlamMap" title="Crown Fuel Data used for FlamMap" width="457" height="319" border="0" class="img_1" />
+        </p>
+        <h2>Crown Fire Activity Logic</h2>
+        <p>To determine the crown fire activity for each cell on the landscape 
+ first the surface fireline intensity is compared with the intensity threshold 
+ that is critical to involving the overlying crown fuels using the canopy 
+ base height (CBH) from the landscape and the global foliar moisture content. 
+ If this fireline intensity threshold is not met the cell is given a value 
+ of 1 (surface fire). If the fireline intensity threshold is met or exceeded, 
+ some form of crown fire (passive or active) has occurred. To determine 
+ what "type" of crown fire (Van Wagner 1977), the equilibrium 
+ rate of crown fire spread is computed for the current spread direction 
+ (Rothermel 1991), modified by the "crown fraction burned" (Van 
+ Wagner 1993) and compared with the critical rate of spread (computed from 
+ the canopy bulk density, CBD) required for an active crown fire. If this 
+ critical rate of spread threshold is not met, the crown involvement is 
+ assumed limited to torching trees (a passive crown fire) and coded as 
+ 2. When the critical rate of spread threshold is met or exceeded the cell 
+ is given an attribute of 3 (active crown fire).</p>
+        <p>The effect of this logic is that for a cell to be assigned a value of 
+ 3 (active crown fire), the two conditions for the fireline intensity threshold 
+ (torching) and critical rate of spread threshold must both occur. A cell 
+ cannot have active crown fire without torching conditions also occurring. 
+ Likewise a cell requires surface fire activity before either the torching 
+ of active crown fire conditions can be met.</p>
+        <p>&#160;</p>
+        <table cellspacing="0" width="550" align="center" class="table_1">
+            <col style="width: 33.333%;" />
+            <col style="width: 33.333%;" />
+            <col style="width: 33.333%;" />
+            <tr class="tr_1">
+                <td colspan="3" style="width: 33.333%;" class="td_16">
+                    <p class="p_19">Types 
+		 of Wind Driven Crown Fire</p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td style="width: 33.333%;" class="td_18">
+                    <p class="p_20">Passive 
+		 or Torching</p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p class="p_20">Active</p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p class="p_20">Independent</p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td style="width: 33.333%;" class="td_18">
+                    <p>
+                        <img src="../flammaprobo_supporing/PassiveCrownFire.jpg" alt="Torching" title="Torching" width="159" height="203" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p>
+                        <img src="../flammaprobo_supporing/ActiveCrownFire.jpg" alt="Active Crown Fire" title="Active Crown Fire" width="172" height="207" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p>
+                        <img src="../flammaprobo_supporing/IndependCrownFire.jpg" alt="Independent Crown Fire" title="Independent Crown Fire" width="218" height="205" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td style="width: 33.333%;" class="td_18">
+                    <p class="p_21">Low wind 
+		 speed, low Canopy Bulk Density &amp; Cover, low Canopy Base Height.</p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p class="p_21">Higher wind speed, high Canopy Bulk 
+		 Density &amp; Canopy Canopy, low Canopy Base Height.</p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p class="p_21">Very high wind speed, very high Canopy 
+		 Bulk Density &amp; Canopy Cover.</p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td style="width: 99.999%;" class="td_18">
+                    <p class="p_21">Output code 
+		 of 2</p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p class="p_21">Output code of 3</p>
+                </td>
+                <td style="width: 33.333%;" class="td_19">
+                    <p class="p_21">Not modeled in FlamMap</p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_14">&#160;</p>
+        <p class="p_8">&#160;</p>
+    </body>
+</html>

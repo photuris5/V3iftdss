@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Complete">
+    <head><title>Dead Fuel Moisture</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Dead Fuel Moisture (technical documentation)</h1>
+        <hr size="3" width="100%" align="center" />
+        <p>The change in moisture content of dead and downed woody surface fuels 
+ throughout time and topography is often critical to calculating fire behavior 
+ characteristics. In general, drier fuels increase fire rate of spread, 
+ fireline intensity, and fuel consumption. FlamMap uses a model to calculate 
+ dead fuel moisture during a conditioning period in response to changing 
+ weather conditions and topography. Moisture contents of live fuels are 
+ assumed to remain constant in FlamMap throughout the conditioning period. 
+ Dead fuel moisture is an important input to the surface fire behavior 
+ model (Rothermel 1972) for determining rate of spread and intensity of 
+ surface fires.</p>
+        <h2>Fuel Size Classes</h2>
+        <p>The rate of change of the moisture content is dependent on the diameter 
+ of the woody fuel particle and the amount of change in environment conditions. 
+ Historically, the diameters of the woody fuel particles have been classified 
+ according to their "time lag". Time lag refers to the length 
+ of time that a particle responds to within 63.2% (1-1/e) of the new equilibrium 
+ moisture content (either drying or wetting). Larger diameter fuels generally 
+ have longer time-lags, meaning they respond more slowly to changes in 
+ environmental conditions. The time lag categories traditionally used for 
+ fire behavior and fire danger rating are specified as: 1hr, 10hr, 100hr, 
+ and 1000hr and correspond to round woody fuels in the size range of: 0-¼", 
+ ¼"-1", 1"-3", and 3"-8" (0-.635cm, 0.635-2.54cm, 
+ 2.54-7.62cm, and 7.62-20.32cm) respectively. Loadings (weight/area) of 
+ dead fuels in these size-classes are required to describe surface fuels 
+ for fire modeling (Anderson 1982). &#160;</p>
+        <h2>Environmental Effects on Dead Fuel Moisture</h2>
+        <p>The environmental factors that determine the fuel moisture of a fuel 
+ particle are:</p>
+        <ul class="ul_1">
+            <li class="p">
+                <p>Air Temperature</p>
+            </li>
+            <li class="p">
+                <p>Moisture content of the air (measured as relative 
+	 humidity)</p>
+            </li>
+            <li class="p">
+                <p>Solar radiation (as modified by cloud cover)</p>
+            </li>
+            <li class="p">
+                <p>Rainfall (amount and duration)</p>
+            </li>
+        </ul>
+        <p>These are heavily dependent on the local topographic and environmental 
+ site factors for the fuel particle:</p>
+        <ul class="ul_1">
+            <li class="p">
+                <p>Elevation</p>
+            </li>
+            <li class="p">
+                <p>Slope</p>
+            </li>
+            <li class="p">
+                <p>Aspect</p>
+            </li>
+            <li class="p">
+                <p>Forest canopy cover</p>
+            </li>
+        </ul>
+        <p>As a FlamMap conditioning period progresses, the moisture contents of 
+ the four fuel size classes are adjusted for the changing weather conditions 
+ over time at the local site. To do this, <span class="span_2">FARSITE</span> 
+ uses the dead fuel moistures supplied from the Initial Fuel Moistures 
+ (.FMS) File (for 1hr, 10hr, and 100hr time lag categories) as a starting 
+ condition. Then modifies them according to the changes in temperature, 
+ humidity, rainfall, and cloud cover from either the <a href="../FileTypes/PU_Weather_File.htm">Weather 
+ (.WTR)</a>/<a href="../FileTypes/PU_Wind_File.htm">Wind (.WND)</a> files 
+ or a <a href="../FileTypes/Weather_Stream_File.htm">Weather Stream (.WXS)</a> 
+ File, combined with the local site conditions (elevation, slope, aspect, 
+ canopy cover) from the Landscape (.LCP) File.</p>
+        <p>&#160;</p>
+        <table cellspacing="0" width="100%" class="table_7">
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td style="width: 100%;" class="td_6">
+                    <p>
+                        <img src="../flammaprobo_supporing/TechFuelMoistureGraph.gif" alt="Diurnal variation of fuel moistures" title="Diurnal variation of fuel moistures" width="557" height="321" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td style="width: 100%;" class="td_6">
+                    <p class="Table_3">Graph of fuel moisture 
+		 content over time (about 3 days) for three time-lags of dead woody 
+		 fuel sticks. &#160;The fuel moistures were calculated using the 
+		 model from Nelson (2000). &#160;Greater moisture response amplitude 
+		 is produced for the smaller time-lags.</p>
+                </td>
+            </tr>
+        </table>
+        <p>The air temperature and relative humidity are modified for elevation 
+ assuming a fixed lapse rate (Rothermel et al. 1986). Solar radiation is 
+ modified for slope steepness and orientation and reduced by the percentage 
+ of canopy cover and cloud cover specified for the time period specified 
+ in the Wind (.WND) or Weather Stream (.WXS) File. Rainfall is assumed 
+ constant throughout the time period specified in the Weather (.WTR) or 
+ Weather Stream (.WXS) File. &#160;&#160;</p>
+        <p>To account for the spatial variation in local site conditions (from 
+ the Landscape (.LCP) File), FlamMap generates a catalogue of representative 
+ fuel "particles" for all combinations of categories of each 
+ site factor (elevation, slope, aspect, canopy cover) and initial moisture 
+ content for each size class of fuel. &#160;This is necessary because the 
+ fuel particles have a state "memory" of moisture and temperature 
+ at all internal positions (within the particle) that are unique to a given 
+ local site. The moisture model is used to update the moisture content 
+ of each representative particle in the catalogue at each simulation time 
+ step. Actual values used for calculating fire behavior at an arbitrary 
+ time and point on the fire front are obtained from the catalogue by interpolation.</p>
+        <h2>Modeling Dead Fuel Moisture</h2>
+        <p>FlamMap has implemented a new model for calculating dead fuel moisture 
+ content of 10hr fuels (Nelson 2000). As used here, it also handles other 
+ fuel size-classes (1hr, 100hr, and 1000hr) with modifications by Nelson. 
+ This model replaces those developed by Rothermel et al. (1986) for BEHAVE 
+ (Andrews 1986) and Deeming et al. (1977) for the NFDRS (Bradshaw et al. 
+ 1983) as used in versions 1 ,2, &amp; 3 of <span class="span_2">FARSITE</span> 
+ (Finney 1998). The new fuel moisture model (Nelson 2000) calculates the 
+ exchange of water between the environment and the surface of a round wooden 
+ stick and transport of water within the stick itself. The stick is assumed 
+ to be without bark and located above ground. &#160;For computational efficiency, 
+ the 1hr. fuel moisture in FlamMap is obtained from a calculation involving 
+ the equilibrium moisture content (Bradshaw et al. 1983) instead of Nelson's 
+ 1hr. calculation.</p>
+        <p>As implemented in FlamMap, Nelsons (2000) model is used to calculate 
+ 10 hr. and 100 hr. fuel moistures with time steps of 0.1 hour and 0.2 
+ hour respectively for the range of dates and times specified in the conditioning 
+ period. The dead fuel moistures used for the fire behavior calculations 
+ are those at the end of the conditioning period.</p>
+        <h2>Use of Conditioning Period</h2>
+        <p>At the beginning of a FlamMap conditioning period, the dead fuels of 
+ all size classes in each fuel model will not reflect the influences of 
+ the local site conditions. Fuels for a particular fuel model all have 
+ identical moisture contents obtained from the Initial Fuel Moistures (.FMS) 
+ File regardless of where on the landscape the fire behavior is calculated. 
+ The conditioning period can be set for several days to allow the catalogue 
+ of fuel moistures to reflect the range of local site conditions before 
+ calculating fire behavior characteristics.</p>
+        <p>As the conditioning period progresses for a few hours or a day, however, 
+ the moisture content of the finer fuels (1hr, 10hr) will increasingly 
+ reflect the local site conditions because of their short time-lag. The 
+ influence of the constant initial conditions on fire behavior varies by 
+ the &#160;spatial variation in topography and canopy cover, and the length 
+ of the conditioning period. The effects will be minor for landscapes with 
+ little topographic variation and canopy cover. Because the short time-lag 
+ fuels (1hr, 10hr) have the most influence on calculated fire behavior, 
+ conditioning periods longer than a few days do not change results significantly 
+ for similar weather streams. &#160;</p>
+        <p>&#160;At the end of the conditioning period, the landscape will contain 
+ spatial variation in dead fuel moisture with less influence of the initial 
+ fuel moisture input conditions. &#160;</p>
+    </body>
+</html>

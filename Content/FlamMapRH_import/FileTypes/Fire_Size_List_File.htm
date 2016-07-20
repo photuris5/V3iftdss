@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Fire Size List File</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Fire Size List;Ignition:List File" />Fire Size List File</h1>
+        <h2>Output from a FlamMap Run</h2>
+        <p>The Fire Size List file is an optional output text file created from 
+ a burn probability run. It contains the ignition point(XStart, YStart) 
+ and FireSize(acres), for each fire used in the burn probability run. FIRE_NUM 
+ is the unique ignition ID and can be used to link the MTT_Perimeters output. 
+ This text file can be used within a GIS to generate a point shapefile 
+ of ignition locations.</p>
+        <p>
+            <img src="../flammaprobo_supporing/FireSizeListExample.png" alt="" border="0" class="img_1" />
+        </p>
+        <h2>As Input for a Burn Probability run</h2>
+        <p>The Fire Size List file can also be used as an input when <a href="../Runs/Minimum_Travel_Time_Tab.htm#From_Fire_List_File">calculating 
+ burn probabilities from a fire list</a>. The Fire List File can be a file 
+ from a previously saved burn probability analysis in FlamMap, FSim, or 
+ from a text file created by the user. If a text file is created outside 
+ of FlamMap by the user it needs to be a comma or space delimited text 
+ file with a minimum of three fields in the following order,</p>
+        <ol class="ol_1">
+            <li class="NumberedFM">FIRE_NUM (integer value used as Fire ID, does 
+	 not need to be unique or in order),</li>
+            <li class="NumberedFM">XStart (latitude in floating point format using 
+	 the landscape units),</li>
+            <li class="NumberedFM">YStart (longitude in floating point format using 
+	 the landscape units).</li>
+        </ol>
+        <p>XStart/YStart values also need to be in the same datum and coordinate 
+ system as the landscape.</p>
+        <p>&#160;</p>
+    </body>
+</html>

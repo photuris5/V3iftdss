@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Weather File</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Weather File:File Information;Weather File" />Weather File (.WTR)</h1>
+        <p>The Weather (.WTR) File is an optional ASCII text file required to utilize 
+ the optional dead fuel moisture model in FlamMap. This is the same format 
+ used in the <span class="span_2">FARSITE</span> fire simulator, 
+ so Weather (.WTR) Files are interchangeable between the two applications.</p>
+        <p>A Weather (.WTR) File contains daily observations on temperature, humidity, 
+ and precipitation that depicts a temporal weather stream. The weather 
+ stream greatly oversimplifies actual variation in weather. However, this 
+ format is an attempt to limit to a practical level, the amount of weather 
+ information for modeling the variation in dead fuel moistures due to topography 
+ and shading.</p>
+        <p>Each weather file must contain data in the space delimited ASCII format 
+ specified below. There are a variety of ways to create or edit Weather 
+ (.WTR) Files,</p>
+        <ul class="ul_1">
+            <li class="BulletFM">a text editor such as <span class="span_2">Notepad 
+	 or WordPad</span>,</li>
+            <li class="BulletFM">a spreadsheet application and save to a space 
+	 delimited file,</li>
+            <li class="BulletFM">the <a href="../flammaprobo_supporing/FlamMap_Text_Editor.htm"><span>FlamMap 
+	 Text</span> Editor</a> (accessed with the <img src="../flammaprobo_supporing/Button_Editor.gif" alt="File editor button" title="File editor button" width="13" height="19" border="0" class="img_1" /> buttons 
+	 on the <span class="Code-Command">Inputs</span> tab of the "Run:" 
+	 dialog box),</li>
+            <li class="BulletFM">Custom Editors for each ASCII text file type are 
+	 available in <span class="span_2">FARSITE</span>,</li>
+            <li class="BulletFM">generate using the <span class="Code-Command">Input 
+	 &gt; Generate from Types (WTR/WND)</span> command in <span class="span_2">FARSITE</span>,</li>
+            <li class="BulletFM"><a href="#Generating Weather Files in FireFamily Plus">generate 
+	 in <span class="span_2">FireFamily Plus</span></a><span class="span_2">.</span>
+            </li>
+        </ul>
+        <p>All inputs must be integers. Each column must be space delimited (leave 
+ a space between columns). FlamMap allows weather inputs in English or 
+ metric units. The units are selected by inserting the word ENGLISH or 
+ METRIC as the first line of the Weather (.WTR) File.</p>
+        <p class="p_5"><span class="span_10">Month Day Precip 
+ Hour1 Hour2 Temp1 Temp2 Humid1 Humid2 Elevation rt1 rt2</span>
+        </p>
+        <ul>
+            <li class="p">
+                <p><span class="span_9">Precipitation</span> 
+	 is the daily rain amount specified in hundredths of an inch or millimeters 
+	 (integer).</p>
+            </li>
+            <li class="p">
+                <p><span class="span_9">Hour1</span> 
+	 corresponds to the hour at which the <span class="span_3">minimum</span> 
+	 temperature was recorded (0-2400).</p>
+            </li>
+            <li class="p">
+                <p><span class="span_9">Hour2</span> 
+	 corresponds to the hour at which the <span class="span_3">maximum</span> 
+	 temperature was recorded (0-2400).</p>
+            </li>
+            <li class="p">
+                <p><span class="span_9">Temperatures</span> 
+	 (Temp1 is <span class="span_3">minimum</span>; Temp2 is 
+	 <span class="span_3">maximum</span>) are in degrees Fahrenheit 
+	 or Celsius (integer).</p>
+            </li>
+            <li class="p">
+                <p><span class="span_9">Humidities</span> 
+	 (Humid1 is <span class="span_3">maximum</span>; Humid2 
+	 is <span class="span_3">minimum</span>) are in percent, 
+	 0 to 99 (integer).</p>
+            </li>
+            <li class="p">
+                <p><span class="span_9">Elevation</span> 
+	 is in feet or meters above sea level. NOTE: these units (feet or meters) 
+	 do not have to be the same as the landscape elevation theme (integer).</p>
+            </li>
+            <li class="p">
+                <p class="p_12">Precipitation 
+	 Duration <span class="span_11">is 
+	 entered with the beginning (</span>rt1<span class="span_11">) 
+	 and ending (</span>rt2<span class="span_11">) 
+	 times (0-2400) of the daily rain amount. Only one time period per 
+	 day is allowed.</span></p>
+            </li>
+        </ul>
+        <h2>Example of .WTR File</h2>
+        <p class="p_13">ENGLISH<br />
+8 10 00 600 1500 48 99 94 11 2400<br />
+8 11 00 600 1500 46 96 78 14 2400<br />
+8 12 07 600 1600 48 90 74 14 2400 1830 2000<br />
+8 13 00 600 1500 42 86 86 19 2400</p>
+        <h2><a href="../flammaprobo_supporing/FlamMap_Text_Editor.htm">Using the FlamMap Text Editor</a>
+        </h2>
+        <p>The pencil <img src="../flammaprobo_supporing/Button_Editor.gif" alt="" border="0" class="img_1" /> button, found to the right of the <span class="Code-Command">Weather File (*.wtr)</span> text box on the <span class="Code-Command">Inputs</span> tab of the "Run:" dialog 
+ box, opens the Weather (.WTR) File named in the associated text box.<span class="span_3">  <![CDATA[ ]]></span></p>
+        <h2><a name="Generating Weather Files in FireFamily Plus"></a>Generating Weather 
+ Files in Fire Family Plus</h2>
+        <p>Weather (.WTR) Files can be generated from hourly WIMS data in <span class="span_2">FireFamily Plus</span>. From the menu 
+ bar in <span class="span_2">FireFamily Plus</span> go to 
+ the <span class="span_4"><span class="Code-Command">Weather &gt; Hourly Data Analysis &gt; FarSite 
+ Exports</span></span> command. Make sure you have a <span class="span_2">FireFamily 
+ Plus</span> database that contains hourly observations.</p>
+        <p>&#160;</p>
+        <p class="p_2">&#160;</p>
+    </body>
+</html>

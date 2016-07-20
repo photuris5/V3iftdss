@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Complete">
+    <head><title>Evaluating TOM Outputs</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1 class="SubTitle">Advanced Lesson</h1>
+        <h1>Evaluating TOM Outputs</h1>
+        <p>This lesson gives you some tricks for viewing and interpreting Treatment Optimization Model (TOM) outputs. It uses the outputs generated in the <a href="TU_TOM.htm">Treatment Optimization Model lesson</a>, the four vector, 12 grid output items, and the Ideal Landscape themes. You do not necessarily have to use the Schley data for this lesson, you can use outputs from a different landscape, just be sure you have all the output themes. This lesson assumes you have some experience using FlamMap to modify legends, changing units, and displaying different themes. If you do not have these skills, first complete the <a href="TU_Load_LCP_and_Themes.htm">Basic Lessons</a>. If you need to review these skills you can click on the blue links in this lesson as you need to, which refer to the online help system.</p>
+        <p>After completing the run, closing the "Run:" dialog box, and expanding the run item in the "Tree" pane your project window will look like this. &#160;</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project4.gif" alt="Project window with completed TOM run." title="Project window with completed TOM run." width="839" height="584" border="0" class="img_1" />
+        </p>
+        <p>Some of the outputs should seem similar to those created by a MTT run. The <span class="Code-Command"><a href="../FileTypes/PU_OUT_Max_Spread_Dir.htm" target="_popup">Max Spread Direction</a></span> and <span class="Code-Command"><a href="../FileTypes/PU_OUT_Elliptical_Dimen.htm" target="_popup">Elliptical Dimension</a></span> output items are designed as inputs for other applications and will not be discussed in this lesson. You can find out more on these grids by clicking on the above links. The <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Rate of Spread</span> and <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Fireline Intensity</span> items are identical to those generated in an MTT run and are created to give a pre-treatment baseline for these two fire behavior characteristics. The output items that begin with the word "Treat" are based on the treated landscape created by TOM.</p>
+        <h2>Treatment Ignitions</h2>
+        <p>The <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /><span class="Code-Command">Treatment Ignitions</span> item is simply the display of the ignition file you specified on the <a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMIgnitionFile" target="_popup">Treatment Optimization Model tab</a>, in this case the shapefile start.shp.</p>
+        <h2>Treat Major Paths &amp; Treat Flow Paths</h2>
+        <p>Turn off (by double-clicking) the <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Flow Paths</span> item to make viewing easier. This theme can be confusing except for viewing when zoomed in close since it shows the path of the fire from the ignition to EVERY one of the <a href="../Runs/Treatment_Optimization_Model_Tab.htm#TOMResolution" target="_popup">nodes</a>.</p>
+        <p>The <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Major Paths</span> and <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Flow Paths</span> items are very similar to the paths discussed in the MTT tutorial. There are several differences in this lesson,</p>
+        <ul class="ul_1">
+            <li class="p">
+                <p>the paths cover the entire landscape since there is no time period specified in a TOM run,</p>
+            </li>
+            <li class="p">
+                <p>these paths originate from the south border of the landscape, and</p>
+            </li>
+            <li class="p">
+                <p>they based on the treated landscape created by TOM.</p>
+            </li>
+        </ul>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project5.gif" alt="Project window with TOM run outputs, Treat Flow Paths theme hidden." title="Project window with TOM run outputs, Treat Flow Paths theme hidden." width="839" height="584" border="0" class="img_1" />
+        </p>
+        <p>Turn off the <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Major Paths</span> and <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treatment Ignitions</span> items to make viewing easier. Don't forget you can turn on any vector or contour item simply by double-clicking, feel free to do this at any time in this lesson as you continue to explore TOM outputs.</p>
+        <h2>Treat Arrival Time Grid and Contour</h2>
+        <p>The <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Arrival Contour</span> is simply a contour of the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /><span class="Code-Command">Treat Arrival Time</span> grid item. These two TOM outputs are shown below on the right. On the left are a <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">MTT Arrival Contour</span> and <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">MTT Arrival Time</span> grid from a separate MTT run done on the pre-treatment landscape (schley_pre.LCP) for a comparison. For extra credit you can do the separate MTT run by right-clicking the  <span class="Code-Command">Run</span> item and selecting the <span class="Code-Command">New Run</span> command from the shortcut menu. Just remember to keep the input weather and MTT settings the same as in your TOM run.</p>
+        <table cellspacing="0" width="1070" class="table_1">
+            <col width="530" />
+            <col width="540" />
+            <tr class="tr_1">
+                <td style="width: 50%;" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_NoTreatArrTime.png" alt="No treatment arrival time grid." title="No treatment arrival time grid." width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 50%;" class="td_2">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_TreatArrTime.png" alt="After treament arrival time grid." title="After treament arrival time grid." width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 5px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Pre treatment arrival time grid with contours.</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Post treatment arrival time grid with contours.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Looking at the cell frequency in the legends of the two grids it's even easier to compare the two. Notice the differences in the top and bottom 3 categories of the two grids. Remember larger arrival time indicate the simulated fire is slower.</p>
+        <table cellspacing="0" width="1066" class="table_1">
+            <col width="528" />
+            <col width="538" />
+            <tr class="tr_1">
+                <td width="528" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_NoTreatArrTime_Legen.png" alt="Legend for pre treatment arrival time grid." title="Legend for pre treatment arrival time grid." width="528" height="574" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td width="538" class="td_2">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_TreatArrTime_Legend.png" alt="Legend for post treatment arrival time grid." title="Legend for post treatment arrival time grid." width="528" height="574" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Legend for pre treatment arrival time grid.</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Legend for post treatment arrival time grid.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Now turn off the <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Arrival Contour</span> item.</p>
+        <h2>Treatment Grid</h2>
+        <p>The <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> is a display of the treatments suggested by TOM.</p>
+        <p>Remember the treatments are those conditions specified in the ideal landscape. You may want to think of the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> as the "cookie cutter" which cuts the treatments from the ideal landscape (schley_max.LCP) and pastes them onto the original landscape (schley_pre.LCP).</p>
+        <h3>Contour the Treatment Grid</h3>
+        <p>Since FlamMap can only display one grid theme at a time it can be awkward (likely impossible) to remember where TOM placed treatments when viewing the fire behavior outputs. Here is a simple trick to "convert" the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> into a vector theme.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="213" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="213" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_ContourDialog.gif" alt="Contouring dialog box" title="Contouring dialog box" width="213" height="217" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>1. Make the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> the active theme.</p>
+                    <p>2. Right click the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> and select the <span class="Code-Command">Contour</span> command from the shortcut menu.</p>
+                    <p>3. Enter 0.5 in the <span class="Code-Command">Contour Interval:</span> text box.</p>
+                    <p>4. Click the <span class="Code-Command">OK</span> button to close the "Contouring" dialog box.</p>
+                </td>
+            </tr>
+        </table>
+        <h3>Modify the Treatment Contour</h3>
+        <p>Contouring the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> creates a new <span class="Code-Command">Auxiliary Themes &gt; Contour &gt;</span> <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> contour item. Unfortunately the contouring function creates a double line around each of the treatment areas with the inner most line being the most accurate. Now select the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Fuel Model</span> item as your active grid.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project6.gif" alt="Project window showing new treatment contour over fuel model grid." title="Project window showing new treatment contour over fuel model grid." width="839" height="584" border="0" class="img_1" />
+        </p>
+        <p>Notice that this new contour is in the <span class="Code-Command">Auxiliary Themes</span> part of the "Tree" pane.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="248" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="248" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_ContourProperties.gif" alt="Contour Properties dialog box" title="Contour Properties dialog box" width="248" height="236" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>To make the treatments more visible by right-click on the <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> contour item and selecting the <span class="Code-Command">Properties</span> command.</p>
+                    <p>Select a light display color such as white, and increase the line width to "2".</p>
+                    <p>Leave the <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span> contour item displayed.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Rate of Spread and Treat ROS Grids</h2>
+        <p>The <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Rate of Spread</span> grid is the result of a MTT run for the ignition start.shp on the original landscape (schley_pre.LCP). The <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treat ROS</span> grid is the rate of spread with the treatments shown in the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Grid</span>. Remember, these are rates of spread along the paths shown above. They are NOT the rates of spread you would see from the <span class="Code-Command">Fire Behavior Outputs</span> tab outputs. If you specify the same legend for the two items they can be compared visually.</p>
+        <table cellspacing="0" width="1070" class="table_1">
+            <col width="530" />
+            <col width="540" />
+            <tr class="tr_1">
+                <td style="width: 50%;" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_NoTreatROS.png" alt="Rate of Spread grid" title="Rate of Spread grid" width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 50%;" class="td_2">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_TreatROS.png" alt="Treat ROS grid" title="Treat ROS grid" width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 5px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Pre treatment Rate of Spread grid.</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Post treatment Treat ROS grid.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="195" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="195" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_ROSlegend.gif" alt="Legend for Rate of Spread grid" title="Legend for Rate of Spread grid" width="195" height="223" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>As you can see by the legend the lighter colors are the slower and the post treatment ROS grid (<img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treat ROS</span>) is dramatically slower.</p>
+                    <p>More importantly notice the significant reduction of spread rates OUTSIDE of the treatment areas. This is where TOM is different from other methods of identifying fuel treatments, TOM optimizes the treatment locations to affect the entire landscape. More information on the Treatment Optimization Model can be found in the help system <a href="../Tech_Topics/Tech_TOM.htm">Technical Topics</a>.</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fireline Intensity and Treat FLI Grids</h2>
+        <p>Similar to the rate of spread grids, pre and post treatment fireline intensity grids are also created. &#160;&#160;The pre treatment <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Fireline Intensity</span> grid is shown on the left below while the post treatment <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treat FLI</span> is on the right. The legends for the two grids have been modified to be identical.</p>
+        <table cellspacing="0" width="1070" class="table_1">
+            <col width="530" />
+            <col width="540" />
+            <tr class="tr_1">
+                <td style="width: 50%;" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_NoTreatFLI.png" alt="Pre treatment fireline intensity grid with treatment contours" title="Pre treatment fireline intensity grid with treatment contours" width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 50%;" class="td_2">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_TreatFLI.png" alt="Post treatment fireline intensity grid with treatment contours" title="Post treatment fireline intensity grid with treatment contours" width="530" height="559" border="0" class="img_1" />
+                    </p>
+                </td>
+            </tr>
+            <tr style="height: 5px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Pre treatment Fireline Intensity grid.</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Caption">Post treatment Treat FLI grid.</p>
+                </td>
+            </tr>
+        </table>
+        <p>As with the ROS grids, notice the post treatment reduction in fireline intensity outside the treated areas. Because TOM places units to increase the amount of non-head spread (i.e. backing and flanking) over the entire landscape, the fireline intensity is also reduced over the entire area.</p>
+        <h2>Treatment Opportunities Grid</h2>
+        <p>The <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Opportunities</span> grid simply compares the two landscapes (schley_max.LCP) and (schley_pre.LCP) in this case. It is very handy for evaluating your ideal landscape before running TOM. First notice that all the TOM proposed treatments occur in the yellow areas.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project7.gif" alt="Project window showing Treatment Opportunity grid" title="Project window showing Treatment Opportunity grid" width="839" height="584" border="0" class="img_1" />
+        </p>
+        <p>&#160;</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="192" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="192" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/TU_TOM_TreatOppLegend.gif" alt="Legend for Treatment Opportunity grid" title="Legend for Treatment Opportunity grid" width="192" height="220" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>The <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treatment Opportunities</span> grid simply compares the fire behavior for the two landscape and displays a positive value (+1) if the rate of spread is less in the ideal landscape or negative (-1) if the rate of spread is greater. The areas with a zero value indicate no difference in the ROS between the two .LCPs.</p>
+                    <p>This is why TOM only selects treatment in the positive areas, there is no benefit (fire behavior wise) for treating if the rate of spread cannot be reduced.</p>
+                </td>
+            </tr>
+        </table>
+        <p>When testing ideal landscapes the areas of positive benefit should be several times the expected treatment fraction to allow TOM to choose the best treatment placement. Usually a positive value for at least 50% of the landscape is necessary to achieve good results with TOM, but more is always better.</p>
+        <h2>Node Influence Grid</h2>
+        <p>The last TOM output is the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treat Node Influence</span> grid. Basically it is a measure of the contribution of a cell to the overall spread of the simulated fire across the landscape. The darker color indicates a larger contribution. In a TOM run it is calculated for the post treatment landscape.</p>
+        <p>
+            <img src="../flammaprobo_supporing/TU_TOM_Project8.png" alt="Flammap project window showing the Node Influence grid with Major paths and treatment contours overlayed." title="Flammap project window showing the Node Influence grid with Major paths and treatment contours overlayed." width="839" height="584" border="0" class="img_1" />
+        </p>
+        <p>The <img src="../flammaprobo_supporing/CheckMark.gif" alt="Blue check mark" title="Blue check mark" width="10" height="12" border="0" class="img_1" /> <span class="Code-Command">Treat Major Paths</span> item is derived from the <img src="../flammaprobo_supporing/SM_Inactive_Icon.gif" alt="Inactive grid theme icon" title="Inactive grid theme icon" width="11" height="11" border="0" class="img_1" /> <span class="Code-Command">Treat Node Influence</span> grid, this is why the major paths overlay the higher value cells.</p>
+        <p>Notice how some of the major paths go through the treatments and some skirt the edges. The TOM algorithm is designs treatments so that the simulated fire takes just as long to go around the treatment as it does to go through it. This assures the maximum effect of the allowed treatment fraction.</p>
+        <h2>Finally</h2>
+        <p>The Treatment Optimization Model is a complex tool dealing with the relatively new concept of designing fuel treatments for the landscape as a whole, instead of individual stands. These lessons are just an introduction, so before using this tool for designing operational fuel treatments practice with the MMT fire growth and TOM methods on familiar landscapes. Read and refer to the help system <a href="../Tech_Topics/Tech_TOM.htm">Technical Topics</a> and reference literature to help ensure that your analysis is correct.</p>
+    </body>
+</html>

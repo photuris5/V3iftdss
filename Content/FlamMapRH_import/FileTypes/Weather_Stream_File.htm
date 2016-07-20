@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Weather Stream File</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Weather Stream File" />Weather Stream File (.WXS)</h1>
+        <p>The Weather Stream (.WXS) File is an optional ASCII text file required 
+ to utilize the dead fuel moisture model in FlamMap. This file is the equivalent 
+ of the Weather (.WTR) and Wind (.WND) Files combined. This format also 
+ has the advantage of providing the actual periodic temperature and humidity 
+ values for the dead fuel moisture model. This becomes important if the 
+ max/min values in a Weather (.WTR) File do not follow the typical pattern 
+ of afternoon max temperatures and early morning low temperatures.</p>
+        <p>A Weather Stream (.WXS) File contains periodic, usually hourly, observations 
+ on temperature, humidity, precipitation, wind speed, wind direction, and 
+ cloud cover that depicts a temporal weather stream. The weather stream 
+ greatly oversimplifies actual variation in weather. However, this format 
+ is an attempt to limit to a practical level, the amount of weather information 
+ for modeling the variation in dead fuel moistures due to topography and 
+ shading.</p>
+        <p>Each Weather Stream (.WXS) File must contain data in the space delimited 
+ ASCII format specified below. There are a variety of ways to create or 
+ edit Weather Stream (.WXS) Files,</p>
+        <ul class="ul_1">
+            <li class="BulletFM">a text editor such as <span class="span_2">Notepad 
+	 or WordPad</span>,</li>
+            <li class="BulletFM">a spreadsheet application and save to a space 
+	 delimited file,</li>
+            <li class="BulletFM">the <a href="#Using_the_Custom_Weather_Stream_File_Editor"><span class="span_2">FlamMap</span> Custom Editor</a> (accessed 
+	 with the <img src="../flammaprobo_supporing/Button_Editor.gif" alt="File editor button" title="File editor button" width="13" height="19" border="0" class="img_1" /> buttons on the <span class="Code-Command">Inputs</span> 
+	 tab of the "Run:" dialog box),</li>
+            <li class="BulletFM">export from <span class="span_2">FireFamily 
+	 Plus.</span></li>
+        </ul>
+        <h2>Example of .WXS File</h2>
+        <p>
+            <img src="../flammaprobo_supporing/ExampleWXS.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>Header lines in the Weather Stream (.WXS) File consist of an attribute 
+ name and colon followed by the value, </p>
+        <ul class="ul_1">
+            <li class="BulletFM">RAWS_ELEVATION: Elevation is in feet or meters 
+	 above sea level. NOTE: these units (feet or meters) do not have to 
+	 be the same as the landscape elevation theme (integer) but are in 
+	 the units specified by RAWS_UNITS:,</li>
+            <li class="BulletFM">RAWS_WINDS: an optional informational line added 
+	 in FireFamilyPlus exports,</li>
+            <li class="BulletFM">RAWS_UNITS: the units are selected by inserting 
+	 the word ENGLISH or METRIC. </li>
+        </ul>
+        <p>Column name row is optional. All inputs must be integers. Each column 
+ must be space delimited (leave a space between columns). </p>
+        <ul class="ul_1">
+            <li class="BulletFM"><span class="span_9">Year</span> 
+	 is the year of the observation, </li>
+            <li class="BulletFM"><span class="span_9">Mth</span> 
+	 is the month of the observation, </li>
+            <li class="BulletFM"><span class="span_9">Day</span> 
+	 is the day of the observation, </li>
+            <li class="BulletFM"><span class="span_9">Time</span> 
+	 &#160;is the time of the observation, 0-2359, to the nearest minute 
+	 (integer), </li>
+            <li class="BulletFM"><span class="span_9">Temp</span> 
+	 is the temperature at observation time in degrees Fahrenheit or Celsius 
+	 (integer).</li>
+            <li class="BulletFM"><span class="span_9">RH</span><span> 
+	 is the relative humidity</span><span class="span_9">  <![CDATA[ ]]></span>at observation time in percent, 0 to 99 (integer).</li>
+            <li class="BulletFM"><span class="span_9">HrlyPcp 
+	 </span><span>is the precipitation </span>amount for the time period 
+	 specified in hundredths of an inch or millimeters (integer),</li>
+            <li class="BulletFM"><span class="span_9">WindSpd</span><span> 
+	 is the wind speed at observation time, either the 20ft wind speed 
+	 specified in miles per hour or the 10m wind speed in kilometers per 
+	 hour (integer), </span>
+            </li>
+            <li class="BulletFM"><span class="span_9">WindDir</span><span> 
+	 is the direction the wind is from at observation time </span>in degrees, 
+	 clockwise from north (0-360), (integer),</li>
+            <li class="BulletFM"><span class="span_9">CloudCov</span><span>  <![CDATA[ ]]></span>is cloud cover specified as a percentage, 0 to 100 (integer).</li>
+        </ul>
+        <h2><a name="Using_the_Custom_Weather_Stream_File_Editor"></a>Using the Custom 
+ Weather Stream File Editor</h2>
+        <p>The Weather Stream (.WXS) File Custom Editor is accessed with the <img src="../flammaprobo_supporing/Button_Editor.gif" alt="File editor button" title="File editor button" width="13" height="19" border="0" class="img_1" /> button 
+ on the <span class="Code-Command">Inputs</span> tab of the "Run:" 
+ dialog box.</p>
+        <p>
+            <img src="../flammaprobo_supporing/WeatherStreamEditor.png" alt="" width="775" height="570" border="0" class="img_1" />
+        </p>
+        <h3>Editing an Existing Weather Stream File</h3>
+        <p>If you currently have a Weather Stream (.WXS) File loaded, this dialog 
+ box will allow you to edit the contents of that file. The <span class="Code-Command">Date</span> 
+ field cannot be edited, nor can observations be created or deleted. You 
+ can only modify existing observations, <span class="Code-Command">Units</span>, 
+ or <span class="Code-Command">Elevation</span>.</p>
+        <p>You can load a new Weather Stream (.WXS) File into the editor with the 
+ <span class="Code-Command">Open File</span> <img src="../flammaprobo_supporing/OpenFileButton.png" alt="" border="0" class="img_1" /> button, 
+ the new file will be loaded in the <span class="Code-Command">Inputs</span> 
+ tab of the "Run:" dialog box when you exit the editor.</p>
+        <p>The <span class="Code-Command">Save As</span> <img src="../flammaprobo_supporing/SaveAsButton.png" alt="" border="0" class="img_1" /> 
+ button opens a "Save As" dialog where you can save the current 
+ observations as a new Weather Stream (.WXS) File.</p>
+        <p>The Inspector <img src="../flammaprobo_supporing/InspectorButton.png" alt="" border="0" class="img_1" /> button will check the current edits 
+ for validity.</p>
+        <p>The Help <img src="../flammaprobo_supporing/QuestionMarkButton.png" alt="" border="0" class="img_1" /> button will bring you to the Using the Custom 
+ Weather Stream File Editor heading above in this online help system. </p>
+        <p>&#160;If any changes are made with the editor you will be asked if you 
+ want to save these changes when you exit the editor by clicking the <span class="Code-Command">Close</span> <img src="../flammaprobo_supporing/Button_Close.gif" alt="" border="0" class="img_1" /> 
+ button.</p>
+    </body>
+</html>

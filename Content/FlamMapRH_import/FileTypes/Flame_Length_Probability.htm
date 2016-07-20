@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Flame Length Probability</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Flame Length Probability" />Flame Length Probability File</h1>
+        <p>A comma delimited text file with the flame length probability (FLP) 
+ at each node based on the MTT. The FLP file is available in English and 
+ metric versions.</p>
+        <p>
+            <img src="../flammaprobo_supporing/FLPexample.png" alt="" border="0" class="img_1" />
+        </p>
+        <p>This screenshot is an example of the English version which has the conditional 
+ probability by six categories of Fire Intensity Levels. Conditional probability 
+ is the probability of the flame length occurring given that at least one 
+ of the simulated fires has burned the node. &#160;</p>
+        <p><span class="span_3">WARNING:</span> Conditional probability 
+ is a complex concept and requires careful interpretation. </p>
+        <p>The fields of the English file are, </p>
+        <ul class="ul_1">
+            <li class="BulletFM">XPos - the X coordinate of the MTT node,</li>
+            <li class="BulletFM">YPos - the Y coordinate of the MTT node,</li>
+            <li class="BulletFM">PBurn - the overall burn probability for the node, 
+	 this is the same as displayed in the <a href="Burn_Probabilities.htm">Burn 
+	 Probability grid</a>,</li>
+            <li class="BulletFM">FIL1 - the conditional probability of a flame 
+	 length &lt; 2 ft,</li>
+            <li class="BulletFM">FIL2 - the conditional probability of a flame 
+	 length =&gt; 2 ft and &lt; 4 ft,</li>
+            <li class="BulletFM">FIL3 - the conditional probability of a flame 
+	 length =&gt; 4 ft and &lt; 6 ft,</li>
+            <li class="BulletFM">FIL4 - the conditional probability of a flame 
+	 length =&gt; 6 ft and &lt; 8 ft,</li>
+            <li class="BulletFM">FIL5 - the conditional probability of a flame 
+	 length =&gt; 8 ft and &lt; 10 ft,</li>
+            <li class="BulletFM">FIL6 - the conditional probability of a flame 
+	 length &gt; 10 ft.</li>
+        </ul>
+        <p>The metric version of the file is similar except it has conditional 
+ probability for 20 categories of Fire Intensity Levels (FIL) expressed 
+ as flame lengths in 0.5 meter categories for FIL1 – FIL19 and FIL20 &gt; 
+ 9.5 meters.</p>
+    </body>
+</html>

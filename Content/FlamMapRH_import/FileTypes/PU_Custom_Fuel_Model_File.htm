@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Custom Fuel Model File</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Custom Fuel Model File" />Custom Fuel Model File (.FMD)</h1>
+        <p>This is a optional ASCII text file for utilizing custom fuel models 
+ in <span class="span_2">FARSITE</span> and FlamMap. This 
+ is the same format used in the <span class="span_2">FARSITE</span> 
+ v4.1 fire area simulator, so Custom Fuel Model (.FMD) Files are interchangeable 
+ between the two applications.</p>
+        <p><span class="span_3">NOTE:</span> The Custom Fuel Model 
+ (.FMD) File format is different for <span class="span_2">FARSITE</span> 
+ versions 4.0 and 4.1. For version 4.1 the format now permits a fuel model 
+ number up to 256 and adds fields for the fuel model code, fuel model type 
+ (static or dynamic), and fuel model name.</p>
+        <ul class="ul_1">
+            <li class="p">
+                <p>FlamMap v5.0 only accepts <span class="span_2">FARSITE</span> 
+	 version 4.1 format Custom Fuel Model (.FMD) Files.</p>
+            </li>
+            <li class="p">
+                <p>FARSITE v4.1 will convert v4.0 Custom Fuel Model (.FMD) 
+	 Files to the new v4.1 format.</p>
+            </li>
+        </ul>
+        <p>Fuel models other than the standard 13 Fire Behavior models (Anderson 
+ 1982) or the expanded set (Scott and Burgan, 2005) must be supplied in 
+ a Custom Fuel Model (.FMD) File.</p>
+        <p><span class="span_2">FARSITE</span> and FlamMap allow custom 
+ fuel model inputs in English or metric units. The units are selected by 
+ inserting the word ENGLISH or METRIC as the first line of the Custom Fuel 
+ Model (.FMD) File. If no option is found English units are assumed.</p>
+        <p>Each Custom Fuel Model (.FMD) File must contain data in the space delimited 
+ ASCII format specified below. <span class="span_2">FARSITE</span> 
+ has a Custom Fuel Model Editor to help you create or edit Custom Fuel 
+ Model (.FMD) Files. Also, a generic text editing application such as <span class="span_2">Notepad or WordPad</span>, a spreadsheet, 
+ the <span class="span_2">FARSITE</span> or <a href="../flammaprobo_supporing/FlamMap_Text_Editor.htm">FlamMap 
+ Editors</a> can be used to create or edit the Custom Fuel Model (.FMD) 
+ File. The Custom Fuel Model (.FMD) File must be in the following space 
+ delimited format, and have fuel model numbers between 1 and 256 not assigned 
+ to a standard fuel model. Although <span class="span_2">FARSITE</span> 
+ and FlamMap will permit any custom fuel model number between 1 and 256 
+ not assigned to a standard fuel model it is best to limit custom model 
+ numbers to the range 14-89 to limit conflicts with future standard models. 
+ See Table 1, Scott and Burgan, (2005) for a complete list of standard 
+ fuel model number assignments.</p>
+        <h2>Custom Fuel Model (.FMD) File Format</h2>
+        <p><span class="span_10">FMNum 
+ FMCode 1H 10H 100H LiveH LiveW FMType 1HSAV LiveHSAV LiveWSAV Depth XtMoist 
+ DHt LHt FMName</span>
+        </p>
+        <p class="p_2">&#160;</p>
+        <table cellspacing="0" width="100%" class="table_5">
+            <col style="width: 19.809%;" />
+            <col style="width: 21.436%;" />
+            <col style="width: 10.429%;" />
+            <col style="width: 24.785%;" />
+            <col style="width: 23.541%;" />
+            <tr>
+                <td style="width: 19.809%;" class="td_20">
+                    <p class="Table_1"><span class="span_3">Field</span>
+                    </p>
+                </td>
+                <td style="width: 21.436%;" class="td_21">
+                    <p class="Table_1"><span class="span_3">Name</span>
+                    </p>
+                </td>
+                <td style="width: 10.429%;" class="td_21">
+                    <p class="Table_1"><span class="span_3">Data Type</span>
+                    </p>
+                </td>
+                <td style="width: 24.785%;" class="td_21">
+                    <p class="Table_1"><span class="span_3">English Units</span>
+                    </p>
+                </td>
+                <td style="width: 23.541%;" class="td_21">
+                    <p class="Table_1"><span class="span_3">Metric Units</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">FMNum</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Fuel 
+		 Model Number</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">integer</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">number 
+		 14-89</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">number 
+		 14-89</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">FMCode</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Fuel 
+		 Model Code</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">string</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table">user defined 
+		 up to 7 characters</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">user 
+		 defined up to 7 characters</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">1H, 10H, 100H, LiveH, 
+		 LiveW</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Fuel 
+		 Loading</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">decimal</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table">tons/acre</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">metric 
+		 tonnes/hectare</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">FMType</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Fuel 
+		 Model Type</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table">string</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">"static" 
+		 or "dynamic"</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">"static" 
+		 or "dynamic"</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">1HSAV, LiveHSAV, LiveWSAV</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Surface 
+		 to Volume Ratio</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table">integer</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">1/ft</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">1/cm</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">Depth</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Fuel 
+		 Bed Depth</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">decimal</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">ft</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">cm</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">XtMoist</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Moisture 
+		 of Extinction</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">integer</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">percent</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">percent</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">DHt, LHt</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Heat 
+		 Content, live &amp; dead fuels</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">integer</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">BTU/lb</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">J/Kg</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 19.809%;" class="td_22">
+                    <p class="Table_2">FMName</p>
+                </td>
+                <td style="width: 21.436%;" class="td_23">
+                    <p class="Table_2">Fuel 
+		 Model Name</p>
+                </td>
+                <td style="width: 10.429%;" class="td_23">
+                    <p class="Table_2">string</p>
+                </td>
+                <td style="width: 24.785%;" class="td_23">
+                    <p class="Table_2">user 
+		 defined up to 256 characters</p>
+                </td>
+                <td style="width: 23.541%;" class="td_23">
+                    <p class="Table_2">user 
+		 defined up to 256 characters</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Sample Custom Fuel Model (.FMD) File</h2>
+        <p class="p_11">
+            <img src="../flammaprobo_supporing/FMDformat.gif" alt="Sample custom fuel model format shown in Notepad window" title="Sample custom fuel model format shown in Notepad window" width="810" height="178" border="0" class="img_1" />
+        </p>
+        <h2><a href="../flammaprobo_supporing/FlamMap_Text_Editor.htm">Using the FlamMap Text Editor</a>
+        </h2>
+        <p>The pencil <img src="../flammaprobo_supporing/Button_Editor.gif" alt="" border="0" class="img_1" /> button, found to the right of the <span class="Code-Command">Use Custom Fuels (*.fmd)</span> text box on the 
+ <span class="Code-Command">Inputs</span> tab of the "Run:" dialog 
+ box, opens the Custom Fuel Model (.FMD) File named in the associated text 
+ box.<span class="span_3">  <![CDATA[ ]]></span></p>
+        <p class="p_2">&#160;</p>
+    </body>
+</html>

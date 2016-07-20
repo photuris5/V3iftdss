@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:id="FileTypes\PU_Grid_Files.htm" MadCap:timeEstimate="0" MadCap:priority="0" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Grid Files</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Grid Themes</h1>
+        <p>Grid or raster refers to a type of spatial data used by a GIS that consists 
+ of rows and columns of rectangular cells. Each cell contains values or 
+ attributes for that particular theme or layer. For example, if the theme 
+ is elevation, then the attributes will contain elevations in meters or 
+ feet. <span class="span_2">FlamMap</span><MadCap:keyword term="Raster data" /> uses raster data 
+ as inputs for all spatial data on topography, fuels, and crown structure. 
+ <span class="span_2">FlamMap</span> can also export fire 
+ behavior information as raster themes for use in a GIS.</p>
+        <p>&#160;</p>
+        <p class="p_14">
+            <img src="../flammaprobo_supporing/Layers.gif" alt="Raster Layers used in FARSITE" title="Raster Layers used in FARSITE" width="560" height="543" border="0" class="img_1" />
+        </p>
+        <p>&#160;</p>
+        <p>FlamMap can import only ARC GRID ASCII format raster files.</p>
+        <p><span class="span_3">Note:</span> GRASS raster files can 
+ be used to create a Landscape (.LCP) File in <span class="span_2">FARSITE 
+ v4</span>. Then that Landscape (.LCP) File can be used in FlamMap.</p>
+        <p>All raster files used to create a <a href="PU_Landscape_File.htm">Landscape 
+ (.LCP) File</a> must be of identical resolution, <a href="Projection.htm">projection</a>, 
+ and must overlap exactly. Be sure that the values in each raster map have 
+ the correct units or correspond to the requirements for each theme. Auxiliary 
+ grid files do not have to be the same resolution or extent, but they should 
+ have the same projection and datum. &#160;</p>
+        <p>All ARC GRID ASCII format raster files must have a header to be imported 
+ into FlamMap. If you are unsure, examine the first 6 lines of one of your 
+ raster file. You should see the following format:</p>
+        <table style="height: 36px;" cellspacing="0" width="200" class="table_1">
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tr style="height: 6px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">ncols</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">610</p>
+                </td>
+            </tr>
+            <tr style="height: 6px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">nrows</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">545</p>
+                </td>
+            </tr>
+            <tr style="height: 6px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">xllcorner</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">372775.121594</p>
+                </td>
+            </tr>
+            <tr style="height: 6px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">yllcorner</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">5070054.003522</p>
+                </td>
+            </tr>
+            <tr style="height: 6px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">cellsize</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">30</p>
+                </td>
+            </tr>
+            <tr style="height: 6px;" class="tr_1">
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">NODATA_value</p>
+                </td>
+                <td style="width: 50%;" class="td_6">
+                    <p class="Table">-9999</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p class="p_15">A procedure 
+ for <a href="ug_Creating_GIS_Themes.htm" class="a_1">building 
+ the raster files using ArcView</a> can be found in this help system.</p>
+        <p class="p_16">&#160;</p>
+        <p class="p_17">All of the raster files FlamMap exports are ASCII 
+ format, not binary.</p>
+    </body>
+</html>

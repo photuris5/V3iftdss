@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:fileTags="RoboHelpStatus.Ready for Review">
+    <head><title>Modify Vector Display</title>
+        <link rel="StyleSheet" href="../flammaprobo_supporing/flammap2topic.css" type="text/css" />
+    </head>
+    <body>
+        <h1>Modify Vector Display</h1>
+        <p>FlamMap Spread, Wind, and Max Spot Vectors are point <a href="../FileTypes/PU_Shapefiles.htm">shapefiles</a> 
+ and contain attributes (in the .dbf file) that are used in the display. 
+ Thus the display properties and legending of these shapefiles is different 
+ from other shapefiles in FlamMap.</p>
+        <table cellspacing="0" width="100%" class="table_1">
+            <col width="157" />
+            <col style="width: 100%;" />
+            <tr class="tr_1">
+                <td width="157" class="td_1">
+                    <p>
+                        <img src="../flammaprobo_supporing/Shortcut_VectorProperties.gif" alt="Vector Theme shortcut menu" title="Vector Theme shortcut menu" width="157" height="126" border="0" class="img_1" />
+                    </p>
+                </td>
+                <td style="width: 100%;" class="td_2">
+                    <p>To 
+		 change the display of Vector Themes right-click on the theme item 
+		 in the "Tree" pane and select the <span class="Code-Command">Properties</span> 
+		 command to display the "Wind Vector Legend", "Max 
+		 Spot Vector", or "Spread Vector Legend" dialog 
+		 box. Although there are separate dialog boxes for each Vector, 
+		 the only difference between the three is the display of units. 
+		 So instructions for modifying the display of both types of vectors 
+		 is the same.</p>
+                </td>
+            </tr>
+        </table>
+        <p>
+            <img src="../flammaprobo_supporing/VectorLegend1.gif" alt="Defaulf settings in the Spread Vector Legend dialog box" title="Defaulf settings in the Spread Vector Legend dialog box" width="527" height="643" border="0" class="img_1" />
+        </p>
+        <h2>Theme:</h2>
+        <p>The <span class="Code-Command">Theme:</span> text box displays the name 
+ of the active theme you are modifying, you cannot change it here. To modify 
+ the legend of another theme you need to close this "Vector Legend" 
+ dialog box and select another theme as the active grid and reopen the 
+ "Legend" dialog box with the <span class="Code-Command">Properties</span> 
+ command.</p>
+        <h2>Data Range:</h2>
+        <p>The high and low values of the active theme are displayed here for your 
+ reference. You cannot edit these, but look carefully as you can easily 
+ discover problems with your theme.</p>
+        <h2>Vector Output</h2>
+        <p>The <span class="Code-Command">Vector Output</span><MadCap:keyword term="Auxiliary Themes:Wind Vectors" /> Section controls 
+ the width and spacing of the arrows depicting the Spread or Wind Vectors. 
+ Modifying he color and length of the arrows is described below.</p>
+        <h3>Line Width</h3>
+        <p>The Line Width spin box controls the width of the display arrows. It 
+ refers to pixels so the actual width depends on your screen resolution. 
+ Typically if the default of 1 is too small a value of 2 or 3 will create 
+ easier to see arrows.</p>
+        <h3>Display Density</h3>
+        <p>Showing an arrow for each output grid cell can create a very confusing 
+ display. There are 2 ways you can control the density of arrows on the 
+ display.</p>
+        <ul class="ul_2">
+            <li class="p">
+                <p>Selecting the <span class="Code-Command">Auto</span> 
+	 radio button maintains the arrows at a fixed spacing regardless of 
+	 how much you zoom in or out. You control the spacing with the <span class="Code-Command">Target Size (Pixels):</span> spin box. So as 
+	 you zoom in you will see additional detail (more arrows per area) 
+	 and zooming out will reduce the detail. However the Vectors (arrows) 
+	 are based on the underlying grids (ROS and Max Spread Direction for 
+	 Spread Vectors, Velocity and Azimuth for Wind Vectors) so the density 
+	 of arrows will not exceed one per grid cell.</p>
+            </li>
+            <li class="p">
+                <p>The <span class="Code-Command">Manual</span> radio 
+	 button allows you to keep the display arrows at a constant density, 
+	 regardless of the zoom. You control the density with the Rows/Cols 
+	 to Skip: spin box. The default value of "0" places an arrow 
+	 in the center of every underlying grid cell, a "1" skips 
+	 every other cell, "2" skips two cells, etc.</p>
+            </li>
+        </ul>
+        <h2>Text Output</h2>
+        <p>You can display the magnitude (speed) of each arrow in the <span class="Code-Command">Text 
+ Output</span> section. Select the <span class="Code-Command">Output Speed</span> 
+ check box to display the speed value next to each arrow in your display. 
+ You can control the text size and precision with the <span class="Code-Command">Font 
+ Point Size:</span> and <span class="Code-Command">Decimal Places:</span> 
+ spin boxes.</p>
+        <h2>Units:</h2>
+        <p>The unit choices for the active theme are shown in the <span class="Code-Command">Velocity 
+ Units:</span> drop-down list. For Wind Vectors the velocity units are 
+ miles per hour, Spread Vectors units are meters per minute, and Max Spot 
+ units are meters. Unlike the grid themes these units cannot be changed.</p>
+        <p>Note: A quick approximation for chains per hour is to multiply meters 
+ per minute by 3. You can quickly convert mph to km/h by multiplying by 
+ 1.6.</p>
+        <h2>Number of Classes:</h2>
+        <p>You can easily change the number of legend classes with the <span class="Code-Command">Number 
+ of Classes:</span> spin box. This creates an evenly distributed number 
+ of legend classes across the data range. To create a legend with unevenly 
+ distributed classes or eliminate outlying values, use the procedures described 
+ in the <a href="RH_Create_Modify_Legend.htm#ChangeNumberOfClasses">Changing 
+ the Legend Classes</a>.</p>
+        <p>CAUTION: The use of evenly distributed classes can hide much of the 
+ interesting information in your theme. Typically in fire behavior, the 
+ information of interest is not evenly distributed, it's clustered at the 
+ low end of the scale. Also a single cell or point with a very high value 
+ can skew the legend. Spend the time to explore different legend arrangements.</p>
+        <h2>
+            <MadCap:keyword term="Editing:Legends" />Legend Colors, Predefined Legends, &amp; Color Ramps</h2>
+        <p><a href="RH_Create_Modify_Legend.htm#ChangingColors">Changing colors</a> 
+ and using a <span class="Code-Command"><a href="RH_Create_Modify_Legend.htm#PredefinedLegend">Predefined 
+ Legend</a></span> or <span class="Code-Command"><a href="RH_Create_Modify_Legend.htm#ColorRamp">Color 
+ Ramp</a></span> for Wind/Spread Vectors is identical to the methods used 
+ for grid themes.</p>
+        <h2>Relative Length</h2>
+        <p>The <span class="Code-Command">Relative Length</span> values control 
+ the length of the display arrows for each class, small values create short 
+ arrows and larger values display longer arrows. By default the relative 
+ length begins with "1" for the smallest class and increments 
+ each class by one. The default increments may be hard to discern in the 
+ "Display" Pane so you can change the relative length values 
+ in several ways:</p>
+        <ul class="ul_2">
+            <li class="p">
+                <p>first, you can simply select a relative length value 
+	 with the cursor and change it from the keyboard,</p>
+            </li>
+            <li class="p">
+                <p>second, you can ramp values by shift-clicking a range 
+	 of rows and then right-clicking to display the short cut menu with 
+	 the <span class="Code-Command">Auto Ramp</span> and <span class="Code-Command">Define 
+	 Ramp</span> commands. Selecting the <span class="Code-Command">Auto 
+	 Ramp</span> command will ramp the relative lengths between the existing 
+	 top and bottom selected values. The <span class="Code-Command">Define 
+	 Ramp</span> command gives you the opportunity to define the top and 
+	 bottom values in the "Set Relative Length Ramp" dialog box 
+	 before ramping.</p>
+            </li>
+        </ul>
+        <p>Usually lengths of "1" or "2" are too small to discern 
+ differences and values greater than "25" tend to be too big.</p>
+        <h2>The OK Button</h2>
+        <p>To close the "Spread Vector Legend" dialog box after you have 
+ made your changes, click the <span class="Code-Command">OK</span> button 
+ at the bottom of the dialog box. The&#160;"Display" pane will 
+ now reflect your changes.</p>
+    </body>
+</html>
