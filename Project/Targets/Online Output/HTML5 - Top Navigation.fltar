@@ -13,7 +13,9 @@
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
   ConditionTagExpression="include[General.Online]exclude[General.PDF]"
   DefaultUrl="/Content/Home.htm"
-  MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc">
+  MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
+  DisableAutoSync="true"
+  OutputFolder="D:\V3IFTDSS\v3iftdss\test_publish_folder">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

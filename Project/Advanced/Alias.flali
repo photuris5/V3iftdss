@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile>
+    <Map Name="NEW" Link="/Content/Home.htm" />
+    <Map Name="NEW1" Link="/Content/0_IFTDSS/About IFTDSS.htm" />
+    <Map Name="NEW2" Link="/Content/0_IFTDSS/Disclaimer.htm" />
+    <Map Name="NEW3" Link="/Content/0_IFTDSS/Known Issues.htm" />
+    <Map Name="NEW4" Link="/Content/0_IFTDSS/Technical Topics.htm" />
+    <Map Name="NEW5" Link="/Content/0_IFTDSS/TEST TOPIC 7 21 2016.htm" />
+    <Map Name="NEW6" Link="/Content/0_IFTDSS/What's New.htm" />
+    <Map Name="NEW7" Link="/Content/1_Getting Started/Getting Help.htm" />
+    <Map Name="NEW8" Link="/Content/1_Getting Started/Setting up an Account.htm" />
+    <Map Name="NEW9" Link="/Content/2_Methods/Data Management.htm" />
+    <Map Name="NEW10" Link="/Content/2_Methods/Map Functions.htm" />
+    <Map Name="NEW11" Link="/Content/2_Methods/Overview of Modules.htm" />
+    <Map Name="NEW12" Link="/Content/2_Methods/Projects and Runs.htm" />
+    <Map Name="NEW13" Link="/Content/2_Methods/Workflows.htm" />
+    <Map Name="NEW14" Link="/Content/3_Tutorials/Tutorials.htm" />
+    <Map Name="NEW15" Link="/Content/4_Ext Tools/Behave.htm" />
+    <Map Name="NEW16" Link="/Content/4_Ext Tools/FFA_Consume.htm" />
+    <Map Name="NEW17" Link="/Content/4_Ext Tools/FFA_Digital_Photo_Series.htm" />
+    <Map Name="NEW18" Link="/Content/4_Ext Tools/FFA_FCCS.htm" />
+    <Map Name="NEW19" Link="/Content/4_Ext Tools/FFA_FEPS.htm" />
+    <Map Name="NEW20" Link="/Content/4_Ext Tools/FireFamilyPlus.htm" />
+    <Map Name="NEW21" Link="/Content/4_Ext Tools/FlamMap.htm" />
+    <Map Name="NEW22" Link="/Content/4_Ext Tools/FOFEM.htm" />
+    <Map Name="NEW23" Link="/Content/4_Ext Tools/Risk.htm" />
+    <Map Name="NEW24" Link="/Content/5_References/References.htm" />
+    <Map Name="NEW25" Link="/Content/6_User Stories/User_Stories.htm" />
+    <Map Name="NEW26" Link="/Content/7_Workshops/Workshops.htm" />
+    <Map Name="NEW27" Link="/Content/A_Getting Started/Basic Steps.htm" />
+    <Map Name="NEW28" Link="/Content/A_Getting Started/Getting Started.htm" />
+    <Map Name="NEW29" Link="/Content/A_Getting Started/Known Issues.htm" />
+    <Map Name="NEW30" Link="/Content/A_Getting Started/Whats New.htm" />
+    <Map Name="NEW31" Link="/Content/B_Links and Lists/Links.htm" />
+    <Map Name="NEW32" Link="/Content/B_Links and Lists/LinksAndLists.htm" />
+    <Map Name="NEW33" Link="/Content/B_Links and Lists/Lists.htm" />
+    <Map Name="NEW34" Link="/Content/C_Conditions Notes Tables/Conditions.htm" />
+    <Map Name="NEW35" Link="/Content/C_Conditions Notes Tables/ConditionsNotesTables.htm" />
+    <Map Name="NEW36" Link="/Content/C_Conditions Notes Tables/NotesExamplesQuotations.htm" />
+    <Map Name="NEW37" Link="/Content/C_Conditions Notes Tables/Tables.htm" />
+    <Map Name="NEW38" Link="/Content/D_Images/ImagePositionedLeft.htm" />
+    <Map Name="NEW39" Link="/Content/D_Images/ImagePositionedRight.htm" />
+    <Map Name="NEW40" Link="/Content/D_Images/Images.htm" />
+    <Map Name="NEW41" Link="/Content/D_Images/ImageWithAbsolutePosition.htm" />
+    <Map Name="NEW42" Link="/Content/D_Images/ImageWithinList.htm" />
+    <Map Name="NEW43" Link="/Content/D_Images/Positioned Images.htm" />
+    <Map Name="NEW44" Link="/Content/D_Images/ThumbnailImage.htm" />
+    <Map Name="NEW45" Link="/Content/E_Footer Topics/Company Information.htm" />
+    <Map Name="NEW46" Link="/Content/E_Footer Topics/FAQs.htm" />
+    <Map Name="NEW47" Link="/Content/E_Footer Topics/PDF Downloads.htm" />
+    <Map Name="NEW48" Link="/Content/E_Footer Topics/Tips.htm" />
+    <Map Name="NEW49" Link="/Content/Print Only Topics/Appendix.htm" />
+    <Map Name="NEW50" Link="/Content/Print Only Topics/Copyright.htm" />
+    <Map Name="NEW51" Link="/Content/Print Only Topics/Glossary.htm" />
+    <Map Name="NEW52" Link="/Content/Print Only Topics/Index.htm" />
+    <Map Name="NEW53" Link="/Content/Print Only Topics/Title.htm" />
+    <Map Name="NEW54" Link="/Content/Print Only Topics/TOC.htm" />
+    <Map Name="NEW55" Link="/Content/Print Only Topics/Welcome.htm" />
+</CatapultAliasFile>
