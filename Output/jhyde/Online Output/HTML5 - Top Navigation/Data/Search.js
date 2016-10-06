@@ -1,1 +1,0 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','sens'],p:[['0',7],['development',28],['it',9],['row',45],['with',12]]});
