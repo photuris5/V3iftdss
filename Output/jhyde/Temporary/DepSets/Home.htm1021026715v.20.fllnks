@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileClass="HomePage"
+  FileSearchable="true"
+  MasterPage="file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/Resources/MasterPages/HomePage.flmsp"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/font-awesome.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/timeline.css" />
+    <Link
+      Url="Project/Skins/HomeSearchBar.flskn" />
+    <Link
+      Url="Content/E_Footer Topics/FAQs.htm" />
+    <Link
+      Url="Content/Resources/Images/getting_started_icon.png" />
+    <Link
+      Url="Content/Resources/Images/concepts_icon.png" />
+    <Link
+      Url="Content/Resources/Images/WhatsNew.png" />
+    <Link
+      Url="Content/Resources/Images/FAQs.png" />
+    <Link
+      Url="Content/02-Getting-Started/Whatcaniftdssdoforyou.htm" />
+    <Link
+      Url="Content/A_Getting Started/Basic Steps.htm" />
+    <Link
+      Url="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" />
+    <Link
+      Url="Content/Resources/Images/PDF Cover.png" />
+    <Link
+      Url="Content/E_Footer Topics/PDF Downloads.htm" />
+    <Link
+      Url="https://youtu.be/cFGnn5TQoyA" />
+    <Link
+      Url="https://youtu.be/l2cOzN5qOmw" />
+    <Link
+      Url="https://youtu.be/bxpRchbGfk4" />
+    <Link
+      Url="https://youtu.be/GaNE2yXo_J4" />
+    <Link
+      Url="https://youtu.be/Ub5oFd4IRlk" />
+    <Link
+      Url="https://youtu.be/-8o8L2uAbpw" />
+    <Link
+      Url="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    <Link
+      Url="Content/Resources/js/timeline.js" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/MasterPages/HomePage.flmsp" />
+    <Link
+      Url="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/font-awesome.css" />
+    <Link
+      Url="Content/Resources/Stylesheets/timeline.css?v1" />
+    <Link
+      Url="Project/Skins/HomeSearchBar.flskn" />
+    <Link
+      Url="Content/E_Footer Topics/FAQs.htm" />
+    <Link
+      Url="Content/Resources/Images/getting_started_icon.png" />
+    <Link
+      Url="Content/Resources/Images/concepts_icon.png" />
+    <Link
+      Url="Content/Resources/Images/WhatsNew.png" />
+    <Link
+      Url="Content/Resources/Images/FAQs.png" />
+    <Link
+      Url="Content/02-Getting-Started/Whatcaniftdssdoforyou.htm" />
+    <Link
+      Url="Content/A_Getting Started/Basic Steps.htm" />
+    <Link
+      Url="http://docs.madcapsoftware.com/FlareTemplates/UserGuideAGreen.pdf" />
+    <Link
+      Url="Content/Resources/Images/PDF Cover.png" />
+    <Link
+      Url="Content/E_Footer Topics/PDF Downloads.htm" />
+    <Link
+      Url="https://youtu.be/cFGnn5TQoyA?list=PLwgiLlrS7nfrzexASheQSNuXWgtcQNJvG" />
+    <Link
+      Url="https://youtu.be/l2cOzN5qOmw?list=PLwgiLlrS7nfrzexASheQSNuXWgtcQNJvG" />
+    <Link
+      Url="https://youtu.be/bxpRchbGfk4?list=PLwgiLlrS7nfrzexASheQSNuXWgtcQNJvG" />
+    <Link
+      Url="https://youtu.be/GaNE2yXo_J4?list=PLwgiLlrS7nfrzexASheQSNuXWgtcQNJvG" />
+    <Link
+      Url="https://youtu.be/Ub5oFd4IRlk?list=PLwgiLlrS7nfrzexASheQSNuXWgtcQNJvG" />
+    <Link
+      Url="https://youtu.be/-8o8L2uAbpw?list=PLwgiLlrS7nfrzexASheQSNuXWgtcQNJvG" />
+    <Link
+      Url="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    <Link
+      Url="Content/Resources/js/timeline.js" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/StylesForHomePage.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/font-awesome.css" />
+    <Url
+      Source="Content/Resources/Stylesheets/timeline.css?v1" />
+  </Stylesheets>
+</CatapultFileLinkSet>

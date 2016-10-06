@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','sens'],p:[['0',7],['development',29],['it',13],['rows',45],['with',19]]});
