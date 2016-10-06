@@ -14,7 +14,10 @@
   ConditionTagExpression="include[General.Online]exclude[General.PDF]"
   DefaultUrl="/Content/Home.htm"
   MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
-  DisableAutoSync="true">
+  DisableAutoSync="true"
+  MakeFileLowerCase="true"
+  OutputFile="index"
+  OutputFolder="C:\Users\jhyde\Documents\GitHub\V3iftdss\testoutput">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
