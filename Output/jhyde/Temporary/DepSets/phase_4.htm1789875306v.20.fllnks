@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://www.frames.gov/documents/ift-dss/task2_conceptual_design_v1_0_20090121.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/iftdss/IFTDSS_Part-1_PMP_10-7-2011.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/iftdss/IFTDSS_PhaseIV_Final_Report.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/ift-dss/ift-dss_introduction_slideshow_2011_jan.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/iftdss/IFTDSS_Developers_Guide_FINAL.pdf" />
+    <Link
+      Url="https://iftdss.firenet.gov/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://www.frames.gov/documents/ift-dss/task2_conceptual_design_v1_0_20090121.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/iftdss/IFTDSS_Part-1_PMP_10-7-2011.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/iftdss/IFTDSS_PhaseIV_Final_Report.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/ift-dss/ift-dss_introduction_slideshow_2011_jan.pdf" />
+    <Link
+      Url="https://www.frames.gov/documents/iftdss/IFTDSS_Developers_Guide_FINAL.pdf" />
+    <Link
+      Url="https://iftdss.firenet.gov/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
