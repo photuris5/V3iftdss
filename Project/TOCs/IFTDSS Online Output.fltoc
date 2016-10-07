@@ -11,6 +11,9 @@
       <TocEntry
         Title="Setting up an Account"
         Link="/Content/1_Getting Started/Setting up an Account.htm" />
+      <TocEntry
+        Title="Navigating [%=General.ProductName%]"
+        Link="/Content/1_Getting Started/Navigating IFTDSS.htm" />
     </TocEntry>
     <TocEntry
       Title="Methods">
