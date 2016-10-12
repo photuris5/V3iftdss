@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultConditionTagSet>
   <ConditionTag
     Comment=""
@@ -8,4 +8,8 @@
     Comment=""
     Name="PDF"
     BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Exclude"
+    Comment="" />
 </CatapultConditionTagSet>

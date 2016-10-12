@@ -6,14 +6,14 @@
     <TocEntry
       Title="Getting Started">
       <TocEntry
+        Title="Navigating [%=General.ProductName%]"
+        Link="/Content/1_Getting Started/Navigating IFTDSS.htm" />
+      <TocEntry
         Title="Getting Help"
         Link="/Content/1_Getting Started/Getting Help.htm" />
       <TocEntry
         Title="Setting up an Account"
         Link="/Content/1_Getting Started/Setting up an Account.htm" />
-      <TocEntry
-        Title="Navigating [%=General.ProductName%]"
-        Link="/Content/1_Getting Started/Navigating IFTDSS.htm" />
     </TocEntry>
     <TocEntry
       Title="Methods">
@@ -38,9 +38,6 @@
     Title="Whats New"
     Link="/Content/0_IFTDSS/What's New.htm" />
   <TocEntry
-    Title="Known Issues"
-    Link="/Content/0_IFTDSS/Known Issues.htm" />
-  <TocEntry
     Title="Tutorials">
     <TocEntry
       Title="Tutorials"
@@ -52,23 +49,30 @@
       Title="Online Courses"
       Link="https://www.frames.gov/onlinecourses/" />
     <TocEntry
-      Title="PDFs" />
-    <TocEntry
-      Title="References">
-      <TocEntry
-        Title="References"
-        Link="/Content/5_References/References.htm" />
-    </TocEntry>
-    <TocEntry
       Title="Videos"
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
+      Title="PDFs" />
+    <TocEntry
       Title="Webinars" />
+    <TocEntry
+      Title="Documentation">
+      <TocEntry
+        Title="FlamMap"
+        Link="/Content/4_Ext Tools/FlamMap.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="References"
+      Link="/Content/5_References/References.htm" />
   </TocEntry>
   <TocEntry
-    Title=" Feedback"
-    Link="https://www.google.com/"></TocEntry>
-  <TocEntry
     Title=" Log In"
-    Link="https://iftdss.firenet.gov/"></TocEntry>
+    Link="https://iftdss.firenet.gov/"
+    conditions="General.Exclude"></TocEntry>
+  <TocEntry
+    Title="Known Issues"
+    Link="/Content/0_IFTDSS/Known Issues.htm" />
+  <TocEntry
+    Title=" Feedback"
+    Link="mailto:iftdss.help@firenet.gov"></TocEntry>
 </CatapultToc>

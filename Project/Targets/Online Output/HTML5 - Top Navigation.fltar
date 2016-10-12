@@ -11,7 +11,7 @@
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   ResultsPerPage="10"
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
-  ConditionTagExpression="include[General.Online]exclude[General.PDF]"
+  ConditionTagExpression="include[General.Online] exclude[General.Exclude or General.PDF] "
   DefaultUrl="/Content/Home.htm"
   MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
   DisableAutoSync="true"

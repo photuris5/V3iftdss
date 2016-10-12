@@ -55,3 +55,14 @@
 #define NEW53 1053
 #define NEW54 1054
 #define NEW55 1055
+#define NEW56 1056
+#define NEW57 1057
+#define NEW58 1058
+#define NEW59 1059
+#define NEW60 1060
+#define NEW61 1061
+#define NEW62 1062
+#define NEW63 1063
+#define NEW64 1064
+#define NEW65 1065
+#define NEW66 1066

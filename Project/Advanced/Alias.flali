@@ -56,4 +56,15 @@
     <Map Name="NEW53" Link="/Content/Print Only Topics/Title.htm" />
     <Map Name="NEW54" Link="/Content/Print Only Topics/TOC.htm" />
     <Map Name="NEW55" Link="/Content/Print Only Topics/Welcome.htm" />
+    <Map Name="NEW56" Link="/Content/1_Getting Started/Navigating IFTDSS.htm" />
+    <Map Name="NEW57" Link="/Content/8_Background/Background.htm" />
+    <Map Name="NEW58" Link="/Content/8_Background/phase_1.htm" />
+    <Map Name="NEW59" Link="/Content/8_Background/phase_2.htm" />
+    <Map Name="NEW60" Link="/Content/8_Background/phase_3.htm" />
+    <Map Name="NEW61" Link="/Content/8_Background/phase_4.htm" />
+    <Map Name="NEW62" Link="/Content/8_Background/phase_5.htm" />
+    <Map Name="NEW63" Link="/Content/8_Background/Project Team.htm" />
+    <Map Name="NEW64" Link="/Content/8_Background/rda_1.htm" />
+    <Map Name="NEW65" Link="/Content/Resources/Stylesheets/icons/icons.html" />
+    <Map Name="NEW66" Link="/Content/Resources/Stylesheets/icons/icons.html" />
 </CatapultAliasFile>
