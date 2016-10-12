@@ -454,6 +454,17 @@ p.MiniTOC1
 	
 }
 
+p.note
+{
+	color: #000000;
+	border: solid 3px #000000;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+	mc-auto-number-format: '{b}Note: {/b}';
+}
+
 p.quotationname
 {
 	text-align: right;

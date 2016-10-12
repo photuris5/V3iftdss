@@ -6,7 +6,14 @@
   FilePriority="0">
   <Links />
   <LongLinks />
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Rothermel1991" />
+    <Anchor
+      Name="Rothermel1972" />
+    <Anchor
+      Name="VanWagner1977" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

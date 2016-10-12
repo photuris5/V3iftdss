@@ -1,1 +1,1 @@
-define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','sara'],p:[['0',8],['develop',34],['is',47],['report',32],['was',29]]});
+define({r:0.5,st:'Stem',n:1,t:[0],u:['../content/0_iftdss/about iftdss.htm'],s:['0','product'],p:[['0',8],['currently',12],['in',30],['practices',30],['this',16]]});

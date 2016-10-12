@@ -49,5 +49,16 @@ xmlAliasData += '    <Map Name=\"NEW45\" Link=\"e_footer topics/company informat
 xmlAliasData += '    <Map Name=\"NEW46\" Link=\"e_footer topics/faqs.htm\" ResolvedId=\"1046\" />';
 xmlAliasData += '    <Map Name=\"NEW47\" Link=\"e_footer topics/pdf downloads.htm\" ResolvedId=\"1047\" />';
 xmlAliasData += '    <Map Name=\"NEW48\" Link=\"e_footer topics/tips.htm\" ResolvedId=\"1048\" />';
+xmlAliasData += '    <Map Name=\"NEW56\" Link=\"1_getting started/navigating iftdss.htm\" ResolvedId=\"1056\" />';
+xmlAliasData += '    <Map Name=\"NEW57\" Link=\"8_background/background.htm\" ResolvedId=\"1057\" />';
+xmlAliasData += '    <Map Name=\"NEW58\" Link=\"8_background/phase_1.htm\" ResolvedId=\"1058\" />';
+xmlAliasData += '    <Map Name=\"NEW59\" Link=\"8_background/phase_2.htm\" ResolvedId=\"1059\" />';
+xmlAliasData += '    <Map Name=\"NEW60\" Link=\"8_background/phase_3.htm\" ResolvedId=\"1060\" />';
+xmlAliasData += '    <Map Name=\"NEW61\" Link=\"8_background/phase_4.htm\" ResolvedId=\"1061\" />';
+xmlAliasData += '    <Map Name=\"NEW62\" Link=\"8_background/phase_5.htm\" ResolvedId=\"1062\" />';
+xmlAliasData += '    <Map Name=\"NEW63\" Link=\"8_background/project team.htm\" ResolvedId=\"1063\" />';
+xmlAliasData += '    <Map Name=\"NEW64\" Link=\"8_background/rda_1.htm\" ResolvedId=\"1064\" />';
+xmlAliasData += '    <Map Name=\"NEW65\" Link=\"resources/stylesheets/icons/icons.html\" ResolvedId=\"1065\" />';
+xmlAliasData += '    <Map Name=\"NEW66\" Link=\"resources/stylesheets/icons/icons.html\" ResolvedId=\"1066\" />';
 xmlAliasData += '</CatapultAliasFile>';
 MadCap.Utilities.Xhr._FilePathToXmlStringMap.Add('Alias', xmlAliasData);

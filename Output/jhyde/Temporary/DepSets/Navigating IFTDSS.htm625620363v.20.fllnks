@@ -10,6 +10,8 @@
     <Link
       Url="Content/Resources/Images/menu_bar.png" />
     <Link
+      Url="Content/Resources/Images/iftdss_map_tools_2.png" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
   </Links>
   <LongLinks>
@@ -17,6 +19,8 @@
       Url="Content/Resources/Images/iftdss_cycle.png" />
     <Link
       Url="Content/Resources/Images/menu_bar.png" />
+    <Link
+      Url="Content/Resources/Images/iftdss_map_tools_2.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
   </LongLinks>

@@ -4,14 +4,27 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Content/Resources/Images/getting_help.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/getting_help.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions />
