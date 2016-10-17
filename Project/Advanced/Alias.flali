@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultAliasFile>
+    <Map Name="Home" Link="/Content/Home.htm" />
+    <Map Name="About_IFTDSS" Link="/Content/0_IFTDSS/About IFTDSS.htm" />
+    <Map Name="Disclaimer" Link="/Content/0_IFTDSS/Disclaimer.htm" />
+    <Map Name="Known_Issues" Link="/Content/0_IFTDSS/Known Issues.htm" />
+    <Map Name="Technical_Topics" Link="/Content/0_IFTDSS/Technical Topics.htm" />
+    <Map Name="TEST_TOPIC_7_21_2016" Link="/Content/0_IFTDSS/TEST TOPIC 7 21 2016.htm" />
+    <Map Name="What_s_New" Link="/Content/0_IFTDSS/What's New.htm" />
+    <Map Name="Getting_Help" Link="/Content/1_Getting Started/Getting Help.htm" />
+    <Map Name="Navigating_IFTDSS" Link="/Content/1_Getting Started/Navigating IFTDSS.htm" />
+    <Map Name="Setting_up_an_Account" Link="/Content/1_Getting Started/Setting up an Account.htm" />
+    <Map Name="Data_Management" Link="/Content/2_Methods/Data Management.htm" />
+    <Map Name="Map_Functions" Link="/Content/2_Methods/Map Functions.htm" />
+    <Map Name="Overview_of_Modules" Link="/Content/2_Methods/Overview of Modules.htm" />
+    <Map Name="Projects_and_Runs" Link="/Content/2_Methods/Projects and Runs.htm" />
+    <Map Name="Workflows" Link="/Content/2_Methods/Workflows.htm" />
+    <Map Name="Tutorials" Link="/Content/3_Tutorials/Tutorials.htm" />
+    <Map Name="Behave" Link="/Content/4_Ext Tools/Behave.htm" />
+    <Map Name="FFA_Consume" Link="/Content/4_Ext Tools/FFA_Consume.htm" />
+    <Map Name="FFA_Digital_Photo_Series" Link="/Content/4_Ext Tools/FFA_Digital_Photo_Series.htm" />
+    <Map Name="FFA_FCCS" Link="/Content/4_Ext Tools/FFA_FCCS.htm" />
+    <Map Name="FFA_FEPS" Link="/Content/4_Ext Tools/FFA_FEPS.htm" />
+    <Map Name="FireFamilyPlus" Link="/Content/4_Ext Tools/FireFamilyPlus.htm" />
+    <Map Name="FlamMap" Link="/Content/4_Ext Tools/FlamMap.htm" />
+    <Map Name="FlamMapCrown" Link="/Content/4_Ext Tools/FlamMapCrown.htm" />
+    <Map Name="FlamMapInput" Link="/Content/4_Ext Tools/FlamMapInput.htm" />
+    <Map Name="FlamMapOutput" Link="/Content/4_Ext Tools/FlamMapOutput.htm" />
+    <Map Name="FOFEM" Link="/Content/4_Ext Tools/FOFEM.htm" />
+    <Map Name="Risk" Link="/Content/4_Ext Tools/Risk.htm" />
+    <Map Name="References" Link="/Content/5_References/References.htm" />
+    <Map Name="User_Stories" Link="/Content/6_User Stories/User_Stories.htm" />
+    <Map Name="Workshops" Link="/Content/7_Workshops/Workshops.htm" />
+    <Map Name="Background" Link="/Content/8_Background/Background.htm" />
+    <Map Name="phase_1" Link="/Content/8_Background/phase_1.htm" />
+    <Map Name="phase_2" Link="/Content/8_Background/phase_2.htm" />
+    <Map Name="phase_3" Link="/Content/8_Background/phase_3.htm" />
+    <Map Name="phase_4" Link="/Content/8_Background/phase_4.htm" />
+    <Map Name="phase_5" Link="/Content/8_Background/phase_5.htm" />
+    <Map Name="Project_Team" Link="/Content/8_Background/Project Team.htm" />
+    <Map Name="rda_1" Link="/Content/8_Background/rda_1.htm" />
+    <Map Name="Basic_Steps" Link="/Content/A_Getting Started/Basic Steps.htm" />
+    <Map Name="Getting_Started" Link="/Content/A_Getting Started/Getting Started.htm" />
+    <Map Name="Known_Issues1" Link="/Content/A_Getting Started/Known Issues.htm" />
+    <Map Name="Whats_New" Link="/Content/A_Getting Started/Whats New.htm" />
+    <Map Name="Links" Link="/Content/B_Links and Lists/Links.htm" />
+    <Map Name="LinksAndLists" Link="/Content/B_Links and Lists/LinksAndLists.htm" />
+    <Map Name="Lists" Link="/Content/B_Links and Lists/Lists.htm" />
+    <Map Name="Conditions" Link="/Content/C_Conditions Notes Tables/Conditions.htm" />
+    <Map Name="ConditionsNotesTables" Link="/Content/C_Conditions Notes Tables/ConditionsNotesTables.htm" />
+    <Map Name="NotesExamplesQuotations" Link="/Content/C_Conditions Notes Tables/NotesExamplesQuotations.htm" />
+    <Map Name="Tables" Link="/Content/C_Conditions Notes Tables/Tables.htm" />
+    <Map Name="ImagePositionedLeft" Link="/Content/D_Images/ImagePositionedLeft.htm" />
+    <Map Name="ImagePositionedRight" Link="/Content/D_Images/ImagePositionedRight.htm" />
+    <Map Name="Images" Link="/Content/D_Images/Images.htm" />
+    <Map Name="ImageWithAbsolutePosition" Link="/Content/D_Images/ImageWithAbsolutePosition.htm" />
+    <Map Name="ImageWithinList" Link="/Content/D_Images/ImageWithinList.htm" />
+    <Map Name="Positioned_Images" Link="/Content/D_Images/Positioned Images.htm" />
+    <Map Name="ThumbnailImage" Link="/Content/D_Images/ThumbnailImage.htm" />
+    <Map Name="Company_Information" Link="/Content/E_Footer Topics/Company Information.htm" />
+    <Map Name="FAQs" Link="/Content/E_Footer Topics/FAQs.htm" />
+    <Map Name="PDF_Downloads" Link="/Content/E_Footer Topics/PDF Downloads.htm" />
+    <Map Name="Tips" Link="/Content/E_Footer Topics/Tips.htm" />
+    <Map Name="Appendix" Link="/Content/Print Only Topics/Appendix.htm" />
+    <Map Name="Copyright" Link="/Content/Print Only Topics/Copyright.htm" />
+    <Map Name="Glossary" Link="/Content/Print Only Topics/Glossary.htm" />
+    <Map Name="Index" Link="/Content/Print Only Topics/Index.htm" />
+    <Map Name="Title" Link="/Content/Print Only Topics/Title.htm" />
+    <Map Name="TOC" Link="/Content/Print Only Topics/TOC.htm" />
+    <Map Name="Welcome" Link="/Content/Print Only Topics/Welcome.htm" />
+    <Map Name="icons" Link="/Content/Resources/Stylesheets/icons/icons.html" />
+    <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
+</CatapultAliasFile>
