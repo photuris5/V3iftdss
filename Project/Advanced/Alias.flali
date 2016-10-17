@@ -70,4 +70,10 @@
     <Map Name="Welcome" Link="/Content/Print Only Topics/Welcome.htm" />
     <Map Name="icons" Link="/Content/Resources/Stylesheets/icons/icons.html" />
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
+    <Map Name="s_flammap_crown" Link="/Content/9_short/s_flammap_crown.htm" />
+    <Map Name="s_flammap_fm" Link="/Content/9_short/s_flammap_fm.htm" />
+    <Map Name="s_flammap_lndscape" Link="/Content/9_short/s_flammap_lndscape.htm" />
+    <Map Name="s_flammap_name" Link="/Content/9_short/s_flammap_name.htm" />
+    <Map Name="s_flammap_wind" Link="/Content/9_short/s_flammap_wind.htm" />
+    <Map Name="s_flammap_wthr" Link="/Content/9_short/s_flammap_wthr.htm" />
 </CatapultAliasFile>

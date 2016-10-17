@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultBatchTarget
+  Version="1"
+  Comment="New Batch Target">
+  <Targets>
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="Online Output/HTML5 - Top Navigation"
+      Type="HTML5"
+      Build="true"
+      Publish="true"
+      LastBuilt="2016-10-17T10:07:49.4806220-07:00"
+      LastPublished="2016-10-12T15:59:26.8965410-07:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF - Crop Reg Marks (CRM)/UserGuideA7X9CRM"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF - Crop Reg Marks (CRM)/UserGuideA8_5X11CRM"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF - Crop Reg Marks (CRM)/UserGuideB7X9CRM"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF - Crop Reg Marks (CRM)/UserGuideB8_5X11CRM"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/UserGuideA7X9"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/UserGuideA8_5X11"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/UserGuideB7X9"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="PDF/UserGuideB8_5X11"
+      Type="PDF" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="skinless/skinless"
+      Type="HTML5"
+      Build="true"
+      Publish="true" />
+  </Targets>
+</CatapultBatchTarget>

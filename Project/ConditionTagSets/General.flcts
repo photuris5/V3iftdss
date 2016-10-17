@@ -12,4 +12,8 @@
     BackgroundColor="#0000ff"
     Name="Exclude"
     Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="shorthelp"
+    Comment="For field-level help text, 1-2 sentences max." />
 </CatapultConditionTagSet>

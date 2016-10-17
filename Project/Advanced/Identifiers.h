@@ -68,3 +68,9 @@
 #define Welcome 1067
 #define icons 1068
 #define icons1 1069
+#define s_flammap_crown 1070
+#define s_flammap_fm 1071
+#define s_flammap_lndscape 1072
+#define s_flammap_name 1073
+#define s_flammap_wind 1074
+#define s_flammap_wthr 1075
