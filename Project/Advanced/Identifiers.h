@@ -74,3 +74,12 @@
 #define s_flammap_name 1073
 #define s_flammap_wind 1074
 #define s_flammap_wthr 1075
+#define Landscape_summary 1076
+#define s_createnew 1077
+#define s_draw 1078
+#define s_fbfm 1079
+#define s_landfire 1080
+#define s_name 1081
+#define s_resolution 1082
+#define s_w_video 1083
+#define sw_video2 1084

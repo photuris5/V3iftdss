@@ -43,4 +43,8 @@
     Type="DateTime"
     LastUpdated="2015-12-31T09:28:31.1216229-08:00"
     EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="MapStudio"
+    Comment=""
+    EvaluatedDefinition="&lt;MadCap:variable name=&quot;General.MapStudio&quot; /&gt;">&lt;MadCap:variable name="General.MapStudio" /&gt;</Variable>
 </CatapultVariableSet>
