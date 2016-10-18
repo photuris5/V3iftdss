@@ -1,1 +1,1 @@
-define({'ConditionsBlockElementsTables':[61,62,63,64],'Images':[65,66,68,70],'LinksLists':[58,59,60],});
+define({'ConditionsBlockElementsTables':[62,63,64,65],'Images':[66,67,69,71],'LinksLists':[59,60,61],});
