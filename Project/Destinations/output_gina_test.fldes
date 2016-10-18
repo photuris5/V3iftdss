@@ -12,5 +12,5 @@
   ProviderType="Git"
   Database="file:///C:/Users/tacah/Projects/flareProjects/V3iftdss/.git"
   DatabaseRoot="file:///C:/Users/tacah/Projects/flareProjects/V3iftdss"
-  PushToRemote="true"
+  PushToRemote="false"
   RemoteRepository="origin"></CatapultDestination>
