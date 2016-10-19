@@ -82,4 +82,3 @@
 #define s_name 1081
 #define s_resolution 1082
 #define s_w_video 1083
-#define sw_video2 1084
