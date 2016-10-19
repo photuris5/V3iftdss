@@ -84,4 +84,5 @@
     <Map Name="s_name" Link="/Content/9_short/landscapesummary/s_name.htm" />
     <Map Name="s_resolution" Link="/Content/9_short/landscapesummary/s_resolution.htm" />
     <Map Name="s_w_video" Link="/Content/9_short/landscapesummary/s_w video.htm" />
+    <Map Name="sw_video2" Link="/Content/9_short/landscapesummary/sw_video2.htm" />
 </CatapultAliasFile>
