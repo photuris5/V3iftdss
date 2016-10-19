@@ -24,6 +24,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/mainHelp.fldes" />
+      Link="/Project/Destinations/output_gina_test.fldes" />
   </Destinations>
 </CatapultTarget>
