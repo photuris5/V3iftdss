@@ -84,5 +84,15 @@
     <Map Name="s_name" Link="/Content/9_short/landscapesummary/s_name.htm" />
     <Map Name="s_resolution" Link="/Content/9_short/landscapesummary/s_resolution.htm" />
     <Map Name="s_w_video" Link="/Content/9_short/landscapesummary/s_w video.htm" />
-    <Map Name="sw_video2" Link="/Content/9_short/landscapesummary/sw_video2.htm" />
+    <Map Name="create_a_landscape" Link="/Content/2_Methods/create_a_landscape.htm" />
+    <Map Name="report_data" Link="/Content/4_1_Reporting/report_data.htm" />
+    <Map Name="report_overview" Link="/Content/4_1_Reporting/report_overview.htm" />
+    <Map Name="wheel_implementation" Link="/Content/4_2_Wheel/wheel_implementation.htm" />
+    <Map Name="Wheel_landscape" Link="/Content/4_2_Wheel/Wheel_landscape.htm" />
+    <Map Name="wheel_monitoring" Link="/Content/4_2_Wheel/wheel_monitoring.htm" />
+    <Map Name="wheel_overview" Link="/Content/4_2_Wheel/wheel_overview.htm" />
+    <Map Name="wheel_reporting" Link="/Content/4_2_Wheel/wheel_reporting.htm" />
+    <Map Name="wheel_strategic" Link="/Content/4_2_Wheel/wheel_strategic.htm" />
+    <Map Name="evaluate_landscape" Link="/Content/4_Ext Tools/evaluate_landscape.htm" />
+    <Map Name="models_overview" Link="/Content/4_Ext Tools/models_overview.htm" />
 </CatapultAliasFile>

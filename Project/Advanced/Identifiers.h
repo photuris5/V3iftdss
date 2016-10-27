@@ -82,4 +82,14 @@
 #define s_name 1081
 #define s_resolution 1082
 #define s_w_video 1083
-#define sw_video2 1084
+#define create_a_landscape 1084
+#define report_data 1085
+#define report_overview 1086
+#define wheel_implementation 1087
+#define Wheel_landscape 1088
+#define wheel_monitoring 1089
+#define wheel_overview 1090
+#define wheel_reporting 1091
+#define wheel_strategic 1092
+#define evaluate_landscape 1093
+#define models_overview 1094

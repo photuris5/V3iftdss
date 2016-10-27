@@ -16,22 +16,89 @@
         Link="/Content/1_Getting Started/Setting up an Account.htm" />
     </TocEntry>
     <TocEntry
-      Title="Methods">
+      Title="I want to...">
+      <TocEntry
+        Title="Edit a Landscape"
+        Link="/Content/2_Methods/Map Functions.htm"></TocEntry>
+      <TocEntry
+        Title="Create a Landscape"
+        Link="/Content/2_Methods/create_a_landscape.htm" />
+      <TocEntry
+        Title="Run Models"
+        Link="/Content/4_Ext Tools/models_overview.htm" />
+      <TocEntry
+        Title="Evaluate my Landscape"
+        Link="/Content/4_Ext Tools/evaluate_landscape.htm" />
+      <TocEntry
+        Title="Create a Burn Plan" />
+      <TocEntry
+        Title="Report my Data"
+        Link="/Content/4_1_Reporting/report_data.htm"></TocEntry>
       <TocEntry
         Title="Data Management"
-        Link="/Content/2_Methods/Data Management.htm" />
+        Link="/Content/2_Methods/Data Management.htm"
+        conditions="General.Exclude" />
       <TocEntry
         Title="Map Functions"
-        Link="/Content/2_Methods/Map Functions.htm" />
+        Link="/Content/2_Methods/Map Functions.htm"
+        conditions="General.Exclude" />
       <TocEntry
         Title="Overview of Modules"
-        Link="/Content/2_Methods/Overview of Modules.htm" />
+        Link="/Content/2_Methods/Overview of Modules.htm"
+        conditions="General.Exclude" />
       <TocEntry
         Title="Projects and Runs"
-        Link="/Content/2_Methods/Projects and Runs.htm" />
+        Link="/Content/2_Methods/Projects and Runs.htm"
+        conditions="General.Exclude" />
       <TocEntry
         Title="Workflows"
-        Link="/Content/2_Methods/Workflows.htm" />
+        Link="/Content/2_Methods/Workflows.htm"
+        conditions="General.Exclude" />
+    </TocEntry>
+    <TocEntry
+      Title="The Wheel"
+      Link="/Content/4_2_Wheel/wheel_overview.htm">
+      <TocEntry
+        Title="The Wheel - Landscape Evaluation"
+        Link="/Content/4_2_Wheel/Wheel_landscape.htm" />
+      <TocEntry
+        Title="The Wheel - Strategic Planning"
+        Link="/Content/4_2_Wheel/wheel_strategic.htm" />
+      <TocEntry
+        Title="The Wheel - Implementation Planning"
+        Link="/Content/4_2_Wheel/wheel_implementation.htm" />
+      <TocEntry
+        Title="The Wheel - Monitoring"
+        Link="/Content/4_2_Wheel/wheel_monitoring.htm" />
+      <TocEntry
+        Title="wheel_reporting"
+        Link="/Content/4_2_Wheel/wheel_reporting.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Model Runs"
+      Link="/Content/4_Ext Tools/models_overview.htm">
+      <TocEntry
+        Title="Behave"
+        Link="/Content/4_Ext Tools/Behave.htm" />
+      <TocEntry
+        Title="FlamMap 5.0"
+        Link="/Content/4_Ext Tools/FlamMap.htm" />
+      <TocEntry
+        Title="FFA Consume"
+        Link="/Content/4_Ext Tools/FFA_Consume.htm" />
+      <TocEntry
+        Title="FOFEM"
+        Link="/Content/4_Ext Tools/FOFEM.htm" />
+      <TocEntry
+        Title="Risk Assessment"
+        Link="/Content/4_Ext Tools/Risk.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Reporting"
+      Link="/Content/4_1_Reporting/report_data.htm">
+      <TocEntry
+        Title="Data Reporting"
+        Link="/Content/4_1_Reporting/report_data.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry

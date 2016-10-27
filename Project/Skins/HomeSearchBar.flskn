@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
   Version="2"
   SkinType="Component"
@@ -45,6 +45,14 @@
           </Properties>
         </Style>
       </Medium>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#e67d27</Property>
+        </Properties>
+      </Style>
     </Styles>
   </Stylesheet>
+  <Strings />
 </CatapultSkin>
