@@ -11,11 +11,11 @@
         Name="Menu">
         <Properties>
           <Property
-            Name="BackgroundColor">#525252</Property>
-          <Property
             Name="Width">100%</Property>
           <Property
             Name="FontFamily">Arial , 'FontAwesome' , Helvetica , sans-serif</Property>
+          <Property
+            Name="BackgroundColor">#293B49</Property>
         </Properties>
       </Style>
       <Style
@@ -72,6 +72,8 @@
         <Properties>
           <Property
             Name="Color">#000000</Property>
+          <Property
+            Name="BackgroundColor">#e67d27</Property>
         </Properties>
       </Style>
       <Medium

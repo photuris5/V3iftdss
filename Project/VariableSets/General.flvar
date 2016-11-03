@@ -46,5 +46,5 @@
   <Variable
     Name="MapStudio"
     Comment=""
-    EvaluatedDefinition="&lt;MadCap:variable name=&quot;General.MapStudio&quot; /&gt;">&lt;MadCap:variable name="General.MapStudio" /&gt;</Variable>
+    EvaluatedDefinition="Map Studio">Map Studio</Variable>
 </CatapultVariableSet>
