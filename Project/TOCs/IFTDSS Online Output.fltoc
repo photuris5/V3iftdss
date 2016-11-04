@@ -82,7 +82,7 @@
         Link="/Content/4_Ext Tools/Behave.htm" />
       <TocEntry
         Title="FlamMap 5.0"
-        Link="/Content/4_Ext Tools/FlamMap.htm" />
+        Link="/Content/4_Ext Tools/FlamMap5.htm" />
       <TocEntry
         Title="FFA Consume"
         Link="/Content/4_Ext Tools/FFA_Consume.htm" />
@@ -125,8 +125,7 @@
     <TocEntry
       Title="Documentation">
       <TocEntry
-        Title="FlamMap"
-        Link="/Content/4_Ext Tools/FlamMap.htm" />
+        Title="FlamMap" />
     </TocEntry>
     <TocEntry
       Title="References"

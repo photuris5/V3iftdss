@@ -90,7 +90,7 @@ div.ImagesFloatRight
 div.note
 {
 	background-color: #47484a;
-	background-image: url('../Images/NoteIcon.png');
+	background-image: url('../Images/NoteIcon_orange.png');
 	background-repeat: no-repeat;
 	border: solid 1px #404040;
 	border-radius: 6px;
@@ -112,7 +112,7 @@ div.note
 div.quotation
 {
 	background-color: #e1e1e1;
-	background-image: url('../Images/QuotationMark.png');
+	background-image: url('../Images/QuotationMark_orange.png');
 	background-repeat: no-repeat;
 	background-position: top left;
 	border-color: #b3b3b3;
@@ -219,14 +219,14 @@ MadCap|dropDown
 	margin-bottom: 6px;
 	margin-top: 6px;
 	mc-closed-image: url('../Images/DropDownClosed.png');
-	mc-open-image: url('../Images/DropDownOpen.png');
+	mc-open-image: url('../Images/DropDownOpen_orange.png');
 }
 
 MadCap|dropDown.SecondLevel
 {
 	margin-left: 10px;
 	mc-closed-image: url('../Images/DropDownClosedSecondLevel.png');
-	mc-open-image: url('../Images/DropDownOpenSecondLevel.png');
+	mc-open-image: url('../Images/DropDownOpenSecondLevel_orange.png');
 }
 
 MadCap|dropDownBody
