@@ -79,10 +79,22 @@
       Link="/Content/4_Ext Tools/models_overview.htm">
       <TocEntry
         Title="Behave"
-        Link="/Content/4_Ext Tools/Behave.htm" />
+        Link="/Content/4_Ext Tools/Behave2.htm"
+        Skin="/Project/Skins/SideMenu.flskn"
+        ReplaceMergeNode="false" />
       <TocEntry
         Title="FlamMap 5.0"
-        Link="/Content/4_Ext Tools/FlamMap5.htm" />
+        Link="/Content/4_Ext Tools/FlamMap5.htm">
+        <TocEntry
+          Title="FlamMap Fire Behavior Inputs"
+          Link="/Content/4_Ext Tools/FlamMapInput.htm"></TocEntry>
+        <TocEntry
+          Title="FlamMap Fire Behavior Outputs"
+          Link="/Content/4_Ext Tools/FlamMapOutput.htm" />
+        <TocEntry
+          Title="Crown Fire Calculation Options"
+          Link="/Content/4_Ext Tools/FlamMapCrown.htm" />
+      </TocEntry>
       <TocEntry
         Title="FFA Consume"
         Link="/Content/4_Ext Tools/FFA_Consume.htm" />
@@ -125,7 +137,12 @@
     <TocEntry
       Title="Documentation">
       <TocEntry
-        Title="FlamMap" />
+        Title="FlamMap"
+        Link="/Content/4_Ext Tools/FlamMap5.htm" />
+      <TocEntry
+        Title="BehavePlus"
+        ReplaceMergeNode="false"
+        Link="/Content/4_Ext Tools/Behave2.htm" />
     </TocEntry>
     <TocEntry
       Title="References"

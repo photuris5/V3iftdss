@@ -87,6 +87,41 @@ div.ImagesFloatRight
 	padding: 5px;
 }
 
+div.noteImportant
+{
+	background-image: url('../Images/NoteIcon_orange.png');
+	background-repeat: no-repeat;
+	border:solid 3px #e67d27;
+	border-radius: 6px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-right:20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	overflow:auto;
+	mc-auto-number-format: '{b}Important! {/b}';
+}
+div.noteIFTDSS
+{
+	background-color: #293B49;
+	background-image: url('../Images/NoteIcon_orange.png');
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	color: #ffffff;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	margin-right:20px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	margin-top: 10px;
+	overflow:auto;
+	mc-auto-number-format: '{b}Note: {/b}';
+}
 div.note
 {
 	background-color: #47484a;
