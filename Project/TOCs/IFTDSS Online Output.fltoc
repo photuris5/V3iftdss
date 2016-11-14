@@ -19,10 +19,10 @@
       Title="I want to...">
       <TocEntry
         Title="Edit a Landscape"
-        Link="/Content/2_Methods/Map Functions.htm"></TocEntry>
+        Link="/Content/2_0_Methods/Map Functions.htm"></TocEntry>
       <TocEntry
         Title="Create a Landscape"
-        Link="/Content/2_Methods/create_a_landscape.htm" />
+        Link="/Content/2_0_Methods/create_a_landscape.htm" />
       <TocEntry
         Title="Run Models"
         Link="/Content/4_Ext Tools/models_overview.htm" />
@@ -36,23 +36,23 @@
         Link="/Content/4_1_Reporting/report_data.htm"></TocEntry>
       <TocEntry
         Title="Data Management"
-        Link="/Content/2_Methods/Data Management.htm"
+        Link="/Content/2_0_Methods/Data Management.htm"
         conditions="General.Exclude" />
       <TocEntry
         Title="Map Functions"
-        Link="/Content/2_Methods/Map Functions.htm"
+        Link="/Content/2_0_Methods/Map Functions.htm"
         conditions="General.Exclude" />
       <TocEntry
         Title="Overview of Modules"
-        Link="/Content/2_Methods/Overview of Modules.htm"
+        Link="/Content/2_0_Methods/Overview of Modules.htm"
         conditions="General.Exclude" />
       <TocEntry
         Title="Projects and Runs"
-        Link="/Content/2_Methods/Projects and Runs.htm"
+        Link="/Content/2_0_Methods/Projects and Runs.htm"
         conditions="General.Exclude" />
       <TocEntry
         Title="Workflows"
-        Link="/Content/2_Methods/Workflows.htm"
+        Link="/Content/2_0_Methods/Workflows.htm"
         conditions="General.Exclude" />
     </TocEntry>
     <TocEntry
@@ -79,25 +79,25 @@
       Link="/Content/4_Ext Tools/models_overview.htm">
       <TocEntry
         Title="Behave"
-        Link="/Content/4_Ext Tools/Behave2.htm"
+        Link="/Content/4_Ext Tools behavr/Behave2.htm"
         Skin="/Project/Skins/SideMenu.flskn"
         ReplaceMergeNode="false" />
       <TocEntry
         Title="FlamMap 5.0"
-        Link="/Content/4_Ext Tools/FlamMap5.htm">
+        Link="/Content/4_Ext Tools behavr/FlamMap5.htm">
         <TocEntry
           Title="FlamMap Fire Behavior Inputs"
-          Link="/Content/4_Ext Tools/FlamMapInput.htm"></TocEntry>
+          Link="/Content/4_Ext Tools behavr/FlamMapInput.htm"></TocEntry>
         <TocEntry
           Title="FlamMap Fire Behavior Outputs"
-          Link="/Content/4_Ext Tools/FlamMapOutput.htm" />
+          Link="/Content/4_Ext Tools behavr/FlamMapOutput.htm" />
         <TocEntry
           Title="Crown Fire Calculation Options"
-          Link="/Content/4_Ext Tools/FlamMapCrown.htm" />
+          Link="/Content/4_Ext Tools behavr/FlamMapCrown.htm" />
       </TocEntry>
       <TocEntry
         Title="FFA Consume"
-        Link="/Content/4_Ext Tools/FFA_Consume.htm" />
+        Link="/Content/4_Ext Tools FFA/FFA_Consume.htm" />
       <TocEntry
         Title="FOFEM"
         Link="/Content/4_Ext Tools/FOFEM.htm" />
@@ -107,10 +107,13 @@
     </TocEntry>
     <TocEntry
       Title="Reporting"
-      Link="/Content/4_1_Reporting/report_data.htm">
+      Link="/Content/4_1_Reporting/report_overview.htm">
       <TocEntry
-        Title="Data Reporting"
-        Link="/Content/4_1_Reporting/report_data.htm" />
+        Title="FTEM reporting"
+        Link="/Content/4_1_Reporting/FTEM_reporting.htm" />
+      <TocEntry
+        Title="MTBS reporting"
+        Link="/Content/4_1_Reporting/MTBS_reporting.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry
@@ -138,11 +141,11 @@
       Title="Documentation">
       <TocEntry
         Title="FlamMap"
-        Link="/Content/4_Ext Tools/FlamMap5.htm" />
+        Link="/Content/4_Ext Tools behavr/FlamMap5.htm" />
       <TocEntry
         Title="BehavePlus"
         ReplaceMergeNode="false"
-        Link="/Content/4_Ext Tools/Behave2.htm" />
+        Link="/Content/4_Ext Tools behavr/Behave2.htm" />
     </TocEntry>
     <TocEntry
       Title="References"
