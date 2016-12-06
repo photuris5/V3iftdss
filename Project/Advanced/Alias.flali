@@ -16,10 +16,10 @@
     <Map Name="Workflows" Link="/Content/2_0_Methods/Workflows.htm" />
     <Map Name="Tutorials" Link="/Content/3_Tutorials/Tutorials.htm" />
     <Map Name="Behave" Link="/Content/4_Ext Tools behavr/Behave2.htm" />
-    <Map Name="FFA_Consume" Link="/Content/4_Ext Tools FFA/FFA_Consume.htm" />
-    <Map Name="FFA_Digital_Photo_Series" Link="/Content/4_Ext Tools FFA/FFA_Digital_Photo_Series.htm" />
-    <Map Name="FFA_ConsumeIN" Link="/Content/4_Ext Tools FFA/FFA_ConsumeIN.htm" />
-    <Map Name="FFA_FEPS" Link="/Content/4_Ext Tools FFA/FFA_FEPS.htm" />
+    <Map Name="FFA_Consume" Link="/Content/4_Ext Tools FFT/FFT_Consume.htm" />
+    <Map Name="FFA_Digital_Photo_Series" Link="/Content/4_Ext Tools FFT/FFT_Digital_Photo_Series.htm" />
+    <Map Name="FFA_ConsumeIN" Link="/Content/4_Ext Tools FFT/FFT_ConsumeIN.htm" />
+    <Map Name="FFA_FEPS" Link="/Content/4_Ext Tools FFT/FFT_FEPS.htm" />
     <Map Name="FireFamilyPlus" Link="/Content/4_Ext Tools/FireFamilyPlus.htm" />
     <Map Name="FlamMap" Link="/Content/4_Ext Tools behavr/Flammap5.htm" />
     <Map Name="FlamMapCrown" Link="/Content/4_Ext Tools behavr/FlamMapCrown.htm" />
@@ -86,12 +86,12 @@
     <Map Name="create_a_landscape" Link="/Content/2_0_Methods/create_a_landscape.htm" />
     <Map Name="report_data" Link="/Content/4_1_Reporting/report_data.htm" />
     <Map Name="report_overview" Link="/Content/4_1_Reporting/report_overview.htm" />
-    <Map Name="wheel_implementation" Link="/Content/4_2_Wheel/wheel_implementation.htm" />
-    <Map Name="Wheel_landscape" Link="/Content/4_2_Wheel/Wheel_landscape.htm" />
-    <Map Name="wheel_monitoring" Link="/Content/4_2_Wheel/wheel_monitoring.htm" />
-    <Map Name="wheel_overview" Link="/Content/4_2_Wheel/wheel_overview.htm" />
-    <Map Name="wheel_reporting" Link="/Content/4_2_Wheel/wheel_reporting.htm" />
-    <Map Name="wheel_strategic" Link="/Content/4_2_Wheel/wheel_strategic.htm" />
+    <Map Name="wheel_implementation" Link="/Content/4_2_Cycle/cycle_implementation.htm" />
+    <Map Name="Wheel_landscape" Link="/Content/4_2_Cycle/cycle_landscape.htm" />
+    <Map Name="wheel_monitoring" Link="/Content/4_2_Cycle/cycle_monitoring.htm" />
+    <Map Name="wheel_overview" Link="/Content/4_2_Cycle/cycle_overview.htm" />
+    <Map Name="wheel_reporting" Link="/Content/4_2_Cycle/cycle_reporting.htm" />
+    <Map Name="wheel_strategic" Link="/Content/4_2_Cycle/cycle_strategic.htm" />
     <Map Name="evaluate_landscape" Link="/Content/4_Ext Tools/evaluate_landscape.htm" />
     <Map Name="models_overview" Link="/Content/4_Ext Tools/models_overview.htm" />
     <Map Name="Behavior_FlamMap" Link="/Content/4_Ext Tools behavr/Behavior_FlamMap.htm" />
@@ -101,6 +101,6 @@
     <Map Name="FuelModelsMoisture" Link="/Content/4_3_inputs/FuelModelsMoisture.htm" />
     <Map Name="Heatvalues" Link="/Content/4_3_inputs/Heatvalues.htm" />
     <Map Name="UnitsMeasure" Link="/Content/4_3_inputs/UnitsMeasure.htm" />
-    <Map Name="FFA_FCCS" Link="/Content/4_Ext Tools FFA/FFA_FCCS.htm" />
-    <Map Name="FFA_ConsumeOUT" Link="/Content/4_Ext Tools FFA/FFA_ConsumeOUT.htm" />
+    <Map Name="FFA_FCCS" Link="/Content/4_Ext Tools FFT/FFT_FCCS.htm" />
+    <Map Name="FFA_ConsumeOUT" Link="/Content/4_Ext Tools FFT/FFT_ConsumeOUT.htm" />
 </CatapultAliasFile>
