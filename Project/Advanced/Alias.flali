@@ -103,4 +103,8 @@
     <Map Name="UnitsMeasure" Link="/Content/4_3_inputs/UnitsMeasure.htm" />
     <Map Name="FFA_FCCS" Link="/Content/4_Ext Tools FFT/FFT_FCCS.htm" />
     <Map Name="FFA_ConsumeOUT" Link="/Content/4_Ext Tools FFT/FFT_ConsumeOUT.htm" />
+    <Map Name="WHYITFDSS" Link="/Content/1_Getting Started/whyITFDSS.htm" />
+    <Map Name="FTEM_REPORTING" Link="/Content/4_1_Reporting/FTEM_reporting.htm" />
+    <Map Name="MTBS_REPORTING" Link="/Content/4_1_Reporting/MTBS_reporting.htm" />
+    <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/9_short/Tip_cy_landscapeeval.htm" />
 </CatapultAliasFile>
