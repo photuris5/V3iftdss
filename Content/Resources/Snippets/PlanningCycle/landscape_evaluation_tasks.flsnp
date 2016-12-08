@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="270" MadCap:lastWidth="989">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="184" MadCap:lastWidth="1464">
     <body>
         <ul>
             <li>Generate a Landscape</li>
@@ -8,8 +8,5 @@
             <li>Calculate a Landscape Burn Probability</li>
             <li>Develop Project Objectives</li>
         </ul>
-        <p><a href="../../../4_2_Cycle/cycle_landscape.htm">I want more detail on the Landscape Evaluation stage</a>
-        </p>
-        <p>&#160;</p>
     </body>
 </html>
