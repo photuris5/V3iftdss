@@ -5,11 +5,11 @@
   Anchors="Right,Top,Width,Height"
   Width="400px"
   Height="300px"
-  Top="300px"
-  Left="1190px"
-  Bottom="299px"
+  Top="0"
+  Left="0"
+  Bottom="0"
   Right="110px"
-  Tabs=""
+  Tabs="TOC"
   DefaultTab="TOC"
   UseBrowserDefaultSize="false"
   UseDefaultBrowserSetup="false"
@@ -38,6 +38,18 @@
           </StyleClass>
         </Classes>
       </Style>
+      <Style
+        Name="Frame">
+        <Classes>
+          <StyleClass
+            Name="Toolbar">
+            <Properties>
+              <Property
+                Name="Height">0px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
     </Styles>
   </Stylesheet>
   <WebHelpOptions
@@ -45,7 +57,8 @@
     NavigationPaneWidth="0" />
   <Toolbar
     EnableCustomLayout="true"
-    Buttons="" />
+    Buttons=""
+    ExcludeAccordionTitle="true" />
   <TopicToolbar
     EnableCustomLayout="true"
     Buttons="" />

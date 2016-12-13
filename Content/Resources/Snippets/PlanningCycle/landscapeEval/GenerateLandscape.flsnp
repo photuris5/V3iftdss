@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2998" MadCap:lastWidth="1464">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3342" MadCap:lastWidth="1463">
     <head>
     </head>
     <body>
-        <p>Generating a landscape will create a LANDFIRE&#160;Fire Behavior Fuelbed file. To generate a landscape from the Landscape Evaluation stage of the planning cycle, click 'Generate Landcape;</p>
+        <p>
+            <object src="https://youtu.be/cVpvavRr70w" style="width: 560px;height: 315px;">
+            </object>
+        </p>
+        <p>Generating a landscape will create a LANDFIRE&#160;Fire Behavior Fuelbed file. To generate a landscape from the Landscape Evaluation stage of the planning cycle, click 'Generate Landscape';</p>
         <p>
             <img src="../../../Images/Cycle/GeneateLandscape1.png" style="width: 310px;height: 270px;" />
         </p>

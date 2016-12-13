@@ -2,8 +2,37 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Basic Steps"
-    conditions="General.Exclude">
+    Title="Get Started"
+    ReplaceMergeNode="false">
+    <TocEntry
+      Title="Why use [%=General.ProductName%]"
+      Link="/Content/1_Getting Started/whyITFDSS.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Setting up an Account"
+      Link="/Content/1_Getting Started/Setting up an Account.htm" />
+    <TocEntry
+      Title="Creating a Landscape"
+      Link="/Content/2_0_Methods/create_a_landscape.htm" />
+    <TocEntry
+      Title="Modeling in [%=General.ProductName%]"
+      Link="/Content/4_Ext Tools/models_overview.htm" />
+    <TocEntry
+      Title="Use Data for Reporting"
+      Link="/Content/4_1_Reporting/report_overview.htm">
+      <TocEntry
+        Title="FTEM reporting"
+        Link="/Content/4_1_Reporting/FTEM_reporting.htm" />
+      <TocEntry
+        Title="MTBS reporting"
+        Link="/Content/4_1_Reporting/MTBS_reporting.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Getting Help"
+      Link="/Content/1_Getting Started/Getting Help.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Basic Steps">
     <TocEntry
       Title="Model Runs"
       Link="/Content/4_Ext Tools/models_overview.htm">
@@ -35,98 +64,40 @@
         Title="Risk Assessment"
         Link="/Content/4_Ext Tools/Risk.htm" />
     </TocEntry>
-    <TocEntry
-      Title="Reporting"
-      Link="/Content/4_1_Reporting/report_overview.htm">
-      <TocEntry
-        Title="FTEM reporting"
-        Link="/Content/4_1_Reporting/FTEM_reporting.htm" />
-      <TocEntry
-        Title="MTBS reporting"
-        Link="/Content/4_1_Reporting/MTBS_reporting.htm" />
-    </TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Planning Cycle"
-    Link="/Content/4_2_Cycle/cycle_overview.htm">
+    Title="Interace">
     <TocEntry
-      Title="Landscape Evaluation"
-      Link="/Content/4_2_Cycle/cycle_landscape.htm" />
-    <TocEntry
-      Title="Strategic Planning"
-      Link="/Content/4_2_Cycle/cycle_strategic.htm" />
-    <TocEntry
-      Title="Implementation Planning"
-      Link="/Content/4_2_Cycle/cycle_implementation.htm" />
-    <TocEntry
-      Title="Reporting"
-      Link="/Content/4_2_Cycle/cycle_reporting.htm" />
-    <TocEntry
-      Title="Monitoring"
-      Link="/Content/4_2_Cycle/cycle_monitoring.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Get Started"
-    ReplaceMergeNode="false">
-    <TocEntry
-      Title="Why use [%=General.ProductName%]"
-      Link="/Content/1_Getting Started/whyITFDSS.htm"
-      StartSection="false" />
-    <TocEntry
-      Title="Navigating [%=General.ProductName%]"
-      Link="/Content/1_Getting Started/Navigating IFTDSS.htm" />
-    <TocEntry
-      Title="Setting up an Account"
-      Link="/Content/1_Getting Started/Setting up an Account.htm" />
-    <TocEntry
-      Title="I want to...">
+      Title="Planning Cycle"
+      Link="/Content/4_2_Cycle/cycle_overview.htm">
       <TocEntry
-        Title="Edit a Landscape"
-        Link="/Content/2_0_Methods/Map Functions.htm"></TocEntry>
+        Title="About the Planning Cycle"
+        Link="/Content/4_2_Cycle/overviewB.htm" />
       <TocEntry
-        Title="Create a Landscape"
-        Link="/Content/2_0_Methods/create_a_landscape.htm" />
+        Title="Landscape Evaluation"
+        Link="/Content/4_2_Cycle/cycle_landscape.htm" />
       <TocEntry
-        Title="Run Models"
-        Link="/Content/4_Ext Tools/models_overview.htm" />
+        Title="Strategic Planning"
+        Link="/Content/4_2_Cycle/cycle_strategic.htm" />
       <TocEntry
-        Title="Evaluate my Landscape"
-        Link="/Content/4_Ext Tools/evaluate_landscape.htm" />
+        Title="Implementation Planning"
+        Link="/Content/4_2_Cycle/cycle_implementation.htm" />
       <TocEntry
-        Title="Create a Burn Plan" />
+        Title="Reporting"
+        Link="/Content/4_2_Cycle/cycle_reporting.htm" />
       <TocEntry
-        Title="Report my Data"
-        Link="/Content/4_1_Reporting/report_data.htm"></TocEntry>
-      <TocEntry
-        Title="Data Management"
-        Link="/Content/2_0_Methods/Data Management.htm"
-        conditions="General.Exclude" />
-      <TocEntry
-        Title="Map Functions"
-        Link="/Content/2_0_Methods/Map Functions.htm"
-        conditions="General.Exclude" />
-      <TocEntry
-        Title="Overview of Modules"
-        Link="/Content/2_0_Methods/Overview of Modules.htm"
-        conditions="General.Exclude" />
-      <TocEntry
-        Title="Projects and Runs"
-        Link="/Content/2_0_Methods/Projects and Runs.htm"
-        conditions="General.Exclude" />
-      <TocEntry
-        Title="Workflows"
-        Link="/Content/2_0_Methods/Workflows.htm"
-        conditions="General.Exclude" />
+        Title="Monitoring"
+        Link="/Content/4_2_Cycle/cycle_monitoring.htm" />
     </TocEntry>
-    <TocEntry
-      Title="Getting Help"
-      Link="/Content/1_Getting Started/Getting Help.htm" />
   </TocEntry>
   <TocEntry
     Title="News"
     Link="/Content/0_IFTDSS/What's New.htm" />
   <TocEntry
     Title="Resources">
+    <TocEntry
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
       Title="Tutorials">
       <TocEntry
@@ -137,34 +108,26 @@
       Title="Online Courses"
       Link="https://www.frames.gov/onlinecourses/" />
     <TocEntry
-      Title="Videos"
-      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-    <TocEntry
       Title="PDFs" />
     <TocEntry
       Title="Webinars" />
-    <TocEntry
-      Title="Documentation">
-      <TocEntry
-        Title="FlamMap"
-        Link="/Content/4_Ext Tools behavr/FlamMap5.htm" />
-      <TocEntry
-        Title="BehavePlus"
-        ReplaceMergeNode="false"
-        Link="/Content/4_Ext Tools behavr/Behave2.htm" />
-    </TocEntry>
     <TocEntry
       Title="References"
       Link="/Content/5_References/References.htm" />
   </TocEntry>
   <TocEntry
+    Title="Known Issues"
+    Link="/Content/0_IFTDSS/Known Issues.htm"
+    conditions="General.Exclude" />
+  <TocEntry
     Title=" Log In"
     Link="https://iftdss.firenet.gov/"
     conditions="General.Exclude"></TocEntry>
   <TocEntry
-    Title="Known Issues"
-    Link="/Content/0_IFTDSS/Known Issues.htm" />
-  <TocEntry
     Title=" Feedback"
-    Link="mailto:iftdss.help@firenet.gov"></TocEntry>
+    Link="mailto:iftdss.help@firenet.gov"
+    conditions="General.Exclude"
+    StartSection="false"
+    ComputeToc="false"
+    ReplaceMergeNode="false"></TocEntry>
 </CatapultToc>
