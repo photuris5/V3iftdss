@@ -6,7 +6,11 @@
   Destinations=""
   GlossaryTermConversion="marked"
   Skin="(none)"
-  ConditionTagExpression="include[General.shorthelp] exclude[General.Exclude or General.Online or General.PDF] ">
+  ConditionTagExpression="include[General.shorthelp] exclude[General.Exclude or General.Online or General.PDF] "
+  MasterStylesheet="/Content/Resources/Stylesheets/nostyles.css"
+  RemoveMadCapStyles="false"
+  UseCustomTopicFileExtension="false"
+  MasterStylesheetOverride="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

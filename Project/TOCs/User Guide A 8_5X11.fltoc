@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1"
   conditions="">
@@ -48,18 +48,14 @@
     BreakType="chapter"
     PageType="firstright">
     <TocEntry
-      Title="Getting Started"
-      Link="/Content/A_Getting Started/Getting Started.htm" />
+      Title="Getting Started" />
     <TocEntry
-      Title="Basic Steps"
-      Link="/Content/A_Getting Started/Basic Steps.htm" />
+      Title="Basic Steps" />
     <TocEntry
-      Title="What's New"
-      Link="/Content/A_Getting Started/Whats New.htm" />
+      Title="What's New" />
   </TocEntry>
   <TocEntry
     Title="CH 2 Links and Lists"
-    Link="/Content/B_Links and Lists/LinksAndLists.htm"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
     PageNumber=""
     PageNumberReset="continue"
@@ -72,15 +68,12 @@
     BreakType="chapter"
     PageType="firstright">
     <TocEntry
-      Title="Links"
-      Link="/Content/B_Links and Lists/Links.htm" />
+      Title="Links" />
     <TocEntry
-      Title="Lists"
-      Link="/Content/B_Links and Lists/Lists.htm"></TocEntry>
+      Title="Lists"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="CH 3 Conditions, Notes, and Tables"
-    Link="/Content/C_Conditions Notes Tables/ConditionsNotesTables.htm"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
     PageNumber=""
     PageNumberReset="continue"
@@ -93,35 +86,27 @@
     VolumeNumberReset="same"
     ChapterNumberReset="continue">
     <TocEntry
-      Title="Conditions"
-      Link="/Content/C_Conditions Notes Tables/Conditions.htm" />
+      Title="Conditions" />
     <TocEntry
-      Title="Notes, Examples, and Quotations"
-      Link="/Content/C_Conditions Notes Tables/NotesExamplesQuotations.htm" />
+      Title="Notes, Examples, and Quotations" />
     <TocEntry
-      Title="Tables"
-      Link="/Content/C_Conditions Notes Tables/Tables.htm"></TocEntry>
+      Title="Tables"></TocEntry>
   </TocEntry>
   <TocEntry
     Title="CH 4 Images"
-    Link="/Content/D_Images/Images.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
     PageType="firstright">
     <TocEntry
-      Title="Positioned Left"
-      Link="/Content/D_Images/ImagePositionedLeft.htm" />
+      Title="Positioned Left" />
     <TocEntry
-      Title="Positioned Right"
-      Link="/Content/D_Images/ImagePositionedRight.htm"></TocEntry>
+      Title="Positioned Right"></TocEntry>
     <TocEntry
-      Title="Absolute Position"
-      Link="/Content/D_Images/ImageWithAbsolutePosition.htm" />
+      Title="Absolute Position" />
     <TocEntry
-      Title="Image in a List"
-      Link="/Content/D_Images/ImageWithinList.htm" />
+      Title="Image in a List" />
   </TocEntry>
   <TocEntry
     Title="Appendix"

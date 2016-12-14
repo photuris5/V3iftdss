@@ -2,93 +2,16 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Get Started"
-    ReplaceMergeNode="false">
+    Title="Get Started">
     <TocEntry
-      Title="Why use [%=General.ProductName%]"
-      Link="/Content/1_Getting Started/whyITFDSS.htm"
-      StartSection="false" />
+      Title="Why use [%=General.ProductName%] for Fuel Planning?"
+      Link="/Content/1_Getting_Started/whyITFDSS.htm" />
     <TocEntry
       Title="Setting up an Account"
-      Link="/Content/1_Getting Started/Setting up an Account.htm" />
-    <TocEntry
-      Title="Creating a Landscape"
-      Link="/Content/2_0_Methods/create_a_landscape.htm" />
-    <TocEntry
-      Title="Modeling in [%=General.ProductName%]"
-      Link="/Content/4_Ext Tools/models_overview.htm" />
-    <TocEntry
-      Title="Use Data for Reporting"
-      Link="/Content/4_1_Reporting/report_overview.htm">
-      <TocEntry
-        Title="FTEM reporting"
-        Link="/Content/4_1_Reporting/FTEM_reporting.htm" />
-      <TocEntry
-        Title="MTBS reporting"
-        Link="/Content/4_1_Reporting/MTBS_reporting.htm" />
-    </TocEntry>
+      Link="/Content/1_Getting_Started/Setting up an Account.htm" />
     <TocEntry
       Title="Getting Help"
-      Link="/Content/1_Getting Started/Getting Help.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Basic Steps">
-    <TocEntry
-      Title="Model Runs"
-      Link="/Content/4_Ext Tools/models_overview.htm">
-      <TocEntry
-        Title="Behave"
-        Link="/Content/4_Ext Tools behavr/Behave2.htm"
-        Skin="/Project/Skins/SideMenu.flskn"
-        ReplaceMergeNode="false" />
-      <TocEntry
-        Title="FlamMap 5.0"
-        Link="/Content/4_Ext Tools behavr/FlamMap5.htm">
-        <TocEntry
-          Title="FlamMap Fire Behavior Inputs"
-          Link="/Content/4_Ext Tools behavr/FlamMapInput.htm"></TocEntry>
-        <TocEntry
-          Title="FlamMap Fire Behavior Outputs"
-          Link="/Content/4_Ext Tools behavr/FlamMapOutput.htm" />
-        <TocEntry
-          Title="Crown Fire Calculation Options"
-          Link="/Content/4_Ext Tools behavr/FlamMapCrown.htm" />
-      </TocEntry>
-      <TocEntry
-        Title="FFA Consume"
-        Link="/Content/4_Ext Tools FFT/FFT_Consume.htm" />
-      <TocEntry
-        Title="FOFEM"
-        Link="/Content/4_Ext Tools/FOFEM.htm" />
-      <TocEntry
-        Title="Risk Assessment"
-        Link="/Content/4_Ext Tools/Risk.htm" />
-    </TocEntry>
-  </TocEntry>
-  <TocEntry
-    Title="Interace">
-    <TocEntry
-      Title="Planning Cycle"
-      Link="/Content/4_2_Cycle/cycle_overview.htm">
-      <TocEntry
-        Title="About the Planning Cycle"
-        Link="/Content/4_2_Cycle/overviewB.htm" />
-      <TocEntry
-        Title="Landscape Evaluation"
-        Link="/Content/4_2_Cycle/cycle_landscape.htm" />
-      <TocEntry
-        Title="Strategic Planning"
-        Link="/Content/4_2_Cycle/cycle_strategic.htm" />
-      <TocEntry
-        Title="Implementation Planning"
-        Link="/Content/4_2_Cycle/cycle_implementation.htm" />
-      <TocEntry
-        Title="Reporting"
-        Link="/Content/4_2_Cycle/cycle_reporting.htm" />
-      <TocEntry
-        Title="Monitoring"
-        Link="/Content/4_2_Cycle/cycle_monitoring.htm" />
-    </TocEntry>
+      Link="/Content/1_Getting_Started/Getting Help.htm" />
   </TocEntry>
   <TocEntry
     Title="News"
@@ -102,18 +25,21 @@
       Title="Tutorials">
       <TocEntry
         Title="Tutorials"
-        Link="/Content/3_Tutorials/Tutorials.htm" />
+        Link="/Content/9_Tutorials/Tutorials.htm" />
     </TocEntry>
     <TocEntry
       Title="Online Courses"
-      Link="https://www.frames.gov/onlinecourses/" />
+      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5"
+      conditions="General.LaterRelease" />
     <TocEntry
-      Title="PDFs" />
+      Title="Forum"
+      conditions="General.LaterRelease"></TocEntry>
     <TocEntry
-      Title="Webinars" />
+      Title="Webinars"
+      conditions="General.LaterRelease" />
     <TocEntry
       Title="References"
-      Link="/Content/5_References/References.htm" />
+      Link="/Content/15_References/References.htm" />
   </TocEntry>
   <TocEntry
     Title="Known Issues"

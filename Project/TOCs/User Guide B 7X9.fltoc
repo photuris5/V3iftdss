@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultToc
   Version="1"
   conditions="">
@@ -33,7 +33,6 @@
     AutoEndOnLeftPage="enabled"></TocEntry>
   <TocEntry
     Title="CH 1 Images"
-    Link="/Content/D_Images/Images.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
@@ -45,21 +44,16 @@
     VolumeNumberReset="same"
     PageNumberFormat="decimal">
     <TocEntry
-      Title="Positioned Left"
-      Link="/Content/D_Images/ImagePositionedLeft.htm" />
+      Title="Positioned Left" />
     <TocEntry
-      Title="Positioned Right"
-      Link="/Content/D_Images/ImagePositionedRight.htm" />
+      Title="Positioned Right" />
     <TocEntry
-      Title="Absolute Position"
-      Link="/Content/D_Images/ImageWithAbsolutePosition.htm" />
+      Title="Absolute Position" />
     <TocEntry
-      Title="Image Within a List"
-      Link="/Content/D_Images/ImageWithinList.htm" />
+      Title="Image Within a List" />
   </TocEntry>
   <TocEntry
     Title="CH 2 Lists"
-    Link="/Content/B_Links and Lists/Lists.htm"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
     PageNumber=""
     PageNumberReset="continue"
@@ -73,7 +67,6 @@
     PageType="firstright"></TocEntry>
   <TocEntry
     Title="CH 3 Tables"
-    Link="/Content/C_Conditions Notes Tables/Tables.htm"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
     PageNumber=""
     PageNumberReset="continue"

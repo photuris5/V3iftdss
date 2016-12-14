@@ -16,7 +16,10 @@
   MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
   DisableAutoSync="true"
   MakeFileLowerCase="true"
-  OutputFile="index">
+  OutputFile="index"
+  TabletBreakpoint="1024"
+  UseDeviceWidth="false"
+  MobileBreakpoint="414">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

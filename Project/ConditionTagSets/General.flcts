@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultConditionTagSet>
   <ConditionTag
-    Comment=""
+    Comment="online only"
     Name="Online"
     BackgroundColor="#90ee90" />
   <ConditionTag
-    Comment=""
+    Comment="print only"
     Name="PDF"
     BackgroundColor="Red" />
   <ConditionTag
