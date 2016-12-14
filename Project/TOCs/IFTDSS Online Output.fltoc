@@ -12,6 +12,51 @@
     <TocEntry
       Title="Getting Help"
       Link="/Content/1_Getting_Started/Getting Help.htm" />
+    <TocEntry
+      Title="Creating a Landscape"
+      Link="/Content/2_Navigating/create_a_landscape.htm" />
+    <TocEntry
+      Title="Modeling in [%=General.ProductName%]"
+      Link="/Content/5_PG/models_overview.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Using IFTDSS">
+    <TocEntry
+      Title="How [%=General.ProductName%] is Organized"
+      Link="/Content/1_Getting_Started/Navigating IFTDSS.htm" />
+    <TocEntry
+      Title="The Planning Cycle"
+      Link="/Content/6_Cycle/cycle_overview.htm">
+      <TocEntry
+        Title="Landscape Evaluation"
+        Link="/Content/6_Cycle/cycle_landscape.htm" />
+      <TocEntry
+        Title="Strategic Planning"
+        Link="/Content/6_Cycle/cycle_strategic.htm" />
+      <TocEntry
+        Title="Implementation Planning"
+        Link="/Content/6_Cycle/cycle_implementation.htm" />
+      <TocEntry
+        Title="Monitoring"
+        Link="/Content/6_Cycle/cycle_monitoring.htm" />
+      <TocEntry
+        Title="Reporting"
+        Link="/Content/6_Cycle/cycle_reporting.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Inputs" />
+    <TocEntry
+      Title="Outputs" />
+    <TocEntry
+      Title="Modeling"
+      Link="/Content/5_PG/models_overview.htm" />
+    <TocEntry
+      Title="Reporting"
+      Link="/Content/7_Reporting/report_overview.htm" />
+    <TocEntry
+      Title="Landscape Evaluation" />
+    <TocEntry
+      Title="Prescribed Burn Planning" />
   </TocEntry>
   <TocEntry
     Title="News"
@@ -29,14 +74,16 @@
     </TocEntry>
     <TocEntry
       Title="Online Courses"
-      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5"
-      conditions="General.LaterRelease" />
+      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5" />
     <TocEntry
       Title="Forum"
-      conditions="General.LaterRelease"></TocEntry>
+      Link="https://iftdsshelp.freshdesk.com/discussions"></TocEntry>
     <TocEntry
       Title="Webinars"
-      conditions="General.LaterRelease" />
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    <TocEntry
+      Title="Workshops"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
       Title="References"
       Link="/Content/15_References/References.htm" />
