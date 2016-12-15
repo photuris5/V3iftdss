@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="349" MadCap:lastWidth="1463">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="392" MadCap:lastWidth="1466">
     <body>
         <ul>
-            <li>Enter Fuels Monitoring Data<ul><li>Input Data to FTEM</li><li>Evaluate Using FTEM Standard Form</li><li>Access NFMD or MTBS Online Databases</li><li>Submit data to Monitoring Reporting Database FTEM (Where warranted)</li></ul></li>
+            <li>Enter Fuels Monitoring Data<ul><li>Input Data to FTEM</li><li>Evaluate Using FTEM Standard Form</li><li>Access NFMD or MTBS Online Databases</li><li>Submit data to Monitoring Reporting Database FTEM (where warranted)</li></ul></li>
             <li>Enter Monitoring Data into FEAT<ul><li>Input Data to FFI</li><li>Evaluate Data Using FFI Queries/Stats</li><li>Access NFMD or MTBS Online Databases</li></ul></li>
             <li>Revisit Goals and Objectives for Further Evaluation</li>
         </ul>
+        <p><a href="../../../6_Cycle/cycle_monitoring.htm">I want more detail on the Monitoring stage</a>
+        </p>
     </body>
 </html>

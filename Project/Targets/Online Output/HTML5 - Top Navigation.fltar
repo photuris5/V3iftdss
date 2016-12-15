@@ -4,7 +4,6 @@
   Comment="MadCap HTML5 Target"
   Type="WebHelp2"
   Destinations=""
-  GlossaryTermConversion="marked"
   MoveOutputContentToRoot="false"
   SkinComponents=""
   EnableResponsiveOutput="true"
@@ -19,7 +18,8 @@
   OutputFile="index"
   TabletBreakpoint="1024"
   UseDeviceWidth="false"
-  MobileBreakpoint="414">
+  MobileBreakpoint="414"
+  GenerateAllSkins="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

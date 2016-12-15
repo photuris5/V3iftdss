@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="382" MadCap:lastWidth="1464">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="425" MadCap:lastWidth="1466">
     <body>
         <ul>
             <li>Write Burn Plans<ul><li>Prescribed burn plans</li><li>Develop Burn&#160;Prescriptions </li><li>Complete Complexity Analysis</li><li>Produce Required Burn Plan Maps</li></ul></li>
@@ -8,5 +8,7 @@
             <li>Find Burn Windows<ul><li>Use Forecasts to Determine Burn Windows</li><li>Use RXWindows to Determine Burn Windows</li></ul></li>
             <li>Smoke Management and Planning</li>
         </ul>
+        <p><a href="../../../6_Cycle/cycle_implementation.htm">I want more detail on the Implementation Planning stage</a>
+        </p>
     </body>
 </html>

@@ -83,4 +83,6 @@
     <Map Name="FTEM_REPORTING" Link="/Content/7_Reporting/FTEM_reporting.htm" />
     <Map Name="MTBS_REPORTING" Link="/Content/7_Reporting/MTBS_reporting.htm" />
     <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/12_ToolTips/Tip_cy_landscapeeval.htm" />
+    <Map Name="Inputs_overview" Link="/Content/2_1_Inputs/Inputs_overview.htm" />
+    <Map Name="landscape_file" Link="/Content/2_1_Inputs/landscape_file.htm" />
 </CatapultAliasFile>

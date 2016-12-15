@@ -81,3 +81,5 @@
 #define FFT_Digital_Photo_Series 1018
 #define FFT_FCCS 1019
 #define FFT_FEPS 1020
+#define Inputs_overview 1039
+#define landscape_file 1040

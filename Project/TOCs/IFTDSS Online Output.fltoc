@@ -49,10 +49,34 @@
       Title="Outputs" />
     <TocEntry
       Title="Modeling"
-      Link="/Content/5_PG/models_overview.htm" />
+      Link="/Content/5_PG/models_overview.htm">
+      <TocEntry
+        Title="Fire Behavior - Driven by FlamMap 5.0"
+        Link="/Content/5_PG_Flammap/Flammap5.htm">
+        <TocEntry
+          Title="FlamMap Fire Behavior Inputs"
+          Link="/Content/5_PG_Flammap/FlamMapInput.htm" />
+        <TocEntry
+          Title="FlamMap Fire Behavior Outputs"
+          Link="/Content/5_PG_Flammap/FlamMapOutput.htm" />
+        <TocEntry
+          Title="Crown Fire Calculation Options"
+          Link="/Content/5_PG_Flammap/FlamMapCrown.htm" />
+      </TocEntry>
+    </TocEntry>
     <TocEntry
       Title="Reporting"
-      Link="/Content/7_Reporting/report_overview.htm" />
+      Link="/Content/7_Reporting/report_overview.htm">
+      <TocEntry
+        Title="Data Reporting"
+        Link="/Content/7_Reporting/report_data.htm" />
+      <TocEntry
+        Title="Fuel Treatment Effectiveness Monitoring (FTEM) Reporting"
+        Link="/Content/7_Reporting/FTEM_reporting.htm" />
+      <TocEntry
+        Title="Monitoring Trends in Burn Severity (MTBS) Reporting"
+        Link="/Content/7_Reporting/MTBS_reporting.htm" />
+    </TocEntry>
     <TocEntry
       Title="Landscape Evaluation" />
     <TocEntry
@@ -67,7 +91,8 @@
       Title="Videos"
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
-      Title="Tutorials">
+      Title="Tutorials"
+      Link="/Content/9_Tutorials/Tutorials.htm">
       <TocEntry
         Title="Tutorials"
         Link="/Content/9_Tutorials/Tutorials.htm" />
