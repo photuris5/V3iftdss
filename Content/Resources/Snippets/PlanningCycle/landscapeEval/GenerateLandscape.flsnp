@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3342" MadCap:lastWidth="1463">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3387" MadCap:lastWidth="1197">
     <head>
     </head>
     <body>
@@ -7,11 +7,11 @@
             <object src="https://youtu.be/cVpvavRr70w" style="width: 560px;height: 315px;">
             </object>
         </p>
-        <p>Generating a landscape will create a LANDFIRE&#160;Fire Behavior Fuelbed file. To generate a landscape from the Landscape Evaluation stage of the planning cycle, click 'Generate Landscape';</p>
+        <p>Generating a landscape will create a LANDFIRE&#160;Fire Behavior Fuelbed file. To generate a landscape from the Landscape Evaluation stage of the planning cycle, click <span class="UIcomponent">Generate Landscape</span>;</p>
         <p>
             <img src="../../../Images/Cycle/GeneateLandscape1.png" style="width: 310px;height: 270px;" />
         </p>
-        <p>The Landscape Summary page will appear. From the 'Create a Landscape' section</p>
+        <p>The Landscape Summary page will appear. From the <span class="UIcomponent">Create a Landscape</span> section</p>
         <p>
             <img src="../../../Images/Cycle/GeneateLandscape2.png" style="width: 543px;height: 320px;" alt="you may generate your landscape directly in the 'landscape summary' page, or in map studio" />
         </p>
@@ -30,8 +30,8 @@
                     <li>Specify your desired resolution if other than 30 meters</li>
                     <li>Give your landscape a descriptive name</li>
                     <li>Specify your folder where you want the landscape data to be stored</li>
-                    <li>Either enter the coordinates of your landscape or use the + and - buttons in the top left of the map to find your area and click 'Select Draw Tool'. Hold down the left mouse key, draw your area, and release</li>
-                    <li>Click 'Create'</li>
+                    <li>Either enter the coordinates of your landscape or use the + and - buttons in the top left of the map to find your area and click <span class="UIcomponent">Select Draw Tool</span>. Hold down the left mouse key, draw your area, and release</li>
+                    <li>Click <span class="UIcomponent">Create</span></li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -44,29 +44,29 @@
                     <img src="../../../Images/Cycle/GeneateLandscape4.png" alt="map view of landscape with a dialogue box in which the desired attributes are specified" style="width: 529px;height: 267px;" />
                 </p>
                 <ol style="list-style-type: upper-alpha;">
-                    <li>Use the + and _ buttons to zoom to your landscape, </li>
-                    <li>Click the 'Draw Box' icon,  hold down the left mouse key, draw your area, and release OR&#160;type your coordinates.</li>
+                    <li>Use the  <img src="../../../Images/mapstudio/button_zoomin.png" alt="zoom in" />and <img src="../../../Images/mapstudio/button_zoomout.png" alt="zoom out" /> buttons to zoom to your landscape, </li>
+                    <li>Click <span class="UIcomponent">Draw Box</span> <img src="../../../Images/mapstudio/button_drawbox.png" alt="draw box icon" />,  hold down the left mouse key, draw your area, and release OR&#160;type your coordinates.</li>
                     <li>Specify your LANDFIRE Version (2012 is the default)</li>
                     <li>Specify your Fuel Model (either Fire Behavior Fuel Model 13 or 40)</li>
                     <li>Specify your desired resolution if other than 30 meters</li>
                     <li>Give your landscape a descriptive name</li>
                     <li>Specify your folder where you want the landscape data to be stored</li>
-                    <li>Click 'Create'</li>
+                    <li>Click <span class="UIcomponent">Create</span></li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>Once created, landscapes can be viewed in 'My Workspace' by</p>
+        <p>Once created, landscapes can be viewed in <span class="UIcomponent">My Workspace</span> by</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Selecting 'My Workspace' from the Top Navigation menu</li>
+            <li>Selecting <span class="UIcomponent">My Workspace</span> from the Top Navigation menu</li>
             <li>Selecting the folder you chose to store your landscape</li>
             <li>Select the name of your landscape and either view a summary, or view your landscape on the map</li>
         </ol>
         <img src="../../../Images/Cycle/GeneateLandscape5.png" style="width: 669px;height: 245px;" alt="A list of landscape files in the playground folder" />
         <p>Or in <MadCap:variable name="General.MapStudio" /> by</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Selecting '<MadCap:variable name="General.MapStudio" />' from the Top Navigation menu</li>
-            <li>Click the 'Landscape Tools' icon</li>
-            <li>Make sure the 'Add to Map' tab is selected</li>
+            <li>Selecting <span class="UIcomponent"><MadCap:variable name="General.MapStudio"></MadCap:variable></span> from the Top Navigation menu</li>
+            <li>Click the <span class="UIcomponent">Landscape Tools</span><img src="../../../Images/mapstudio/button_landscapetools.png" /> icon</li>
+            <li>Make sure the <span class="UIcomponent">Add to Map</span> tab is selected</li>
             <li>Select the Landscape you would like to view</li>
         </ol>
         <p>

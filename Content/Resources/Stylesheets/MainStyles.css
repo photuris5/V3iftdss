@@ -559,6 +559,16 @@ span.Emphasis
 	font-weight: bold;
 }
 
+span.UIcomponent
+{
+	font-weight: bold;
+}
+
+span.ListBegin
+{
+	font-weight: bold;
+}
+
 span.FigureNum
 {
 	
@@ -601,7 +611,7 @@ tr
 
 ul
 {
-	list-style-image: url('../Images/Bullet1.png');
+	
 }
 
 ul.FirstLevelLessIndentation
@@ -612,7 +622,7 @@ ul.FirstLevelLessIndentation
 
 ul ul
 {
-	list-style-image: url('../Images/Bullet2.png');
+	
 	margin-left: -10px;
 }
 

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet
+  Type="Author"
+  Comment="My set of author tags">
+  <FileTag
+    Name="ESRI"
+    Comment="Content from ESRI ArcMap Online Help" />
+  <FileTag
+    Name="WFMRDA"
+    Comment="Content directly from WFMRDA Subject Matter Expert" />
+  <FileTag
+    Name="IBM"
+    Comment="Content from IBM" />
+</CatapultFileTagSet>
