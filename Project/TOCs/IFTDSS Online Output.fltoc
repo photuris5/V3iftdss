@@ -14,7 +14,7 @@
       Link="/Content/1_Getting_Started/Getting_Help.htm" />
     <TocEntry
       Title="Creating a Landscape"
-      Link="/Content/2_Navigating/create_a_landscape.htm" />
+      Link="/Content/2_Navigating/create_landscape.htm" />
     <TocEntry
       Title="Modeling in [%=General.ProductName%]"
       Link="/Content/5_PG/models_overview.htm" />

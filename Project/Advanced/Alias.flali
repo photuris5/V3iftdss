@@ -10,8 +10,8 @@
     <Map Name="Navigating_IFTDSS" Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
     <Map Name="Setting_up_an_Account" Link="/Content/1_Getting_Started/Set_up_Account.htm" />
     <Map Name="Data_Management" Link="/Content/2_Navigating/Data Management.htm" />
-    <Map Name="Map_Functions" Link="/Content/3_Map/Map Functions.htm" />
-    <Map Name="Overview_of_Modules" Link="/Content/2_Navigating/Overview of Modules.htm" />
+    <Map Name="Map_Functions" Link="/Content/3_Map/Map_Functions.htm" />
+    <Map Name="Overview_of_Modules" Link="/Content/2_Navigating/Overview_Modules.htm" />
     <Map Name="Tutorials" Link="/Content/9_Tutorials/Tutorials.htm" />
     <Map Name="Behave" Link="/Content/5_PG_Behave/Behave2.htm" />
     <Map Name="FFT_FEPS" Link="/Content/5_PG_FFT/FFT_FEPS.htm" />
@@ -59,7 +59,7 @@
     <Map Name="s_name" Link="/Content/12_ToolTips/landscapesummary/s_name.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="s_resolution" Link="/Content/12_ToolTips/landscapesummary/s_resolution.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="s_w_video" Link="/Content/12_ToolTips/landscapesummary/s_w video.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="create_a_landscape" Link="/Content/2_Navigating/create_a_landscape.htm" />
+    <Map Name="create_a_landscape" Link="/Content/2_Navigating/create_landscape.htm" />
     <Map Name="report_data" Link="/Content/7_Reporting/report_data.htm" />
     <Map Name="report_overview" Link="/Content/7_Reporting/report_overview.htm" />
     <Map Name="wheel_implementation" Link="/Content/6_Cycle/cycle_implementation.htm" />
@@ -76,7 +76,7 @@
     <Map Name="FBFMsummary" Link="/Content/2_1_Inputs/FBFMsummary.htm" />
     <Map Name="FuelModelsMoisture" Link="/Content/2_1_Inputs/FuelModelsMoisture.htm" />
     <Map Name="Heatvalues" Link="/Content/2_1_Inputs/Heatvalues.htm" />
-    <Map Name="UnitsMeasure" Link="/Content/2_1_Inputs/UnitsMeasure.htm" />
+    <Map Name="UnitsMeasure" Link="/Content/2_1_Inputs/Units_Measure.htm" />
     <Map Name="FFT_Digital_Photo_Series" Link="/Content/5_PG_FFT/FFT_Digital_Photo_Series.htm" />
     <Map Name="FFT_Consume" Link="/Content/5_PG_FFT/FFT_Consume.htm" />
     <Map Name="WHYITFDSS" Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
