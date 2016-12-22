@@ -3,12 +3,12 @@
     <Map Name="Home" Link="/Content/Home.htm" />
     <Map Name="About_IFTDSS" Link="/Content/0_IFTDSS/About IFTDSS.htm" />
     <Map Name="Disclaimer" Link="/Content/0_IFTDSS/Disclaimer.htm" />
-    <Map Name="Known_Issues" Link="/Content/0_IFTDSS/Known Issues.htm" />
-    <Map Name="Technical_Topics" Link="/Content/0_IFTDSS/Technical Topics.htm" />
-    <Map Name="What_s_New" Link="/Content/0_IFTDSS/What's New.htm" />
-    <Map Name="Getting_Help" Link="/Content/1_Getting_Started/Getting Help.htm" />
-    <Map Name="Navigating_IFTDSS" Link="/Content/1_Getting_Started/Navigating IFTDSS.htm" />
-    <Map Name="Setting_up_an_Account" Link="/Content/1_Getting_Started/Setting up an Account.htm" />
+    <Map Name="Known_Issues" Link="/Content/0_IFTDSS/Known_Issues.htm" />
+    <Map Name="Technical_Topics" Link="/Content/0_IFTDSS/Technical_Topics.htm" />
+    <Map Name="What_s_New" Link="/Content/0_IFTDSS/Whats_New.htm" />
+    <Map Name="Getting_Help" Link="/Content/1_Getting_Started/Getting_Help.htm" />
+    <Map Name="Navigating_IFTDSS" Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
+    <Map Name="Setting_up_an_Account" Link="/Content/1_Getting_Started/Set_up_Account.htm" />
     <Map Name="Data_Management" Link="/Content/2_Navigating/Data Management.htm" />
     <Map Name="Map_Functions" Link="/Content/3_Map/Map Functions.htm" />
     <Map Name="Overview_of_Modules" Link="/Content/2_Navigating/Overview of Modules.htm" />
@@ -68,7 +68,7 @@
     <Map Name="wheel_overview" Link="/Content/6_Cycle/cycle_overview.htm" />
     <Map Name="wheel_reporting" Link="/Content/6_Cycle/cycle_reporting.htm" />
     <Map Name="wheel_strategic" Link="/Content/6_Cycle/cycle_strategic.htm" />
-    <Map Name="evaluate_landscape" Link="/Content/6_Cycle_LandEval/evaluate_landscape.htm" />
+    <Map Name="evaluate_landscape" Link="/Content/6_Cycle_LandEval/Landscape_Sumry/eval_summarizee.htm" />
     <Map Name="models_overview" Link="/Content/5_PG/models_overview.htm" />
     <Map Name="Behavior_FlamMap" Link="/Content/5_PG_Flammap/Behavior_FlamMap.htm" />
     <Map Name="EstLiveFuelMoisture" Link="/Content/2_1_Inputs/EstLiveFuelMoisture.htm" />
@@ -79,7 +79,7 @@
     <Map Name="UnitsMeasure" Link="/Content/2_1_Inputs/UnitsMeasure.htm" />
     <Map Name="FFT_Digital_Photo_Series" Link="/Content/5_PG_FFT/FFT_Digital_Photo_Series.htm" />
     <Map Name="FFT_Consume" Link="/Content/5_PG_FFT/FFT_Consume.htm" />
-    <Map Name="WHYITFDSS" Link="/Content/1_Getting_Started/whyITFDSS.htm" />
+    <Map Name="WHYITFDSS" Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
     <Map Name="FTEM_REPORTING" Link="/Content/7_Reporting/FTEM_reporting.htm" />
     <Map Name="MTBS_REPORTING" Link="/Content/7_Reporting/MTBS_reporting.htm" />
     <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/12_ToolTips/Tip_cy_landscapeeval.htm" />

@@ -5,13 +5,13 @@
     Title="Get Started">
     <TocEntry
       Title="Why use [%=General.ProductName%] for Fuel Planning?"
-      Link="/Content/1_Getting_Started/whyITFDSS.htm" />
+      Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
     <TocEntry
       Title="Setting up an Account"
-      Link="/Content/1_Getting_Started/Setting up an Account.htm" />
+      Link="/Content/1_Getting_Started/Set_up_Account.htm" />
     <TocEntry
       Title="Getting Help"
-      Link="/Content/1_Getting_Started/Getting Help.htm" />
+      Link="/Content/1_Getting_Started/Getting_Help.htm" />
     <TocEntry
       Title="Creating a Landscape"
       Link="/Content/2_Navigating/create_a_landscape.htm" />
@@ -23,7 +23,7 @@
     Title="Using IFTDSS">
     <TocEntry
       Title="How [%=General.ProductName%] is Organized"
-      Link="/Content/1_Getting_Started/Navigating IFTDSS.htm" />
+      Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
     <TocEntry
       Title="The Planning Cycle"
       Link="/Content/6_Cycle/cycle_overview.htm">
@@ -84,7 +84,7 @@
   </TocEntry>
   <TocEntry
     Title="News"
-    Link="/Content/0_IFTDSS/What's New.htm" />
+    Link="/Content/0_IFTDSS/Whats_New.htm" />
   <TocEntry
     Title="Resources">
     <TocEntry
@@ -118,7 +118,7 @@
   </TocEntry>
   <TocEntry
     Title="Known Issues"
-    Link="/Content/0_IFTDSS/Known Issues.htm"
+    Link="/Content/0_IFTDSS/Known_Issues.htm"
     conditions="General.Exclude" />
   <TocEntry
     Title=" Log In"
