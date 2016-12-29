@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1848" MadCap:lastWidth="1374">
+    <body>
+        <p>The <MadCap:variable name="General.ProductName" /><MadCap:variable name="General.MapStudio" /> is where the bulk of your landscape editing and review will take place. </p>
+        <p>
+            <img src="../Images/mapstudio/map 122016.png" alt="map studio image with button descriptions as explained in the text of this page" style="width: 1303px;height: 665px;" />
+        </p>
+        <h3>In the top left:</h3>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_zoomin.png" alt="zoom in"></img><img src="../Images/mapstudio/button_zoomout.png" alt="zoom out"></img> Zoom In and Out:</span> Zoom the map extent</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_defaultextent.png" alt="default extent"></img> Default Extent:</span> Return the map to its default extent</p>
+        <h3>In the top right:&#160;</h3>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_identify.png" alt="identify"></img> Identify:</span> Identify a feature</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_draw.png" alt="draw"></img> Draw:</span> Draw lines and shapes on the map. This is for display only, it does not create a shapefile</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_slider.png"></img> Swipe:</span> Allows for quick toggling between different layers</p>
+        <h3>In the bottom right:</h3>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_layers.png" alt="attribute table"></img> Attribute Table</span>: Displays a table of map features</p>
+        <h3>In the bottom center:</h3>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_layerlist.png" alt="layer list" /> <a href="../../3_Map/LayerList.htm">Layer list:</a></span> A list of the layers shown on the map</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_adref.png" alt="add reference data" /> <a href="../../3_Map/AddRefData.htm">Add reference data:</a></span> Addition of federal reference data layers such as administrative boundaries</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_addshapefile.png" alt="add a shapefile" /> <a href="../../3_Map/AddShapefile.htm"><span class="UIcomponent">Add shapefile:</span></a></span> Allows a user to upload a shapefile to the map</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_landscapetools.png" alt="landscape tools" /> <a href="../../3_Map/LandscapeTools.htm">Landscape tools:</a></span> Allows you to add an existing landscape, create a new landscape, or modify an existing landscape in the <MadCap:variable name="General.MapStudio" /></p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_SimOutput.png" title="simulation output tools" /> <a href="../../3_Map/SimltnOutputs.htm">Simulation output tools:</a></span> Allows you to add simulation outputs to the map, or compare results from multiple outputs</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_editTools.png" title="edit tools" /> <a href="../../3_Map/EditTools.htm">Edit Tools:</a></span> Make edits to existing map layers</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_basemapglry.png" alt="basemap gallery" /> <a href="../../3_Map/BasemapGallery.htm">Basemap gallery:</a></span> A selection of basemap layers that can be added to the map</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_measurement.png" alt="measurement" /> <a href="../../3_Map/Measurements.htm">Measurement:</a></span>&#160;Allows you to measure area or distance in <MadCap:variable name="General.MapStudio" /></p>
+    </body>
+</html>

@@ -15,9 +15,9 @@
           <Property
             Name="FontFamily">Arial , 'FontAwesome' , Helvetica , sans-serif</Property>
           <Property
-            Name="BackgroundColor">#293B49</Property>
-          <Property
             Name="MarginLeft">0px</Property>
+          <Property
+            Name="BackgroundColor">#2d3d4f</Property>
         </Properties>
       </Style>
       <Style
