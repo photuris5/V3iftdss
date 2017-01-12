@@ -79,7 +79,10 @@
             </Properties>
           </StyleClass>
         </Classes>
-        <Properties></Properties>
+        <Properties>
+          <Property
+            Name="BackgroundColor">transparent</Property>
+        </Properties>
       </Style>
       <Style
         Name="Search Input">
@@ -95,7 +98,26 @@
             Name="Float">right</Property>
           <Property
             Name="FontFamily">Arial , 'FontAwesome' , Helvetica , sans-serif</Property>
+          <Property
+            Name="FontWeight">bold</Property>
+          <Property
+            Name="PaddingRight">15px</Property>
+          <Property
+            Name="PaddingLeft">15px</Property>
         </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#AFBFD0</Property>
+              <Property
+                Name="Color">#000000</Property>
+              <Property
+                Name="FontWeight">bold</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
       </Style>
       <Style
         Name="Logo">
@@ -110,6 +132,21 @@
           <Property
             Name="BackgroundColor">#e67d27</Property>
         </Properties>
+      </Style>
+      <Style
+        Name="Menu Item (hover)">
+        <Properties>
+          <Property
+            Name="BackgroundGradient">vertical transparent transparent</Property>
+          <Property
+            Name="BackgroundColor">#293b49</Property>
+        </Properties>
+        <Classes>
+          <StyleClass
+            Name="1st Level">
+            <Properties />
+          </StyleClass>
+        </Classes>
       </Style>
     </Styles>
   </Stylesheet>

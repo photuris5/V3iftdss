@@ -124,21 +124,22 @@ div.noteIFTDSS
 	mc-auto-number-format: '{b}Note: {/b}';
 }
 
-div.note
-{
-	background-color: #47484a;
+div.moretocome{
+	background-color: #2d3d4f;
 	background-image: url('../Images/NoteIcon_orange.png');
 	background-repeat: no-repeat;
-	border: solid 1px #404040;
 	border-radius: 6px;
-	color: #b3b3b3;
+	color: #ffffff;
 	padding-bottom: 10px;
 	padding-left: 40px;
 	padding-right: 10px;
 	padding-top: 10px;
+	margin-right: 20px;
 	-moz-border-radius: 6px;
 	-webkit-border-radius: 6px;
 	margin-top: 10px;
+	overflow: auto;
+	mc-auto-number-format: '{b}Note: {/b}';
 }
 
 .noteInDiv
@@ -385,6 +386,10 @@ p
 	margin-top: 16px;
 }
 
+.comingsoon{
+	color:#8d8d8d;
+}
+
 p.CompanyInformation1
 {
 	margin-bottom: 4px;
@@ -547,6 +552,10 @@ p.TableTextLightEmphasis
 	font-weight: bold;
 	margin-bottom: 2px;
 	margin-top: 8px;
+}
+
+.comment{
+	color:purple;
 }
 
 p.TOCHeading

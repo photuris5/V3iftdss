@@ -60,8 +60,8 @@
     <Map Name="s_resolution" Link="/Content/12_ToolTips/landscapesummary/s_resolution.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="s_w_video" Link="/Content/12_ToolTips/landscapesummary/s_w video.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="create_a_landscape" Link="/Content/2_Navigating/create_landscape.htm" />
-    <Map Name="report_data" Link="/Content/7_Reporting/report_data.htm" />
-    <Map Name="report_overview" Link="/Content/7_Reporting/report_overview.htm" />
+    <Map Name="report_data" Link="/Content/7_0_Reporting/report_data.htm" />
+    <Map Name="report_overview" Link="/Content/7_0_Reporting/report_overview.htm" />
     <Map Name="wheel_implementation" Link="/Content/6_Cycle/cycle_implementation.htm" />
     <Map Name="Wheel_landscape" Link="/Content/6_Cycle/cycle_landscape.htm" />
     <Map Name="wheel_monitoring" Link="/Content/6_Cycle/cycle_monitoring.htm" />
@@ -80,8 +80,8 @@
     <Map Name="FFT_Digital_Photo_Series" Link="/Content/5_PG_FFT/FFT_Digital_Photo_Series.htm" />
     <Map Name="FFT_Consume" Link="/Content/5_PG_FFT/FFT_Consume.htm" />
     <Map Name="WHYITFDSS" Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
-    <Map Name="FTEM_REPORTING" Link="/Content/7_Reporting/FTEM_reporting.htm" />
-    <Map Name="MTBS_REPORTING" Link="/Content/7_Reporting/MTBS_reporting.htm" />
+    <Map Name="FTEM_REPORTING" Link="/Content/7_0_Reporting/FTEM_reporting.htm" />
+    <Map Name="MTBS_REPORTING" Link="/Content/7_0_Reporting/MTBS_reporting.htm" />
     <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/12_ToolTips/Tip_cy_landscapeeval.htm" />
     <Map Name="Inputs_overview" Link="/Content/2_1_Inputs/Inputs_overview.htm" />
     <Map Name="landscape_file" Link="/Content/2_1_Inputs/landscape_file.htm" />

@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Get Started">
+    Title="New User?">
     <TocEntry
       Title="Why use [%=General.ProductName%] for Fuel Planning?"
       Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
@@ -12,21 +12,18 @@
     <TocEntry
       Title="Getting Help"
       Link="/Content/1_Getting_Started/Getting_Help.htm" />
-    <TocEntry
-      Title="Creating a Landscape"
-      Link="/Content/2_Navigating/create_landscape.htm" />
-    <TocEntry
-      Title="Modeling in [%=General.ProductName%]"
-      Link="/Content/5_PG/models_overview.htm" />
   </TocEntry>
   <TocEntry
-    Title="Using IFTDSS">
+    Title="All About...">
     <TocEntry
       Title="How [%=General.ProductName%] is Organized"
       Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
     <TocEntry
-      Title="The Planning Cycle"
+      Title="Our Landscape Planning Cycle"
       Link="/Content/6_Cycle/cycle_overview.htm">
+      <TocEntry
+        Title="Overview"
+        Link="/Content/6_Cycle/cycle_overview.htm" />
       <TocEntry
         Title="Landscape Evaluation"
         Link="/Content/6_Cycle/cycle_landscape.htm" />
@@ -44,11 +41,13 @@
         Link="/Content/6_Cycle/cycle_reporting.htm" />
     </TocEntry>
     <TocEntry
-      Title="Inputs" />
+      Title="Map Creation "
+      Link="/Content/3_Map/Map_Functions.htm" />
     <TocEntry
-      Title="Outputs" />
+      Title="Using My Own Data"
+      Link="/Content/2_1_Inputs/usingmydata.htm" />
     <TocEntry
-      Title="Modeling"
+      Title="Modeling in [%=General.ProductName%]"
       Link="/Content/5_PG/models_overview.htm">
       <TocEntry
         Title="Fire Behavior - Driven by FlamMap 5.0"
@@ -65,25 +64,24 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Reporting"
-      Link="/Content/7_Reporting/report_overview.htm">
+      Title="Reporting in [%=General.ProductName%]"
+      Link="/Content/7_0_Reporting/report_overview.htm">
       <TocEntry
         Title="Data Reporting"
-        Link="/Content/7_Reporting/report_data.htm" />
+        Link="/Content/7_0_Reporting/report_data.htm" />
       <TocEntry
         Title="Fuel Treatment Effectiveness Monitoring (FTEM) Reporting"
-        Link="/Content/7_Reporting/FTEM_reporting.htm" />
+        Link="/Content/7_0_Reporting/FTEM_reporting.htm" />
       <TocEntry
         Title="Monitoring Trends in Burn Severity (MTBS) Reporting"
-        Link="/Content/7_Reporting/MTBS_reporting.htm" />
+        Link="/Content/7_0_Reporting/MTBS_reporting.htm" />
     </TocEntry>
     <TocEntry
-      Title="Landscape Evaluation" />
-    <TocEntry
-      Title="Prescribed Burn Planning" />
+      Title="Prescribed Burn Planning in [%=General.ProductName%]"
+      Link="/Content/7_1_rxburnplan/burnplanning.htm" />
   </TocEntry>
   <TocEntry
-    Title="News"
+    Title="News &amp; Events"
     Link="/Content/0_IFTDSS/Whats_New.htm" />
   <TocEntry
     Title="Resources">
@@ -91,35 +89,31 @@
       Title="Videos"
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
-      Title="Tutorials"
-      Link="/Content/9_Tutorials/Tutorials.htm">
-      <TocEntry
-        Title="Tutorials"
-        Link="/Content/9_Tutorials/Tutorials.htm" />
-    </TocEntry>
-    <TocEntry
-      Title="Online Courses"
-      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5" />
-    <TocEntry
       Title="Forum"
       Link="https://iftdsshelp.freshdesk.com/discussions"></TocEntry>
     <TocEntry
       Title="Webinars"
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
+      Title="Guided Scenarios"
+      Link="/Content/9_Tutorials/Tutorials.htm" />
+    <TocEntry
+      Title="Online Courses"
+      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5" />
+    <TocEntry
       Title="Workshops"
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
     <TocEntry
-      Title="References"
-      Link="/Content/15_References/References.htm" />
-    <TocEntry
       Title="Request Tech. Support"
       Link="https://www.google.com/" />
+    <TocEntry
+      Title="References"
+      Link="/Content/15_References/References.htm" />
   </TocEntry>
   <TocEntry
-    Title="Known Issues"
+    Title="Bug fixes"
     Link="/Content/0_IFTDSS/Known_Issues.htm"
-    conditions="General.Exclude" />
+    StartSection="false" />
   <TocEntry
     Title=" Log In"
     Link="https://iftdss.firenet.gov/"

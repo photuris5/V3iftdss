@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="188" MadCap:lastWidth="1466">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="208" MadCap:lastWidth="1152">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
@@ -14,8 +14,7 @@
                     <div><a href="../../Home.htm"><img src="../Images/IFTDSSsupport.png" alttext="" class="Hyperlinked footer-logo" /></a>
                     </div>
                     <div>
-                        <div class="footer-links">PDFsTipsFAQsCompany</div>
-                        <p class="Copyright">Copyright © <MadCap:variable name="General.Year" /> <MadCap:variable name="General.CompanyName" /></p>
+                        <div class="footer-links">&#160;</div>
                     </div>
                     <div class="footer-icons"><a href="https://twitter.com/#!/MadCapDocTeam" target="_blank"><img src="../Images/TwitterIcon_orange.png" alttext="" class="Hyperlinked" /></a><a href="http://www.facebook.com/madcapdocteam" target="_blank"><img src="../Images/FacebookIcon_orange.png" alttext="" class="Hyperlinked" /></a>
                     </div>
