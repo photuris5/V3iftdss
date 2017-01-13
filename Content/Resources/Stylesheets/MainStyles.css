@@ -124,27 +124,21 @@ div.noteIFTDSS
 	mc-auto-number-format: '{b}Note: {/b}';
 }
 
-div.moretocome{
-	background-color: #2d3d4f;
-	background-image: url('../Images/NoteIcon_orange.png');
-	background-repeat: no-repeat;
-	border-radius: 6px;
-	color: #ffffff;
-	padding-bottom: 10px;
-	padding-left: 40px;
-	padding-right: 10px;
-	padding-top: 10px;
-	margin-right: 20px;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	margin-top: 10px;
-	overflow: auto;
-	mc-auto-number-format: '{b}Note: {/b}';
-}
-
 .noteInDiv
 {
 	mc-auto-number-format: '{b}{color #e67d27}Note: {/color}{/b}';
+}
+
+.alertcomingsoon
+{
+	color: black;
+	background-color:#afbfd0;
+	border: solid 3px #2d3d4f;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+	mc-auto-number-format: '{b}More Functionality to Come! {/b}';
 }
 
 div.quotation
