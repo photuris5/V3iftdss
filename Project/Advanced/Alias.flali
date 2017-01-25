@@ -68,7 +68,7 @@
     <Map Name="wheel_overview" Link="/Content/6_Cycle/cycle_overview.htm" />
     <Map Name="wheel_reporting" Link="/Content/6_Cycle/cycle_reporting.htm" />
     <Map Name="wheel_strategic" Link="/Content/6_Cycle/cycle_strategic.htm" />
-    <Map Name="evaluate_landscape" Link="/Content/6_Cycle_LandEval/Landscape_Sumry/eval_summarizee.htm" />
+    <Map Name="evaluate_landscape" Link="/Content/6_Cycle_LandEval/Landscape_Summary/Eval_Summarize.htm" />
     <Map Name="models_overview" Link="/Content/5_PG/models_overview.htm" />
     <Map Name="Behavior_FlamMap" Link="/Content/5_PG_Flammap/Behavior_FlamMap.htm" />
     <Map Name="EstLiveFuelMoisture" Link="/Content/2_1_Inputs/EstLiveFuelMoisture.htm" />
@@ -85,4 +85,34 @@
     <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/12_ToolTips/Tip_cy_landscapeeval.htm" />
     <Map Name="Inputs_overview" Link="/Content/2_1_Inputs/Inputs_overview.htm" />
     <Map Name="landscape_file" Link="/Content/2_1_Inputs/landscape_file.htm" />
+    <Map />
+    <Map Name="wheredoibegin" Link="/Content/1_Getting_Started/wheredoibegin.htm" />
+    <Map Name="usingmydata" Link="/Content/2_1_Inputs/usingmydata.htm" />
+    <Map Name="alerts" Link="/Content/2_Navigating/alerts.htm" />
+    <Map Name="mworkspace" Link="/Content/2_Navigating/mworkspace.htm" />
+    <Map Name="userprofile" Link="/Content/2_Navigating/userprofile.htm" />
+    <Map Name="About_Shapefiles" Link="/Content/3_Map/About_Shapefiles.htm" />
+    <Map Name="AddRefData" Link="/Content/3_Map/AddRefData.htm" />
+    <Map Name="AddShapefile" Link="/Content/3_Map/AddShapefile.htm" />
+    <Map Name="allabout" Link="/Content/3_Map/allabout.htm" />
+    <Map Name="BasemapGallery" Link="/Content/3_Map/BasemapGallery.htm" />
+    <Map Name="EditTools" Link="/Content/3_Map/EditTools.htm" />
+    <Map Name="LandscapeTools" Link="/Content/3_Map/LandscapeTools.htm" />
+    <Map Name="LayerList" Link="/Content/3_Map/LayerList.htm" />
+    <Map Name="Legend" Link="/Content/3_Map/Legend.htm" />
+    <Map Name="Measurements" Link="/Content/3_Map/Measurements.htm" />
+    <Map Name="SimltnOutputs" Link="/Content/3_Map/SimltnOutputs.htm" />
+    <Map Name="ComplexityAnalysis" Link="/Content/6_Cycle_ImpnPlan/BurnPlans/ComplexityAnalysis.htm" />
+    <Map Name="DevelopRx" Link="/Content/6_Cycle_ImpnPlan/BurnPlans/DevelopRx.htm" />
+    <Map Name="WriteIPFPIG" Link="/Content/6_Cycle_ImpnPlan/BurnPlans/WriteIPFPIG.htm" />
+    <Map Name="Editing" Link="/Content/6_Cycle_LandEval/Edit_Data/Editing.htm" />
+    <Map Name="LandscapeEdit_Rule" Link="/Content/6_Cycle_LandEval/Edit_Data/LandscapeEdit_Rule.htm" />
+    <Map Name="LF_lookup_rule" Link="/Content/6_Cycle_LandEval/Edit_Data/LF_lookup_rule.htm" />
+    <Map Name="ffi" Link="/Content/6_Cycle_Monitor/Data_FeatFiremon/ffi.htm" />
+    <Map Name="ftem" Link="/Content/6_Cycle_Monitor/Data_FuelTreatment/ftem.htm" />
+    <Map Name="ModelTreatmentOrder" Link="/Content/6_Cycle_StratPlan/PrioritizeTreatment/ModelTreatmentOrder.htm" />
+    <Map Name="CompareEdits" Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CompareEdits.htm" />
+    <Map Name="CreateAlternatives" Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CreateAlternatives.htm" />
+    <Map Name="ModelFutureTreatments" Link="/Content/6_Cycle_StratPlan/YearOutPlans/ModelFutureTreatments.htm" />
+    <Map Name="burnplanning" Link="/Content/7_1_rxburnplan/burnplanning.htm" />
 </CatapultAliasFile>

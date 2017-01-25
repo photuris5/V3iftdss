@@ -41,8 +41,11 @@ img.Hyperlinked
 
 img.Slideshow
 {
-	border-style: none;
-	margin-bottom: 15px;
+border-style: solid;
+margin-bottom: 15px;
+border-radius: 50%;
+border-color: #2D3D4F;
+border-width: 5px;
 }
 
 p

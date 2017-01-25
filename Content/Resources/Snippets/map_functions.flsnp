@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1627" MadCap:lastWidth="1452">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1890" MadCap:lastWidth="1328">
     <body>
         <p>The <MadCap:variable name="General.ProductName" /><MadCap:variable name="General.MapStudio" /> is where the bulk of your landscape editing and review will take place. </p>
         <p>
@@ -19,8 +19,8 @@
         <p><span class="UIcomponent"><img src="../Images/mapstudio/button_adref.png" alt="add reference data" /> <a href="../../3_Map/AddRefData.htm">Add reference data:</a></span> Addition of federal reference data layers such as administrative boundaries</p>
         <p><span class="UIcomponent"><img src="../Images/mapstudio/button_addshapefile.png" alt="add a shapefile" /> <a href="../../3_Map/AddShapefile.htm"><span class="UIcomponent">Add shapefile:</span></a></span> Allows a user to upload a shapefile to the map</p>
         <p><span class="UIcomponent"><img src="../Images/mapstudio/button_landscapetools.png" alt="landscape tools" /> <a href="../../3_Map/LandscapeTools.htm">Landscape tools:</a></span> Allows you to add an existing landscape, create a new landscape, or modify an existing landscape in the <MadCap:variable name="General.MapStudio" /></p>
-        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_SimOutput.png" title="simulation output tools" /> Simulation output tools:</span> Allows you to add simulation outputs to the map, or compare results from multiple outputs - [<span class="comment">This is in progress with IBM - UIdaho will update</span>]</p>
-        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_editTools.png" title="edit tools" /> Edit Tools</span>: Make edits to existing map layers - [<span class="comment">This is in progress with IBM - UIdaho will update</span>]</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_SimOutput.png" title="simulation output tools" /> Simulation output tools:</span> Allows you to add simulation outputs to the map, or compare results from multiple outputs - [<span class="comment" MadCap:conditions="General.DeveloperNotes">This is in progress with IBM - UIdaho will update</span>]</p>
+        <p><span class="UIcomponent"><img src="../Images/mapstudio/button_editTools.png" title="edit tools" /> Edit Tools</span>: Make edits to existing map layers -<MadCap:conditionalText MadCap:conditions="General.DeveloperNotes"> [<span class="comment">This is in progress with IBM - UIdaho will update</span>]</MadCap:conditionalText></p>
         <p><span class="UIcomponent"><img src="../Images/mapstudio/button_basemapglry.png" alt="basemap gallery" /> <a href="../../3_Map/BasemapGallery.htm">Basemap gallery:</a></span> A selection of basemap layers that can be added to the map</p>
         <p><span class="UIcomponent"><img src="../Images/mapstudio/button_measurement.png" alt="measurement" /> <a href="../../3_Map/Measurements.htm">Measurement:</a></span>&#160;Allows you to measure area or distance in <MadCap:variable name="General.MapStudio" /></p>
     </body>

@@ -86,29 +86,37 @@
   <TocEntry
     Title="Resources">
     <TocEntry
-      Title="Videos"
-      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+      Title="Get Instructions">
+      <TocEntry
+        Title="Videos"
+        Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+      <TocEntry
+        Title="Webinars"
+        Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+      <TocEntry
+        Title="Online Courses"
+        Link="/Content/1_Getting_Started/Online Courses.htm" />
+      <TocEntry
+        Title="Tutorials"
+        Link="/Content/9_Tutorials/Tutorials.htm" />
+      <TocEntry
+        Title="References"
+        Link="/Content/15_References/References.htm" />
+    </TocEntry>
     <TocEntry
-      Title="Forum"
-      Link="https://iftdsshelp.freshdesk.com/discussions"></TocEntry>
+      Title="Get Support">
+      <TocEntry
+        Title="Q A Forum"
+        Link="https://iftdsshelp.freshdesk.com/discussions"></TocEntry>
+      <TocEntry
+        Title="Request Tech. Support"
+        Link="https://s3-us-west-2.amazonaws.com/iftdss-website/support.html" />
+      <TocEntry
+        Title="Workshops"
+        Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    </TocEntry>
     <TocEntry
-      Title="Webinars"
-      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-    <TocEntry
-      Title="Guided Scenarios"
-      Link="/Content/9_Tutorials/Tutorials.htm" />
-    <TocEntry
-      Title="Online Courses"
-      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5" />
-    <TocEntry
-      Title="Workshops"
-      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-    <TocEntry
-      Title="Request Tech. Support"
-      Link="https://www.google.com/" />
-    <TocEntry
-      Title="References"
-      Link="/Content/15_References/References.htm" />
+      Title="testskin" />
   </TocEntry>
   <TocEntry
     Title="Known Issues"
@@ -125,4 +133,36 @@
     StartSection="false"
     ComputeToc="false"
     ReplaceMergeNode="false"></TocEntry>
+  <TocEntry
+    Title="Resources"
+    conditions="General.Exclude">
+    <TocEntry
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    <TocEntry
+      Title="Webinars"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+    <TocEntry
+      Title="Online Courses"
+      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5" />
+    <TocEntry
+      Title="Guided Scenarios"
+      Link="/Content/9_Tutorials/Tutorials.htm" />
+    <TocEntry
+      Title="References"
+      Link="/Content/15_References/References.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="User Support"
+    conditions="General.Exclude">
+    <TocEntry
+      Title="Q A Forum"
+      Link="https://iftdsshelp.freshdesk.com/discussions"></TocEntry>
+    <TocEntry
+      Title="Request Tech. Support"
+      Link="https://www.google.com/" />
+    <TocEntry
+      Title="Workshops"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+  </TocEntry>
 </CatapultToc>

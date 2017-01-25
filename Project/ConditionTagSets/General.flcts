@@ -20,4 +20,8 @@
     BackgroundColor="#ffa500"
     Name="LaterRelease"
     Comment="Content to release later" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="DeveloperNotes"
+    Comment="Developer Notes" />
 </CatapultConditionTagSet>
