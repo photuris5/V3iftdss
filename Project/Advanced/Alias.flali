@@ -85,7 +85,6 @@
     <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/12_ToolTips/Tip_cy_landscapeeval.htm" />
     <Map Name="Inputs_overview" Link="/Content/2_1_Inputs/Inputs_overview.htm" />
     <Map Name="landscape_file" Link="/Content/2_1_Inputs/landscape_file.htm" />
-    <Map />
     <Map Name="wheredoibegin" Link="/Content/1_Getting_Started/wheredoibegin.htm" />
     <Map Name="usingmydata" Link="/Content/2_1_Inputs/usingmydata.htm" />
     <Map Name="alerts" Link="/Content/2_Navigating/alerts.htm" />
@@ -110,7 +109,7 @@
     <Map Name="LF_lookup_rule" Link="/Content/6_Cycle_LandEval/Edit_Data/LF_lookup_rule.htm" />
     <Map Name="ffi" Link="/Content/6_Cycle_Monitor/Data_FeatFiremon/ffi.htm" />
     <Map Name="ftem" Link="/Content/6_Cycle_Monitor/Data_FuelTreatment/ftem.htm" />
-    <Map Name="ModelTreatmentOrder" Link="/Content/6_Cycle_StratPlan/PrioritizeTreatment/ModelTreatmentOrder.htm" />
+    <Map Name="ModelTreatmentOrder" Link="/Content/6_Cycle_StratPlan/PrioritizeTreatment/PrioritzeTreatment.htm" />
     <Map Name="CompareEdits" Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CompareEdits.htm" />
     <Map Name="CreateAlternatives" Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CreateAlternatives.htm" />
     <Map Name="ModelFutureTreatments" Link="/Content/6_Cycle_StratPlan/YearOutPlans/ModelFutureTreatments.htm" />
