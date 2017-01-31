@@ -1,41 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultAliasFile>
     <Map Name="Home" Link="/Content/Home.htm" />
-    <Map Name="About_IFTDSS" Link="/Content/0_IFTDSS/About IFTDSS.htm" />
-    <Map Name="Disclaimer" Link="/Content/0_IFTDSS/Disclaimer.htm" />
-    <Map Name="Known_Issues" Link="/Content/0_IFTDSS/Known_Issues.htm" />
-    <Map Name="Technical_Topics" Link="/Content/0_IFTDSS/Technical_Topics.htm" />
-    <Map Name="What_s_New" Link="/Content/0_IFTDSS/Whats_New.htm" />
-    <Map Name="Getting_Help" Link="/Content/1_Getting_Started/Getting_Help.htm" />
-    <Map Name="Navigating_IFTDSS" Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
-    <Map Name="Setting_up_an_Account" Link="/Content/1_Getting_Started/Set_up_Account.htm" />
-    <Map Name="Data_Management" Link="/Content/2_Navigating/Data Management.htm" />
-    <Map Name="Map_Functions" Link="/Content/3_Map/Map_Functions.htm" />
-    <Map Name="Overview_of_Modules" Link="/Content/2_Navigating/Overview_Modules.htm" />
-    <Map Name="Tutorials" Link="/Content/9_Tutorials/Tutorials.htm" />
-    <Map Name="Behave" Link="/Content/5_PG_Behave/Behave2.htm" />
-    <Map Name="FFT_FEPS" Link="/Content/5_PG_FFT/FFT_FEPS.htm" />
-    <Map Name="FFT_FCCS" Link="/Content/5_PG_FFT/FFT_FCCS.htm" />
-    <Map Name="FFT_ConsumeIN" Link="/Content/5_PG_FFT/FFT_ConsumeIN.htm" />
-    <Map Name="FFT_ConsumeOUT" Link="/Content/5_PG_FFT/FFT_ConsumeOUT.htm" />
-    <Map Name="FireFamilyPlus" Link="/Content/5_PG_FireFamPlus/FireFamilyPlus.htm" />
-    <Map Name="FlamMap" Link="/Content/5_PG_Flammap/Flammap5.htm" />
-    <Map Name="FlamMapCrown" Link="/Content/5_PG_Flammap/FlamMapCrown.htm" />
-    <Map Name="FlamMapInput" Link="/Content/5_PG_Flammap/FlamMapInput.htm" />
-    <Map Name="FlamMapOutput" Link="/Content/5_PG_Flammap/FlamMapOutput.htm" />
-    <Map Name="FOFEM" Link="/Content/5_PG_FOFEM/FOFEM.htm" />
-    <Map Name="Risk" Link="/Content/5_PG_Risk/Risk.htm" />
-    <Map Name="References" Link="/Content/15_References/References.htm" />
-    <Map Name="User_Stories" Link="/Content/10_UserStories/User_Stories.htm" />
-    <Map Name="Workshops" Link="/Content/11_Workshops/Workshops.htm" />
-    <Map Name="Background" Link="/Content/13_Background/Background.htm" />
-    <Map Name="phase_1" Link="/Content/13_Background/phase_1.htm" />
-    <Map Name="phase_2" Link="/Content/13_Background/phase_2.htm" />
-    <Map Name="phase_3" Link="/Content/13_Background/phase_3.htm" />
-    <Map Name="phase_4" Link="/Content/13_Background/phase_4.htm" />
-    <Map Name="phase_5" Link="/Content/13_Background/phase_5.htm" />
-    <Map Name="Project_Team" Link="/Content/13_Background/Project Team.htm" />
-    <Map Name="rda_1" Link="/Content/13_Background/rda_1.htm" />
+    <Map Name="About_IFTDSS" Link="/Content/0_iftdss/about_iftdss.htm" />
+    <Map Name="Disclaimer" Link="/Content/0_iftdss/Disclaimer.htm" />
+    <Map Name="Known_Issues" Link="/Content/0_iftdss/Known_Issues.htm" />
+    <Map Name="What_s_New" Link="/Content/0_iftdss/Whats_New.htm" />
+    <Map Name="Getting_Help" Link="/Content/1_getting_started/getting_help.htm" />
+    <Map Name="Navigating_IFTDSS" Link="/Content/1_getting_started/navigating_iftdss.htm" />
+    <Map Name="Setting_up_an_Account" Link="/Content/1_getting_started/account_setup.htm" />
+    <Map Name="Map_Functions" Link="/Content/4_0_map_studio/map_functions.htm" />
+    <Map Name="Tutorials" Link="/Content/7_0_tutorials/tutorial_main.htm" />
+    <Map Name="FFT_FEPS" Link="/Content/6_0_modeling_pg/fft/feps.htm" />
+    <Map Name="FFT_FCCS" Link="/Content/6_0_modeling_pg/fft/fccs.htm" />
+    <Map Name="FFT_ConsumeIN" Link="/Content/6_0_modeling_pg/fft/consume_in.htm" />
+    <Map Name="FFT_ConsumeOUT" Link="/Content/6_0_modeling_pg/fft/consume_out.htm" />
+    <Map Name="FireFamilyPlus" Link="/Content/6_0_modeling_pg/firefamilyplus/fire_fam_plus.htm" />
+    <Map Name="FlamMap" Link="/Content/6_0_modeling_pg/flammap/about_optn_2.htm" />
+    <Map Name="FlamMapCrown" Link="/Content/6_0_modeling_pg/flammap/crown.htm" />
+    <Map Name="FlamMapInput" Link="/Content/6_0_modeling_pg/flammap/inputs.htm" />
+    <Map Name="FlamMapOutput" Link="/Content/6_0_modeling_pg/flammap/outputs.htm" />
+    <Map Name="FOFEM" Link="/Content/6_0_modeling_pg/fofem/fofem.htm" />
+    <Map Name="Risk" Link="/Content/6_0_modeling_pg/risk/about_risk.htm" />
+    <Map Name="References" Link="/Content/7_1_references/references.htm" />
+    <Map Name="Workshops" Link="/Content/7_3_workshops/mainpage.htm" />
+    <Map Name="Background" Link="/Content/99_background/Background.htm" />
+    <Map Name="phase_1" Link="/Content/99_background/phase_1.htm" />
+    <Map Name="phase_2" Link="/Content/99_background/phase_2.htm" />
+    <Map Name="phase_3" Link="/Content/99_background/phase_3.htm" />
+    <Map Name="phase_4" Link="/Content/99_background/phase_4.htm" />
+    <Map Name="phase_5" Link="/Content/99_background/phase_5.htm" />
+    <Map Name="Project_Team" Link="/Content/99_background/project_team.htm" />
+    <Map Name="rda_1" Link="/Content/99_background/rda_1.htm" />
     <Map Name="Appendix" Link="/Content/Print Only Topics/Appendix.htm" />
     <Map Name="Copyright" Link="/Content/Print Only Topics/Copyright.htm" />
     <Map Name="Glossary" Link="/Content/Print Only Topics/Glossary.htm" />
@@ -45,73 +40,90 @@
     <Map Name="Welcome" Link="/Content/Print Only Topics/Welcome.htm" />
     <Map Name="icons" Link="/Content/Resources/Stylesheets/icons/icons.html" />
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
-    <Map Name="s_flammap_crown" Link="/Content/12_ToolTips/flammap_basic/s_flammap_crown.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_flammap_fm" Link="/Content/12_ToolTips/flammap_basic/s_flammap_fm.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_flammap_lndscape" Link="/Content/12_ToolTips/flammap_basic/s_flammap_lndscape.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_flammap_name" Link="/Content/12_ToolTips/flammap_basic/s_flammap_name.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_flammap_wind" Link="/Content/12_ToolTips/flammap_basic/s_flammap_wind.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_flammap_wthr" Link="/Content/12_ToolTips/flammap_basic/s_flammap_wthr.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="Landscape_summary" Link="/Content/2_Navigating/Landscape_summary.htm" />
-    <Map Name="s_createnew" Link="/Content/12_ToolTips/landscapesummary/s_createnew.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_draw" Link="/Content/12_ToolTips/landscapesummary/s_draw.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_fbfm" Link="/Content/12_ToolTips/landscapesummary/s_fbfm.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_landfire" Link="/Content/12_ToolTips/landscapesummary/s_landfire.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_name" Link="/Content/12_ToolTips/landscapesummary/s_name.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_resolution" Link="/Content/12_ToolTips/landscapesummary/s_resolution.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="s_w_video" Link="/Content/12_ToolTips/landscapesummary/s_w video.htm" Skin="/Project/Skins/webhelp.flskn" />
-    <Map Name="create_a_landscape" Link="/Content/2_Navigating/create_landscape.htm" />
-    <Map Name="report_data" Link="/Content/7_0_Reporting/report_data.htm" />
-    <Map Name="report_overview" Link="/Content/7_0_Reporting/report_overview.htm" />
-    <Map Name="wheel_implementation" Link="/Content/6_Cycle/cycle_implementation.htm" />
-    <Map Name="Wheel_landscape" Link="/Content/6_Cycle/cycle_landscape.htm" />
-    <Map Name="wheel_monitoring" Link="/Content/6_Cycle/cycle_monitoring.htm" />
-    <Map Name="wheel_overview" Link="/Content/6_Cycle/cycle_overview.htm" />
-    <Map Name="wheel_reporting" Link="/Content/6_Cycle/cycle_reporting.htm" />
-    <Map Name="wheel_strategic" Link="/Content/6_Cycle/cycle_strategic.htm" />
-    <Map Name="evaluate_landscape" Link="/Content/6_Cycle_LandEval/Landscape_Summary/Eval_Summarize.htm" />
-    <Map Name="models_overview" Link="/Content/5_PG/models_overview.htm" />
-    <Map Name="Behavior_FlamMap" Link="/Content/5_PG_Flammap/Behavior_FlamMap.htm" />
-    <Map Name="EstLiveFuelMoisture" Link="/Content/2_1_Inputs/EstLiveFuelMoisture.htm" />
-    <Map Name="FBFMs" Link="/Content/2_1_Inputs/FBFMs.htm" />
-    <Map Name="FBFMsummary" Link="/Content/2_1_Inputs/FBFMsummary.htm" />
-    <Map Name="FuelModelsMoisture" Link="/Content/2_1_Inputs/FuelModelsMoisture.htm" />
-    <Map Name="Heatvalues" Link="/Content/2_1_Inputs/Heatvalues.htm" />
-    <Map Name="UnitsMeasure" Link="/Content/2_1_Inputs/Units_Measure.htm" />
-    <Map Name="FFT_Digital_Photo_Series" Link="/Content/5_PG_FFT/FFT_Digital_Photo_Series.htm" />
-    <Map Name="FFT_Consume" Link="/Content/5_PG_FFT/FFT_Consume.htm" />
-    <Map Name="WHYITFDSS" Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
-    <Map Name="FTEM_REPORTING" Link="/Content/7_0_Reporting/FTEM_reporting.htm" />
-    <Map Name="MTBS_REPORTING" Link="/Content/7_0_Reporting/MTBS_reporting.htm" />
-    <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/12_ToolTips/Tip_cy_landscapeeval.htm" />
-    <Map Name="Inputs_overview" Link="/Content/2_1_Inputs/Inputs_overview.htm" />
-    <Map Name="landscape_file" Link="/Content/2_1_Inputs/landscape_file.htm" />
-    <Map Name="wheredoibegin" Link="/Content/1_Getting_Started/wheredoibegin.htm" />
-    <Map Name="usingmydata" Link="/Content/2_1_Inputs/usingmydata.htm" />
-    <Map Name="alerts" Link="/Content/2_Navigating/alerts.htm" />
-    <Map Name="mworkspace" Link="/Content/2_Navigating/mworkspace.htm" />
-    <Map Name="userprofile" Link="/Content/2_Navigating/userprofile.htm" />
-    <Map Name="About_Shapefiles" Link="/Content/3_Map/About_Shapefiles.htm" />
-    <Map Name="AddRefData" Link="/Content/3_Map/AddRefData.htm" />
-    <Map Name="AddShapefile" Link="/Content/3_Map/AddShapefile.htm" />
-    <Map Name="allabout" Link="/Content/3_Map/allabout.htm" />
-    <Map Name="BasemapGallery" Link="/Content/3_Map/BasemapGallery.htm" />
-    <Map Name="EditTools" Link="/Content/3_Map/EditTools.htm" />
-    <Map Name="LandscapeTools" Link="/Content/3_Map/LandscapeTools.htm" />
-    <Map Name="LayerList" Link="/Content/3_Map/LayerList.htm" />
-    <Map Name="Legend" Link="/Content/3_Map/Legend.htm" />
-    <Map Name="Measurements" Link="/Content/3_Map/Measurements.htm" />
-    <Map Name="SimltnOutputs" Link="/Content/3_Map/SimltnOutputs.htm" />
-    <Map Name="ComplexityAnalysis" Link="/Content/6_Cycle_ImpnPlan/BurnPlans/ComplexityAnalysis.htm" />
-    <Map Name="DevelopRx" Link="/Content/6_Cycle_ImpnPlan/BurnPlans/DevelopRx.htm" />
-    <Map Name="WriteIPFPIG" Link="/Content/6_Cycle_ImpnPlan/BurnPlans/WriteIPFPIG.htm" />
-    <Map Name="Editing" Link="/Content/6_Cycle_LandEval/Edit_Data/Editing.htm" />
-    <Map Name="LandscapeEdit_Rule" Link="/Content/6_Cycle_LandEval/Edit_Data/LandscapeEdit_Rule.htm" />
-    <Map Name="LF_lookup_rule" Link="/Content/6_Cycle_LandEval/Edit_Data/LF_lookup_rule.htm" />
-    <Map Name="ffi" Link="/Content/6_Cycle_Monitor/Data_FeatFiremon/ffi.htm" />
-    <Map Name="ftem" Link="/Content/6_Cycle_Monitor/Data_FuelTreatment/ftem.htm" />
-    <Map Name="ModelTreatmentOrder" Link="/Content/6_Cycle_StratPlan/PrioritizeTreatment/PrioritzeTreatment.htm" />
-    <Map Name="CompareEdits" Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CompareEdits.htm" />
-    <Map Name="CreateAlternatives" Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CreateAlternatives.htm" />
-    <Map Name="ModelFutureTreatments" Link="/Content/6_Cycle_StratPlan/YearOutPlans/ModelFutureTreatments.htm" />
-    <Map Name="burnplanning" Link="/Content/7_1_rxburnplan/burnplanning.htm" />
+    <Map Name="s_flammap_crown" Link="/Content/999_test_shorts/flammap_basic/s_flammap_crown.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_flammap_fm" Link="/Content/999_test_shorts/flammap_basic/s_flammap_fm.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_flammap_lndscape" Link="/Content/999_test_shorts/flammap_basic/s_flammap_lndscape.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_flammap_name" Link="/Content/999_test_shorts/flammap_basic/s_flammap_name.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_flammap_wind" Link="/Content/999_test_shorts/flammap_basic/s_flammap_wind.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_flammap_wthr" Link="/Content/999_test_shorts/flammap_basic/s_flammap_wthr.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="Landscape_summary" Link="/Content/5_0_planning_cycle/landscape_eval/landscape_summary/about.htm" />
+    <Map Name="s_createnew" Link="/Content/999_test_shorts/landscapesummary/s_createnew.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_draw" Link="/Content/999_test_shorts/landscapesummary/s_draw.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_fbfm" Link="/Content/999_test_shorts/landscapesummary/s_fbfm.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_landfire" Link="/Content/999_test_shorts/landscapesummary/s_landfire.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_name" Link="/Content/999_test_shorts/landscapesummary/s_name.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_resolution" Link="/Content/999_test_shorts/landscapesummary/s_resolution.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="s_w_video" Link="/Content/999_test_shorts/landscapesummary/s_w video.htm" Skin="/Project/Skins/webhelp.flskn" />
+    <Map Name="create_a_landscape" Link="/Content/4_0_map_studio/create_landscape.htm" />
+    <Map Name="report_data" Link="/Content/5_0_planning_cycle/report/report_data.htm" />
+    <Map Name="report_overview" Link="/Content/5_0_planning_cycle/report/report_overview.htm" />
+    <Map Name="wheel_implementation" Link="/Content/5_0_planning_cycle/implementation/about_implementation.htm" />
+    <Map Name="Wheel_landscape" Link="/Content/5_0_planning_cycle/landscape_eval/about_landscape.htm" />
+    <Map Name="wheel_monitoring" Link="/Content/5_0_planning_cycle/monitor/about_monitoring.htm" />
+    <Map Name="wheel_overview" Link="/Content/5_0_planning_cycle/overview.htm" />
+    <Map Name="wheel_reporting" Link="/Content/5_0_planning_cycle/report/about_reporting.htm" />
+    <Map Name="wheel_strategic" Link="/Content/5_0_planning_cycle/strategic_plan/about_strategic.htm" />
+    <Map Name="evaluate_landscape" Link="/Content/5_0_planning_cycle/landscape_eval/landscape_summary/eval_and_summrz.htm" />
+    <Map Name="models_overview" Link="/Content/6_0_modeling_pg/models_overview.htm" />
+    <Map Name="Behavior_FlamMap" Link="/Content/6_0_modeling_pg/flammap/about_optn_1.htm" />
+    <Map Name="EstLiveFuelMoisture" Link="/Content/2_0_concepts/live_fuel_moistr_estmt.htm" />
+    <Map Name="FBFMs" Link="/Content/4_0_map_studio/fbfm.htm" />
+    <Map Name="FBFMsummary" Link="/Content/4_0_map_studio/fbfm_summaries.htm" />
+    <Map Name="FuelModelsMoisture" Link="/Content/2_0_concepts/fuel_model_moistrs.htm" />
+    <Map Name="Heatvalues" Link="/Content/2_0_concepts/heat_values.htm" />
+    <Map Name="UnitsMeasure" Link="/Content/2_0_concepts/units_measure.htm" />
+    <Map Name="FFT_Digital_Photo_Series" Link="/Content/6_0_modeling_pg/fft/digital_photo_series.htm" />
+    <Map Name="FFT_Consume" Link="/Content/6_0_modeling_pg/fft/consume.htm" />
+    <Map Name="WHYITFDSS" Link="/Content/1_getting_started/why_iftdss.htm" />
+    <Map Name="FTEM_REPORTING" Link="/Content/5_0_planning_cycle/report/ftem_reporting.htm" />
+    <Map Name="MTBS_REPORTING" Link="/Content/5_0_planning_cycle/report/mtbs_reporting.htm" />
+    <Map Name="TIP_CY_LANDSCAPEEVAL" Link="/Content/999_test_shorts/Tip_cy_landscapeeval.htm" />
+    <Map Name="Inputs_overview" Link="/Content/2_0_concepts/inputs_overview.htm" />
+    <Map Name="landscape_file" Link="/Content/4_0_map_studio/inputs/landscape_file.htm" />
+    <Map Name="wheredoibegin" Link="/Content/1_getting_started/where_to_begin.htm" />
+    <Map Name="usingmydata" Link="/Content/2_0_concepts/usingmydata.htm" />
+    <Map Name="alerts" Link="/Content/1_getting_started/alerts.htm" />
+    <Map Name="mworkspace" Link="/Content/3_0_my_workspace/my_workspace.htm" />
+    <Map Name="userprofile" Link="/Content/1_getting_started/userprofile.htm" />
+    <Map Name="About_Shapefiles" Link="/Content/4_0_map_studio/inputs/about_shapefiles.htm" />
+    <Map Name="AddRefData" Link="/Content/4_0_map_studio/buttons/add_reference_data.htm" />
+    <Map Name="AddShapefile" Link="/Content/4_0_map_studio/buttons/add_shapefile.htm" />
+    <Map Name="allabout" Link="/Content/4_0_map_studio/all_about.htm" />
+    <Map Name="BasemapGallery" Link="/Content/4_0_map_studio/buttons/basemap_gallery.htm" />
+    <Map Name="EditTools" Link="/Content/4_0_map_studio/buttons/edit_tools.htm" />
+    <Map Name="LandscapeTools" Link="/Content/4_0_map_studio/buttons/landscape_tools.htm" />
+    <Map Name="LayerList" Link="/Content/4_0_map_studio/buttons/layer_list.htm" />
+    <Map Name="Legend" Link="/Content/4_0_map_studio/buttons/legend.htm" />
+    <Map Name="Measurements" Link="/Content/4_0_map_studio/buttons/measurements.htm" />
+    <Map Name="ComplexityAnalysis" Link="/Content/5_0_planning_cycle/implementation/burn_plan/complexity_analysis.htm" />
+    <Map Name="DevelopRx" Link="/Content/5_0_planning_cycle/implementation/burn_plan/develop rx.htm" />
+    <Map Name="WriteIPFPIG" Link="/Content/5_0_planning_cycle/implementation/burn_plan/write_report.htm" />
+    <Map Name="Editing" Link="/Content/5_0_planning_cycle/landscape_eval/edit_data/editing.htm" />
+    <Map Name="LandscapeEdit_Rule" Link="/Content/5_0_planning_cycle/landscape_eval/edit_data/landscape_edit_rule.htm" />
+    <Map Name="LF_lookup_rule" Link="/Content/5_0_planning_cycle/implementation/lf_lookup_rule.htm" />
+    <Map Name="ffi" Link="/Content/5_0_planning_cycle/monitor/ffi.htm" />
+    <Map Name="ftem" Link="/Content/5_0_planning_cycle/monitor/ftem.htm" />
+    <Map Name="ModelTreatmentOrder" Link="/Content/5_0_planning_cycle/strategic_plan/prioritize/prioritze_Treatment.htm" />
+    <Map Name="CompareEdits" Link="/Content/5_0_planning_cycle/strategic_plan/treatment_alternatives/CompareEdits.htm" />
+    <Map Name="CreateAlternatives" Link="/Content/5_0_planning_cycle/strategic_plan/treatment_alternatives/CreateAlternatives.htm" />
+    <Map Name="ModelFutureTreatments" Link="/Content/5_0_planning_cycle/strategic_plan/year_out_plans/ModelFutureTreatments.htm" />
+    <Map Name="burnplanning" Link="/Content/5_0_planning_cycle/implementation/burn_plan/burnplanning.htm" />
+    <Map Name="Behave" Link="/Content/6_0_modeling_pg/behave/behave.htm" />
+    <Map Name="NEW" Link="/Content/0_iftdss/disclaimer.htm" />
+    <Map Name="NEW1" Link="/Content/0_iftdss/known_issues.htm" />
+    <Map Name="NEW2" Link="/Content/0_iftdss/whats_new.htm" />
+    <Map Name="NEW3" Link="/Content/1_getting_started/online_courses.htm" />
+    <Map Name="NEW4" Link="/Content/5_0_planning_cycle/implementation/smoke_mgt/smoke_mgt_plan.htm" />
+    <Map Name="NEW5" Link="/Content/5_0_planning_cycle/implementation/treat_chem_mech/dvlp_chem_mech_treat.htm" />
+    <Map Name="burn_windows" Link="/Content/5_0_planning_cycle/implementation/windows/burn_windows.htm" />
+    <Map Name="calc_burn_prob" Link="/Content/5_0_planning_cycle/landscape_eval/burn_probability/calc_burn_prob.htm" />
+    <Map Name="develop_proj_objectives" Link="/Content/5_0_planning_cycle/landscape_eval/project_objectives/develop_proj_objectives.htm" />
+    <Map Name="validate_refine_treatments" Link="/Content/5_0_planning_cycle/monitor/validate_refine_treatments.htm" />
+    <Map Name="business_need_report" Link="/Content/5_0_planning_cycle/report/business_need_report.htm" />
+    <Map Name="produce_fuel_treatment" Link="/Content/5_0_planning_cycle/report/produce_fuel_treatment.htm" />
+    <Map Name="produce_success_story" Link="/Content/5_0_planning_cycle/report/produce_success_story.htm" />
+    <Map Name="Quantitative_Risk_Assessment" Link="/Content/5_0_planning_cycle/strategic_plan/quantitative_risk/Quantitative Risk Assessment.htm" />
+    <Map Name="developer_tools" Link="/Content/8_0_dev/developer_tools.htm" />
+    <Map Name="sys_admin" Link="/Content/8_0_dev/sys_admin.htm" />
+    <Map Name="background" Link="/Content/99_background/background.htm" />
 </CatapultAliasFile>

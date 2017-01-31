@@ -41,11 +41,13 @@ img.Hyperlinked
 
 img.Slideshow
 {
-border-style: solid;
-margin-bottom: 15px;
-border-radius: 50%;
-border-color: #2D3D4F;
-border-width: 5px;
+    border-style: solid;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border-color: #2e3e4F;
+    border-width: 3px;
+    max-width: 115px;
+
 }
 
 p
@@ -230,12 +232,12 @@ p.Copyright
 
 div.topichero
 {
-	background-image: url('../Images/coniferbackground.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 80px;
-	height: auto;
-	padding-bottom: 100px;
+background-image: url('../images/coniferbackground.png');
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 60px;
+height: auto;
+padding-bottom: 120px;
 }
 
 div.topichero h1
@@ -249,7 +251,7 @@ div.topichero h1
 div.topichero h2
 {
 	font-size: 1.8em;
-	margin-bottom: 80px;
+	margin-bottom: 45px;
 	line-height: 100%;
 }
 
@@ -264,7 +266,7 @@ div.topichero h2
 div.slidingshow
 {
 	margin-top: -79px;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 750px;

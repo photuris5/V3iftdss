@@ -5,186 +5,186 @@
     Title="New User?">
     <TocEntry
       Title="Why use [%=General.ProductName%] for Fuel Planning?"
-      Link="/Content/1_Getting_Started/Why_IFTDSS.htm" />
+      Link="/Content/1_getting_started/why_iftdss.htm" />
     <TocEntry
       Title="Setting up an Account"
-      Link="/Content/1_Getting_Started/Set_up_Account.htm" />
+      Link="/Content/1_getting_started/account_setup.htm" />
     <TocEntry
       Title="Getting Help"
-      Link="/Content/1_Getting_Started/Getting_Help.htm" />
+      Link="/Content/1_getting_started/getting_help.htm" />
   </TocEntry>
   <TocEntry
     Title="All About...">
     <TocEntry
       Title="How [%=General.ProductName%] is Organized"
-      Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
+      Link="/Content/1_getting_started/navigating_iftdss.htm" />
     <TocEntry
       Title="Our Landscape Planning Cycle"
-      Link="/Content/6_Cycle/cycle_overview.htm"></TocEntry>
+      Link="/Content/5_0_planning_cycle/overview.htm"></TocEntry>
     <TocEntry
       Title=" - Landscape Evaluation"
-      Link="/Content/6_Cycle/cycle_landscape.htm">
+      Link="/Content/5_0_planning_cycle/landscape_eval/about_landscape.htm">
       <TocEntry
         Title="Generate Landscape Summary"
-        Link="/Content/6_Cycle_LandEval/Landscape_Summary/Eval_Summarize.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/5_0_planning_cycle/landscape_eval/landscape_summary/eval_and_summrz.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Edit/Correct Landscape Data"
-        Link="/Content/6_Cycle_LandEval/Edit_Data/Editing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/5_0_planning_cycle/landscape_eval/edit_data/editing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Calculate Fire Behavior"
-        Link="/Content/6_Cycle_LandEval/Edit_Data/LF_lookup_rule.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/6_0_modeling_pg/flammap/about_optn_2.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Calculate Burn Probability"
-        Link="/Content/6_Cycle_LandEval/Burn_Probability/Calculate Burn Probability.htm"></TocEntry>
+        Link="/Content/5_0_planning_cycle/landscape_eval/burn_probability/calc_burn_prob.htm"></TocEntry>
       <TocEntry
         Title="Develop Project Objectives"
-        Link="/Content/6_Cycle_LandEval/Project_Objectives/Develop Project Objectives.htm" />
+        Link="/Content/5_0_planning_cycle/landscape_eval/project_objectives/develop_proj_objectives.htm" />
     </TocEntry>
     <TocEntry
       Title=" - Strategic Planning"
-      Link="/Content/6_Cycle/cycle_strategic.htm">
+      Link="/Content/5_0_planning_cycle/strategic_plan/about_strategic.htm">
       <TocEntry
         Title="Develop Treatment Alternatives"
-        Link="/Content/6_Cycle_StratPlan/TreatmentAlternatives/CreateAlternatives.htm" />
+        Link="/Content/5_0_planning_cycle/strategic_plan/treatment_alternatives/CreateAlternatives.htm" />
       <TocEntry
         Title="Quantitative Risk Assessment"
-        Link="/Content/6_Cycle_StratPlan/QuantitativeRisk/Quantitative Risk Assessment.htm" />
+        Link="/Content/5_0_planning_cycle/strategic_plan/quantitative_risk/Quantitative Risk Assessment.htm" />
       <TocEntry
         Title="Prioritize Treatments"
-        Link="/Content/6_Cycle_StratPlan/PrioritizeTreatment/PrioritzeTreatment.htm" />
+        Link="/Content/5_0_planning_cycle/strategic_plan/prioritize/prioritze_Treatment.htm" />
       <TocEntry
         Title="Develop Out Year Plans"
-        Link="/Content/6_Cycle_StratPlan/YearOutPlans/ModelFutureTreatments.htm" />
+        Link="/Content/5_0_planning_cycle/strategic_plan/year_out_plans/ModelFutureTreatments.htm" />
     </TocEntry>
     <TocEntry
       Title=" - Implementation Planning"
-      Link="/Content/6_Cycle/cycle_implementation.htm">
+      Link="/Content/5_0_planning_cycle/implementation/about_implementation.htm">
       <TocEntry
         Title="Write Burn Plans"
-        Link="/Content/6_Cycle_ImpnPlan/BurnPlans/WriteIPFPIG.htm" />
+        Link="/Content/5_0_planning_cycle/implementation/burn_plan/write_report.htm" />
       <TocEntry
         Title="Develop Treatment Prescriptions"
-        Link="/Content/6_Cycle_ImpnPlan/BurnPlans/DevelopRx.htm" />
+        Link="/Content/5_0_planning_cycle/implementation/burn_plan/develop rx.htm" />
       <TocEntry
         Title="Develop Mechanical/Chemical"
-        Link="/Content/6_Cycle_ImpnPlan/TreatmentChemMech/Develop Mechanical and Chemical Treatments.htm" />
+        Link="/Content/5_0_planning_cycle/implementation/treat_chem_mech/dvlp_chem_mech_treat.htm" />
       <TocEntry
         Title="Find Burn Windows"
-        Link="/Content/6_Cycle_ImpnPlan/BurnWindows/Find Burn Windows.htm" />
+        Link="/Content/5_0_planning_cycle/implementation/windows/burn_windows.htm" />
       <TocEntry
         Title="Smoke Management"
-        Link="/Content/6_Cycle_ImpnPlan/SmokeManagement/Smoke Management Planning.htm" />
+        Link="/Content/5_0_planning_cycle/implementation/smoke_mgt/smoke_mgt_plan.htm" />
     </TocEntry>
     <TocEntry
       Title=" - Monitoring"
-      Link="/Content/6_Cycle/cycle_monitoring.htm">
+      Link="/Content/5_0_planning_cycle/monitor/about_monitoring.htm">
       <TocEntry
         Title="Enter Data into FTEM"
-        Link="/Content/6_Cycle_Monitor/Data_FuelTreatment/ftem.htm" />
+        Link="/Content/5_0_planning_cycle/monitor/ftem.htm" />
       <TocEntry
         Title="Enter Data into FFI"
-        Link="/Content/6_Cycle_Monitor/Data_FeatFiremon/ffi.htm" />
+        Link="/Content/5_0_planning_cycle/monitor/ffi.htm" />
       <TocEntry
         Title="Validate/Refine Treatment"
-        Link="/Content/6_Cycle_Monitor/Validate_Treatments/Validate and Refine Treatments.htm" />
+        Link="/Content/5_0_planning_cycle/monitor/validate_refine_treatments.htm" />
     </TocEntry>
     <TocEntry
       Title=" - Reporting"
-      Link="/Content/7_0_Reporting/report_overview.htm">
+      Link="/Content/5_0_planning_cycle/report/about_reporting.htm">
       <TocEntry
         Title="Produce Fuel Treatment"
-        Link="/Content/6_Cycle_Report/Produce Fuel Treatments.htm" />
+        Link="/Content/5_0_planning_cycle/report/produce_fuel_treatment.htm" />
       <TocEntry
         Title="Business Need Reporting"
-        Link="/Content/6_Cycle_Report/Business Need Reporting.htm" />
+        Link="/Content/5_0_planning_cycle/report/business_need_report.htm" />
       <TocEntry
         Title="Produce Success Stories"
-        Link="/Content/6_Cycle_Report/Produce Success Stories.htm" />
+        Link="/Content/5_0_planning_cycle/report/produce_success_story.htm" />
     </TocEntry>
     <TocEntry
       Title="Map Studio"
-      Link="/Content/3_Map/allabout.htm">
+      Link="/Content/4_0_map_studio/all_about.htm">
       <TocEntry
         Title="Map Creation "
-        Link="/Content/3_Map/Map_Functions.htm" />
+        Link="/Content/4_0_map_studio/map_functions.htm" />
       <TocEntry
         Title="Using My Own Data"
-        Link="/Content/2_1_Inputs/usingmydata.htm" />
+        Link="/Content/2_0_concepts/usingmydata.htm" />
     </TocEntry>
     <TocEntry
       Title="Modeling Playground"
-      Link="/Content/5_PG/models_overview.htm"></TocEntry>
+      Link="/Content/6_0_modeling_pg/models_overview.htm"></TocEntry>
   </TocEntry>
   <TocEntry
-    Title="Key Topics"
+    Title="How do I..."
     StartSection="false"
     SectionNumberReset="continue"
     VolumeNumberReset="same"
     ChapterNumberReset="continue">
     <TocEntry
-      Title="How [%=General.ProductName%] is Organized"
-      Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
+      Title="Navigate [%=General.ProductName%]"
+      Link="/Content/1_getting_started/navigating_iftdss.htm" />
     <TocEntry
-      Title="The Landscape Planning Cycle"
-      Link="/Content/6_Cycle/cycle_overview.htm">
+      Title="Use the Landscape Planning Cycle"
+      Link="/Content/5_0_planning_cycle/overview.htm">
       <TocEntry
         Title="Overview"
-        Link="/Content/6_Cycle/cycle_overview.htm" />
+        Link="/Content/5_0_planning_cycle/overview.htm" />
       <TocEntry
         Title="Landscape Evaluation"
-        Link="/Content/6_Cycle/cycle_landscape.htm" />
+        Link="/Content/5_0_planning_cycle/landscape_eval/about_landscape.htm" />
       <TocEntry
         Title="Strategic Planning"
-        Link="/Content/6_Cycle/cycle_strategic.htm" />
+        Link="/Content/5_0_planning_cycle/strategic_plan/about_strategic.htm" />
       <TocEntry
         Title="Implementation Planning"
-        Link="/Content/6_Cycle/cycle_implementation.htm" />
+        Link="/Content/5_0_planning_cycle/implementation/about_implementation.htm" />
       <TocEntry
         Title="Monitoring"
-        Link="/Content/6_Cycle/cycle_monitoring.htm" />
+        Link="/Content/5_0_planning_cycle/monitor/about_monitoring.htm" />
       <TocEntry
         Title="Reporting"
-        Link="/Content/6_Cycle/cycle_reporting.htm" />
+        Link="/Content/5_0_planning_cycle/report/about_reporting.htm" />
     </TocEntry>
     <TocEntry
-      Title="Map Creation "
-      Link="/Content/3_Map/Map_Functions.htm" />
+      Title="Create Maps and Landscapes"
+      Link="/Content/4_0_map_studio/map_functions.htm" />
     <TocEntry
-      Title="Using My Own Data"
-      Link="/Content/2_1_Inputs/usingmydata.htm" />
+      Title="Use My Own Data"
+      Link="/Content/2_0_concepts/usingmydata.htm" />
     <TocEntry
       Title="Modeling in [%=General.ProductName%]"
-      Link="/Content/5_PG/models_overview.htm">
+      Link="/Content/6_0_modeling_pg/models_overview.htm">
       <TocEntry
         Title="Fire Behavior - Driven by FlamMap 5.0"
-        Link="/Content/5_PG_Flammap/Flammap5.htm">
+        Link="/Content/6_0_modeling_pg/flammap/about_optn_2.htm">
         <TocEntry
           Title="FlamMap Fire Behavior Inputs"
-          Link="/Content/5_PG_Flammap/FlamMapInput.htm" />
+          Link="/Content/6_0_modeling_pg/flammap/inputs.htm" />
         <TocEntry
           Title="FlamMap Fire Behavior Outputs"
-          Link="/Content/5_PG_Flammap/FlamMapOutput.htm" />
+          Link="/Content/6_0_modeling_pg/flammap/outputs.htm" />
         <TocEntry
           Title="Crown Fire Calculation Options"
-          Link="/Content/5_PG_Flammap/FlamMapCrown.htm" />
+          Link="/Content/6_0_modeling_pg/flammap/crown.htm" />
       </TocEntry>
     </TocEntry>
     <TocEntry
       Title="Reporting in [%=General.ProductName%]"
-      Link="/Content/7_0_Reporting/report_overview.htm">
+      Link="/Content/5_0_planning_cycle/report/report_overview.htm">
       <TocEntry
         Title="Data Reporting"
-        Link="/Content/7_0_Reporting/report_data.htm" />
+        Link="/Content/5_0_planning_cycle/report/report_data.htm" />
       <TocEntry
         Title="Fuel Treatment Effectiveness Monitoring (FTEM) Reporting"
-        Link="/Content/7_0_Reporting/FTEM_reporting.htm" />
+        Link="/Content/5_0_planning_cycle/report/ftem_reporting.htm" />
       <TocEntry
         Title="Monitoring Trends in Burn Severity (MTBS) Reporting"
-        Link="/Content/7_0_Reporting/MTBS_reporting.htm" />
+        Link="/Content/5_0_planning_cycle/report/mtbs_reporting.htm" />
     </TocEntry>
     <TocEntry
       Title="Prescribed Burn Planning in [%=General.ProductName%]"
-      Link="/Content/7_1_rxburnplan/burnplanning.htm" />
+      Link="/Content/5_0_planning_cycle/implementation/burn_plan/burnplanning.htm" />
   </TocEntry>
   <TocEntry
     Title="Resources">
@@ -198,13 +198,13 @@
         Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
       <TocEntry
         Title="Online Courses"
-        Link="/Content/1_Getting_Started/Online Courses.htm" />
+        Link="/Content/1_getting_started/online_courses.htm" />
       <TocEntry
         Title="Tutorials"
-        Link="/Content/9_Tutorials/Tutorials.htm" />
+        Link="/Content/7_0_tutorials/tutorial_main.htm" />
       <TocEntry
         Title="References"
-        Link="/Content/15_References/References.htm" />
+        Link="/Content/7_1_references/references.htm" />
     </TocEntry>
     <TocEntry
       Title="Get Support">
@@ -223,104 +223,6 @@
   </TocEntry>
   <TocEntry
     Title="Known Issues"
-    Link="/Content/0_IFTDSS/Known_Issues.htm"
+    Link="/Content/0_iftdss/Known_Issues.htm"
     StartSection="false" />
-  <TocEntry
-    Title="Resources"
-    conditions="General.Exclude">
-    <TocEntry
-      Title="Videos"
-      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-    <TocEntry
-      Title="Webinars"
-      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-    <TocEntry
-      Title="Online Courses"
-      Link="https://www.frames.gov/onlinecourses/course/index.php?categoryid=5" />
-    <TocEntry
-      Title="Guided Scenarios"
-      Link="/Content/9_Tutorials/Tutorials.htm" />
-    <TocEntry
-      Title="References"
-      Link="/Content/15_References/References.htm" />
-    <TocEntry
-      Title="All About..."
-      conditions="General.Exclude">
-      <TocEntry
-        Title="How [%=General.ProductName%] is Organized"
-        Link="/Content/1_Getting_Started/Navigating_IFTDSS.htm" />
-      <TocEntry
-        Title="Our Landscape Planning Cycle"
-        Link="/Content/6_Cycle/cycle_overview.htm">
-        <TocEntry
-          Title="Overview"
-          Link="/Content/6_Cycle/cycle_overview.htm" />
-        <TocEntry
-          Title="Landscape Evaluation"
-          Link="/Content/6_Cycle/cycle_landscape.htm" />
-        <TocEntry
-          Title="Strategic Planning"
-          Link="/Content/6_Cycle/cycle_strategic.htm" />
-        <TocEntry
-          Title="Implementation Planning"
-          Link="/Content/6_Cycle/cycle_implementation.htm" />
-        <TocEntry
-          Title="Monitoring"
-          Link="/Content/6_Cycle/cycle_monitoring.htm" />
-        <TocEntry
-          Title="Reporting"
-          Link="/Content/6_Cycle/cycle_reporting.htm" />
-      </TocEntry>
-      <TocEntry
-        Title="Map Creation "
-        Link="/Content/3_Map/Map_Functions.htm" />
-      <TocEntry
-        Title="Using My Own Data"
-        Link="/Content/2_1_Inputs/usingmydata.htm" />
-      <TocEntry
-        Title="Modeling in [%=General.ProductName%]"
-        Link="/Content/5_PG/models_overview.htm">
-        <TocEntry
-          Title="Fire Behavior - Driven by FlamMap 5.0"
-          Link="/Content/5_PG_Flammap/Flammap5.htm">
-          <TocEntry
-            Title="FlamMap Fire Behavior Inputs"
-            Link="/Content/5_PG_Flammap/FlamMapInput.htm" />
-          <TocEntry
-            Title="FlamMap Fire Behavior Outputs"
-            Link="/Content/5_PG_Flammap/FlamMapOutput.htm" />
-          <TocEntry
-            Title="Crown Fire Calculation Options"
-            Link="/Content/5_PG_Flammap/FlamMapCrown.htm" />
-        </TocEntry>
-      </TocEntry>
-      <TocEntry
-        Title="Reporting in [%=General.ProductName%]"
-        Link="/Content/7_0_Reporting/report_overview.htm">
-        <TocEntry
-          Title="Data Reporting"
-          Link="/Content/7_0_Reporting/report_data.htm" />
-        <TocEntry
-          Title="Fuel Treatment Effectiveness Monitoring (FTEM) Reporting"
-          Link="/Content/7_0_Reporting/FTEM_reporting.htm" />
-        <TocEntry
-          Title="Monitoring Trends in Burn Severity (MTBS) Reporting"
-          Link="/Content/7_0_Reporting/MTBS_reporting.htm" />
-      </TocEntry>
-      <TocEntry
-        Title="Prescribed Burn Planning in [%=General.ProductName%]"
-        Link="/Content/7_1_rxburnplan/burnplanning.htm" />
-    </TocEntry>
-    <TocEntry
-      Title=" Feedback"
-      Link="mailto:iftdss.help@firenet.gov"
-      conditions="General.Exclude"
-      StartSection="false"
-      ComputeToc="false"
-      ReplaceMergeNode="false"></TocEntry>
-    <TocEntry
-      Title=" Log In"
-      Link="https://iftdss.firenet.gov/"
-      conditions="General.Exclude"></TocEntry>
-  </TocEntry>
 </CatapultToc>
