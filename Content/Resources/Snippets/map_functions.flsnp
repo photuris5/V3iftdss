@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1529" MadCap:lastWidth="1323">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../Images/mapstudio/map_122016.png" style="width: 968px;height: 494px;" />
+        </p>
+        <h2>In the top left:</h2>
+        <p>
+            <img src="../Images/mapstudio/button_zoomin.png" alt="zoom in button" />
+            <img src="../Images/mapstudio/button_zoomout.png" alt="zoom out button" /> <span class="UIcomponent">Zoom in and Out: </span>Zoom the map extent</p>
+        <p>
+            <img src="../Images/mapstudio/button_defaultextent.png" title="default extent button" /> <span class="UIcomponent">Default Extent:</span>&#160;Return the map to its default extent</p>
+        <h2>In the top right:</h2>
+        <p>
+            <img src="../Images/mapstudio/button_identify.png" alt="identify button" /> <span class="UIcomponent">Identify:</span> Identify a feature</p>
+        <p>
+            <img src="../Images/mapstudio/button_draw.png" alt="draw button" /> <span class="UIcomponent">Draw:</span> Draw lines and shapes on the map. This is for display only, it does not create a shapefile</p>
+        <p>
+            <img src="../Images/mapstudio/button_slider.png" alt="swipe button" /> <span class="UIcomponent">Swipe:</span> Allows for quick toggling between different layers</p>
+        <h2>In the bottom right:</h2>
+        <p>
+            <img src="../Images/mapstudio/button_layers.png" alt="attribute table" /> <span class="UIcomponent">Attribute Table:</span> Displays a table of map features</p>
+        <h2>In the bottom center:</h2>
+        <p><a href="../../4_0_map_studio/buttons/layer_list.htm"><img src="../Images/mapstudio/button_layerlist.png" alt="layer list button" /> </a><span class="UIcomponent"><a href="../../4_0_map_studio/buttons/layer_list.htm">Layer List</a>:</span>&#160;A list of the layers shown on the map</p>
+        <p>
+            <img src="../Images/mapstudio/button_adref.png" alt="add reference data button" /> <span class="UIcomponent"><a href="../../4_0_map_studio/buttons/add_reference_data.htm">Add Reference Data</a>:</span>Addition of federal reference data layers such as administrative boundaries</p>
+        <p>
+            <img src="../Images/mapstudio/button_addshapefile.png" alt="upload shapefile button" /> <span class="UIcomponent"><a href="../../4_0_map_studio/buttons/add_shapefile.htm">Add Shapefile</a>:</span>Allows a user to upload a shapefile to the map</p>
+        <p>
+            <img src="../Images/mapstudio/button_landscapetools.png" alt="landscape tools button" /> <span class="UIcomponent"><a href="../../4_0_map_studio/buttons/landscape_tools.htm">Landscape Tools</a>:</span>Allows you to add an existing landscape, create a new landscape, or modify an existing landscape in the <MadCap:variable name="General.MapStudio" /></p>
+        <p>
+            <img src="../Images/mapstudio/button_SimOutput.png" alt="simulation output tools button" /> <span class="UIcomponent">Simulation Output Tools:</span>Allows you to add simulation outputs to the map, or compare results from multiple outputs - <span class="comment" MadCap:conditions="General.DeveloperNotes">[This is in progress with IBM - UIdaho will update]</span></p>
+        <p>
+            <img src="../Images/mapstudio/button_editTools.png" alt="edit tools button" /> <span class="UIcomponent">Edit Tools:</span>&#160;Make edits to existing map layers <span class="comment" MadCap:conditions="General.DeveloperNotes">- [This is in progress with IBM - UIdaho will update]</span></p>
+        <p>
+            <img src="../Images/mapstudio/button_basemapglry.png" alt="basemap gallery button" /> <span class="UIcomponent"><a href="../../4_0_map_studio/buttons/basemap_gallery.htm">Basemap Gallery</a>:</span> A selection of basemap layers that can be added to the map</p>
+        <p>
+            <img src="../Images/mapstudio/button_measurement.png" alt="measurement button" /> <span class="UIcomponent"><a href="../../4_0_map_studio/buttons/measurements.htm">Measurement</a>:</span> Allows you to measure area or distance in Map Studio</p>
+        <p class="comment" MadCap:conditions="General.DeveloperNotes">[This page layout may change to a hyperlinked list of mapping operations. The Map studio content will be part of that list, but all the details would be collapsed so users can see the full list at a glance - UIdaho]</p>
+    </body>
+</html>
