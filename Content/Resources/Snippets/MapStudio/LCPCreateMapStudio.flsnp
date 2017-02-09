@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1724" MadCap:lastWidth="1378">
+    <head>
+    </head>
+    <body>
+        <p>To begin creating your landscape, either </p>
+        <ol style="list-style-type: lower-alpha;">
+            <li>select the draw button, scroll to the map, and hold down the left mouse key to draw a rectangle around your chosen area, or</li>
+            <li>enter your landscape coordinates in the fields provided.</li>
+        </ol>
+        <p>
+            <img src="../../Images/mapstudio/landscapetools_createnw2.png" alt="you may select your area by using the draw tool or entering the coordinates in the fields provided" style="width: 301px;height: 454px;" />
+        </p>
+        <p>Once your landscape location is specified, follow the below steps to download your landscape file:</p>
+        <ol>
+            <li>Specify the version of LANDFIRE data you would like to download. In the image below LANDFIRE data reflecting conditions from 2012 is selected.</li>
+            <li>Choose the <a href="../../../MapStudio/Files/FBFMInfo.htm">Fire Behavior Fuel Model</a> you would like represented. Not sure whether to choose Fuel Model 40 or 13? Visit the Fuel Model Comparison Topic to read about the different between the two. Visit the Fuel Model Topic to learn about which fuel model type to select.</li>
+            <li>Select the resolution for your landscape. The default value is 30 meters.</li>
+            <li>Give your landscape a descriptive name </li>
+            <li>Specify the folder in which you would like to save the landscape file</li>
+            <li>Once all fields are complete, the <span class="UIcomponent">Create</span> option will appear. Select <span class="UIcomponent">Create</span> to download your landscape file data.</li>
+        </ol>
+        <p>
+            <img src="../../Images/mapstudio/landscapetools_createnw3.png" alt="Provide information in the fields provided and select 'create' to donwload your landscape file" />
+        </p>
+    </body>
+</html>

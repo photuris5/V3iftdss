@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3776" MadCap:lastWidth="884">
+    <head>
+    </head>
+    <body>
+        <p>Uploaded shapefiles are visible in <MadCap:variable name="General.MapStudio"></MadCap:variable>, but an extra step is required to save an uploaded shapefile to <span class="UIcomponent">MyWorkspace</span> so that it can be retained and used later. </p>
+        <div class="noteImportant" MadCap:autonum="&lt;b&gt;Important! &lt;/b&gt;">Currently, <MadCap:variable name="General.ProductName" /> does not support saving uploaded shapefiles to your workspace (this feature will be added as an enhancement on a later release). Once you upload a shapefile to <MadCap:variable name="General.ProductName" />, navigating away from the <MadCap:variable name="General.MapStudio" /> will unfortunately result in your recently upload shapefile being deleted from the system. </div>
+        <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" /> if you follow the steps below:</p>
+        <p>Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10).</p>
+        <p>
+            <img src="../../Images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210px;height: 288px;" />
+        </p>
+        <p>When completed, a confirmation message will appear to verify the shapefile has been uploaded</p>
+        <p>
+            <img src="../../Images/mapstudio/saved_shp_confirmation.png" />
+        </p>
+        <p>To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> and open <span class="UIcomponent"> Layer List</span><img src="../../Images/mapstudio/button_layerlist.png" alt="layer list button" /> to zoom to your new shapefile, by</p>
+        <ol style="list-style-type: lower-alpha;">
+            <li> selecting the icon to the right of your shapefile and </li>
+            <li>selecting the <span class="UIcomponent">Zoom to</span> option</li>
+            <li>
+                <img src="../../Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px;height: 432px;" />
+            </li>
+        </ol>
+        <p>Open <span class="UIcomponent">Edit Tools</span><img src="../../Images/mapstudio/button_editTools.png" alt="edit tools button" /> and Select the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" /></p>
+        <p>
+            <img src="../../Images/mapstudio/shapefile_save2.png" />
+        </p>
+        <p>Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either selecting individual polygons or selecting and dragging a box over the polygons you wish to retain.</p>
+        <p>
+            <img src="../../Images/mapstudio/shapefile_save3.png" style="width: 405px;height: 304px;" alt="click each polygon to select it" />
+        </p>
+        <p> Left click any remaining polygons you wish to save as part of your retained shapefile. </p>
+        <p>
+            <img src="../../Images/mapstudio/shapefile_save4.png" alt="selected polygons will turn yellow" style="width: 373px;height: 286px;" />
+        </p>
+        <p>Once all polygons you wish to retain have been selected, enter a name for your shapefile and choose a folder location for the polygons to be saved. Saved polygons will then be available in <span class="UIcomponent">MyWorkspace</span> and viewable in <span class="UIcomponent"><MadCap:variable name="General.MapStudio"></MadCap:variable></span> for future use throughout <MadCap:variable name="General.ProductName" />.</p>
+        <p>
+            <img src="../../Images/mapstudio/shapefile_save6.png" style="width: 444px;height: 387px;" alt="once saved, your polygon will be viewable in MyWorkspace and Map Studio" />
+        </p>
+    </body>
+</html>
