@@ -116,7 +116,7 @@
     <Map Name="TrtmtAltsModelInput" Link="/Content/PCStrategicPlanning/TrtmtAltsModelInput.htm" />
     <Map Name="TrtmtAltsPickLandscape" Link="/Content/PCStrategicPlanning/TrtmtAltsPickLandscape.htm" />
     <Map Name="TrtmtAltsRunModel" Link="/Content/PCStrategicPlanning/TrtmtAltsRunModel.htm" />
-    <Map Name="YearOutPlans" Link="/Content/PCStrategicPlanning/YearOutPlans.htm" />
+    <Map Name="YearOutPlans" Link="/Content/PCStrategicPlanning/YearOutPlansAbout.htm" />
     <Map Name="Appendix" Link="/Content/Print Only Topics/Appendix.htm" />
     <Map Name="Copyright" Link="/Content/Print Only Topics/Copyright.htm" />
     <Map Name="Glossary" Link="/Content/Print Only Topics/Glossary.htm" />
@@ -135,4 +135,6 @@
     <Map Name="TutorialMain" Link="/Content/Tutorials/TutorialMain.htm" />
     <Map Name="WorkshpMain" Link="/Content/Workshops/WorkshpMain.htm" />
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
+    <Map Name="FireBehavior" Link="/Content/PopOverTips/FireBehavior.htm" />
+    <Map Name="ModelingPlayground" Link="/Content/PopOverTips/ModelingPlayground.htm" />
 </CatapultAliasFile>

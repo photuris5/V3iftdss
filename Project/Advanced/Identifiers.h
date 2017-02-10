@@ -133,3 +133,5 @@
 #define TutorialMain 1132
 #define WorkshpMain 1133
 #define icons1 1134
+#define FireBehavior 1135
+#define ModelingPlayground 1136
