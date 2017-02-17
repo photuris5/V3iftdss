@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1260" MadCap:lastWidth="1821">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../Images/content_coming_soon.png" alt="Coming Soon" />
+        </p>
+        <p>Downloading a <a href="../../MapStudio/Files/LCPInfo.htm">Landscape File</a>, or generating your landscape, will allow you to run several of the models within <MadCap:variable name="General.ProductName" />. This is because the landscape file contains the <a href="../../MapStudio/Files/FBFMInfo.htm">Fire Behavior Fuel Model</a> information required for many operations.<br /></p>
+        <p>Landscape Files can be created in<span class="UIcomponent"> <MadCap:variable name="General.MapStudio" /></span>, or in the <span class="UIcomponent">Landscape Evaluation Stage</span> of the <span class="UIcomponent">Planning Cycle</span> under <span class="UIcomponent">Generate Landscape Summary</span>.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Generating Landscape Files in <MadCap:variable name="General.MapStudio" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(This is the Drop-down text)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Generating Landscape Files from the <span class="UIcomponent">Landscape Evaluation Stage</span> of the <span class="UIcomponent">Planning Cycle</span></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>(This is the Drop-down text)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Once created, landscapes can be viewed in <span class="UIcomponent">My Workspace</span> by</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Selecting <span class="UIcomponent">My Workspace</span> from the Top Navigation menu</li>
+            <li>Selecting the folder you chose to store your landscape</li>
+            <li>Select the name of your landscape and either view a summary, or view your landscape on the map</li>
+        </ol>
+        <img src="PlanCycle/Images/Cycle/GeneateLandscape5.png" style="width: 669px;height: 245px;" alt="A list of landscape files in the playground folder" />
+        <p>Or in <MadCap:variable name="General.MapStudio" /> by</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Selecting <span class="UIcomponent"><MadCap:variable name="General.MapStudio"></MadCap:variable></span> from the Top Navigation menu</li>
+            <li>Click the <span class="UIcomponent">Landscape Tools</span><img src="PlanCycle/Images/mapstudio/button_landscapetools.png" /> icon</li>
+            <li>Make sure the <span class="UIcomponent">Add to Map</span> tab is selected</li>
+            <li>Select the Landscape you would like to view</li>
+        </ol>
+        <p>
+            <img src="PlanCycle/Images/Cycle/GeneateLandscape6.png" style="width: 578px;height: 314px;" alt="use the landscape tools dialogue in map studio to choose a landscape to view" />
+        </p>
+    </body>
+</html>

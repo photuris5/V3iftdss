@@ -12,6 +12,8 @@
     <TocEntry
       Title="Getting Help"
       Link="/Content/GetStarted/GettingHelp.htm" />
+    <TocEntry
+      Title="Start Using IFTDSS" />
   </TocEntry>
   <TocEntry
     Title="All About...">
@@ -183,6 +185,8 @@
     </TocEntry>
     <TocEntry
       Title="Prescribed Burn Planning in [%=General.ProductName%]" />
+    <TocEntry
+      Title="Start by Generating a Landscape File" />
   </TocEntry>
   <TocEntry
     Title="Resources">
@@ -190,7 +194,7 @@
       Title="Get Instructions">
       <TocEntry
         Title="Videos"
-        Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
+        Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ" />
       <TocEntry
         Title="Webinars"
         Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
