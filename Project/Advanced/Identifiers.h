@@ -135,3 +135,4 @@
 #define icons1 1134
 #define FireBehavior 1135
 #define ModelingPlayground 1136
+#define Auto97Summary 1137

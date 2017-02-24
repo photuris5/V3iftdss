@@ -137,4 +137,5 @@
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
     <Map Name="FireBehavior" Link="/Content/PopOverTips/FireBehavior.htm" />
     <Map Name="ModelingPlayground" Link="/Content/PopOverTips/ModelingPlayground.htm" />
+    <Map Name="Auto97Summary" Link="/Content/PCLandscapeEval/Auto97Summary.htm" />
 </CatapultAliasFile>
