@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3271" MadCap:lastWidth="1233">
+    <head>
+    </head>
+    <body>
+        <h1>Filtering Layers in the Attribute Table</h1>
+        <p>Once you have uploaded multiple shapefiles into <MadCap:variable name="General.ProductName" /> as polygons and have them displayed in <MadCap:variable name="General.MapStudio" />, you may find it difficult to find the polygon you wish to view. When this occurs you may find it helpful to filter your shapefiles using the attribute table. </p>
+        <div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">Filtering works in the Attribute Table for all operational layers, but we will use shapefiles for this particular example.</div>
+        <p>Follow the steps below to filter by attribute.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Steps 1 - 4 :&#160;Selecting and viewing layers in the attribute table</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><b>Step 1:</b> Open the Attribute Table using the <span class="UIcomponent">Attribute Table</span> button <img src="../../Resources/Images/attributes_filter_polys/image00_2.png" alt="attribute table"></img>located in the bottom right of <MadCap:variable name="General.MapStudio"></MadCap:variable>. </p>
+                <p>Open <span class="UIcomponent">Layer List</span> <img src="../../Resources/Images/mapstudio/button_layerlist.png" alt="layer list button" /> and ensure the only the layers you wish to have included in your filter are selected, in this example only the Shapes layer is selected. This will automatically bring up all attributes from those layers, by default they are filtered by map extent.</p>
+                <p>
+                    <img src="../../Resources/Images/attributes_filter_polys/image06.png" style="width: 858px;height: 554px;" alt="map studio map with attribute table visible under the map" />
+                </p>
+                <p><b>Step 2:</b> Click on Filter by Map Extent along the top of the Attribute Table to disable this option (the text for this option will appear grayed out when it is disabled).</p>
+                <p>
+                    <img src="../../Resources/Images/attributes_filter_polys/image05.png" alt="attribute table with filter by map extent turned off" style="width: 796px;height: 254px;" />
+                </p>
+                <p><b>Step 3</b>:&#160;You can select the your desired polygon by left clicking once anywhere in the gray space to the left of each row. Selected rows will be highlighted in blue.</p>
+                <p>
+                    <img src="../../Resources/Images/attributes_filter_polys/image01.png" alt="attribute table with a blue highlighted row indicating it is selected" style="width: 624px;height: 289px;" />
+                </p>
+                <p>Step 4:&#160;Use the <span class="UIcomponent">Zoom To</span> option to zoom to selected polygons in <MadCap:variable name="General.MapStudio" />. Note selected polygons also show up in the same blue color as their selected rows in the Attribute Table.</p>
+                <p>
+                    <img src="../../Resources/Images/attributes_filter_polys/image02.png" alt="selected polygon shows up as blue when zoomed to in the map" style="width: 552px;height: 558px;" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Steps 5 and 6: Filtering using Queries</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><b>Step 5</b>:&#160;To only show specific polygons based on specific filter criteria, select <span class="UIcomponent">Filter</span> under <span class="UIcomponent">Options</span> <img src="../../Resources/Images/attributes_filter_polys/options.png" alt="options button" />. This allows you to filter by using one criteria by <span class="UIcomponent">Adding a Filter Expression</span>, or by using a set of criteria by <span class="UIcomponent">Adding an Expression Set</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/attributes_filter_polys/image04.png" alt="the filter option with choices to add a filter expression or add a filter expression set" />
+                </p>
+                <p>Once you choose whether to use a single filter expression or an expression set, use the drop down fields to select your attribute, such as name, and your conditional statement, in this case, 'contains'. Next, type the specific value or term to filter, and select <span class="UIcomponent">OK</span>. For example, in the image below, we have created a filter expression that will only show polygons in which the attribute name contains 'Pete'. </p>
+                <p>
+                    <img src="../../Resources/Images/attributes_filter_polys/image03.png" alt="specifying the name and filter criteria in the provided text fields" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="2374" MadCap:lastWidth="1246">
+    <head>
+    </head>
+    <body>
+        <h1>How to Repair Uploaded Shapefiles</h1>
+        <p>When uploading shapefiles with multiple adjoining polygons, <MadCap:variable name="General.ProductName" /> will automatically join the polygons into a single dataset; this process may create erroneous gaps or vertices where these polygons once touched. The steps below outline the process of repairing or cleaning these polygons and re-saving them as a new shapefile. </p>
+        <p class="alertcomingsoon" MadCap:autonum="&lt;b&gt;More Functionality to Come! &lt;/b&gt;">These occasional gaps in adjoining polygons are a known issue which we will be resolving in a forthcoming version of <MadCap:variable name="General.ProductName" />.</p>
+        <h2>Step 1 Viewing your shapefile in <MadCap:variable name="General.MapStudio" /> </h2>
+        <p>Once you have <a href="../Functions/AddShapefile.htm">uploaded and saved your shapefile</a>, navigate to the <span class="UIcomponent">Layer List</span>, a checked box to the left of the shapefile confirms your layer is operational. If this box is not checked, click on the box to select it. If your shapefile is not visible in the <span class="UIcomponent">Layer List</span>, you may have to <a href="../Functions/ViewShapefileOnMap.htm">add it to your map</a>. Zoom to your shapefile by selecting the<span class="UIcomponent"> Zoom To</span> option under <span class="UIcomponent">More Options</span> in the top right of the <span class="UIcomponent">Layer List </span><img src="../../Resources/Images/mapstudio/button_moreoptions.png" />.</p>
+        <p>
+            <img src="../../Resources/Images/shapefile_repair/navigate_layerlist.png" alt="an icon with three dots in the top right of 'layer list' drops down the menu where you may 'zoom to' your shapefile." style="width: 346px;height: 383px;" />
+        </p>
+        <h2>Step 2 Enable Editing</h2>
+        <p>Open <b>Edit Tools</b> <img src="../../Resources/Images/mapstudio/button_editTools.png" alt="'edit tools' button" /> from the bottom of <MadCap:variable name="General.MapStudio" /> and</p>
+        <p> Select <span class="UIcomponent">Copy from Existing Features</span> <img src="../../Resources/Images/mapstudio/button_copy_exstng_ftrs.png" alt="Copy from existing features button" />. To only edit one polygon choose <span class="UIcomponent">Select Singlepart</span>, or edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</p>
+        <p> Scroll to the map and double left click the mouse button over the polygon you intend to edit, this will reveal the polygon vertices and an editing box</p>
+        <p>
+            <img src="../../Resources/Images/shapefile_repair/polygon_select.png" style="width: 562px;height: 402px;" alt="polygon in edit mode with vertices visible around the perimeter" />
+        </p>
+        <h2>Step 3 Edit your shapefile</h2>
+        <p>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </p>
+        <p>Delete a vertex by hovering over it, clicking the right mouse button once, and selecting delete</p>
+        <p>
+            <img src="../../Resources/Images/shapefile_repair/polygon_vertexdelete.png" style="width: 610px;height: 433px;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" />
+        </p>
+        <p>Continue your edits until you are satisfied with your shapefile. </p>
+        <h2>Step 4 Save your Edits</h2>
+        <p>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and select <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">MyWorkspace</span> for use throughout <MadCap:variable name="General.ProductName" />. <span class="comment" MadCap:conditions="General.DeveloperNotes">NOTE THIS&#160;FEATURE&#160;IS NOT&#160;WORKING&#160;CURRENTLY 2-28-17-JH</span></p>
+        <p>&#160;</p>
+    </body>
+</html>
