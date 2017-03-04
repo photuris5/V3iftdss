@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1529" MadCap:lastWidth="1323">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="2055" MadCap:lastWidth="1322">
     <head>
     </head>
     <body>
@@ -7,6 +7,7 @@
             <img src="../Images/mapstudio/map_122016.png" style="width: 968px;height: 494px;" />
         </p>
         <h2>In the top left:</h2>
+        <p><span class="UIcomponent"><a href="../../MapStudio/Functions/SearchESRI.htm"><MadCap:variable name="General.MapStudio" /> Search ESRI</a></span>: Enter a location to bring up a waypoint and zoom to its location on the map.</p>
         <p>
             <img src="../Images/mapstudio/button_zoomin.png" alt="zoom in button" />
             <img src="../Images/mapstudio/button_zoomout.png" alt="zoom out button" /> <span class="UIcomponent">Zoom in and Out: </span>Zoom the map extent</p>
@@ -14,14 +15,19 @@
             <img src="../Images/mapstudio/button_defaultextent.png" title="default extent button" /> <span class="UIcomponent">Default Extent:</span>&#160;Return the map to its default extent</p>
         <h2>In the top right:</h2>
         <p>
-            <img src="../Images/mapstudio/button_identify.png" alt="identify button" /> <span class="UIcomponent">Identify:</span> Identify a feature</p>
+            <img src="../Images/mapstudio/button_identify.png" alt="identify button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Identify.htm">Identify</a>:</span> Identify a feature</p>
         <p>
-            <img src="../Images/mapstudio/button_draw.png" alt="draw button" /> <span class="UIcomponent">Draw:</span> Draw lines and shapes on the map. This is for display only, it does not create a shapefile</p>
+            <img src="../Images/mapstudio/button_draw.png" alt="draw button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Draw.htm">Draw</a>:</span> Draw lines and shapes on the map. This is for display only, it does not create a shapefile</p>
         <p>
-            <img src="../Images/mapstudio/button_slider.png" alt="swipe button" /> <span class="UIcomponent">Swipe:</span> Allows for quick toggling between different layers</p>
+            <img src="../Images/mapstudio/button_slider.png" alt="swipe button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Swipe.htm">Swipe</a>:</span> Allows for quick toggling between different layers</p>
+        <p>
+            <img src="../Images/mapstudio/button_overview.png" alt="overview button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/ShowMapOverview.htm">Map Overview</a></span>:&#160;Allows to quick relocation of the map display area.</p>
+        <h2>In the bottom left:</h2>
+        <p><span class="UIcomponent"><a href="../../MapStudio/Functions/GetCoordinates.htm">Get Coordinates Tool</a></span>
+        </p>
         <h2>In the bottom right:</h2>
         <p>
-            <img src="../Images/mapstudio/button_layers.png" alt="attribute table" /> <span class="UIcomponent">Attribute Table:</span> Displays a table of map features</p>
+            <img src="../Images/mapstudio/button_layers.png" alt="attribute table" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/AttributeTable.htm">Attribute Table</a>:</span> Displays a table of map features</p>
         <h2>In the bottom center:</h2>
         <p>
             <img src="../Images/mapstudio/button_layerlist.png" alt="layer list button" /> <span class="UIcomponent">Layer List:</span>&#160;A list of the layers shown on the map</p>
