@@ -1,8 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-<head>
-</head>
-<body>
-	<p>This is a snippet</p>
-</body>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4699" MadCap:lastWidth="1435">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../../Images/Behavior/behavior_name_select.png" alt="A field to enter a name for the fire behavior run is availabe at the top, followed by a dropdown menu to select your landscape" style="width: 599px;height: 342px;" />
+        </p>
+        <p><b>Step 1:</b> Give your run a descriptive name.</p>
+        <p><b>Step 2:</b> Select a landscape for your run from the dropdown menu. You also have the option of </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>creating a new landscape from within the run interface</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../GenerateLandscape/LCPinInterface.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>or creating a new landscape from within <MadCap:variable name="General.MapStudio" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../GenerateLandscape/LCPinMapstudio.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>When your landscape is selected, you will notice a box appears displaying details about the selected landscape, including, source data, boundaries, and acres. </p>
+        <p>
+            <img src="../../Images/Behavior/landscape_detail.png" alt="landscape details box listing the landscape name, bounds, acreage, and other metadata" style="width: 802px;height: 115px;" />
+        </p>
+        <p>&#160;</p>
+        <p>
+            <img src="../../Images/Behavior/add_inputs.png" alt="dropdown boxes will contain fields for wind, crown fire, and fuel moisture inputs" style="width: 629px;height: 314px;" />
+        </p>
+        <p>Next, select the heading for each model input type, and populate the fields in the dropdown:</p>
+        <p><b>Step 3:</b> Specify windspeed (in miles per hour) at 20 feet above the ground or above the vegetation.</p>
+        <p> Enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees). Alternatively you may enter -1 for upslope wind, or -2 for downslope wind.</p>
+        <p><b>Step 4:</b>&#160;Specify a <a href="../../../ModelingPG/FlamMap/FlamMapCrowns.htm">crown fire calculation method</a>, and the foliar moisture content (in percent).</p>
+        <p><b>Step 5:</b> Specify fuel moisture for:</p>
+        <ul>
+            <li>1 hour fuels (1hr FM)</li>
+            <li>10 hour fuels (10hr FM)</li>
+            <li>100 hour fuels (100hr FM)</li>
+            <li>Herbaceous fuels (Herb)</li>
+            <li>Large Woody fuels (WoodyFM)</li>
+        </ul>
+        <p><b>Step 6:</b> Upon completing all required inputs the Run button will turn green, indicating the model has all required inputs and is ready to run. </p>
+        <p>
+            <img src="../../Images/Behavior/run.png" alt="when all required inputs are entered, the 'run' button will turn green indicating the model is ready to run." />
+        </p>
+        <p>You may select Run, which will automatically save the inputs, and run the model. </p>
+        <p>You may also select Save, which will save you input but will not run the model.</p>
+    </body>
 </html>

@@ -1,9 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="149" MadCap:lastWidth="1259">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5531" MadCap:lastWidth="1409">
     <head>
     </head>
     <body>
         <h1>Calculating Landscape Fire&#160;Behavior for Landscape Evaluation</h1>
-        <p class="comment" MadCap:conditions="General.DeveloperNotes">Need to write content - JH [UIdaho]</p>
+        <p>Landscape Fire Behavior takes you to the <span class="UIcomponent">Modeling Playground</span>, where you may select and run fire behavior for your landscape.</p>
+        <p>
+            <img src="../Resources/Images/Behavior/behavior_from_mp.png" alt="from the modeling playground select 'landscape fire behavior' from the model drop down menu" style="width: 807px;height: 199px;" />
+        </p>
+        <h2>Generating the Fire Behavior Model</h2>
+        <p>&#160;</p>
+        <p>
+            <img src="../Resources/Images/Behavior/firebehavior_output.png" alt="flame length map showing a landscape with cooler colors indicating low flame lengths and warmer colors indicating higher flame lengths" style="width: 525px;height: 321px;" />
+        </p>
+        <p>Generating a fire behavior model will create an output layer in <MadCap:variable name="General.MapStudio" /> that will display: </p>
+        <ul>
+            <li>Flame Length (meters)</li>
+            <li>Spread Rate (m/min)</li>
+            <li>Intensity kW/m)</li>
+            <li>Heat Area (kJ/m<sup>2</sup>)</li>
+            <li>Crown State (crown fire activity, No Fire, Surface Fire, Passive Fire)</li>
+        </ul>
+        <p>Modeling outputs will be stored in <span class="UIcomponent">Modeling Playground</span>, where they may be added to <MadCap:variable name="General.MapStudio" />, or used to generate a summary report containing tables, charts, and visual representations of your model outputs.</p>
+        <p>To generate the fire behavior model:</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/Behavior/FlammapBehavior.flsnp" />
+        <p>&#160;</p>
     </body>
 </html>
