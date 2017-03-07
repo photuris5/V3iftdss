@@ -75,8 +75,44 @@
           <Property
             Name="Color">#000000</Property>
           <Property
-            Name="BackgroundColor">#e67d27</Property>
+            Name="BackgroundColor">#AFBFD0</Property>
         </Properties>
+        <Classes>
+          <StyleClass
+            Name="4th Level">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#AFBFD0</Property>
+              <Property
+                Name="Color">#000000</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="1st Level">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#AFBFD0</Property>
+              <Property
+                Name="Color">#000000</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="Selected">
+            <Properties>
+              <Property
+                Name="BackgroundColor">#AFBFD0</Property>
+              <Property
+                Name="Color">#000000</Property>
+            </Properties>
+          </StyleClass>
+          <StyleClass
+            Name="2nd Level">
+            <Properties>
+              <Property
+                Name="Color">#000000</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
       </Style>
       <Medium
         Name="Mobile">

@@ -1,12 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4253" MadCap:lastWidth="1006">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5196" MadCap:lastWidth="1409">
     <head>
     </head>
     <body>
         <h1>Fire Behavior - Driven by FlamMap 5.0</h1>
         <p>
-            <img src="../../Resources/Images/FlamMap5.jpg" style="float: right;width: 449px;height: 336px;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;" alt="Flammap 5 logo" />FlamMap  is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions.</p>
-        <p>  Basic FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../../References/ReferenceList.htm#Rothermel1972">1972</a> surface fire model, Van Wagner’s <a href="../../References/ReferenceList.htm"><a href="../../References/ReferenceList.htm#VanWagner1977">1977</a></a> crown fire initiation model, and Rothermel’s <a href="../../References/ReferenceList.htm#Rothermel1991">1991</a> crown fire spread model for a single instance in time. </p>
+            <img src="../../Resources/Images/FlamMap5.jpg" style="float: right;width: 449px;height: 336px;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;" alt="Flammap 5 logo" />In <MadCap:variable name="General.ProductName" />, Landscape Fire Behavior is driven by FlamMap. FlamMap  is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions. FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../../References/ReferenceList.htm#Rothermel1972">1972</a> surface fire model, Van Wagner’s <a href="../../References/ReferenceList.htm"><a href="../../References/ReferenceList.htm#VanWagner1977">1977</a></a> crown fire initiation model, and Rothermel’s <a href="../../References/ReferenceList.htm#Rothermel1991">1991</a> crown fire spread model for a single instance in time. </p>
         <ul>
             <li>
                 <MadCap:xref href="FlamMapInput.htm">FlamMap Fire Behavior Inputs</MadCap:xref>
@@ -19,44 +18,7 @@
             </li>
         </ul>
         <h2>Running Fire Behavior in <MadCap:variable name="General.ProductName" /></h2>
-        <p>To run fire behavior across a landscape</p>
-        <ol style="list-style-type: lower-alpha;">
-            <li>Navigate to the <span class="UIcomponent">playground</span> tab</li>
-            <li>Select <span class="UIcomponent">Basic</span> from the dropdown menu</li>
-            <li>Select <span class="UIcomponent">Run</span></li>
-        </ol>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic.png" style="width: 995px;height: 260px;" />
-        </p>
-        <p>You will be prompted to name your run, make sure to give it a descriptive name so it can be easily identified later.</p>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic_creation.png" style="width: 989px;height: 369px;" />
-        </p>
-        <p>If you have already created your landscape file, choose a the landscape file from the dropdown menu. If you have not yet created a landscape file, you may do so by selecting <span class="UIcomponent">Create New Landscape</span>.</p>
-        <div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">Selecting <span class="UIcomponent">Create New Landscape</span> will allow you to select a new landscape from within the modeling interface, you will not have to leave the interface.</div>
-        <p>&#160;</p>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic_landscape.png" style="width: 993px;height: 381px;" />
-        </p>
-        <p>Next, input windspeed and direction.</p>
-        <p>
-            <img src="../../Resources/Images/behaviorbasic_wind.png" style="width: 998px;height: 333px;" />
-        </p>
-        <p>Specify a <a href="FlamMapCrowns.htm">crown fire calculation method</a> and foliar moisture content.</p>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic_crown.png" style="width: 995px;height: 386px;" />
-        </p>
-        <p>If you have a weather file for fuel moisture conditioning, you may add that here. If not, you may skip this step.</p>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic_fmcond.png" style="width: 973px;height: 406px;" />
-        </p>
-        <p>Next, input the fuel moistures for 1, 10, and 100 hour fuels, as well as herbaceous and woody fuels. When all the required inputs are filled the <span class="UIcomponent">Run</span> button will turn green to inform you the model is ready to run. Click the <span class="UIcomponent">Run</span> button to run the fire behavior model.</p>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic_fuels.png" style="width: 964px;height: 386px;" />
-        </p>
-        <p>When the fire behavior model has completed a run, you will automatically be taken back to the <span class="UIcomponent">Playground</span> page, where you may left click on your run to view or edit it.</p>
-        <p>
-            <img src="../../Resources/Images/Behavior/behaviorbasic_end.png" style="width: 970px;height: 316px;" />
-        </p>
+        <p>The Landscape Fire Behavior modeling option can be reached in <MadCap:variable name="General.ProductName" /> via My Modeling Playground, or the Landscape Evaluation Stage of the Planning Cycle (which will take you to My Modeling Playground. Once the Landscape Fire Behavior model is selected from My Modeling Playground, follow these steps to populate and run the model:&#160;</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/Behavior/FlammapBehavior.flsnp" />
     </body>
 </html>
