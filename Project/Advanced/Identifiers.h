@@ -136,3 +136,17 @@
 #define FireBehavior 1135
 #define ModelingPlayground 1136
 #define Auto97Summary 1137
+#define Modelsmoretocome 1138
+#define PlaceHolder 1139
+#define AreasofInterest 1140
+#define ShapefileRepair 1141
+#define AttributeTable 1142
+#define Draw 1143
+#define FilterAttributeTable 1144
+#define GetCoordinates 1145
+#define Identify 1146
+#define SearchESRI 1147
+#define ShowMapOverview 1148
+#define Swipe 1149
+#define ViewShapefileOnMap 1150
+#define TreatmentRuleBackground 1151

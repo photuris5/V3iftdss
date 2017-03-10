@@ -138,4 +138,18 @@
     <Map Name="FireBehavior" Link="/Content/PopOverTips/FireBehavior.htm" />
     <Map Name="ModelingPlayground" Link="/Content/PopOverTips/ModelingPlayground.htm" />
     <Map Name="Auto97Summary" Link="/Content/PCLandscapeEval/Auto97Summary.htm" />
+    <Map Name="Modelsmoretocome" Link="/Content/AboutIFTDSS/Modelsmoretocome.htm" />
+    <Map Name="PlaceHolder" Link="/Content/AboutIFTDSS/PlaceHolder.htm" />
+    <Map Name="AreasofInterest" Link="/Content/MapStudio/Files/AreasofInterest.htm" />
+    <Map Name="ShapefileRepair" Link="/Content/MapStudio/Files/ShapefileRepair.htm" />
+    <Map Name="AttributeTable" Link="/Content/MapStudio/Functions/AttributeTable.htm" />
+    <Map Name="Draw" Link="/Content/MapStudio/Functions/Draw.htm" />
+    <Map Name="FilterAttributeTable" Link="/Content/MapStudio/Functions/FilterAttributeTable.htm" />
+    <Map Name="GetCoordinates" Link="/Content/MapStudio/Functions/GetCoordinates.htm" />
+    <Map Name="Identify" Link="/Content/MapStudio/Functions/Identify.htm" />
+    <Map Name="SearchESRI" Link="/Content/MapStudio/Functions/SearchESRI.htm" />
+    <Map Name="ShowMapOverview" Link="/Content/MapStudio/Functions/ShowMapOverview.htm" />
+    <Map Name="Swipe" Link="/Content/MapStudio/Functions/Swipe.htm" />
+    <Map Name="ViewShapefileOnMap" Link="/Content/MapStudio/Functions/ViewShapefileOnMap.htm" />
+    <Map Name="TreatmentRuleBackground" Link="/Content/PCLandscapeEval/TreatmentRuleBackground.htm" />
 </CatapultAliasFile>
