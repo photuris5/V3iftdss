@@ -42,7 +42,7 @@
             <li>10 hour fuels (10hr FM)</li>
             <li>100 hour fuels (100hr FM)</li>
             <li>Herbaceous fuels (Herb)</li>
-            <li>Large Woody fuels (WoodyFM)</li>
+            <li>Live Woody fuels (WoodyFM)</li>
         </ul>
         <p><b>Step 6:</b> Upon completing all required inputs the Run button will turn green, indicating the model has all required inputs and is ready to run. </p>
         <p>

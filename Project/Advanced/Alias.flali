@@ -140,7 +140,7 @@
     <Map Name="Auto97Summary" Link="/Content/PCLandscapeEval/Auto97Summary.htm" />
     <Map Name="Modelsmoretocome" Link="/Content/AboutIFTDSS/Modelsmoretocome.htm" />
     <Map Name="PlaceHolder" Link="/Content/AboutIFTDSS/PlaceHolder.htm" />
-    <Map Name="AreasofInterest" Link="/Content/MapStudio/Files/AreasofInterest.htm" />
+    <Map />
     <Map Name="ShapefileRepair" Link="/Content/MapStudio/Files/ShapefileRepair.htm" />
     <Map Name="AttributeTable" Link="/Content/MapStudio/Functions/AttributeTable.htm" />
     <Map Name="Draw" Link="/Content/MapStudio/Functions/Draw.htm" />

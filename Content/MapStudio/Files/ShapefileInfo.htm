@@ -1,11 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4642" MadCap:lastWidth="1181">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4524" MadCap:lastWidth="1435">
     <head>
     </head>
     <body>
         <h1> About <MadCap:keyword term="Shapefiles" /><MadCap:keyword term="Shapefile" /><MadCap:keyword term=".shp" />Shapefiles</h1>
-        <p>A shapefile is an Esri vector data storage format for storing the location, shape, and attributes of geographic features. It is stored as a set of related files and contains one feature class. Shapefiles often contain large features with a lot of associated data and historically have been used in GIS desktop applications such as ArcMap. If you have a small amount of data in a shapefile—generally fewer than 1,000 features—you can make it available for others to view through a web browser by adding it as a .zip file containing the .shp, .shx, .dbf, and .prj files to a map you create with <MadCap:variable name="General.MapStudio" />.</p>
-        <p>When you add a shapefile, <MadCap:variable name="General.MapStudio" /> converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
+        <p>A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. Shapefiles can be used for many purposes in <MadCap:variable name="General.ProductName"></MadCap:variable>, and depending on what you use them for, you may see them referred to by different names.</p>
+        <ul>
+            <li><b>Area of Interest</b>: When generating a new landscape or a summary from an existing landscape, you may specify an area of interest (shapefile) to represent a particular part of your landscape. </li>
+            <li><b>Mask/ Landscape Mask</b>: When editing a landscape you may choose a Mask or Landscape Mask (Shapefile) to edit only the area within that mask.</li>
+            <li><b>Polygon</b>: In the Edit Tools button of <MadCap:variable name="General.MapStudio" />, you will see shapefiles referred to as polygons</li>
+        </ul>
+        <p>Shapefiles may be added to <MadCap:variable name="General.ProductName" /> by uploading a  .zip file containing the .shp, .shx, .dbf, and .prj files to <MadCap:variable name="General.MapStudio" />. When you add a shapefile, <MadCap:variable name="General.MapStudio" /> converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Generalize features for web display</MadCap:dropDownHotspot>

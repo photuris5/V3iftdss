@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1764" MadCap:lastWidth="1474">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1705" MadCap:lastWidth="1474">
     <head>
     </head>
     <body>
         <h1>Auto97 Summary</h1>
-        <p><span class="comment" MadCap:conditions="General.DeveloperNotes">IN&#160;PROGRESS -JH 3/6/17</span>
-        </p>
-        <p>The Auto97 Summary feature creates a fire behavior summary based on the highest 97th percentile of fire weather. IFTDSS uses your landscape file and automatically gathers 97th percentile weather information from the nearest Remote Automatic Weather Station (<a href="http://www.raws.dri.edu/">RAWS</a>).</p>
-        <h2>Inputs - Fuels</h2>
+        <p>The Auto97 Summary feature creates a fire behavior summary based on the highest 97th percentile of fire weather. <MadCap:variable name="General.ProductName" /> uses your landscape file and automatically gathers 97th percentile weather information from the nearest Remote Automatic Weather Station (<a href="http://www.raws.dri.edu/">RAWS</a>) to run fire behavior and summarize the outputs.</p>
+        <h2>Inputs</h2>
+        <h3> Fuels</h3>
         <p>Inputs are automatically drawn from your Landscape file and include:</p>
         <ul>
             <li>Fuel Model</li>
@@ -19,10 +18,9 @@
             <li>Slope (degrees)</li>
             <li>Elevation (meters)</li>
         </ul>
-        <h2>Inputs - fuel moisture and weather</h2>
         <h3>Weather (fuel moistures)</h3>
-        <p>Uses average 97th percentile Energy Release Component (ERC-G) live and dead fuel moisture contents from the closest RAWS. Closest is determined using the algorithm from the Wildland Fire Decision Supoprt System (WFDSS) which minimizes horizontal and vertical distances.</p>
-        <h2>Winds</h2>
+        <p>Uses average 97th percentile Energy Release Component (ERC-G) live and dead fuel moisture contents from the closest RAWS. Closest is determined using the algorithm from the Wildland Fire Decision Support System (WFDSS) which minimizes horizontal and vertical distances.</p>
+        <h3>Winds</h3>
         <p>The month of the peak ERC-G plus the months before and after that date (three total months) are summarized into a table. Table cells contain the percentage of observations for the normal burning period (1200-2000 hrs) as follows:</p>
         <table style="width: 80%;">
             <col style="width: 74px;" />
@@ -37,8 +35,8 @@
             <col style="width: 45px;" />
             <tbody>
                 <tr>
-                    <td>&#160;</td>
-                    <td>mid-point</td>
+                    <td>Wind Speed</td>
+                    <td>mid-point wind speed</td>
                     <td>N</td>
                     <td>NE</td>
                     <td>E</td>
@@ -85,16 +83,16 @@
                     <td>11.1</td>
                 </tr>
                 <tr>
-                    <td>13-18</td>
-                    <td>15</td>
-                    <td>&#160;</td>
-                    <td>&#160;</td>
-                    <td>0.1</td>
-                    <td>&#160;</td>
-                    <td>0.2</td>
-                    <td>0.2</td>
-                    <td>2.5</td>
-                    <td>2.1</td>
+                    <td style="background-color: #ffff00;">13-18</td>
+                    <td style="background-color: #ffff00;">15</td>
+                    <td style="background-color: #ffff00;">&#160;</td>
+                    <td style="background-color: #ffff00;">&#160;</td>
+                    <td style="background-color: #ffff00;">0.1</td>
+                    <td style="background-color: #ffff00;">&#160;</td>
+                    <td style="background-color: #ffff00;">0.2</td>
+                    <td style="background-color: #ffff00;">0.2</td>
+                    <td style="background-color: #ffff00;">2.5</td>
+                    <td style="background-color: #ffff00;">2.1</td>
                 </tr>
                 <tr>
                     <td>19-24</td>
@@ -160,7 +158,7 @@
         </table>
         <p>Wind speed and direction is selected from the table as follows:</p>
         <ul>
-            <li>The row with 97th percentile speed is identified (13-19 in the above example),</li>
+            <li>The row with 97th percentile speed is identified (13-18 in the above example),</li>
             <li>the mid-point wind speed (15 mph in this case) is converted to 1 minute average (20 mph using Table 1 <i>from</i> <a href="../References/ReferenceList.htm#CrosbyandChandler2004">Crosby and Chandler 2004</a>),</li>
             <li>the cell with the largest value for that row is used as the direction (west in this example),</li>
             <li>the resultant wind speed and direction is used as input for Wind Ninja to create the wind grids used in the run.</li>
@@ -175,6 +173,6 @@
             <li>Crown State (crown fire activity, No Fire, Surface Fire, Passive Fire)</li>
         </ul>
         <h2>Exporting</h2>
-        <p>Each set of outputs may be printed, or saved to your computer for use outside of <MadCap:variable name="General.ProductName" /> if desired</p>
+        <p>Each set of outputs may be printed, or saved to your computer for use outside of <MadCap:variable name="General.ProductName" /> if desired.</p>
     </body>
 </html>

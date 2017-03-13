@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="577" MadCap:lastWidth="1007">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="707" MadCap:lastWidth="1487">
     <head>
     </head>
     <body>
@@ -8,18 +8,11 @@
         <p>The following are known issues for <MadCap:variable name="General.ProductName" />:</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Shapefile Save Button not functional from <MadCap:variable name="General.MapStudio" />'s <span class="UIcomponent">Add Shapefile</span> Button</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Shapefile Save" />Shapefile <MadCap:keyword term="Save" />Save Button not functional from <MadCap:variable name="General.MapStudio" />'s <span class="UIcomponent">Add Shapefile</span> Button</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>To permanently save a shape file so it can be saved for later use in <MadCap:variable name="General.ProductName" />, it must be saved using the <span class="UIcomponent">Edit Tools</span> button. Detailed instructions for this process are located in the <a href="../MapStudio/Files/ShapefileSaving.htm">Saving Shapefiles for Future Use Topic</a>.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Limited model run availability</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p><MadCap:variable name="General.ProductName" /> is the early stages of development. Currently the main modeling capability is based on FlamMap 5. As additional development and testing takes place, more modeling capabilities will come online. </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -36,6 +29,30 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>For security purposes, access to Operational Layers is limited to federal government employees. In the future, we will be working to streamline access to non-federal partners.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Working between LANDFIRE and <MadCap:variable name="General.ProductName" /></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If your using IFTDSS landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See the <a href="../MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data Topic</a> for more information.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Navigating back and forth in the <MadCap:variable name="General.ProductName" /> interface</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When navigating back and forth within <MadCap:variable name="General.ProductName" />, use the application's navigation bar, buttons, and breadcrumbs do so. Avoid using your browsers 'back' and 'forward' buttons.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Gaps or holes in uploaded shapefiles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When uploading shapefiles with multiple adjoining polygons, <MadCap:variable name="General.ProductName" /> will automatically join the polygons into a single dataset; this process may create erroneous gaps or vertices where these polygons once touched. Visit the <a href="../MapStudio/Files/ShapefileRepair.htm">Shapefile Repair Topic</a> for details on how to repair and edit shapefiles.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>
