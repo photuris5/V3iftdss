@@ -150,3 +150,5 @@
 #define Swipe 1149
 #define ViewShapefileOnMap 1150
 #define TreatmentRuleBackground 1151
+#define IFTDSSOverview 1152
+#define SpatialExtent 1153

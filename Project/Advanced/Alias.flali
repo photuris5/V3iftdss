@@ -140,7 +140,6 @@
     <Map Name="Auto97Summary" Link="/Content/PCLandscapeEval/Auto97Summary.htm" />
     <Map Name="Modelsmoretocome" Link="/Content/AboutIFTDSS/Modelsmoretocome.htm" />
     <Map Name="PlaceHolder" Link="/Content/AboutIFTDSS/PlaceHolder.htm" />
-    <Map />
     <Map Name="ShapefileRepair" Link="/Content/MapStudio/Files/ShapefileRepair.htm" />
     <Map Name="AttributeTable" Link="/Content/MapStudio/Functions/AttributeTable.htm" />
     <Map Name="Draw" Link="/Content/MapStudio/Functions/Draw.htm" />
@@ -152,4 +151,6 @@
     <Map Name="Swipe" Link="/Content/MapStudio/Functions/Swipe.htm" />
     <Map Name="ViewShapefileOnMap" Link="/Content/MapStudio/Functions/ViewShapefileOnMap.htm" />
     <Map Name="TreatmentRuleBackground" Link="/Content/PCLandscapeEval/TreatmentRuleBackground.htm" />
+    <Map Name="IFTDSSOverview" Link="/Content/GetStarted/IFTDSSOverview.htm" />
+    <Map Name="SpatialExtent" Link="/Content/MapStudio/Files/SpatialExtent.htm" />
 </CatapultAliasFile>

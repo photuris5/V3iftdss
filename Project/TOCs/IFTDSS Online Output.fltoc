@@ -10,14 +10,18 @@
       Title="Setting up an Account"
       Link="/Content/GetStarted/AccountSetup.htm" />
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/GetStarted/IFTDSSOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Navigate [%=General.ProductName%]"
+      Link="/Content/GetStarted/NavigatingIFTDSS.htm" />
+    <TocEntry
       Title="Getting Help"
       Link="/Content/GetStarted/GettingHelp.htm" />
     <TocEntry
       Title="How [%=General.ProductName%] is Organized"
-      Link="/Content/GetStarted/NavigatingIFTDSS.htm" />
-    <TocEntry
-      Title="Navigate [%=General.ProductName%]"
-      Link="/Content/GetStarted/NavigatingIFTDSS.htm" />
+      Link="/Content/GetStarted/NavigatingIFTDSS.htm"
+      conditions="General.Exclude" />
   </TocEntry>
   <TocEntry
     Title="Planning Cycle">
@@ -192,7 +196,8 @@
         Title="New Entry" />
     </TocEntry>
     <TocEntry
-      Title="Scale Walkthroughs">
+      Title="Scale Walkthroughs"
+      conditions="General.Exclude">
       <TocEntry
         Title="Burn Unit Level"
         Link="/Content/AboutIFTDSS/PlaceHolder.htm"
