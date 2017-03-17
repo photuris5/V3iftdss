@@ -51,8 +51,8 @@
       Title="         Strategic Planning"
       Link="/Content/PCStrategicPlanning/StrategicPlanningAbout.htm">
       <TocEntry
-        Title="Develop Treatment Alternatives"
-        Link="/Content/PCStrategicPlanning/TrtmtAltsAbout.htm" />
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/PCStrategicPlanning/TrtmtAltsCompareLndscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Quantitative Risk Assessment"
         Link="/Content/PCStrategicPlanning/StrtgicRiskAbout.htm" />
