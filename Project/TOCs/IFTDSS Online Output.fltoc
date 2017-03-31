@@ -19,6 +19,8 @@
       Title="Getting Help"
       Link="/Content/GetStarted/GettingHelp.htm" />
     <TocEntry
+      Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="How [%=General.ProductName%] is Organized"
       Link="/Content/GetStarted/NavigatingIFTDSS.htm"
       conditions="General.Exclude" />
@@ -107,6 +109,9 @@
         Title="Produce Success Stories"
         Link="/Content/PCReporting/SuccessStoryMapAbout.htm" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/MapStudio/Files/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Modeling">
@@ -162,6 +167,9 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Functions/Measurements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/MapStudio/Functions/Filter.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

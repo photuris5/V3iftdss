@@ -142,7 +142,7 @@
     <Map Name="PlaceHolder" Link="/Content/AboutIFTDSS/PlaceHolder.htm" />
     <Map Name="ShapefileRepair" Link="/Content/MapStudio/Files/ShapefileRepair.htm" />
     <Map Name="AttributeTable" Link="/Content/MapStudio/Functions/AttributeTable.htm" />
-    <Map Name="Draw" Link="/Content/MapStudio/Functions/Draw.htm" />
+    <Map Name="Draw" Link="/Content/MapStudio/Functions/AddGraphic.htm" />
     <Map Name="FilterAttributeTable" Link="/Content/MapStudio/Functions/FilterAttributeTable.htm" />
     <Map Name="GetCoordinates" Link="/Content/MapStudio/Functions/GetCoordinates.htm" />
     <Map Name="Identify" Link="/Content/MapStudio/Functions/Identify.htm" />
@@ -153,4 +153,5 @@
     <Map Name="TreatmentRuleBackground" Link="/Content/PCLandscapeEval/TreatmentRuleBackground.htm" />
     <Map Name="IFTDSSOverview" Link="/Content/GetStarted/IFTDSSOverview.htm" />
     <Map Name="SpatialExtent" Link="/Content/MapStudio/Files/SpatialExtent.htm" />
+    <Map Name="Filter" Link="/Content/MapStudio/Functions/Filter.htm" />
 </CatapultAliasFile>

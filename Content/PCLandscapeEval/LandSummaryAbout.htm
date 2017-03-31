@@ -1,21 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5385" MadCap:lastWidth="1435">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="5292" MadCap:lastWidth="1422">
     <head>
+        <link href="../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>
-            <MadCap:keyword term="Landscape" />
-            <MadCap:keyword term="Generate" />Generate Landscapes <MadCap:keyword term="Summary" /> and Create Summaries</h1>
+        <h1> Create Summary Reports</h1>
         <p>
             <img src="../Resources/Images/videoscomingsoon/landscapeval_summary.png" />
         </p>
-        <p>The first step in working with landscapes in <MadCap:variable name="General.ProductName" /> is to download a <a href="../MapStudio/Files/LCPInfo.htm">Landscape File</a> (.lcp file), and evaluating the information. </p>
+        <p>The first step in working with landscapes in <MadCap:variable name="General.ProductName" /> is to create a <a href="../MapStudio/Files/LCPInfo.htm">Landscape File</a> (.lcp file) and evaluate the landscape and potential modeled fire behavior. Here you can create a landscape file and requests an automated report to summarize the vegetation characteristics and modeled fire behavior outputs for your specific landscape based on approximated worst case (97th percentile fuel moisture and wind) conditions. These high level landscape summaries are intended as a starting point for to further evaluate your area in the fuels management planning purposes.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Basic Functions</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In the Landscape Generation and Summary Task you can:</p>
+                <p>In the Generate Landscape Summary task you can:</p>
                 <p>
                     <img src="../Resources/Images/lcp_gen_smmry/landscape_summaryBasics.png" style="width: 593px;height: 284px;" alt="Landscape summary task with dropdowns for selecting and summarizing landscapes">
                     </img>
@@ -23,57 +22,74 @@
                 <ol style="list-style-type: upper-alpha;">
                     <li>Specify an existing landscape for a summary</li>
                     <li>Specify an area of interest (polygon or shapefile) within an existing landscape for a summary</li>
-                    <li>Summarize/Request a Report for a landscape or area of interest</li>
-                    <li>View a landscape or area of interest in <MadCap:variable name="General.MapStudio" /></li>
-                    <li>Generate a new Landscape from within the Landscape Generation and Summary task</li>
-                    <li>Generate a new Landscape from within <MadCap:variable name="General.MapStudio" /></li>
+                    <li>View the landscape or area of interest in <MadCap:variable name="General.MapStudio" /> (Requires navigating back to this task when finished)</li>
+                    <li>Create a summary report for the landscape features and fire behavior modeled under 97th percentile weather conditions</li>
+                    <li>Create a new Landscape from within the Landscape Generation and Summary task</li>
+                    <li>Create a Landscape from within <MadCap:variable name="General.MapStudio" /></li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>To select and summarize an existing landscape</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Generating the Landscape Summary</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <ol style="list-style-type: upper-alpha;">
-                    <li>Select your landscape from the <span class="UIcomponent">My Landscapes</span> dropdown menu</li>
-                    <li>Optional:&#160;Select an area of interest within your landscape from the <span class="UIcomponent">Area of Interest</span> dropdown menu</li>
-                    <li>Select Request a Report</li>
-                </ol>
+                <p>Once you have specified your landscape, and (optional) Area of Interest, select <span class="UIcomponent">Request a Report</span>.</p>
                 <p>
-                    <img src="../Resources/Images/lcp_gen_smmry/landscape_summary_report.png" style="width: 496px;height: 237px;" alt="use the dropdown menus to select your landscape" />
+                    <img src="../Resources/Images/landscapesumm/Summary_in_cycle.png" alt="Landscape Summary page with a 'request a report' botton to the right." style="width: 525px;height: 231px;">
+                    </img>
                 </p>
-                <p>When your summary is ready, you will receive a confirmation <MadCap:snippetText src="../Resources/Snippets/message center.flsnp" /></p>
+                <p>A prompt will appear with the name of your landscape across the top. Select <span class="UIcomponent">Create Report</span> to generate the summary report.</p>
                 <p>
-                    <img src="../Resources/Images/lcp_gen_smmry/summary_confirmation.png" alt="confirmation message that a summary has been created" />
+                    <img src="../Resources/Images/landscapesumm/summary_report_prompt.png" title="text in a pop up window promts you to create a summary reoprt" style="width: 461px;height: 219px;">
+                    </img>
                 </p>
-                <p>You may view your summary from <span class="UIcomponent">MyWorkspace</span> by finding selecting summary files, indicated with a bar chart icon <img src="../Resources/Images/landscapesumm/summary_icon.png" alt="summary icon" />, and then selecting the <span class="UIcomponent">View Summary</span> button.</p>
+                <p>A confirmation message confirms that your summary report is being generated.</p>
                 <p>
-                    <img src="../Resources/Images/landscapesumm/veiw_summary.png" alt="view summary button under a summary file in MyWorkspace" />
+                    <img src="../Resources/Images/landscapesumm/summary_confirmation.png" alt="green confirmation text box appears to let you know your summary is being generated" style="width: 340px;height: 196px;">
+                    </img>
                 </p>
-                <p>This will display a Summary report that lists out each component of the Landscape File on a miniature map, as well as in a table, bar chart, pie chart. Additionally, it will run a fire behavior report for the 97th percentile most severe fire weather and summarize fire behavior including flame length, spread rate, intensity, heat area, and crown fire state.</p>
-                <p><a href="Auto97Summary.htm">Visit the Auto97 Topic for more information on the Auto97 Summaries</a>.</p>
-                <p>&#160;</p>
+                <p>Your Summary may be viewed from <span class="UIcomponent">My Workspace</span>, in the same folder as the landscape you chose to summarize.</p>
+                <p>
+                    <img src="../Resources/Images/landscapesumm/viewreport.png" alt="summary report is listed with other files for your landscape in MyWorkspace" style="width: 436px;height: 230px;">
+                    </img>
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>To create a new landscape using the 'Create Here' button</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Viewing a Landscape Summary</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+                <p>
+                    <img src="../Resources/Images/landscapesumm/summaryreport.png" alt="summary report for crown fire with map, bar chart, pie chart, and table displayed" style="width: 476px;height: 293px;float: right;" />The Automatic 97th Percentile (<a href="Auto97Summary.htm">Auto97th</a>) fire behavior model run, and subsequent summary report, uses the capabilities of FlamMap to model fire behavior based on the 97th percentile fire weather conditions for your landscape. The summary report displays landscape file attributes, and modeled fire behavior outputs (listed below) spatially, and by percent in a bar chart, pie chart, and as a table. At the bottom right of each fire behavior and landscape feature is an Export Options button that will allow you to print the summary for that feature, or download an image (in .png format) of the pie chart, bar chart, or table. </p>
+                <h2>Landscape Features Summarized:</h2>
+                <ul>
+                    <li>Fuel Model</li>
+                    <li>Canopy Cover (percent)</li>
+                    <li>Stand Height (meters)</li>
+                    <li>Canopy Base Height (meters)</li>
+                    <li>Canopy Bulk Density (kg/m<sup>3</sup>)</li>
+                    <li>Aspect (degrees)</li>
+                    <li>Slope (degrees)</li>
+                    <li>Elevation (meters)</li>
+                </ul>
+                <h2>Modeled Fire Behavior Summarized:</h2>
+                <ul>
+                    <li>Flame Length (meters)</li>
+                    <li>Rate of Spread (m/min)</li>
+                    <li>Intensity (kW/m)</li>
+                    <li>Heat per Unit Area (kJ/m<sup>2</sup>)</li>
+                    <li>Crown Fire Activity (No Fire, Surface Fire, Passive Crown Fire, and Active Crown Fire)</li>
+                </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>To create a new landscape using the 'Create in Map Studio' button</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Technical Documentation on the Auto97th Landscape Summary</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>To leave this interface and generate a landscape in <MadCap:variable name="General.MapStudio" />, select the <span class="UIcomponent">Create in Map Studio</span> button.</p>
-                <p>
-                    <img src="../Resources/Images/lcp_gen_smmry/createininterface_mapstudio.png" alt="the 'create in map studio' button is located to the right under the 'create a landscape' prompt." />
-                </p>
-                <MadCap:snippetBlock src="../Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+                <MadCap:snippetBlock src="../Resources/Snippets/LandscapeSummary/Auto97.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

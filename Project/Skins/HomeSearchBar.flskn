@@ -49,7 +49,7 @@
         Name="Search Submit Button">
         <Properties>
           <Property
-            Name="BackgroundColor">#e67d27</Property>
+            Name="BackgroundColor">#E88127</Property>
         </Properties>
       </Style>
     </Styles>

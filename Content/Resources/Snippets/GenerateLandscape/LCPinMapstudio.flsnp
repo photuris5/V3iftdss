@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1662" MadCap:lastWidth="1233">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1768" MadCap:lastWidth="1487">
     <head>
     </head>
     <body>
@@ -19,8 +19,11 @@
             <li>Specify the resolution for your landscape file. <br /><div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">The default, and standard resolution for most operations in <MadCap:variable name="General.ProductName" /> is 30 meters. We recommend leaving this setting at the default unless you have a specific reason for altering it.</div><br /></li>
             <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />.</li>
             <li>Select the folder in which you would like to store your landscape file.</li>
-            <li>Select <span class="UIcomponent">Create</span> to download your landscape file.</li>
+            <li>Select <span class="UIcomponent">Create</span> to generate your landscape file.</li>
         </ol>
+        <p>After selecting <span class="UIcomponent">Create</span>, it may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
+        <div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">
+            If you have created a landscape in&#160;<MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">Create in <MadCap:variable name="General.MapStudio" /></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</div>
         <p>&#160;</p>
     </body>
 </html>

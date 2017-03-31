@@ -152,3 +152,4 @@
 #define TreatmentRuleBackground 1151
 #define IFTDSSOverview 1152
 #define SpatialExtent 1153
+#define Filter 1154
