@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4699" MadCap:lastWidth="1435">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4877" MadCap:lastWidth="1181">
     <head>
     </head>
     <body>
@@ -33,22 +33,24 @@
             <img src="../../Images/Behavior/add_inputs.png" alt="dropdown boxes will contain fields for wind, crown fire, and fuel moisture inputs" style="width: 629px;height: 314px;" />
         </p>
         <p>Next, select the heading for each model input type, and populate the fields in the dropdown:</p>
-        <p><b>Step 3:</b> Specify windspeed (in miles per hour) at 20 feet above the ground or above the vegetation.</p>
+        <p><b>Step 3:</b> Specify windspeed, in miles per hour, at 20 feet above the ground or above the vegetation (allowed values 0-100 mph).</p>
         <p> Enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees). Alternatively you may enter -1 for upslope wind, or -2 for downslope wind.</p>
         <p><b>Step 4:</b>&#160;Specify a <a href="../../../ModelingPG/FlamMap/FlamMapCrowns.htm">crown fire calculation method</a>, and the foliar moisture content (in percent).</p>
-        <p><b>Step 5:</b> Specify fuel moisture for:</p>
+        <p><b>Step 5:</b> Specify fuel moisture, in percent, for:</p>
         <ul>
-            <li>1 hour fuels (1hr FM)</li>
-            <li>10 hour fuels (10hr FM)</li>
-            <li>100 hour fuels (100hr FM)</li>
-            <li>Herbaceous fuels (Herb)</li>
-            <li>Live Woody fuels (WoodyFM)</li>
+            <li>1 hour fuels (1hr FM) - allowed values 2-100</li>
+            <li>10 hour fuels (10hr FM) - allowed values 2-100</li>
+            <li>100 hour fuels (100hr FM) - allowed values 2-100</li>
+            <li>Herbaceous fuels (Herb) - allowed values 30-250</li>
+            <li>Live Woody fuels (WoodyFM) - allowed values 60-200</li>
         </ul>
-        <p><b>Step 6:</b> Upon completing all required inputs the Run button will turn green, indicating the model has all required inputs and is ready to run. </p>
+        <p>If you would like to have fuel model specific fuel moistures, select <span class="UIcomponent">+ add row</span>. This will add a new line. Using the drop down list, select a fuel model, then specify the fuel moisture values. You may repeat this as many times as needed. </p>
+        <div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">If you choose to only populate one row, those fuel moistures will be applied to all fuel models in your landscape.</div>
+        <p><b>Step 6:</b> Upon completing all required inputs, you may choose to:</p>
+        <p><span class="UIcomponent"> Save</span> - which will save your inputs, but still provide a chance to edit and re-save before running the model.</p>
+        <p><span class="UIcomponent">Save and Run</span> - which will save your inputs and run the model. </p>
         <p>
-            <img src="../../Images/Behavior/run.png" alt="when all required inputs are entered, the 'run' button will turn green indicating the model is ready to run." />
+            <img src="../../Images/Behavior/run.png" alt="you may either choose the 'save' button to save your inputs, or 'save and run' to save inputs and run the model" />
         </p>
-        <p>You may select Run, which will automatically save the inputs, and run the model. </p>
-        <p>You may also select Save, which will save you input but will not run the model.</p>
     </body>
 </html>

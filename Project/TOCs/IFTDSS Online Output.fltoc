@@ -19,8 +19,6 @@
       Title="Getting Help"
       Link="/Content/GetStarted/GettingHelp.htm" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
       Title="How [%=General.ProductName%] is Organized"
       Link="/Content/GetStarted/NavigatingIFTDSS.htm"
       conditions="General.Exclude" />
@@ -419,35 +417,43 @@
   <TocEntry
     Title="Resources">
     <TocEntry
-      Title="Get Instructions">
-      <TocEntry
-        Title="Videos"
-        Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ" />
-      <TocEntry
-        Title="Webinars"
-        Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-      <TocEntry
-        Title="Online Courses"
-        Link="/Content/GetStarted/OnlineCourses.htm" />
-      <TocEntry
-        Title="Tutorials"
-        Link="/Content/Tutorials/TutorialMain.htm" />
-      <TocEntry
-        Title="References"
-        Link="/Content/References/ReferenceList.htm" />
-    </TocEntry>
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ"
+      StartSection="false" />
     <TocEntry
-      Title="Get Support">
-      <TocEntry
-        Title="Q A Forum"
-        Link="https://iftdsshelp.freshdesk.com/discussions"></TocEntry>
-      <TocEntry
-        Title="Request Tech. Support"
-        Link="https://s3-us-west-2.amazonaws.com/iftdss-website/support.html" />
-      <TocEntry
-        Title="Workshops"
-        Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA" />
-    </TocEntry>
+      Title="Webinars"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA"
+      conditions="General.LaterRelease"></TocEntry>
+    <TocEntry
+      Title="Online Courses"
+      Link="/Content/GetStarted/OnlineCourses.htm"
+      conditions="General.LaterRelease" />
+    <TocEntry
+      Title="Workshops"
+      Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA"
+      conditions="General.LaterRelease" />
+    <TocEntry
+      Title="Tutorials"
+      Link="/Content/Tutorials/TutorialMain.htm"
+      conditions="General.LaterRelease" />
+    <TocEntry
+      Title="References"
+      Link="/Content/References/ReferenceList.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Get Support"
+      Link="/Content/AboutIFTDSS/Getting Support.htm"></TocEntry>
+    <TocEntry
+      Title="         Q A Forum"
+      Link="https://iftdsshelp.freshdesk.com/discussions/forums/22000059274"></TocEntry>
+    <TocEntry
+      Title="         Ideas Exchange"
+      Link="https://iftdsshelp.freshdesk.com/discussions/forums/22000059283" />
+    <TocEntry
+      Title="         Request Tech. Support"
+      Link="http://192.255.42.9/landing_page/support.html" />
   </TocEntry>
   <TocEntry
     Title="Known Issues"

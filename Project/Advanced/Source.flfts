@@ -11,4 +11,10 @@
   <FileTag
     Name="IBM"
     Comment="Content from IBM" />
+  <FileTag
+    Name="UIdaho"
+    Comment="Content mainly authored by U Idaho" />
+  <FileTag
+    Name="IFTDSSV201"
+    Comment="Content adapted from IFTDSS v. 2.0.1 documentation" />
 </CatapultFileTagSet>
