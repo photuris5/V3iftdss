@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4877" MadCap:lastWidth="1181">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="7108" MadCap:lastWidth="802">
     <head>
     </head>
     <body>
@@ -45,7 +45,7 @@
             <li>Live Woody fuels (WoodyFM) - allowed values 60-200</li>
         </ul>
         <p>If you would like to have fuel model specific fuel moistures, select <span class="UIcomponent">+ add row</span>. This will add a new line. Using the drop down list, select a fuel model, then specify the fuel moisture values. You may repeat this as many times as needed. </p>
-        <div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">If you choose to only populate one row, those fuel moistures will be applied to all fuel models in your landscape.</div>
+        <div class="notificationNote"><p>If you choose to only populate one row, those fuel moistures will be applied to all fuel models in your landscape.</p></div>
         <p><b>Step 6:</b> Upon completing all required inputs, you may choose to:</p>
         <p><span class="UIcomponent"> Save</span> - which will save your inputs, but still provide a chance to edit and re-save before running the model.</p>
         <p><span class="UIcomponent">Save and Run</span> - which will save your inputs and run the model. </p>

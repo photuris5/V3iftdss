@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3004" MadCap:lastWidth="1233">
     <head>
     </head>
     <body>
-        <div class="noteImportant" MadCap:autonum="&lt;b&gt;Important! &lt;/b&gt;">Currently, this extra step is required to save an uploaded shapefile in <span class="UIcomponent">MyWorkspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </div>
+        <div class="notificationImportant"><p>Currently, this extra step is required to save an uploaded shapefile in <span class="UIcomponent">MyWorkspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </p></div>
         <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" /> if you follow the steps below:</p>
         <p>Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10).</p>
         <p>

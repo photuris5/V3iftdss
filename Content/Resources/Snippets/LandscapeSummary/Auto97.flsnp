@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2226" MadCap:lastWidth="1474">
     <head>
         <link href="../../TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
@@ -29,7 +29,7 @@
             <li> Calculating the distance from the center to the nearest RAWS using a horizontal/vertical (elevation) algorithm.</li>
             <li>    Ranking the stations and selecting the station which is the “closest” and has weather data requisite for running the model.</li>
         </ol>
-        <div class="noteIFTDSS" MadCap:autonum="&lt;b&gt;Note: &lt;/b&gt;">
+        <div class="notificationNote">
             <p>The RAWS selected, and the fuel moisture and wind scenario for the automated Auto97th model, cannot be changed.  It is intended to be a starting point to understand your landscape and predicted fire behavior.  You may choose to run a <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm">Landscape Fire Behavior</a> model run with user-input values in the <a href="../../../ModelingPG/ModelsOverview.htm">Modeling Playground</a>.</p>
         </div>
         <p>Once a RAWS station is selected, the Energy Release Components (ERCs) are calculated for every day. ERC is related to the available energy within the flaming front at the head of a fire. The ERC is considered a composite fuel moisture index as it reflects the contribution of all live and dead fuels to potential fire intensity. The ERC has memory, each daily calculation considers the past 7 days in calculating the new number making it relatively stable indicator of fuel conditions over time.</p>

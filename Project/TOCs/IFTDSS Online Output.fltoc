@@ -10,11 +10,9 @@
       Title="Setting up an Account"
       Link="/Content/GetStarted/AccountSetup.htm" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/GetStarted/IFTDSSOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Navigate [%=General.ProductName%]"
-      Link="/Content/GetStarted/NavigatingIFTDSS.htm" />
+      Title="Navigate [%=General.ProductName%] (An Overview)"
+      Link="/Content/GetStarted/NavigatingIFTDSS.htm"
+      StartSection="false" />
     <TocEntry
       Title="Getting Help"
       Link="/Content/GetStarted/GettingHelp.htm" />
