@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
   Version="2"
   SkinType="Component"
@@ -18,6 +18,42 @@
             Name="Float">right</Property>
         </Properties>
       </Style>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="expandPrint"
+            Custom="true">
+            <Properties>
+              <Property
+                Name="BackgroundRepeat">no-repeat</Property>
+              <Property
+                Name="BackgroundPosition">center center</Property>
+              <Property
+                Name="Click">MadCap.TextEffects.TextEffectControl.ExpandAll("open"); setTimeout(function(){ window.print(); }, 1500);</Property>
+              <Property
+                Name="BackgroundImage">url('printercustom.png')</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Medium
+        Name="Tablet">
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="expandPrint">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
+      </Medium>
       <Medium
         Name="Mobile">
         <Style
@@ -27,11 +63,114 @@
               Name="Display">none</Property>
           </Properties>
         </Style>
+        <Style
+          Name="ToolbarItem">
+          <Classes>
+            <StyleClass
+              Name="expandPrint">
+              <Properties>
+                <Property
+                  Name="BackgroundRepeat">no-repeat</Property>
+                <Property
+                  Name="BackgroundPosition">center center</Property>
+              </Properties>
+            </StyleClass>
+          </Classes>
+        </Style>
       </Medium>
     </Styles>
+    <Stylesheet></Stylesheet>
+    <Resources>
+      <Resource
+        Name="printercustom.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0sJALMbBDCRFncN9GRiYGQJ8QlxzcnLy8/NLS0vr6uo6OjomTpw4bdq0GTNmzJ07d+HChatWrVq/fv3GjRu3bNmyc+fO3bt379mzZ//+/adOnbpw4cLFixevXr167dq169evP3369NOnT58/f/7y5cv3799//Pjx8+fPX79+/f//n2EUjILBCv7o/9EHUpwFHpHFwPyhCsKMnkEqH4CC7CWevq7sD1nYxdjVu6sZJoCFXCNKHEtLMvKLGFauO+MBFOIBCbmkFicXZRaUZObnMQhzKioDxblA4s75BZVFmekZJQxr+M9YAUX5wKJFqYkgpQolmbmpDKbf+TlBTgDJBOenlZQnFqUyxBb8BynnBhueWZyckwhUWsSw/cCWfqAwB0g4PLEoLzMvneGA9LN2mNOC80uLklMZvv5vfg1T5pyfm5uaV8Lw7cy0/UAxNpBYSGZJTirDineX1IEiWZ4ujiESU7decOdrMOBxuaj45V713v+aE3uEe24cmn93shBrwZ7D+s9etCTezqy44SU8LSEy02PrzQNFrBY5AprJjN36Z5KLWxPnZXyPTF1ZuEjzdFr2JobS+19FFy0yzef7uS+i5viE4Kfh/9/f5Gy100ibfJx7OijkPV39XNY5JTQBALnDiPCrBAAA</Resource>
+    </Resources>
   </Stylesheet>
   <TopicToolbar
     EnableCustomLayout="true"
-    Buttons="TopicRatings|Separator|EditUserProfile|Print|ExpandAll" />
-  <Strings />
+    Buttons="expandPrint|ExpandAll" />
+  <Strings>
+    <Stylesheet
+      lang="en-us">
+      <Stylesheet>
+        <Styles>
+          <Style
+            Name="Toolbar">
+            <Properties>
+              <Property
+                Name="MarginBottom">33px</Property>
+              <Property
+                Name="MarginRight">-4px</Property>
+              <Property
+                Name="Float">right</Property>
+            </Properties>
+          </Style>
+          <Style
+            Name="ToolbarItem">
+            <Classes>
+              <StyleClass
+                Name="expandPrint"
+                Custom="true">
+                <Properties>
+                  <Property
+                    Name="BackgroundRepeat">no-repeat</Property>
+                  <Property
+                    Name="BackgroundPosition">center center</Property>
+                  <Property
+                    Name="Click">MadCap.TextEffects.TextEffectControl.ExpandAll("open"); setTimeout(function(){ window.print(); }, 1500);</Property>
+                  <Property
+                    Name="BackgroundImage">url('printercustom.png')</Property>
+                </Properties>
+              </StyleClass>
+            </Classes>
+          </Style>
+          <Medium
+            Name="Tablet">
+            <Style
+              Name="ToolbarItem">
+              <Classes>
+                <StyleClass
+                  Name="expandPrint">
+                  <Properties>
+                    <Property
+                      Name="BackgroundRepeat">no-repeat</Property>
+                    <Property
+                      Name="BackgroundPosition">center center</Property>
+                  </Properties>
+                </StyleClass>
+              </Classes>
+            </Style>
+          </Medium>
+          <Medium
+            Name="Mobile">
+            <Style
+              Name="Toolbar">
+              <Properties>
+                <Property
+                  Name="Display">none</Property>
+              </Properties>
+            </Style>
+            <Style
+              Name="ToolbarItem">
+              <Classes>
+                <StyleClass
+                  Name="expandPrint">
+                  <Properties>
+                    <Property
+                      Name="BackgroundRepeat">no-repeat</Property>
+                    <Property
+                      Name="BackgroundPosition">center center</Property>
+                  </Properties>
+                </StyleClass>
+              </Classes>
+            </Style>
+          </Medium>
+        </Styles>
+        <Stylesheet></Stylesheet>
+        <Resources>
+          <Resource
+            Name="printercustom.png">H4sIAAAAAAAEAOsM8HPn5ZLiYmBg4PX0cAkC0sJALMbBDCRFncN9GRiYGQJ8QlxzcnLy8/NLS0vr6uo6OjomTpw4bdq0GTNmzJ07d+HChatWrVq/fv3GjRu3bNmyc+fO3bt379mzZ//+/adOnbpw4cLFixevXr167dq169evP3369NOnT58/f/7y5cv3799//Pjx8+fPX79+/f//n2EUjILBCv7o/9EHUpwFHpHFwPyhCsKMnkEqH4CC7CWevq7sD1nYxdjVu6sZJoCFXCNKHEtLMvKLGFauO+MBFOIBCbmkFicXZRaUZObnMQhzKioDxblA4s75BZVFmekZJQxr+M9YAUX5wKJFqYkgpQolmbmpDKbf+TlBTgDJBOenlZQnFqUyxBb8BynnBhueWZyckwhUWsSw/cCWfqAwB0g4PLEoLzMvneGA9LN2mNOC80uLklMZvv5vfg1T5pyfm5uaV8Lw7cy0/UAxNpBYSGZJTirDineX1IEiWZ4ujiESU7decOdrMOBxuaj45V713v+aE3uEe24cmn93shBrwZ7D+s9etCTezqy44SU8LSEy02PrzQNFrBY5AprJjN36Z5KLWxPnZXyPTF1ZuEjzdFr2JobS+19FFy0yzef7uS+i5viE4Kfh/9/f5Gy100ibfJx7OijkPV39XNY5JTQBALnDiPCrBAAA</Resource>
+        </Resources>
+      </Stylesheet>
+    </Stylesheet>
+  </Strings>
 </CatapultSkin>

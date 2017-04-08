@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2677" MadCap:lastWidth="767">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2435" MadCap:lastWidth="767">
     <head>
     </head>
     <body>
@@ -16,14 +16,16 @@
             <li>Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
             <li>Select the version of LANDFIRE data you would like to use.</li>
             <li>Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
-            <li>Specify the resolution for your landscape file. <br /><div class="notificationNote"><p>The default, and standard resolution for most operations in <MadCap:variable name="General.ProductName" /> is 30 meters. We recommend leaving this setting at the default unless you have a specific reason for altering it.</p></div><br /></li>
             <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />.</li>
             <li>Select the folder in which you would like to store your landscape file.</li>
             <li>Select <span class="UIcomponent">Create</span> to generate your landscape file.</li>
         </ol>
         <p>After selecting <span class="UIcomponent">Create</span>, it may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
         <div class="notificationNote">
-            <p>If you have created a landscape in&#160;<MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">Create in <MadCap:variable name="General.MapStudio" /></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</p></div>
-        <div class="notificationNote"><p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p></div>
+            <p>If you have created a landscape in&#160;<MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">Create in <MadCap:variable name="General.MapStudio" /></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</p>
+        </div>
+        <div class="notificationNote">
+            <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
+        </div>
     </body>
 </html>

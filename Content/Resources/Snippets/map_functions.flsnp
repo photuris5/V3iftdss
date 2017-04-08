@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="2062" MadCap:lastWidth="1322">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="2472" MadCap:lastWidth="954">
     <head>
     </head>
     <body>
@@ -40,7 +40,7 @@
         <p>
             <img src="../Images/mapstudio/button_SimOutput.png" alt="simulation output tools button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/SimulationTools.htm">Simulation Output Tools:</a></span>Allows you to add simulation outputs to the map, or compare results from multiple outputs </p>
         <p>
-            <img src="../Images/mapstudio/button_editTools.png" alt="edit tools button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/EditTools.htm">Edit Tools:</a></span>&#160;Make edits to existing map layers <span class="comment" MadCap:conditions="General.DeveloperNotes">- [This is in progress with IBM - UIdaho will update]</span></p>
+            <img src="../Images/mapstudio/button_editTools.png" alt="edit tools button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/EditTools.htm">Edit/Create Shapes:</a></span>&#160;Make edits to existing map layers <span class="comment" MadCap:conditions="General.DeveloperNotes">- [This is in progress with IBM - UIdaho will update]</span></p>
         <p>
             <img src="../Images/mapstudio/button_basemapglry.png" alt="basemap gallery button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/BasemapGallery.htm">Basemap Gallery:</a></span> A selection of basemap layers that can be added to the map</p>
         <p>

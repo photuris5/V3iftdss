@@ -240,8 +240,6 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     IgnoreCase="false">
     <Terms>
       <Term>DBH</Term>
-      <Term>D.B.H.</Term>
-      <Term>Diameter Breast Height</Term>
       <Term>Diameter at Breast Height</Term>
     </Terms>
     <Definition
@@ -495,7 +493,6 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     IgnoreCase="false">
     <Terms>
       <Term>basal accumulation</Term>
-      <Term>basal accumulations</Term>
     </Terms>
     <Definition
       Link="">Accumulations of bark, downed woody debris, litter, and duff surrounding tree trunks.</Definition>
@@ -787,12 +784,10 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>P-G</Term>
       <Term>palmetto-gallberry</Term>
-      <Term>Palmetto-gallberry</Term>
     </Terms>
     <Definition
-      Link="">Palmetto-gallberry, a fuel type. It is "the complex association of saw-palmetto [Serenoa repens (Bartr.) Small] and common gallberry [llex glabra (L.) Gray] with many other plants beneath slash pines (Pinus elliottii Engelm.) or mixtures of slash and longleaf pine (P. palustris Mill.). Openings frequently contain small shrubs [Vaccinium spp., Quercus spp., and Kalmiella hirsuta (Walt.) Small] and wiregrass (Aristida spp.). Palmetto and gallberry are two of the most common plants occurring in forest understories on the Lower Coastal Plain of the Southern United States." (Hough and Albini, 1978)</Definition>
+      Link="">Palmetto-gallberry (P-G) is a fuel type. It is "the complex association of saw-palmetto [Serenoa repens (Bartr.) Small] and common gallberry [llex glabra (L.) Gray] with many other plants beneath slash pines (Pinus elliottii Engelm.) or mixtures of slash and longleaf pine (P. palustris Mill.). Openings frequently contain small shrubs [Vaccinium spp., Quercus spp., and Kalmiella hirsuta (Walt.) Small] and wiregrass (Aristida spp.). Palmetto and gallberry are two of the most common plants occurring in forest understories on the Lower Coastal Plain of the Southern United States." (Hough and Albini, 1978)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1254,7 +1249,6 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     IgnoreCase="false">
     <Terms>
       <Term>foehn wind</Term>
-      <Term>föhn wind</Term>
     </Terms>
     <Definition
       Link="">Foehn (föhn) winds are dry, down-slope winds that occur on the leeward (downwind, rain shadow) side of a mountain range. This type of wind is also sometimes called a Chinook wind. The process for the creation of these winds is adiabatic warming of air that dropped its moisture on the windward side of the mountain. Föhn winds can raise air temperatures dramatically (30°C/54°F) in just a few hours and can contribute to the rapid spread of wildland fires. These winds are known by different names in different places around the world. The Santa Ana winds of southern California are similar, though they are are katabatic winds that originate in dry deserts.</Definition>
@@ -1498,7 +1492,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
       <Term>fbfm</Term>
     </Terms>
     <Definition
-      Link="">A fuel model is a set of fuelbed inputs needed by a particular fire behavior or fire effects model. There are two types of fire behavior fuel models used by IFTDSS.</Definition>
+      Link="">A fire behavior fuel model (fbfm) is a set of fuelbed inputs needed by a particular fire behavior or fire effects model. There are two types of fire behavior fuel models used by IFTDSS.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term10"

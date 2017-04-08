@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="235" MadCap:lastWidth="767">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="59" MadCap:lastWidth="767">
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="" />
@@ -9,15 +9,6 @@
     <body>
         <div id="contentBody" class="off-canvas-main">
             <MadCap:bodyProxy />
-            <div class="footer center">
-                <div class="HomeMasterPageFooter outer-row">
-                    <div><a href="../../Home.htm"><img src="../Images/iftdss_helpcenter_2_50p.png" alttext="" class="Hyperlinked footer-logo" /></a>
-                    </div>
-                    <div>
-                        <div class="footer-links">&#160;</div>
-                    </div>
-                </div>
-            </div>
         </div>
     </body>
 </html>

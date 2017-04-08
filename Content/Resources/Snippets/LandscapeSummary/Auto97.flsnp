@@ -1,10 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2226" MadCap:lastWidth="1474">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4811" MadCap:lastWidth="767">
     <head>
         <link href="../../TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of FlamMap to model fire behavior based on the 97th percentile fire weather conditions for your landscape. </p>
+        <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your selected Landscape. </p>
+        <div class="notificationComingSoon">
+            <p>While currently the selection of RAWS is automatic, in future releases of <MadCap:variable name="General.ProductName" /> you will be able to specify the RAWS station of your choosing.</p>
+        </div>
         <h2>Inputs</h2>
         <h3> Landscape</h3>
         <p>The <a href="../../../MapStudio/Files/LCPInfo.htm">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
