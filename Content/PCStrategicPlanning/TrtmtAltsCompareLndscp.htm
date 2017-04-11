@@ -1,46 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="10123" MadCap:lastWidth="767" MadCap:conditions="General.LaterRelease">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="6427" MadCap:lastWidth="767">
     <head>
     </head>
     <body>
         <h1>
             <MadCap:keyword term="Comparing" />
             <MadCap:keyword term="Comparing Landscapes" />Comparing Landscapes to <MadCap:keyword term="Develop Treatment Alternative" />Develop <MadCap:keyword term="Treatment Alternatives" />Treatment Alternatives</h1>
-        <p>Develop alternatives to determine how different types of fuels treatments and their spatial arrangement on the landscape affect landscape characteristics and resultant fire behavior. Generate maps and reports to compare landscapes and fire behavior model outputs.  Use outcomes to determine the best fuels management strategy to meet your project objectives. In this task you will:</p>
+        <p>Develop alternatives to determine how different types of fuels treatments and their spatial arrangement on the landscape affect landscape characteristics and resultant fire behavior. You may generate maps and reports to compare landscapes and fire behavior model outputs, and use outcomes to determine the best fuels management strategy to meet your project objectives. In this task you will:</p>
         <ol>
-            <li>Select or create an un-edited landscape</li>
+            <li>Select or create an un-edited (originating) landscape</li>
             <li>Edit landscape characteristics to create alternative(s)</li>
             <li>Enter fire behavior model inputs</li>
             <li>Run fire behavior models on alternative(s)</li>
             <li>Compare landscape characteristic alternatives and resultant fire behavior outputs on maps and in reports</li>
         </ol>
         <div class="notificationNote">
-            <p>All edited landscapes, resultant model run outputs, and comparison reports created in this workflow will be filed in your workspace in the same location as landscape you choose in the following step as your starting landscape.</p>
+            <p>All edited landscapes, resultant model run outputs, and comparison reports created in this workflow will be filed in your workspace in the same location as landscape you choose in the following step as your originating landscape.</p>
+        </div>
+        <div class="notificationTip">
+            <p>To view both your landscape, and editing rules at the same time, use the <span class="UIcomponent">View Split Map</span> button <img src="../Resources/Images/treatment_compare/button_showsplitmap.png" style="width: 41px;height: 24px;" alt="view split map button" />at the top of the page. </p>
         </div>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Choose a Starting Landscape</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Choose an Originating Landscape</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>
-                    <img src="../Resources/Images/treatment_compare/select_landscape.png" style="width: 541px;height: 265px;float: right;" alt="treatment comparison interface with a dropdown list of landscapes to select, or button to create a new landscape" />Use this tab to create or select a starting, <MadCap:popup><MadCap:popupHead>unedited  landscape</MadCap:popupHead><MadCap:popupBody>Use the report icon to view the Landscape Summary Report for your selected landscape and/or use the globe icon to zoom into your selected landscape on the map
-**If you have an Area of Interest that you would like to use to help determine your landscape extent, you can upload it now using the Upload Shapefile tool in the Map Studio
-***All landscapes derived from the selected landscape in step 1 will be listed in the Run Model and Compare Alternatives tabs, no matter if they were edited and saved here, in this workflow, or elsewhere in the app.
-Note:  Use the extend/retract arrows to either view only the input page, view both the input page and map studio in split screen, or view only the map in the map studio.
-
-
-</MadCap:popupBody></MadCap:popup>.  The landscape selected in this step initiates your comparison session and will be marked with “0” throughout the workflow.  The “0” indicates the original landscape extracted from LANDFIRE that has not been edited. It will be available for you to edit in the <span class="UIcomponent">Edit Landscape </span>tab. If landscape “0” does not represent your Existing Condition (EC) you can edit it to create your existing condition in the Edit Landscape tab.</p>
-                <p>&#160;</p>
+                    <img src="../Resources/Images/treatment_compare/select_landscape.png" style="width: 541px;height: 265px;float: right;" alt="treatment comparison interface with a dropdown list of landscapes to select, or button to create a new landscape" />Use this tab to create or select a starting unedited landscape. The landscape selected in this step initiates your comparison session and will be marked with “0” throughout the workflow.  The “0” indicates the original landscape extracted from LANDFIRE that has not been edited. It will be available for you to edit in the <span class="UIcomponent">Edit Landscape</span>tab. If landscape “0” does not represent your Existing Condition (EC) you can edit it to create your existing condition in the Edit Landscape tab.</p>
                 <div class="notificationImportant">
                     <p>The landscape you use to develop and compare treatment alternatives should mimic, as closely as possible, conditions as they exist on the ground, the Existing Condition (EC). When you select your landscape "0", any landscapes that match that extent will become available in the subsequent steps of the Landscape Comparison process. Thus, if you had edited a landscape previously to match the existing condition, choose the original un-edited file, and the edited version will be available in the next steps of Landscape Comparison.</p>
                 </div>
                 <p>If your landscape “0” does represent your EC, you can begin editing to create your treatment alternatives.</p>
                 <p>To complete this step either:</p>
-                <p>Use the <span class="UIcomponent">Select Landscape</span> drop-down menu to select an existing un-edited landscape from your <MadCap:popup><MadCap:popupHead>workspace</MadCap:popupHead><MadCap:popupBody>All landscapes derived from the selected landscape in step 1 will be listed in the Run Model and Compare Alternatives tabs, no matter if they were edited and saved here, in this workflow, or elsewhere in the app.</MadCap:popupBody></MadCap:popup>, or</p>
+                <p>Use the <span class="UIcomponent">Select Landscape</span> drop-down menu to select an existing un-edited landscape from your workspace or, </p>
                 <p>Use the <span class="UIcomponent">Create on Map</span> option to draw a new landscape extent and extract a new Landfire landscape</p>
-                <div class="notificationNote">
-                    <p>Use the extend/retract arrows to either view only the input page, view both the input page and map studio in split screen, or view only the map in the map studio.</p>
-                </div>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -49,33 +42,37 @@ Note:  Use the extend/retract arrows to either view only the input page, view bo
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>
-                    <img src="../Resources/Images/treatment_compare/edit.png" alt="The edit landscape interface with default treatment rule options that can be selected upon clicking, or landscape edit rules that can be created by the user." style="width: 660px;height: 324px;float: right;padding-left: 5px;" />Here you will edit landscapes to develop your Existing Condition (EC) if needed, and your treatment alternatives.  The only landscape(s) available to edit at this point will be landscape “0” and any landscapes matching that extent.  Create your alternatives by altering your Existing Condition landscape, whether thats the "0" landscape, an existing landscape that has been made available in this step, or one that you create in this editing step from landscape "0". Whatever the case might be, it is very important to have an Existing Condition to ensure more accurate comparison results to gauge how each alternative does or does not meet objectives.
-The Existing Condition may need to reflect new disturbances on your landscape, like recent wildfires, fuels treatments, or windfalls.  </p>
-                <p>Once you have established your EC, you can use that landscape as your starting landscape and create one to many treatment alternatives to compare.  Steps include:  
-</p>
+                    <img src="../Resources/Images/treatment_compare/edit.png" alt="The edit landscape interface with default treatment rule options that can be selected upon clicking, or landscape edit rules that can be created by the user." style="width: 660px;height: 324px;float: right;padding-left: 5px;" />Here you will edit landscapes to develop your Existing Condition (EC) if needed, and your treatment alternatives. The only landscape(s) available to edit at this point will be unedited LANDFIRE landscapes (these will be referred to as the “0” landscape) and any landscapes matching that extent. Create your treatment alternatives by altering your EC landscape, whether that’s the "0" landscape, an existing landscape that has been made available in this step, or one that you create in this editing step from landscape "0". </p>
+                <div class="notificationImportant">
+                    <p>It is very important to have a landscape that represents EC to ensure more accurate comparison results in gauging how each alternative does or does not meet objectives. The EC may need to reflect new disturbances on your landscape, like recent wildfires, fuels treatments, or windfalls. </p>
+                </div>
+                <p>Once you have established your EC, you can use that landscape as your originating landscape and create as many treatment alternatives as necessary to make your comparisons.  Steps include:  
+				</p>
                 <ol>
-                    <li>Select a starting landscape in the Starting Landscape drop down box
-</li>
+                    <li>Select a originating landscape in the <span class="UIcomponent">Originating Landscape</span> drop down box
+					</li>
                     <li>Use <span class="UIcomponent">Default Edit Rules</span> or <span class="UIcomponent">Landscape Edit Rules</span> and <span class="UIcomponent">Landscape Masks</span> (optional) to edit your landscape
-</li>
-                    <li>Give your edited landscape a unique name in the Edited Landscape box at the bottom of the page.
-</li>
-                    <li>Click <span class="UIcomponent">Create New Landscape
-</span></li>
-                    <li>Use the refresh button in the <span class="UIcomponent">Starting Landscape</span> drop down to check to see if your new landscape is available to view
-</li>
-                    <li>Once your edited landscape has been created, you can choose it in the <span class="UIcomponent">Starting Landscape</span> drop down to view for accuracy and/or to edit and create a new landscape to compare.
-
-</li>
+					</li>
+                    <li>Give your edited landscape a unique name in the <span class="UIcomponent">Edited Landscape</span> box at the bottom of the page.
+					</li>
+                    <li>Click <span class="UIcomponent">Save New Landscape
+					</span></li>
+                    <li>Use the refresh button in the <span class="UIcomponent">Originating Landscape</span> drop down to check to see if your new landscape is available to view
+					</li>
+                    <li>Once your edited landscape has been created, you can choose it in the <span class="UIcomponent">Originating Landscape</span> drop down to view for accuracy and/or to edit and create a new landscape to compare.
+Use the <span class="UIcomponent">View Split Map</span> button <img src="../Resources/Images/treatment_compare/button_showsplitmap.png" style="width: 41px;height: 24px;" alt="view split map button" /> to view the map output with your edits, if you have not used this setting already.<![CDATA[
+					]]></li>
                 </ol>
-                <p>Continue in this process to create as many landscapes as needed to compare.  When you are finished editing and creating new landscapes, continue on to the Model Input tab to establish conditions under which the landscapes you just created will be modeled.
-</p>
-                <p>Details on performing landscape edits are available in the <a href="../PCLandscapeEval/LandscapeEditAbout.htm">Landscape Editing Topic.</a></p>
+                <p>Continue  this process to create as many landscapes as needed to compare.  When you are finished editing and creating new landscapes, continue on to the Model Input tab to establish conditions under which the landscapes you just created will be modeled.
+				</p>
+                <div class="notificationImportant">
+                    <p>The order of your landscape rules is very important! Details on performing landscape edits are available in the&#160;<a href="../PCLandscapeEval/LandscapeEditAbout.htm">Landscape Editing Topic</a>.</p>
+                </div>
                 <div class="notificationImportant">
                     <p>It is important that the landscape you use to develop and compare treatment alternatives mimics, as closely as possible, conditions as they exist on the ground.</p>
                 </div>
                 <div class="notificationNote">
-                    <p>Use the extend/retract arrows to either view only the input page, view both the input page and map studio in split screen, or view only the map in the map studio.</p>
+                    <p>Use the extend/retract arrows to either view only the input page, view both the input page and map studio in split screen , or view only the map in the map studio.</p>
                 </div>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -86,22 +83,22 @@ The Existing Condition may need to reflect new disturbances on your landscape, l
             <MadCap:dropDownBody>
                 <p>
                     <img src="../Resources/Images/treatment_compare/inputs.png" alt="interface with modeling input fields on the right of a map." style="width: 634px;height: 311px;float: right;padding-left: 5px;" />Use this tab to establish the model state by which all landscapes in your comparison session  will be run and compared.  If you are unsure as to what your model state should be for your comparison session, utilize <span class="UIcomponent">My Modeling Playground</span> to test different weather and fuel moisture conditions on your landscape(s).  Creating an <a href="../PCLandscapeEval/Auto97Summary.htm">Auto97th Landscape Fire Behavior report</a> in the <span class="UIcomponent">Landscape Summary</span> task of the <span class="UIcomponent">Landscape Evaluation </span>stage of the planning cycle. can also help give you a starting point for establishing model inputs.
-</p>
+				</p>
                 <div class="notificationImportant">
                     <p>Once a model is run in Landscape Comparison, it is permanent, there is no way to re-run that model. For this reason, testing out various modeling inputs in <span class="UIcomponent">MyModeling Playground</span> before proceeding with the rest of <span class="UIcomponent">Landscape Comparison </span>is recommended.</p>
                 </div>
                 <p>To complete this step:
-</p>
+				</p>
                 <ol>
                     <li>Type wind speed and wind direction in the <span class="UIcomponent">Wind</span> section
-</li>
+					</li>
                     <li>Select <span class="UIcomponent">Crown Fire Method </span>and enter <span class="UIcomponent">Foliar Moisture Content</span> in the <span class="UIcomponent">Crown Fire Inputs</span> section
-</li>
+					</li>
                     <li>Populate the timelag and herbaceous and woody fuel moisture percentages in the <span class="UIcomponent">Initial Fuel Moisture</span> section
-(Optional) </li>
+					(Optional) </li>
                     <li>Add rows to establish fuel moistures for individual fuel models</li>
                     <li>Save Inputs
-</li>
+					</li>
                 </ol>
                 <p>For full details about the fire behavior modeling, inputs, and outputs, visit the <a href="../ModelingPG/FlamMap/FlamMapAbout.htm">Fire Behavior Basic Topic.</a></p>
                 <div class="notificationNote">
@@ -127,18 +124,18 @@ The Existing Condition may need to reflect new disturbances on your landscape, l
                 </div>
                 <p> Feel free to accept the default name or rename your model run.  Now you can produce Landscape Fire Behavior for landscapes of your choosing by selecting Run Model after the landscapes you would like to compare.  Use the refresh button to check status.  
 
-</p>
+				</p>
                 <p>To complete this step:
-</p>
+				</p>
                 <ol>
                     <li>Click the <span class="UIcomponent">Refresh</span> button next to <span class="UIcomponent">Landscape</span> in the <span class="UIcomponent">Run Models</span> table to be sure all of your landscapes are listed
-</li>
+					</li>
                     <li>(Optional) Rename model runs for each landscape</li>
                     <li>(Optional)Revisit Model Input tab to be sure <MadCap:popup><MadCap:popupHead>your inputs are as you would like them</MadCap:popupHead><MadCap:popupBody>Once you have run a model in the Run Model tab, the inputs are locked in for this landscape in the Treatment Comparison workflow.  Meaning you will not be able to select landscape “0” and rerun it or any of its derived landscapes with alternative inputs in the Develop Treatment Alternatives workflow.  This is to ensure model outputs that are being compared are commensurate.   We are working on a Modify Inputs option to alleviate this inconvenience. </MadCap:popupBody></MadCap:popup></li>
                     <li>Click <span class="UIcomponent">Run Model</span> for landscapes you would like to compare
-</li>
+					</li>
                     <li>Click the <span class="UIcomponent">Refresh</span> button next to <span class="UIcomponent">Run Status</span> in the <span class="UIcomponent">Run Models</span> table to check the status of your model outputs
-</li>
+					</li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -152,33 +149,33 @@ The Existing Condition may need to reflect new disturbances on your landscape, l
                 <ul>
                     <li>Use the <span class="UIcomponent">Refresh</span> button next to Landscape in the table to ensure all landscapes and respective model runs are listed</li>
                     <li>
-Click on individual landscape or model run names to open the split screen map and view. </li>
+					Click on individual landscape or model run names to open the split screen map and view. </li>
                     <li>You can use the checkboxes next to a row to select and then View on Map to view that particular landscape and its outputs
 
-</li>
+					</li>
                 </ul>
                 <p>To Evaluate Comparisons:
-</p>
+				</p>
                 <p class="comment" MadCap:conditions="General.DeveloperNotes">Note - Josh double check this, it was discussed for possible update in late March Dev Call.</p>
                 <ul>
                     <li>Select the checkbox for two landscapes and model runs you would like to compare
-</li>
+					</li>
                     <li>The first box you check will be tagged with “1” and should represent your “treated” landscape.
-</li>
+					</li>
                     <li>The second box you check will be tagged with “2” and should represent landscape/model run you want the first landscape/model run to be compared against, or EC.
 
-</li>
+					</li>
                 </ul>
                 <div class="notificationNote">
                     <p>Example:  My objective is to reduce flame length on my treated landscape.  So, I need to show change due to treatment.  I need my output grid to show that flame length was reduced by treatment.  So, AltA(FL 2)-EC(FL 10)= FL -8.  I reduced my FL by 8.  Grid will show -8 meaning an 8 foot reduction.</p>
                 </div>
                 <p>Once you have checked 2 boxes you can:
-</p>
+				</p>
                 <ul>
                     <li>View on Map where, if it is not already open, will open the split screen and will display the difference grid for the landscapes you choose.  The layers list should also be open and will list the two landscapes, two model outputs, and two difference grids (landscape diff and model output diff) to view.
-</li>
+					</li>
                     <li>Compare in <span class="UIcomponent">Summary Report</span> where a pop up box will come up for you to select <span class="UIcomponent">Create Report</span> for either or both of Landscape Compare or Fire Behavior Compare.  Use the refresh button to check status.  Once the report has been created you can click on the blue hyper link opening a new tab where you can view, download or print your report.
-</li>
+					</li>
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>

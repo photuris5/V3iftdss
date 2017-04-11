@@ -112,7 +112,10 @@
   <TocEntry
     Title="Modeling">
     <TocEntry
-      Title="Fire Behavior - Driven by FlamMap 5.0"
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/ModelingPG/ModelsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Landscape Fire Behavior"
       Link="/Content/ModelingPG/FlamMap/FlamMapBackground.htm">
       <TocEntry
         Title="FlamMap Fire Behavior Inputs"
@@ -124,6 +127,9 @@
         Title="Crown Fire Calculation Options"
         Link="/Content/ModelingPG/FlamMap/FlamMapCrowns.htm" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="More To Come"
       Link="/Content/AboutIFTDSS/Modelsmoretocome.htm" />
@@ -145,6 +151,9 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/MapStudio/Functions/AddGraphic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -170,14 +179,11 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Layer List (Legends)"
         Link="/Content/MapStudio/Functions/Legend.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Using Data">
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Files/LCPCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

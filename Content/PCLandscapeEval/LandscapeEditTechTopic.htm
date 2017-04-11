@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4753" MadCap:lastWidth="767">
+    <head>
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>Landscape Edit Rule - Technical Documentation</h1>
+        <h2>Purpose
+</h2>
+        <p>In <MadCap:variable name="General.ProductName" /> you may choose to edit your landscape by adding you own editing rules, or using  Default Fuel Treatment / Disturbance Edit Rules. Default Fuel Treatment and Disturbance Edit Rules use previously existing LANDFIRE Lookup tables (LFLUs) and Fuel Model Lookup (FMLU) tables. The LFLU tables were created in an effort to improve the LANDFIRE fuels layers between versions. The LFLU tables are used to adjust the fuel attributes of cells, including: fuel model, canopy cover, stand height, canopy base height, and canopy bulk density, based on the type and intensity of treatment or disturbance and the time that has elapsed since that treatment or disturbance. The rules work by taking into account Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH) and then using the LANDFIRE Look Up (LFLU) table as a crosswalk to account for changes in vegetation attributes, based on treatment or disturbance type, intensity and timing. The resulting vegetation is then crosswalked to one of the 40 fuel models.  In the continental US, only 36 of the 40 fuel models are used, the 4 fuel models that aren’t used are 109, 164, 201, and 202. As of now the LFLU rules are not available in AK or HI.</p>
+        <p>
+To streamline the process of making a landscape representative of the current conditions and gaming out potential treatments, the <MadCap:variable name="General.ProductName" /> team has made the LFLU tables available to IFTDSS users. These rules are an improvement over previous methods of landscape edits in that each pixel is updated independently based on EVT, EVC, and EVH. This allows for the rules to apply differently based on the known responses of a particular EVT to a particular disturbance or treatment. A user may apply Default Fuels Treatment / Disturbance Rules based on a mask (polygon) or on the full extent of the landscape. 
+</p>
+        <h2>Background</h2>
+        <p>The approach leverages tabular data. The user must first define the area of treatment as well as the treatment type and severity, and time period they want to assess the effects of the treatment (ie one year after, 2-5 years after, or 6-10 years after). The current vegetation conditions are then extracted from each treated pixel and linked to a vector of post treatment existing vegetation and fuel conditions including FBFM40, CBD, CBH, CC, and CH and then mapped into each treated pixel and then used to “update” the fuel maps and to initialize fire behavior and fire effects simulations.      
+
+</p>
+        <h3>Methods Used to Develop Vegetation Transition Data
+</h3>
+        <p>The LANDFIRE Vegetation Transition is a process that is used to couple disturbance and the vegetation upon which it has occurred, along with simulation models, in order to predict and map the resulting vegetation composition and structure. In addition, these data are leveraged in order to predict and map change in fuel attributes of the vegetation and the resulting fire regime attributes of the vegetation. Information from a variety of sources was used to inform vegetation transition assignments.</p>
+        <p>
+
+In forested EVTs, most of the transitions were developed using the Forest Vegetation Simulator (FVS) model, along with the Fire and Fuels Extension (FFE) model for fire simulations. These simulations were run on approximately 60,000 forested plots for all FVS variants nationwide. The plot data, contained within the FVS's Ready Database (FVSRDB) contain all attributes necessary for FVS simulations. These data also include predefined input tables used for initializing stand/plot information (StandInit and TreeInit tables) for FVS. More detailed descriptions and input data requirements can be found in the <a href="https://www.fs.fed.us/fmsc/ftp/fvs/docs/gtr/EssentialFVS.pdf" target="_blank">FVS User Guide (pdf)</a>. Following simulations, a database was derived from post-disturbance FVS/FFE outputs covering all FVS Variants at multiple severities and time-steps in the table below:
+</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Disturbance Type</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Severity</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Time Since Disturbance (TSD)</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Time Since Disturbance (TSD)</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">Time Since Disturbance (TSD)</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Fire</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">High</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Fire</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Moderate</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Fire</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Low</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mechanical Add</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">High</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mechanical Add</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Moderate</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mechanical Add</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Low</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Mechanical Remove</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">High</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mechanical Remove</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Moderate</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">6-10 years</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Mechanical Remove</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Low</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">1 year</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">2-5 years</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">6-10 years</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+
+These disturbances include fire, mechanical add, and mechanical remove. Each disturbance was simulated with three severities and results output at three different time steps. Severities include </p>
+        <ul>
+            <li>high severity where &gt;75% above ground vegetation mortality is achieved in the simulation process,</li>
+            <li> medium severity where 25-75% above ground vegetation mortality is achieved in the simulation, and </li>
+            <li>low severity where 0-25% above ground vegetation mortality is achieved in the simulation. </li>
+        </ul>
+        <p>Output time steps determine the Time Since Disturbance (TSD) and occur initially after disturbance, 2-5 years post disturbance, and 6-10 years post disturbance. 
+</p>
+        <p>Outputs from low and moderate severity simulations were synthesized in order to make them available for use in transition queries. The resulting disturbance effects on tree EVC and EVH were tabulated across all EVT’s and summarized using a majority solution derived for low, moderate, and high levels of aggregation of the EVT legend. This resulted in a single EVH/EVH outcome for every simulation type across all input EVT/EVH combinations. It was assumed that low and moderate severity disturbance did not change EVT. 
+</p>
+        <p>A number of transitions were derived without the use of FVS or FFE. These transitions were instead based on a more heuristic approach. Stand-replacing events such as high severity fire and mechanical remove activities in forested EVTs were transitioned to an herbaceous or  shrubland EVT’s with a cover and height appropriate for an early seral expression of that EVT and for that geographic location. In shrub EVTs , all fire severities were considered stand-replacing, so all burned non-forested polygons were replaced by an herbaceous EVT that would be found in that area. Mechanical treatments were treated similarly to fire disturbances and transitioned to an herbaceous community. Introduced annual grasses replaced some shrub-dominated EVTs in lowland areas (for example, Western US Great Basin and Columbia Plateau shrubland EVTs). In herbaceous EVTs, disturbed areas were not transitioned to different EVTs due to the fact that these communities rapidly reestablish themselves after disturbance. However, EVC and EVH were reset to values generally found after such disturbances.  
+
+</p>
+        <h3>Methods Used to Develop Fuel Transition Data
+</h3>
+        <p>Similar to the vegetation transition process, the fuel transition process brings the fuel data to a more current time period with subsequent biennial updates and is based on the modeled change in vegetation (type, cover, height) through disturbance and natural processes. The same set of disturbances, severities, and TSD’s are used for fuel as are used for vegetation. 
+</p>
+        <p>For surface fuel, transitions are based on the intensity of the disturbance and the time since the event. The surface fuel model was changed to reflect the change in surface vegetation from modeling and expert opinion inputs.  Determination of the change in FBFM13/40 due to disturbance or natural processes was not based on information attained from Forest Vegetation Simulator. Instead, we looked at the relative change in fuel loading from the original LANDFIRE  calibrated fuel model to help inform us with the surface fuel model transition due to disturbance. In some areas, the second time step since disturbance returned the fuel model to its original state due to the quick return of the vegetation. Vegetation in areas that were not included in the disturbance layer was modeled through growth simulation models. </p>
+        <p>
+Transitions in canopy fuel due to disturbance and succession were modeled using the FVS and FFE. The resulting disturbance effects on CC, CH, CBD, and CBH were tabulated across all EVT’s and summarized using a mean solution derived for low, moderate, and high levels of aggregation of the EVT legend. This resulted in a single canopy fuel outcome for every simulation type across all input EVC/EVH combinations. </p>
+        <h3>Default Rules as used in <MadCap:variable name="General.ProductName" /><![CDATA[
+]]></h3>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Default Fuel Treatment / Disturbance Edit Rule</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Treatment 1</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Treatment 1</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Treatment 1</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">LANDFIRE Vdist Code</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Thin: Slash Removed - Light Thinning; Pile Burning</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Understory thins all species up to an 8" diameter until 80% of the present density is achieved.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">20% mortality in 0-5" trees due to thinning and burning activity</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Pile burn 70% of the area, 10% in pile area, with 80% fuel collected.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">311, 312, &amp; 313</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Thin: Slash Removed - Moderate Thinning; Pile Burning</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Understory thins all species up to an 8" diameter until 35% of the present density is achieved.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">20% mortality in 0-5" trees due to thinning and burning activity</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Pile burn 70% of the area, 10% in pile area, with 80% fuels collected.</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">321, 322, &amp; 323</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Thin: Slash Remains - Moderate Thinning; Lop and Scatter</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Understory thins 55% of all species up to a 6" diameter.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Leave material on the ground and treats it by lopping and scattering</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">211, 212, &amp; 213</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Thin: Slash Remains - Moderate Thinning; Masticate</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Understory thins 90% of all species up to an 8" diameter.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Leaves material on the ground and then masticates it by breaking it into smaller fuel categories</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">231, 232, &amp; 233</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Thin: Slash Remains - Heavy Thinniing; Masticate</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Understory thins 75% of all species up to an 6" diameter.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Leaves material on the ground and then masticates it by breaking it into smaller fuel categories</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">221, 222, &amp; 223</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Clearcut</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Removes 100% of all material</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Prescribed burn 75-100% of the area</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">331, 332, &amp; 333</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Wildfire - Low Severity Fire</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">Patchy burn of &lt;25% mortality of the above ground vegetation over 45% of the area.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">111, 112, &amp; 113</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Wildfire - Moderate Severity Fire</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">Mixed severity with 25-75% mortality of the above ground vegetation, over 75% of the area.</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">121, 122, &amp; 123</td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Wildfire - High Severity Fre</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">Mixed severity and stand replacement with mortality of 75-100% of the above ground vegetation over 95% of the area</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">N/A</td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">131, 132, &amp; 133</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

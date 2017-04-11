@@ -57,7 +57,7 @@
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.Exclude"
+    conditions=""
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -751,8 +751,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>lightered</Term>
-      <Term>lightwood</Term>
+      <Term>lightered wood</Term>
       <Term>fatwood</Term>
     </Terms>
     <Definition
@@ -1545,5 +1544,15 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     <Definition
       Link="">The fire spatial fire behavior modeling capability of IFTDSS, based on FlamMap 5.0. Landscape fire behavior provides spatial fire behavior outputs including: crown fire activity, direction of maximum spread, fireline intensity, flame length.
 heat per unit area, rate of spread</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term15"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>EVT</Term>
+    </Terms>
+    <Definition
+      Link="">Acronym for Existing Vegetation Type. EVTs are a LANDFIRE product, mapped using decision tree models, field data, Landsat imagery, elevation, and biophysical gradient data. Decision tree models are developed separately for each of the three lifeforms -tree, shrub, and herbaceous and are then used to generate lifeform specific EVT layers.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
