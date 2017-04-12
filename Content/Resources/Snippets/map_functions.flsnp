@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="2472" MadCap:lastWidth="954">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="2569" MadCap:lastWidth="954">
     <head>
     </head>
     <body>
@@ -13,6 +13,8 @@
             <img src="../Images/mapstudio/button_zoomout.png" alt="zoom out button" /> <span class="UIcomponent">Zoom in and Out: </span>Zoom the map extent</p>
         <p>
             <img src="../Images/mapstudio/button_defaultextent.png" title="default extent button" /> <span class="UIcomponent">Default Extent:</span>&#160;Return the map to its default extent</p>
+        <p>
+            <img src="../Images/mapstudio/button_Location.png" alt="Location button" /><span class="UIcomponent"><a href="../../MapStudio/Functions/LocationButton.htm">My Location:</a></span> Automatically zooms the map to within 0.4 miles of your current location.</p>
         <h2>In the top right:</h2>
         <p>
             <img src="../Images/mapstudio/button_identify.png" alt="identify button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Identify.htm">Identify</a>:</span> Identify a feature</p>
