@@ -153,11 +153,11 @@
     <TocEntry
       Title="Map Functions">
       <TocEntry
-        Title="Map Functions"
+        Title="Map Functions (overview)"
         Link="/Content/MapStudio/Functions/MapFunctions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         StartSection="false" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="[%=System.LinkedTitle%] (legends)"
         Link="/Content/MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
@@ -189,9 +189,6 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Layer List (Legends)"
-        Link="/Content/MapStudio/Functions/Legend.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Using Data">
@@ -210,11 +207,6 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Files/ShapefileSaving.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
-    <TocEntry
-      Title="Editing Landscapes">
-      <TocEntry
-        Title="New Entry" />
     </TocEntry>
     <TocEntry
       Title="Scale Walkthroughs"

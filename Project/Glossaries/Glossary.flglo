@@ -71,7 +71,6 @@
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>adiabatically</Term>
       <Term>adiabatic</Term>
     </Terms>
     <Definition
@@ -130,7 +129,7 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
       <Term>landscape file</Term>
     </Terms>
     <Definition
-      Link="">A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by  contain information describing:
+      Link="">A Landscape file (.lcp) is a multi-band raster format commonly used by geospatial wildland fire behavior and fire effects models such as FlamMap and other fire models used in IFTDSS. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files contain information describing: 
 
 Aspect
 Canopy base height
@@ -403,7 +402,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>firebreak</Term>
     </Terms>
     <Definition
-      Link="">A fireline (also called a fireguard or firebreak) is a trip of open land (cleared or plowed to the mineral soil) that is used to stop the spread of a fire.</Definition>
+      Link="">A fireline (also called a fireguard or firebreak) is a strip of open land (cleared or plowed to the mineral soil) that is used to stop the spread of a fire.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -525,7 +524,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>ecoregions</Term>
     </Terms>
     <Definition
-      Link="">Ecosystems of regional extent. Usually refers to Bailey's 13 ecoregions, which are Hot Continental, Marine, Mediterranean, Prairie, Rainforest, Savanna, Subarctic, Subtropical, Temperate Desert, Temperate Steppe, Tropical/Subtropical Desert, Tropical/Subtropical Steppe Desert, Tundra, and Warm Continental.</Definition>
+      Link="">Ecosystems of regional extent. Usually refers to Bailey's 13 ecoregions. See Bailey’s Ecoregions.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -535,7 +534,12 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>Bailey's ecoregions</Term>
     </Terms>
     <Definition
-      Link="">Tundra, subarctic, warm continental, hot continental, subtropical, prairie, marine, Mediterranean, tropical/subtropical steppe desert, tropical/subtropical desert, temperate steppe, temperate desert, savanna, and rainforest.</Definition>
+      Link="">Ecosystems of regional extent. Four levels of detail are included to show a hierarchy of ecosystems.
+·       The largest ecosystems are domains, which are groups of related climates and which are differentiated based on precipitation and temperature.
+·       Divisions are subdivided into provinces, which are differentiated based on vegetation or other natural land covers.
+·       The finest level of detail is described by subregions, called sections, which are subdivisions of provinces based on terrain features.
+·       Also identified are mountainous areas that exhibit different ecological zones based on elevation. 
+Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropical, prairie, marine, Mediterranean, tropical/subtropical steppe desert, tropical/subtropical desert, temperate steppe, temperate desert, savanna, and rainforest.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -579,7 +583,9 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>user-defined flame length</Term>
     </Terms>
     <Definition
-      Link="">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames. Flame length is an indicator of fire intensity. Flame lengths are divided into classes (low, medium, high, very high).</Definition>
+      Link="">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames. Flame length is an indicator of fire intensity.
+
+Flame lengths can be divided into classes low, medium, high, and very high based on flame length.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -589,7 +595,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>flame depth</Term>
     </Terms>
     <Definition
-      Link="">The depth of the fire front.</Definition>
+      Link="">The depth of the flaming fire front.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -924,9 +930,9 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
       <Term>crown fire</Term>
     </Terms>
     <Definition
-      Link="">A fire that is in the forest canopy.
+      Link="">A fire that burns the forest canopy.
 
-As defined by NWCG: A fire that advances from top to top of trees or shrubs more or less independent of a surface fire. Crown fires are sometimes classed as running or dependent to distinguish the degree of independence from the surface fire.</Definition>
+As defined by NWCG: A fire that advances from top to top of trees or shrubs more or less independent of a surface fire.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -967,7 +973,6 @@ Defined by NWCG as: The fuel moisture content, weighed over all the fuel classes
     IgnoreCase="false">
     <Terms>
       <Term>blowdown</Term>
-      <Term>blow down</Term>
     </Terms>
     <Definition
       Link="">Trees that have been blown down by the wind.
@@ -1186,7 +1191,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
       <Term>combustion stage</Term>
     </Terms>
     <Definition
-      Link="">A unique burn environment composed of specific types of fuelbed strata.  These stages are flaming, smoldering, and residual smoldering.</Definition>
+      Link="">In simple terms of burning biomass the three stages of the combustion process are Ignition or incipient, flaming or free burning, and smoldering or glowing.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1206,7 +1211,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
       <Term>emissions</Term>
     </Terms>
     <Definition
-      Link="">Pollutants produced within a specific combustion stage for a fuel category within a fuelbed stratum. For example, emissions can be carbon monoxide and particular matter that are released to the atmosphere from the combustion of biomass.
+      Link="">Pollutants produced from combustion. For example, emissions can be carbon monoxide and particulate matter that are released to the atmosphere from the combustion of biomass. 
 
 Defined by NWCG as: A release of combustion gases and aerosols into the atmosphere.</Definition>
   </GlossaryEntry>
@@ -1218,7 +1223,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
       <Term>fuel loading</Term>
     </Terms>
     <Definition
-      Link="">Dry weight of fuels.</Definition>
+      Link="">The amount of fuel present expressed quantitatively in terms of weight of fuel per unit area. At a landscape level is commonly expressed as tons per acre.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1240,7 +1245,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
       <Term>handline</Term>
     </Terms>
     <Definition
-      Link="">A fire break that is dug manually.</Definition>
+      Link="">A fire break that is dug or scraped manually using hand tools.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1542,8 +1547,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
       <Term>LFB</Term>
     </Terms>
     <Definition
-      Link="">The fire spatial fire behavior modeling capability of IFTDSS, based on FlamMap 5.0. Landscape fire behavior provides spatial fire behavior outputs including: crown fire activity, direction of maximum spread, fireline intensity, flame length.
-heat per unit area, rate of spread</Definition>
+      Link="">The fire spatial fire behavior modeling capability of IFTDSS is based fire behavior and fire effects models such as FlamMap. Landscape fire behavior provides spatial fire behavior outputs including: crown fire activity, direction of maximum spread, fireline intensity, flame length. heat per unit area, rate of spread.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term15"
@@ -1554,5 +1558,75 @@ heat per unit area, rate of spread</Definition>
     </Terms>
     <Definition
       Link="">Acronym for Existing Vegetation Type. EVTs are a LANDFIRE product, mapped using decision tree models, field data, Landsat imagery, elevation, and biophysical gradient data. Decision tree models are developed separately for each of the three lifeforms -tree, shrub, and herbaceous and are then used to generate lifeform specific EVT layers.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term16"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Starting Landscape</Term>
+    </Terms>
+    <Definition
+      Link="">Any landscape selected as the starting point for a landscape editing session. This term is used for both edited and unedited landscapes, and you will often see it next to the landscape dropdown menu when you begin edits in IFTDSS. In the Landscape Edit task of Landscape Evaluation, any landscape may be selected as a starting landscape. In the landscape editing portion of the Develop Treatment Alternatives task of Strategic Planning session, the starting landscape choices will be limited to landscapes that match the geographic extent of the Originating landscape.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term17"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Extracted Unedited Landscape (LANDFIRE)</Term>
+    </Terms>
+    <Definition
+      Link="">Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to select in Develop Treatment Alternatives when you are prompted to “Pick Landscape”. IFTDSS will always retain this original version under the name you have chosen.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term18"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Edited (Alternative) Landscape</Term>
+    </Terms>
+    <Definition
+      Link="">New landscape saved during a landscape editing session where an edit rule has been applied, such as edits made to create an Existing Condition (EC)(defined below) or to reflect post-treatment conditions that would result from a fuel treatment alternative. You may check to see if editing rules have been applied to a landscape by selecting the landscape in question from My Workspace View and then selecting the view edit rules button.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term19"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Existing Condition (EC) Landscape</Term>
+    </Terms>
+    <Definition
+      Link="">A term used specifically in Developing Treatment Alternatives, it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Extracted unedited landscapes can be used to represent EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes. You will see this term used when comparing treatment alternatives in IFTDSS.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term20"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Originating Landscape (Zero “0” landscape)</Term>
+    </Terms>
+    <Definition
+      Link="">A term used specifically in Developing Treatment Alternatives, it refers to the unedited landscape you select to begin developing treatment alternatives. It will be tagged with a zero zero icon indicating 'landscape zero' as defined in the help texticon. It defines the extent of your comparison, so any landscapes that match the extent of your originating landscape will become available during Developing Treatment Alternative task.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term21"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>area of interest</Term>
+    </Terms>
+    <Definition
+      Link="">When generating a new landscape or a summary from an existing landscape, you may specify an area of interest (shapefile) to represent a particular part of your landscape. This area of interest (shapefile) may also be used as a Mask to to edit only the area within that shapefile when editing the landscape. A shapefile may also be referred to as a polygon.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term22"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>landscape mask</Term>
+    </Terms>
+    <Definition
+      Link="">Mask or Landscape Mask is a shapefile (polygon) used to represent a particular area on a landscape. When editing a landscape you may choose a Mask or Landscape Mask (Shapefile) to edit only the area within that mask. Shapefiles may be used for other purposes in IFTDSS in addition to landscape masks.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

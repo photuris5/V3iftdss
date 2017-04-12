@@ -153,3 +153,10 @@
 #define IFTDSSOverview 1152
 #define SpatialExtent 1153
 #define Filter 1154
+#define Getting_Support 1155
+#define AboutLandscapesinIFTDSS 1156
+#define FileNaming 1157
+#define MapStudioTips 1158
+#define LocationButton 1159
+#define LandscapeEditTechTopic 1160
+#define Glossary1 1161
