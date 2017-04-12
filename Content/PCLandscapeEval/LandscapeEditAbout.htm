@@ -1,28 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="4365" MadCap:lastWidth="767">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="6389" MadCap:lastWidth="1192">
     <head>
     </head>
     <body>
         <h1>Editing Landscape Data for Landscape Evaluation</h1>
-        <p>Landscape editing can be carried out in either Landscape Edit task of the Landscape Evaluation stage of the Planning Cycle, or the Develop Treatment Alternative task of the Strategic Planning stage. The menu options and results will be the same for both. While you may select any landscape to edit as part of the Landscape Evaluation stage, Strategic Planning focuses on a single landscape of your choosing, thus the only options available for editing in Strategic Planning will be the unedited LANDFIRE landscape you selected, and any landscapes that match it's extent. </p>
-        <div class="notificationNote">
-            <p>The restriction on landscape edits in the Develop Treatment Alternative task of the Strategic Planning stage is to ensure that you are comparing "like" landscapes and outputs in your comparisons.   This limitation prevents you from using unacceptable landscapes.</p>
-        </div>
+        <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/EditingIntroAll.flsnp" />
+        <p>&#160;</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Getting Ready to Edit</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p><span class="UIcomponent">Edit Landscape</span> will walk you through editing your landscape based on a default set of rules you select, or a custom set of rules you create.</p>
-                <p>
-                    <img src="../Resources/Images/landscape_edits/naming_and_layout.png" alt="To begin landscape edits, use the dropdown menu to select your landscape" style="width: 513px;height: 281px;">
-                    </img>
-                </p>
+                <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
                 <p>First, select a landscape to edit from the <b>Starting Landscape</b> dropdown menu.</p>
-                <p>Notice you may access the Landscape rules by either clicking on the + icons under the landscape dropdown menu, or select the dropdown headings . As you select or create rules, they will be listed in the Edit Landscape section of the page.</p>
-                <div class="notificationNote">
-                    <p>To split your display to enable a map view of your landscape on the left side of the screen, and the landscape edit interface on the right, select the globe icon <img src="../Resources/Images/landscape_edits/map_view.png" alt="click the globe icon in the top left of the screen to the map area for your landscape" /> at the top left of the page.</p>
-                </div>
+                <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/LandscapeEditingStartbottom.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -30,32 +21,7 @@
                 <MadCap:dropDownHotspot>Add Default Fuels Treatment/Disturbance Rule</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>There are four default treatment or disturbance types from which you may apply to your landscape. </p>
-                <p>
-                    <img src="../Resources/Images/landscape_edits/default_rules.png" alt="default rule interface with 'thin: slash removed' selected, and 'thin 20%' radio button selected" style="width: 571px;height: 326px;" />
-                </p>
-                <p>In the above image, we have selected a rule that states a 20% thin of all species and all size classes, followed by a pile burn, which occurred 2-5 years ago. The rule applies only to the area selected by the Landscape Mask "Treatment Unit MM_2017_01".</p>
-                <p>Specify the treatment or disturbance type, and when prompted, select additional information about that treatment/disturbance type.</p>
-                <p>Most of these rules will require you to select additional information about the treatment/disturbance type. Options for the rules include:</p>
-                <ul>
-                    <li>Thin: Slash Removed<ul><li>Thin 20% of all species for all size classes: Pile burn</li><li>Thin 65% of all species for all size classes: Pile burn</li></ul></li>
-                    <li>Thin:&#160;Slash Remains<ul><li>Thin 55% of all material &lt;6” DBH: lop and scatter</li><li>Thin 75% of all material &lt;6” DBH; masticate ground fuels</li><li>Thin 90% of all material &lt;8” DBH; masticate ground fuels</li></ul></li>
-                    <li>Clear Cut<ul><li>Clearcut and Broadcast Burn</li></ul></li>
-                    <li>Wildland Fire<ul><li>Low severity fire</li><li>Moderate severity fire</li><li>High severity fire</li></ul></li>
-                </ul>
-                <p>You must then specify a time since the treatment or disturbance</p>
-                <ul>
-                    <li>1 year</li>
-                    <li>2-5 years</li>
-                    <li>5-10 years</li>
-                </ul>
-                <p>You have the option of defining a <span class="UIcomponent">Landscape Mask</span> to apply your rules to. </p>
-                <p>Once you have set your rule, select <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
-                <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/EditRuleWarning.flsnp" />
-                <p>&#160;</p>
-                <div class="notificationNote">
-                    <p>For specific detail on what each default rule specifically describes, and the LANDFIRE disturbance code associated with it, visit the <a href="TreatmentRuleBackground.htm">Treatment Rule Background Topic</a>.</p>
-                </div>
+                <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/DefaultEditRule_eval.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -63,26 +29,7 @@
                 <MadCap:dropDownHotspot>Add Landscape Edit Rule</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>You may also create your own landscape edit rules by selecting specific conditions, and how you would like to modify the landscape in instances where those conditions occur.</p>
-                <p>
-                    <img src="../Resources/Images/landscape_edits/create_rules.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" style="width: 572px;height: 298px;" />
-                </p>
-                <p>In the image above we have created a rule that finds any canopy base height values less than 0.5 meters that occur within Fuel Model TU3, and change those values to 1.0 meters. Because we did not input a Landscape mask, this rule will apply to our entire landscape.</p>
-                <h3>Where these conditions exist:</h3>
-                <p>Use this section to define the attributes of the landscape you would like to edit:</p>
-                <ul>
-                    <li>Attribute: Define the attribute you wish to edit.</li>
-                    <li>Operator:<ul><li>is equal to </li><li>is less than</li><li>is greater than</li><li>is less than or equal to</li><li>is greater than or equal to</li><li>has no assigned value</li></ul></li>
-                    <li>Value:&#160;The value you want to operator to apply to</li>
-                </ul>
-                <h3>Modify the following values:</h3>
-                <p>Use this section to specify how you want the defined landscape attributes to be edited:</p>
-                <ul>
-                    <li>Attribute: The attribute you wish to edit</li>
-                    <li>Modifier:<ul><li>Set to</li><li>Clamp to a minimum</li><li>Clamp to a maximum</li><li>Multiply by</li><li>Increase by</li><li>Decrease by</li><li>Clear value (set to no data)</li></ul></li>
-                    <li>Value: The value that the modifier applies to.</li>
-                </ul>
-                <p>Once you have set your rule, select <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
+                <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -92,8 +39,8 @@
             <MadCap:dropDownBody>
                 <p>Once your rules are selected, give the new edited landscape a descriptive name and select <span class="UIcomponent">Create New Landscape</span>.</p>
                 <p>Edited landscapes will be created as new files, this ensures you will always have the original landscape for comparison</p>
-                <p>Edited landscapes are available in <span class="UIcomponent">My Workspace</span>, stored by default in the same folder as the landscape you are making edits to</p>
-                <div class="notificationNote">
+                <p>Edited landscapes are available in <span class="UIcomponent">My Workspace</span>, stored by default in the same folder as the landscape you are making edits to.</p>
+                <div class="notificationTip">
                     <p>When clicking on landscape files that have been edited in <span class="UIcomponent">My Workspace</span>, you will see an option to <span class="UIcomponent">View Edit Rules</span>. This displays the edits that were made on that landscape.</p>
                 </div>
             </MadCap:dropDownBody>

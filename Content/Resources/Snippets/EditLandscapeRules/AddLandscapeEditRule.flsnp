@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1964" MadCap:lastWidth="1272">
+    <head>
+    </head>
+    <body>
+        <p>You may also create your own landscape edit rules by selecting specific conditions, and how you would like to modify the landscape in instances where those conditions occur.</p>
+        <p>
+            <img src="../../Images/landscape_edits/create_rules.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" style="width: 746px;height: 343px;">
+            </img>
+        </p>
+        <p>In the image above we have created a rule that finds any canopy base height values less than 0.5 meters that occur within Fuel Model TU3, and change those values to 1.0 meters. Because we did not input a Landscape mask, this rule will apply to our entire landscape. In the Landscape Edit Rule interface you will see the following sections:</p>
+        <h3>Where these conditions exist:</h3>
+        <p>Use this section to define the attributes of the landscape you would like to edit:</p>
+        <ul>
+            <li>Attribute: Define the attribute you wish to edit.</li>
+            <li>Operator:<ul><li>is equal to </li><li>is less than</li><li>is greater than</li><li>is less than or equal to</li><li>is greater than or equal to</li><li>has no assigned value</li></ul></li>
+            <li>Value:&#160;The value you want to operator to apply to</li>
+        </ul>
+        <h3>Modify the following values:</h3>
+        <p>Use this section to specify how you want the defined landscape attributes to be edited:</p>
+        <ul>
+            <li>Attribute: The attribute you wish to edit</li>
+            <li>Modifier:<ul><li>Set to</li><li>Clamp to a minimum</li><li>Clamp to a maximum</li><li>Multiply by</li><li>Increase by</li><li>Decrease by</li><li>Clear value (set to no data)</li></ul></li>
+            <li>Value: The value that the modifier applies to.</li>
+        </ul>
+        <p>Once you have set your rule, select <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
+        <div class="notificationImportant">
+            <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
+        </div>
+    </body>
+</html>
