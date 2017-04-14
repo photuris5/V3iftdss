@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1641" MadCap:lastWidth="969">
+    <head>
+    </head>
+    <body>
+        <h1>
+            <MadCap:keyword term="Rule Ordering" />
+            <MadCap:keyword term="Rule Ordering Considerations" />Rule Ordering Considerations when <MadCap:keyword term="Editing Landscapes" />Editing Landscapes</h1>
+        <p>Below we outline the way in which “rules” are applied to the landscape when you make edits, either as part of the Landscape Evaluation stage, or the Strategic Planning stage.</p>
+        <ul>
+            <li>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules.</li>
+            <li>Default Fuels Treatment / Disturbance Edit Rules utilize LANDFIRE look-up (LFLU) and Fuel Model look-up (FMLU) processes outlined in the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Rule Technical Documentation Topic</a>. When applying Default Fuels Treatment / Disturbance Edit Rules:<ul><li>Rules are only applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit Rules have been applied.</li><li>Within the rules utilizing the LFLU and FMLU tables, it is the last edit to a particular cell fuel attribute that applies that is utilized as input for user defined “Landscape Edit Rules”.</li></ul></li>
+            <li>When applying edits utilizing user defined Landscape Edit Rules:<ul><li>A fuel attribute of a given cell can only be changed once.</li><li>It is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last.</li><li>Fuel attributes are considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</li></ul></li>
+        </ul>
+        <div class="notificationImportant">
+            <p>Important! Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
+        </div>
+        <div class="notificationImportant">
+            <p>Important! After applying rules to a given landscape you should always validate that your changes have been made as you intended. See the <a href="../PCLandscapeEval/LandSummaryAbout.htm" target="_blank">Create Summaries Topic</a> and <a href="../MapStudio/Functions/Swipe.htm" target="_blank">Comparing Landscapes Using Swipe Tool Topic</a> for more information on summarizing and comparing landscapes.</p>
+        </div>
+        <div class="notificationTip">
+            <p>If you are unsure how Default Fuels Treatment / Disturbance Edit Rules and user defined Landscape Edit Rules will interact on your landscape it is recommended you utilize Default Fuels Treatment / Disturbance Edit Rules first and once you are satisfied with the effect of your Default Fuels Treatment / Disturbance Edit Rules, start adding additional rules one at a time and compare them with your previous landscape as you incrementally add rules.</p>
+        </div>
+        <h2>Rule ordering Background</h2>
+        <p>It is important to understand the intricacies of how landscape edit rules are applied to a landscape. There are 2 ways in which landscape edits are implemented on the landscape. The first is the Default Fuels Treatment / Disturbance Edit Rules that use the LANDFIRE Lookup (LFLU) and Fuel Model Lookup (FMLU) tables. The second is user defined Landscape Edit Rules.  Rules are applied top to bottom in the list, first by Default Fuels Treatment / Disturbance Edit Rules, then by Landscape Edit Rules. The Default Fuels Treatment / Disturbance Edit Rules are ALWAYS applied BEFORE the user define Landscape Edit Rules.</p>
+        <p>The LFLU tables can only be used when Existing Vegetation Type (EVT), Existing Vegetation Height (EVH), and Existing Vegetation Cover (EVC) are present in your landscape data, as this is what is used for conversion in the LFLU tables based on the type, intensity and timing of treatment and disturbance. When a user applies their own Landscape Edit Rule that modifies the fuel model, stand height or canopy cover for a given landscape cell, the EVT, EVH, and EVC are set to 0 for that cell, which precludes the use of LFLU for future edits. Since LFLU can no longer be used the IFTDSS team has developed a second set of lookup tables called the Fuel Model Lookup (FMLU) tables . The FMLU tables are less accurate because they are a generalization of the LFLU tables. This generalization was necessary because there are many more values for EVT than there are Fuel Models.  (For more details, see the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm">Editing Rule Technical Documentation Topic</a>)</p>
+        <p>The actual effect of the rules do differ between Default Fuels Treatment / Disturbance Edit Rules and user defined Landscape Edit Rules. In the case of Default Fuels Treatment / Disturbance Edit Rules, it is the LAST of the rules with a particular effect on a cell being the final LFLU/FMLU edit to a particular cell. For Default Fuels Treatment / Disturbance Edit Rules, note that the output (if any) from the previous rule is always the input to the next rule in the list. When starting to apply user defined Landscape Edit Rules the FIRST fuel model attribute change applied to a cell is the edit that will be reflected in the resultant landscape. It’s important to note that each fuel attribute (fuel model, canopy cover, canopy height, canopy bulk density, and canopy base height) for a cell is treated separately, so although a cell may be locked due to an edit for fuel model, any of the other attributes may be modified by a subsequent rule.</p>
+        <p>Once your rules are defined and ordered correctly, you need to make sure that your resulting landscape reflects your intended changes.</p>
+    </body>
+</html>

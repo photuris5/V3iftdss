@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4811" MadCap:lastWidth="767">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3171" MadCap:lastWidth="1871">
     <head>
         <link href="../../TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -190,7 +190,7 @@
         <p>Wind speed and direction are selected from the table as follows:</p>
         <ul>
             <li>The row with 97th percentile speed is identified (13-18 mph in the above example),</li>
-            <li>the mid-point wind speed (15 mph for this example) is converted to 1 minute average using Table 1 <i>from</i><a href="../../../References/ReferenceList.htm#CrosbyandChandler2004">Crosby and Chandler 2004</a>(20 mph for this example)</li>
+            <li>the mid-point wind speed (15 mph for this example) is converted to 1 minute average using Table 1 <i>from</i><a href="../../../References/ReferenceList.htm#CrosbyandChandler2004"> Crosby and Chandler 2004</a> (20 mph for this example)</li>
             <li>the cell with the largest value for that row is used as the direction (west in this example),</li>
         </ul>
         <h2>Outputs</h2>

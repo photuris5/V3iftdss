@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3004" MadCap:lastWidth="1233">
     <head>
     </head>
     <body>
-        <div class="notificationImportant"><p>Currently, this extra step is required to save an uploaded shapefile in <span class="UIcomponent">MyWorkspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </p></div>
+        <div class="notificationImportant">
+            <p>Currently, this extra step is required to save an uploaded shapefile in <span class="UIcomponent">My Workspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </p>
+        </div>
         <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" /> if you follow the steps below:</p>
         <p>Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10).</p>
         <p>
@@ -33,7 +35,7 @@
         <p>
             <img src="../../Images/mapstudio/shapefile_save4.png" alt="selected polygons will turn yellow" style="width: 373px;height: 286px;" />
         </p>
-        <p>Once all polygons you wish to retain have been selected, enter a name for your shapefile and choose a folder location for the polygons to be saved. Saved polygons will then be available in <span class="UIcomponent">MyWorkspace</span> and viewable in <span class="UIcomponent"><MadCap:variable name="General.MapStudio"></MadCap:variable></span> for future use throughout <MadCap:variable name="General.ProductName" />.</p>
+        <p>Once all polygons you wish to retain have been selected, enter a name for your shapefile and choose a folder location for the polygons to be saved. Saved polygons will then be available in <span class="UIcomponent">My Workspace</span> and viewable in <span class="UIcomponent"><MadCap:variable name="General.MapStudio"></MadCap:variable></span> for future use throughout <MadCap:variable name="General.ProductName" />.</p>
         <p>
             <img src="../../Images/mapstudio/shapefile_save6.png" style="width: 444px;height: 387px;" alt="once saved, your polygon will be viewable in MyWorkspace and Map Studio" />
         </p>

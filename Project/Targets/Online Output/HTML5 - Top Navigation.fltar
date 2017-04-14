@@ -29,4 +29,5 @@
     <Destination
       Link="/Project/Destinations/output_2016_JH.fldes" />
   </Destinations>
+  <PostBuild></PostBuild>
 </CatapultTarget>
