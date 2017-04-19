@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2046" MadCap:lastWidth="1461">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2064" MadCap:lastWidth="1131">
     <head>
     </head>
     <body>
@@ -7,11 +7,11 @@
         <p>
             <img src="../Resources/Images/myworkspace/myworkspace.png" style="width: 699px;height: 275px;" alt="An example Workspace listing several files within a folder" />
         </p>
-        <p>
-            <span class="UIcomponent">My Workspace </span>is where all your files in stored in <MadCap:variable name="General.ProductName" /> are stored, these include:</p>
+        <p><span class="UIcomponent">My Workspace </span>is where all your files in stored in <MadCap:variable name="General.ProductName" /> are stored, these include:</p>
         <ul>
             <li>Landscape Files</li>
-            <li>Model Runs</li>
+            <li>Model Input</li>
+            <li>Model Output</li>
             <li>Shapefiles</li>
             <li>Reports</li>
         </ul>
@@ -20,9 +20,6 @@
                 <MadCap:dropDownHotspot>Layout of My Workspace</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>
-                    <img src="../Resources/Images/content_coming_soon.png" />
-                </p>
                 <p>To the left of My Workspace, you will see:</p>
                 <ul>
                     <li>Display: Lists the type of files currently contained in your <span class="UIcomponent">Workspace</span>.</li>
@@ -33,22 +30,15 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Creating and deleting folders</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Creating </MadCap:dropDownHotspot>
+                <MadCap:conditionalText MadCap:conditions="General.LaterRelease">
+                    <MadCap:dropDownHotspot>and deleting</MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot> folders</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>You may organize your workspace by creating or deleting folders for your project information.</p>
-                <p>You may create a folder by selecting the <span class="UIcomponent">Create Folder </span>option at the top of the <span class="UIcomponent">Workspace</span> page.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/workspace_createfolder.png" alt="The option to creat a folder is located at the top of the Workspace page" style="width: 324px;height: 190px;" />
-                </p>
-                <p>Give your folder a name and select <span class="UIcomponent">Submit</span>.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/workspace_foldername.png" style="width: 473px;height: 193px;" title="The 'create work folder' dialogue box contains a text field to name your folder, and buttons to submit or cancel" />
-                </p>
-                <p>Your new folder will now be visible in the <span class="UIcomponent">Folders</span> list.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/workspace_seenewfolder.png" style="width: 410px;height: 211px;" alt="Folders are visible on the left side of the screen in the 'Folders' list" />
-                </p>
+                <p>You may organize your workspace by creating <MadCap:conditionalText MadCap:conditions="General.LaterRelease">or deleting</MadCap:conditionalText> folders for your project information.</p>
+                <MadCap:snippetBlock src="../Resources/Snippets/MyWorkspace/CreateFolder.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <p class="comment">[When the 'delete folder' feature is enabled we need to add it to this page - UIdaho]</p>

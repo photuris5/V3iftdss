@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3004" MadCap:lastWidth="1233">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3514" MadCap:lastWidth="1171">
     <head>
     </head>
     <body>
@@ -23,15 +23,19 @@
                 <img src="../../Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px;height: 432px;" />
             </li>
         </ol>
-        <p>Open <span class="UIcomponent">Edit Tools</span><img src="../../Images/mapstudio/button_editTools.png" alt="edit tools button" /> and Select the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" /></p>
+        <p>Open <span class="UIcomponent">Edit Tools</span><img src="../../Images/mapstudio/button_editTools.png" alt="edit tools button" /> and select the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" /></p>
         <p>
             <img src="../../Images/mapstudio/shapefile_save2.png" />
         </p>
         <p>Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either selecting individual polygons or selecting and dragging a box over the polygons you wish to retain.</p>
+        <p>if you plan on selecting multiple polygons, select the <span class="UIcomponent">Select mulitpart</span> option under the <span class="UIcomponent">copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" />.</p>
         <p>
             <img src="../../Images/mapstudio/shapefile_save3.png" style="width: 405px;height: 304px;" alt="click each polygon to select it" />
         </p>
         <p> Left click any remaining polygons you wish to save as part of your retained shapefile. </p>
+        <div class="notificationImportant">
+            <p>Currently you must select <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" /> before highlighting each additional polygon.</p>
+        </div>
         <p>
             <img src="../../Images/mapstudio/shapefile_save4.png" alt="selected polygons will turn yellow" style="width: 373px;height: 286px;" />
         </p>

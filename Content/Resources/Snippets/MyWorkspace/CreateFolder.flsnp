@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="948" MadCap:lastWidth="1211">
+    <head>
+    </head>
+    <body>
+        <p>You may create a folder by selecting the <span class="UIcomponent">Create Folder </span>option at the top of the <span class="UIcomponent">My Workspace</span> page.</p>
+        <p>
+            <img src="../../Images/myworkspace/workspace_createfolder.png" alt="The option to creat a folder is located at the top of the Workspace page" style="width: 324px;height: 190px;" />
+        </p>
+        <p>Give your folder a name and select <span class="UIcomponent">Submit</span>.</p>
+        <p>
+            <img src="../../Images/myworkspace/workspace_foldername.png" style="width: 473px;height: 193px;" title="The 'create work folder' dialogue box contains a text field to name your folder, and buttons to submit or cancel" />
+        </p>
+        <p>Your new folder will now be visible in the <span class="UIcomponent">Folders</span> list.</p>
+        <p>
+            <img src="../../Images/myworkspace/workspace_seenewfolder.png" style="width: 410px;height: 211px;" alt="Folders are visible on the left side of the screen in the 'Folders' list" />
+        </p>
+        <p>These folders will now be available anytime <MadCap:variable name="General.ProductName" /> prompts you to select a folder to store your files.</p>
+    </body>
+</html>
