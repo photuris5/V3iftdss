@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.LaterRelease" MadCap:lastBlockDepth="7" MadCap:lastHeight="15361" MadCap:lastWidth="1531">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="19521" MadCap:lastWidth="2212" MadCap:conditions="General.LaterRelease">
     <head>
     </head>
     <body>
@@ -63,14 +63,14 @@
         <MadCap:snippetBlock src="../Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
         <p>Once your summary is created, navigate to <span class="UIcomponent">My Workspace</span>, and view the fire behavior outputs in <MadCap:variable name="General.MapStudio" /> by selecting the 'Haypress LF2012 EC - Auto97th model output file. Use the <span class="UIcomponent">Layer List</span> and <span class="UIcomponent">Zoom</span> to evaluate fire behavior across your landscape. For this example we'll focus on the Sierra City wildand urban interface in the northeast area of the map.</p>
         <p>
-            <img src="../Resources/Images/landscapesumm/SierraCity.png" alt="mapped landscape with Sierra City highlighted for a closer look" style="width: 694px;height: 624px;" />
+            <img src="../Resources/Images/tutorial_1_comparison/SierraCity.png" alt="mapped landscape with Sierra City highlighted for a closer look" style="width: 694px;height: 624px;" />
         </p>
         <div class="notificationTip">
             <p>As you evaluate your landscape you may find it helpful to adjust the layer transparency using the <span class="UIcomponent">more options</span> button <img src="../Resources/Images/landscapesumm/button_moreoptions.png" alt="moreoptionsbutton" /> to the right of your fire behavior layer, and the different <span class="UIcomponent">basemap gallery</span> <img src="../Resources/Images/mapstudio/button_basemapglry.png" alt="basemap gallery button" />options.</p>
         </div>
         <p>Toggling through the fire behavior attributes of flame length, and canopy fire, we can see some areas north of town, and east between the North Yuba River and some scattered structures that could make good candidates for treatment. In this example you'll notice the circled areas indicate potentially high flame lengths, rates of spread, active crown fire, and a max spread direction moving north to northeast.</p>
         <p>
-            <img src="../Resources/Images/landscapesumm/SierraCity2.png" alt="possible treatment areas as described in text" style="width: 1184px;height: 590px;" />
+            <img src="../Resources/Images/tutorial_1_comparison/SierraCity2.png" alt="possible treatment areas as described in text" style="width: 1184px;height: 590px;" />
         </p>
         <p>You may also use the <span class="UIcomponent">Landscape Tools</span> <img src="../Resources/Images/mapstudio/button_landscapetools.png" alt="landscape tools button" /> button to add the landscape file to <MadCap:variable name="General.MapStudio" />, and the <span href="../MapStudio/Functions/Swipe.htm" target="_blank" class="UIcomponent"><a href="../MapStudio/Functions/Swipe.htm" target="_blank">Swipe</a></span> tool <img src="../Resources/Images/mapstudio/button_slider.png" alt="swipe tool button" /> to view the different layers.</p>
         <p>In the next steps, we'll create shapefiles for these areas, then use those shapefiles to specify which part of the landscape to simulate our treatment alternatives for comparison. </p>
@@ -79,11 +79,11 @@
         <p>First, we'll create three individual shape files:</p>
         <p> Open <span class="UIcomponent">Create/Edit Shapes</span><img src="../Resources/Images/mapstudio/button_editTools.png" alt="create edit shapes button" /> , select your method, in this case the freehand draw method, and draw your polygon. </p>
         <p>
-            <img src="../Resources/Images/landscapesumm/tut1_createshapefile.png" alt="using the freehand draw tool to draw a polygon on the landscape" style="width: 946px;height: 386px;" />
+            <img src="../Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" alt="using the freehand draw tool to draw a polygon on the landscape" style="width: 946px;height: 386px;" />
         </p>
         <p>You can use the delete button to get rid of the polygon before saving, or edit it by single left clicking and moving the vertices. When you are satisfied with your first polygon, give it a name, select a project folder and click <span class="UIcomponent">Create</span>. Once created, polygons will appear on the map in purple. Continue this for the three treatment areas as shown below.</p>
         <p>
-            <img src="../Resources/Images/landscapesumm/tut1_polygoncloseup.png" alt="a zoomed view of the three treatment pologygons to the north and east of the wui" style="width: 876px;height: 418px;" />
+            <img src="../Resources/Images/tutorial_1_comparison/tut1_polygoncloseup.png" alt="a zoomed view of the three treatment pologygons to the north and east of the wui" style="width: 876px;height: 418px;" />
         </p>
         <div class="notificationNote">
             <p>Note that your polygons do not be an exact match with ones pictured above.</p>
@@ -92,16 +92,98 @@
         <p>Repeat this step for two additional treatment areas, similar to those in the image above. </p>
         <p>To combine these into one file, select the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../Resources/Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" />, make sure the <span class="UIcomponent">Select multipart</span> option under the button is selected, and left mouse click your first polygon. It will appear highlighted once selected. Continue this process, each time selecting the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../Resources/Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px;height: 29px;" alt="Copy from Existing Features button" />, and highlighting the next polygon, until all are selected. When finished, give the set a name, specify a folder to save it in (in this case our Haypress Crk Project folder), and select <span class="UIcomponent">Create</span>.</p>
         <p>
-            <img src="../Resources/Images/landscapesumm/tut1_combineshapefile.png" alt="use Edit/Create Tools options to save multiple polygons in one file" />
+            <img src="../Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" alt="use Edit/Create Tools options to save multiple polygons in one file" />
         </p>
         <p>Once the new shapefile has been successfully created, you will see 'Shape Created' Appear in  <span class="UIcomponent">Create/Edit Shapes</span>.</p>
         <p>
-            <img src="../Resources/Images/landscapesumm/tut1_shapeconfirmation.png" alt="Once saved, you will see 'shape created' displayed in the Create/Edit Shapes box" />
+            <img src="../Resources/Images/tutorial_1_comparison/tut1_shapeconfirmation.png" alt="Once saved, you will see 'shape created' displayed in the Create/Edit Shapes box" />
         </p>
         <p>Shapes are available in <span class="UIcomponent">My Workspace </span>in the folder you selected (in this case the Haypress Creek Project folder).</p>
         <p>
-            <img src="../Resources/Images/landscapesumm/tut1_shapesinworkspace.png" alt="a list of shapefiles in My Workspace that we created in the course of this tutorial" />
+            <img src="../Resources/Images/tutorial_1_comparison/tut1_shapesinworkspace.png" alt="a list of shapefiles in My Workspace that we created in the course of this tutorial" />
         </p>
         <h2>Simulate a fuels treatments and compare their predicted effect on fire behavior using the Develop Treatment Alternatives task in the Strategic Planning stage of the planning cycle</h2>
+        <p>Now that we have some priority treatment areas, we'll evaluate the potential effect of the treatments on fire behavior, using the Strategic Planning stage of the cycle, and the Develop Treatment Alternatives task.</p>
+        <p>
+            <img src="../Resources/Images/Cycle/StrategicPlanningCompare.png" alt="treatment alternative comparison task of the strategic planning phase of the cycle" style="width: 780px;height: 191px;" />
+        </p>
+        <p>We'll progress through each of these steps as you complete this final part of the tutorial</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/Introduction.flsnp" />
+        <h3>Pick a landscape</h3>
+        <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part1.flsnp" />
+        <p>For this tutorial, you may select the unedited Haypress LF2012 file we created at the start. Our Existing landscape version of that file will become available during subsequent steps. As we proceed to the edit step, we'll focus solely on creating treatment alternatives; However, if we had not created any files in <MadCap:variable name="General.ProductName" />, we could have started here at this <span class="UIcomponent">Pick a landscape</span> step, and use the next step (edit) to both create our existing landscape (Haypress LF2012 EC), and create treatment alternatives from that existing landscape.</p>
+        <h3>Edit the landscape</h3>
+        <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/Edit_part1.flsnp" />
+        <p>&#160;</p>
+        <p>For this example we'll use the Default Treatment/Disturbance option to create two treatment alternatives.</p>
+        <ul>
+            <li>One will simulate the treatment area 2-5 years after a low severity prescribed fire in which less than 25% of the above ground vegetation is killed.</li>
+            <li>A second will simulate the treatment area 2-5 years after a heavy thin and pile burn (where the stand is thinned to 35% of its current density by removing material with no upper diameter limit, and the material is burned in piles)</li>
+        </ul>
+        <p>To learn more about the Default rules, visit the <a href="../PCLandscapeEval/TreatmentRuleBackground.htm" target="_blank">Treatment Rule Background Topic</a>.</p>
+        <p>For the first treatment alternative we'll look at low severity prescribed fire:</p>
+        <p>
+            <img src="../Resources/Images/tutorial_1_comparison/tutorial_default_rule.png" alt="The default editing buttons in the editing interface. Make selections based on the text" />
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Select HaypressCrk LF2012 EC as our starting landscape. </li>
+            <li>Use the <span class="UIcomponent">Add Default Fuels Treatment / Disturbance Edit Rule</span> dropdown</li>
+            <li> Select a Treatment Type of 'Wildland Fire'</li>
+            <li>Make sure 'low severity' is selected</li>
+            <li>For Time Since Treatment, select '2-5 years'. </li>
+            <li>We'll apply this to the treatment polygons we created earlier, so under Apply Landscape Mask, select 'Haypress Treatments All'</li>
+            <li>Select <span class="UIcomponent">Add to Rules</span></li>
+        </ol>
+        <p>Select a name for the new landscape:&#160;'HaypressCrk LF2012 EC Rx Low 4yrs' and select <span class="UIcomponent">Save new Landscape</span></p>
+        <p>Next, while still in the edit step, repeat this process, again starting with HaypressCrk LF2012 EC. This time select the 'Thin: Slash Removed', 'Heavy Thinning:&#160;Pile&#160;Burning' and '2-5 years' since disturbance. Add the rule and name the landscape 'HaypressCrk LF2012 EC HvyThin 4yrs'.</p>
+        <p>Next we'll select model inputs to run fire behavior with these treatments</p>
+        <h3>Enter model inputs</h3>
+        <p>Next we'll select conditions to run fire behavior for all our landscapes (existing condition and treatment alternatives).</p>
+        <p>You may use any inputs, but for this example we'll use the conditions that were used in the Auto97th summary that we generated in the very beginning of this tutorial, when we created our landscape. To get these, navigate to <span class="UIcomponent">My Modeling Playground</span>. Don't worry, you can navigate back to the comparison steps and not lose the information you've input. Select 'HaypressCrk LF2012 EC - Auto97th', and <span class="UIcomponent">View Input</span> from the dropdown. This will take you to a page displaying wind, crown fire inputs, and initial fuel moistures used to model the behavior during the aut097th summary. When you have these values, navigate back to the comparison task and select Haypress as your landscape again. If you wait a couple seconds you will see green checkmarks appear as <MadCap:variable name="General.ProductName" /> retrieves the data. (You can double check this by clicking the <span class="UIcomponent">Run Model</span> tab, which will list all the available landscapes, this should include the two edited treatment alternatives we created).</p>
+        <p>
+            <img src="../Resources/Images/tutorial_1_comparison/tutorial_modelinputs.png" alt="model inputs as described in text" style="width: 586px;height: 499px;" />
+        </p>
+        <ul>
+            <li>Select the and look at what landscapes are available to run). Input the following values, and select <span class="UIcomponent">Save Inputs</span>.<br />Wind speed: 20 mph</li>
+            <li>Wind Direction:&#160;225 degrees</li>
+            <li>Crown Fire Method: Scott/Reinhardt</li>
+            <li>Fuel Moisture Content: 100</li>
+            <li>Initial Fuel Moistures of</li>
+            <li>1 hr 3</li>
+            <li>10 hr 4</li>
+            <li>100 hr 5</li>
+            <li>Herb 119</li>
+            <li>Woody 99</li>
+        </ul>
+        <p>When you save your inputs a verification will appear at the top of the screen to confirm your inputs have been saved</p>
+        <p>
+            <img src="../Resources/Images/treatment_compare/model_input_verification.png" alt="green verification box indicating model inputs have been saved" />
+        </p>
+        <h3>Run the model for some or all of the edited landscapes</h3>
+        <p>Now that we have our inputs, we can run the fire behavior model. For this example we'll run models for:</p>
+        <ul>
+            <li>HaypressCrk LF2012 EC - Our existing condition landscape</li>
+            <li>HaypressCrk LF2012 EC Rx Low 4yrs - Our prescribed burn treatment alternative</li>
+            <li>HaypressCrk LF2012 EC HvyThin 4yrs - Our heavy thin treatment alternative</li>
+        </ul>
+        <p>
+            <img src="../Resources/Images/treatment_compare/comparison_model_list.png" alt="a list of available landscapes for which the fire behavior model may be run" style="width: 809px;height: 274px;" />
+        </p>
+        <p>Select <span class="UIcomponent">Run Model </span>next to the three landscaped indicated above</p>
+        <h3>
+            <img src="../Resources/Images/treatment_compare/comparison_model_list_verify.png" alt="A green box at the top of the page, and hourglass next to each landscape, indicates the model for each one is running" />
+        </h3>
+        <p>A green verification box, and hourglass next to each landscape will let you know the model is running</p>
+        <div class="notificationTip">
+            <p>It may take a few minutes for the models to run depending on the number of landscapes modeled and their size. You may use the refresh button to the right of <span class="UIcomponent">Run Status</span> to check their progress.</p>
+        </div>
+        <p>Once the model has completed, you will see a green check mark, and the word 'completed' next to each landscape.</p>
+        <p>
+            <img src="../Resources/Images/treatment_compare/comparison_model_list_fin.png" alt="green check marks and the word 'completed' next to each landscape indicates the model has finished running for that landscape" />
+        </p>
+        <h3>Compare model outputs for your treatment alternatives</h3>
+        <p>In the Compare Alternatives tab</p>
+        <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
+        <p>To begin, we will select our low severity prescribed fire treatment, which will be tagged with a "1", then our existing landscape, which will be tagged with a "2".The comparison display the difference in landscape features and fire behavior between the two landscapes. When finished, "select view in map"</p>
     </body>
 </html>

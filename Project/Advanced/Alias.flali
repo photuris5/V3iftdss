@@ -4,11 +4,6 @@
     <Map Name="s_flammap_fm" Link="/Content/test_shorts/flammap_basic/s_flammap_fm.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="AboutIFTDSS" Link="/Content/AboutIFTDSS/AboutIFTDSS.htm" />
     <Map Name="Disclaimer" Link="/Content/AboutIFTDSS/Disclaimer.htm" />
-    <Map Name="Background" Link="/Content/Background/Background.htm" />
-    <Map Name="phase_1" Link="/Content/Background/phase_1.htm" />
-    <Map Name="phase_2" Link="/Content/Background/phase_2.htm" />
-    <Map Name="phase_3" Link="/Content/Background/phase_3.htm" />
-    <Map Name="phase_5" Link="/Content/Background/phase_5.htm" />
     <Map Name="FBFMFuelMoistures" Link="/Content/Concepts/FBFMFuelMoistures.htm" />
     <Map Name="UsingMyData" Link="/Content/Concepts/UsingMyData.htm" />
     <Map Name="UnitsofMeasure" Link="/Content/Concepts/UnitsofMeasure.htm" />
@@ -64,7 +59,7 @@
     <Map Name="FTEMEnterDataAbout" Link="/Content/PCMonitoring/FTEMEnterDataAbout.htm" />
     <Map Name="FTEMEvaluateFormAbout" Link="/Content/PCMonitoring/FTEMEvaluateFormAbout.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/Concepts/PlanningCycleAbout.htm" />
-    <Map Name="rda_1" Link="/Content/Background/rda_1.htm" />
+    <Map />
     <Map Name="GoalsObjectivesAbout" Link="/Content/PCMonitoring/GoalsObjectivesAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/PCMonitoring/MonitoringAbout.htm" />
     <Map Name="NFMDDatabaseAccessAbout" Link="/Content/PCMonitoring/NFMDDatabaseAccessAbout.htm" />
@@ -92,8 +87,6 @@
     <Map Name="FACTSBusinessAbout" Link="/Content/PCReporting/FACTSBusinessAbout.htm" />
     <Map Name="FBFMHeatValues" Link="/Content/Concepts/FBFMHeatValues.htm" />
     <Map Name="KnownIssues" Link="/Content/AboutIFTDSS/KnownIssues.htm" />
-    <Map Name="phase_4" Link="/Content/Background/phase_4.htm" />
-    <Map Name="project_team" Link="/Content/Background/project_team.htm" />
     <Map Name="WhereToBegin" Link="/Content/GetStarted/WhereToBegin.htm" />
     <Map Name="EditTools" Link="/Content/MapStudio/Functions/EditTools.htm" />
     <Map Name="FCCS" Link="/Content/ModelingPG/FFT/FCCS.htm" />

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="191" MadCap:lastWidth="1911">
+    <body>
+        <p>
+            <img src="../../Images/treatment_compare/select_landscape.png" style="width: 541px;height: 265px;float: right;padding-left: 5px;padding-right: 5px;" alt="treatment comparison interface with a dropdown list of landscapes to select, or button to create a new landscape" />Use the <span class="UIcomponent">Pick a Landscape</span> tab to create or select a starting unedited landscape. The landscape selected in this step initiates your comparison session and will be marked with “0” throughout the workflow.  The “0” indicates the original landscape extracted from LANDFIRE that has not been edited. In subsequent tabs, all landscapes that match this extent will be available for you to work with. In the next tab, the <span class="UIcomponent">Edit Landscape</span> tab, you may edit any of these landscapes. </p>
+    </body>
+</html>
