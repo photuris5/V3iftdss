@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="1478" MadCap:lastWidth="1191">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="1299" MadCap:lastWidth="2292">
     <head>
     </head>
     <body>
@@ -13,12 +13,11 @@
             <img src="../../Images/landscapesumm/summary_report_prompt.png" title="text in a pop up window promts you to create a summary reoprt" style="width: 461px;height: 219px;">
             </img>
         </p>
-        <p>A confirmation message confirms that your summary report is being generated.</p>
+        <p>The <img src="../../Images/landscapesumm/hourglass.png" alt="hourglass" /> icon indicates the summary is being generated. You can refresh and check the status with the refresh button <img src="../../Images/landscapesumm/button_refresh.png" alt="refresh button" />.</p>
         <p>
             <img src="../../Images/landscapesumm/summary_confirmation.png" alt="green confirmation text box appears to let you know your summary is being generated" style="width: 340px;height: 196px;">
             </img>
         </p>
-        <p>The <img src="../../Images/landscapesumm/hourglass.png" alt="hourglass" /> icon indicates the summary is being generated. You can refresh and check the status with the refresh button <img src="../../Images/landscapesumm/button_refresh.png" alt="refresh button" />.</p>
         <div class="notificationTip">
             <p>Depending upon landscape size, your summary may take a few minutes to complete.</p>
         </div>

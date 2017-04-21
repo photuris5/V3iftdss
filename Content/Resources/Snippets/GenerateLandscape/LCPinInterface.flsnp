@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1546" MadCap:lastWidth="1151">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1260" MadCap:lastWidth="2272">
     <head>
     </head>
     <body>
@@ -17,10 +17,10 @@
             <li>Select the version of LANDFIRE data you would like to use.</li>
             <li>Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
             <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />.</li>
-            <li>Select the folder in which you would like to store your landscape file, or select the <span class="UIcomponent">create new folder button</span> <img src="../../Images/lcp_gen_smmry/landscape gen 4.png" alt="create new folder button" />to create and name a new folder in which to place your landscape file. </li>
+            <li>Select the folder in which you would like to store your landscape file, or select the <span class="UIcomponent">create new folder button</span> <img src="../../Images/lcp_gen_smmry/landscape gen 4.png" alt="create new folder button" class="button" /> to create and name a new folder in which to place your landscape file. </li>
             <li>Select <span class="UIcomponent">Create</span> to generate your landscape file</li>
         </ol>
-        <p>Once you select create, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, will contain the name of your newly created landscape, with an hourglass <img src="../../Images/landscapesumm/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass will be replaced by a green checkmark.</p>
+        <p>Once you select <span class="UIcomponent">Create</span>, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, will contain the name of your newly created landscape, with an hourglass <img src="../../Images/landscapesumm/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass will be replaced by a green checkmark.</p>
         <div class="notificationNote">
             <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
         </div>

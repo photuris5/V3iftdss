@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="5349" MadCap:lastWidth="2212">
+    <head>
+    </head>
+    <body>
+        <h1>Evaluate the landscape and edit it to reflects the currents conditions on the ground using the Landscape Evaluation stage of the planning cycle</h1>
+        <p>Now that we have our landscape, we can make edits if necessary so it reflects our landscapes existing condition as close as possible. For your own landscape, you’ll have your own editing to do, but for this hypothetical example, we’ll say that we want to reduce the canopy cover in all TU5 areas by 5%.</p>
+        <p>proceed through the steps below starting with 'Haypress LF2012 Unedited', and name the newly edited version 'Haypress LF2012 EC' (the EC is short for Existing Condition).</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+        <h2>Identify a priority treatment area using the Auto97th fire behavior summary and examining Wildland Urban Interface Areas in Map Studio</h2>
+        <p>To identify the areas that would be good candidates for treatment, we’ll create a summary report using the Auto 97th<a href="../../PCLandscapeEval/LandSummaryAbout.htm"> Summary</a>, this will automatically populate a Landscape Fire Behavior model with 97th percentile moisture conditions based on the Remote Automatic Weather Station (RAWS) nearest our area (see <a href="../../PCLandscapeEval/Auto97Summary.htm" target="_blank">Auto 97th Technical details</a> for more information on this process). This will generate both a report, and a mapped output. We'll look at the mapped output.</p>
+        <p>To begin, go back to the Landscape Evaluation stage of the planning cycle, select the Landscape Summary task:&#160;</p>
+        <p>For your Landscape, specify a starting landscape to represent fie behavior on an untreated landscape as it currently exists. For this tutorial, we'll select the Existing Condition landscape we just created:&#160;'HaypressCrkLF2012EC'</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
+        <p>Once your summary is created, navigate to <span class="UIcomponent">My Workspace</span>, and view the fire behavior outputs in <MadCap:variable name="General.MapStudio" /> by selecting the 'Haypress LF2012 EC - Auto97th model output file. Use the <span class="UIcomponent">Layer List</span> and <span class="UIcomponent">Zoom</span> to evaluate fire behavior across your landscape. For this example we'll focus on the Sierra City wildand urban interface in the northeast area of the map.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_1_comparison/SierraCity.png" alt="mapped landscape with Sierra City highlighted for a closer look" style="width: 694px;height: 624px;" />
+        </p>
+        <div class="notificationTip">
+            <p>As you evaluate your landscape you may find it helpful to adjust the layer transparency using the <span class="UIcomponent">more options</span> button <img src="../../Resources/Images/landscapesumm/button_moreoptions.png" alt="moreoptionsbutton" /> to the right of your fire behavior layer, and the different <span class="UIcomponent">basemap gallery</span> <img src="../../Resources/Images/mapstudio/button_basemapglry.png" alt="basemap gallery button" />options.</p>
+        </div>
+        <p>Toggling through the fire behavior attributes of flame length, and canopy fire, we can see some areas north of town, and east between the North Yuba River and some scattered structures that could make good candidates for treatment. In this example you'll notice the circled areas indicate potentially high flame lengths, rates of spread, active crown fire, and a max spread direction moving north to northeast.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_1_comparison/SierraCity2.png" alt="possible treatment areas as described in text" style="width: 1184px;height: 590px;" />
+        </p>
+        <p>You may also use the <span class="UIcomponent">Landscape Tools</span> <img src="../../Resources/Images/mapstudio/button_landscapetools.png" alt="landscape tools button" class="button" /> button to add the landscape file to <MadCap:variable name="General.MapStudio" />, and the <span href="../../MapStudio/Functions/Swipe.htm" target="_blank" class="UIcomponent"><a href="../../MapStudio/Functions/Swipe.htm" target="_blank">Swipe</a></span> tool <img src="../../Resources/Images/mapstudio/button_slider.png" alt="swipe tool button" class="button" /> to view the different landscape layers and fire behavior attributes.</p>
+        <p>In the next steps, we'll create shapefiles for these areas, then use those shapefiles to specify which part of the landscape to simulate our treatment alternatives for comparison.</p>
+    </body>
+</html>

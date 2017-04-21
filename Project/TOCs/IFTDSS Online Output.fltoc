@@ -14,6 +14,28 @@
       Link="/Content/GetStarted/NavigatingIFTDSS.htm"
       StartSection="false" />
     <TocEntry
+      Title="Comparing Landscapes (A Tutorial)"
+      Link="/Content/Tutorials/CompareFeature/0_Intro.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Tutorials/CompareFeature/1_ProjectBegin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Tutorials/CompareFeature/2_CreateLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Evaluate and Edit"
+        Link="/Content/Tutorials/CompareFeature/3_Edit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Summarize and Prioritize"
+        Link="/Content/Tutorials/CompareFeature/4_IdPriority.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Create Treatment Polygons"
+        Link="/Content/Tutorials/CompareFeature/5_treatmentPoly.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Treatment Comparison"
+        Link="/Content/Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="Getting Help"
       Link="/Content/GetStarted/GettingHelp.htm" />
     <TocEntry
@@ -436,12 +458,34 @@
       Link="/Content/GetStarted/OnlineCourses.htm"
       conditions="General.LaterRelease" />
     <TocEntry
+      Title="Tutorials"
+      Link="/Content/Tutorials/TutorialMain.htm">
+      <TocEntry
+        Title="Comparing Landscapes"
+        Link="/Content/Tutorials/CompareFeature/0_Intro.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Tutorials/CompareFeature/1_ProjectBegin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Tutorials/CompareFeature/2_CreateLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Evaluate and Edit"
+          Link="/Content/Tutorials/CompareFeature/3_Edit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Summarize and Prioritize"
+          Link="/Content/Tutorials/CompareFeature/4_IdPriority.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Create Treatment Polygons"
+          Link="/Content/Tutorials/CompareFeature/5_treatmentPoly.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Treatment Comparison"
+          Link="/Content/Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
       Title="Workshops"
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA"
-      conditions="General.LaterRelease" />
-    <TocEntry
-      Title="Tutorials"
-      Link="/Content/Tutorials/TutorialMain.htm"
       conditions="General.LaterRelease" />
     <TocEntry
       Title="References"

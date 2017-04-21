@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="6422" MadCap:lastWidth="2172">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9695" MadCap:lastWidth="2172">
     <head>
     </head>
     <body>
@@ -87,8 +87,9 @@
                 <MadCap:dropDownHotspot>Run Your Model</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
+                <p>The <span class="UIcomponent">Run Model</span> tab provides a space where you can re-name and run models for landscapes you created in the <span class="UIcomponent">Edit Landscape</span> tab.  The Landscape column in the Run Model table will list landscape “0” as selected in the <span class="UIcomponent">Pick Landscape</span> tab and all of its derivatives.  Again, as mentioned in previous tabs, landscapes edited off of landscape “0” outside of this workflow will be available here as well.  You can model and compare those landscapes just the same as if you created them within this session.  The Run Name box will be auto populated with the landscape name and the type of model being run. </p>
                 <p>
-                    <img src="../Resources/Images/treatment_compare/modelrun.png" alt="Option to run a model for each landscape listed to the right of the map." style="width: 791px;height: 381px;padding-left: 5px;float: right;" />The <span class="UIcomponent">Run Model</span> tab provides a space where you can re-name and run models for landscapes you created in the <span class="UIcomponent">Edit Landscape</span> tab.  The Landscape column in the Run Model table will list landscape “0” as selected in the <span class="UIcomponent">Pick Landscape</span> tab and all of its derivatives.  Again, as mentioned in previous tabs, landscapes edited off of landscape “0” outside of this workflow will be available here as well.  You can model and compare those landscapes just the same as if you created them within this session.  The Run Name box will be auto populated with the landscape name and the type of model being run.  </p>
+                    <img src="../Resources/Images/treatment_compare/comparison_model_list.png" alt="a list of available landscapes for which the fire behavior model may be run" style="width: 809px;height: 274px;" /> </p>
                 <div class="notificationComingSoon">
                     <p>Currently <MadCap:variable name="General.ProductName" /> only runs Landscape Fire Behavior but more models will be integrated soon. </p>
                 </div>
@@ -103,7 +104,7 @@
                     <li>Click <span class="UIcomponent">Run Model</span> for landscapes you would like to compare
 					</li>
                     <li>Click the <span class="UIcomponent">Refresh</span> button next to <span class="UIcomponent">Run Status</span> in the <span class="UIcomponent">Run Models</span> table to check the status of your model outputs
-					</li>
+					<img src="../Resources/Images/treatment_compare/comparison_model_list_fin.png" alt="green check marks and the word 'completed' next to each landscape indicates the model has finished running for that landscape" /></li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -113,15 +114,43 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
+                <p>
+                    <img src="../Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" alt="comparison screen with the rows for each landscape described in text are highlighted" style="width: 834px;height: 302px;" />
+                </p>
                 <div class="notificationNote">
-                    <p>Example:  My objective is to reduce flame length on my treated landscape.  So, I need to show change due to treatment.  I need my output grid to show that flame length was reduced by treatment.  So, AltA(FL 2)-EC(FL 10)= FL -8.  I reduced my FL by 8.  Grid will show -8 meaning an 8 foot reduction.</p>
+                    <p>The use of "1" and "2" in the comparison tool is product of how <MadCap:variable name="General.ProductName" /> calculates the comparison. For example, if we are interested in the change in flame length between a Treatment and the Existing landscape, we'd select the Treatment first (which would be assigned "1" and the Existing condition landscape second, which would be assigned "2". If for example we wanted to compare flame length (FL) between the two, <MadCap:variable name="General.ProductName" /> would calculate landscape 2[F] - [] = :  My objective is to reduce flame length on my treated landscape.  So, I need to show change due to treatment.  I need my output grid to show that flame length was reduced by treatment.  So, AltA(FL 2)-EC(FL 10)= FL -8.  I reduced my FL by 8.  Grid will show -8 meaning an 8 foot reduction.</p>
                 </div>
                 <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/Comparison_Part2.flsnp" />
-                <div class="notificationTip">
-                    <p><a href="../MapStudio/Functions/Swipe.htm">You may find the Swipe tool helpful in comparisons	</a>
-                    </p>
-                </div>
+                <p>When making map comparisons, you will see the landscape and model output for each landscape, and a comparison layer for each, six layers in all:</p>
+                <ul>
+                    <li>Modeled Output Change - Landscape "2"/Landscape"1"</li>
+                    <li>Modeled Output Landscape "2"</li>
+                    <li>Model Output Landscape "1"</li>
+                    <li>Landscape Change  - Landscape "2"/Landscape"1"</li>
+                    <li>Landscape Features - Landscape "2"</li>
+                    <li>Landscape Feature - Landscape "2"</li>
+                </ul>
+                <p>In the image below we can see changes in flame lengths, heights, and crown fire classes. The cool colors correspond to decreases, as indicated in Layer List.</p>
+                <p>
+                    <img src="../Resources/Images/tutorial_1_comparison/tumapcompare.png" alt="map layers showing a decrease in flame length, rate of spread, and crown fire" style="width: 738px;height: 726px;">
+                    </img>
+                </p>
+                <p>Using the <span class="UIcomponent">Swipe</span> tool can be helpful to swipe back and forth between layers. Select the <span class="UIcomponent">Swipe</span> tool <img src="../Resources/Images/mapstudio/button_slider.png" alt="swipe tool button"></img> in the top right of the map interface. In the tool dropdown the layer you select will be visible on the top part of the slider, the other layer will be visible on the bottom part of the sliders. </p>
+                <p>The Swipe tool relies on the features as they are in the layer list, so pay attention to make sure the attributes checked in the layer list are the ones you wish to compare.</p>
+                <p>Make sure the same feature in each one is selected (in this case flame length). </p>
+                <p>
+                    <img src="../Resources/Images/tutorial_1_comparison/tutswipe.png" alt="swiping between two layers in the the map" style="width: 1113px;height: 479px;">
+                    </img>
+                </p>
+                <p>For details on specific pixels, you may use the <span class="UIcomponent">Identify</span> tool <img src="../Resources/Images/mapstudio/button_identify.png" alt="identify tool" /> in the top left as well.</p>
+                <p>You may also generate side by side landscape comparison reports using the <span class="UIcomponent">Compare in Summary Report</span> button in Comparison </p>
+                <p>
+                    <img src="../Resources/Images/tutorial_1_comparison/tutsummaryreport.png" alt="charts copared side by side displaying fire behavior model outputs" style="width: 853px;height: 393px;">
+                    </img>
+                </p>
+                <p>Summary reports will show bar charts, pie charts, and tables for an entire landscape. These are sell suited for landscape changes, but if you have only small areas of change, the landscape level reports may not indicated a great deal of change.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <p>&#160;</p>
     </body>
 </html>
