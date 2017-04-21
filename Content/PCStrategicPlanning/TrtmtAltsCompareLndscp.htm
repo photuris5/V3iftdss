@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="9695" MadCap:lastWidth="2172">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="12386" MadCap:lastWidth="1212">
     <head>
     </head>
     <body>
@@ -118,7 +118,10 @@
                     <img src="../Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" alt="comparison screen with the rows for each landscape described in text are highlighted" style="width: 834px;height: 302px;" />
                 </p>
                 <div class="notificationNote">
-                    <p>The use of "1" and "2" in the comparison tool is product of how <MadCap:variable name="General.ProductName" /> calculates the comparison. For example, if we are interested in the change in flame length between a Treatment and the Existing landscape, we'd select the Treatment first (which would be assigned "1" and the Existing condition landscape second, which would be assigned "2". If for example we wanted to compare flame length (FL) between the two, <MadCap:variable name="General.ProductName" /> would calculate landscape 2[F] - [] = :  My objective is to reduce flame length on my treated landscape.  So, I need to show change due to treatment.  I need my output grid to show that flame length was reduced by treatment.  So, AltA(FL 2)-EC(FL 10)= FL -8.  I reduced my FL by 8.  Grid will show -8 meaning an 8 foot reduction.</p>
+                    <p>The use of "1" and "2" in the comparison tool is product of how <MadCap:variable name="General.ProductName" /> calculates the comparison. For example, if we are interested in the change in flame length between a Treatment and the Existing landscape, we'd select the Treatment first (it gets assigned "1") and the Existing condition landscape second (it gets assigned "2"). <MadCap:variable name="General.ProductName" /> calculates landscape change as:</p>
+                    <p>1-2=landscape change</p>
+                    <p>For example, if flame lengths in the treated area are 3 feet (landscape “1”) , and flame lengths in the untreated area are 8 feet (landscape “2”), the resulting comparison landscape will show a value of -5, or a reduction in flame length of 5 feet:</p>
+                    <p>3ft-8ft = -5 ft.</p>
                 </div>
                 <MadCap:snippetBlock src="../Resources/Snippets/CompareTreatmentAlts/Comparison_Part2.flsnp" />
                 <p>When making map comparisons, you will see the landscape and model output for each landscape, and a comparison layer for each, six layers in all:</p>
