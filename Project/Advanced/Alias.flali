@@ -59,7 +59,6 @@
     <Map Name="FTEMEnterDataAbout" Link="/Content/PCMonitoring/FTEMEnterDataAbout.htm" />
     <Map Name="FTEMEvaluateFormAbout" Link="/Content/PCMonitoring/FTEMEvaluateFormAbout.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/Concepts/PlanningCycleAbout.htm" />
-    <Map />
     <Map Name="GoalsObjectivesAbout" Link="/Content/PCMonitoring/GoalsObjectivesAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/PCMonitoring/MonitoringAbout.htm" />
     <Map Name="NFMDDatabaseAccessAbout" Link="/Content/PCMonitoring/NFMDDatabaseAccessAbout.htm" />
@@ -154,4 +153,14 @@
     <Map Name="LocationButton" Link="/Content/MapStudio/Functions/LocationButton.htm" />
     <Map Name="LandscapeEditTechTopic" Link="/Content/PCLandscapeEval/LandscapeEditTechTopic.htm" />
     <Map Name="Glossary1" Link="/Content/References/Glossary.htm" />
+    <Map Name="RuleOrdering" Link="/Content/Concepts/RuleOrdering.htm" />
+    <Map Name="_0_Intro" Link="/Content/Tutorials/CompareFeature/0_Intro.htm" />
+    <Map Name="_1_ProjectBegin" Link="/Content/Tutorials/CompareFeature/1_ProjectBegin.htm" />
+    <Map Name="_2_CreateLCP" Link="/Content/Tutorials/CompareFeature/2_CreateLCP.htm" />
+    <Map Name="_3_Edit" Link="/Content/Tutorials/CompareFeature/3_Edit.htm" />
+    <Map Name="_4_IdPriority" Link="/Content/Tutorials/CompareFeature/4_IdPriority.htm" />
+    <Map Name="_5_treatmentPoly" Link="/Content/Tutorials/CompareFeature/5_treatmentPoly.htm" />
+    <Map Name="_6_Compare" Link="/Content/Tutorials/CompareFeature/6_Compare.htm" />
+    <Map Name="publishing" Link="/Content/zHelpProjectInfo/publishing.htm" />
+    <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
 </CatapultAliasFile>

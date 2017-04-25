@@ -160,3 +160,13 @@
 #define LocationButton 1159
 #define LandscapeEditTechTopic 1160
 #define Glossary1 1161
+#define RuleOrdering 1162
+#define _0_Intro 1163
+#define _1_ProjectBegin 1164
+#define _2_CreateLCP 1165
+#define _3_Edit 1166
+#define _4_IdPriority 1167
+#define _5_treatmentPoly 1168
+#define _6_Compare 1169
+#define publishing 1170
+#define Writing_and_image_style 1171
