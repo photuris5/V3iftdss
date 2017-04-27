@@ -36,9 +36,6 @@
         Link="/Content/Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Getting Help"
-      Link="/Content/GetStarted/GettingHelp.htm" />
-    <TocEntry
       Title="How [%=General.ProductName%] is Organized"
       Link="/Content/GetStarted/NavigatingIFTDSS.htm"
       conditions="General.Exclude" />
@@ -506,6 +503,9 @@
       Title="         Request Tech. Support"
       Link="http://192.255.42.9/landing_page/support.html" />
   </TocEntry>
+  <TocEntry
+    Title="Getting Help"
+    Link="/Content/GetStarted/GettingHelp.htm" />
   <TocEntry
     Title="Known Issues"
     Link="/Content/AboutIFTDSS/KnownIssues.htm"
