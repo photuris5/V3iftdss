@@ -7,8 +7,17 @@
       Title="Why use [%=General.ProductName%] for Fuel Planning?"
       Link="/Content/GetStarted/WhyIFTDSS.htm" />
     <TocEntry
-      Title="Setting up an Account"
-      Link="/Content/GetStarted/AccountSetup.htm" />
+      Title="User Accounts">
+      <TocEntry
+        Title="Setting up an Account"
+        Link="/Content/GetStarted/AccountSetup.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/GetStarted/AccountPassword.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/GetStarted/AccountProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
       Title="Navigate [%=General.ProductName%] (An Overview)"
       Link="/Content/GetStarted/NavigatingIFTDSS.htm"
