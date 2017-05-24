@@ -45,6 +45,9 @@
         Link="/Content/Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Concepts/UsingMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="How [%=General.ProductName%] is Organized"
       Link="/Content/GetStarted/NavigatingIFTDSS.htm"
       conditions="General.Exclude" />
@@ -116,25 +119,31 @@
       Link="/Content/PCMonitoring/MonitoringAbout.htm">
       <TocEntry
         Title="Enter Data into FTEM"
-        Link="/Content/PCMonitoring/FTEMEnterDataAbout.htm" />
+        Link="/Content/PCMonitoring/FTEMEnterDataAbout.htm"
+        conditions="General.LaterRelease" />
       <TocEntry
         Title="Enter Data into FFI"
-        Link="/Content/PCMonitoring/FFIEnterMonitorDataAbout.htm" />
+        Link="/Content/PCMonitoring/FFIEnterMonitorDataAbout.htm"
+        conditions="General.LaterRelease" />
       <TocEntry
-        Title="Validate/Refine Treatment" />
+        Title="Validate/Refine Treatment"
+        conditions="General.LaterRelease" />
     </TocEntry>
     <TocEntry
       Title="         Reporting"
       Link="/Content/PCReporting/ReportingAbout.htm">
       <TocEntry
         Title="Produce Fuel Treatment"
-        Link="/Content/PCReporting/TreatmentBasedonFTEMAbout.htm" />
+        Link="/Content/PCReporting/TreatmentBasedonFTEMAbout.htm"
+        conditions="General.LaterRelease" />
       <TocEntry
         Title="Business Need Reporting"
-        Link="/Content/PCReporting/FACTSBusinessAbout.htm" />
+        Link="/Content/PCReporting/FACTSBusinessAbout.htm"
+        conditions="General.LaterRelease" />
       <TocEntry
         Title="Produce Success Stories"
-        Link="/Content/PCReporting/SuccessStoryMapAbout.htm" />
+        Link="/Content/PCReporting/SuccessStoryMapAbout.htm"
+        conditions="General.LaterRelease" />
     </TocEntry>
     <TocEntry
       Title="About Landscapes"
@@ -227,6 +236,9 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Files/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
+        Title="Editing Landscape Data"
+        Link="/Content/PCLandscapeEval/LandscapeEditAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
@@ -258,6 +270,9 @@
     <TocEntry
       Title="Use My Own Data"
       Link="/Content/Concepts/UsingMyData.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Concepts/UsingMasks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="New User?"
