@@ -8,4 +8,5 @@
   Directory="C:\Users\jhyde\Documents\GitHub\iftoutput\output"
   Port=""
   ViewUrl="http://www.madcapsoftware.com/"
-  Type="file"></CatapultDestination>
+  Type="file"
+  UploadLogFile="false"></CatapultDestination>

@@ -28,6 +28,8 @@
   <Destinations>
     <Destination
       Link="/Project/Destinations/output_2016_JH.fldes" />
+    <Destination
+      Link="/Project/Destinations/output_gitlabiftui_JH.fldes" />
   </Destinations>
   <PostBuild></PostBuild>
 </CatapultTarget>
