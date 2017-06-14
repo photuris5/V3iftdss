@@ -509,6 +509,12 @@
       Link="https://www.youtube.com/channel/UCssrmFM7KRhu1QogR8zpIiA"
       conditions="General.LaterRelease" />
     <TocEntry
+      Title="New TOC Book"
+      conditions="General.LaterRelease">
+      <TocEntry
+        Title="New Entry" />
+    </TocEntry>
+    <TocEntry
       Title="References"
       Link="/Content/References/ReferenceList.htm" />
     <TocEntry

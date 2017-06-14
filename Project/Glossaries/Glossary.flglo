@@ -106,7 +106,7 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
       <Term>ladder fuels</Term>
     </Terms>
     <Definition
-      Link="">Ladder fuels provide vertical continuity between vegetation strata, making it possible for fires to carry from the surface into the crowns of surrounding trees and shrubs.</Definition>
+      Link="">Fuels which provide vertical continuity between vegetation strata, thereby allowing fire to carry from surface fuels into the crowns of trees or shrubs with relative ease. They help initiate and facilitate the continuation of crowning.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -159,7 +159,7 @@ Slope</Definition>
       <Term>CBD</Term>
     </Terms>
     <Definition
-      Link="">Canopy bulk density. The density of available canopy fuel in a stand.</Definition>
+      Link="">Canopy bulk density refers to the density of available canopy fuel in a stand.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -238,8 +238,8 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
+      <Term>Diameter at breast height</Term>
       <Term>DBH</Term>
-      <Term>Diameter at Breast Height</Term>
     </Terms>
     <Definition
       Link="">Tree diameter at breast height. Because trees are generally wider at the base and narrower higher up, the diameter at breast height is used to define the size of the tree. The definition of breast height can vary but is usually 4.5 feet above the ground.</Definition>
@@ -360,7 +360,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>BehavePlus</Term>
     </Terms>
     <Definition
-      Link="">A fire modeling system containing a collection of mathematical models that describe fire and the fire environment. BehavePlus can be used for a multitude of fire management applications, including projecting the behavior of an ongoing fire, planning prescribed fires, and training.</Definition>
+      Link="">A system of interactive computer programs for modeling fire behavior. (non spatial)</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -456,17 +456,6 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.Exclude"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>chain</Term>
-    </Terms>
-    <Definition
-      Link="">A unit of length. One chain is 66 feet in length (22 yards; approximately twenty meters).</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -534,11 +523,16 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
       <Term>Bailey's ecoregions</Term>
     </Terms>
     <Definition
-      Link="">Ecosystems of regional extent. Four levels of detail are included to show a hierarchy of ecosystems.
-·       The largest ecosystems are domains, which are groups of related climates and which are differentiated based on precipitation and temperature.
-·       Divisions are subdivided into provinces, which are differentiated based on vegetation or other natural land covers.
-·       The finest level of detail is described by subregions, called sections, which are subdivisions of provinces based on terrain features.
-·       Also identified are mountainous areas that exhibit different ecological zones based on elevation. 
+      Link="">Ecosystems of regional extent. Four levels of detail are included to show a hierarchy of ecosystems:
+
+- The largest ecosystems are domains, which are groups of related climates and which are differentiated based on precipitation and temperature.
+
+- Divisions are subdivided into provinces, which are differentiated based on vegetation or other natural land covers.
+
+- The finest level of detail is described by subregions, called sections, which are subdivisions of provinces based on terrain features.
+
+- Also identified are mountainous areas that exhibit different ecological zones based on elevation. 
+
 Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropical, prairie, marine, Mediterranean, tropical/subtropical steppe desert, tropical/subtropical desert, temperate steppe, temperate desert, savanna, and rainforest.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
@@ -572,20 +566,6 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     </Terms>
     <Definition
       Link="">The zone of a moving fire where the combustion is primarily flaming. Behind this flaming zone, combustion is primarily smoldering.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>flame length</Term>
-      <Term>flame length class</Term>
-      <Term>user-defined flame length</Term>
-    </Terms>
-    <Definition
-      Link="">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames. Flame length is an indicator of fire intensity.
-
-Flame lengths can be divided into classes low, medium, high, and very high based on flame length.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -930,7 +910,11 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
       <Term>crown fire</Term>
     </Terms>
     <Definition
-      Link="">A fire that burns the forest canopy.
+      Link="">A fire that burns the forest or shrub canopy. Torching is classified as passive crown fire.
+
+Dependant crown fire requires the energy from the surface fire to sustain fire in the canopy.
+
+Independant crown fire advances from top to top of trees or shrubs more or less independent of a surface fire. 
 
 As defined by NWCG: A fire that advances from top to top of trees or shrubs more or less independent of a surface fire.</Definition>
   </GlossaryEntry>
@@ -993,7 +977,8 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
   <GlossaryEntry
     TermClass=""
     Stem=""
-    IgnoreCase="false">
+    IgnoreCase="false"
+    conditions="General.Exclude">
     <Terms>
       <Term>NEXUS</Term>
     </Terms>
@@ -1340,10 +1325,10 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     IgnoreCase="false">
     <Terms>
       <Term>FBPS</Term>
-      <Term>Fire Behavior Prediction System</Term>
+      <Term>Fire behavior prediction system</Term>
     </Terms>
     <Definition
-      Link="">A Fire Behavior Prediction System (FBPS) uses one or more fire behavior fuel models. A fire behavior fuel model describes how fire is likely to behave based on natural fuel conditions. Using Rothermel's 1972 seminal work, Anderson (1982) originally described 13 fire behavior fuel models. Later, Scott and Burgan (2005) added 40 more fire behavior fuel models.
+      Link="">A fire behavior prediction system (FBPS) uses one or more fire behavior fuel models. A fire behavior fuel model describes how fire is likely to behave based on natural fuel conditions. Using Rothermel's 1972 seminal work, Anderson (1982) originally described 13 fire behavior fuel models. Later, Scott and Burgan (2005) added 40 more fire behavior fuel models.
 
 Defined by NWCG as: A system that uses a set of mathematical equations to predict certain aspects of fire behavior in wildland fuels when provided with data on fuel and environmental conditions.</Definition>
   </GlossaryEntry>
@@ -1355,7 +1340,7 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
       <Term>activity fuel</Term>
     </Terms>
     <Definition
-      Link="">Activity fuels have arisen out of forestry practices, either as a by-product of those practices or through deliberate modification (such as mastication).</Definition>
+      Link="">Fuels resulting from, or altered by, forestry practices such as timber harvest or thinning, as opposed to naturally created fuels (for a definition of naturally created fuels see Natural Fuels).</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1365,7 +1350,7 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
       <Term>natural fuel</Term>
     </Terms>
     <Definition
-      Link="">Natural fuels are fuels that result from natural processes.</Definition>
+      Link="">Fuels resulting from natural processes and not directly generated or altered by land management practices.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1452,9 +1437,10 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
     IgnoreCase="false">
     <Terms>
       <Term>My Modeling Playground</Term>
+      <Term>Playground</Term>
     </Terms>
     <Definition
-      Link="">My Modeling Playground is the area of  to populate and run models. Model outputs are also available here, you may view summaries, or spatial outputs in . You will find in  that My Modeling Playground, and the models therein, can be accessed from multiple parts of , such as accessing Landscape Fire Behavior from the Landscape Evaluation stage of the Planning Cycle for example.</Definition>
+      Link="">My Modeling Playground is the area of IFTDSS used to populate and run models. Model outputs are also available here, you may view summaries, or spatial outputs in . You will find in  that My Modeling Playground, and the models therein, can be accessed from multiple parts of IFTDSS, such as accessing Landscape Fire Behavior from the Landscape Evaluation stage of the Planning Cycle for example.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term8"
@@ -1464,7 +1450,7 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
       <Term>My Workspace</Term>
     </Terms>
     <Definition
-      Link="">This is where all files are stored in IFTDSS, such as landscape, shape, report, and model output files.</Definition>
+      Link="">This is where all user-created files are stored in IFTDSS, such as landscape, shape, report, and model output files.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term9"
@@ -1474,8 +1460,6 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
       <Term>shapefile</Term>
       <Term>area of interest</Term>
       <Term>polygon</Term>
-      <Term>mask</Term>
-      <Term>landscape mask</Term>
     </Terms>
     <Definition
       Link="">A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. 
@@ -1547,7 +1531,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
       <Term>LFB</Term>
     </Terms>
     <Definition
-      Link="">The fire spatial fire behavior modeling capability of IFTDSS is based fire behavior and fire effects models such as FlamMap. Landscape fire behavior provides spatial fire behavior outputs including: crown fire activity, direction of maximum spread, fireline intensity, flame length. heat per unit area, rate of spread.</Definition>
+      Link="">The spatial fire behavior modeling capability of IFTDSS is based on fire behavior models such as FlamMap. Landscape fire behavior provides spatial fire behavior outputs including: crown fire activity, direction of maximum spread, fireline intensity, flame length. heat per unit area, rate of spread.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term15"
@@ -1574,7 +1558,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Extracted Unedited Landscape (LANDFIRE)</Term>
+      <Term>Extracted unedited landscape (LANDFIRE)</Term>
     </Terms>
     <Definition
       Link="">Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to select in Develop Treatment Alternatives when you are prompted to “Pick Landscape”. IFTDSS will always retain this original version under the name you have chosen.</Definition>
@@ -1584,7 +1568,8 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Edited (Alternative) Landscape</Term>
+      <Term>Edited (Alternative) landscape</Term>
+      <Term>Alternative landscape</Term>
     </Terms>
     <Definition
       Link="">New landscape saved during a landscape editing session where an edit rule has been applied, such as edits made to create an Existing Condition (EC)(defined below) or to reflect post-treatment conditions that would result from a fuel treatment alternative. You may check to see if editing rules have been applied to a landscape by selecting the landscape in question from My Workspace View and then selecting the view edit rules button.</Definition>
@@ -1594,10 +1579,11 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Existing Condition (EC) Landscape</Term>
+      <Term>Existing Condition (EC) landscape</Term>
+      <Term>EC landscape</Term>
     </Terms>
     <Definition
-      Link="">A term used specifically in Developing Treatment Alternatives, it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Extracted unedited landscapes can be used to represent EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes. You will see this term used when comparing treatment alternatives in IFTDSS.</Definition>
+      Link="">Existing Condition (EC) landscape is a term used specifically in the Developing Treatment Alternatives task of IFTDSS. it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Extracted unedited landscapes can be used to represent EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes. You will see this term used when comparing treatment alternatives in IFTDSS.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term20"
@@ -1610,14 +1596,432 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
       Link="">A term used specifically in Developing Treatment Alternatives, it refers to the unedited landscape you select to begin developing treatment alternatives. It will be tagged with a zero zero icon indicating 'landscape zero' as defined in the help texticon. It defines the extent of your comparison, so any landscapes that match the extent of your originating landscape will become available during Developing Treatment Alternative task.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
+    glossTerm="Glossary.Term24"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>active crown fire</Term>
+    </Terms>
+    <Definition
+      Link="">A fire in which a solid flame develops in the crowns of trees, but the surface and crown phases advance as a linked unit dependent on each other.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term25"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>aerial fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Standing and supported live and dead combustibles not in direct contact with the ground and consisting mainly of foliage, twigs, branches, stems, cones, bark, and vines. 
+
+See also: needle drape</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term27"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>aspect</Term>
+    </Terms>
+    <Definition
+      Link="">Cardinal direction toward which a slope faces.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term28"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>available fuel</Term>
+    </Terms>
+    <Definition
+      Link="">The portion of the total fuel that would actually burn under various environmental conditions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term29"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>backing fire</Term>
+    </Terms>
+    <Definition
+      Link="">1) Fire spreading, or ignited to spread, into (against) the wind or downslope. A fire spreading on level ground in the absence of wind is a backing fire.
+
+2) That portion of the fire with slower rates of fire spread and lower intensity normally moving into the wind and/or down slope. Also called: heel fire.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term30"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>barrier</Term>
+    </Terms>
+    <Definition
+      Link="">Any obstruction to the spread of fire. Typically an area or strip devoid of combustible fuel.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term31"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>benefits</Term>
+      <Term>fire benefits</Term>
+    </Terms>
+    <Definition
+      Link="">Something that represents, promotes or enhances a desired outcome, being of positive value and contributing to the attainment of organizational goals. Benefits represent one end of the spectrum of outcomes from fire, with the opposite end being harm, loss or damage.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term32"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>brush</Term>
+    </Terms>
+    <Definition
+      Link="">A collective term that refers to stands of vegetation dominated by shrubby, woody plants, or low growing trees.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term33"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Buildup index</Term>
+      <Term>BUI</Term>
+    </Terms>
+    <Definition
+      Link="">The Buildup index (BUI) is a relative measure of the cumulative effect of daily drying factors and precipitation on fuels with a ten-day timelag used with the Canadian Forest Fire Danger Rating System (CFFDRS).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term34"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>bulk density</Term>
+    </Terms>
+    <Definition
+      Link="">Weight per unit volume. For fuels, this is usually expressed as pounds per cubic foot; for soils, grams per cubic centimeter.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term35"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>burn block</Term>
+    </Terms>
+    <Definition
+      Link="">A discrete area within a larger prescribed fire project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term36"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Burning index</Term>
+      <Term>BI</Term>
+    </Terms>
+    <Definition
+      Link="">The Burning index (BI) is a relative number calculated in the National Fire Danger Rating System (NFDRS) related to the contribution that fire behavior makes to the amount of effort needed to contain a fire in a specified fuel type. Doubling the burning index indicates that twice the effort will be required to contain a fire in that fuel type as was previously required, providing all other parameters are held constant.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term37"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>burn severity</Term>
+      <Term>fire severity</Term>
+    </Terms>
+    <Definition
+      Link="">A qualitative assessment of the heat pulse during a fire. Burn severity relates to soil heating, large fuel and duff consumption, consumption of the litter and organic layer beneath trees and isolated shrubs, and mortality of plant parts.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
     glossTerm="Glossary.Term21"
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>area of interest</Term>
+      <Term>Canadian Forest Fire Danger Rating System</Term>
+      <Term>CFFDRS</Term>
     </Terms>
     <Definition
-      Link="">When generating a new landscape or a summary from an existing landscape, you may specify an area of interest (shapefile) to represent a particular part of your landscape. This area of interest (shapefile) may also be used as a Mask to to edit only the area within that shapefile when editing the landscape. A shapefile may also be referred to as a polygon.</Definition>
+      Link="">The Canadian Forest Fire Danger Rating System is a national system for rating the risk of forest fires in Canada. It contains two subsystems: the Canadian Forest Fire Weather Index (FWI) System and the Canadian Forest Fire Behavior Prediction (FBP) System used to derive fire danger.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term39"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>chain</Term>
+    </Terms>
+    <Definition
+      Link="">A unit of measure in land survey, equal to 66 feet (20 m) (80 chains equals 1 mile). Commonly used to report fire perimeters and other fireline distances, this unit is popular in fire management because of its convenience in calculating acreage (e.g., 10 square chains equal one acre).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term40"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>curing</Term>
+    </Terms>
+    <Definition
+      Link="">Drying and browning of herbaceous vegetation due to mortality or senescence, and also loss of live fuel moisture content of woody fuel following mechanically-caused mortality (e.g., woody debris slash.)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term41"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>dead fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Fuels with no living tissue in which moisture content is governed almost entirely by absorption or evaporation of atmospheric moisture (relative humidity and precipitation).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term42"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>ecosystem</Term>
+    </Terms>
+    <Definition
+      Link="">An interacting natural system including all the component organisms together with the abiotic environment and processes affecting them.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term43"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Energy release component</Term>
+      <Term>ERC</Term>
+    </Terms>
+    <Definition
+      Link="">A calculated output of the National Fire Danger Rating System (NFDRS). ERC is the computed total heat release per unit area (British thermal units per square foot) within the flaming front at the head of a moving fire. The ERC is considered a composite fuel moisture index as it reflects the contribution of all live and dead fuels to potential fire intensity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term44"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Equilibrium moisture content</Term>
+      <Term>EMC</Term>
+    </Terms>
+    <Definition
+      Link="">The Equilibrium moisture content (EMC) refers to the moisture content that a fuel particle will attain if exposed for an infinite period in an environment of specified constant temperature and humidity. When a fuel particle reaches equilibrium moisture content, net exchange of moisture between it and its environment is zero.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term46"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fire behavior</Term>
+    </Terms>
+    <Definition
+      Link="">The manner in which a fire reacts to the influences of fuel, weather, and topography.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term47"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>loss</Term>
+      <Term>fire damage</Term>
+      <Term>fire loss</Term>
+    </Terms>
+    <Definition
+      Link="">Detrimental fire effects expressed in monetary or other units, including the unfavorable effects of fire-induced changes in the resource base on the attainment of organizational goals.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term48"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fire effects</Term>
+    </Terms>
+    <Definition
+      Link="">The physical, biological, and ecological impacts of fire on the environment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term49"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fire management objective</Term>
+    </Terms>
+    <Definition
+      Link="">Planned, measurable result desired from fire management and use based on land management goals and objectives.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term50"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fire season</Term>
+    </Terms>
+    <Definition
+      Link="">Period(s) of the year during which wildland fires are likely to occur, spread, and affect resources values sufficient to warrant organized fire management activities.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term51"
+    conditions="General.Exclude"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>FireFamily Plus</Term>
+    </Terms>
+    <Definition
+      Link="">A software application that provides summaries of fire weather/danger climatology and occurrence for one or more weather stations extracted from NIFMID or other data sources.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term52"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>flame length</Term>
+    </Terms>
+    <Definition
+      Link="">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames. Flame length is an indicator of fire intensity.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term53"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>flame length class</Term>
+    </Terms>
+    <Definition
+      Link="">Flame lengths are divided into classes low, medium, high, and very high based on flame length.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term54"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>flammability</Term>
+    </Terms>
+    <Definition
+      Link="">The relative ease with which fuels ignite and burn regardless of the quantity of the fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term55"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>flash fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Highly combustible fine fuels such as grass, leaves, draped pine needles, fern, tree moss and some kinds of slash, which ignite readily and are consumed rapidly when dry.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term56"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fuel characteristics</Term>
+    </Terms>
+    <Definition
+      Link="">Factors that make up fuels such as compactness, loading, horizontal continuity, vertical arrangement, chemical content, size and shape, and moisture content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term57"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fuel continuity</Term>
+    </Terms>
+    <Definition
+      Link="">The degree or extent of continuous or uninterrupted distribution of fuel particles in a fuel bed thus affecting a fire's ability to sustain combustion and spread. This applies to aerial fuels as well as surface fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term58"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>fuel treatment</Term>
+      <Term>fuel reduction</Term>
+    </Terms>
+    <Definition
+      Link="">Manipulation or removal of fuels to reduce the likelihood of ignition and/or to lessen potential damage and resistance to control (e.g., lopping, chipping, crushing, piling and burning).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term59"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>green-up</Term>
+    </Terms>
+    <Definition
+      Link="">The beginning of a new cycle of plant growth. Green-up usually occurs once a year, except in desert areas where rainy periods can produce a flush of new growth more than once a year. Green-up may be signaled at different dates for different fuel models.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term60"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>ground fuel</Term>
+    </Terms>
+    <Definition
+      Link="">All combustible materials below the surface litter, including duff, tree or shrub roots, punky wood, peat, and sawdust, that normally support a glowing combustion without flame.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term61"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>hazard fuel</Term>
+    </Terms>
+    <Definition
+      Link="">A fuel complex defined by kind, arrangement, volume, condition, and location that presents a threat of ignition and resistance to control.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term62"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>heavy fuels</Term>
+      <Term>coarse fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Heavy, or coarse, fuels are fuels of large diameter such as snags, logs, large limbwood, which ignite and are consumed more slowly than flash fuels</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term63"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>herbaceous fuel moisture</Term>
+      <Term>herb FM</Term>
+    </Terms>
+    <Definition
+      Link="">A value representing the approximate moisture content of the live herbaceous vegetation expressed as a percentage of the oven dry weight of the sample.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term64"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>herb</Term>
+    </Terms>
+    <Definition
+      Link="">A plant that does not develop woody, persistent tissue but is relatively soft or succulent and sprouts from the base (perennials) or develops from seed (annuals) each year. Includes grasses, forbs and ferns.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term65"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>hydrolic unit code</Term>
+      <Term>HUC</Term>
+    </Terms>
+    <Definition
+      Link="">Hydrolic unit codes (HUC) divides the United States into successively smaller units designated by codes. The first level of classification divides the nation into 21 major areas that contain the drainage area for a major river or series of rivers such as those draining into the Gulf of Mexico. The second level of classification divides the 21 regions into 221 subregions that contain the area drained by a river system, a basin or a group of streams forming a coastal drainage area. The third and fourth level of classification further subdivides the larger units into successively smaller drainage areas. Units are sometimes called “watersheds”.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term66"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Independent crown fire</Term>
+    </Terms>
+    <Definition
+      Link="">A fire that advances in the tree crowns alone, not requiring any energy from the surface fire to sustain combustion or movement. Also called running crown fire. Current spatial fire behavior models can not predict the occurrence or spread of this type of crown fire.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term22"
@@ -1625,8 +2029,127 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     IgnoreCase="false">
     <Terms>
       <Term>landscape mask</Term>
+      <Term>mask</Term>
     </Terms>
     <Definition
-      Link="">Mask or Landscape Mask is a shapefile (polygon) used to represent a particular area on a landscape. When editing a landscape you may choose a Mask or Landscape Mask (Shapefile) to edit only the area within that mask. Shapefiles may be used for other purposes in IFTDSS in addition to landscape masks.</Definition>
+      Link="">A mask or landscape mask is a shapefile (polygon) used to represent a particular area on a landscape. When editing a landscape you may choose a Landscape Mask (Shapefile) to edit only the area within that mask. Shapefiles may be used for other purposes in IFTDSS in addition to landscape masks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term23"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>land use plan</Term>
+    </Terms>
+    <Definition
+      Link="">A set of decisions that establish management direction for land within an administrative area; an assimilation of land-use-plan-level decisions developed through the planning process regardless of the scale at which the decisions were developed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term26"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>land management plan</Term>
+      <Term>LMP</Term>
+      <Term>resource management plan</Term>
+      <Term>RMP</Term>
+    </Terms>
+    <Definition
+      Link="">A document prepared with public participation and approved by an agency administrator that provides general guidance and direction for land and resource management activities for an administrative area. The L/RMP identifies the need for fire’s role in a particular area and for a specific benefit. The objectives in the L/RMP provide the basis for the development of fire management objective and the fire management program in the designated area.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term38"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>light fuels</Term>
+      <Term>fine fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Fast-drying fuels, generally with a comparatively high surface area-to-volume ratio, which are less than 1/4-inch in diameter and have a timelag of 1 hour or less. These fuels readily ignite and are rapidly consumed by fire when dry.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term45"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>live fuel moisture content</Term>
+    </Terms>
+    <Definition
+      Link="">Ratio of the amount of water to the amount of dry plant material in living plants expressed as a percent. Because live plant cell tissue is able to hold more than its own weight in moisture, live fuel moisture can range up to 300%.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term67"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>live fuels</Term>
+    </Terms>
+    <Definition
+      Link="">Living plants, such as trees, grasses, and shrubs, in which the seasonal moisture content cycle is controlled largely by internal physiological mechanisms, rather than by external weather influences.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term68"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>mid-flame windspeed</Term>
+    </Terms>
+    <Definition
+      Link="">The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate mid-flame windspeed from 20 foot winds using a wind reduction factor.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term69"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>mineral soil</Term>
+    </Terms>
+    <Definition
+      Link="">Soil layers below the predominantly organic horizons; soil with little combustible material.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term70"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>National Fire Danger Rating System</Term>
+      <Term>NFDRS</Term>
+    </Terms>
+    <Definition
+      Link="">A uniform fire danger rating system that focuses on the environmental factors that control the moisture content of fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term71"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>natural barrier</Term>
+    </Terms>
+    <Definition
+      Link="">Any area where lack of flammable material obstructs the spread of wildfires.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term72"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>objective</Term>
+    </Terms>
+    <Definition
+      Link="">1) A description of a desired condition; quantified and measured, and where possible, with established time frames for achievement.
+
+2) Specific, achievable, measurable, time-limited results to be achieved through land management practices, either through a description of a desired condition or the degree of desired change in an attribute.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term73"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>one hour timelag fuel</Term>
+      <Term>1 hr fuel</Term>
+    </Terms>
+    <Definition
+      Link="">Fuels consisting of dead herbaceous plants and roundwood less than about one-quarter inch (6.4 mm) in diameter. Also included is the uppermost layer of needles or leaves on the forest floor.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
