@@ -2748,4 +2748,14 @@ Gridded weather data provides more complete weather data coverage than from fixe
     <Definition
       Link="">Generally a numeric rating used to indicate a relative location on a scale. Used in the National Fire Danger Rating System (NFDRS) to indicate general level of fire danger.</Definition>
   </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term132"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>attribute</Term>
+    </Terms>
+    <Definition
+      Link="">A single feature within a landscape layer, such as fuel model, canopy cover, canopy base height, etc.</Definition>
+  </GlossaryEntry>
 </CatapultGlossary>
