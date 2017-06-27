@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2196" MadCap:lastWidth="1506">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3303" MadCap:lastWidth="441">
     <head>
     </head>
     <body>
@@ -8,12 +8,12 @@
             <MadCap:keyword term="Rule Ordering Considerations" />Rule Ordering Considerations when <MadCap:keyword term="Editing Landscapes" />Editing Landscapes</h1>
         <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
         <p>Below we outline the way in which “rules” are applied to the landscape when you make edits, either as part of the Landscape Evaluation stage, or the Strategic Planning stage.</p>
+        <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules.</p>
         <ul>
-            <li>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules.</li>
-            <li>Default Fuels Treatment / Disturbance Edit Rules utilize LANDFIRE look-up (LFLU) and Fuel Model look-up (FMLU) processes outlined in the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Rule Technical Documentation Topic</a>. When applying Default Fuels Treatment / Disturbance Edit Rules:<ul><li>Rules are only applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit Rules have been applied.</li><li>Within the rules utilizing the LFLU and FMLU tables, it is the last edit to a particular cell fuel attribute that applies that is utilized as input for user defined “Landscape Edit Rules”.</li></ul></li>
-            <li>When applying edits utilizing user defined Landscape Edit Rules:<ul><li>A fuel attribute of a given cell can only be changed once.</li><li>It is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last.</li><li>Fuel attributes are considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</li></ul></li>
+            <li><strong>Default Fuels Treatment / Disturbance Edit Rules</strong> utilize LANDFIRE look-up (LFLU) and Fuel Model look-up (FMLU) processes outlined in the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Rule Technical Documentation Topic</a>. When applying Default Fuels Treatment / Disturbance Edit Rules:<ul><li>Rules are only applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit Rules have been applied.</li><li>Within the rules utilizing the LFLU and FMLU tables, it is the last edit to a particular cell fuel attribute that applies that is utilized as input for user defined “Landscape Edit Rules”.</li></ul></li>
+            <li>When user-defined <strong>Landscape Edit Rules</strong> are applied:<ul><li>A fuel attribute of a given cell can only be changed once.</li><li>It is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last.</li><li>Fuel attributes are considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</li></ul></li>
         </ul>
-        <div class="notificationTip">
+        <div class="notificationTip" MadCap:conditions="General.Exclude">
             <p>If you are unsure of the effect of the rules you apply, consider saving a version of your landscape after each edit to allow for easy comparison of the changes made by each edit rule you apply.</p>
         </div>
         <h2>Rule ordering Background</h2>
