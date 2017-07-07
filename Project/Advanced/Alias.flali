@@ -163,4 +163,14 @@
     <Map Name="_6_Compare" Link="/Content/Tutorials/CompareFeature/6_Compare.htm" />
     <Map Name="publishing" Link="/Content/zHelpProjectInfo/publishing.htm" />
     <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
+    <Map Name="CaseStudies" Link="/Content/AboutIFTDSS/CaseStudies.htm" />
+    <Map Name="Test" Link="/Content/AboutIFTDSS/Test.htm" />
+    <Map Name="GB_ModifyLandfireData" Link="/Content/Concepts/GB_ModifyLandfireData.htm" />
+    <Map Name="GB_Overview" Link="/Content/Concepts/GB_Overview.htm" />
+    <Map Name="UsingMasks" Link="/Content/Concepts/UsingMasks.htm" />
+    <Map Name="AccountPassword" Link="/Content/GetStarted/AccountPassword.htm" />
+    <Map Name="AccountProfile" Link="/Content/GetStarted/AccountProfile.htm" />
+    <Map Name="FTEMAbout" Link="/Content/PCMonitoring/FTEMAbout.htm" />
+    <Map Name="chs_updates" Link="/Content/zHelpProjectInfo/chs_updates.htm" />
+    <Map Name="IftTopicTemplate" Link="/Content/zHelpProjectInfo/IftTopicTemplate.htm" />
 </CatapultAliasFile>
