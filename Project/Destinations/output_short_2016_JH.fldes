@@ -5,7 +5,8 @@
   Host=""
   User="MyAccountId"
   Password=""
-  Directory="C:\Users\jhyde\Documents\GitHub\iftoutput_short\output"
+  Directory="C:\Users\jhyde\Documents\GitHub\iftdss test"
   Port=""
   ViewUrl="http://www.madcapsoftware.com/"
-  Type="file"></CatapultDestination>
+  Type="file"
+  UploadLogFile="false"></CatapultDestination>

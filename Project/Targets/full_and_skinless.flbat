@@ -8,9 +8,8 @@
       Name="Online Output/HTML5 - Top Navigation"
       Type="HTML5"
       Build="true"
-      Publish="true"
-      LastBuilt="2016-10-17T10:07:49.4806220-07:00"
-      LastPublished="2016-10-12T15:59:26.8965410-07:00" />
+      Publish="false"
+      LastBuilt="2017-06-30T17:08:34.3888335-07:00" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="PDF - Crop Reg Marks (CRM)/UserGuideA7X9CRM"
@@ -34,7 +33,8 @@
     <Target
       Icon="System.Drawing.Bitmap"
       Name="PDF/UserGuideA8_5X11"
-      Type="PDF" />
+      Type="PDF"
+      LastBuilt="2017-04-20T11:25:22.9219572-07:00" />
     <Target
       Icon="System.Drawing.Bitmap"
       Name="PDF/UserGuideB7X9"
@@ -48,6 +48,12 @@
       Name="skinless/skinless"
       Type="HTML5"
       Build="true"
-      Publish="true" />
+      Publish="true"
+      LastPublished="2016-11-01T18:12:56.7923706-07:00" />
+    <Target
+      Icon="System.Drawing.Bitmap"
+      Name="webhelp"
+      Type="WebHelp"
+      LastPublished="2016-12-12T10:48:05.0916598-08:00" />
   </Targets>
 </CatapultBatchTarget>
