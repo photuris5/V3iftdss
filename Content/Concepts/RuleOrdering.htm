@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="6206" MadCap:lastWidth="546">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="4077" MadCap:lastWidth="927">
     <head>
     </head>
     <body>
@@ -28,6 +28,7 @@
             <li>If two rules attempt to change the same attribute it is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last. <MadCap:conditionalText MadCap:conditions="General.DeveloperNotes"><span class="comment">Need to check this, I&#160;reworded it - hopefully- to be more clear</span></MadCap:conditionalText></li>
             <li>Each fuel attribute is considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not change canopy cover or another fuel attributes, nor does it prevent them from being modified by a subsequent rule.</li>
         </ul>
+        <p class="iftexample"><span class="Emphasis">Example:</span>&#160;An area is reflected as a shrub fuel model, when you know it is timber fuel model. To implement this change, you will need to create a rule changing the fuel model. You will also need to create rules to change the canopy base height, canopy bulk density, stand height, and stand density, otherwise these canopy and stand features will remain unchanged.</p>
         <h3 MadCap:conditions="General.DeveloperNotes">Mixing Default Treatment and Landscape Edit Rules</h3>
         <p MadCap:conditions="General.DeveloperNotes">asdf</p>
         <p MadCap:conditions="General.DeveloperNotes">&#160;</p>
