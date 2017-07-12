@@ -6,14 +6,6 @@
 #define Disclaimer 1002
 #define KnownIssues 1003
 #define WhatsNew 1004
-#define Background 1005
-#define phase_1 1006
-#define phase_2 1007
-#define phase_3 1008
-#define phase_4 1009
-#define phase_5 1010
-#define project_team 1011
-#define rda_1 1012
 #define EstLiveFuelMoisture 1013
 #define FBFMFuelMoistures 1014
 #define FBFMHeatValues 1015
@@ -138,7 +130,6 @@
 #define Auto97Summary 1137
 #define Modelsmoretocome 1138
 #define PlaceHolder 1139
-#define AreasofInterest 1140
 #define ShapefileRepair 1141
 #define AttributeTable 1142
 #define Draw 1143
@@ -180,3 +171,13 @@
 #define FTEMAbout 1179
 #define chs_updates 1180
 #define IftTopicTemplate 1181
+#define Resources 1182
+#define cycle_implementation_plan_hh 1183
+#define cycle_intro_hh 1184
+#define cycle_landscape_eval_hh 1185
+#define cycle_monitoring_hh 1186
+#define cycle_reporting_hh 1187
+#define cycle_strategic_plan_DTA_hh 1188
+#define cycle_strategic_plan_hh 1189
+#define myworkspace_folders_hh 1190
+#define myworkspace_intro_hh 1191

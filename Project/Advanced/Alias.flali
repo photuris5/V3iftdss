@@ -173,4 +173,14 @@
     <Map Name="FTEMAbout" Link="/Content/PCMonitoring/FTEMAbout.htm" />
     <Map Name="chs_updates" Link="/Content/zHelpProjectInfo/chs_updates.htm" />
     <Map Name="IftTopicTemplate" Link="/Content/zHelpProjectInfo/IftTopicTemplate.htm" />
+    <Map Name="Resources" Link="/Content/Concepts/Resources.htm" />
+    <Map Name="cycle_implementation_plan_hh" Link="/Content/zHover/cycle_implementation_plan_hh.htm" />
+    <Map Name="cycle_intro_hh" Link="/Content/zHover/cycle_intro_hh.htm" />
+    <Map Name="cycle_landscape_eval_hh" Link="/Content/zHover/cycle_landscape_eval_hh.htm" />
+    <Map Name="cycle_monitoring_hh" Link="/Content/zHover/cycle_monitoring_hh.htm" />
+    <Map Name="cycle_reporting_hh" Link="/Content/zHover/cycle_reporting_hh.htm" />
+    <Map Name="cycle_strategic_plan_DTA_hh" Link="/Content/zHover/cycle_strategic_plan_DTA_hh.htm" />
+    <Map Name="cycle_strategic_plan_hh" Link="/Content/zHover/cycle_strategic_plan_hh.htm" />
+    <Map Name="myworkspace_folders_hh" Link="/Content/zHover/myworkspace_folders_hh.htm" />
+    <Map Name="myworkspace_intro_hh" Link="/Content/zHover/myworkspace_intro_hh.htm" />
 </CatapultAliasFile>
