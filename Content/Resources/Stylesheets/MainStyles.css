@@ -436,13 +436,16 @@ p
 {
 	color: #8d8d8d;
 }
-.iftexample{
+
+.iftexample
+{
 	margin-left: 30px;
 	font-style: italic;
 	background-color: #AFBFD0;
-	padding:10px;
-	border-radius:8px;
+	padding: 10px;
+	border-radius: 8px;
 }
+
 p.CompanyInformation1
 {
 	margin-bottom: 4px;
@@ -1117,6 +1120,11 @@ html.FieldLeveltopics
 }
 
 img.button	/*will apply only to print*/
+{
+	
+}
+
+p.test
 {
 	
 }

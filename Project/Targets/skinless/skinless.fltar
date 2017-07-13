@@ -18,6 +18,6 @@
     GenerateGlossaryProxy="true" />
   <Destinations>
     <Destination
-      Link="/Project/Destinations/output_short_2016_JH.fldes" />
+      Link="/Project/Destinations/iftdss test.fldes" />
   </Destinations>
 </CatapultTarget>

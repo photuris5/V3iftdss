@@ -163,4 +163,24 @@
     <Map Name="_6_Compare" Link="/Content/Tutorials/CompareFeature/6_Compare.htm" />
     <Map Name="publishing" Link="/Content/zHelpProjectInfo/publishing.htm" />
     <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
+    <Map Name="CaseStudies" Link="/Content/AboutIFTDSS/CaseStudies.htm" />
+    <Map Name="Test" Link="/Content/AboutIFTDSS/Test.htm" />
+    <Map Name="GB_ModifyLandfireData" Link="/Content/Concepts/GB_ModifyLandfireData.htm" />
+    <Map Name="GB_Overview" Link="/Content/Concepts/GB_Overview.htm" />
+    <Map Name="UsingMasks" Link="/Content/Concepts/UsingMasks.htm" />
+    <Map Name="AccountPassword" Link="/Content/GetStarted/AccountPassword.htm" />
+    <Map Name="AccountProfile" Link="/Content/GetStarted/AccountProfile.htm" />
+    <Map Name="FTEMAbout" Link="/Content/PCMonitoring/FTEMAbout.htm" />
+    <Map Name="chs_updates" Link="/Content/zHelpProjectInfo/chs_updates.htm" />
+    <Map Name="IftTopicTemplate" Link="/Content/zHelpProjectInfo/IftTopicTemplate.htm" />
+    <Map Name="Resources" Link="/Content/Concepts/Resources.htm" />
+    <Map Name="cycle_implementation_plan_hh" Link="/Content/zHover/cycle_implementation_plan_hh.htm" />
+    <Map Name="cycle_intro_hh" Link="/Content/zHover/cycle_intro_hh.htm" />
+    <Map Name="cycle_landscape_eval_hh" Link="/Content/zHover/cycle_landscape_eval_hh.htm" />
+    <Map Name="cycle_monitoring_hh" Link="/Content/zHover/cycle_monitoring_hh.htm" />
+    <Map Name="cycle_reporting_hh" Link="/Content/zHover/cycle_reporting_hh.htm" />
+    <Map Name="cycle_strategic_plan_DTA_hh" Link="/Content/zHover/cycle_strategic_plan_DTA_hh.htm" />
+    <Map Name="cycle_strategic_plan_hh" Link="/Content/zHover/cycle_strategic_plan_hh.htm" />
+    <Map Name="myworkspace_folders_hh" Link="/Content/zHover/myworkspace_folders_hh.htm" />
+    <Map Name="myworkspace_intro_hh" Link="/Content/zHover/myworkspace_intro_hh.htm" />
 </CatapultAliasFile>
