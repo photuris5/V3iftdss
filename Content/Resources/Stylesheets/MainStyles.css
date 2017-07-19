@@ -83,7 +83,7 @@ div.ImagesFloatRight
 
 [class^=notification]
 {
-	width: 90%;
+	width: 65%;
 	margin: 12px;
 	/* Relative positioning on the parent
 	notification div allows us to absolutely 

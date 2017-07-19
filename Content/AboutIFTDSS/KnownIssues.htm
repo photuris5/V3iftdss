@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1814" MadCap:lastWidth="1214" MadCap:fileTags="Source.UIdaho">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2516" MadCap:lastWidth="1190" MadCap:fileTags="Source.UIdaho">
     <head>
     </head>
     <body>
@@ -74,10 +74,10 @@
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>
-                    <MadCap:keyword term="Shapefile Save" />Shapefile <MadCap:keyword term="Save" />Save Button not functional from <MadCap:variable name="General.MapStudio" />'s <span class="UIcomponent">Add Shapefile</span> Button</MadCap:dropDownHotspot>
+                    <MadCap:keyword term="Shapefile Save" />Uploaded Shapefile <MadCap:keyword term="Save" />Save Button not functional from <MadCap:variable name="General.MapStudio" />'s <span class="UIcomponent">Add Shapefile</span> Button</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>To permanently save a shape file so it can be saved for later use in <MadCap:variable name="General.ProductName" />, it must be saved using the <span class="UIcomponent">Edit Tools</span> button. Detailed instructions for this process are located in the <a href="../MapStudio/Files/ShapefileSaving.htm">Saving Shapefiles for Future Use Topic</a>.</p>
+                <p>To permanently save an uploaded shape file so it can be saved for later use in <MadCap:variable name="General.ProductName" />, it must be saved using the <span class="UIcomponent">Edit Tools</span> button. Detailed instructions for this process are located in the <a href="../MapStudio/Files/ShapefileSaving.htm">Saving Shapefiles for Future Use Topic</a>. Shape files created within <MadCap:variable name="General.ProductName" /></p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -105,6 +105,36 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>If your using IFTDSS landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See the <a href="../MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data Topic</a> for more information.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Zooming to a filtered mask sometimes zooms elsewhere</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When using the Filter to hide all but one mask on your landscape, it is possible that zooming into the extent of that mask will cause <MadCap:variable name="General.MapStudio" /> to zoom into a random region, requiring the user to scroll back to their area of interest. This issue is in the process of being addressed.</p>
+                <p>(7/12/17)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Wind Direction must be between 1-360 degrees</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Currently wind direction in the interface must be between 1-360 degrees, the system will not yet accept a wind direction of 0 degrees.</p>
+                <p>(7/12/17)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Error message:&#160;'Error requesting the model run:&#160;This operation cannot be performed while a Transaction is active.'</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The error message you encountered appears within Developing Treatment Alternatives Run Model tab, when you attempt to assign a run name that is already used elsewhere within your <MadCap:variable name="General.ProductName" /> account. To alleviate this error, use a new name for your run. </p>
+                <p>
+                    <img src="../Resources/Images/issues_errors/Error_DTA_behaviormodel.png" alt="Error message as described in text" style="width: 749px;height: 251px;" />
+                </p>
+                <p>(7/12/17)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

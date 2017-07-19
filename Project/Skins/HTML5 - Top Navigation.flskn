@@ -112,11 +112,11 @@
             Name="1st Level">
             <Properties>
               <Property
-                Name="BackgroundColor">#AFBFD0</Property>
-              <Property
                 Name="Color">#000000</Property>
               <Property
                 Name="FontWeight">bold</Property>
+              <Property
+                Name="BackgroundColor">#F6F6F6</Property>
             </Properties>
           </StyleClass>
         </Classes>
@@ -132,16 +132,18 @@
         Name="Search Submit Button">
         <Properties>
           <Property
-            Name="BackgroundColor">#e67d27</Property>
+            Name="BackgroundColor">#f5f5f5</Property>
         </Properties>
       </Style>
       <Style
         Name="Menu Item (hover)">
         <Properties>
           <Property
-            Name="BackgroundGradient">vertical transparent transparent</Property>
-          <Property
             Name="BackgroundColor">#293b49</Property>
+          <Property
+            Name="BackgroundGradient">vertical #293b49 #293b49</Property>
+          <Property
+            Name="Color">#ffffff</Property>
         </Properties>
         <Classes>
           <StyleClass
@@ -149,6 +151,19 @@
             <Properties />
           </StyleClass>
         </Classes>
+      </Style>
+      <Style
+        Name="Search Bar">
+        <Properties>
+          <Property
+            Name="BorderTopLeftRadius">0px</Property>
+          <Property
+            Name="BorderTopRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomRightRadius">0px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">0px</Property>
+        </Properties>
       </Style>
     </Styles>
   </Stylesheet>

@@ -157,7 +157,6 @@
     <Map Name="_0_Intro" Link="/Content/Tutorials/CompareFeature/0_Intro.htm" />
     <Map Name="_1_ProjectBegin" Link="/Content/Tutorials/CompareFeature/1_ProjectBegin.htm" />
     <Map Name="_2_CreateLCP" Link="/Content/Tutorials/CompareFeature/2_CreateLCP.htm" />
-    <Map Name="_3_Edit" Link="/Content/Tutorials/CompareFeature/3_Edit.htm" />
     <Map Name="_4_IdPriority" Link="/Content/Tutorials/CompareFeature/4_IdPriority.htm" />
     <Map Name="_5_treatmentPoly" Link="/Content/Tutorials/CompareFeature/5_treatmentPoly.htm" />
     <Map Name="_6_Compare" Link="/Content/Tutorials/CompareFeature/6_Compare.htm" />
@@ -165,7 +164,6 @@
     <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
     <Map Name="CaseStudies" Link="/Content/AboutIFTDSS/CaseStudies.htm" />
     <Map Name="Test" Link="/Content/AboutIFTDSS/Test.htm" />
-    <Map Name="GB_ModifyLandfireData" Link="/Content/Concepts/GB_ModifyLandfireData.htm" />
     <Map Name="GB_Overview" Link="/Content/Concepts/GB_Overview.htm" />
     <Map Name="UsingMasks" Link="/Content/Concepts/UsingMasks.htm" />
     <Map Name="AccountPassword" Link="/Content/GetStarted/AccountPassword.htm" />
