@@ -71,7 +71,7 @@
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>adiabatic</Term>
+      <Term>Adiabatic</Term>
     </Terms>
     <Definition
       Link="">The term "adiabatic" describes any process that occurs without heat transfer.
@@ -104,7 +104,7 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ladder fuels</Term>
+      <Term>Ladder Fuels</Term>
     </Terms>
     <Definition
       Link="">Fuels which provide vertical continuity between vegetation strata, thereby allowing fire to carry from surface fuels into the crowns of trees or shrubs with relative ease. They help initiate and facilitate the continuation of crowning.</Definition>
@@ -126,8 +126,8 @@ As defined by NWCG: Adiabatic process. Thermodynamic change of state in which no
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>lcp</Term>
-      <Term>landscape file</Term>
+      <Term>LCP</Term>
+      <Term>Landscape File</Term>
     </Terms>
     <Definition
       Link="">A Landscape file (.lcp) is a multi-band raster format commonly used by geospatial wildland fire behavior and fire effects models such as FlamMap and other fire models used in IFTDSS. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files contain information describing: 
@@ -156,7 +156,7 @@ Slope</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>canopy bulk density</Term>
+      <Term>Canopy Bulk Density</Term>
       <Term>CBD</Term>
     </Terms>
     <Definition
@@ -207,7 +207,7 @@ Slope</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>duff</Term>
+      <Term>Duff</Term>
     </Terms>
     <Definition
       Link="">Duff is the dark, partially to fully decomposed organic material (unrecognizable plant forms) above mineral soil and below the litter layer. Duff has two layers: an upper (fermentation) layer and a lower (humus) layer.
@@ -219,7 +219,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>litter</Term>
+      <Term>Litter</Term>
     </Terms>
     <Definition
       Link="">Litter is the leaves, needles, fine twigs (but not branches), and other recognizable organic material (such as leaves and flowers), on the forest or grassland floor that have undergone little or no decomposition. This layer sits on top of the duff layer.</Definition>
@@ -229,7 +229,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>forb</Term>
+      <Term>Forb</Term>
     </Terms>
     <Definition
       Link="">A forb is an herbaceous, flowering plant that is not a graminoid (that is, is not a sedge, rush, or true grass). Sometimes spelled phorb, especially in older works.</Definition>
@@ -239,7 +239,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Diameter at breast height</Term>
+      <Term>Diameter at Breast Height</Term>
       <Term>DBH</Term>
     </Terms>
     <Definition
@@ -251,7 +251,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>aspatial fuels treatment analysis</Term>
+      <Term>Aspatial Fuels Treatment Analysis</Term>
     </Terms>
     <Definition
       Link="">A fuels treatment analysis based on a single treatment unit, with the focus on learning fire behavior within that treatment unit, or on the biological effects of changing vegetation caused by the treatment implementation.</Definition>
@@ -317,7 +317,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire hazard</Term>
+      <Term>Fire Hazard</Term>
     </Terms>
     <Definition
       Link="">For IFTDSS, a fire hazard is an act or phenomenon with the potential to do harm.  It can be expressed as potential fire behavior (e.g., fire line intensity, crown scorch height), or a property of the fuels, such as fuel loading or vegetation biomass, or both. A fire hazard is independent of weather and describes the fuels at one point in time.</Definition>
@@ -327,7 +327,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire regime</Term>
+      <Term>Fire Regime</Term>
     </Terms>
     <Definition
       Link="">A general description of the role fire plays in an ecosystem. Fire regimes are generally described by the characteristics of fire in a given ecosystem, such as the size, frequency, predictability, intensity, biological severity, and seasonality of fire.</Definition>
@@ -337,7 +337,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire risk</Term>
+      <Term>Fire Risk</Term>
     </Terms>
     <Definition
       Link="">The chance that a fire might start based on the nature and incidence of its causative agents. Generally, for IFTDSS, fire risk is the probability that a fire ignites and then subsequently spreads to ignite adjacent fuels within a specified area and defined time frame (also see definition of risk from an engineering perspective).</Definition>
@@ -347,7 +347,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>graminoid</Term>
+      <Term>Graminoid</Term>
     </Terms>
     <Definition
       Link="">Sedges, rushes, and true grasses.</Definition>
@@ -368,7 +368,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>first order fire effects</Term>
+      <Term>First Order Fire Effects</Term>
     </Terms>
     <Definition
       Link="">Direct or indirect immediate consequences of fire. Examples of first order fire effects are biomass consumption, crown scorch, bole damage, tree mortality, soil heating, and smoke production.</Definition>
@@ -378,7 +378,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>bole</Term>
+      <Term>Bole</Term>
     </Terms>
     <Definition
       Link="">The trunk of a tree.</Definition>
@@ -388,7 +388,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>surface fuel</Term>
+      <Term>Surface Fuel</Term>
     </Terms>
     <Definition
       Link="">Surface fuels include the litter, grass, brush, and other dead and live vegetation within about 6 feet of the ground.</Definition>
@@ -398,9 +398,9 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fireline</Term>
-      <Term>fireguard</Term>
-      <Term>firebreak</Term>
+      <Term>Fireline</Term>
+      <Term>Fireguard</Term>
+      <Term>Firebreak</Term>
     </Terms>
     <Definition
       Link="">A fireline (also called a fireguard or firebreak) is a strip of open land (cleared or plowed to the mineral soil) that is used to stop the spread of a fire.</Definition>
@@ -410,7 +410,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>surface fire</Term>
+      <Term>Surface Fire</Term>
     </Terms>
     <Definition
       Link="">A fire that burns only the surface litter and fuels near the surface of the ground.</Definition>
@@ -420,7 +420,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>resource</Term>
+      <Term>Resource</Term>
     </Terms>
     <Definition
       Link="">1. The tools, equipment, services, supplies, and personnel available for assignment to incidents. 2. The natural resources of an area.</Definition>
@@ -430,7 +430,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>shrub</Term>
+      <Term>Shrub</Term>
     </Terms>
     <Definition
       Link="">Shrubs (also called brush or bushes) are woody perennial plants that differ from trees by their low height and multiple basal stems.</Definition>
@@ -440,7 +440,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>woody fuel</Term>
+      <Term>Woody Fuel</Term>
     </Terms>
     <Definition
       Link="">Woody fuels have a true woody stem. Woody fuels include sound wood, rotten wood, and stumps.</Definition>
@@ -450,7 +450,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>non-woody fuels</Term>
+      <Term>Non-Woody Fuels</Term>
     </Terms>
     <Definition
       Link="">Non-woody fuels lack a true woody stem; this is what distinguishes them from woody fuels.</Definition>
@@ -460,7 +460,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>cover type</Term>
+      <Term>Cover Type</Term>
     </Terms>
     <Definition
       Link="">The designation of a vegetation complex described by dominant species, age, and form.</Definition>
@@ -471,7 +471,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     IgnoreCase="false"
     conditions="General.Exclude">
     <Terms>
-      <Term>crown base height</Term>
+      <Term>Crown Base Height</Term>
     </Terms>
     <Definition
       Link="">The vertical distance from the ground to the bottom of the live crown of an individual tree (Scott and Reinhardt, 2001). This is also known as the canopy base height.</Definition>
@@ -481,7 +481,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>basal accumulation</Term>
+      <Term>Basal Accumulation</Term>
     </Terms>
     <Definition
       Link="">Accumulations of bark, downed woody debris, litter, and duff surrounding tree trunks.</Definition>
@@ -491,7 +491,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>squirrel midden</Term>
+      <Term>Squirrel Midden</Term>
     </Terms>
     <Definition
       Link="">A mound formed from the bits left behind after a squirrel finishes eating.</Definition>
@@ -501,7 +501,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuelbed</Term>
+      <Term>Fuelbed</Term>
     </Terms>
     <Definition
       Link="">A fuelbed is an area of similar fuel characteristics within a unit.  A fuelbed contains one or more fuelbed strata (e.g., canopy, shrubs, etc).</Definition>
@@ -511,7 +511,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ecoregions</Term>
+      <Term>Ecoregions</Term>
     </Terms>
     <Definition
       Link="">Ecosystems of regional extent. Usually refers to Bailey's 13 ecoregions. See Bailey’s Ecoregions.</Definition>
@@ -521,7 +521,7 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Bailey's ecoregions</Term>
+      <Term>Bailey's Ecoregions</Term>
     </Terms>
     <Definition
       Link="">Ecosystems of regional extent. Four levels of detail are included to show a hierarchy of ecosystems:
@@ -541,7 +541,7 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>surface rate of spread</Term>
+      <Term>Surface Rate of Spread</Term>
     </Terms>
     <Definition
       Link="">The "speed" at which a fire travels through the surface fuels.</Definition>
@@ -563,7 +563,7 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flaming front</Term>
+      <Term>Flaming Front</Term>
     </Terms>
     <Definition
       Link="">The zone of a moving fire where the combustion is primarily flaming. Behind this flaming zone, combustion is primarily smoldering.</Definition>
@@ -573,7 +573,7 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flame depth</Term>
+      <Term>Flame Depth</Term>
     </Terms>
     <Definition
       Link="">The depth of the flaming fire front.</Definition>
@@ -583,7 +583,7 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flame height</Term>
+      <Term>Flame Height</Term>
     </Terms>
     <Definition
       Link="">The average maximum vertical extension of flames at the leading edge of the fire front. Occasional flashes that rise above the general level of flames are not considered. This distance is less than the flame length if flames are tilted due to wind or slope.</Definition>
@@ -594,7 +594,7 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>wind adjustment factor</Term>
+      <Term>Wind Adjustment Factor</Term>
       <Term>WAF</Term>
     </Terms>
     <Definition
@@ -605,7 +605,7 @@ Ecoregions are: Tundra, subarctic, warm continental, hot continental, subtropica
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>canopy base height</Term>
+      <Term>Canopy Base Height</Term>
       <Term>CBH</Term>
     </Terms>
     <Definition
@@ -618,7 +618,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fireline intensity</Term>
+      <Term>Fireline Intensity</Term>
     </Terms>
     <Definition
       Link="">The heat energy released per unit time from a one-foot-wide (or one-meter-wide) section of the fuel bed extending from the front to the rear of the flaming zone.  Fireline intensity is a function of rate of spread and heat per unit area, and is directly related to flame length.</Definition>
@@ -638,7 +638,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>foliar moisture</Term>
+      <Term>Foliar Moisture</Term>
     </Terms>
     <Definition
       Link="">The moisture content of the overstory foliage, the conifer needles. It is used along with fireline intensity and canopy base height to determine the threshold for transition to crown fire.</Definition>
@@ -648,7 +648,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>rate of spread</Term>
+      <Term>Rate of Spread</Term>
     </Terms>
     <Definition
       Link="">The relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front. Usually it is expressed in chains or acres per hour.</Definition>
@@ -658,7 +658,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>reaction intensity</Term>
+      <Term>Reaction Intensity</Term>
     </Terms>
     <Definition
       Link="">The rate of the energy release per area (square foot or square meter) within the flaming front. There can be different types of reaction intensity, such as for dead fuels or live fuels.</Definition>
@@ -668,7 +668,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>epiphytes</Term>
+      <Term>Epiphytes</Term>
     </Terms>
     <Definition
       Link="">Non-parasitic plants that grow on other plants, such as bromeliads, many types of ferns, orchids, and air plants. An epiphyte depends on the plant it is growing on for mechanical support only; it doesn't depend on it for nutrients.</Definition>
@@ -678,7 +678,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>epicormic sprouting</Term>
+      <Term>Epicormic Sprouting</Term>
     </Terms>
     <Definition
       Link="">Sprouting that comes from buds that normally lie dormant under the bark of a trunk, stem, or branch of a plant.</Definition>
@@ -698,7 +698,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>lichen</Term>
+      <Term>Lichen</Term>
     </Terms>
     <Definition
       Link="">A forest floor layer comprising ground lichens occurring on rocks, bare ground, or low vegetation.</Definition>
@@ -708,7 +708,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>moss</Term>
+      <Term>Moss</Term>
     </Terms>
     <Definition
       Link="">A forest floor layer comprising low-growing bryophytes. Bryophytes are usually found in moist habitats.</Definition>
@@ -718,7 +718,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>bryophytes</Term>
+      <Term>Bryophytes</Term>
     </Terms>
     <Definition
       Link="">Land plants that do not have true vascular tissue.</Definition>
@@ -728,7 +728,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>canopy</Term>
+      <Term>Canopy</Term>
     </Terms>
     <Definition
       Link="">The stratum containing the crowns of the tallest vegetation present (living or dead), usually above 20 feet. (Source: NWCG Glossary of Wildland Fire Terminology.)</Definition>
@@ -738,8 +738,8 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>lightered wood</Term>
-      <Term>fatwood</Term>
+      <Term>Lightered Wood</Term>
+      <Term>Fatwood</Term>
     </Terms>
     <Definition
       Link="">Lightwood (fatwood, lightered wood or stumps, stumpwood): coniferous wood having an abnormally high content of resin and therefore easily set alight (afire). (From Burns and Honkala v.2, 1990)</Definition>
@@ -749,7 +749,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>spotting distance</Term>
+      <Term>Spotting Distance</Term>
     </Terms>
     <Definition
       Link="">The maximum distance from different possible sources (e.g., burning piles, torching trees, or wind-driven surface fires) where one can expect potential spot fires.</Definition>
@@ -770,7 +770,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>palmetto-gallberry</Term>
+      <Term>Palmetto-Gallberry</Term>
     </Terms>
     <Definition
       Link="">Palmetto-gallberry (P-G) is a fuel type. It is "the complex association of saw-palmetto [Serenoa repens (Bartr.) Small] and common gallberry [llex glabra (L.) Gray] with many other plants beneath slash pines (Pinus elliottii Engelm.) or mixtures of slash and longleaf pine (P. palustris Mill.). Openings frequently contain small shrubs [Vaccinium spp., Quercus spp., and Kalmiella hirsuta (Walt.) Small] and wiregrass (Aristida spp.). Palmetto and gallberry are two of the most common plants occurring in forest understories on the Lower Coastal Plain of the Southern United States." (Hough and Albini, 1978)</Definition>
@@ -782,7 +782,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     IgnoreCase="false">
     <Terms>
       <Term>CONTAIN</Term>
-      <Term>IFT-contain</Term>
+      <Term>IFT-Contain</Term>
     </Terms>
     <Definition
       Link="">A model for estimating the fire suppression resources necessary for containing a fire that is growing from a point source. See also "containment resources."</Definition>
@@ -865,7 +865,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     IgnoreCase="false"
     conditions="General.Exclude">
     <Terms>
-      <Term>crosswalk</Term>
+      <Term>Crosswalk</Term>
     </Terms>
     <Definition
       Link="">A method for transitioning from one or more of the original 13 fuel models to one or more of the 40 new models, or vice versa.</Definition>
@@ -898,7 +898,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>slope</Term>
+      <Term>Slope</Term>
     </Terms>
     <Definition
       Link="">The ratio of the elevational change (rise) over a horizontal distance (run). Generally expressed in degrees or percent.</Definition>
@@ -908,7 +908,7 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>crown fire</Term>
+      <Term>Crown Fire</Term>
     </Terms>
     <Definition
       Link="">A fire that burns the forest or shrub canopy. Torching is classified as passive crown fire.
@@ -934,8 +934,8 @@ As defined by NWCG: A fire that advances from top to top of trees or shrubs more
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>extinction moisture</Term>
-      <Term>moisture of extinction</Term>
+      <Term>Extinction Moisture</Term>
+      <Term>Moisture of Extinction</Term>
     </Terms>
     <Definition
       Link="">The percentage of moisture content in fuel at which a fire will not spread through that fuel, or spreads only sporadically and in an unpredictable manner. The percentage of moisture that constitutes moisture of extinction depends on fuel characteristics and situations.
@@ -947,7 +947,7 @@ Defined by NWCG as: The fuel moisture content, weighed over all the fuel classes
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>needle drape</Term>
+      <Term>Needle Drape</Term>
     </Terms>
     <Definition
       Link="">Dead needles hanging in the understory canopy or at the shrub level. Needle drape is an aerial fuel.</Definition>
@@ -957,7 +957,7 @@ Defined by NWCG as: The fuel moisture content, weighed over all the fuel classes
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>blowdown</Term>
+      <Term>Blowdown</Term>
     </Terms>
     <Definition
       Link="">Trees that have been blown down by the wind.
@@ -970,7 +970,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>workflow</Term>
+      <Term>Workflow</Term>
     </Terms>
     <Definition
       Link="">A set of modeling pathways that provide access to fuels treatment analysis and planning tools in a stepwise and intuitive manner. Each workflow addresses a particular business need.</Definition>
@@ -991,7 +991,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel model</Term>
+      <Term>Fuel Model</Term>
     </Terms>
     <Definition
       Link="">A fuel model is a set of information on the fuelbed inputs to be used in specific fire behavior or fire effects models. Anderson (1982) proposed 13 fuel models; Scott and Burgan (2005) proposed an additional 40.</Definition>
@@ -1031,7 +1031,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>understory</Term>
+      <Term>Understory</Term>
     </Terms>
     <Definition
       Link="">The area of the forest in which plants are growing  at the lowest height level under the forest canopy. Typical plants include small trees, shrubs, herbs, vines, and small canopy trees that haven't yet made it to the top.</Definition>
@@ -1041,7 +1041,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>slash</Term>
+      <Term>Slash</Term>
     </Terms>
     <Definition
       Link="">The coarse and fine woody debris generated by natural processes (such as wind) or by mechanical processes such as logging operations.</Definition>
@@ -1051,7 +1051,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>timber</Term>
+      <Term>Timber</Term>
     </Terms>
     <Definition
       Link="">Trees; also, the wood from trees. Typically, a tree is a perennial woody plant with a single main trunk and and many secondary branches. A group of trees is called a stand, wood, timber, or forest, with number of trees determining which term is preferred.</Definition>
@@ -1061,7 +1061,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>grass</Term>
+      <Term>Grass</Term>
     </Terms>
     <Definition
       Link="">Graminoids: herbaceous plants with narrow leaves growing from the base. The term "grasses" includes both the true grasses (cereals, bamboo, and grasses) as well as sedges and rushes (marsh and grassland plants).</Definition>
@@ -1071,7 +1071,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>acre</Term>
+      <Term>Acre</Term>
     </Terms>
     <Definition
       Link="">A measure of land used in the Imperial and US systems; 43,560 square feet or 4,840 square yards. There are 640 acres in one square mile. One acre is 0.405 hectares.</Definition>
@@ -1081,7 +1081,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>hectare</Term>
+      <Term>Hectare</Term>
     </Terms>
     <Definition
       Link="">A metric measure of area, usually applied to land, defined as 10,000 square meters. A hectare of land is about 2.47 acres.</Definition>
@@ -1091,7 +1091,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel moisture</Term>
+      <Term>Fuel Moisture</Term>
     </Terms>
     <Definition
       Link="">Moisture content in fuels determines whether and to what extent fuels will burn. Fuel moisture is a percentage calculated by the weight of contained water in the fuel divided by the ovendry weight of the fuel.</Definition>
@@ -1101,7 +1101,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel</Term>
+      <Term>Fuel</Term>
     </Terms>
     <Definition
       Link="">Combustable materials that a fire consumes in order to burn.</Definition>
@@ -1111,7 +1111,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flash point</Term>
+      <Term>Flash Point</Term>
     </Terms>
     <Definition
       Link="">The temperature at which a combination of fuel and an oxidizer will ignite.</Definition>
@@ -1133,7 +1133,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>project</Term>
+      <Term>Project</Term>
     </Terms>
     <Definition
       Link="">A project consists of one or more units that are organized and managed as a single endeavor.</Definition>
@@ -1143,7 +1143,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>unit</Term>
+      <Term>Unit</Term>
     </Terms>
     <Definition
       Link="">A unit encompasses a single or group of fuelbeds that are part of a fuel treatment (e.g., harvest unit, prescribed burn unit) or wildland fire.</Definition>
@@ -1153,7 +1153,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuelbed stratum</Term>
+      <Term>Fuelbed Stratum</Term>
     </Terms>
     <Definition
       Link="">A fuelbed stratum is a horizontal layer of a fuelbed that represents a combustion environment. Fuelbed strata can include canopy, shrub, nonwoody vegetation (i.e., grasses, forbs and herbs), woody fuel, moss, lichen, litter, and ground fuels.</Definition>
@@ -1164,7 +1164,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel category</Term>
+      <Term>Fuel Category</Term>
     </Terms>
     <Definition
       Link="">Each fuelbed stratum is composed of one or more fuel categories, each of which comprises a unique combustion environment. Examples of fuel categories in the ground fuel stratum include duff and basal accumulation.  Fuel categories may also have subcategories. For example, the canopy stratum has three categories, including trees, snags, and ladder fuels. In turn, the tree category has three subcategories, including overstory, midstory, and understory trees.</Definition>
@@ -1174,7 +1174,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>combustion stage</Term>
+      <Term>Combustion Stage</Term>
     </Terms>
     <Definition
       Link="">In simple terms of burning biomass the three stages of the combustion process are Ignition or incipient, flaming or free burning, and smoldering or glowing.</Definition>
@@ -1184,7 +1184,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>consumption</Term>
+      <Term>Consumption</Term>
     </Terms>
     <Definition
       Link="">The amount of a specified fuel type or strata that is removed through the fire process, often expressed as a percentage of the preburn weight.</Definition>
@@ -1194,7 +1194,7 @@ As defined by NWCG: Blow Down - An area of previously standing timber which has 
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>emissions</Term>
+      <Term>Emissions</Term>
     </Terms>
     <Definition
       Link="">Pollutants produced from combustion. For example, emissions can be carbon monoxide and particulate matter that are released to the atmosphere from the combustion of biomass. 
@@ -1206,7 +1206,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel loading</Term>
+      <Term>Fuel Loading</Term>
     </Terms>
     <Definition
       Link="">The amount of fuel present expressed quantitatively in terms of weight of fuel per unit area. At a landscape level is commonly expressed as tons per acre.</Definition>
@@ -1228,7 +1228,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>handline</Term>
+      <Term>Handline</Term>
     </Terms>
     <Definition
       Link="">A fire break that is dug or scraped manually using hand tools.</Definition>
@@ -1238,7 +1238,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>foehn wind</Term>
+      <Term>Foehn Wind</Term>
     </Terms>
     <Definition
       Link="">Foehn (föhn) winds are dry, down-slope winds that occur on the leeward (downwind, rain shadow) side of a mountain range. This type of wind is also sometimes called a Chinook wind. The process for the creation of these winds is adiabatic warming of air that dropped its moisture on the windward side of the mountain. Föhn winds can raise air temperatures dramatically (30°C/54°F) in just a few hours and can contribute to the rapid spread of wildland fires. These winds are known by different names in different places around the world. The Santa Ana winds of southern California are similar, though they are are katabatic winds that originate in dry deserts.</Definition>
@@ -1248,7 +1248,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>katabatic</Term>
+      <Term>Katabatic</Term>
     </Terms>
     <Definition
       Link="">A katabatic wind carries high density air from a higher elevation downslope under the force of gravity. The air warms adiabatically as it descends.</Definition>
@@ -1258,7 +1258,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>model</Term>
+      <Term>Model</Term>
     </Terms>
     <Definition
       Link="">A model is a set of mathematical relationships that describe an aspect of wildland fire (Andrews and Queen, 2001); generally, models are equations that are published in scientific literature.</Definition>
@@ -1270,8 +1270,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     IgnoreCase="false">
     <Terms>
       <Term>HVR</Term>
-      <Term>highly valued resources</Term>
-      <Term>values at risk</Term>
+      <Term>Highly Valued Resources</Term>
+      <Term>Values at Risk</Term>
     </Terms>
     <Definition
       Link="">Features on the landscape that are influenced positively and/or negatively by fire. These features are called values at risk or highly valued resources (HVR). Examples of values at risk include archaeological sites, historic buildings, wildland urban interface, airports, highway buffers, and conifer forests.</Definition>
@@ -1283,8 +1283,8 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     IgnoreCase="false">
     <Terms>
       <Term>NVC</Term>
-      <Term>net value change</Term>
-      <Term>relative net value change</Term>
+      <Term>Net Value Change</Term>
+      <Term>Relative Net Value Change</Term>
     </Terms>
     <Definition
       Link="">Relative net value change is the main output of the risk assessment pathways in IFTDSS. The relative net value change in land value due to fire is assumed to be a function of fire behavior, and includes both positive and negative effects for fire. For more information, see Calkin et al 2010a.</Definition>
@@ -1304,7 +1304,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>burn probability</Term>
+      <Term>Burn Probability</Term>
     </Terms>
     <Definition
       Link="">The likelihood that an area will burn. In IFTDSS, this is more specifically defined as the likelihood that an area represented by a pixel will burn under specific conditions.</Definition>
@@ -1315,7 +1315,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>response function</Term>
+      <Term>Response Function</Term>
     </Terms>
     <Definition
       Link="">The mathematical relationship between fire characteristic and fire outcome.</Definition>
@@ -1326,7 +1326,7 @@ Defined by NWCG as: A release of combustion gases and aerosols into the atmosphe
     IgnoreCase="false">
     <Terms>
       <Term>FBPS</Term>
-      <Term>Fire behavior prediction system</Term>
+      <Term>Fire Behavior Prediction System</Term>
     </Terms>
     <Definition
       Link="">A fire behavior prediction system (FBPS) uses one or more fire behavior fuel models. A fire behavior fuel model describes how fire is likely to behave based on natural fuel conditions. Using Rothermel's 1972 seminal work, Anderson (1982) originally described 13 fire behavior fuel models. Later, Scott and Burgan (2005) added 40 more fire behavior fuel models.
@@ -1338,7 +1338,7 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>activity fuel</Term>
+      <Term>Activity Fuel</Term>
     </Terms>
     <Definition
       Link="">Fuels resulting from, or altered by, forestry practices such as timber harvest or thinning, as opposed to naturally created fuels (for a definition of naturally created fuels see Natural Fuels).</Definition>
@@ -1348,7 +1348,7 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>natural fuel</Term>
+      <Term>Natural Fuel</Term>
     </Terms>
     <Definition
       Link="">Fuels resulting from natural processes and not directly generated or altered by land management practices.</Definition>
@@ -1369,7 +1369,7 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>time lag</Term>
+      <Term>Time Lag</Term>
     </Terms>
     <Definition
       Link="">The length of time that a particle responds to within 63.2% of the new equilibrium moisture content (either drying or wetting). Larger diameter fuels generally have longer time-lags, meaning they respond more slowly to changes in environmental conditions.</Definition>
@@ -1379,7 +1379,7 @@ Defined by NWCG as: A system that uses a set of mathematical equations to predic
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>drop down menu</Term>
+      <Term>Dropdown menu</Term>
     </Terms>
     <Definition
       Link="">Any menu or field in which options drop down to be selected by the user.</Definition>
@@ -1401,7 +1401,7 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>stage</Term>
+      <Term>Stage</Term>
     </Terms>
     <Definition
       Link="">As used in 'stage of the planning cycle'. Stages of the Planning Cycle correspond to stages of the landscape planning process and include:
@@ -1417,7 +1417,7 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>task</Term>
+      <Term>Task</Term>
     </Terms>
     <Definition
       Link="">As used in 'select a task from the Landscape Evaluation stage of the IFTDSS Planning Cycle. Task refers to a specific operation within a stage of the IFTDSS Planning Cycle. For example, some tasks in the Landscape Evaluation stage include 'generating a landscape summary', and 'model fire behavior'.</Definition>
@@ -1458,9 +1458,9 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>shapefile</Term>
-      <Term>area of interest</Term>
-      <Term>polygon</Term>
+      <Term>Shapefile</Term>
+      <Term>Area of Interest</Term>
+      <Term>Polygon</Term>
     </Terms>
     <Definition
       Link="">A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. 
@@ -1477,8 +1477,8 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire behavior fuel models</Term>
-      <Term>fbfm</Term>
+      <Term>Fire Behavior Fuel Models</Term>
+      <Term>FBFM</Term>
     </Terms>
     <Definition
       Link="">A fire behavior fuel model (fbfm) is a set of fuelbed inputs needed by a particular fire behavior or fire effects model. There are two types of fire behavior fuel models used by IFTDSS.</Definition>
@@ -1488,7 +1488,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Anderson 13 fire behavior fuel models</Term>
+      <Term>Anderson 13 Fire Behavior Fuel Models</Term>
     </Terms>
     <Definition
       Link="">The original 13 fire behavior fuel models, represents severe fire conditions</Definition>
@@ -1498,7 +1498,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Scott and Burgan 40 fire behavior fuel models</Term>
+      <Term>Scott and Burgan 40 Fire Behavior Fuel Models</Term>
     </Terms>
     <Definition
       Link="">Fire behavior fuel model prediction system developed by Joe Scott and Robert Burgan employing 40 fuel models. These 40 models increased the existing 13 fuel models and among other things improve fire behavior predictions outside the severe period of fire season, such as use in prescribed fire and multiple objective fire management applications.</Definition>
@@ -1508,7 +1508,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>canopy height</Term>
+      <Term>Canopy Height</Term>
     </Terms>
     <Definition
       Link="">The average height of the top of the vegetated canopy</Definition>
@@ -1518,7 +1518,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>canopy cover</Term>
+      <Term>Canopy Cover</Term>
     </Terms>
     <Definition
       Link="">The proportion of the forest floor covered by the vertical projection of the tree crowns.</Definition>
@@ -1528,7 +1528,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>landscape fire behavior</Term>
+      <Term>Landscape Fire Behavior</Term>
       <Term>LFB</Term>
     </Terms>
     <Definition
@@ -1559,7 +1559,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Extracted unedited landscape (LANDFIRE)</Term>
+      <Term>Extracted Unedited Landscape (LANDFIRE)</Term>
     </Terms>
     <Definition
       Link="">Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to select in Develop Treatment Alternatives when you are prompted to “Pick Landscape”. IFTDSS will always retain this original version under the name you have chosen.</Definition>
@@ -1569,8 +1569,8 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Edited (Alternative) landscape</Term>
-      <Term>Alternative landscape</Term>
+      <Term>Edited (Alternative) Landscape</Term>
+      <Term>Alternative Landscape</Term>
     </Terms>
     <Definition
       Link="">New landscape saved during a landscape editing session where an edit rule has been applied, such as edits made to create an Existing Condition (EC)(defined below) or to reflect post-treatment conditions that would result from a fuel treatment alternative. You may check to see if editing rules have been applied to a landscape by selecting the landscape in question from My Workspace View and then selecting the view edit rules button.</Definition>
@@ -1580,8 +1580,8 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Existing Condition (EC) landscape</Term>
-      <Term>EC landscape</Term>
+      <Term>Existing Condition (EC) Landscape</Term>
+      <Term>EC Landscape</Term>
     </Terms>
     <Definition
       Link="">Existing Condition (EC) landscape is a term used specifically in the Developing Treatment Alternatives task of IFTDSS. it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Extracted unedited landscapes can be used to represent EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes. You will see this term used when comparing treatment alternatives in IFTDSS.</Definition>
@@ -1601,7 +1601,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>active crown fire</Term>
+      <Term>Active Crown Fire</Term>
     </Terms>
     <Definition
       Link="">A fire in which a solid flame develops in the crowns of trees, but the surface and crown phases advance as a linked unit dependent on each other.</Definition>
@@ -1611,7 +1611,7 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>aerial fuels</Term>
+      <Term>Aerial Fuels</Term>
     </Terms>
     <Definition
       Link="">Standing and supported live and dead combustibles not in direct contact with the ground and consisting mainly of foliage, twigs, branches, stems, cones, bark, and vines. 
@@ -1623,7 +1623,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>aspect</Term>
+      <Term>Aspect</Term>
     </Terms>
     <Definition
       Link="">Cardinal direction toward which a slope faces.</Definition>
@@ -1633,7 +1633,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>available fuel</Term>
+      <Term>Available Fuel</Term>
     </Terms>
     <Definition
       Link="">The portion of the total fuel that would actually burn under various environmental conditions.</Definition>
@@ -1643,7 +1643,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>backing fire</Term>
+      <Term>Backing Fire</Term>
     </Terms>
     <Definition
       Link="">1) Fire spreading, or ignited to spread, into (against) the wind or downslope. A fire spreading on level ground in the absence of wind is a backing fire.
@@ -1655,7 +1655,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>barrier</Term>
+      <Term>Barrier</Term>
     </Terms>
     <Definition
       Link="">Any obstruction to the spread of fire. Typically an area or strip devoid of combustible fuel.</Definition>
@@ -1665,8 +1665,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>benefits</Term>
-      <Term>fire benefits</Term>
+      <Term>Benefits</Term>
+      <Term>Fire Benefits</Term>
     </Terms>
     <Definition
       Link="">Something that represents, promotes or enhances a desired outcome, being of positive value and contributing to the attainment of organizational goals. Benefits represent one end of the spectrum of outcomes from fire, with the opposite end being harm, loss or damage.</Definition>
@@ -1676,7 +1676,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>brush</Term>
+      <Term>Brush</Term>
     </Terms>
     <Definition
       Link="">A collective term that refers to stands of vegetation dominated by shrubby, woody plants, or low growing trees.</Definition>
@@ -1686,7 +1686,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Buildup index</Term>
+      <Term>Buildup Index</Term>
       <Term>BUI</Term>
     </Terms>
     <Definition
@@ -1697,7 +1697,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>bulk density</Term>
+      <Term>Bulk Density</Term>
     </Terms>
     <Definition
       Link="">Weight per unit volume. For fuels, this is usually expressed as pounds per cubic foot; for soils, grams per cubic centimeter.</Definition>
@@ -1707,7 +1707,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>burn block</Term>
+      <Term>Burn Block</Term>
     </Terms>
     <Definition
       Link="">A discrete area within a larger prescribed fire project.</Definition>
@@ -1717,7 +1717,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Burning index</Term>
+      <Term>Burning Index</Term>
       <Term>BI</Term>
     </Terms>
     <Definition
@@ -1728,8 +1728,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>burn severity</Term>
-      <Term>fire severity</Term>
+      <Term>Burn Severity</Term>
+      <Term>Fire Severity</Term>
     </Terms>
     <Definition
       Link="">A qualitative assessment of the heat pulse during a fire. Burn severity relates to soil heating, large fuel and duff consumption, consumption of the litter and organic layer beneath trees and isolated shrubs, and mortality of plant parts.</Definition>
@@ -1750,7 +1750,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>chain</Term>
+      <Term>Chain</Term>
     </Terms>
     <Definition
       Link="">A unit of measure in land survey, equal to 66 feet (20 m) (80 chains equals 1 mile). Commonly used to report fire perimeters and other fireline distances, this unit is popular in fire management because of its convenience in calculating acreage (e.g., 10 square chains equal one acre).</Definition>
@@ -1760,7 +1760,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>curing</Term>
+      <Term>Curing</Term>
     </Terms>
     <Definition
       Link="">Drying and browning of herbaceous vegetation due to mortality or senescence, and also loss of live fuel moisture content of woody fuel following mechanically-caused mortality (e.g., woody debris slash.)</Definition>
@@ -1770,7 +1770,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>dead fuels</Term>
+      <Term>Dead Fuels</Term>
     </Terms>
     <Definition
       Link="">Fuels with no living tissue in which moisture content is governed almost entirely by absorption or evaporation of atmospheric moisture (relative humidity and precipitation).</Definition>
@@ -1780,7 +1780,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ecosystem</Term>
+      <Term>Ecosystem</Term>
     </Terms>
     <Definition
       Link="">An interacting natural system including all the component organisms together with the abiotic environment and processes affecting them.</Definition>
@@ -1790,7 +1790,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Energy release component</Term>
+      <Term>Energy Release Component</Term>
       <Term>ERC</Term>
     </Terms>
     <Definition
@@ -1801,7 +1801,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Equilibrium moisture content</Term>
+      <Term>Equilibrium Moisture Content</Term>
       <Term>EMC</Term>
     </Terms>
     <Definition
@@ -1812,7 +1812,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire behavior</Term>
+      <Term>Fire Behavior</Term>
     </Terms>
     <Definition
       Link="">The manner in which a fire reacts to the influences of fuel, weather, and topography.</Definition>
@@ -1822,9 +1822,9 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>loss</Term>
-      <Term>fire damage</Term>
-      <Term>fire loss</Term>
+      <Term>Loss</Term>
+      <Term>Fire Damage</Term>
+      <Term>Fire Loss</Term>
     </Terms>
     <Definition
       Link="">Detrimental fire effects expressed in monetary or other units, including the unfavorable effects of fire-induced changes in the resource base on the attainment of organizational goals.</Definition>
@@ -1834,7 +1834,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire effects</Term>
+      <Term>Fire Effects</Term>
     </Terms>
     <Definition
       Link="">The physical, biological, and ecological impacts of fire on the environment.</Definition>
@@ -1844,7 +1844,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire management objective</Term>
+      <Term>Fire Management Objective</Term>
     </Terms>
     <Definition
       Link="">Planned, measurable result desired from fire management and use based on land management goals and objectives.</Definition>
@@ -1854,7 +1854,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire season</Term>
+      <Term>Fire Season</Term>
     </Terms>
     <Definition
       Link="">Period(s) of the year during which wildland fires are likely to occur, spread, and affect resources values sufficient to warrant organized fire management activities.</Definition>
@@ -1875,7 +1875,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flame length</Term>
+      <Term>Flame Length</Term>
     </Terms>
     <Definition
       Link="">The flame length of a spreading surface fire within the flaming front is measured from midway in the active flaming combustion zone to the average tip of the flames. Flame length is an indicator of fire intensity.</Definition>
@@ -1885,7 +1885,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flame length class</Term>
+      <Term>Flame Length Class</Term>
     </Terms>
     <Definition
       Link="">Flame lengths are divided into classes low, medium, high, and very high based on flame length.</Definition>
@@ -1895,7 +1895,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flammability</Term>
+      <Term>Flammability</Term>
     </Terms>
     <Definition
       Link="">The relative ease with which fuels ignite and burn regardless of the quantity of the fuels.</Definition>
@@ -1905,7 +1905,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>flash fuels</Term>
+      <Term>Flash Fuels</Term>
     </Terms>
     <Definition
       Link="">Highly combustible fine fuels such as grass, leaves, draped pine needles, fern, tree moss and some kinds of slash, which ignite readily and are consumed rapidly when dry.</Definition>
@@ -1915,7 +1915,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel characteristics</Term>
+      <Term>Fuel Characteristics</Term>
     </Terms>
     <Definition
       Link="">Factors that make up fuels such as compactness, loading, horizontal continuity, vertical arrangement, chemical content, size and shape, and moisture content.</Definition>
@@ -1925,7 +1925,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel continuity</Term>
+      <Term>Fuel Continuity</Term>
     </Terms>
     <Definition
       Link="">The degree or extent of continuous or uninterrupted distribution of fuel particles in a fuel bed thus affecting a fire's ability to sustain combustion and spread. This applies to aerial fuels as well as surface fuels.</Definition>
@@ -1935,8 +1935,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fuel treatment</Term>
-      <Term>fuel reduction</Term>
+      <Term>Fuel Treatment</Term>
+      <Term>Fuel Reduction</Term>
     </Terms>
     <Definition
       Link="">Manipulation or removal of fuels to reduce the likelihood of ignition and/or to lessen potential damage and resistance to control (e.g., lopping, chipping, crushing, piling and burning).</Definition>
@@ -1946,7 +1946,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>green-up</Term>
+      <Term>Green-up</Term>
     </Terms>
     <Definition
       Link="">The beginning of a new cycle of plant growth. Green-up usually occurs once a year, except in desert areas where rainy periods can produce a flush of new growth more than once a year. Green-up may be signaled at different dates for different fuel models.</Definition>
@@ -1956,7 +1956,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ground fuel</Term>
+      <Term>Ground Fuel</Term>
     </Terms>
     <Definition
       Link="">All combustible materials below the surface litter, including duff, tree or shrub roots, punky wood, peat, and sawdust, that normally support a glowing combustion without flame.</Definition>
@@ -1966,7 +1966,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>hazard fuel</Term>
+      <Term>Hazard Fuel</Term>
     </Terms>
     <Definition
       Link="">A fuel complex defined by kind, arrangement, volume, condition, and location that presents a threat of ignition and resistance to control.</Definition>
@@ -1976,8 +1976,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>heavy fuels</Term>
-      <Term>coarse fuels</Term>
+      <Term>Heavy Fuels</Term>
+      <Term>Coarse Fuels</Term>
     </Terms>
     <Definition
       Link="">Heavy, or coarse, fuels are fuels of large diameter such as snags, logs, large limbwood, which ignite and are consumed more slowly than flash fuels</Definition>
@@ -1987,8 +1987,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>herbaceous fuel moisture</Term>
-      <Term>herb FM</Term>
+      <Term>Herbaceous Fuel Moisture</Term>
+      <Term>Herb FM</Term>
     </Terms>
     <Definition
       Link="">A value representing the approximate moisture content of the live herbaceous vegetation expressed as a percentage of the oven dry weight of the sample.</Definition>
@@ -1998,7 +1998,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>herb</Term>
+      <Term>Herb</Term>
     </Terms>
     <Definition
       Link="">A plant that does not develop woody, persistent tissue but is relatively soft or succulent and sprouts from the base (perennials) or develops from seed (annuals) each year. Includes grasses, forbs and ferns.</Definition>
@@ -2008,7 +2008,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>hydrolic unit code</Term>
+      <Term>Hydrolic Unit Code</Term>
       <Term>HUC</Term>
     </Terms>
     <Definition
@@ -2019,7 +2019,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>Independent crown fire</Term>
+      <Term>Independent Crown Fire</Term>
     </Terms>
     <Definition
       Link="">A fire that advances in the tree crowns alone, not requiring any energy from the surface fire to sustain combustion or movement. Also called running crown fire. Current spatial fire behavior models can not predict the occurrence or spread of this type of crown fire.</Definition>
@@ -2029,8 +2029,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>landscape mask</Term>
-      <Term>mask</Term>
+      <Term>Landscape Mask</Term>
+      <Term>Mask</Term>
     </Terms>
     <Definition
       Link="">A mask or landscape mask is a shapefile (polygon) used to represent a particular area on a landscape. When editing a landscape you may choose a Landscape Mask (Shapefile) to edit only the area within that mask. Shapefiles may be used for other purposes in IFTDSS in addition to landscape masks.</Definition>
@@ -2040,7 +2040,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>land use plan</Term>
+      <Term>Land Use Plan</Term>
     </Terms>
     <Definition
       Link="">A set of decisions that establish management direction for land within an administrative area; an assimilation of land-use-plan-level decisions developed through the planning process regardless of the scale at which the decisions were developed.</Definition>
@@ -2050,9 +2050,9 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>land management plan</Term>
+      <Term>Land Management Plan</Term>
       <Term>LMP</Term>
-      <Term>resource management plan</Term>
+      <Term>Resource Management Plan</Term>
       <Term>RMP</Term>
     </Terms>
     <Definition
@@ -2063,8 +2063,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>light fuels</Term>
-      <Term>fine fuels</Term>
+      <Term>Light Fuels</Term>
+      <Term>Fine Fuels</Term>
     </Terms>
     <Definition
       Link="">Fast-drying fuels, generally with a comparatively high surface area-to-volume ratio, which are less than 1/4-inch in diameter and have a timelag of 1 hour or less. These fuels readily ignite and are rapidly consumed by fire when dry.</Definition>
@@ -2074,7 +2074,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>live fuel moisture content</Term>
+      <Term>Live Fuel Moisture Content</Term>
     </Terms>
     <Definition
       Link="">Ratio of the amount of water to the amount of dry plant material in living plants expressed as a percent. Because live plant cell tissue is able to hold more than its own weight in moisture, live fuel moisture can range up to 300%.</Definition>
@@ -2084,7 +2084,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>live fuels</Term>
+      <Term>Live Fuels</Term>
     </Terms>
     <Definition
       Link="">Living plants, such as trees, grasses, and shrubs, in which the seasonal moisture content cycle is controlled largely by internal physiological mechanisms, rather than by external weather influences.</Definition>
@@ -2094,7 +2094,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>mid-flame windspeed</Term>
+      <Term>Mid-Flame Windspeed</Term>
     </Terms>
     <Definition
       Link="">The speed of the wind measured at the midpoint of the flames, considered to be most representative of the speed of the wind that is affecting fire behavior. Fire behavior models calculate mid-flame windspeed from 20 foot winds using a wind reduction factor.</Definition>
@@ -2104,7 +2104,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>mineral soil</Term>
+      <Term>Mineral Soil</Term>
     </Terms>
     <Definition
       Link="">Soil layers below the predominantly organic horizons; soil with little combustible material.</Definition>
@@ -2125,7 +2125,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>natural barrier</Term>
+      <Term>Natural Barrier</Term>
     </Terms>
     <Definition
       Link="">Any area where lack of flammable material obstructs the spread of wildfires.</Definition>
@@ -2135,7 +2135,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>objective</Term>
+      <Term>Objective</Term>
     </Terms>
     <Definition
       Link="">1) A description of a desired condition; quantified and measured, and where possible, with established time frames for achievement.
@@ -2147,8 +2147,8 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>one hour timelag fuel</Term>
-      <Term>1 hr fuel</Term>
+      <Term>One Hour Timelag Fuel</Term>
+      <Term>1 HR Fuel</Term>
     </Terms>
     <Definition
       Link="">Fuels consisting of dead herbaceous plants and roundwood less than about one-quarter inch (6.4 mm) in diameter. Also included is the uppermost layer of needles or leaves on the forest floor.</Definition>
@@ -2158,7 +2158,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>organic soil</Term>
+      <Term>Organic Soil</Term>
     </Terms>
     <Definition
       Link="">Any soil or soil horizon containing at least 30% organic matter (e.g., muck, peat).</Definition>
@@ -2168,7 +2168,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>passive crown fire</Term>
+      <Term>Passive Crown Fire</Term>
     </Terms>
     <Definition
       Link="">A fire in the crowns of trees in which trees or groups of trees torch, ignited by the passing front of the fire. The torching trees reinforce the spread rate, but these fires are not basically different from surface fires.</Definition>
@@ -2178,7 +2178,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>peak fire season</Term>
+      <Term>Peak Fire Season</Term>
     </Terms>
     <Definition
       Link="">That period of the fire season during which fires are expected to ignite most readily, to burn with greater than average intensity.</Definition>
@@ -2188,7 +2188,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>piling and burning</Term>
+      <Term>Piling and Burning</Term>
     </Terms>
     <Definition
       Link="">Piling slash resulting from logging or fuel management activities and subsequently burning the individual piles.</Definition>
@@ -2198,7 +2198,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>prescription</Term>
+      <Term>Prescription</Term>
     </Terms>
     <Definition
       Link="">In the context of wildland fire, a prescription is measurable criteria that define conditions under which a prescribed fire may be ignited. Prescriptions may also be used to guide selection of management responses to wildfire to define conditions under which management actions are most likely to achieve incident management objectives. Prescription criteria typically describe environmental conditions such as temperature, humidity and fuel moisture, but may also include safety, economic, public health, geographic, administrative, social, or legal considerations.</Definition>
@@ -2208,7 +2208,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>project objectives</Term>
+      <Term>Project Objectives</Term>
     </Terms>
     <Definition
       Link="">The specific results expected from completing a project.</Definition>
@@ -2218,7 +2218,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>polygon</Term>
+      <Term>Polygon</Term>
     </Terms>
     <Definition
       Link="">A polygon (shapefile) is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. Polygons can be used for many purposes in IFTDSS, and depending on what they are used for, you may see them referred to by different names such as area's of interest, masks, or shapefiles.</Definition>
@@ -2238,7 +2238,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>relative humidity</Term>
+      <Term>Relative Humidity</Term>
       <Term>RH</Term>
     </Terms>
     <Definition
@@ -2249,7 +2249,7 @@ See also: needle drape</Definition>
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>risk</Term>
+      <Term>Risk</Term>
     </Terms>
     <Definition
       Link="">A measure of the probability and consequence of uncertain future events.
@@ -2261,7 +2261,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>second order fire effects</Term>
+      <Term>Second Order Fire Effects</Term>
     </Terms>
     <Definition
       Link="">The secondary effects of fire such as tree regeneration, plant succession, and changes in site productivity. Although second order fire effects are dependent, in part, on first order fire effects, they also involve interaction with many other non-fire variables.</Definition>
@@ -2271,7 +2271,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>shaded fuel break</Term>
+      <Term>Shaded Fuel Break</Term>
     </Terms>
     <Definition
       Link="">Fuelbreaks built in timbered areas where the trees on the break are thinned and pruned to reduce the fire potential yet retain enough crown canopy to make a less favorable microclimate for surface fires.</Definition>
@@ -2281,7 +2281,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>solar radiation</Term>
+      <Term>Solar Radiation</Term>
     </Terms>
     <Definition
       Link="">The amount of sunlight exposed to the fuels.</Definition>
@@ -2291,7 +2291,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>spot fire</Term>
+      <Term>Spot Fire</Term>
     </Terms>
     <Definition
       Link="">Fire ignited outside the perimeter of the main fire by a firebrand.</Definition>
@@ -2301,7 +2301,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>spotting</Term>
+      <Term>Spotting</Term>
     </Terms>
     <Definition
       Link="">Behavior of a fire producing sparks or embers that are carried by air currents and which start new fires beyond the zone of direct ignition by the main fire.</Definition>
@@ -2311,7 +2311,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>stand replacing fire</Term>
+      <Term>Stand Replacing Fire</Term>
     </Terms>
     <Definition
       Link="">Fire which kills all or most of the living overstory trees in a forest and initiates forest succession or regrowth. Also explicitly describes the nature of fire in grasslands and some shrublands.</Definition>
@@ -2321,7 +2321,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ten-hour timelag fuels</Term>
+      <Term>Ten-Hour Timelag Fuels</Term>
     </Terms>
     <Definition
       Link="">Dead fuels consisting of roundwood 1/4 to l-inch (0.6 to 2.5 cm) in diameter and, very roughly, the layer of litter extending from immediately below the surface to 3/4 inch (1.9 cm) below the surface.</Definition>
@@ -2331,7 +2331,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>underburn</Term>
+      <Term>Underburn</Term>
     </Terms>
     <Definition
       Link="">A fire that consume surface fuels but not the overstory canopy.</Definition>
@@ -2341,7 +2341,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>understory burning</Term>
+      <Term>Understory Burning</Term>
     </Terms>
     <Definition
       Link="">Prescribed burning under a forest canopy.</Definition>
@@ -2351,7 +2351,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>user-defined flame length</Term>
+      <Term>User-Defined Flame Length</Term>
     </Terms>
     <Definition
       Link="">Flame lengths are divided into classes, low, medium, high, and very high, based on flame length classifications specified by the user.</Definition>
@@ -2361,7 +2361,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>values at risk</Term>
+      <Term>Values at Risk</Term>
     </Terms>
     <Definition
       Link="">Include property, structures, physical improvements, natural and cultural resources, community infrastructure, and economic, environmental, and social values, that may be a risk of being impacted by wildfire.</Definition>
@@ -2404,9 +2404,9 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>wind adjustment factor</Term>
+      <Term>Wind Adjustment Factor</Term>
       <Term>WAF</Term>
-      <Term>wind reduction factor</Term>
+      <Term>Wind Reduction Factor</Term>
     </Terms>
     <Definition
       Link="">A factor used to adjust 20 foot wind speed to the midflame windspeed taking into account the effects of terrain and vegetation on wind speed. Midflame wind is obtained by multiplying 20-ft. wind by a Wind Adjustment Factor (WAF).</Definition>
@@ -2416,7 +2416,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>wind direction</Term>
+      <Term>Wind Direction</Term>
     </Terms>
     <Definition
       Link="">Compass direction from which wind is blowing.</Definition>
@@ -2426,7 +2426,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>wind speed</Term>
+      <Term>Wind Speed</Term>
     </Terms>
     <Definition
       Link="">Wind, in miles per hour, measured at 20 feet above open, level ground or above the average height of vegetation, and averaged over at least a 10-minute period. Also known as wind velocity.</Definition>
@@ -2436,7 +2436,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>wind-driven wildland fire</Term>
+      <Term>Wind-Driven Wildland Fire</Term>
     </Terms>
     <Definition
       Link="">A wildland fire that is controlled by a strong consistent wind.</Definition>
@@ -2446,7 +2446,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>adjective rating</Term>
+      <Term>Adjective Rating</Term>
     </Terms>
     <Definition
       Link="">A public information description of the relative severity of the current fire danger situation. Low, Moderate, High, Very High, Extreme.</Definition>
@@ -2456,7 +2456,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>agency administrator</Term>
+      <Term>Agency Administrator</Term>
     </Terms>
     <Definition
       Link="">The official responsible for the management of a geographic unit or functional area. The managing officer of an agency, division thereof, or jurisdiction having statutory responsibility for incident mitigation and management. Examples: NPS Park Superintendent, BIA Agency Superintendent, USFS Forest Supervisor, BLM District Manager, FWS Refuge Manager, State Forest Officer, Tribal Chairperson, Fire Chief, Police Chief.</Definition>
@@ -2466,7 +2466,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>asset</Term>
+      <Term>Asset</Term>
     </Terms>
     <Definition
       Link="">A human-made material object such as a building, communication tower, road, etc. of use or value to its owner. By contrast a resource is naturally occurring such as wildlife habitat or timber.  A resource may or may not benefit by fire but assets generally do not.</Definition>
@@ -2476,7 +2476,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>air quality</Term>
+      <Term>Air Quality</Term>
     </Terms>
     <Definition
       Link="">The composition of air with respect to quantities of pollution therein; used most frequently in connection with "standards" of maximum acceptable pollutant concentrations. Used instead of "air pollution" when referring to programs.</Definition>
@@ -2486,7 +2486,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>air quality model</Term>
+      <Term>Air Quality Model</Term>
     </Terms>
     <Definition
       Link="">Mathematical or quantitative representation or simulation of air quality processes; e.g., emission models, receptor models, or air quality dispersion models.</Definition>
@@ -2496,7 +2496,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>burn period</Term>
+      <Term>Burn Period</Term>
     </Terms>
     <Definition
       Link="">That part of each 24-hour period when fires spread actively. With respect to fire modeling the burn period is that period of each day that the fire has measurable spread with respect to the resolution or scale of the modeling environment.</Definition>
@@ -2506,7 +2506,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>conditional burn probability</Term>
+      <Term>Conditional Burn Probability</Term>
     </Terms>
     <Definition
       Link="">Burn probability given a specific set of defining criteria such as a specific weather scenario and a fixed burn period.</Definition>
@@ -2516,7 +2516,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>conditional flame length</Term>
+      <Term>Conditional Flame Length</Term>
       <Term>CFL</Term>
     </Terms>
     <Definition
@@ -2527,7 +2527,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>conditional value</Term>
+      <Term>Conditional Value</Term>
     </Terms>
     <Definition
       Link="">A derived value given a specific set of criteria such as a specific weather scenario and fixed burn period.</Definition>
@@ -2537,7 +2537,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>decision maker</Term>
+      <Term>Decision Maker</Term>
     </Terms>
     <Definition
       Link="">In the context of risk, the official having the authority or responsibility to make the final decision or approval of management plans or course of action such as a burn plan, NEPA decision or fire management plan. Also referred to as Approver, Line Officer or Agency Administrator.</Definition>
@@ -2547,7 +2547,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>desired future condition</Term>
+      <Term>Desired Future Condition</Term>
       <Term>DFC</Term>
     </Terms>
     <Definition
@@ -2558,7 +2558,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>diurnal</Term>
+      <Term>Diurnal</Term>
     </Terms>
     <Definition
       Link="">Daily, especially pertaining to cyclic actions which are completed within 24 hours, and which recur every 24 hours, such as temperature, relative humidity, and wind.</Definition>
@@ -2568,7 +2568,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>effective windspeed</Term>
+      <Term>Effective Windspeed</Term>
     </Terms>
     <Definition
       Link="">The midflame windspeed adjusted for the effect of slope on fire spread.</Definition>
@@ -2578,7 +2578,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>effects</Term>
+      <Term>Effects</Term>
     </Terms>
     <Definition
       Link="">The anticipated benefits and loss to values, typically quantified as a function of fire intensity.</Definition>
@@ -2588,7 +2588,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>existing condition</Term>
+      <Term>Existing Condition</Term>
       <Term>EC</Term>
     </Terms>
     <Definition
@@ -2599,7 +2599,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>expected net value change</Term>
+      <Term>Expected Net Value Change</Term>
       <Term>ENVC</Term>
     </Terms>
     <Definition
@@ -2610,7 +2610,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>expected value</Term>
+      <Term>Expected Value</Term>
     </Terms>
     <Definition
       Link="">A  probability-weighted average outcome, calculated as the sum of all possible values each multiplied by the probability of its occurrence. Expected value is a good measure of the central tendency of outcomes.</Definition>
@@ -2620,7 +2620,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire danger</Term>
+      <Term>Fire Danger</Term>
     </Terms>
     <Definition
       Link="">Sum of constant danger and variable danger factors affecting the inception, spread, and resistance to control, and subsequent fire damage; often expressed as an index.</Definition>
@@ -2630,7 +2630,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>fire regime</Term>
+      <Term>Fire Regime</Term>
     </Terms>
     <Definition
       Link="">Description of the patterns of fire occurrences, frequency, size, severity, and sometimes vegetation and fire effects as well, in a given area or ecosystem. A fire regime is a generalization based on fire histories at individual sites. Fire regimes can often be described as cycles because some parts of the histories usually get repeated, and the repetitions can be counted and measured, such as fire return interval.</Definition>
@@ -2640,7 +2640,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>frequency</Term>
+      <Term>Frequency</Term>
     </Terms>
     <Definition
       Link="">The number of occurrences per unit of time.</Definition>
@@ -2650,7 +2650,7 @@ NOTE: Risk has also been defined by the International Organization for Standardi
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>gridded weather data</Term>
+      <Term>Gridded Weather Data</Term>
     </Terms>
     <Definition
       Link="">Gridded weather data sets use interpolation across space and time to combine available weather station data into a balanced panel of observations on a fixed spatial scale or grid. 
@@ -2662,7 +2662,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>gridded winds</Term>
+      <Term>Gridded Winds</Term>
     </Terms>
     <Definition
       Link="">This spatial grid is generated using computational fluid dynamics to account for the influence of topography on wind speed and direction. Without gridded winds, every cell on the landscape will have the same wind speed and direction. Proper use of gridded winds in an analysis can produce more realistic fire behavior modeling results.</Definition>
@@ -2672,7 +2672,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>hazard</Term>
+      <Term>Hazard</Term>
     </Terms>
     <Definition
       Link="">A physical situation with potential for harm to persons or damage to resources and assets.</Definition>
@@ -2682,7 +2682,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>hazard fuel</Term>
+      <Term>Hazard Fuel</Term>
     </Terms>
     <Definition
       Link="">A fuel complex defined by kind, arrangement, volume, condition, and location that presents a threat of ignition and resistance to control.</Definition>
@@ -2692,7 +2692,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>hazardous fuels reduction</Term>
+      <Term>Hazardous Fuels Reduction</Term>
     </Terms>
     <Definition
       Link="">Any treatment of living and dead fuels that reduces the potential spread or consequences of fire.</Definition>
@@ -2702,7 +2702,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>highly valued resource or asset</Term>
+      <Term>Highly Valued Resource or Asset</Term>
       <Term>HVRA</Term>
     </Terms>
     <Definition
@@ -2713,7 +2713,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ignition density</Term>
+      <Term>Ignition Density</Term>
     </Terms>
     <Definition
       Link="">Number of ignitions per unit area.</Definition>
@@ -2723,7 +2723,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ignition frequency</Term>
+      <Term>Ignition Frequency</Term>
     </Terms>
     <Definition
       Link="">Number of ignitions per unit of time.</Definition>
@@ -2733,7 +2733,7 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>ignition probability</Term>
+      <Term>Ignition Probability</Term>
     </Terms>
     <Definition
       Link="">The probability of an ignition occurring during the specified time period, expressed as a fraction or percentage.</Definition>
@@ -2743,7 +2743,8 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>index</Term>
+      <Term>Index</Term>
+      <Term>Indice</Term>
     </Terms>
     <Definition
       Link="">Generally a numeric rating used to indicate a relative location on a scale. Used in the National Fire Danger Rating System (NFDRS) to indicate general level of fire danger.</Definition>
@@ -2753,9 +2754,318 @@ Gridded weather data provides more complete weather data coverage than from fixe
     Stem=""
     IgnoreCase="false">
     <Terms>
-      <Term>attribute</Term>
+      <Term>Attribute</Term>
     </Terms>
     <Definition
       Link="">A single feature within a landscape layer, such as fuel model, canopy cover, canopy base height, etc.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term133"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Highly Valued Resource or Asset</Term>
+      <Term>HVRA</Term>
+    </Terms>
+    <Definition
+      Link="">Those resources or assets having sufficient value to be considered in risk assessments. Low or moderate values may not be analyzed so that efforts can be focused on the more highly valued resources and assets (HVRAs).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term134"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Integrated Wildfire Hazard</Term>
+    </Terms>
+    <Definition
+      Link="">Combines two measures of wildfire -- burn probability and conditional wildfire intensity -- into a single characteristic that can be mapped.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term135"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Net Value Change</Term>
+      <Term>NVC</Term>
+    </Terms>
+    <Definition
+      Link="">The net effect of both damaging and beneficial effects on the value of a resources or asset. Negative numbers for net value change indicate a net loss; positive numbers indicate a net benefit.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term136"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Risk Assessment</Term>
+    </Terms>
+    <Definition
+      Link="">An appraisal of the interaction of hazard, exposure, and effects to a given set of values in a given area. Components of a risk assessment may include burn probability (likelihood) and burn intensity (consequences) under a given set of circumstances.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term137"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Risk Analysis</Term>
+    </Terms>
+    <Definition
+      Link="">A detailed examination including risk assessment, risk evaluation, and risk management alternatives. An analytical process to provide information regarding undesirable events; the process of quantification of the probabilities and expected consequences for identified risks.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term138"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Risk Management</Term>
+    </Terms>
+    <Definition
+      Link="">The identification, assessment, and prioritization of risk followed by the economical application of resources to minimize, monitor and control the probability and/or impact of uncertain future events.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term139"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Susceptibility</Term>
+    </Terms>
+    <Definition
+      Link="">The propensity of an asset or resource to experience an effect as a result of burning at a given wildfire intensity. A resource or asset that is easily damaged by low-intensity fire is susceptible, whereas one that is difficult to damage even with high intensity fire is considered resistant.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term140"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Uncertainty</Term>
+    </Terms>
+    <Definition
+      Link="">Imperfect information or lack of knowledge. In risk analyses often relates to understanding of the probabilities of events.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term141"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Value</Term>
+    </Terms>
+    <Definition
+      Link="">The worth or importance of an asset or resource. Values, refers to assets or resources of value.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term142"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Value Change</Term>
+    </Terms>
+    <Definition
+      Link="">The value change of a resource or asset arising from an event such as a wildfire</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term143"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Weighting</Term>
+    </Terms>
+    <Definition
+      Link="">Assigning a level of  importance to each variable to emphasize its contribution to an outcome, rather than allowing each value to contribute equally.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term144"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Biophysical Setting</Term>
+      <Term>BPS</Term>
+    </Terms>
+    <Definition
+      Link="">LANDFIRE layer representing vegetation that may have been dominant on the landscape prior to Euro-American settlement and is based on the current biophysical environment and approximation of the historical disturbance regime.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term145"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Disturbance</Term>
+    </Terms>
+    <Definition
+      Link="">An ecological factor that disrupts ecosystem function and structure such as fire, windthrow, disease, or mechanical manipulation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term146"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Existing Vegetation Cover</Term>
+      <Term>EVC</Term>
+    </Terms>
+    <Definition
+      Link="">LANDFIRE layer representing the vertically projected percent cover of the live canopy canopy for a 30 meter grid cell.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term147"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Existing Vegetation Height</Term>
+      <Term>EVH</Term>
+    </Terms>
+    <Definition
+      Link="">LANDFIRE layer representing the average height of the dominant vegetation for a 30 meter grid cell.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term148"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Existing Vegetation Type</Term>
+      <Term>EVT</Term>
+    </Terms>
+    <Definition
+      Link="">LANDFIRE layer derived using decision tree models, field data, Landsat imagery, elevation and biophysical gradient data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term149"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Fuel Moisture Conditioning</Term>
+    </Terms>
+    <Definition
+      Link="">Allows dead fuel moisture values to be adjusted for each landscape cell based on the topography and shading from forest canopy cover and clouds, as well as the recorded weather (precipitation, high and low temperatures and high and low relative humidity values). Fuel moisture conditioning allows for a more natural variation in dead fuel moisture values across a landscape.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term150"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Fire and Fuels Extension</Term>
+      <Term>FFE</Term>
+    </Terms>
+    <Definition
+      Link="">An Extension of the Forest Vegetation Simulator (FVS) that allows for fire to be simulated and includes live tree, dead tree, down dead wood and forest floor biomass information, which can be used to estimate changes in fuels composition over time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term151"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Forest Vegetation Simulator</Term>
+      <Term>FVS</Term>
+    </Terms>
+    <Definition
+      Link="">A family of forest growth simulation models used to answers questions about how forest vegetation will change in response to natural succession, disturbances, and proposed management actions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term152"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>FVS Variants</Term>
+    </Terms>
+    <Definition
+      Link="">A growth and mortality model calibrated to a specific geographic area of the United States. There are 20 different FVS variants.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term153"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>LANDFIRE Look-Up Table</Term>
+      <Term>LFLU</Term>
+    </Terms>
+    <Definition
+      Link="">Contains information that describe post-disturbance vegetation changes used to edit landscapes based on disturbance type, severity, and time since disturbance. LANDFIRE Look-up Table is derived from the LANDFIRE “Forest Vegetation Transitions Database (FVTDB)”.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term154"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Percentile</Term>
+    </Terms>
+    <Definition
+      Link="">A convenient term for denoting thresholds or boundary values in frequency distributions. Thus the 50th percentile is the same as the median, and the 90th percentile exceeds all but 10 per cent of the values.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term155"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Percentile Weather</Term>
+    </Terms>
+    <Definition
+      Link="">Scale of 0-100 used to sort and rank a collection of weather observations correlated to a particular NFDRS index such as ERC. Thus the ERC 97th percentile weather represents the weather observations correlated to all but 3 percent of the highest ERC values and represents a high fire risk for dry fuels.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term156"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Severity (Fire Severity)</Term>
+    </Terms>
+    <Definition
+      Link="">Degree to which a site has been altered or disrupted by fire; loosely, a product of fire intensity and residence time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term157"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Burn Block</Term>
+    </Terms>
+    <Definition
+      Link="">A discrete area within a larger prescribed fire project.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term158"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Contingency Plan</Term>
+    </Terms>
+    <Definition
+      Link="">That portion of the prescribed fire plan that describes low probability but high consequence events and the actions needed to mitigate them. Contingency Plan describes what additional actions or additional resources (or both) are needed to keep the prescribed fire within the scope of the prescribed fire plan.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term159"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Fire Management Plan (FMP)</Term>
+    </Terms>
+    <Definition
+      Link="">All burnable acres on federal lands will be covered by a fire management plan. The FMP is the cornerstone plan for managing a wildland fire management program and should flow directly from the L/RMP.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term160"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Holding Plan</Term>
+    </Terms>
+    <Definition
+      Link="">That portion of the prescribed fire plan that describes the general procedures for operations to maintain the fire within the project area and meet project objectives until the fire is declared out.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term161"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>National Environmental Policy Act (NEPA)</Term>
+    </Terms>
+    <Definition
+      Link="">NEPA requires federal agencies to assess the environmental effects of their proposed actions. Objectives for specific fuels treatment projects are evaluated and analyzed in the NEPA analysis. NEPA document types that identify and analyze the effects of implementing projects may include Environmental Impact Statements (EIS), Environmental Assessments (EA), and Categorical Exclusions (CE).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term162"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Prescribed Fire Burn Plan (Burn Plan)</Term>
+    </Terms>
+    <Definition
+      Link="">Site-specific implementation document. It is a legal document that provides the agency administrator the information needed to approve the plan, and the prescribed fire burn boss with the information needed to implement the prescribed fire. A prescribed fire project must conform to the written plan.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>
