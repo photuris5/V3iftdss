@@ -1,25 +1,172 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1760" MadCap:lastWidth="2117">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5079" MadCap:lastWidth="2057">
     <head>
+        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>
             <MadCap:keyword term="Rule Ordering" />
             <MadCap:keyword term="Rule Ordering Considerations" />Rule Ordering Considerations when <MadCap:keyword term="Editing Landscapes" />Editing Landscapes</h1>
         <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
-        <p>Below we outline the way in which “rules” are applied to the landscape when you make edits, either as part of the Landscape Evaluation stage, or the Strategic Planning stage.</p>
-        <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules.</p>
+        <p>Edit rules are applied differently in IFTDSS depending on whether the rule is a Default Fuels Treatment / Disturbance Edit rule or a Landscape Edit (User-created) rule. This is because Default Fuels Treatment / Disturbance Edit rules show landscape changes using one method, and Landscape Edit (User-created) rules use another. Background on this is summarized at the bottom of this page and in the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm">Rule Technical Documentation</a> topic, but first we’ll explain how this difference in method affects edits and how they should be applied.</p>
+        <h2>Applying Default Fuels Treatment / Disturbance Edit Rules</h2>
         <ul>
-            <li><strong>Default Fuels Treatment / Disturbance Edit Rules</strong> utilize LANDFIRE look-up (LFLU) and Fuel Model look-up (FMLU) processes outlined in the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Rule Technical Documentation Topic</a>. When applying Default Fuels Treatment / Disturbance Edit Rules:<ul><li>Rules are only applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit Rules have been applied.</li><li>Within the rules utilizing the LFLU and FMLU tables, it is the last edit to a particular cell fuel attribute that applies that is utilized as input for user defined “Landscape Edit Rules”.</li></ul></li>
-            <li>When user-defined <strong>Landscape Edit Rules</strong> are applied:<ul><li>A fuel attribute of a given cell can only be changed once.</li><li>It is the <span class="Emphasis">FIRST</span> edit of a fuel attribute for a cell that affects the change, not the last.</li><li>Fuel attributes are considered separately when applying Landscape Edit Rules. So a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</li></ul></li>
+            <li>
+                <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/DefaultRule1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/DefaultRule2.flsnp" />
+            </li>
+            <li>It is generally recommended that Default Fuels Treatment / Disturbance Edit rules should only be applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit rules have been applied. Note, however, that <MadCap:variable name="General.ProductName" /> does allow you to apply Default Fuels Treatment / Disturbance Edit rules <span class="Emphasis">after</span> Landscape Edit (User-created) rules have been applied.  If this is part of your workflow, see the <a href="#Rule_ordering_Background">background summary</a> for information on how this may affect the way rules are implemented, and the examples below.</li>
         </ul>
-        <div class="notificationTip" MadCap:conditions="General.Exclude">
-            <p>If you are unsure of the effect of the rules you apply, consider saving a version of your landscape after each edit to allow for easy comparison of the changes made by each edit rule you apply.</p>
-        </div>
-        <h2>Rule ordering Background</h2>
-        <p>It is important to understand the intricacies of how landscape edit rules are applied to a landscape. There are 2 ways in which landscape edits are implemented on the landscape. The first is the Default Fuels Treatment / Disturbance Edit Rules that use the LANDFIRE Lookup (LFLU) and Fuel Model Lookup (FMLU) tables. The second is user defined Landscape Edit Rules.  Rules are applied top to bottom in the list, first by Default Fuels Treatment / Disturbance Edit Rules, then by Landscape Edit Rules. The Default Fuels Treatment / Disturbance Edit Rules are ALWAYS applied BEFORE the user define Landscape Edit Rules.</p>
-        <p>The LFLU tables can only be used when Existing Vegetation Type (EVT), Existing Vegetation Height (EVH), and Existing Vegetation Cover (EVC) are present in your landscape data, as this is what is used for conversion in the LFLU tables based on the type, intensity and timing of treatment and disturbance. When a user applies their own Landscape Edit Rule that modifies the fuel model, stand height or canopy cover for a given landscape cell, the EVT, EVH, and EVC are set to 0 for that cell, which precludes the use of LFLU for future edits. Since LFLU can no longer be used the IFTDSS team has developed a second set of lookup tables called the Fuel Model Lookup (FMLU) tables . The FMLU tables are less accurate because they are a generalization of the LFLU tables. This generalization was necessary because there are many more values for EVT than there are Fuel Models.  (For more details, see the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm">Editing Rule Technical Documentation Topic</a>)</p>
-        <p>The actual effect of the rules do differ between Default Fuels Treatment / Disturbance Edit Rules and user defined Landscape Edit Rules. In the case of Default Fuels Treatment / Disturbance Edit Rules, it is the LAST of the rules with a particular effect on a cell being the final LFLU/FMLU edit to a particular cell. For Default Fuels Treatment / Disturbance Edit Rules, note that the output (if any) from the previous rule is always the input to the next rule in the list. When starting to apply user defined Landscape Edit Rules the FIRST fuel model attribute change applied to a cell is the edit that will be reflected in the resultant landscape. It’s important to note that each fuel attribute (fuel model, canopy cover, canopy height, canopy bulk density, and canopy base height) for a cell is treated separately, so although a cell may be locked due to an edit for fuel model, any of the other attributes may be modified by a subsequent rule.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>See Examples of Applying Default Fuels Treatment/ Disturbance Edit Rules</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Rule</td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">Example</td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/DefaultRule1.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">You want to represent a thin, followed by a low intensity wildfire (prescribed fire). To do this, create a single rule representing the thin, save as a new landscape, and name the file to reflect the fact that it has been edited. Then, open your thinned landscape in a new editing session and create a single rule to reflect the application of fire. If you create a rule to thin, then add a rule for prescribed fire in the same editing session across the same cells, only the last rule, prescribed fire, would be implemented.</td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/DefaultRule2.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">You want to thin/masticate in one unit and thin/lop and scatter another unit. This is accomplished by using Default Rules. You would apply thin/masticate to one Area of Interest and thin/lop and scatter to another Area of Interest within one editing session in the Landscape Edit or Develop Treatment Alternatives dialogues. </td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">It is generally recommended that Default Fuels Treatment / Disturbance Edit rules should only be applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit rules have been applied. Note, however, that <MadCap:variable name="General.ProductName" /> does allow you to apply Default Fuels Treatment / Disturbance Edit rules <span class="Emphasis">after</span> Landscape Edit (User-created) rules have been applied.  If this is part of your workflow, see the <a href="#Rule_ordering_Background">background summary</a> for information on how this may affect the way rules are implemented.</td>
+                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">You want to make some changes to fuel model and canopy cover within your initial landscape so that project-level conditions are better represented, then run a wildfire. You can do this in two separate edit sessions, but your outputs may be more generalized than if you ran your wildfire without making any changes to LANDFIRE data. Options to consider:
+
+(a) Thoroughly scrutinize the results from editing fuel model and canopy cover prior to running a wildfire
+(b) Changing fuel model and use the LANDFIRE data as is particularly if fire behavior will be similar
+(c) Using only Landscape Edit (User-created) rules from this point forward
+</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Applying Landscape Edit (User-created) Rules</h2>
+        <ul>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/UserCrRule1.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/UserCrRule2.flsnp" />
+                </p>
+            </li>
+            <li>
+                <p>
+                    <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/UserCrRule3.flsnp" />
+                </p>
+            </li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>See examples of applying Landscape Edit (User-created) Rules</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Rule</td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">Example</td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/UserCrRule1.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">You have a landscape with a treatment unit that overlaps with a Northern Spotted Owl activity center. You’d like to change the fuel model within one of the treatment unit from TU5 to TL9 and within the activity center from TU1 to TU5. Within the area of overlap between the activity center and treatment unit, the fuel model change listed first in the editing session will be retained. </td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/UserCrRule2.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">Across your landscape you would like to change all of the area shown as fuel model GS2 to fuel model TU1. Since you are moving from a shrub fuel model to a timber fuel model, you would like to make changes to the canopy characteristics as well. To implement this change, in one editing session, you can create multiple rules that modify fuel model, canopy base height, canopy cover, stand height, canopy bulk density all within the area currently represented by fuel model GS2.</td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                                <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/UserCrRule3.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">An edit session contains Landscape Edit (User-created) Rules to set fuel model GS2 to TU5, then edit the canopy base height to 1 meter for TU5. The result will be all original GS2 set to TU5, but these newly set TU5s will still have the original GS2 canopy base height, the 1 meter canopy base height is applied to all the original TU5s.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>Applying Both Default and User-created Rules</h2>
+        <ul>
+            <li>
+                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/BothRules1.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/BothRules2.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/BothRules3.flsnp" />
+            </li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>See examples of applying both Default and User-created Rules</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                    <col class="TableStyle-PatternedRows-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows" style="font-weight: bold;">Rule</td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows" style="font-weight: bold;">Example</td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/BothRules1.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">You want to change fuel model TU1 to fuel model TU5 in your landscape, then run a high severity wildfire. IFTDSS will reorder your rules so that the wildfire is implemented first, then if the fire resulted in any fuel model TU1s they will be changed to TU5s. The effect of fuel model TU5 is not incorporated into the high severity wildfire scenario. If this is your intention, this would need to occur in two separate edit sessions </td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-LightRows">
+                            <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/BothRules2.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">You want to thin/masticate in one unit and change fuel model TU5 to TL9 in another unit. This is accomplished by applying the Default Rule, thin/masticate, to one Area of Interest and applying a Landscape Edit (User-created) Rule that changes fuel model TU5 to TL9 to another Area of Interest within one editing session in the Landscape Edit or Develop Treatment Alternatives dialogues.</td>
+                        </tr>
+                        <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                            <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                                <MadCap:snippetText src="../Resources/Snippets/EditRuleOrdering/BothRules3.flsnp" />
+                            </td>
+                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">You decide to lightly thin/pile burn your landscape. After looking at the results, you then decide to apply a low intensity wildfire (prescribed fire). The landscape resulting from the thin/pile burn will become the inputs to low intensity prescribed fire. </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>See the image below for a conceptual flow chart of how editing rules behave in <MadCap:variable name="General.ProductName" />:</p>
+        <p>
+            <img src="../Resources/Images/landscape_edits/LFLU_rule_flowchart.png" alt="Flowchart of the rules described in the text of this page" style="width: 1127px;height: 603px;" />
+        </p>
+        <p><a name="Rule_ordering_Background"></a>
+        </p>
+        <h2>Rule Ordering Background (<a href="../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Full documentation available in the Technical Documentation</a> Topic)</h2>
+        <p>It is important to understand the intricacies of how landscape edit rules are applied to a landscape. There are 2 ways in which landscape edits are implemented on the landscape. The first is the Default Fuels Treatment / Disturbance Edit rules that use the LANDFIRE Lookup (LFLU) and Fuel Model Lookup (FMLU) tables. The second is user defined Landscape Edit rules.  rules are applied top to bottom in the list, first by Default Fuels Treatment / Disturbance Edit rules, then by Landscape Edit rules. The Default Fuels Treatment / Disturbance Edit rules are ALWAYS applied BEFORE the user define Landscape Edit rules.</p>
+        <p>The LFLU tables can only be used when Existing Vegetation Type (EVT), Existing Vegetation Height (EVH), and Existing Vegetation Cover (EVC) are present in your landscape data, as this is what is used for conversion in the LFLU tables based on the type, intensity and timing of treatment and disturbance. When a user applies their own Landscape Edit rule that modifies the fuel model, stand height or canopy cover for a given landscape cell, the EVT, EVH, and EVC are set to 0 for that cell, which precludes the use of LFLU for future edits. Since LFLU can no longer be used the IFTDSS team has developed a second set of lookup tables called the Fuel Model Lookup (FMLU) tables . The FMLU tables are less accurate because they are a generalization of the LFLU tables. This generalization was necessary because there are many more values for EVT than there are Fuel Models.  (For more details, see the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm">Editing rule Technical Documentation Topic</a>)</p>
+        <p>The actual effect of the rules do differ between Default Fuels Treatment / Disturbance Edit rules and user defined Landscape Edit rules. In the case of Default Fuels Treatment / Disturbance Edit rules, it is the LAST of the rules with a particular effect on a cell being the final LFLU/FMLU edit to a particular cell. For Default Fuels Treatment / Disturbance Edit rules, note that the output (if any) from the previous rule is always the input to the next rule in the list. When starting to apply user defined Landscape Edit rules the FIRST fuel model attribute change applied to a cell is the edit that will be reflected in the resultant landscape. It’s important to note that each fuel attribute (fuel model, canopy cover, canopy height, canopy bulk density, and canopy base height) for a cell is treated separately, so although a cell may be locked due to an edit for fuel model, any of the other attributes may be modified by a subsequent rule.</p>
         <p>Once your rules are defined and ordered correctly, you need to make sure that your resulting landscape reflects your intended changes.</p>
     </body>
 </html>

@@ -37,15 +37,9 @@
     <Map Name="DMCWriteChemTrtmentsAbout" Link="/Content/PCImplementationPlan/DMCWriteChemTrtmentsAbout.htm" />
     <Map Name="s_flammap_crown" Link="/Content/test_shorts/flammap_basic/s_flammap_crown.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="DMCWriteMechTrtmentAbout" Link="/Content/PCImplementationPlan/DMCWriteMechTrtmentAbout.htm" />
-    <Map Name="FBWForecastBurnWindowAbout" Link="/Content/PCImplementationPlan/FBWForecastBurnWindowAbout.htm" />
-    <Map Name="FBWRxWindowsAbout" Link="/Content/PCImplementationPlan/FBWRxWindowsAbout.htm" />
     <Map Name="s_flammap_wind" Link="/Content/test_shorts/flammap_basic/s_flammap_wind.htm" Skin="/Project/Skins/webhelp.flskn" />
     <Map Name="ImplementationPlanAbout" Link="/Content/PCImplementationPlan/ImplementationPlanAbout.htm" />
     <Map Name="SmokeManagementAbout" Link="/Content/PCImplementationPlan/SmokeManagementAbout.htm" />
-    <Map Name="WBPBurnPlanMapsAbout" Link="/Content/PCImplementationPlan/WBPBurnPlanMapsAbout.htm" />
-    <Map Name="WBPComplexityAnalysisAbout" Link="/Content/PCImplementationPlan/WBPComplexityAnalysisAbout.htm" />
-    <Map Name="WBPDevelopBurnRxAbout" Link="/Content/PCImplementationPlan/WBPDevelopBurnRxAbout.htm" />
-    <Map Name="WBPWriteBurnPlanIPFPIGAbout" Link="/Content/PCImplementationPlan/WBPWriteBurnPlanIPFPIGAbout.htm" />
     <Map Name="LandEvalAbout" Link="/Content/PCLandscapeEval/LandEvalAbout.htm" />
     <Map Name="LandscapeBurnProbAbout" Link="/Content/PCLandscapeEval/LandscapeBurnProbAbout.htm" />
     <Map Name="LandscapeEditAbout" Link="/Content/PCLandscapeEval/LandscapeEditAbout.htm" />
@@ -53,16 +47,11 @@
     <Map Name="LandscapeProjObjtvsAbout" Link="/Content/PCLandscapeEval/LandscapeProjObjtvsAbout.htm" />
     <Map Name="LandSummaryAbout" Link="/Content/PCLandscapeEval/LandSummaryAbout.htm" />
     <Map Name="WhatsNew" Link="/Content/AboutIFTDSS/WhatsNew.htm" />
-    <Map Name="AccessDatabasesAbout" Link="/Content/PCMonitoring/AccessDatabasesAbout.htm" />
-    <Map Name="FFIEnterMonitorDataAbout" Link="/Content/PCMonitoring/FFIEnterMonitorDataAbout.htm" />
-    <Map Name="FFIEvaluateUsingQuriesAbout" Link="/Content/PCMonitoring/FFIEvaluateUsingQuriesAbout.htm" />
-    <Map Name="FTEMEnterDataAbout" Link="/Content/PCMonitoring/FTEMEnterDataAbout.htm" />
-    <Map Name="FTEMEvaluateFormAbout" Link="/Content/PCMonitoring/FTEMEvaluateFormAbout.htm" />
+    <Map Name="FFIEnterMonitorDataAbout" Link="/Content/PCMonitoring/FFIAbout.htm" />
+    <Map Name="FTEMEnterDataAbout" Link="/Content/PCMonitoring/FTEMBackground.htm" />
+    <Map Name="FTEMEvaluateFormAbout" Link="/Content/PCMonitoring/FTEMProcedure.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/Concepts/PlanningCycleAbout.htm" />
-    <Map Name="GoalsObjectivesAbout" Link="/Content/PCMonitoring/GoalsObjectivesAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/PCMonitoring/MonitoringAbout.htm" />
-    <Map Name="NFMDDatabaseAccessAbout" Link="/Content/PCMonitoring/NFMDDatabaseAccessAbout.htm" />
-    <Map Name="SubmitFTEMAbout" Link="/Content/PCMonitoring/SubmitFTEMAbout.htm" />
     <Map Name="AddShapefile" Link="/Content/MapStudio/Functions/AddShapefile.htm" />
     <Map Name="BasemapGallery" Link="/Content/MapStudio/Functions/BasemapGallery.htm" />
     <Map Name="LandscapeTools" Link="/Content/MapStudio/Functions/LandscapeTools.htm" />
@@ -83,32 +72,21 @@
     <Map Name="FEPS" Link="/Content/ModelingPG/FFT/FEPS.htm" />
     <Map Name="FireFamBackground" Link="/Content/ModelingPG/FireFamPlus/FireFamBackground.htm" />
     <Map Name="FlamMapAbout" Link="/Content/ModelingPG/FlamMap/FlamMapAbout.htm" />
-    <Map Name="FACTSBusinessAbout" Link="/Content/PCReporting/FACTSBusinessAbout.htm" />
     <Map Name="FBFMHeatValues" Link="/Content/Concepts/FBFMHeatValues.htm" />
     <Map Name="KnownIssues" Link="/Content/AboutIFTDSS/KnownIssues.htm" />
     <Map Name="WhereToBegin" Link="/Content/GetStarted/WhereToBegin.htm" />
     <Map Name="EditTools" Link="/Content/MapStudio/Functions/EditTools.htm" />
     <Map Name="FCCS" Link="/Content/ModelingPG/FFT/FCCS.htm" />
     <Map Name="FTEMReporting" Link="/Content/PCReporting/FTEMReporting.htm" />
-    <Map Name="MTBSReporting" Link="/Content/PCReporting/MTBSReporting.htm" />
-    <Map Name="NFPORSBusiness" Link="/Content/PCReporting/NFPORSBusiness.htm" />
     <Map Name="ReportingAbout" Link="/Content/PCReporting/ReportingAbout.htm" />
     <Map Name="report_overview" Link="/Content/PCReporting/report_overview.htm" />
-    <Map Name="SuccessStoryMapAbout" Link="/Content/PCReporting/SuccessStoryMapAbout.htm" />
-    <Map Name="SuccessStoryTempAbout" Link="/Content/PCReporting/SuccessStoryTempAbout.htm" />
-    <Map Name="TreatmentBasedonFTEMAbout" Link="/Content/PCReporting/TreatmentBasedonFTEMAbout.htm" />
-    <Map Name="TreatmentBasedonPrePostAbout" Link="/Content/PCReporting/TreatmentBasedonPrePostAbout.htm" />
-    <Map Name="TreatmentBasedonRxObsAbout" Link="/Content/PCReporting/TreatmentBasedonRxObsAbout.htm" />
-    <Map Name="PriortizeTreatmentsAbout" Link="/Content/PCStrategicPlanning/PriortizeTreatmentsAbout.htm" />
+    <Map Name="SuccessStoryMapAbout" Link="/Content/PCReporting/SuccessStoryAbout.htm" />
+    <Map Name="TreatmentBasedonFTEMAbout" Link="/Content/PCReporting/BusinessNeedsAbout.htm" />
+    <Map Name="PriortizeTreatmentsAbout" Link="/Content/PCStrategicPlanning/QuantitativeRiskAbout.htm" />
     <Map Name="StrategicPlanningAbout" Link="/Content/PCStrategicPlanning/StrategicPlanningAbout.htm" />
-    <Map Name="StrtgicRiskAbout" Link="/Content/PCStrategicPlanning/StrtgicRiskAbout.htm" />
-    <Map Name="TrtmtAltsAbout" Link="/Content/PCStrategicPlanning/TrtmtAltsAbout.htm" />
+    <Map Name="StrtgicRiskAbout" Link="/Content/PCStrategicPlanning/PrioritizeTrtmntsAbout.htm" />
     <Map Name="TrtmtAltsCompareLndscp" Link="/Content/PCStrategicPlanning/TrtmtAltsCompareLndscp.htm" />
     <Map Name="TrtmtAltsEditLandscp" Link="/Content/PCStrategicPlanning/TrtmtAltsEditLandscp.htm" />
-    <Map Name="TrtmtAltsModelInput" Link="/Content/PCStrategicPlanning/TrtmtAltsModelInput.htm" />
-    <Map Name="TrtmtAltsPickLandscape" Link="/Content/PCStrategicPlanning/TrtmtAltsPickLandscape.htm" />
-    <Map Name="TrtmtAltsRunModel" Link="/Content/PCStrategicPlanning/TrtmtAltsRunModel.htm" />
-    <Map Name="YearOutPlans" Link="/Content/PCStrategicPlanning/YearOutPlansAbout.htm" />
     <Map Name="Appendix" Link="/Content/Print Only Topics/Appendix.htm" />
     <Map Name="Copyright" Link="/Content/Print Only Topics/Copyright.htm" />
     <Map Name="Glossary" Link="/Content/Print Only Topics/Glossary.htm" />
@@ -127,11 +105,8 @@
     <Map Name="TutorialMain" Link="/Content/Tutorials/TutorialMain.htm" />
     <Map Name="WorkshpMain" Link="/Content/Workshops/WorkshpMain.htm" />
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
-    <Map Name="FireBehavior" Link="/Content/PopOverTips/FireBehavior.htm" />
-    <Map Name="ModelingPlayground" Link="/Content/PopOverTips/ModelingPlayground.htm" />
     <Map Name="Auto97Summary" Link="/Content/PCLandscapeEval/Auto97Summary.htm" />
     <Map Name="Modelsmoretocome" Link="/Content/AboutIFTDSS/Modelsmoretocome.htm" />
-    <Map Name="PlaceHolder" Link="/Content/AboutIFTDSS/PlaceHolder.htm" />
     <Map Name="ShapefileRepair" Link="/Content/MapStudio/Files/ShapefileRepair.htm" />
     <Map Name="AttributeTable" Link="/Content/MapStudio/Functions/AttributeTable.htm" />
     <Map Name="Draw" Link="/Content/MapStudio/Functions/AddGraphic.htm" />
@@ -163,7 +138,7 @@
     <Map Name="publishing" Link="/Content/zHelpProjectInfo/publishing.htm" />
     <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
     <Map Name="CaseStudies" Link="/Content/AboutIFTDSS/CaseStudies.htm" />
-    <Map Name="Test" Link="/Content/AboutIFTDSS/Test.htm" />
+    <Map />
     <Map Name="GB_Overview" Link="/Content/Concepts/GB_Overview.htm" />
     <Map Name="UsingMasks" Link="/Content/Concepts/UsingMasks.htm" />
     <Map Name="AccountPassword" Link="/Content/GetStarted/AccountPassword.htm" />

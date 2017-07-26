@@ -1,11 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2940" MadCap:lastWidth="2117">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3292" MadCap:lastWidth="1736">
     <head>
         <link href="../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>About Landscapes in <MadCap:variable name="General.ProductName" /></h1>
         <p>The dropdowns below provide brief explanations of working with landscapes in <MadCap:variable name="General.ProductName" />. Landscapes in <MadCap:variable name="General.ProductName" /> are represented with landscape (.lcp) files. (Visit the .lcp file topic for more information on the file structure).</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What are Landscape files in <MadCap:variable name="General.ProductName" />?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+				<p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <MadCap:variable name="General.ProductName" /> contain information describing:</p>
+				<img src="../Resources/Images/mapstudio/Lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;float: right;" />
+				<ul>
+					<li>Aspect</li>
+					<li>Canopy base height</li>
+					<li>Canopy bulk density</li>
+					<li>Canopy cover</li>
+					<li>Canopy height</li>
+					<li>Elevation</li>
+					<li><a href="FBFMInfo.htm">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
+					<li>Slope</li>
+				</ul>
+				<p>In <MadCap:variable name="General.ProductName" />, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <MadCap:variable name="General.ProductName" /> application, and in many places throughout these help documents, we refer to 'creating a .lcp file'. During this process, you are actually downloading the .lcp file for your chosen area from <a href="../../References/LANDFIRE.htm">LANDFIRE</a>.</p>
+				<p>There are multiple places in <MadCap:variable name="General.ProductName" /> where Landscape files from which Landscape files may be created. Visit the <a href="LCPCreate.htm">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Choosing Your Landscape Size or Extent</MadCap:dropDownHotspot>

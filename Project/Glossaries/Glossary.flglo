@@ -57,17 +57,6 @@
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions=""
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>FVS</Term>
-    </Terms>
-    <Definition
-      Link="">Forest Vegetation Simulator. A family of forest growth simulation models.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -280,17 +269,6 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
-    conditions="General.Exclude"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>FFE</Term>
-    </Terms>
-    <Definition
-      Link="">Fuels and Fire Extension. An extension to the Forest Vegetaion Simulator that simulates fuel dynamics and fire behavior.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
     Stem=""
     IgnoreCase="false">
     <Terms>
@@ -321,16 +299,6 @@ As defined by NWCG: The layer of decomposing organic materials lying below the l
     </Terms>
     <Definition
       Link="">For IFTDSS, a fire hazard is an act or phenomenon with the potential to do harm.  It can be expressed as potential fire behavior (e.g., fire line intensity, crown scorch height), or a property of the fuels, such as fuel loading or vegetation biomass, or both. A fire hazard is independent of weather and describes the fuels at one point in time.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    TermClass=""
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Fire Regime</Term>
-    </Terms>
-    <Definition
-      Link="">A general description of the role fire plays in an ecosystem. Fire regimes are generally described by the characteristics of fire in a given ecosystem, such as the size, frequency, predictability, intensity, biological severity, and seasonality of fire.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""
@@ -1461,16 +1429,17 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
       <Term>Shapefile</Term>
       <Term>Area of Interest</Term>
       <Term>Polygon</Term>
+      <Term>Mask</Term>
     </Terms>
     <Definition
-      Link="">A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. 
+      Link="">A shapefile (polygon) is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. 
 Shapefiles can be used for many purposes in , and depending on what they are used for in IFTDSS, you may see them referred to by different names.
 
-Area of Interest: When generating a new landscape or a summary from an existing landscape, you may specify an area of interest (shapefile) to represent a particular part of your landscape.
+Area of Interest: This term is used in the Landscape Summary task, Determining Treatment Alternatives task, and in Modeling Playground's Landscape Fire Behavior interface to constrain the area of your summary, analysis, or modeling.
 
-Mask/ Landscape Mask: When editing a landscape you may choose a Mask or Landscape Mask (Shapefile) to edit only the area within that mask.
+Landscape Mask: This term is used in Landscape Editing to constrain the area your edits apply to.
 
-Polygon: In the Edit Tools button of , you will see shapefiles referred to as polygons</Definition>
+Polygon, Shape, Shapefile, Mask: These terms are used interchangeably throughout Map Studio .</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term2"
@@ -1533,16 +1502,6 @@ Polygon: In the Edit Tools button of , you will see shapefiles referred to as po
     </Terms>
     <Definition
       Link="">The spatial fire behavior modeling capability of IFTDSS is based on fire behavior models such as FlamMap. Landscape fire behavior provides spatial fire behavior outputs including: crown fire activity, direction of maximum spread, fireline intensity, flame length. heat per unit area, rate of spread.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term15"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>EVT</Term>
-    </Terms>
-    <Definition
-      Link="">Acronym for Existing Vegetation Type. EVTs are a LANDFIRE product, mapped using decision tree models, field data, Landsat imagery, elevation, and biophysical gradient data. Decision tree models are developed separately for each of the three lifeforms -tree, shrub, and herbaceous and are then used to generate lifeform specific EVT layers.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term16"
@@ -1701,16 +1660,6 @@ See also: needle drape</Definition>
     </Terms>
     <Definition
       Link="">Weight per unit volume. For fuels, this is usually expressed as pounds per cubic foot; for soils, grams per cubic centimeter.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term35"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Burn Block</Term>
-    </Terms>
-    <Definition
-      Link="">A discrete area within a larger prescribed fire project.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term36"
@@ -1962,16 +1911,6 @@ See also: needle drape</Definition>
       Link="">All combustible materials below the surface litter, including duff, tree or shrub roots, punky wood, peat, and sawdust, that normally support a glowing combustion without flame.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="Glossary.Term61"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Hazard Fuel</Term>
-    </Terms>
-    <Definition
-      Link="">A fuel complex defined by kind, arrangement, volume, condition, and location that presents a threat of ignition and resistance to control.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="Glossary.Term62"
     Stem=""
     IgnoreCase="false">
@@ -2194,16 +2133,6 @@ See also: needle drape</Definition>
       Link="">Piling slash resulting from logging or fuel management activities and subsequently burning the individual piles.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
-    glossTerm="Glossary.Term78"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Prescription</Term>
-    </Terms>
-    <Definition
-      Link="">In the context of wildland fire, a prescription is measurable criteria that define conditions under which a prescribed fire may be ignited. Prescriptions may also be used to guide selection of management responses to wildfire to define conditions under which management actions are most likely to achieve incident management objectives. Prescription criteria typically describe environmental conditions such as temperature, humidity and fuel moisture, but may also include safety, economic, public health, geographic, administrative, social, or legal considerations.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
     glossTerm="Glossary.Term79"
     Stem=""
     IgnoreCase="false">
@@ -2212,16 +2141,6 @@ See also: needle drape</Definition>
     </Terms>
     <Definition
       Link="">The specific results expected from completing a project.</Definition>
-  </GlossaryEntry>
-  <GlossaryEntry
-    glossTerm="Glossary.Term80"
-    Stem=""
-    IgnoreCase="false">
-    <Terms>
-      <Term>Polygon</Term>
-    </Terms>
-    <Definition
-      Link="">A polygon (shapefile) is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. Polygons can be used for many purposes in IFTDSS, and depending on what they are used for, you may see them referred to by different names such as area's of interest, masks, or shapefiles.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     glossTerm="Glossary.Term81"
@@ -3067,5 +2986,66 @@ Gridded weather data provides more complete weather data coverage than from fixe
     </Terms>
     <Definition
       Link="">Site-specific implementation document. It is a legal document that provides the agency administrator the information needed to approve the plan, and the prescribed fire burn boss with the information needed to implement the prescribed fire. A prescribed fire project must conform to the written plan.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term163"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Prescription</Term>
+    </Terms>
+    <Definition
+      Link="">The measurable criteria under which fuels will be treated to meet the plan objectives. With Prescribed fire it is the conditions under which fire may be ignited to achieve the burn plan objectives.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term164"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Scorch Height</Term>
+    </Terms>
+    <Definition
+      Link="">Average heights of foliage browning or bole blackening caused by a fire.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term165"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Smoke Management</Term>
+    </Terms>
+    <Definition
+      Link="">The policies and practices implemented by air and natural resource managers directed at minimizing the amount of smoke entering populated areas or impacting sensitive sites, avoiding significant deterioration of air quality and violations of National Ambient Air Quality Standards, and mitigating human-caused visibility impacts in Class I areas.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term166"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Smoke Receptor</Term>
+    </Terms>
+    <Definition
+      Link="">An area that is expected to be impacted by smoke from a prescribed burn under certain conditions such as specific winds or down drainage air flow.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term167"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>Vicinity Map</Term>
+    </Terms>
+    <Definition
+      Link="">Map with scale sufficient that the treatment units can be located on the ground and in sufficient detail to guide implementation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    glossTerm="Glossary.Term15"
+    Stem=""
+    IgnoreCase="false">
+    <Terms>
+      <Term>pixel</Term>
+      <Term>cell</Term>
+    </Terms>
+    <Definition
+      Link="">A pixel or cell refers to the smallest unit of information on a raster map. In IFTDSS each cell represents a 30 meter square area.</Definition>
   </GlossaryEntry>
 </CatapultGlossary>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="68" MadCap:lastWidth="2217">
+    <body>
+        <p>When using Default Fuels Treatment / Disturbance Edit rules that spatially overlap, the <span class="Emphasis">last</span> rule is retained, prior Default rules in the same editing session are ignored.</p>
+    </body>
+</html>

@@ -1,12 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="4" MadCap:lastHeight="418" MadCap:lastWidth="1214" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="920" MadCap:lastWidth="2177" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
-        <h1>Using Masks for Editing and Modeling</h1>
-        <p>In <MadCap:variable name="General.ProductName" /> shapefiles can be used to select specific areas for editing, or running models. This can be particularly helpful in working with treatment areas, units, etc. To use this feature you must first have a shapefile available for your project area. For information on creating or uploading shapefiles see the <a href="../MapStudio/Files/ShapefileInfo.htm" target="_blank">About Shapefiles Topic</a>.<img src="../Resources/Images/mapstudio/masks.png" alt="A valley with three polygons in which treatments are indicated with differing colors" style="width: 341px;height: 280px;float: right;" /></p>
-        <p>Masks can be used in  <MadCap:variable name="General.ProductName" /> to define an area of interest when generating a landscape summary, or applied during the Edit Landscape task to apply rules only to a specific part of your landscape. </p>
-        <p>In the Landscape Comparison task, you may use masks during the editing process to represent fuel treatments, then compare the results. An example of this is can be worked through by following the <a href="../Tutorials/CompareFeature/0_Intro.htm">Comparing Treatment Alternatives Tutorial</a>.</p>
-        <p>Masks are not currently supported for individual landscape fire behavior runs. </p>
+        <h1>
+            <MadCap:keyword term="Area of Interest" />
+            <MadCap:keyword term="polygon" />
+            <MadCap:keyword term="mask" />
+            <MadCap:keyword term="shape" />
+            <MadCap:keyword term="landscape mask" />Areas of Interest and <MadCap:keyword term="Shapefiles" />Shapefiles</h1>
+        <p>In <MadCap:variable name="General.ProductName" /> you will encounter several terms that are applicable to <a href="../MapStudio/Files/ShapefileInfo.htm">shapefiles</a> (areas of interest). These terms all describe shapefiles, but are worded differently in different tasks to reflect the terminology common to those tasks in the wildland fire community. Here is a brief overview of how these terms are used in IFTDSS.</p>
+        <img src="../Resources/Images/mapstudio/masks.png" alt="A valley with three polygons in which treatments are indicated with differing colors" style="width: 341px;height: 280px;float: right;" />
+        <h2>Area of Interest, Landscape Mask</h2>
+        <p><span class="Emphasis">Area of Interest</span> indicates that you can select a shapefile to constrain your modeling or analysis to a specific area, such as a treatment unit. This term is used in the Landscape Summary task, Determining Treatment Alternatives task, and in Modeling Playground's Landscape Fire Behavior interface.</p>
+        <p>In the Editing Landscape task, you will also see the term <span class="Emphasis">Landscape Mask</span> used. Landscape Mask will constrain your edits to a specific area.</p>
+        <p>While we use different terms, <span class="Emphasis">Area of Interest</span> and <span class="Emphasis">Landscape Mask</span> function in the same way. Consider for example a scenario with a landscape called ‘Shady Basin’ and a treatment unit designated by a shapefile ‘Unit A’. In Editing, you would select Shady Basin as your landscape, and use Landscape Mask dropdown menu to constrain your edits to ‘Unit A’. In modeling fire behavior, you would select your edited landscape, and use the Area of Interest dropdown menu to constrain your modeling to Unit A</p>
+        <p>in which you wanted to make edits, then model fire before</p>
+        <h2>Shapefile, Polygon, and Mask</h2>
+        <p><span class="Emphasis">Shapefile</span>, <span class="Emphasis">Shape</span>, <span class="Emphasis">Polygon</span>, and <span class="Emphasis">Mask</span> are used in Map Studio to refer to shapefiles.</p>
+        <ul>
+            <li><span class="Emphasis">Shapes:Masks</span>: is used in the Layer List button to indicate shapefiles.</li>
+            <li><span class="Emphasis">Shapefile</span>: Is used in the Shapefile Upload button.</li>
+            <li><span class="Emphasis">Polygons</span>: Is used in the Create/Edit Shapes button.</li>
+        </ul>
     </body>
 </html>

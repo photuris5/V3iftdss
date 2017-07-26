@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="81" MadCap:lastWidth="2217">
+    <head>
+    </head>
+    <body>
+        <p>Rules are applied based on the order in which you add them. Default Treatment/Disturbance rules are always applied <span class="Emphasis">first</span>, followed by Landscape Edit (User-created) rules.</p>
+    </body>
+</html>
