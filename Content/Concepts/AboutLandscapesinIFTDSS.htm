@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3292" MadCap:lastWidth="1736">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="6401" MadCap:lastWidth="776">
     <head>
         <link href="../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -11,20 +11,20 @@
                 <MadCap:dropDownHotspot>What are Landscape files in <MadCap:variable name="General.ProductName" />?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-				<p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <MadCap:variable name="General.ProductName" /> contain information describing:</p>
-				<img src="../Resources/Images/mapstudio/Lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;float: right;" />
-				<ul>
-					<li>Aspect</li>
-					<li>Canopy base height</li>
-					<li>Canopy bulk density</li>
-					<li>Canopy cover</li>
-					<li>Canopy height</li>
-					<li>Elevation</li>
-					<li><a href="FBFMInfo.htm">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
-					<li>Slope</li>
-				</ul>
-				<p>In <MadCap:variable name="General.ProductName" />, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <MadCap:variable name="General.ProductName" /> application, and in many places throughout these help documents, we refer to 'creating a .lcp file'. During this process, you are actually downloading the .lcp file for your chosen area from <a href="../../References/LANDFIRE.htm">LANDFIRE</a>.</p>
-				<p>There are multiple places in <MadCap:variable name="General.ProductName" /> where Landscape files from which Landscape files may be created. Visit the <a href="LCPCreate.htm">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
+                <p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <MadCap:variable name="General.ProductName" /> contain information describing:</p>
+                <img src="../Resources/Images/mapstudio/Lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;float: right;" />
+                <ul>
+                    <li>Aspect</li>
+                    <li>Canopy base height</li>
+                    <li>Canopy bulk density</li>
+                    <li>Canopy cover</li>
+                    <li>Canopy height</li>
+                    <li>Elevation</li>
+                    <li><a href="FBFMInfo.htm">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
+                    <li>Slope</li>
+                </ul>
+                <p>In <MadCap:variable name="General.ProductName" />, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <MadCap:variable name="General.ProductName" /> application, and in many places throughout these help documents, we refer to 'creating a .lcp file'. During this process, you are actually downloading the .lcp file for your chosen area from <a href="../../References/LANDFIRE.htm">LANDFIRE</a>.</p>
+                <p>There are multiple places in <MadCap:variable name="General.ProductName" /> where Landscape files from which Landscape files may be created. Visit the <a href="LCPCreate.htm">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -52,17 +52,17 @@
                 <div class="notificationNote">
                     <p>Some terms are not mutually exclusive.</p>
                 </div>
-                <p><b><a name="Starting_Landscape"></a>Starting Landscape:</b> Any landscape selected as the starting point for a landscape editing session. This term is used for both edited and unedited landscapes, and you will often see it next to the landscape dropdown menu when you begin edits in <MadCap:variable name="General.ProductName" />. In the <span class="UIcomponent">Landscape Edit</span> task of <span class="UIcomponent">Landscape Evaluation</span>, any landscape may be selected as a starting landscape. In the landscape editing portion of the <span class="UIcomponent">Develop Treatment Alternatives</span> task of <span class="UIcomponent">Strategic Planning</span> session, the starting landscape choices will be limited to landscapes that match the geographic extent of the Originating landscape (explained below).</p>
+                <p><b><a name="Starting_Landscape"></a>Starting Landscape:</b> Any landscape chosen as the starting point for a landscape editing session. This term is used for both edited and unedited landscapes, and you will often see it next to the landscape dropdown menu when you begin edits in <MadCap:variable name="General.ProductName" />. In the <span class="UIcomponent">Landscape Edit</span> task of <span class="UIcomponent">Landscape Evaluation</span>, any landscape may be chosen as a starting landscape. In the landscape editing portion of the <span class="UIcomponent">Develop Treatment Alternatives</span> task of <span class="UIcomponent">Strategic Planning</span> session, the starting landscape choices will be limited to landscapes that match the geographic extent of the Originating landscape (explained below).</p>
                 <div class="notificationTip">
-                    <p>Not sure if you're looking at an edited or unedited landscape?&#160;You can determine if editing rules have been applied by selecting the landscape in question from  <span class="UIcomponent">My Workspace</span> View and then selecting the <span class="UIcomponent">view edit rules</span> button.</p>
+                    <p>Not sure if you're looking at an edited or unedited landscape?&#160;You can determine if editing rules have been applied by selecting the landscape in question from  <span class="UIcomponent">My Workspace</span> View and then clicking the <span class="UIcomponent">view edit rules</span> button.</p>
                 </div>
-                <p><b><a name="Extracted_Unedited_Landscape"></a>Extracted Unedited Landscape (LANDFIRE)</b>: Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to select in <span class="UIcomponent">Develop Treatment Alternatives</span> when you are prompted to “Pick Landscape”. <MadCap:variable name="General.ProductName" /> will always retain this original version under the name you have chosen.</p>
+                <p><b><a name="Extracted_Unedited_Landscape"></a>Extracted Unedited Landscape (LANDFIRE)</b>: Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to choose from in <span class="UIcomponent">Develop Treatment Alternatives</span> when you are prompted to “Pick Landscape”. <MadCap:variable name="General.ProductName" /> will always retain this original version under the name you have chosen.</p>
                 <div class="notificationTip">
                     <p>Extracted Unedited Landscape  Recommended Naming Convention:</p>
                     <p>Use a name that reflects geographic extent or Project Area Name  eg. Gumdrop Falls State Park, Horse Ridge, etc. Append the name  with data source if desired, eg. LFXXXX where XXXX represents the source year. (In the future more versions/years of LANDFIRE data are likely to become available, though currently only LF2012 is available).</p>
                     <p>An example would be Gumdrop State Park LF2012 or Horse Ridge LF2012</p>
                 </div>
-                <p><b><a name="Edited_(Alternative)_Landscape"></a>Edited (Alternative) Landscape:</b> New landscape saved during a landscape editing session where an edit rule has been applied, such as edits made to create an Existing Condition (EC)(defined below) or to reflect post-treatment conditions that would result from a fuel treatment alternative. You may check to see if editing rules have been applied to a landscape by selecting the landscape in question from  <span class="UIcomponent">My Workspace</span> View and then selecting the <span class="UIcomponent">view edit rules</span> button.</p>
+                <p><b><a name="Edited_(Alternative)_Landscape"></a>Edited (Alternative) Landscape:</b> New landscape saved during a landscape editing session where an edit rule has been applied, such as edits made to create an Existing Condition (EC)(defined below) or to reflect post-treatment conditions that would result from a fuel treatment alternative. You may check to see if editing rules have been applied to a landscape by selecting the landscape in question from  <span class="UIcomponent">My Workspace</span> View and then clicking the <span class="UIcomponent">view edit rules</span> button.</p>
                 <div class="notificationTip">
                     <p>Edited Landscape Recommended Naming Convention:</p>
                     <p>Fuels Treatment Alternative Edited landscapes: Append with abbreviated major edits and timeframe Existing Condition Edits landscapes:  Append with -EC</p>

@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <body>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and select <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <MadCap:variable name="General.ProductName" />. <span class="comment" MadCap:conditions="General.DeveloperNotes">NOTE THIS&#160;FEATURE&#160;IS NOT&#160;WORKING&#160;CURRENTLY 2-28-17-JH</span></body>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="1" MadCap:lastHeight="163" MadCap:lastWidth="896">
+    <body>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and click <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <MadCap:variable name="General.ProductName" />.</body>
 </html>

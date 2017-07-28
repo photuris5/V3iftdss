@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="11015" MadCap:lastWidth="1736">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="15110" MadCap:lastWidth="1113">
     <head>
     </head>
     <body>
@@ -12,7 +12,7 @@
         <p>We'll progress through each of these steps as you complete this final part of the tutorial.</p>
         <h3>Pick a landscape</h3>
         <MadCap:snippetBlock src="../../Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part1.flsnp" />
-        <p>For this tutorial, select the 'Haypress LF2012 Unedited' file we created at the start. Our Existing landscape version of that file will become available during subsequent steps. As we proceed to the edit step, we'll focus solely on creating treatment alternatives; However, if we had not created any files in <MadCap:variable name="General.ProductName" />, we could have started here at this <span class="UIcomponent">Pick a landscape</span> step, and use the next step (edit) to both create our existing landscape (Haypress LF2012 EC), and create treatment alternatives from that existing landscape.</p>
+        <p>For this tutorial, select the 'Haypress LF2012 Unedited' file we created at the start. Our Existing landscape version of that file will become available during subsequent steps. Next, select 'Haypress Treatments All' to constrain the area of interest to the treatment units we created earlier. When we generate reports later, doing this constrain our report summaries to the area within our treatment area. As we proceed to the edit step, we'll focus solely on creating treatment alternatives; However, if we had not created any files in <MadCap:variable name="General.ProductName" />, we could have started here at this <span class="UIcomponent">Pick a landscape</span> step, and use the next step (edit) to both create our existing landscape (Haypress LF2012 EC), and create treatment alternatives from that existing landscape.</p>
         <h3>Edit the landscape</h3>
         <MadCap:snippetBlock src="../../Resources/Snippets/CompareTreatmentAlts/Edit_part1.flsnp" />
         <p>For this example we'll use the Default Treatment/Disturbance option to create two treatment alternatives.</p>
@@ -32,9 +32,9 @@
             <li>Make sure 'low severity' is selected</li>
             <li>For Time Since Treatment, select '2-5 years'. </li>
             <li>We'll apply this to the treatment polygons we created earlier, so under <span class="UIcomponent">Apply Landscape Mask</span>, select 'Haypress Treatments All'</li>
-            <li>Select <span class="UIcomponent">Add to Rules</span></li>
+            <li>Click <span class="UIcomponent">Add to Rules</span></li>
         </ol>
-        <p>Select a name for the new landscape:&#160;'HaypressCrk LF2012 EC Rx Low 4yrs' and select <span class="UIcomponent">Save new Landscape</span></p>
+        <p>Now, choose a name for the new landscape:&#160;'HaypressCrk LF2012 EC Rx Low 4yrs' and click <span class="UIcomponent">Save</span></p>
         <p>Next, while still in the edit step, repeat this process, again starting with HaypressCrk LF2012 EC. This time select the 'Thin: Slash Removed', 'Heavy Thinning:&#160;Pile&#160;Burning' and '2-5 years' since disturbance. Specify the Landscape Mask as 'HayPress Treatments All' and add the rule and name the landscape 'HaypressCrk LF2012 EC HvyThin 4yrs'.</p>
         <p>Next we'll select model inputs to run fire behavior with these treatments</p>
         <h3>Enter model inputs</h3>
@@ -52,18 +52,18 @@
         <p>
             <img src="../../Resources/Images/tutorial_1_comparison/tutorial_modelinputs.png" alt="model inputs as described in text" style="width: 586px;height: 499px;" />
         </p>
-        <p>In <span class="UIcomponent">Model&#160;Input</span>, enter the following values, and select <span class="UIcomponent">Save Inputs</span> when finished.</p>
+        <p>In <span class="UIcomponent">Model&#160;Input</span>, enter the following values, and click <span class="UIcomponent">Save Inputs</span> when finished.</p>
         <ul>
             <li>Wind speed: 20 mph</li>
             <li>Wind Direction:&#160;225 degrees</li>
             <li>Crown Fire Method: Scott/Reinhardt</li>
             <li>Fuel Moisture Content: 100</li>
             <li>Initial Fuel Moistures of</li>
-            <li>1 hr 3</li>
-            <li>10 hr 4</li>
-            <li>100 hr 5</li>
-            <li>Herb 119</li>
-            <li>Woody 99</li>
+            <li>1 hr FM: 3</li>
+            <li>10 hr FM: 4</li>
+            <li>100 hr FM: 5</li>
+            <li>Herb FM: 119</li>
+            <li>Woody FM: 99</li>
         </ul>
         <p>When you save your inputs a verification will appear at the top of the screen to confirm your inputs have been saved</p>
         <p>
@@ -79,7 +79,10 @@
         <p>
             <img src="../../Resources/Images/treatment_compare/comparison_model_list.png" alt="a list of available landscapes for which the fire behavior model may be run" style="width: 809px;height: 274px;" />
         </p>
-        <p>Select <span class="UIcomponent">Run Model </span>next to the three landscaped indicated above</p>
+        <p>Click <span class="UIcomponent">Run Model </span>next to the three landscaped indicated above</p>
+        <div class="notificationTip">
+            <p>Note if your last edit landscape is not visible, you may need to click the refresh button <img src="../../Resources/Images/button_refresh.png" alt="Refresh button" /> next to 'Landscapes'</p>
+        </div>
         <h3>
             <img src="../../Resources/Images/treatment_compare/comparison_model_list_verify.png" alt="A green box at the top of the page, and hourglass next to each landscape, indicates the model for each one is running" />
         </h3>
@@ -93,7 +96,7 @@
         </p>
         <h3>Compare model outputs for your treatment alternatives</h3>
         <MadCap:snippetBlock src="../../Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
-        <p>To begin,  select the low severity prescribed fire treatment, which will be tagged with a "1", then our existing landscape, which will be tagged with a "2". The comparison display the difference in landscape features and fire behavior between the two landscapes. When finished, select <span class="UIcomponent">View in Map</span>.</p>
+        <p>To begin,  select the low severity prescribed fire treatment, which will be tagged with a "1", then our existing landscape, which will be tagged with a "2". The comparison display the difference in landscape features and fire behavior between the two landscapes. When finished, click <span class="UIcomponent">View in Map</span>.</p>
         <p>
             <img src="../../Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" alt="comparison screen with the rows for each landscape described in text are highlighted" style="width: 834px;height: 302px;" />
         </p>

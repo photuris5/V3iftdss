@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="730" MadCap:lastWidth="876">
     <body>
         <p>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </p>
-        <p>Delete a vertex by hovering over it, clicking the right mouse button once, and selecting delete</p>
+        <p>Delete a vertex by hovering over it, clicking the right mouse button once, and clicking delete</p>
         <p>
             <img src="../../Images/shapefile_repair/polygon_vertexdelete.png" style="width: 610px;height: 433px;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" />
         </p>
