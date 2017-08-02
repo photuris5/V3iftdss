@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="321" MadCap:lastWidth="767">
-    <body>
-        <p>Currently, <MadCap:variable name="General.ProductName" /> is in development with a new version expected to be released in the spring of 2017. The current version, 2.0.1 Beta, is available for use, but will be phased out following the 2017 release of the new IFTDSS.</p>
-        <div class="notificationNote"><p>Data and projects from IFTDSS 2.0.1 Beta will not be transferred to the new application because it is being built on a new system. Please make sure to save your data and relevant information.</p></div>
-    </body>
-</html>
