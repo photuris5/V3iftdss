@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="11443" MadCap:lastWidth="1127">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5079" MadCap:lastWidth="2057">
     <head>
         <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -7,7 +7,7 @@
         <h1>
             <MadCap:keyword term="Rule Ordering" />
             <MadCap:keyword term="Rule Ordering Considerations" />Rule Ordering Considerations when <MadCap:keyword term="Editing Landscapes" />Editing Landscapes</h1>
-        <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+        <MadCap:snippetBlock src="../Resources/Snippets/EditLandscapeRules/RuleEditingWarningRulOrdr.flsnp" />
         <p>Edit rules are applied differently in IFTDSS depending on whether the rule is a Default Fuels Treatment / Disturbance Edit rule or a Landscape Edit (User-created) rule. This is because Default Fuels Treatment / Disturbance Edit rules show landscape changes using one method, and Landscape Edit (User-created) rules use another. Background on this is summarized at the bottom of this page and in the <a href="../PCLandscapeEval/LandscapeEditTechTopic.htm">Rule Technical Documentation</a> topic, but first we’ll explain how this difference in method affects edits and how they should be applied.</p>
         <h2>Applying Default Fuels Treatment / Disturbance Edit Rules</h2>
         <ul>
@@ -42,14 +42,14 @@
                             <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                                 <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/DefaultRule2.flsnp" />
                             </td>
-                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">You want to thin/masticate in one unit and thin/lop and scatter another unit. This is accomplished by using Default Rules. You would apply thin/masticate to one Area of Interest and thin/lop and scatter to another Area of Interest within one editing session in the Landscape Edit or Develop Treatment Alternatives dialogues. </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">You want to thin/masticate in one unit and thin/lop and scatter another unit. This is accomplished by using Default Rules. You would apply thin/masticate to one Landscape Mask and thin/lop and scatter to another Landscape Mask within one editing session in the Landscape Edit or Develop Treatment Alternatives dialogues. </td>
                         </tr>
                         <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                             <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">It is generally recommended that Default Fuels Treatment / Disturbance Edit rules should only be applied to a previously unedited landscape or a landscape in which only Default Fuels Treatment / Disturbance Edit rules have been applied. Note, however, that <MadCap:variable name="General.ProductName" /> does allow you to apply Default Fuels Treatment / Disturbance Edit rules <span class="Emphasis">after</span> Landscape Edit (User-created) rules have been applied.  If this is part of your workflow, see the <a href="#Rule_ordering_Background">background summary</a> for information on how this may affect the way rules are implemented.</td>
-                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">You want to make some changes to fuel model and canopy cover within your initial landscape so that project-level conditions are better represented, then run a wildfire. You can do this in two separate edit sessions, but your outputs may be more generalized than if you ran your wildfire without making any changes to LANDFIRE data. Options to consider:
+                            <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">You want to make some changes to fuel model and canopy cover within your initial landscape so that project-level conditions are better represented, then model fire behavior. You can do this in two separate edit sessions, but your outputs may be more generalized than if you ran your wildfire without making any changes to LANDFIRE data. Options to consider:
 
-(a) Thoroughly scrutinize the results from editing fuel model and canopy cover prior to running a wildfire
-(b) Changing fuel model and use the LANDFIRE data as is particularly if fire behavior will be similar
+(a) Thoroughly scrutinize the fire behavior outputs that result from editing fuel model and canopy cover prior to running a wildfire
+(b) Not changing the fuel model; use the LANDFIRE data as is, particularly if resulting fire behavior output will be similar
 (c) Using only Landscape Edit (User-created) rules from this point forward
 </td>
                         </tr>
@@ -92,7 +92,7 @@
                             <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                                 <MadCap:snippetBlock src="../Resources/Snippets/EditRuleOrdering/UserCrRule1.flsnp" />
                             </td>
-                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">You have a landscape with a treatment unit that overlaps with a Northern Spotted Owl activity center. You’d like to change the fuel model within one of the treatment unit from TU5 to TL9 and within the activity center from TU1 to TU5. Within the area of overlap between the activity center and treatment unit, the fuel model change listed first in the editing session will be retained. </td>
+                            <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">You have a landscape with a treatment unit that overlaps with a Northern Spotted Owl activity center. You’d like to change the fuel model within one of the treatment units from TU5 to TL9 and within the activity center from TU1 to TU5. Within the area of overlap between the activity center and treatment unit, the fuel model change listed first in the editing session will be retained. </td>
                         </tr>
                         <tr class="TableStyle-PatternedRows-Body-LightRows">
                             <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
