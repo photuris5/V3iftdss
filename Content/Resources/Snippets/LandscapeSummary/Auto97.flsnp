@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="4728" MadCap:lastWidth="816">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2554" MadCap:lastWidth="2157">
     <head>
         <link href="../../TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your chosen Landscape. </p>
+        <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm" target="_blank">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your chosen Landscape. </p>
         <div class="notificationComingSoon">
             <p>While currently the selection of RAWS is automatic, in future releases of <MadCap:variable name="General.ProductName" /> you will be able to specify the RAWS station of your choosing.</p>
         </div>
         <h2>Inputs</h2>
         <h3> Landscape</h3>
-        <p>The <a href="../../../MapStudio/Files/LCPInfo.htm">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
+        <p>The <a href="../../../MapStudio/Files/LCPInfo.htm" target="_blank">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
         <ul>
             <li>Fuel Model</li>
             <li>Canopy Cover (percent)</li>
@@ -23,7 +23,7 @@
         </ul>
         <h3>Crown Fire Method</h3>
         <p>For the Auto97th run, the crown fire calculation option is set to the Scott and Reinhardt (<a href="../../../References/ReferenceList.htm#Scottandburgan2005" target="_blank">2005</a>) method, but you may also choose the Finney (<a href="../../../References/ReferenceList.htm#Finney1998" target="_blank">1998</a>) method. Both methods are based on the same component crown fire behavior models, although there are minor differences in implementation. These subtle differences lead to significantly more predicted crown fire activity using the Scott and Reinhardt method compared to the Finney method.</p>
-        <p><a href="../../../ModelingPG/FlamMap/FlamMapCrowns.htm">Visit Crown Fire Calculations Options Topic for more details about these two options</a>.</p>
+        <p><a href="../../../ModelingPG/FlamMap/FlamMapCrowns.htm" target="_blank">Visit Crown Fire Calculations Options Topic for more details about these two options</a>.</p>
         <h3>Weather</h3>
         <p>The Auto97th run use 97th percentile fire weather conditions. Percentiles are based on a scale of 0-100 and are used to sort and rank a collection of data. For wildfire, when values at the upper end of the scale occur, we would expect to see complex fires where initial attack may often fail. The 97th percentile is often termed “the worst-case scenario.”</p>
         <p>To determine the 97th percentile conditions, <MadCap:variable name="General.ProductName"></MadCap:variable> chooses the closest Remote Automated Weather Station (RAWS) to generate fuel moistures, wind speed and wind direction. The RAWS is selected by:</p>
@@ -33,7 +33,7 @@
             <li>    Ranking the stations and selecting the station which is the “closest” and has weather data requisite for running the model.</li>
         </ol>
         <div class="notificationNote">
-            <p>The RAWS selected, and the fuel moisture and wind scenario for the automated Auto97th model, cannot be changed.  It is intended to be a starting point to understand your landscape and predicted fire behavior.  You may choose to run a <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm">Landscape Fire Behavior</a> model run with user-input values in the <a href="../../../ModelingPG/ModelsOverview.htm">Modeling Playground</a>.</p>
+            <p>The RAWS selected, and the fuel moisture and wind scenario for the automated Auto97th model, cannot be changed.  It is intended to be a starting point to understand your landscape and predicted fire behavior.  You may choose to run a <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm" target="_blank">Landscape Fire Behavior</a> model run with user-input values in the <a href="../../../ModelingPG/ModelsOverview.htm" target="_blank">Modeling Playground</a>.</p>
         </div>
         <p>Once a RAWS station is selected, the Energy Release Components (ERCs) are calculated for every day. ERC is related to the available energy within the flaming front at the head of a fire. The ERC is considered a composite fuel moisture index as it reflects the contribution of all live and dead fuels to potential fire intensity. The ERC has memory, each daily calculation considers the past 7 days in calculating the new number making it relatively stable indicator of fuel conditions over time.</p>
         <p>The 97th percentile fuel moistures are calculated for dead (1hr, 10 hr, and 100 hr) and live (herbaceous and woody) fuels by averaging the values for all days where ERC is at the 97th percentile.</p>
@@ -190,7 +190,7 @@
         <p>Wind speed and direction are selected from the table as follows:</p>
         <ul>
             <li>The row with 97th percentile speed is identified (13-18 mph in the above example),</li>
-            <li>the mid-point wind speed (15 mph for this example) is converted to 1 minute average using Table 1 <i>from</i><a href="../../../References/ReferenceList.htm#CrosbyandChandler2004"> Crosby and Chandler 2004</a> (20 mph for this example)</li>
+            <li>the mid-point wind speed (15 mph for this example) is converted to 1 minute average using Table 1 <i>from</i><a href="../../../References/ReferenceList.htm#CrosbyandChandler2004" target="_blank"> Crosby and Chandler 2004</a> (20 mph for this example)</li>
             <li>the cell with the largest value for that row is used as the direction (west in this example),</li>
         </ul>
         <h2>Outputs</h2>

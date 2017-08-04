@@ -77,7 +77,7 @@
     <Map Name="WhereToBegin" Link="/Content/GetStarted/WhereToBegin.htm" />
     <Map Name="EditTools" Link="/Content/MapStudio/Functions/EditTools.htm" />
     <Map Name="FCCS" Link="/Content/ModelingPG/FFT/FCCS.htm" />
-    <Map Name="FTEMReporting" Link="/Content/PCReporting/FTEMReporting.htm" />
+    <Map Name="FTEMReporting" Link="/Content/PCReporting/FTEMAbout.htm" />
     <Map Name="ReportingAbout" Link="/Content/PCReporting/ReportingAbout.htm" />
     <Map Name="report_overview" Link="/Content/PCReporting/report_overview.htm" />
     <Map Name="SuccessStoryMapAbout" Link="/Content/PCReporting/SuccessStoryAbout.htm" />
@@ -138,8 +138,6 @@
     <Map Name="publishing" Link="/Content/zHelpProjectInfo/publishing.htm" />
     <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
     <Map Name="CaseStudies" Link="/Content/AboutIFTDSS/CaseStudies.htm" />
-    <Map />
-    <Map Name="GB_Overview" Link="/Content/Concepts/GB_Overview.htm" />
     <Map Name="UsingMasks" Link="/Content/Concepts/UsingMasks.htm" />
     <Map Name="AccountPassword" Link="/Content/GetStarted/AccountPassword.htm" />
     <Map Name="AccountProfile" Link="/Content/GetStarted/AccountProfile.htm" />
