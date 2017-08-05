@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2569" MadCap:lastWidth="816">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1205" MadCap:lastWidth="1776">
     <head>
     </head>
     <body>
@@ -22,7 +22,7 @@
         <p>You have the option of defining a <span class="UIcomponent">Landscape Mask</span> to apply your rules to. </p>
         <p>Once you have set your rule, click <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
         <div class="notificationImportant">
-            <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by user defined Landscape Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
+            <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by User Created Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
         </div>
         <MadCap:snippetBlock src="RuleEditReturnWarning.flsnp" />
     </body>

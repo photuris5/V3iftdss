@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="278" MadCap:lastWidth="2157">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="278" MadCap:lastWidth="1776">
     <body>
         <div class="notificationImportant">
             <p><strong>Important!</strong> Be deliberate in the rules you apply when editing landscapes:</p>
-            <p>ules are applied based on the order in which you add them. Default Treatment/Disturbance rules are always applied <span class="Emphasis">first</span>, in the order you have assigned them, followed by followed by Landscape Edit (User-created) rules in the order you have assigned them.</p>
+            <p>ules are applied based on the order in which you add them. Default Treatment/Disturbance rules are always applied <span class="Emphasis">first</span>, in the order you have assigned them, followed by followed by User Created Edit rules in the order you have assigned them.</p>
             <p>After applying rules to a given landscape you should always validate that your changes have been made as you intended. <span class="Emphasis">If you are unsure of the effect of the rules you apply, consider saving a version of your landscape after each edit to allow for easy comparison of the changes made by each edit rule you apply</span>.</p>
             <p>For further detail see the <a href="../../../Concepts/RuleOrdering.htm" target="_blank">Rule Ordering Considerations</a> and the <a href="../../../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Rule Technical Documentation</a> Topics</p>
         </div>

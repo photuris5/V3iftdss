@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="81" MadCap:lastWidth="2217">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="73" MadCap:lastWidth="1836">
     <head>
     </head>
     <body>
-        <p>When applying multiple Landscape Edit (User-created) rules, the selection criteria cannot be contingent on another change being that is being made in the same editing session.</p>
+        <p>When applying multiple User Created Edit Rules, the selection criteria cannot be contingent on another change being that is being made in the same editing session.</p>
     </body>
 </html>
