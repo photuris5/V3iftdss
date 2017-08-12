@@ -24,4 +24,13 @@
     BackgroundColor="#8b008b"
     Name="DeveloperNotes"
     Comment="Developer Notes" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="FTEMInclude"
+    Comment="Put this in the ftem output"
+    OriginalName="FTEMInclude" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="FTEM Exlude"
+    Comment="Leave this out of FTEM Output" />
 </CatapultConditionTagSet>

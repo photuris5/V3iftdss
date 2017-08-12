@@ -10,7 +10,7 @@
   MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
   ResultsPerPage="10"
   Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
-  ConditionTagExpression="include[General.Online] exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or General.PDF or General.shorthelp] "
+  ConditionTagExpression="include[&quot;General.FTEM Exlude&quot; or General.Online] exclude[General.DeveloperNotes or General.Exclude or General.FTEMInclude or General.LaterRelease or General.PDF or General.shorthelp] "
   DefaultUrl="/Content/Home.htm"
   MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
   DisableAutoSync="true"

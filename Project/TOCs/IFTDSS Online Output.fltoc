@@ -342,15 +342,35 @@
   <TocEntry
     Title="Known Issues"
     Link="/Content/AboutIFTDSS/KnownIssues.htm"
-    StartSection="false" />
+    StartSection="false"
+    conditions="General.FTEM Exlude" />
   <TocEntry
     Title="FTEM"
-    conditions="General.LaterRelease"
-    Link="/Content/PCReporting/FTEMAbout.htm">
+    conditions="General.FTEMInclude"
+    Link="/Content/FTEM/FTEMAbout.htm">
     <TocEntry
-      Title="About FTEM"
-      Link="/Content/PCReporting/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="FTEM Background" />
+      Title="Get Started with FTEM Permissions"
+      Link="/Content/FTEM/AccountSetup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/FTEM/UsingFtem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/FTEM/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/FTEM/MonitoringGuidance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Reporting"
+      Link="/Content/FTEM/Reporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/FTEM/FTEMFaq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/FTEM/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
 </CatapultToc>
