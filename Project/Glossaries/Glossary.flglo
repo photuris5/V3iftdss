@@ -1432,10 +1432,10 @@ The stages of the cycle correspond to stages in the fuels planning process, proc
       <Term>Mask</Term>
     </Terms>
     <Definition
-      Link="">A shapefile (polygon) is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other disturbances or treatments. 
-Shapefiles can be used for many purposes in , and depending on what they are used for in IFTDSS, you may see them referred to by different names.
+      Link="">A shapefile (polygon) is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and other areas of disturbances. 
+Shapefiles can be used for many purposes in IFTDSS, and depending on what they are used for, you may see them referred to by different names.
 
-Area of Interest: This term is used in the Landscape Summary task, Determining Treatment Alternatives task, and in Modeling Playground's Landscape Fire Behavior interface to constrain the area of your summary, analysis, or modeling.
+Area of Interest: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis or reporting.
 
 Landscape Mask: This term is used in Landscape Editing to constrain the area your edits apply to.
 

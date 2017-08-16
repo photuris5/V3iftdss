@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>When Default Fuels Treatment / Disturbance Edit rules and User Created Edit rules are applied to areas that do not spatially overlap (i.e., are applied to spatially distinct <a href="../../../Concepts/UsingMasks.htm">Landscape Masks</a>) all rules will be retained.</p>
+        <p>When Default Fuels Treatment / Disturbance Edit rules and User Created Edit rules are applied to areas that do not spatially overlap (i.e., are applied to spatially distinct <a href="../../../MapStudio/Files/ShapefileInfo.htm#AreasOfInterest" target="_blank">Landscape Masks</a>) all rules will be retained.</p>
     </body>
 </html>

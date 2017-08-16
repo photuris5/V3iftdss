@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="73" MadCap:lastWidth="1836">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="62" MadCap:lastWidth="1470">
     <head>
     </head>
     <body>
-        <p>Rules are applied based on the order in which you add them. Default Treatment/Disturbance rules are always applied <span class="Emphasis">first</span>, followed by User Created Edit rules.</p>
+        <p>Default Fuels Treatment/Disturbance Edit rules are always applied <span class="Emphasis">first</span>, followed by User Created Edit rules.</p>
     </body>
 </html>
