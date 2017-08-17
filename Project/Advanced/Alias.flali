@@ -154,4 +154,7 @@
     <Map Name="cycle_strategic_plan_hh" Link="/Content/zHover/cycle_strategic_plan_hh.htm" />
     <Map Name="myworkspace_folders_hh" Link="/Content/zHover/myworkspace_folders_hh.htm" />
     <Map Name="myworkspace_intro_hh" Link="/Content/zHover/myworkspace_intro_hh.htm" />
+    <Map Name="_3_Edit" Link="/Content/Tutorials/CompareFeature/3_Edit.htm" />
+    <Map Name="FireBehavior" Link="/Content/ModelingPG/FlamMap/FlamMapAbout.htm" />
+    <Map Name="ModelingPlayground" Link="/Content/ModelingPG/ModelsOverview.htm" />
 </CatapultAliasFile>
