@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="MadCap HTML5 Target"
+  Type="WebHelp2"
+  Destinations=""
+  MoveOutputContentToRoot="false"
+  SkinComponents=""
+  EnableResponsiveOutput="true"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  ResultsPerPage="10"
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  ConditionTagExpression="include[&quot;General.FTEM Exlude&quot; or General.Online] exclude[General.DeveloperNotes or General.Exclude or General.FTEMInclude or General.LaterRelease or General.PDF or General.shorthelp] "
+  DefaultUrl="/Content/Home.htm"
+  MasterToc="/Project/TOCs/IFTDSS Online Output.fltoc"
+  DisableAutoSync="true"
+  MakeFileLowerCase="true"
+  OutputFile="index"
+  TabletBreakpoint="1024"
+  UseDeviceWidth="false"
+  MobileBreakpoint="414"
+  GenerateAllSkins="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/output_2016_JH.fldes" />
+    <Destination
+      Link="/Project/Destinations/output_gitlabiftui_JH.fldes" />
+  </Destinations>
+  <PostBuild></PostBuild>
+</CatapultTarget>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="467" MadCap:lastWidth="836">
+    <head>
+    </head>
+    <body>
+        <p>Once you have checked 2 boxes you can:
+				</p>
+        <ul>
+            <li>View on Map where, if it is not already open, will open the split screen and will display the difference grid for the landscapes you choose.  The layers list should also be open and will list the two landscapes, two model outputs, and two difference grids (landscape diff and model output diff) to view.
+					</li>
+            <li>Compare in <span class="UIcomponent">Summary Report</span> where a pop up box will appear in which you may click <span class="UIcomponent">Create Report</span> for either or both of Landscape Compare or Fire Behavior Compare.  Use the refresh button to check status.  Once the report has been created you can click on the blue hyper link opening a new tab where you can view, download or print your report.
+</li>
+        </ul>
+    </body>
+</html>

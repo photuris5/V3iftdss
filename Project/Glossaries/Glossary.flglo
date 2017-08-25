@@ -617,9 +617,10 @@ Average height from the ground to a forest stand's canopy bottom.</Definition>
     IgnoreCase="false">
     <Terms>
       <Term>Rate of Spread</Term>
+      <Term>R.O.S.</Term>
     </Terms>
     <Definition
-      Link="">The relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front. Usually it is expressed in chains or acres per hour.</Definition>
+      Link="">Rate of spread is the relative activity of a fire in extending its horizontal dimensions. It is expressed as rate of forward spread of the fire front. Usually it is expressed in chains or acres per hour.</Definition>
   </GlossaryEntry>
   <GlossaryEntry
     TermClass=""

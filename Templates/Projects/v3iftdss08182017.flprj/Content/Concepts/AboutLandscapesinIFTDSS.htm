@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="5278" MadCap:lastWidth="1157">
+    <head>
+        <link href="../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1>About Landscapes in <MadCap:variable name="General.ProductName" /></h1>
+        <p>The dropdowns below provide brief explanations of working with landscapes in <MadCap:variable name="General.ProductName" />. Landscapes in <MadCap:variable name="General.ProductName" /> are represented with landscape (.lcp) files. The current versions of landscape files available in <MadCap:variable name="General.ProductName" /> include:</p>
+        <ul>
+            <li>LANDFIRE 2012</li>
+            <li>LANDFIRE 2014</li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What are Landscape files in <MadCap:variable name="General.ProductName" />?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <MadCap:variable name="General.ProductName" /> contain information describing:</p>
+                <img src="../Resources/Images/mapstudio/Lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;float: right;" />
+                <ul>
+                    <li>Aspect</li>
+                    <li>Canopy base height</li>
+                    <li>Canopy bulk density</li>
+                    <li>Canopy cover</li>
+                    <li>Canopy height</li>
+                    <li>Elevation</li>
+                    <li><a href="../MapStudio/Files/FBFMInfo.htm" target="_blank">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
+                    <li>Slope</li>
+                </ul>
+                <p>In <MadCap:variable name="General.ProductName" />, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <MadCap:variable name="General.ProductName" /> application, and in many places throughout these help documents, we refer to 'creating a .lcp file'. During this process, you are actually downloading the .lcp file for your chosen area from <a href="../References/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
+                <p>There are multiple places in <MadCap:variable name="General.ProductName" /> where Landscape files from which Landscape files may be created. Visit the <a href="../MapStudio/Files/LCPCreate.htm" target="_blank">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Choosing Your Landscape Size or Extent</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Choosing the appropriate landscape extent  for your landscape and understanding how <MadCap:variable name="General.ProductName" /> uses landscapes will facilitate your work. Thirty meters is the default resolution of all landscapes extracted within <MadCap:variable name="General.ProductName" /> from LANDFIRE. Define a landscape extent that covers your area of interest and immediate surroundings. For individual projects this may be a few thousand acres or less. For unit level analysis, it may be several hundred thousand acres or larger. Understanding how <MadCap:variable name="General.ProductName" /> uses landscapes will facilitate more efficient work practices within the application. For instance, paying close attention to choosing the appropriate landscape extent for your project can not only help you focus in on your specific area of interest, but will provide for faster computing times as landscapes are built and models are run.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Landscape Editing Overview</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Landscape editing can occur in both the Landscape Evaluation stage of the Planning Cycle under <span class="UIcomponent">Landscape Edit</span>, or within the Strategic Planning stage under <span class="UIcomponent">Develop Treatment Alternatives</span>. Menu options and results are the same for both. A key distinction between the two editing options is the landscapes that are available to be edited: In editing sessions accessed from the Landscape Evaluation stage any landscape can be edited. In editing sessions accessed from  the <span class="UIcomponent">Develop Treatment Alternatives</span> task in the Strategic Planning stage, your Originating Landscape (the landscape you choose to specify your editing area for simulating treatment alternatives) must be an unedited landscape. Other landscapes that match the extent of this unedited landscape (ie one you've already edited in the Landscape Evaluation stage) will become available during this process. This limitation on landscape availability is to ensure that you are comparing "like" landscapes and outputs in your comparisons. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Landscape Terminology in IFTDSS</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>There are only 2 types of landscapes in <MadCap:variable name="General.ProductName"></MadCap:variable>, unedited or edited. However, there are a variety of terms that reference these different landscape types depending on how they are being used. We will outline them below: </p>
+                <div class="notificationNote">
+                    <p>Some terms are not mutually exclusive.</p>
+                </div>
+                <h2>Starting Landscape</h2>
+                <p><b><a name="Starting_Landscape"></a>Starting Landscape:</b> Any landscape chosen as the starting point for a landscape editing session. This term is used for both edited and unedited landscapes, and you will often see it next to the landscape dropdown menu when you begin edits in <MadCap:variable name="General.ProductName" />. In the <span class="UIcomponent">Landscape Edit</span> task of <span class="UIcomponent">Landscape Evaluation</span>, any landscape may be chosen as a starting landscape. In the landscape editing portion of the <span class="UIcomponent">Develop Treatment Alternatives</span> task of <span class="UIcomponent">Strategic Planning</span> session, the starting landscape choices will be limited to landscapes that match the geographic extent of the Originating landscape (explained below).</p>
+                <div class="notificationTip">
+                    <p>Not sure if you're looking at an edited or unedited landscape?&#160;You can determine if editing rules have been applied by selecting the landscape in question from  <span class="UIcomponent">My Workspace</span> View and then clicking the <span class="UIcomponent">view edit rules</span> button.</p>
+                </div>
+                <h2>Extracted Unedited Landscape (LANDFIRE)</h2>
+                <p><b><a name="Extracted_Unedited_Landscape"></a>Extracted Unedited Landscape (LANDFIRE):</b> Thirty meter (30m) resolution raw “ouf of the box” landscape data extracted from LANDFIRE that have not yet been edited. This is the landscape that you first create, specifying the size and name. These are the only landscapes available to choose from in <span class="UIcomponent">Develop Treatment Alternatives</span> when you are prompted to “Pick Landscape”. <MadCap:variable name="General.ProductName" /> will always retain this original version under the name you have chosen.</p>
+                <div class="notificationTip">
+                    <p>Extracted Unedited Landscape  Recommended Naming Convention:</p>
+                    <p>Use a name that reflects geographic extent or Project Area Name  eg. Gumdrop Falls State Park, Horse Ridge, etc. Append the name  with data source if desired, eg. LFXXXX where XXXX represents the source year. (In the future more versions/years of LANDFIRE data are likely to become available).</p>
+                    <p>An example would be Gumdrop State Park LF2012 or Horse Ridge LF2012</p>
+                </div>
+                <h2>Edited (Alternative)&#160;Landscape</h2>
+                <p><b><a name="Edited_(Alternative)_Landscape"></a>Edited (Alternative) Landscape:</b> New landscape saved during a landscape editing session where an edit rule has been applied, such as edits made to create an Existing Condition (EC)(defined below) or to reflect post-treatment conditions that would result from a fuel treatment alternative. You may check to see if editing rules have been applied to a landscape by selecting the landscape in question from  <span class="UIcomponent">My Workspace</span> View and then clicking the <span class="UIcomponent">view edit rules</span> button.</p>
+                <div class="notificationTip">
+                    <p>Edited Landscape Recommended Naming Convention:</p>
+                    <p>Fuels Treatment Alternative Edited landscapes: Append with abbreviated major edits and timeframe Existing Condition Edits landscapes:  Append with -EC</p>
+                    <p>Horseshoe Ridge LF2012  Thin 1YR Post</p>
+                    <p>Horseshoe Ridge LF 2012- Low Sev Fire 1 YR Post</p>
+                </div>
+                <h2>Existing Condition (EC) Landscape</h2>
+                <p><b><a name="Existing_Condition_(EC)_Landscape"></a>Existing Condition (EC) Landscape:</b> A term used specifically in Developing Treatment Alternatives, it refers to a landscape that represents, as closely as possible, the current condition of your landscape. It may be an edited landscape, or unedited. Extracted unedited landscapes can  be used to represent  EC if you determine the raw LANDFIRE data is current and accurate for your analysis purposes.  You will see this term used when comparing treatment alternatives in <MadCap:variable name="General.ProductName" />.</p>
+                <div class="notificationTip">
+                    <p>Existing Condition Recommended Naming Convention:</p>
+                    <p>"Horse Ridge LF 2012"  (if extracted, unedited LANDFIRE data is used you will not have the opportunity to rename this landscape but you can still uses it to represent the Existing Condition.</p>
+                    <p>"Horse Ridge LF 2012 - EC</p>
+                </div>
+                <h2>Originating Landscape (Zero "0"&#160;landscape)</h2>
+                <p><b><a name="Originating_Landscape_(Zero_“0”_landscape)"></a>Originating Landscape (Zero “0” landscape):</b> A term used specifically in Developing Treatment Alternatives, it refers to the unedited landscape you select to begin developing treatment alternatives. It will be tagged with a zero <img src="../Resources/Images/treatment_compare/zero.png" alt="zero icon indicating 'landscape zero' as defined in the help text" />icon. It defines the extent of your comparison, so any landscapes that match the extent of your originating landscape will become available during Developing Treatment Alternative task. </p>
+                <p>The table below outlines the different types of landscapes in <MadCap:variable name="General.ProductName" /> and whether they refer to edited or unedited landscapes. * indicates terms that are assigned to landscapes automatically.</p>
+                <p>&#160;</p>
+                <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css');" class="TableStyle-IFTDSS_PatternedRows" cellspacing="0">
+                    <col class="TableStyle-IFTDSS_PatternedRows-Column-Regular" />
+                    <col class="TableStyle-IFTDSS_PatternedRows-Column-Regular" />
+                    <tbody>
+                        <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                            <td colspan="2" style="font-weight: bold;text-align: center;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">Landscapes in <MadCap:variable name="General.ProductName" /></td>
+                        </tr>
+                        <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                            <td style="text-align: center;font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">Extracted Unedited Landscapes</td>
+                            <td style="text-align: center;font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">Edited Landscapes</td>
+                        </tr>
+                        <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                            <td style="text-align: center;font-weight: normal;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">*Originating Landscape (Developing Treatment Alternatives)</td>
+                            <td style="text-align: center;font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows"><span style="font-weight: normal;">Alternative landscape(s)</span>
+                            </td>
+                        </tr>
+                        <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                            <td style="text-align: center;font-weight: normal;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">*Zero <img src="../Resources/Images/treatment_compare/zero.png" alt="zero icon indicating 'landscape zero' as defined in the help text" /> Landscape (Developing Treatment Alternatives)</td>
+                            <td style="text-align: center;font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                        </tr>
+                        <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                            <td colspan="2" style="text-align: center;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">Existing Condition (EC)</td>
+                        </tr>
+                        <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                            <td colspan="2" style="text-align: center;" class="TableStyle-IFTDSS_PatternedRows-BodyA-Regular-DarkerRows">*Starting Landscape (Developing Treatment Alternatives)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

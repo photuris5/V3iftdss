@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1680" MadCap:lastWidth="2097" class="HomePage" style="mc-master-page: url('Resources\MasterPages\HomePage.flmsp');">
+    <head>
+        <link href="Resources/Stylesheets/StylesForHomePage.css" rel="stylesheet" type="text/css" />
+        <link href="Resources/Stylesheets/font-awesome.css" rel="stylesheet" type="text/css" />
+        <!--<link href="Resources/Stylesheets/timeline.css?v1" rel="stylesheet" type="text/css" />-->
+    <script>
+$(document).ready(function(){
+
+var root = new RegExp(location.host);
+
+$('a').each(function(){
+
+    if(root.test($(this).attr('href'))){ 
+        $(this).addClass('local');
+    }
+    else{
+        // a link that does not contain the current host
+        var url = $(this).attr('href');
+        if(url.length > 1)
+        {
+            $(this).addClass('external');
+        }
+    }
+});
+
+$('a.external').live('click', function(e){
+
+    e.preventDefault();
+    var answer = confirm("You are about to leave the website of [COMPANY NAME] and view the content of an external website. [COMPANY NAME] cannot be held responsible for the content of external websites.");
+
+    if (answer){
+        window.location = $(this).attr('href');
+    } 
+
+});
+
+});
+    </script>
+    </head>
+    <body>
+        <div class="topichero">
+            <div class="title-text">
+                <div class="HomeHeroSection">
+                    <div class="centered-text">
+                        <h1 class="whiteheader" style="color: #293b49;">Welcome to the <MadCap:variable name="General.ProductName" /> Help Center</h1>
+                        <!--<h2 class="whiteheader" style="color: #293b49;">Easily find any topic at your fingertips</h2>-->
+                    </div>
+                </div>
+                <MadCap:searchBarProxy data-mc-skin="/Project/Skins/HomeSearchBar.flskn" />
+            </div>
+        </div>
+        <!--<div class="slidingshow">
+            <MadCap:slideshow MadCap:SlidesDisplayed="3" MadCap:AdaptiveHeight="True" MadCap:Navigation="None" MadCap:ShowCaptions="True">
+                <MadCap:slide title="Watch Videos">
+                    <p><a href="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ"><img src="Resources/Images/slide_videos_01302017.png" alt="" class="Slideshow" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="Read Help Pages">
+                    <p><a href="home.htm"><img src="Resources/Images/slide_help_01302017.png" alt="" class="Slideshow" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="Do Tutorials">
+                    <p><a href="Tutorials/TutorialMain.htm"><img src="Resources/Images/slide_forum_01302017.png" alt="" class="Slideshow" /></a>
+                    </p>
+                </MadCap:slide>
+                <MadCap:slide title="Visit the QA Forum">
+                    <p><a href="https://iftdsshelp.freshdesk.com/discussions/forums/22000059274"><img src="Resources/Images/slide_forum_01302017.png" alt="" class="Slideshow" /></a>
+                    </p>
+                </MadCap:slide>
+            </MadCap:slideshow>
+        </div>-->
+        <div class="iftpanel-section">
+            <div class="HomeiftpanelSection outer-row center">
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/cycle.png" />
+                        <h4 class="card">Planning Cycle</h4>
+                        <p class="card"><a href="Concepts/PlanningCycleAbout.htm">About the Planning Cycle</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/workspace.png" />
+                        <h4 class="card">My Workspace</h4>
+                        <p class="card"><a href="myworkspace/myworkspaceabout.htm">About My Workspace</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/map.png" />
+                        <h4 class="card">Map Studio</h4>
+                        <p class="card"><a href="mapstudio/mapstudioabout.htm">About Map Studio</a></p>
+                        <p class="card"><a href="mapstudio/functions/mapfunctions.htm">Map Studio Functions</a></p>
+                        <p class="card"><a href="concepts/aboutlandscapesiniftdss.htm">Landscapes</a></p>
+                        <p class="card"><a href="mapstudio/files/shapefileinfo.htm">Shapefiles</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="iftpanel-wrapper">
+                     <img src="Resources/Images/icons7182017/model.png" />
+                        <h4 class="card">Modeling</h4>
+                        <p class="card"><a href="modelingpg/modelsoverview.htm">Modeling Playground</a></p>
+                        <p class="card"><a href="modelingpg/flammap/flammapabout.htm">Fire Behavior</a></p>
+                        <!--<img src="Resources/Images/icons7182017/FTEM.png" />
+                        <h4 class="card">Fuels Treatment Effectivness</h4>
+                        <p class="card">Background</p>
+                        <p class="card">Using FTEM in IFTDSS</p>-->
+                    </div>
+                </div>
+            </div>
+            <div class="HomeiftpanelSection outer-row center">
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/account.png" />
+                        <h4 class="card">User Account</h4>
+                        <p class="card"><a href="getstarted/accountpassword.htm">Reset Your Password</a></p>
+                        <p class="card"><a href="getstarted/accountprofile.htm">Edit Account Profile</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/tutorial.png" />
+                        <h4 class="card">Resources and Tutorials</h4>
+                        <p class="card"><a href="tutorials/tutorialmain.htm">Tutorials</a></p>
+                        <p class="card"><a href="https://iftdsshelp.freshdesk.com/support/home" target="_blank">Support Forums <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                        <p class="card"><a href="concepts/resources.htm">Additional Resources</a></p>
+                        <p class="card"><a href="https://iftdss.firenet.gov/help/pageHelp/content/references/glossary.htm">Glossary</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/webinars.png" />
+                        <h4 class="card">Recordings</h4>
+                        <p class="card"><a href="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ" target="_blank">IFTDSS YouTube <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                        <p class="card"><a href="https://iftdss.firenet.gov/landing_page/webinars.html" target="_blank">Recorded Webinars <i class="fa fa-external-link" aria-hidden="true"></i></a></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="iftpanel-wrapper">
+                        <img src="Resources/Images/icons7182017/bugs.png" />
+                        <h4 class="card">Known Issues and Errors</h4>
+                        <p class="card"><a href="aboutiftdss/knownissues.htm">Known Issues</a></p>
+                        <!--<p class="card">IFTDSS Error List (coming soon)</p>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="video-section">
+            <h2 class="SubCenter">Popular Videos &amp;&#160;Webinars</h2>
+            <div class="HomeVideoSection outer-row center">
+                <div>
+                    <div class="video-wrapper">
+                        <object src="https://youtu.be/Io7P5A06bT0" MadCap:Param_relatedvideos="false" class="video">
+                        </object>
+                    </div>
+                </div>
+                <div>
+                    <div class="video-wrapper">
+                        <object src="https://youtu.be/it5ZHw6H_ec" MadCap:Param_relatedvideos="false" class="video">
+                        </object>
+                    </div>
+                </div>
+                <div>
+                    <div class="video-wrapper">
+                        <object src="https://youtu.be/8DJG25yGabM" MadCap:Param_relatedvideos="false" class="video">
+                        </object>
+                    </div>
+                </div>
+            </div>
+            <p style="text-align:center;">For a full list of videos by topic, see our <a href="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ">YouTube Channel</a></p>
+        </div>
+    </body>
+</html>

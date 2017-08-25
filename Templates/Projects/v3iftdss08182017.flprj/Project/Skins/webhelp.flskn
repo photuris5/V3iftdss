@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultSkin
+  Version="1"
+  Comment="This is the default skin"
+  Anchors="Right,Top,Width,Height"
+  Width="400px"
+  Height="300px"
+  Top="0"
+  Left="0"
+  Bottom="0"
+  Right="110px"
+  Tabs="TOC"
+  DefaultTab="TOC"
+  UseBrowserDefaultSize="false"
+  UseDefaultBrowserSetup="false"
+  EnableAboutBox="false"
+  CommentsInTopic="false"
+  DisplayCommunitySearchResults="false"
+  DisplayNotificationOptions="false">
+  <Index
+    BinaryStorage="True" />
+  <HtmlHelpOptions
+    ShowMenuBar="False"
+    TopmostWindowStyle="False"
+    Buttons="Hide,Locate,Back,Forward,Stop,Refresh,Home,Font,Print"
+    EnableButtonCaptions="false" />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="ToolbarItem">
+        <Classes>
+          <StyleClass
+            Name="Logo">
+            <Properties>
+              <Property
+                Name="Icon">none</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+      <Style
+        Name="Frame">
+        <Classes>
+          <StyleClass
+            Name="Toolbar">
+            <Properties>
+              <Property
+                Name="Height">0px</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+  </Stylesheet>
+  <WebHelpOptions
+    HideNavigationOnStartup="true"
+    NavigationPaneWidth="0" />
+  <Toolbar
+    EnableCustomLayout="true"
+    Buttons=""
+    ExcludeAccordionTitle="true" />
+  <TopicToolbar
+    EnableCustomLayout="true"
+    Buttons="" />
+</CatapultSkin>

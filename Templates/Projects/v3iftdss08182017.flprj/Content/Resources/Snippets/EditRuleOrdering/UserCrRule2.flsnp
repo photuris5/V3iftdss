@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="106" MadCap:lastWidth="1836">
+    <head>
+    </head>
+    <body>
+        <p>Attributes are considered separately when applying User Created Edit rules. For example, a rule that modifies fuel model for a particular cell does not preclude canopy cover or another fuel attribute from being modified by a subsequent rule.</p>
+    </body>
+</html>

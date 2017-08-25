@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2554" MadCap:lastWidth="2157">
+    <head>
+        <link href="../../TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>The Automatic 97th Percentile (Auto97th) fire behavior model run and summary are available from the <span class="UIcomponent">Landscape Evaluation</span> stage of the <span class="UIcomponent">Planning Cycle</span>, via the <span class="UIcomponent">Landscape Summary</span> task. The run, and subsequent summary report, uses the capabilities of <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm" target="_blank">FlamMap</a> to model fire behavior based on the 97th percentile fire weather conditions for your landscape as determined by the Remote Automatic Weather Station (RAWS) closest to the center of your chosen Landscape. </p>
+        <div class="notificationComingSoon">
+            <p>While currently the selection of RAWS is automatic, in future releases of <MadCap:variable name="General.ProductName" /> you will be able to specify the RAWS station of your choosing.</p>
+        </div>
+        <h2>Inputs</h2>
+        <h3> Landscape</h3>
+        <p>The <a href="../../../MapStudio/Files/LCPInfo.htm" target="_blank">landscape file</a> contains all the information needed to complete landscape fire behavior modeling in <MadCap:variable name="General.ProductName"></MadCap:variable>. The landscape consists of geospatial layers characterizing ground, surface, and canopy fuels, as well as topography. The specific components of a landscape file include:</p>
+        <ul>
+            <li>Fuel Model</li>
+            <li>Canopy Cover (percent)</li>
+            <li>Stand Height (meters)</li>
+            <li>Canopy Base Height (meters)</li>
+            <li>Canopy Bulk Density (kg/m<sup>3</sup>)</li>
+            <li>Aspect (degrees)</li>
+            <li>Slope (degrees)</li>
+            <li>Elevation (meters)</li>
+        </ul>
+        <h3>Crown Fire Method</h3>
+        <p>For the Auto97th run, the crown fire calculation option is set to the Scott and Reinhardt (<a href="../../../References/ReferenceList.htm#Scottandburgan2005" target="_blank">2005</a>) method, but you may also choose the Finney (<a href="../../../References/ReferenceList.htm#Finney1998" target="_blank">1998</a>) method. Both methods are based on the same component crown fire behavior models, although there are minor differences in implementation. These subtle differences lead to significantly more predicted crown fire activity using the Scott and Reinhardt method compared to the Finney method.</p>
+        <p><a href="../../../ModelingPG/FlamMap/FlamMapCrowns.htm" target="_blank">Visit Crown Fire Calculations Options Topic for more details about these two options</a>.</p>
+        <h3>Weather</h3>
+        <p>The Auto97th run use 97th percentile fire weather conditions. Percentiles are based on a scale of 0-100 and are used to sort and rank a collection of data. For wildfire, when values at the upper end of the scale occur, we would expect to see complex fires where initial attack may often fail. The 97th percentile is often termed “the worst-case scenario.”</p>
+        <p>To determine the 97th percentile conditions, <MadCap:variable name="General.ProductName"></MadCap:variable> chooses the closest Remote Automated Weather Station (RAWS) to generate fuel moistures, wind speed and wind direction. The RAWS is selected by:</p>
+        <ol>
+            <li>    Identifying the center of the landscape extent.</li>
+            <li> Calculating the distance from the center to the nearest RAWS using a horizontal/vertical (elevation) algorithm.</li>
+            <li>    Ranking the stations and selecting the station which is the “closest” and has weather data requisite for running the model.</li>
+        </ol>
+        <div class="notificationNote">
+            <p>The RAWS selected, and the fuel moisture and wind scenario for the automated Auto97th model, cannot be changed.  It is intended to be a starting point to understand your landscape and predicted fire behavior.  You may choose to run a <a href="../../../ModelingPG/FlamMap/FlamMapAbout.htm" target="_blank">Landscape Fire Behavior</a> model run with user-input values in the <a href="../../../ModelingPG/ModelsOverview.htm" target="_blank">Modeling Playground</a>.</p>
+        </div>
+        <p>Once a RAWS station is selected, the Energy Release Components (ERCs) are calculated for every day. ERC is related to the available energy within the flaming front at the head of a fire. The ERC is considered a composite fuel moisture index as it reflects the contribution of all live and dead fuels to potential fire intensity. The ERC has memory, each daily calculation considers the past 7 days in calculating the new number making it relatively stable indicator of fuel conditions over time.</p>
+        <p>The 97th percentile fuel moistures are calculated for dead (1hr, 10 hr, and 100 hr) and live (herbaceous and woody) fuels by averaging the values for all days where ERC is at the 97th percentile.</p>
+        <p>To determine the 97th percentile wind speed and direction, the wind observations during the normal burning period (1200-2000 hours) for the peak fire season is summarized in a table. The peak fire season is determined by the month with the highest ERC, and the month immediately before and after it. The table includes the probability of wind speed and direction for set bins.</p>
+        <table style="width: 80%;mc-table-style: url('../../TableStyles/IFTDSS_PatternedRowsCenter.css');" class="TableStyle-IFTDSS_PatternedRows" cellspacing="0">
+            <col style="width: 74px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 80px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <col style="width: 45px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular">
+            </col>
+            <tbody>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td colspan="8" style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">Wind Direction</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">Wind Speed</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">Mid-Point Wind Speed</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">N</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">NE</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">E</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">SE</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">S</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">SW</td>
+                    <td style="background-color: #fafad2;font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">W</td>
+                    <td style="font-weight: bold;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">NW</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">1.3-3</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">1.6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">1.2</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">0.6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">0.4</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">1.3</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">2.5</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">2.4</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">2.7</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">4-7</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">5.5</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">2.5</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">2.3</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">2.6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">4.7</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">7.6</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">11.6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">15.5</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">8-12</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">10</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">2.2</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">0.7</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">0.8</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">1.6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">3.6</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">9.9</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">11.1</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">13-18</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">15</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">0.1</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">0.2</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">0.2</td>
+                    <td style="background-color: #ffff00;" class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">2.5</td>
+                    <td style="background-color: #fafad2;" class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">2.1</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">19-24</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">21</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">0.1</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">0.1</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">25-31</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">28</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">0.1</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">32-38</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">35</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-LightRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">39-46</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">43</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyD-Regular-DarkerRows">&#160;</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRows-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">47+</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">47</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyB-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRows-BodyA-Regular-LightRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Wind speed and direction are selected from the table as follows:</p>
+        <ul>
+            <li>The row with 97th percentile speed is identified (13-18 mph in the above example),</li>
+            <li>the mid-point wind speed (15 mph for this example) is converted to 1 minute average using Table 1 <i>from</i><a href="../../../References/ReferenceList.htm#CrosbyandChandler2004" target="_blank"> Crosby and Chandler 2004</a> (20 mph for this example)</li>
+            <li>the cell with the largest value for that row is used as the direction (west in this example),</li>
+        </ul>
+        <h2>Outputs</h2>
+        <p>Outputs are displayed on a map across the landscape, as a bar chart, pie chart, and in tabular form.  The summary report will include both the inputs above and the following fire behavior outputs:</p>
+        <ul>
+            <li>Flame Length (meters)</li>
+            <li>Rate of Spread (m/min)</li>
+            <li>Intensity (kW/m)</li>
+            <li>Heat per Unit Area (kJ/m<sup>2</sup>)</li>
+            <li>Crown Fire Activity (No Fire, Surface Fire, Passive Crown Fire, and Active Crown Fire)</li>
+        </ul>
+    </body>
+</html>

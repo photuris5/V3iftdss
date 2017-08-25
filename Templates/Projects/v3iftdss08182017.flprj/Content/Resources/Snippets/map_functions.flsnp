@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1995" MadCap:lastWidth="1257">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../Images/mapstudio/map_3_30_17.png" style="width: 954px;height: 486px;max-width: 630px;" alt="map studio buttons as described in text" />
+        </p>
+        <h2>In the top left:</h2>
+        <p><span class="UIcomponent"><a href="../../MapStudio/Functions/SearchESRI.htm" target="_blank"><MadCap:variable name="General.MapStudio" /> Search ESRI</a></span>: Enter a location to bring up a waypoint and zoom to its location on the map.</p>
+        <p>
+            <img src="../Images/mapstudio/button_zoomin.png" alt="zoom in button" />
+            <img src="../Images/mapstudio/button_zoomout.png" alt="zoom out button" /> <span class="UIcomponent">Zoom in and Out: </span>Zoom the map extent</p>
+        <p>
+            <img src="../Images/mapstudio/button_defaultextent.png" title="default extent button" /> <span class="UIcomponent">Default Extent:</span>&#160;Return the map to its default extent</p>
+        <p>
+            <img src="../Images/mapstudio/button_Location.png" alt="Location button" /><span class="UIcomponent"><a href="../../MapStudio/Functions/LocationButton.htm" target="_blank">My Location:</a></span> Automatically zooms the map to within 0.4 miles of your current location.</p>
+        <h2>In the top right:</h2>
+        <p>
+            <img src="../Images/mapstudio/button_identify.png" alt="identify button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Identify.htm" target="_blank">Identify</a>:</span> Identify a feature</p>
+        <p>
+            <img src="../Images/mapstudio/button_filter.png" alt="filter button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Filter.htm" target="_blank">Filter</a>:</span> Allows you to limit the visibility of features in a layer.</p>
+        <p>
+            <img src="../Images/mapstudio/button_slider.png" alt="swipe button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Swipe.htm" target="_blank">Swipe</a>:</span> Allows for quick toggling between different layers</p>
+        <p>
+            <img src="../Images/mapstudio/button_overview.png" alt="overview button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/ShowMapOverview.htm" target="_blank">Map Overview</a></span>:&#160;Allows to quick relocation of the map display area.</p>
+        <h2>In the bottom left:</h2>
+        <p><span class="UIcomponent"><a href="../../MapStudio/Functions/GetCoordinates.htm" target="_blank">Get Coordinates Tool</a></span>
+        </p>
+        <h2>In the bottom right:</h2>
+        <p>
+            <img src="../Images/mapstudio/button_layers.png" alt="attribute table" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/AttributeTable.htm" target="_blank">Attribute Table</a>:</span> Displays a table of map features</p>
+        <h2>In the bottom center:</h2>
+        <p>
+            <img src="../Images/mapstudio/button_layerlist.png" alt="layer list button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/LayerList.htm" target="_blank">Layer List:</a></span>&#160;A list of the layers shown on the map</p>
+        <p>
+            <img src="../Images/mapstudio/button_adref.png" alt="add reference data button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/AddReferenceData.htm" target="_blank">Add Reference Data:</a></span>Addition of federal reference data layers such as administrative boundaries</p>
+        <p>
+            <img src="../Images/mapstudio/button_addshapefile.png" alt="upload shapefile button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/AddShapefile.htm" target="_blank">Add Shapefile:</a></span>Allows a user to upload a shapefile to the map</p>
+        <p>
+            <img src="../Images/mapstudio/button_landscapetools.png" alt="landscape tools button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/LandscapeTools.htm" target="_blank">Landscape Tools:</a></span>Allows you to add an existing landscape, create a new landscape, or modify an existing landscape in the <MadCap:variable name="General.MapStudio" /></p>
+        <p>
+            <img src="../Images/mapstudio/button_SimOutput.png" alt="simulation output tools button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/SimulationTools.htm" target="_blank">Simulation Output Tools:</a></span>Allows you to add simulation outputs to the map, or compare results from multiple outputs </p>
+        <p>
+            <img src="../Images/mapstudio/button_editTools.png" alt="edit tools button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/EditTools.htm" target="_blank">Create / Edit Shapes:</a></span>&#160;Make edits to existing map layers </p>
+        <p>
+            <img src="../Images/mapstudio/button_basemapglry.png" alt="basemap gallery button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/BasemapGallery.htm" target="_blank">Basemap Gallery:</a></span> A selection of basemap layers that can be added to the map</p>
+        <p>
+            <img src="../Images/mapstudio/button_measurement.png" alt="measurement button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/Measurements.htm" target="_blank">Measurement:</a></span> Allows you to measure area or distance in Map Studio</p>
+        <p>
+            <img src="../Images/mapstudio/button_add_graphic.png" /><b><a href="../../MapStudio/Functions/AddGraphic.htm" target="_blank"><b>Add Graphic Tool:</b></a></b>&#160;Draw lines and shapes on the map. This is for display only, it does not create a shapefile</p>
+        <p class="comment" MadCap:conditions="General.DeveloperNotes">[This page layout may change to a hyperlinked list of mapping operations. The Map studio content will be part of that list, but all the details would be collapsed so users can see the full list at a glance - UIdaho]</p>
+    </body>
+</html>
