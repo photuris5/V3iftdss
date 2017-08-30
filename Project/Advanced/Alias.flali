@@ -18,21 +18,21 @@
     <Map Name="OnlineCourses" Link="/Content/GetStarted/OnlineCourses.htm" />
     <Map Name="UserProfiles" Link="/Content/GetStarted/UserProfiles.htm" />
     <Map Name="WhyIFTDSS" Link="/Content/GetStarted/WhyIFTDSS.htm" />
-    <Map Name="MapStudioAbout" Link="/Content/MapStudio/MapStudioAbout.htm" />
-    <Map Name="FBFMInfo" Link="/Content/MapStudio/Files/FBFMInfo.htm" />
-    <Map Name="FBFMSummaries" Link="/Content/MapStudio/Files/FBFMSummaries.htm" />
-    <Map Name="LCPCreate" Link="/Content/MapStudio/Files/LCPCreate.htm" />
-    <Map Name="LCPInfo" Link="/Content/MapStudio/Files/LCPInfo.htm" />
-    <Map Name="ShapefileInfo" Link="/Content/MapStudio/Files/ShapefileInfo.htm" />
-    <Map Name="ShapefileSaving" Link="/Content/MapStudio/Files/ShapefileSaving.htm" />
-    <Map Name="AddReferenceData" Link="/Content/MapStudio/Functions/AddReferenceData.htm" />
+    <Map Name="MapStudioAbout" Link="/Content/10-MapStudio/MapStudioAbout.htm" />
+    <Map Name="FBFMInfo" Link="/Content/10-MapStudio/Files/FBFMInfo.htm" />
+    <Map Name="FBFMSummaries" Link="/Content/10-MapStudio/Files/FBFMSummaries.htm" />
+    <Map Name="LCPCreate" Link="/Content/10-MapStudio/Files/LCPCreate.htm" />
+    <Map Name="LCPInfo" Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
+    <Map Name="ShapefileInfo" Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" />
+    <Map Name="ShapefileSaving" Link="/Content/10-MapStudio/Files/ShapefileSaving.htm" />
+    <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Map Name="FlamMapBackground" Link="/Content/ModelingPG/FlamMap/FlamMapBackground.htm" />
     <Map Name="FlamMapCrowns" Link="/Content/ModelingPG/FlamMap/FlamMapCrowns.htm" />
     <Map Name="FlamMapInput" Link="/Content/ModelingPG/FlamMap/FlamMapInput.htm" />
     <Map Name="FlamMapOutput" Link="/Content/ModelingPG/FlamMap/FlamMapOutput.htm" />
     <Map Name="FOFEM_Background" Link="/Content/ModelingPG/FOFEM/FOFEM_Background.htm" />
     <Map Name="RiskAbout" Link="/Content/ModelingPG/Risk/RiskAbout.htm" />
-    <Map Name="MyWorkspaceAbout" Link="/Content/MyWorkspace/MyWorkspaceAbout.htm" />
+    <Map Name="MyWorkspaceAbout" Link="/Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
     <Map Name="DevelopTreatmentRxsAbout" Link="/Content/PCImplementationPlan/DevelopTreatmentRxsAbout.htm" />
     <Map Name="DMCWriteChemTrtmentsAbout" Link="/Content/PCImplementationPlan/DMCWriteChemTrtmentsAbout.htm" />
     <Map Name="s_flammap_crown" Link="/Content/test_shorts/flammap_basic/s_flammap_crown.htm" Skin="/Project/Skins/webhelp.flskn" />
@@ -51,17 +51,17 @@
     <Map Name="FTEMEvaluateFormAbout" Link="/Content/PCMonitoring/FTEMProcedure.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/00-Concepts/PlanningCycleAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/PCMonitoring/MonitoringAbout.htm" />
-    <Map Name="AddShapefile" Link="/Content/MapStudio/Functions/AddShapefile.htm" />
-    <Map Name="BasemapGallery" Link="/Content/MapStudio/Functions/BasemapGallery.htm" />
-    <Map Name="LandscapeTools" Link="/Content/MapStudio/Functions/LandscapeTools.htm" />
-    <Map Name="LayerList" Link="/Content/MapStudio/Functions/LayerList.htm" />
-    <Map Name="Legend" Link="/Content/MapStudio/Functions/Legend.htm" />
-    <Map Name="MapFunctions" Link="/Content/MapStudio/Functions/MapFunctions.htm" />
-    <Map Name="Measurements" Link="/Content/MapStudio/Functions/Measurements.htm" />
-    <Map Name="SimulationTools" Link="/Content/MapStudio/Functions/SimulationTools.htm" />
-    <Map Name="BurnUnitLvl" Link="/Content/MapStudio/ScaleWlkThru/BurnUnitLvl.htm" />
-    <Map Name="LandscapeLvl" Link="/Content/MapStudio/ScaleWlkThru/LandscapeLvl.htm" />
-    <Map Name="ProjectLvl" Link="/Content/MapStudio/ScaleWlkThru/ProjectLvl.htm" />
+    <Map Name="AddShapefile" Link="/Content/10-MapStudio/Functions/AddShapefile.htm" />
+    <Map Name="BasemapGallery" Link="/Content/10-MapStudio/Functions/BasemapGallery.htm" />
+    <Map Name="LandscapeTools" Link="/Content/10-MapStudio/Functions/LandscapeTools.htm" />
+    <Map Name="LayerList" Link="/Content/10-MapStudio/Functions/LayerList.htm" />
+    <Map Name="Legend" Link="/Content/10-MapStudio/Functions/Legend.htm" />
+    <Map Name="MapFunctions" Link="/Content/10-MapStudio/Functions/MapFunctions.htm" />
+    <Map Name="Measurements" Link="/Content/10-MapStudio/Functions/Measurements.htm" />
+    <Map Name="SimulationTools" Link="/Content/10-MapStudio/Functions/SimulationTools.htm" />
+    <Map Name="BurnUnitLvl" Link="/Content/10-MapStudio/ScaleWlkThru/BurnUnitLvl.htm" />
+    <Map Name="LandscapeLvl" Link="/Content/10-MapStudio/ScaleWlkThru/LandscapeLvl.htm" />
+    <Map Name="ProjectLvl" Link="/Content/10-MapStudio/ScaleWlkThru/ProjectLvl.htm" />
     <Map Name="ModelsOverview" Link="/Content/ModelingPG/ModelsOverview.htm" />
     <Map Name="BehaveBackground" Link="/Content/ModelingPG/Behave/BehaveBackground.htm" />
     <Map Name="Consume" Link="/Content/ModelingPG/FFT/Consume.htm" />
@@ -74,7 +74,7 @@
     <Map Name="FBFMHeatValues" Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" />
     <Map Name="KnownIssues" Link="/Content/00-AboutIFTDSS/KnownIssues.htm" />
     <Map Name="WhereToBegin" Link="/Content/GetStarted/WhereToBegin.htm" />
-    <Map Name="EditTools" Link="/Content/MapStudio/Functions/EditTools.htm" />
+    <Map Name="EditTools" Link="/Content/10-MapStudio/Functions/EditTools.htm" />
     <Map Name="FCCS" Link="/Content/ModelingPG/FFT/FCCS.htm" />
     <Map Name="FTEMReporting" Link="/Content/PCReporting/FTEMAbout.htm" />
     <Map Name="ReportingAbout" Link="/Content/PCReporting/ReportingAbout.htm" />
@@ -86,65 +86,65 @@
     <Map Name="StrtgicRiskAbout" Link="/Content/PCStrategicPlanning/PrioritizeTrtmntsAbout.htm" />
     <Map Name="TrtmtAltsCompareLndscp" Link="/Content/PCStrategicPlanning/TrtmtAltsCompareLndscp.htm" />
     <Map Name="TrtmtAltsEditLandscp" Link="/Content/PCStrategicPlanning/TrtmtAltsEditLandscp.htm" />
-    <Map Name="FBFMCompare" Link="/Content/References/FBFMCompare.htm" />
-    <Map Name="LANDFIRE" Link="/Content/References/LANDFIRE.htm" />
-    <Map Name="ReferenceList" Link="/Content/References/ReferenceList.htm" />
+    <Map Name="FBFMCompare" Link="/Content/41-References/FBFMCompare.htm" />
+    <Map Name="LANDFIRE" Link="/Content/41-References/LANDFIRE.htm" />
+    <Map Name="ReferenceList" Link="/Content/41-References/ReferenceList.htm" />
     <Map Name="icons" Link="/Content/Resources/Stylesheets/icons/icons.html" />
     <Map Name="Tip_cy_landscapeeval" Link="/Content/test_shorts/Tip_cy_landscapeeval.htm" />
     <Map Name="s_flammap_lndscape" Link="/Content/test_shorts/flammap_basic/s_flammap_lndscape.htm" />
     <Map Name="s_flammap_name" Link="/Content/test_shorts/flammap_basic/s_flammap_name.htm" />
     <Map Name="s_flammap_wthr" Link="/Content/test_shorts/flammap_basic/s_flammap_wthr.htm" />
-    <Map Name="TutorialMain" Link="/Content/Tutorials/TutorialMain.htm" />
-    <Map Name="WorkshpMain" Link="/Content/Workshops/WorkshpMain.htm" />
+    <Map Name="TutorialMain" Link="/Content/40-Tutorials/TutorialMain.htm" />
+    <Map Name="WorkshpMain" Link="/Content/42-Workshops/WorkshpMain.htm" />
     <Map Name="icons1" Link="/Content/Resources/Stylesheets/icons/icons.html" />
     <Map Name="Auto97Summary" Link="/Content/PCLandscapeEval/Auto97Summary.htm" />
     <Map Name="Modelsmoretocome" Link="/Content/00-AboutIFTDSS/Modelsmoretocome.htm" />
-    <Map Name="ShapefileRepair" Link="/Content/MapStudio/Files/ShapefileRepair.htm" />
-    <Map Name="AttributeTable" Link="/Content/MapStudio/Functions/AttributeTable.htm" />
-    <Map Name="Draw" Link="/Content/MapStudio/Functions/AddGraphic.htm" />
-    <Map Name="FilterAttributeTable" Link="/Content/MapStudio/Functions/FilterAttributeTable.htm" />
-    <Map Name="GetCoordinates" Link="/Content/MapStudio/Functions/GetCoordinates.htm" />
-    <Map Name="Identify" Link="/Content/MapStudio/Functions/Identify.htm" />
-    <Map Name="SearchESRI" Link="/Content/MapStudio/Functions/SearchESRI.htm" />
-    <Map Name="ShowMapOverview" Link="/Content/MapStudio/Functions/ShowMapOverview.htm" />
-    <Map Name="Swipe" Link="/Content/MapStudio/Functions/Swipe.htm" />
-    <Map Name="ViewShapefileOnMap" Link="/Content/MapStudio/Functions/ViewShapefileOnMap.htm" />
+    <Map Name="ShapefileRepair" Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Map Name="AttributeTable" Link="/Content/10-MapStudio/Functions/AttributeTable.htm" />
+    <Map Name="Draw" Link="/Content/10-MapStudio/Functions/AddGraphic.htm" />
+    <Map Name="FilterAttributeTable" Link="/Content/10-MapStudio/Functions/FilterAttributeTable.htm" />
+    <Map Name="GetCoordinates" Link="/Content/10-MapStudio/Functions/GetCoordinates.htm" />
+    <Map Name="Identify" Link="/Content/10-MapStudio/Functions/Identify.htm" />
+    <Map Name="SearchESRI" Link="/Content/10-MapStudio/Functions/SearchESRI.htm" />
+    <Map Name="ShowMapOverview" Link="/Content/10-MapStudio/Functions/ShowMapOverview.htm" />
+    <Map Name="Swipe" Link="/Content/10-MapStudio/Functions/Swipe.htm" />
+    <Map Name="ViewShapefileOnMap" Link="/Content/10-MapStudio/Functions/ViewShapefileOnMap.htm" />
     <Map Name="TreatmentRuleBackground" Link="/Content/PCLandscapeEval/TreatmentRuleBackground.htm" />
     <Map Name="IFTDSSOverview" Link="/Content/GetStarted/IFTDSSOverview.htm" />
-    <Map Name="SpatialExtent" Link="/Content/MapStudio/Files/SpatialExtent.htm" />
-    <Map Name="Filter" Link="/Content/MapStudio/Functions/Filter.htm" />
+    <Map Name="SpatialExtent" Link="/Content/10-MapStudio/Files/SpatialExtent.htm" />
+    <Map Name="Filter" Link="/Content/10-MapStudio/Functions/Filter.htm" />
     <Map Name="Getting_Support" Link="/Content/00-AboutIFTDSS/Getting Support.htm" />
     <Map Name="AboutLandscapesinIFTDSS" Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" />
     <Map Name="FileNaming" Link="/Content/GetStarted/FileNaming.htm" />
-    <Map Name="MapStudioTips" Link="/Content/MapStudio/MapStudioTips.htm" />
-    <Map Name="LocationButton" Link="/Content/MapStudio/Functions/LocationButton.htm" />
+    <Map Name="MapStudioTips" Link="/Content/10-MapStudio/MapStudioTips.htm" />
+    <Map Name="LocationButton" Link="/Content/10-MapStudio/Functions/LocationButton.htm" />
     <Map Name="LandscapeEditTechTopic" Link="/Content/PCLandscapeEval/LandscapeEditTechTopic.htm" />
-    <Map Name="Glossary1" Link="/Content/References/Glossary.htm" />
+    <Map Name="Glossary1" Link="/Content/41-References/Glossary.htm" />
     <Map Name="RuleOrdering" Link="/Content/00-Concepts/RuleOrdering.htm" />
-    <Map Name="_0_Intro" Link="/Content/Tutorials/CompareFeature/0_Intro.htm" />
-    <Map Name="_1_ProjectBegin" Link="/Content/Tutorials/CompareFeature/1_ProjectBegin.htm" />
-    <Map Name="_2_CreateLCP" Link="/Content/Tutorials/CompareFeature/2_CreateLCP.htm" />
-    <Map Name="_4_IdPriority" Link="/Content/Tutorials/CompareFeature/4_IdPriority.htm" />
-    <Map Name="_5_treatmentPoly" Link="/Content/Tutorials/CompareFeature/5_treatmentPoly.htm" />
-    <Map Name="_6_Compare" Link="/Content/Tutorials/CompareFeature/6_Compare.htm" />
-    <Map Name="publishing" Link="/Content/zHelpProjectInfo/publishing.htm" />
-    <Map Name="Writing_and_image_style" Link="/Content/zHelpProjectInfo/Writing and image style.htm" />
+    <Map Name="_0_Intro" Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm" />
+    <Map Name="_1_ProjectBegin" Link="/Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" />
+    <Map Name="_2_CreateLCP" Link="/Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" />
+    <Map Name="_4_IdPriority" Link="/Content/40-Tutorials/CompareFeature/4_IdPriority.htm" />
+    <Map Name="_5_treatmentPoly" Link="/Content/40-Tutorials/CompareFeature/5_treatmentPoly.htm" />
+    <Map Name="_6_Compare" Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" />
+    <Map Name="publishing" Link="/Content/99-HelpProjectInfo/publishing.htm" />
+    <Map Name="Writing_and_image_style" Link="/Content/99-HelpProjectInfo/Writing and image style.htm" />
     <Map Name="CaseStudies" Link="/Content/00-AboutIFTDSS/CaseStudies.htm" />
     <Map Name="UsingMasks" Link="/Content/00-Concepts/UsingMasks.htm" />
     <Map Name="AccountPassword" Link="/Content/00-Concepts/Accounts/AccountPassword.htm" />
     <Map Name="AccountProfile" Link="/Content/00-Concepts/Accounts/AccountProfile.htm" />
     <Map Name="FTEMAbout" Link="/Content/PCMonitoring/FTEMAbout.htm" />
-    <Map Name="chs_updates" Link="/Content/zHelpProjectInfo/chs_updates.htm" />
+    <Map Name="chs_updates" Link="/Content/99-HelpProjectInfo/chs_updates.htm" />
     <Map Name="Resources" Link="/Content/00-Concepts/Resources.htm" />
-    <Map Name="cycle_implementation_plan_hh" Link="/Content/zHover/cycle_implementation_plan_hh.htm" />
-    <Map Name="cycle_intro_hh" Link="/Content/zHover/cycle_intro_hh.htm" />
-    <Map Name="cycle_landscape_eval_hh" Link="/Content/zHover/cycle_landscape_eval_hh.htm" />
-    <Map Name="cycle_monitoring_hh" Link="/Content/zHover/cycle_monitoring_hh.htm" />
-    <Map Name="cycle_reporting_hh" Link="/Content/zHover/cycle_reporting_hh.htm" />
-    <Map Name="cycle_strategic_plan_DTA_hh" Link="/Content/zHover/cycle_strategic_plan_DTA_hh.htm" />
-    <Map Name="cycle_strategic_plan_hh" Link="/Content/zHover/cycle_strategic_plan_hh.htm" />
-    <Map Name="myworkspace_folders_hh" Link="/Content/zHover/myworkspace_folders_hh.htm" />
-    <Map Name="_3_Edit" Link="/Content/Tutorials/CompareFeature/3_Edit.htm" />
+    <Map Name="cycle_implementation_plan_hh" Link="/Content/50-Hover/cycle_implementation_plan_hh.htm" />
+    <Map Name="cycle_intro_hh" Link="/Content/50-Hover/cycle_intro_hh.htm" />
+    <Map Name="cycle_landscape_eval_hh" Link="/Content/50-Hover/cycle_landscape_eval_hh.htm" />
+    <Map Name="cycle_monitoring_hh" Link="/Content/50-Hover/cycle_monitoring_hh.htm" />
+    <Map Name="cycle_reporting_hh" Link="/Content/50-Hover/cycle_reporting_hh.htm" />
+    <Map Name="cycle_strategic_plan_DTA_hh" Link="/Content/50-Hover/cycle_strategic_plan_DTA_hh.htm" />
+    <Map Name="cycle_strategic_plan_hh" Link="/Content/50-Hover/cycle_strategic_plan_hh.htm" />
+    <Map Name="myworkspace_folders_hh" Link="/Content/50-Hover/myworkspace_folders_hh.htm" />
+    <Map Name="_3_Edit" Link="/Content/40-Tutorials/CompareFeature/3_Edit.htm" />
     <Map Name="FireBehavior" Link="/Content/ModelingPG/FlamMap/FlamMapAbout.htm" />
     <Map Name="ModelingPlayground" Link="/Content/ModelingPG/ModelsOverview.htm" />
     <Map Name="AccountSetup1" Link="/Content/10-FTEM/AccountSetup.htm" />
@@ -156,22 +156,22 @@
     <Map Name="TechDoc" Link="/Content/10-FTEM/TechDoc.htm" />
     <Map Name="UsingFtem" Link="/Content/10-FTEM/UsingFtem.htm" />
     <Map Name="WindAdjustment" Link="/Content/10-FTEM/WindAdjustment.htm" />
-    <Map Name="About_Hover" Link="/Content/zHover/About Hover.htm" />
-    <Map Name="Copy_of_cycle_implementation_plan_hh" Link="/Content/zHover/Copy of cycle_implementation_plan_hh.htm" />
-    <Map Name="Copy_of_cycle_landscape_eval_hh" Link="/Content/zHover/Copy of cycle_landscape_eval_hh.htm" />
-    <Map Name="Copy_of_cycle_monitoring_hh" Link="/Content/zHover/Copy of cycle_monitoring_hh.htm" />
-    <Map Name="Copy_of_cycle_reporting_hh" Link="/Content/zHover/Copy of cycle_reporting_hh.htm" />
-    <Map Name="Copy_of_cycle_strategic_plan_hh" Link="/Content/zHover/Copy of cycle_strategic_plan_hh.htm" />
-    <Map Name="myworkspace_intro_hh" Link="/Content/zHover/myworkspace_intro_hh.htm" />
-    <Map Name="_0_DTAOverall_hh" Link="/Content/zHover/DTA/0_DTAOverall_hh.htm" />
-    <Map Name="_1_PickLandscape_hh" Link="/Content/zHover/DTA/1_PickLandscape_hh.htm" />
-    <Map Name="_2_EditLandscape_hh" Link="/Content/zHover/DTA/2_EditLandscape_hh.htm" />
-    <Map Name="_3_ModelInput_hh" Link="/Content/zHover/DTA/3_ModelInput_hh.htm" />
-    <Map Name="_4_RunModel_hh" Link="/Content/zHover/DTA/4_RunModel_hh.htm" />
-    <Map Name="_5_CompareAlts_hh" Link="/Content/zHover/DTA/5_CompareAlts_hh.htm" />
-    <Map Name="AddDefaultRules_hh" Link="/Content/zHover/LCPSummary/AddDefaultRules_hh.htm" />
-    <Map Name="AddUserRules_hh" Link="/Content/zHover/LCPSummary/AddUserRules_hh.htm" />
-    <Map Name="aFormat_hh" Link="/Content/zHover/LCPSummary/aFormat_hh.htm" />
-    <Map Name="EditLandscapeHeader_hh" Link="/Content/zHover/LCPSummary/EditLandscapeHeader_hh.htm" />
-    <Map Name="NameAndSave_hh" Link="/Content/zHover/LCPSummary/NameAndSave_hh.htm" />
+    <Map Name="About_Hover" Link="/Content/50-Hover/About Hover.htm" />
+    <Map Name="Copy_of_cycle_implementation_plan_hh" Link="/Content/50-Hover/Copy of cycle_implementation_plan_hh.htm" />
+    <Map Name="Copy_of_cycle_landscape_eval_hh" Link="/Content/50-Hover/Copy of cycle_landscape_eval_hh.htm" />
+    <Map Name="Copy_of_cycle_monitoring_hh" Link="/Content/50-Hover/Copy of cycle_monitoring_hh.htm" />
+    <Map Name="Copy_of_cycle_reporting_hh" Link="/Content/50-Hover/Copy of cycle_reporting_hh.htm" />
+    <Map Name="Copy_of_cycle_strategic_plan_hh" Link="/Content/50-Hover/Copy of cycle_strategic_plan_hh.htm" />
+    <Map Name="myworkspace_intro_hh" Link="/Content/50-Hover/myworkspace_intro_hh.htm" />
+    <Map Name="_0_DTAOverall_hh" Link="/Content/50-Hover/DTA/0_DTAOverall_hh.htm" />
+    <Map Name="_1_PickLandscape_hh" Link="/Content/50-Hover/DTA/1_PickLandscape_hh.htm" />
+    <Map Name="_2_EditLandscape_hh" Link="/Content/50-Hover/DTA/2_EditLandscape_hh.htm" />
+    <Map Name="_3_ModelInput_hh" Link="/Content/50-Hover/DTA/3_ModelInput_hh.htm" />
+    <Map Name="_4_RunModel_hh" Link="/Content/50-Hover/DTA/4_RunModel_hh.htm" />
+    <Map Name="_5_CompareAlts_hh" Link="/Content/50-Hover/DTA/5_CompareAlts_hh.htm" />
+    <Map Name="AddDefaultRules_hh" Link="/Content/50-Hover/LCPSummary/AddDefaultRules_hh.htm" />
+    <Map Name="AddUserRules_hh" Link="/Content/50-Hover/LCPSummary/AddUserRules_hh.htm" />
+    <Map Name="aFormat_hh" Link="/Content/50-Hover/LCPSummary/aFormat_hh.htm" />
+    <Map Name="EditLandscapeHeader_hh" Link="/Content/50-Hover/LCPSummary/EditLandscapeHeader_hh.htm" />
+    <Map Name="NameAndSave_hh" Link="/Content/50-Hover/LCPSummary/NameAndSave_hh.htm" />
 </CatapultAliasFile>
