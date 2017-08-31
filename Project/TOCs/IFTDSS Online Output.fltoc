@@ -206,7 +206,8 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Using Shapefiles for Masks/Areas of Interest" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/10-MapStudio/Files/ShapefileInfo.htm#AreasOfInterest" />
     </TocEntry>
     <TocEntry
       Title="Use My Own Data"
