@@ -35,7 +35,7 @@
         <p>Next, click the heading for each model input type, populate the fields under each one:</p>
         <p><b>Step 3:</b> Specify windspeed, in miles per hour, at 20 feet above the ground or above the vegetation (allowed values 0-100 mph).</p>
         <p> Enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees). Alternatively you may enter -1 for upslope wind, or -2 for downslope wind.</p>
-        <p><b>Step 4:</b>&#160;Specify a <a href="../../../ModelingPG/FlamMap/FlamMapCrowns.htm">crown fire calculation method</a>, and the foliar moisture content (in percent).</p>
+        <p><b>Step 4:</b>&#160;Specify a <a href="../../../20-Models/FlamMap/FlamMapCrowns.htm">crown fire calculation method</a>, and the foliar moisture content (in percent).</p>
         <p><b>Step 5:</b> Specify fuel moisture, in percent, for:</p>
         <ul>
             <li>1 hour fuels (1hr FM) - allowed values 2-100</li>

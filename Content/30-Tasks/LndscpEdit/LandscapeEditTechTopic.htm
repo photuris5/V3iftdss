@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="6626" MadCap:lastWidth="1164">
     <head>
-        <link href="../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
-        <link href="../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Default Fuels Treatment / Disturbance <MadCap:keyword term="Edit Rule Technical Documentation" /><MadCap:keyword term="Edit Rule Technical Documentation" />Edit Rule Technical Documentation</h1>
@@ -18,15 +18,15 @@
             </li>
         </ol>
         <h2><a name="Introduction"></a>Introduction</h2>
-        <p>In <MadCap:variable name="General.ProductName" /> Users may choose to edit your landscape in two ways:  By adding  Default Fuel Treatment / Disturbance Edit Rules or by adding User Created Edit Rules. This enables  users to update <a href="../info_Concepts/LANDFIRE.htm">LANDFIRE</a> fuel data layers with potential fuel treatments and test results with fire behavior and fire effects simulations. Users are required to use LANDIFRE “stock” disturbance type, severity, and time inputs in order to populate vegetation and fuel data for treated pixels.</p>
+        <p>In <MadCap:variable name="General.ProductName" /> Users may choose to edit your landscape in two ways:  By adding  Default Fuel Treatment / Disturbance Edit Rules or by adding User Created Edit Rules. This enables  users to update <a href="../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a> fuel data layers with potential fuel treatments and test results with fire behavior and fire effects simulations. Users are required to use LANDIFRE “stock” disturbance type, severity, and time inputs in order to populate vegetation and fuel data for treated pixels.</p>
         <p>LANDFIRE&#160;Look-up (LFLU) tables are used by <MadCap:variable name="General.ProductName" /> when Users  implement  Default Fuel Treatment / Disturbance Edit Rules. LFLU tables are used to adjust the fuel attributes of cells, including: fuel model, canopy cover, stand height, canopy base height, and canopy bulk density, based on the type and intensity of treatment or disturbance and the time that has elapsed since that treatment or disturbance. This approach works by taking into account Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH) and using the LFLU table as a crosswalk to account for changes in vegetation attributes, based on treatment or disturbance type, intensity and timing.  That resulting vegetation is then crosswalked to one of the 40 fire behavior fuel models. More specifically, current vegetation conditions are extracted from each treated pixel and linked to a vector of post treatment existing vegetation and fuel conditions including FBFM40, CBD, CBH, CC, and CH and then mapped into each treated pixel and then used to “update” the fuel maps and to initialize fire behavior and fire effects simulations.  In the continental US, only 36 of the 40 fuel models are used, the 4 fuel models that aren’t used are 109, 164, 201, and 202. As of now the LFLU rules are not available in AK or HI.</p>
         <p>Fuel Model Look Up (FMLU) tables are used by <MadCap:variable name="General.ProductName" /> when Users Implement User Created Edit Rules. These FMLU tables are generally based on the LFLU table transitions but do not utilize ECC, ECH, and EVT but rather transition fuel models to fuel models.</p>
         <h2><a name="Methods"></a>Methods</h2>
         <h3>Methods Used to Develop Vegetation Transition Data</h3>
         <p>The LANDFIRE Vegetation Transition is a process that is used to couple disturbance and the vegetation upon which it has occurred, along with simulation models, in order to predict and map the resulting vegetation composition and structure. In addition, these data are leveraged in order to predict and map change in fuel attributes of the vegetation and the resulting fire regime attributes of the vegetation. Information from a variety of sources was used to inform vegetation transition assignments.</p>
-        <p>In forested EVTs, most of the transitions were developed using the Forest Vegetation Simulator (FVS) model, along with the Fire and Fuels Extension (FFE) model for fire simulations. These simulations were run on approximately 60,000 forested plots for all FVS variants nationwide. The plot data, contained within the Forest Vegetation Simulator (FVS) Ready Database (<a href="https://landfire.gov/reference.php" target="_blank">FVSRDB <i class="fa fa-external-link" aria-hidden="true"></i></a>) contain all attributes necessary for FVS simulations. These data also include predefined input tables used for initializing stand/plot information (StandInit and TreeInit tables) for FVS. More detailed descriptions and input data requirements can be found in <a href="../41-References/ReferenceList.htm#Rebain_etal_2010" target="_blank">FVS User Guide</a>. Following simulations, a database was derived from post-disturbance FVS/FFE outputs covering all FVS Variants at multiple severities and time-steps in the table below:
+        <p>In forested EVTs, most of the transitions were developed using the Forest Vegetation Simulator (FVS) model, along with the Fire and Fuels Extension (FFE) model for fire simulations. These simulations were run on approximately 60,000 forested plots for all FVS variants nationwide. The plot data, contained within the Forest Vegetation Simulator (FVS) Ready Database (<a href="https://landfire.gov/reference.php" target="_blank">FVSRDB <i class="fa fa-external-link" aria-hidden="true"></i></a>) contain all attributes necessary for FVS simulations. These data also include predefined input tables used for initializing stand/plot information (StandInit and TreeInit tables) for FVS. More detailed descriptions and input data requirements can be found in the FVS User Guide <a href="../../41-References/ReferenceList.htm#Rebain_etal_2010" target="_blank">(Rebain and others 2010)</a>. Following simulations, a database was derived from post-disturbance FVS/FFE outputs covering all FVS Variants at multiple severities and time-steps in the table below:
 		</p>
-        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
@@ -158,7 +158,7 @@
         </ul>
         <h2><a name="Results"></a>Results</h2>
         <p>For each disturbance type, severity, and TSD, an Excel table was constructed through a series of database queries. The table below shows the structure of those tables.</p>
-        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRows" cellspacing="0">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRows" cellspacing="0">
             <col style="width: 137px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular" />
             <col class="TableStyle-IFTDSS_PatternedRows-Column-Regular" />
             <tbody>
@@ -229,7 +229,7 @@
             </tbody>
         </table>
         <p>All in all, 27 individual tables were derived for this effort using these methods. A number of caveats exist that one should be aware of while using these data. Using each one of these 27 tables created above, another set of Excel tables was constructed through a series of database queries. The table below shows the structure of those tables:</p>
-        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRows" cellspacing="0">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRows" cellspacing="0">
             <col style="width: 132px;" class="TableStyle-IFTDSS_PatternedRows-Column-Regular" />
             <col class="TableStyle-IFTDSS_PatternedRows-Column-Regular" />
             <tbody>
@@ -303,7 +303,7 @@
         </ol>
         <h4 MadCap:conditions="General.Exclude">Default Rules as used in <MadCap:variable name="General.ProductName" /><![CDATA[
 		]]></h4>
-        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="General.Exclude">
+        <table style="width: 100%;mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0" MadCap:conditions="General.Exclude">
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
             <col class="TableStyle-PatternedRows-Column-Regular" />
