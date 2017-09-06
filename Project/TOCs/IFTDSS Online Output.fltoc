@@ -24,6 +24,9 @@
       Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
       StartSection="false" />
     <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="Comparing Landscapes (A Tutorial)"
       Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm">
       <TocEntry
@@ -62,12 +65,17 @@
         Title="Edit/Correct Landscape Data" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
       <TocEntry
+        Title="About Edit Rules"
+        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="Calculate Fire Behavior"
         Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Calculate Burn Probability"></TocEntry>
+        Title="Calculate Burn Probability"
+        conditions="General.LaterRelease"></TocEntry>
       <TocEntry
-        Title="Develop Project Objectives" />
+        Title="Develop Project Objectives"
+        conditions="General.LaterRelease" />
     </TocEntry>
     <TocEntry
       Title="         Strategic Planning"
@@ -79,11 +87,17 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Quantitative Risk Assessment" />
+        Title="About Edit Rules"
+        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Prioritize Treatments" />
+        Title="Quantitative Risk Assessment"
+        conditions="General.LaterRelease" />
       <TocEntry
-        Title="Develop Out Year Plans" />
+        Title="Prioritize Treatments"
+        conditions="General.LaterRelease" />
+      <TocEntry
+        Title="Develop Out Year Plans"
+        conditions="General.LaterRelease" />
     </TocEntry>
     <TocEntry
       Title="         Implementation Planning"
@@ -117,7 +131,7 @@
         Title="Crown Fire Calculation Options"
         Link="/Content/20-Models/FlamMap/FlamMapCrowns.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Technical Documentation - Landscape Fire Behavior with FlamMap 5.0"
         Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
