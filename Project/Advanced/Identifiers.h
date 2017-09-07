@@ -104,13 +104,6 @@
 #define AccountProfile 1178
 #define chs_updates 1180
 #define Resources 1182
-#define cycle_implementation_plan_hh 1183
-#define cycle_intro_hh 1184
-#define cycle_landscape_eval_hh 1185
-#define cycle_monitoring_hh 1186
-#define cycle_reporting_hh 1187
-#define cycle_strategic_plan_DTA_hh 1188
-#define cycle_strategic_plan_hh 1189
 #define myworkspace_folders_hh 1190
 #define FireBehavior 1135
 #define AccountSetup1 1005
@@ -131,8 +124,6 @@
 #define myworkspace_intro_hh 9000
 #define _0_DTAOverall_hh 9001
 #define _1_PickLandscape_hh 9002
-#define _2_EditLandscape_hh 9003
-#define _3_ModelInput_hh 9004
 #define _4_RunModel_hh 9005
 #define _5_CompareAlts_hh 9006
 #define AddDefaultRules_hh 9007
@@ -140,3 +131,12 @@
 #define aFormat_hh 9009
 #define EditLandscapeHeader_hh 9010
 #define NameAndSave_hh 9011
+#define _1_PickLandscape_hh1 9003
+#define _2_Default_Rules_hh 9004
+#define _3_UserCreated_Rules_hh 9012
+#define _4_Name_Save_hh 9013
+#define _1_runcreate_hh 9014
+#define _2_selectLCP_hh 9015
+#define _3_wind_hh 9016
+#define _4_crownfire_hh 9017
+#define _5_FMs_hh 9018
