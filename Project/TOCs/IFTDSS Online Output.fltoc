@@ -308,10 +308,9 @@
     Title="Known Issues"
     Link="/Content/00-AboutIFTDSS/KnownIssues.htm"
     StartSection="false"
-    conditions="General.FTEM Exlude" />
+    conditions="General.FTEM Exlude,General.Exclude" />
   <TocEntry
     Title="FTEM"
-    conditions="General.FTEMInclude"
     Link="/Content/10-FTEM/FTEMAbout.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"

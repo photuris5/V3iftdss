@@ -11,26 +11,13 @@
   <ConditionTag
     BackgroundColor="#0000ff"
     Name="Exclude"
-    Comment="" />
-  <ConditionTag
-    BackgroundColor="#008000"
-    Name="shorthelp"
-    Comment="For field-level help text, 1-2 sentences max." />
+    Comment="Omit from Output" />
   <ConditionTag
     BackgroundColor="#ffa500"
     Name="LaterRelease"
-    Comment="Content to release later" />
+    Comment="Content to release later - Omit from output" />
   <ConditionTag
     BackgroundColor="#8b008b"
     Name="DeveloperNotes"
-    Comment="Developer Notes" />
-  <ConditionTag
-    BackgroundColor="#00bfff"
-    Name="FTEMInclude"
-    Comment="Put this in the ftem output"
-    OriginalName="FTEMInclude" />
-  <ConditionTag
-    BackgroundColor="#00ff00"
-    Name="FTEM Exlude"
-    Comment="Leave this out of FTEM Output" />
+    Comment="Developer Notes - Omit from output" />
 </CatapultConditionTagSet>
