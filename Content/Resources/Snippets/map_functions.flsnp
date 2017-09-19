@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1995" MadCap:lastWidth="1257">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1316" MadCap:lastWidth="1334">
     <head>
     </head>
     <body>
         <p>
-            <img src="../Images/mapstudio/map_3_30_17.png" style="width: 954px;height: 486px;max-width: 630px;" alt="map studio buttons as described in text" />
+            <img src="../Images/mapstudio/map_3_30_17.png" style="max-width: 600px;" alt="map studio buttons as described in text" class="border" />
         </p>
         <h2>In the top left:</h2>
         <p><span class="UIcomponent"><a href="../../10-MapStudio/Functions/SearchESRI.htm" target="_blank"><MadCap:variable name="General.MapStudio" /> Search ESRI</a></span>: Enter a location to bring up a waypoint and zoom to its location on the map.</p>
@@ -49,6 +49,5 @@
             <img src="../Images/mapstudio/button_measurement.png" alt="measurement button" /> <span class="UIcomponent"><a href="../../10-MapStudio/Functions/Measurements.htm" target="_blank">Measurement:</a></span> Allows you to measure area or distance in Map Studio</p>
         <p>
             <img src="../Images/mapstudio/button_add_graphic.png" /><b><a href="../../10-MapStudio/Functions/AddGraphic.htm" target="_blank"><b>Add Graphic Tool:</b></a></b>&#160;Draw lines and shapes on the map. This is for display only, it does not create a shapefile</p>
-        <p class="comment" MadCap:conditions="General.DeveloperNotes">[This page layout may change to a hyperlinked list of mapping operations. The Map studio content will be part of that list, but all the details would be collapsed so users can see the full list at a glance - UIdaho]</p>
     </body>
 </html>

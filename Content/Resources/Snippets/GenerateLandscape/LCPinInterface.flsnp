@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1508" MadCap:lastWidth="1164">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1514" MadCap:lastWidth="1282">
     <head>
     </head>
     <body>
         <p>To create a landscape within the Generate Landscape Summary task, click <span class="UIcomponent">Create Here</span>.</p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/createininterface.png" alt="The 'create here' button lets you generate a landscape in the planning interface" title="Jump to Create a Landscape" />
+            <img src="../../Images/lcp_gen_smmry/createininterface.png" alt="The 'create here' button lets you generate a landscape in the planning interface" title="Jump to Create a Landscape" class="border" />
         </p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/lcp_interface_steps.png" style="width: 759px;height: 457px;" alt="'create landscape' interface with interactive map to the left, and drop down inputs on the right." title="Example of Creating a Landscape map page" />
+            <img src="../../Images/lcp_gen_smmry/lcp_interface_steps.png" style="width: 759px; height: 457px;" alt="'create landscape' interface with interactive map to the left, and drop down inputs on the right." title="Example of Creating a Landscape map page" class="border" />
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Use the zoom tools in the top left of the map to zoom to your desired location.</li>
@@ -23,9 +23,9 @@
             <li>Select the folder where you would like to store your landscape file, or click <span class="UIcomponent">+ Folder</span> to create and name a new folder to place your landscape file. </li>
             <li>Click <span class="UIcomponent">Create</span> to generate your landscape file.</li>
         </ol>
-        <p>Once you click <span class="UIcomponent">Create</span>, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, displays the name of your newly created landscape, with an hourglass <img src="../../Images/landscapesumm/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass is replaced by a green checkmark. You may have to use the refresh button next to the landscape name to see the green checkmark</p>
+        <p>Once you click <span class="UIcomponent">Create</span>, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, displays the name of your newly created landscape, with an hourglass <img src="../../Images/buttons_general/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass is replaced by a green checkmark. You may have to use the refresh button next to the landscape name to see the green checkmark</p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/landscaperefresh.png" alt="Landscapes still being processed in IFTDSS often have a red hourglass next to their name" style="width: 827px;height: 418px;" />
+            <img src="../../Images/lcp_gen_smmry/landscaperefresh.png" alt="Landscapes still being processed in IFTDSS often have a red hourglass next to their name" style="width: 827px; height: 418px;" class="border" />
         </p>
     </body>
 </html>

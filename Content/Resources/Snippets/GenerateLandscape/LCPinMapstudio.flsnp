@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2353" MadCap:lastWidth="816">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1586" MadCap:lastWidth="1295">
     <head>
     </head>
     <body>
         <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> you will use the options in the <span class="UIcomponent">Landscape Tools</span> button, under the <span class="UIcomponent">Create new</span> tab.</p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/mapstudio_createnew.png" style="width: 636px;height: 449px;" />
+            <img src="../../Images/lcp_gen_smmry/mapstudio_createnew.png" style="width: 636px; height: 449px;" class="border" />
         </p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." />
+            <img src="../../Images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." class="border" />
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Use the <MadCap:variable name="General.MapStudio" /> tools such as zoom, basemap layers, etc. to locate your desired area.</li>
