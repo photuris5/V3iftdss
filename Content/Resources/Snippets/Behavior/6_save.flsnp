@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="239" MadCap:lastWidth="1994">
+    <head>
+    </head>
+    <body>
+        <p><b>Step 6:</b> Upon completing all required inputs, you may choose to:</p>
+        <p><span class="UIcomponent"> Save</span> - which will save your inputs, but still provide a chance to edit and re-save before running the model.</p>
+        <p><span class="UIcomponent">Save and Run</span> - which will save your inputs and run the model. </p>
+        <p>
+            <img src="../../Images/Behavior/run03312017.png" alt="you may either choose the 'save' button to save your inputs, or 'save and run' to save inputs and run the model" class="border" />
+        </p>
+    </body>
+</html>

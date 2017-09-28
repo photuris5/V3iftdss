@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="154" MadCap:lastWidth="1973">
+    <head>
+    </head>
+    <body>
+        <p><b>Step 3:</b> Specify windspeed, in miles per hour, at 20 feet above the ground or above the vegetation (allowed values 0-100 mph).</p>
+        <p> Enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees). Alternatively you may enter -1 for upslope wind, or -2 for downslope wind.</p>
+    </body>
+</html>

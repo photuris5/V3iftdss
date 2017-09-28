@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="664" MadCap:lastWidth="1973">
+    <head>
+    </head>
+    <body>
+        <p>When your landscape is chosen, you will notice a box appears displaying details about that landscape, including, source data, boundaries, and acres. </p>
+        <p>
+            <img src="../../Images/Behavior/landscape_detail03062017.png" alt="landscape details box listing the landscape name, bounds, acreage, and other metadata" style="width: 802px; height: 115px;" class="border" />
+        </p>
+        <p>
+            <img src="../../Images/Behavior/add_inputs04072017.png" alt="dropdown boxes will contain fields for wind, crown fire, and fuel moisture inputs" style="width: 629px; height: 314px;" class="border" />
+        </p>
+        <div class="notificationTip">
+            <p>All saved runs are stored in the same folder as your selected landscape, or in the ‘Playground folder’ if a new landscape is created but no folder specified.</p>
+        </div>
+        <p>Next, click the heading for each model input type, populate the fields under each one:</p>
+    </body>
+</html>

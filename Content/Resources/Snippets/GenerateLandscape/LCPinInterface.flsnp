@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1514" MadCap:lastWidth="1282">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1131" MadCap:lastWidth="1913">
     <head>
     </head>
     <body>
@@ -23,9 +23,5 @@
             <li>Select the folder where you would like to store your landscape file, or click <span class="UIcomponent">+ Folder</span> to create and name a new folder to place your landscape file. </li>
             <li>Click <span class="UIcomponent">Create</span> to generate your landscape file.</li>
         </ol>
-        <p>Once you click <span class="UIcomponent">Create</span>, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, displays the name of your newly created landscape, with an hourglass <img src="../../Images/buttons_general/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass is replaced by a green checkmark. You may have to use the refresh button next to the landscape name to see the green checkmark</p>
-        <p>
-            <img src="../../Images/lcp_gen_smmry/landscaperefresh.png" alt="Landscapes still being processed in IFTDSS often have a red hourglass next to their name" style="width: 827px; height: 418px;" class="border" />
-        </p>
     </body>
 </html>

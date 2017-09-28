@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="492" MadCap:lastWidth="1994">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../../Images/Behavior/behavior_name_select04072017.png" alt="A field to enter a name for the fire behavior run is availabe at the top, followed by a dropdown menu to select your landscape" style="width: 599px; height: 342px;" class="border">
+            </img>
+        </p>
+        <p><a name="picklandscape"></a><b>Step 1:</b> Give your run a descriptive name to help differentiate the run, the name may include a specific windspeed, fuel condition, or some other distinguishing characteristic.</p>
+        <p><b>Step 2:</b> Choose a landscape for your run from the dropdown menu. You also have the option of :</p>
+    </body>
+</html>

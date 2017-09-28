@@ -3,10 +3,13 @@
 body
 
 {
+	background-image:url('../Images/iftdss_helpcenter_3_50p.png');
+	margin-top:27px;
+	background-repeat:no-repeat;
+	background-color:#E0EAF1;
 	color: #404040;
 	font-family: Arial, Avenir, Myriad;
 	font-size: 12px;
-
 }
 
 a,
@@ -15,6 +18,7 @@ a:visited
 {
 	color: #2d82dc;
 }
+
 
 a:hover
 {
