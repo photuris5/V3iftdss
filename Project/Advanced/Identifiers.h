@@ -140,3 +140,6 @@
 #define _3_wind_hh 9016
 #define _4_crownfire_hh 9017
 #define _5_FMs_hh 9018
+#define Estimating_Fuel_Moistures 1191
+#define SummaryFM 1192
+#define IFTDSSFAQ 1004

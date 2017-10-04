@@ -142,4 +142,7 @@
     <Map Name="_3_wind_hh" Link="/Content/50-Hover/LCPFireBehavior/3_wind_hh.htm" />
     <Map Name="_4_crownfire_hh" Link="/Content/50-Hover/LCPFireBehavior/4_crownfire_hh.htm" />
     <Map Name="_5_FMs_hh" Link="/Content/50-Hover/LCPFireBehavior/5_FMs_hh.htm" />
+    <Map Name="Estimating_Fuel_Moistures" Link="/Content/00-Concepts/Estimating Fuel Moistures.htm" />
+    <Map Name="SummaryFM" Link="/Content/30-Tasks/Summaries/SummaryFM.htm" />
+    <Map Name="IFTDSSFAQ" Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm" />
 </CatapultAliasFile>

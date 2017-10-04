@@ -27,27 +27,14 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Comparing Landscapes (A Tutorial)"
-      Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm">
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Evaluate and Edit"
-        Link="/Content/40-Tutorials/CompareFeature/3_Edit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Summarize and Prioritize"
-        Link="/Content/40-Tutorials/CompareFeature/4_IdPriority.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Create Treatment Polygons"
-        Link="/Content/40-Tutorials/CompareFeature/5_treatmentPoly.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Treatment Comparison"
-        Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
+      Title="About Shapefiles in IFTDSS"
+      Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-MapStudio/MapStudioAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/40-Tutorials/TutorialMain.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Planning Cycle"

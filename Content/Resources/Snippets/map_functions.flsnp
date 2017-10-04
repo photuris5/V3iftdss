@@ -3,9 +3,9 @@
     <head>
     </head>
     <body>
-        <p>
+
             <img src="../Images/mapstudio/map_3_30_17.png" style="max-width: 600px;" alt="map studio buttons as described in text" class="border" />
-        </p>
+
         <h2>In the top left:</h2>
         <p><span class="UIcomponent"><a href="../../10-MapStudio/Functions/SearchESRI.htm" target="_blank"><MadCap:variable name="General.MapStudio" /> Search ESRI</a></span>: Enter a location to bring up a waypoint and zoom to its location on the map.</p>
         <p>

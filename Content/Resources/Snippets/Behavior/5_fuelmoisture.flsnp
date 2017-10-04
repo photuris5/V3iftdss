@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="407" MadCap:lastWidth="1953">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="455" MadCap:lastWidth="1953">
     <head>
     </head>
     <body>
@@ -15,5 +15,6 @@
         <div class="notificationNote">
             <p>If you choose to only populate one row, those fuel moistures will be applied to all fuel models in your landscape.</p>
         </div>
+        <p>For more guidance on choosing fuel moistures see the <a href="../../../00-Concepts/Estimating Fuel Moistures.htm" target="_blank">Estimating Fuel Moistures Topic</a>.</p>
     </body>
 </html>
