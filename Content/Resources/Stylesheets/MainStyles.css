@@ -307,6 +307,15 @@ MadCap|dropDown
 	mc-closed-image: url('../Images/droparrowright.png');
 	mc-open-image: url('../Images/droparrowdown.png');
 }
+/* The .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage class below enlarges the dropdown to be H2 size once expanded for easy reading and better printing */
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 20px;
+	line-height: normal;
+}
 
 MadCap|dropDown.SecondLevel
 {
@@ -327,17 +336,17 @@ MadCap|dropDownBody.Final
 
 MadCap|dropDownHead
 {
-	
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 10px;
+	line-height: normal;
 }
 
 MadCap|dropDownHotspot
 {
 	color: #404040;
-	font-size: 1.3em;
-	font-weight: normal;
-	margin-bottom: 4px;
-	margin-top: 20px;
-	line-height: normal;
+
 }
 
 MadCap|dropDownHotspot:hover

@@ -270,11 +270,8 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="References"
-      Link="/Content/41-References/ReferenceList.htm" />
-    <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/41-References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Support System">
       <TocEntry
@@ -286,7 +283,10 @@
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
-      Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/41-References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="References"
+      Link="/Content/41-References/ReferenceList.htm" />
     <TocEntry
       Title="Getting Help"
       Link="/Content/00-Concepts/GettingHelp.htm" />
