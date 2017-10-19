@@ -145,4 +145,15 @@
     <Map Name="Estimating_Fuel_Moistures" Link="/Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Map Name="SummaryFM" Link="/Content/30-Tasks/Summaries/SummaryFM.htm" />
     <Map Name="IFTDSSFAQ" Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm" />
+    <Map Name="Adding_Treatment_Interactions" Link="/Content/10-FTEM/Adding Treatment Interactions.htm" />
+    <Map Name="FTEM_Data_Sources" Link="/Content/10-FTEM/FTEM Data Sources.htm" />
+    <Map Name="FTEMPolicy" Link="/Content/10-FTEM/FTEMPolicy.htm" />
+    <Map Name="GeoAreaOfInterest" Link="/Content/10-FTEM/GeoAreaOfInterest.htm" />
+    <Map Name="_7_test_tutorial" Link="/Content/40-Tutorials/CompareFeature/7_test_tutorial.htm" />
+    <Map Name="Complete_hh" Link="/Content/50-Hover/FTEM/Complete_hh.htm" />
+    <Map Name="monitoring_hh" Link="/Content/50-Hover/FTEM/monitoring_hh.htm" />
+    <Map Name="treatments_hh" Link="/Content/50-Hover/FTEM/treatments_hh.htm" />
+    <Map Name="wildfires_hh" Link="/Content/50-Hover/FTEM/wildfires_hh.htm" />
+    <Map Name="table" Link="/Content/Resources/TableStyles/table.html" />
+    <Map Name="table1" Link="/Content/Resources/TableStyles/table.html" />
 </CatapultAliasFile>

@@ -143,3 +143,14 @@
 #define Estimating_Fuel_Moistures 1191
 #define SummaryFM 1192
 #define IFTDSSFAQ 1004
+#define Adding_Treatment_Interactions 1026
+#define FTEM_Data_Sources 1028
+#define FTEMPolicy 1051
+#define GeoAreaOfInterest 1058
+#define _7_test_tutorial 1064
+#define Complete_hh 9022
+#define monitoring_hh 9021
+#define treatments_hh 9020
+#define wildfires_hh 9019
+#define table 1070
+#define table1 1072
