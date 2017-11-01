@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="8132" MadCap:lastWidth="2249">
+    <head>
+    </head>
+    <body>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_mapcompareflamelength.png" alt="flame length reduction from new treatment" style="width: 945px; height: 498px;" class="border">
+            </img>
+        </p>
+        <p>When the map opens I&#160;click the <span class="UIcomponent">Compare on Map</span> button once more and open the <span class="UIcomponent">Layer List</span> so I&#160;can toggle between the comparison layers. </p>
+        <p>Like before, I select the model change layer and see a reduction in flame lengths. Though I’m curious about these changes to fire behavior and fuel models, this is only a comparison of the original untreated landscape with this new treated landscape. What I really want to know is how much of an effect this added treatment of low severity wildfire, or a broadcast burn, will have compared to just the light thinning and pile burn I applied earlier. I need to compare the first treatment to the second one to get my answer.</p>
+        <p>To best compare these “treatments” (default disturbance edits) on my landscape, I’ll first use the <span class="UIcomponent">Swipe Tool</span>.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_newandoldbehavior.png" alt="add the two edited landscape files" class="border" style="width: 963px;height: 483px;">
+            </img>
+        </p>
+        <p>Click on:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li><span class="UIcomponent">Simulation Output Tools</span> and check the boxes next to:</li>
+            <li>"Granite Crk LF2012 Light Thin Pile Rx 1yr Post Prop Trt Areas" the first treatment of thinning and pile burning</li>
+            <li>"Granite Crk LF2012 Lt_Thn_PileRx_1yr_LSevRx_1yrTr" the second treatment which follows the thin with a low severity burn.</li>
+            <li>Make sure these layers are displayed at the top of the<span class="UIcomponent"> Layer List</span> <![CDATA[ ]]></li>
+            <li>Click the <span class="UIcomponent">Swipe Tool</span>. </li>
+            <li>I can control the layers that appear in the Swipe Tool using the box in the top right of the map that appears once the Swipe Tool is clicked.</li>
+        </ol>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_newoldbehavior_swipe.png" alt="swiping between fire behavior layers" style="width: 1162px;height: 581px;" class="border">
+            </img>
+        </p>
+        <p>I open the <span class="UIcomponent">Swipe Tool</span> and make sure I have the right layers selected. I can select the layer I&#160;want to appear on the top of map using the <span class="UIcomponent">Swipe</span> Tool box that appears in the top right. I notice the Light Thin Pile Burn landscape is displayed on the top of the slider bar. The Light Thin, Pile Burn, followed by a Low Severity wildfire (Broadcast burn) landscape is on the bottom of the slider bar. Sliding back and forth and looking at the legend tells me that Flame Lengths were in fact reduced by up to a meter in some areas with just the addition of the Low Severity Wildfire! Next I want to see how my Fuel Models have changed with the addition of the Low Severity Wildfire.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_other_layers.png" alt="Selecting fuel models to compare" style="width: 1247px;height: 616px;" class="border">
+            </img>
+        </p>
+        <p>I set my <span class="UIcomponent">Layer List</span> up again, this time opening </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li><span class="UIcomponent">Landscape Tools</span> </li>
+            <li>Select my two treatment layers</li>
+            <li>Make sure these layers appear on the Layer List</li>
+            <li>Click the <span class="UIcomponent">Swipe</span> Tool</li>
+            <li>Ensure the layers I&#160;want are displayed.</li>
+        </ol>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_otherlayers_swipe.png" alt="swiping between landscape fuel models" style="width: 1229px; height: 607px;" class="border">
+            </img>
+        </p>
+        <p>I can see from comparing these two edited landscapes, as well as the Landscape Change Map earlier,  that there was a significant shift in Fuel Model between the thinning/pile burn treatment, and the addition of the low severity wildfire. </p>
+        <p>Next, I open the <span class="UIcomponent">Compare Summary Reports</span> so I can get the full picture and make a more informed decision about what treatments I should apply to achieve my preliminary objectives.</p>
+        <p>I navigate to <span class="UIcomponent">My Workspace</span> and open the Fire Behavior Summary Compare Report.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_report_flamelength1.png" alt="table and bar chart of flame length comparison">
+            </img>
+        </p>
+        <p>The Fire Behavior Compare Reports for a modeled Light Thin/Pile Burn/Low Severity Broadcast Burn treatment show even more of a difference in pre- and post-treatment fire behavior.</p>
+        <p>From the Flame Length Bar Chart, I can see a large increase in the post-treatment pixel count for lower Flame Length bins and no post-treatment pixels in the higher Flame Length bins.</p>
+        <p>The table to the right indicates the pre-treatment percentage of pixels in the &gt;0-.3m Flame Length bin is 26%, while post-treatment the percentage went up to 86%. Conversely, the percentage of post-treatment pixels in the 3 highest Flame Length bins is 0, indicating a significant decrease in Flame Lengths post-treatment, across the treatment area.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_report_flamelength2.png" alt="difference chart and pie chart of flame length comparisons">
+            </img>
+        </p>
+        <p>The Percent Difference Graph for Flame Lengths demonstrates the shift toward lower Flame Lengths post-treatment. I can see the significant positive percent difference in the &gt;0 meter bin, while the bins correlating to higher Flame Lengths indicate a drop in the percent difference.</p>
+        <p>The Pie Charts tell the same story, plainly showing the shift to significantly lower flame lengths in the post-treatment chart.</p>
+        <p>I scroll through the rest of the fire behavior model outputs in the report. Their story is the same, significantly reduced Rates of Spread, as well as almost no Crown Fire Activity post-treatment.</p>
+        <p>Next, I navigate back to <span class="UIcomponent">My Workspace</span> and open the Landscape Compare Summary Report.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_report_fuelmodelcompare1.png" alt="fuel model bar chart and table comparison">
+            </img>
+        </p>
+        <p>The Landscape Compare Reports for a modeled Light Thin/Pile Burn/Low Severity Broadcast Burn treatment show quite a change in Fuel Model pre- vs. post-treatment.</p>
+        <p>From the compare bar graph, I can tell that a significant portion of the TL8 Fuel Model (Long-Needle Litter) has shifted to the GR2 (Low Load, Dry Climate Grass) and GS1 (Low Load, Dry Climate Grass-Shrub) Fuel Models, 1 year post-treatment. The table to the right confirms this quantitatively, indicating that 46% of the treatment area was comprised of a TL8 Fuel Model pre-treatment, while just 2% of the treatment area was a TL8 Fuel Model post-treatment. Conversely, none of the treatment area contained the GS1 Fuel Model pre-treatment, while post-treatment over 50% of the treatment area was comprised of Fuel Model GS1.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_report_fuelmodelcompare2.png" alt="fuel model change chart and pie chart comparison">
+            </img>
+        </p>
+        <p>The Percent Difference chart reflects the shift in Fuel Model displayed by the Bar Graph and table above, clearly showing the drop in the TL8 Fuel Model, as well as the increase in the GS1 Fuel Model post-treatment.</p>
+        <p>The Pie Charts visually display these changes in Fuel Model as well.</p>
+        <p>I review the rest of the Landscape Compare Summary Report and note the changes in the various landscape characteristics. I particularly note the increase in Canopy Base Height, as well as the decrease in Canopy Cover, post-treatment. This coincides with the information I’m seeing in the rest of the report, and reiterates the fact that this series of treatments will help me achieve my stated objectives, which were to: reduce surface fuel loading and the overall horizontal and vertical fuelbed continuity in order to reduce the fire hazard to adjacent private land and the community of Idaho City; and return low intensity fire to fire adapted vegetation communities.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/dta2_firebehaviorcomparison_end.png" alt="comparison of fire behavior bar charts">
+            </img>
+        </p>
+        <h2>Conclusion</h2>
+        <p>I could continue this process and model a more invasive treatment, such as heavier thinning or increased mortality from a more severe broadcast (prescribed) burn, but decide these results will achieve my initial preliminary objectives, and are a good place to start with my project proposal for the District ID Team.</p>
+        <p>From this process, It’s clear that the expected fire behavior, given 97th percentile fire weather and fuel moisture conditions, in the identified treatment areas is much more intense than what would be considered characteristic in this frequent, but low intensity, fire regime. The reports and maps will demonstrate how these proposed treatments will help achieve the preliminary objectives to reduce surface fuel loading and the overall horizontal and vertical fuelbed continuity, as well as helping to return low intensity fire in these treatment areas.</p>
+    </body>
+</html>

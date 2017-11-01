@@ -7,7 +7,13 @@
       Title="Why use [%=General.ProductName%] for Fuel Planning?"
       Link="/Content/00-Concepts/WhyIFTDSS.htm" />
     <TocEntry
-      Title="User Accounts"
+      Title="What can IFTDSS Do?"
+      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#WhatCanIFTDSSDo"></TocEntry>
+    <TocEntry
+      Title="What data do I Need?"
+      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#NeedToRunIFTDSS" />
+    <TocEntry
+      Title="Get an Account"
       Link="/Content/00-Concepts/Accounts/AccountSetup.htm">
       <TocEntry
         Title="Setting up an Account"
@@ -24,17 +30,8 @@
       Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
       StartSection="false" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/00-Concepts/AboutLandscapesinIFTDSS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="About Shapefiles in IFTDSS"
-      Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-MapStudio/MapStudioAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/40-Tutorials/TutorialMain.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="Walk-throughs"
+      Link="/Content/00-AboutIFTDSS/Helpful topics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Planning Cycle"
@@ -267,6 +264,31 @@
         <TocEntry
           Title="Treatment Comparison"
           Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Developing Treatments"
+        Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/2_SummarizeAndAssess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/3_CreateAOIs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/4_ReviewSummaryReport.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/5_DevelopTreatmentAlts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/6_CompareAddTreatment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/40-Tutorials/NWest_DTA/7_CompareAddedConclude.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
     <TocEntry

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="1761" MadCap:lastWidth="1887">
+    <head>
+    </head>
+    <body>
+        <p>To create a new account, choose the <span class="UIcomponent">Login</span> option in the top right of the <MadCap:variable name="General.ProductName"></MadCap:variable> page and click <span class="UIcomponent">Register</span> at the bottom of the Login box.</p>
+        <p>
+            <img src="../../Images/getting_started/registration_start.png" style="width: 552px; height: 294px;" alt="IFTDSS login page with a blue registration button visible in the top right login box." title="Jump to IFTDSS login page" class="border" />
+        </p>
+        <p>When the <span class="UIcomponent">New User Registration</span> page displays, enter the required information and click <span class="UIcomponent">Register</span> .</p>
+        <div class="notificationNote">
+            <p>Your <b>User Name</b> is displayed on many exportable <MadCap:variable name="General.ProductName" /> reports, so pick one you don't mind sharing!</p>
+        </div>
+        <p>
+            <img src="../../Images/getting_started/registration_info.png" style="width: 554px; height: 313px;" alt="New user registration form with fields for name, email, and other information " title="Jump to new user registration form" class="border" />
+        </p>
+        <p>Once your information is submitted, you receive an email from an <MadCap:variable name="General.ProductName" /> administrator confirming your account has been created. You may log into <MadCap:variable name="General.ProductName" /> at anytime after receiving this confirmation email.</p>
+        <p>
+            <img src="../../Images/getting_started/registration_logni.png" style="width: 560px; height: 297px;" alt="Login page with fields for your user name and password circled in red" title="Jump to IFTDSS login page" class="border" />
+        </p>
+        <p>When logging in for the first time, you may be prompted to accept the <MadCap:variable name="General.ProductName" /> IT&#160;Security Rules of Behavior.</p>
+        <p>
+            <img src="../../Images/getting_started/useragreement.png" alt="You may have to click the button at the bottom of the 'Rules of Behavior' to proceed to the IFTDSS main page after logging in for the very first time." style="width: 1102px;height: 407px;" title="Jump to Rules of Behavior screen" />
+        </p>
+    </body>
+</html>

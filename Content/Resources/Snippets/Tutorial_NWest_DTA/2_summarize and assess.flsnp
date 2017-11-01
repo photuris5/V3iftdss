@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="6700" MadCap:lastWidth="1288">
+    <head>
+    </head>
+    <body>
+        <h2>Summarizing the Landscape</h2>
+        <p>Next, I’d like to take a look at my newly created landscape on the map and get an idea of fire behavior. This can be done by creating a summary report and viewing the results in <MadCap:variable name="General.MapStudio"></MadCap:variable>. To create the report I:</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/summary.png" alt="landscape summary will summarize features and auto97th fire behavior" style="width: 782px; height: 450px;" class="border">
+            </img>
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li> Click on <span class="UIcomponent">Planning Cycle</span> in the top navigation.</li>
+            <li>The cycle opens on the <span class="UIcomponent">Landscape Evaluation</span> stage by default, where I click the <span class="UIcomponent">Landscape Summary</span> task.</li>
+            <li>In <span class="UIcomponent">Landscape Summary</span>, I click the dropdown box next to <span class="UIcomponent">Select Landscapes</span>. My newly created landscape doesn’t appear in the drop down, so I type it in the blank box a the top of the list. My landscape appears with a green check next to it (the check indicates it has downloaded completely to my <MadCap:variable name="General.ProductName"></MadCap:variable> account). From this same screen I'll create an automated report to summarize not only the landscape characteristics, but the modeled fire behavior outputs specific to this landscape based on approximated worst case (97th percentile fuel moisture and wind) conditions.</li>
+            <li>I click on <span class="UIcomponent">Request a Report</span> so my report can begin processing, it’ll take a few minutes. In the meantime, I close the Report dialogue box, then click the <span class="UIcomponent">View in Map Studio</span> so I can look at the map version of my landscape characteristics. Since I just clicked on Request a Report, 97th percentile modeled fire behavior will be available in <MadCap:variable name="General.MapStudio"></MadCap:variable> as well now.</li>
+        </ol>
+        <p>Assessing the map and the report will allow me to learn more about the fuel characteristics and expected fire behavior on my landscape. This informs me where I may place fuels treatments, as well as what kinds of treatments I may need to achieve my objectives. Later, I can use <MadCap:variable name="General.ProductName"></MadCap:variable> to compare expected fire behavior for various simulated treatments in my project area.</p>
+        <h2>Assessing the Landscape</h2>
+        <p>Next, I"ll assess my landscape using various tools in <MadCap:variable name="General.MapStudio"></MadCap:variable>:</p>
+        <h3>Identify Tool</h3>
+        <p>
+            <img src="../../Images/granite_crk_dta/show_landscape.png" alt="Landscape Tools adds landscapes to map studio" style="width: 357px; height: 338px;" class="border">
+            </img>
+        </p>
+        <p>First I&#160;open <MadCap:variable name="General.MapStudio"></MadCap:variable> from the top of the screen. Then I:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Use the <span class="UIcomponent">Landscape Tools</span><img src="../../Images/mapstudio/button_landscapetools.png" alt="Landscape tools button"></img> button to check the landscape under the "Add to Map" tab, this adds the landscape to to the map and the map's <span class="UIcomponent">Layer List</span>.</li>
+            <div>
+                <img src="../../Images/granite_crk_dta/layer_list_and_identify.png" alt="use the identify tool for more information" style="width: 602px; height: 361px;" class="border">
+                </img>
+            </div>
+            <li>After opening the <span class="UIcomponent">Layer List</span> button <img src="../../Images/mapstudio/button_layerlist.png" alt="layer list button"></img>, I ensure my landscape is checked, then I can check and uncheck the landscape layers I’d like to view. I’d really like to look at the fuel models to make sure they correspond to what I’m seeing on the ground in this area, so I ensure that box is checked.</li>
+            <li>I access more information for the landscape and subsequent layers via the small arrows next to the check boxes. In this case, I check the box next to "Fuel Models", then click on the arrow to access the Fuel Model layer legend.</li>
+            <li>I click the <span class="UIcomponent">Identify</span> button <img src="../../Images/mapstudio/button_identify.png" alt="indentiry"></img> in the upper right corner of the page to view more information for each pixel. I select the layer I’d like to view (current landscape), then click on the landscape in an area I’d like to know more about. The "Identify information box" populates with the landscape information for this pixel. For example, I now know that the green-blue pixels on the map correspond to areas of Fuel Model 188 (TL8). I continue examining various areas of interest on my landscape to learn more about what fuel models are present and where. Notice that all of the landscape characteristics come up in the Identify box when you click on the landscape with the <img src="../../Images/mapstudio/button_identify.png" alt="indentiry"></img> button, not just the characteristic you specified in your <span class="UIcomponent">Layer List</span>.</li>
+        </ol>
+        <p>
+            <img src="../../Images/granite_crk_dta/transparency.png" alt="transparency can be set using the more options icon to the right of each layer" style="width: 332px; height: 428px;" class="border">
+            </img>
+        </p>
+        <p>I’d like to adjust the transparency of my layer so I&#160;can see roads, landscape characteristics, and other map features. To do this I&#160;click <span class="UIcomponent">More Options</span>, the 3 dots to the right of my Landscape name in <span class="UIcomponent">Layer List</span>. A dropdown box of options opens. I choose <span class="UIcomponent">Transparency</span>, which opens a slider bar allowing me to adjust the of transparency level for that layer.</p>
+        <h3>Add reference data</h3>
+        <p>Before I do a full assessment of the landscape characteristics, I’d like to view previous fires that may have occurred in this area. Fortunately, this is easy to do:</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/add_reference_data.png" alt="use 'add reference data' to add historic disturbance information" style="width: 712px; height: 413px;" class="border">
+            </img>
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Using <span class="UIcomponent">Add Reference Data</span> button <img src="../../Images/mapstudio/button_adref.png" alt="add reference data"></img> at the bottom of the screen, I see there are many options for additional data layers, including "Ownership" and "Critical Habitat Areas". </li>
+            <li>For now, I’m only interested in "Disturbance History" – both "Historic Fuel Treatment Polygons", as well as "Historic Wildfire Perimeters". I select both, and the years I’m interested in. These will now appear in my <span class="UIcomponent">Layer List</span> and on my map.</li>
+            <li>I use the <span class="UIcomponent">Identify </span>tool to identify the exact year of the Rabbit Creek and Bannock fires. Then I click the applicable Fire Perimeter layers on and off so I can assess the landscape and fuel models underneath to ensure they’re reflective of these fires.</li>
+        </ol>
+        <p>I follow this same process with the Historic Fuel Treatment Polygons layer as well.</p>
+        <p>After doing an assessment of all the landscape characteristics (Elevation, Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height and Canopy Bulk Density) I determine that the Landfire 2012 data in this landscape is reflective of existing conditions, including previous fires. If there had been a more recent disturbance since this 2012 data was produced,  such as a fire or fuels treatment I wanted to mimic on this landscape, I could easily create a polygon to reflect that area of interest, then make the appropriate landscape edits to reflect the disturbance. (More information on Landscape Editing is available via the <a href="../../../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Landscape Editing Topic</a>.</p>
+        <h3>Comparing Landscape Features and Model Outputs with the Swipe Tool</h3>
+        <p>
+            <img src="../../Images/granite_crk_dta/auto97_flame_length.png" alt="use 'simulation output tools' to add the auto97th model outputs" style="width: 742px; height: 452px;" class="border">
+            </img>
+        </p>
+        <p>Now that I have a good idea of the specific characteristics of my landscape, I want to look at the expected fire behavior using 97th percentile weather and fuel moisture conditions. We ran the summary a little bit ago, now we need to add it to the map. To do this I:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Simulation Output Tools</span> button <img src="../../Images/mapstudio/button_SimOutput.png" alt="simulation output tools"></img> on the bottom of the screen.</li>
+            <li>Check the box next to “Granite Creek LF2012 unedited-Auto97th” to add the fire behavior layer to <span class="UIcomponent">Layer List</span> and my map. I check the appropriate boxes in <span class="UIcomponent">Layer List</span> so I can view Flame Lengths and the corresponding legend.</li>
+        </ol>
+        <p>I zoom into an orange/red area where I can see concentrated areas high Flame Lengths projected by the summary model.I want to know what the topography and fuel models are for that area of more intense fire behavior.</p>
+        <p>I set up my <span class="UIcomponent">Layer List</span> to have the Fuel Model checked for the Granite Creek Landscape layer, as well as Flame Lengths for the Auto97th modeled fire behavior output. I can quickly switch between layers to view changes by checking/unchecking the layers, or by using the <span class="UIcomponent">Swipe Tool</span><img src="../../Images/mapstudio/button_slider.png" alt="swipe tool"></img>.</p>
+        <p>
+            <img src="../../Images/granite_crk_dta/swipe_pretreatment.png" alt="using the swipe tool in the top right can help evaluate our landscape" style="width: 765px; height: 400px;" class="border">
+            </img>
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>I click the <span class="UIcomponent">Swipe Tool</span><img src="../../Images/mapstudio/button_slider.png" alt="swipe tool"></img>.</li>
+            <li>Next, I&#160;specify the layers I&#160;want to swipe - the first layer I select will be the layer I view on the top of the slider bar, the second layer checked in <span class="UIcomponent">Layer List</span> will be the layer on the bottom of the slider bar. In this case, "Granite Creek LF2012 unedited – Auto97th". I slide the bar in the middle of the screen up and down and see that the areas with high flame lengths correspond to areas of Fuel Model 188 (TL8) with small patches 165 (TU5), which is what I suspected.</li>
+        </ol>
+        <p>
+            <img src="../../Images/granite_crk_dta/swipe_pretreatment2.png" alt="swipe tool showing topography below the layer" style="width: 604px; height: 298px;" class="border">
+            </img>
+        </p>
+        <p>Next I want to view the topography to see if there is a theme in the areas displaying more intense fire behavior. I uncheck the boxes in the <span class="UIcomponent">Layer List</span> then re-check the "Granite Creek LF2012 unedited – Auto97th" layer.This will display only that behavior layer, and allow me to see the topography underneath. If this does not occur on your map, try selecting the Model Output: Granite Creek by clicking on it from the Swipe dialog that appears in the top right of <MadCap:variable name="General.MapStudio"></MadCap:variable>. (For more about the Swipe Tool, see the <a href="../../../10-MapStudio/Functions/Swipe.htm" target="_blank">Swipe Tool Help Topic</a>).</p>
+        <p>As I swipe up and down I can see that the areas displaying the more intense fire behavior are all west or northwest facing slopes. I complete further analysis by repeating this process in the northern part of my landscape where there appears to be several areas that would produce more intense fire behavior. I also compare other aspects of fire behavior, such as Rate of Spread and Crown Fire Activity.</p>
+        <p>With this information, I decide to create two Areas of Interest, or areas on which I’d like to focus my analysis and treatments.</p>
+    </body>
+</html>
