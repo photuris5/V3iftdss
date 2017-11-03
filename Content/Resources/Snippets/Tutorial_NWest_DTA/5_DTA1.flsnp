@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4235" MadCap:lastWidth="2249">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3794" MadCap:lastWidth="1492">
     <head>
     </head>
     <body>
@@ -35,14 +35,15 @@
             <li>Click the <span class="UIcomponent">Add to Rules</span> button</li>
         </ol>
         <p>This rule will mimic thinning my Area of Interest to about 80% present density by removing understory up to 8” DBH, with subsequent pile burning of thinned material. This information appears if I&#160;hover over the "Light Thinning: Pile Burning" option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance Topic</a> of Help Center.</p>
-        <p>I’d also like to mimic a broadcast burn after these first entries, but will apply that edit in a subsequent edit session. I read in the <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Consideration help topic</a> that it is  best to apply these Default Edits one at a time, then build on each edit if you’d like. It’s always a good idea to assess your landscape after each edit to ensure it’s been applied correctly and makes sense.</p>
+        <p>I’d also like to mimic a broadcast burn after these first entries, but I'll apply that edit in a subsequent edit session. While I&#160;could create a second rule that would be applied after the first ( See the <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Consideration help topic</a> for more details on these), I will apply one at a time so its easier to track the results of the rule on my landscape.  It’s always a good idea to assess your landscape after editing to ensure it’s been applied correctly and makes sense.</p>
         <p>
             <img src="../../Images/granite_crk_dta/dta_edit_rule_save.png" alt="you will recieve a message confirming your edit rule has been saved" style="width: 654px; height: 275px;" class="border">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>After I&#160;clicked the <span class="UIcomponent"> Add to Rules</span> button, A notification appeared to confirm my rule had been added. </li>
-            <li>Since I&#160;am just implementing this one rule for now, I&#160;scroll to the bottom of the screen, name my landscape so its easy to see what treatment it represents (Granite Crk LF2012 Lt_Thn_PileRx_1yr_TrtArea), and click <span class="UIcomponent">Save New Landscape</span>. </li>
+            <li>Since I&#160;am just implementing this one rule for now, I&#160;scroll to the bottom of the screen, name my landscape so its easy to see what treatment it represents (GC12_Lt_Thn_PileRx_1yr), and click <span class="UIcomponent">Save New Landscape</span>. </li>
+            <div class="notificationTip">It is recommended to keep the landscape names around 30 characters in length for later reporting steps to run smoothly in the <MadCap:variable name="General.ProductName" /> system.</div>
             <li>Once the new landscape is saved, a notification will appear at the top of the screen that lets me know it has been successfully submitted. </li>
         </ol>
         <h3>Enter parameters for a fire behavior modeling scenario</h3>
