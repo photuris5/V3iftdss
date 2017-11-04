@@ -76,7 +76,7 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>First, I select the edited landscape so it has a "1" next to it. Then, I&#160;select the original landscape, so it has a “2” next to it. This order tells <MadCap:variable name="General.ProductName"></MadCap:variable> to calculate the difference created by our treated landscape (1) on our original landscape (2). For example, if our new landscape has flame lengths of 3 feet, and the original has flame lengths of 7 feet, the difference will be: 3 - 7 = -4. Or in other words, a 4 foot <i>reduction</i> in flame length from the treatment.</li>
-            <li>Now I want to view comparison outputs on the map and as a report.  First, I click the <span class="UIcomponent">Compare in Summary Report</span> button so that can begin processing, next I&#160;click the <span class="UIcomponent">Compare on Map</span> button to view results on the map.</li>
+            <li>Now I want to view comparison outputs on the map and as a report.  First, I click the <span class="UIcomponent">Compare in Summary Report</span> button so that can begin processing, next I&#160;click the <span class="UIcomponent">Compare on Map</span> button to view results on the map. I wait for the map to appear in splitscreen mode, then I&#160;click<span class="UIcomponent"> Compare on Map</span> once more, and give the caparison layers a few seconds to download.</li>
         </ol>
     </body>
 </html>

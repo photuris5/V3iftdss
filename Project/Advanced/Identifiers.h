@@ -154,3 +154,17 @@
 #define wildfires_hh 9019
 #define table 1070
 #define table1 1072
+#define Helpful_topics 1065
+#define _0_Introduction 1067
+#define _1_PreviewAndCreate 1068
+#define _2_SummarizeAndAssess 1069
+#define _3_CreateAOIs 1074
+#define _4_ReviewSummaryReport 1075
+#define _5_DevelopTreatmentAlts 1076
+#define _6_CompareAddTreatment 1078
+#define _7_CompareAddedConclude 1079
+#define All 1080
+#define step_Complete_hh 9023
+#define step_monitoring_hh 9024
+#define step_treatments_hh 9025
+#define step_wildfires_hh 9026

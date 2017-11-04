@@ -156,4 +156,18 @@
     <Map Name="wildfires_hh" Link="/Content/50-Hover/FTEM/wildfires_hh.htm" />
     <Map Name="table" Link="/Content/Resources/TableStyles/table.html" />
     <Map Name="table1" Link="/Content/Resources/TableStyles/table.html" />
+    <Map Name="Helpful_topics" Link="/Content/00-AboutIFTDSS/Helpful topics.htm" />
+    <Map Name="_0_Introduction" Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm" />
+    <Map Name="_1_PreviewAndCreate" Link="/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm" />
+    <Map Name="_2_SummarizeAndAssess" Link="/Content/40-Tutorials/NWest_DTA/2_SummarizeAndAssess.htm" />
+    <Map Name="_3_CreateAOIs" Link="/Content/40-Tutorials/NWest_DTA/3_CreateAOIs.htm" />
+    <Map Name="_4_ReviewSummaryReport" Link="/Content/40-Tutorials/NWest_DTA/4_ReviewSummaryReport.htm" />
+    <Map Name="_5_DevelopTreatmentAlts" Link="/Content/40-Tutorials/NWest_DTA/5_DevelopTreatmentAlts.htm" />
+    <Map Name="_6_CompareAddTreatment" Link="/Content/40-Tutorials/NWest_DTA/6_CompareAddTreatment.htm" />
+    <Map Name="_7_CompareAddedConclude" Link="/Content/40-Tutorials/NWest_DTA/7_CompareAddedConclude.htm" />
+    <Map Name="All" Link="/Content/40-Tutorials/NWest_DTA/All.htm" />
+    <Map Name="step_Complete_hh" Link="/Content/50-Hover/FTEM/step_Complete_hh.htm" />
+    <Map Name="step_monitoring_hh" Link="/Content/50-Hover/FTEM/step_monitoring_hh.htm" />
+    <Map Name="step_treatments_hh" Link="/Content/50-Hover/FTEM/step_treatments_hh.htm" />
+    <Map Name="step_wildfires_hh" Link="/Content/50-Hover/FTEM/step_wildfires_hh.htm" />
 </CatapultAliasFile>
