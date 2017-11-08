@@ -1,13 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1248" MadCap:lastWidth="1288">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1069" MadCap:lastWidth="1288">
     <head>
     </head>
     <body>
-        <p>Annie is a Fuels Technician who needed to do a hazardous fuels reduction project on the Boise National Forest. Annie used <MadCap:variable name="General.ProductName"></MadCap:variable> to save time in analysis by developing, modeling, comparing, and generating reports on hazardous fuels reduction treatments within a single interface. Below, she walks us step by step, through her treatment development process from start to finish. </p>
         <h2>Management Scenario</h2>
-        <p>My name is Annie and I’m a Fuels Technician on the Idaho City Ranger District, Boise Nat’l Forest, about 30 miles northeast of Boise, Idaho. I’ve found <MadCap:variable name="General.ProductName" /> to be a useful tool in planning hazardous fuels reduction projects and want to share with you my process on one such project.</p>
-        <p>Through observation and based on Forest Plan direction, I know we need some sort of fuels reduction treatment in the mixed conifer stands in Granite Creek drainage, approximately 4 miles east of Idaho City. The area hasn’t been treated in decades and the understory and surface fuels could contribute to uncharacteristically intense fire behavior. This would not only pose a hazard to the community of Idaho City and adjacent private land, but also cause undue mortality in this fire-adapted low elevation Ponderosa pine ecosystem that thrives on frequent but low severity fires.</p>
-        <p>My objectives are to:</p>
+        <p>You are a Fuels Technician on the Idaho City Ranger District, Boise Nat’l Forest, about 30 miles northeast of Boise, Idaho. In this scenario you will use <MadCap:variable name="General.ProductName" /> to plan a hazardous fuels reduction project.</p>
+        <p>Through observation and based on Forest Plan direction, you see a need for some sort of fuels reduction treatment in the mixed conifer stands in Granite Creek drainage, approximately 4 miles east of Idaho City. The area hasn’t been treated in decades and the understory and surface fuels could contribute to uncharacteristically intense fire behavior. This would not only pose a hazard to the community of Idaho City and adjacent private land, but also cause undue mortality in this fire-adapted low elevation Ponderosa pine ecosystem that thrives on frequent but low severity fires.</p>
+        <p>Your objectives are to:</p>
         <ul>
             <li> Reduce surface fuel loading and the overall horizontal and vertical fuelbed continuity to reduce the fire hazard to adjacent private land and the community of Idaho City</li>
             <li>Return low intensity fire to fire adapted vegetation communities. </li>
@@ -15,7 +14,7 @@
             <li> Evaluate what type of treatment will help me achieve these objectives</li>
             <li>Demonstrate the need for treatment, both quantitatively and spatially, to members of our district interdisciplinary (ID) team. </li>
         </ul>
-        <p>I turned to <MadCap:variable name="General.ProductName" /> for help with this.</p>
+        <p>You'll use <MadCap:variable name="General.ProductName" /> to plan a treatment around these objectives.</p>
         <p>
             <img src="../../Images/granite_crk_dta/trees1.png" alt="a crowded conifer stand" class="border" style="width: 386px;height: 323px;" />
             <img src="../../Images/granite_crk_dta/location.png" alt="granite creek is about 26 miles northeast from Boise Idaho" style="width: 514px;height: 323px;" class="border" />

@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2759" MadCap:lastWidth="2249">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="3056" MadCap:lastWidth="1288">
     <head>
     </head>
     <body>
-        <p>Now that I’ve thoroughly reviewed the map to assess my landscape, modeled fire behavior, and areas for treatment, I want to look at the corresponding landscape and fire behavior summary reports. </p>
+        <p>Now that you’ve thoroughly reviewed the map to assess the landscape, modeled fire behavior, and areas for treatment, you'll want to look at the corresponding landscape and fire behavior summary reports. </p>
         <p>
             <img src="../../Images/granite_crk_dta/view_summary.png" alt="click the 'view summary' button to review reports" style="width: 630px; height: 203px;" class="border">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
-            <li>I navigate away from <MadCap:variable name="General.MapStudio"></MadCap:variable> and click on <span class="UIcomponent">My Workspace</span> at the top of the screen,</li>
-            <li>Because the Landscape was assigned to the Granite Creek Fuels folder when I&#160;first created it, the model output and Summary Reports are all stored there too by default. I select my "Granite Creek Treatments Folder" in the panel on the left of the screen. As I&#160;navigate  I notice  the information in the right-hand panel changes too, updating as I move through different screens. </li>
-            <li>I select the "Granite Creek LF2012 unedited - Auto97th" report file and click the <span class="UIcomponent">View Summary</span> button. The report will open in a new browser tab.</li>
+            <li>Navigate away from <MadCap:variable name="General.MapStudio"></MadCap:variable> and click on <span class="UIcomponent">My Workspace</span> at the top of the screen,</li>
+            <li>Because the Landscape was assigned to the Granite Creek Fuels folder when you&#160;first created it, the model output and Summary Reports are all stored there too by default. Select my "Granite Creek Treatments Folder" in the panel on the left of the screen. As you&#160;navigate  you'll notice  the information in the right-hand panel changes too, updating as you move through different screens. </li>
+            <li>Select the "Granite Creek LF2012 unedited - Auto97th" report file and click the <span class="UIcomponent">View Summary</span> button. The report will open in a new browser tab.</li>
         </ol>
         <p>
             <img src="../../Images/granite_crk_dta/report_fuel_model.png" alt="summary reports generate a variety of outputs, table, pie charts, bar charts." style="width: 561px; height: 388px;" class="border">
             </img>
         </p>
-        <p>All of the Landscape characteristics and Fire Behavior outputs I viewed in Map Studio are quantitatively displayed in several different formats in this report. I find a lot of value in these reports because they break each component (Canopy Cover, Canopy Base Height, Rate of Spread, etc.) down in a way that makes it even easier, after viewing the spatial data, to assess the landscape and 97th percentile modeled fire behavior. For example, in viewing the Fuel Model map (upper left corner), I can see that I have a lot of Fuel Model TL8 on my landscape, but it’s not until I take a look at the graphs that I can really assess that, in fact, 35% of this landscape is attributed to the TL8 fuel model.</p>
-        <p>I take a good look at the report in it’s entirety, including the Flame length outputs:</p>
+        <p>All of the Landscape characteristics and Fire Behavior outputs you viewed in <MadCap:variable name="General.MapStudio" /> are quantitatively displayed in several different formats in this report. You'll find a lot of value in these reports because they break each component (Canopy Cover, Canopy Base Height, Rate of Spread, etc.) down in a way that makes it even easier, after viewing the spatial data, to assess the landscape and 97th percentile modeled fire behavior. For example, in viewing the Fuel Model map (upper left corner), you can see that there is a lot of Fuel Model TL8 on the landscape, but it’s not until you take a look at the graphs that you can really assess that, in fact, 35% of this landscape is attributed to the TL8 fuel model.</p>
+        <p>Take a good look at the report in it’s entirety, including the Flame length outputs:</p>
         <p>
             <img src="../../Images/granite_crk_dta/report_flame_length.png" alt="reports include flame length and other fire behavior measurements" style="width: 593px; height: 418px;" class="border">
             </img>
         </p>
-        <p>These graphs indicate that, given 97th percentile weather and fuel moisture conditions, a little over half of this landscape will experience Flame Lengths of &gt;0 - .3 meters, while another 1/3rd will experience Flame Lengths &gt;.3 - 1.2 meters. I plan to focus my treatments in the specific areas on this landscape where I’m noticing more intense, “problem” fire behavior, from both an ecological and a control perspective.</p>
+        <p>These graphs indicate that, given 97th percentile weather and fuel moisture conditions, a little over half of this landscape will experience Flame Lengths of &gt;0 - .3 meters, while another 1/3rd will experience Flame Lengths &gt;.3 - 1.2 meters. The specific areas on this landscape where more intense, “problem” fire behavior is seen, is where our treatments are focused.</p>
         <p>
             <img src="../../Images/granite_crk_dta/report_flamelength_map.png" alt="details are displayed on the bottom right of the report maps" style="width: 704px; height: 746px;" class="border">
             </img>
         </p>
-        <p>I notice the Auto97th Fire Behavior section of the report has recorded the 97th percentile weather and fuel moisture inputs used to run the fire behavior model. I want to use these values when I re-run the fire behavior model a little later, so I scroll up to the top of the report, look to the top right, and click the <span class="UIcomponent">Download</span><img src="../../Images/buttons_general/download.png" alt="download" style="width: 25px;height: 18px;"></img> button to save this report as a pdf on my local machine.</p>
+        <p>Notice the Auto97th Fire Behavior section of the report has recorded the 97th percentile weather and fuel moisture inputs used to run the fire behavior model. You'll want to use these values when you re-run the fire behavior model a little later, so scroll up to the top of the report, look to the top right, and click the <span class="UIcomponent">Download</span> <img src="../../Images/buttons_general/download.png" alt="download" style="width: 25px;height: 18px;"></img> button to save this report as a pdf on your local machine.</p>
         <p>
             <img src="../../Images/granite_crk_dta/report_save.png" alt="the 'save as pdf' button is located in the top right of the report" style="width: 236px; height: 177px;" class="border">
             </img>

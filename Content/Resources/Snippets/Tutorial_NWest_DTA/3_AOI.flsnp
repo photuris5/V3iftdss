@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1156" MadCap:lastWidth="1492">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1408" MadCap:lastWidth="1288">
     <head>
     </head>
     <body>
@@ -7,15 +7,15 @@
             <img src="../../Images/granite_crk_dta/create_aoi_1.png" alt="set the layer list to view flame length" style="width: 578px; height: 378px;" class="border" />
         </p>
         <ol style="list-style-type: upper-alpha;">
-            <li>To create an Area of Interest, or polygon, I change the <span class="UIcomponent">Basemap Gallery</span> layer to “Imagery with Labels” so I can see landscape imagery.</li>
-            <li> Then I set up my <span class="UIcomponent">Layer List</span> to show my 97th percentile fire behavior output layer for Flame Lengths, and set the transparency so I can see roads and topography as I create my Area of Interest, or treatment area.</li>
+            <li>To create an Area of Interest, or polygon, change the <span class="UIcomponent">Basemap Gallery</span> layer to “Imagery with Labels” so you can see landscape imagery.</li>
+            <li> Then set up the <span class="UIcomponent">Layer List</span> to show my 97th percentile fire behavior output layer for Flame Lengths, and set the transparency so you can see roads and topography as you create your Area of Interest, or treatment area.</li>
             <div>
                 <img src="../../Images/granite_crk_dta/create_treatment_polys2.png" alt="use 'create/edit' shapes to create treatment polygons" style="width: 865px; height: 403px;" class="border" />
             </div>
-            <li>I select the <span class="UIcomponent">Create/Edit Shapes</span> button <img src="../../Images/mapstudio/button_editTools.png" alt="create or edit shapes" /> at the bottom of the screen and ensure <span class="UIcomponent">Polygons</span> is selected in the dropdown box in <span class="UIcomponent">Create/Edit Shapes</span>. </li>
-            <li>Then I select <span class="UIcomponent">Freehand Polygon</span><img src="../../Images/mapstudio/button_edittools_freehand.png" alt="freehand draw button" /> option, and draw a shape around one of my areas. Next, I select the button again and draw a shape around the second area. I’ve selected two areas in my landscape that exhibited significant fire behavior. I’d like to concentrate on these areas for developing and comparing treatments to meet my objectives of reducing the fire hazard in this area, and returning low intensity fire to this landscape.</li>
-            <li>To save these two treatments as one shapefile, I click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" alt="copy from exisitng features button" style="width: 23px;height: 23px;" />, check the <span class="UIcomponent">Select multipart</span> button option, single left-click one shape, then single left click the other shape, then proceed to naming.</li>
-            <li>I name this “Granite Creek Proposed Treatment Areas”, then I save this new shape to my existing "Granite Creek Treatments" folder. This will ensure the Area of Interest is filed in the same location in <span class="UIcomponent">My Workspace</span> as all my other Granite Creek project files.</li>
+            <li>Select the <span class="UIcomponent">Create/Edit Shapes</span> button <img src="../../Images/mapstudio/button_editTools.png" alt="create or edit shapes" /> at the bottom of the screen and ensure <span class="UIcomponent">Polygons</span> is selected in the dropdown box in <span class="UIcomponent">Create/Edit Shapes</span>. </li>
+            <li>Select <span class="UIcomponent">Freehand Polygon</span><img src="../../Images/mapstudio/button_edittools_freehand.png" alt="freehand draw button" /> option, and draw a shape around one of the areas of significant fire behavior. Next, select the button again and draw a shape around the second area that exhibited significant fire behavior. You'll concentrate on these areas for developing and comparing treatments to meet the objectives of reducing the fire hazard in this area, and returning low intensity fire to this landscape.</li>
+            <li>To save these two treatments as one shapefile, click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" alt="copy from exisitng features button" style="width: 23px;height: 23px;" />, check the <span class="UIcomponent">Select multipart</span> button option, single left-click one shape, then single left click the other shape, then proceed to naming.</li>
+            <li>Name this “Granite Creek Proposed Treatment Areas”, then save this new shape to the existing "Granite Creek Treatments" folder. This will ensure the Area of Interest is filed in the same location in <span class="UIcomponent">My Workspace</span> as all the other Granite Creek project files.</li>
         </ol>
     </body>
 </html>

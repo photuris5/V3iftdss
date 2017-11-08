@@ -320,8 +320,7 @@
     conditions="General.FTEM Exlude,General.Exclude" />
   <TocEntry
     Title="FTEM"
-    Link="/Content/10-FTEM/FTEMAbout.htm"
-    conditions="General.Exclude">
+    Link="/Content/10-FTEM/FTEMAbout.htm">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
