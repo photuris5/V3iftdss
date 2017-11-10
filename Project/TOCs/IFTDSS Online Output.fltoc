@@ -317,10 +317,11 @@
     Title="Known Issues"
     Link="/Content/00-AboutIFTDSS/KnownIssues.htm"
     StartSection="false"
-    conditions="General.FTEM Exlude,General.Exclude" />
+    conditions="General.FTEM Exlude" />
   <TocEntry
     Title="FTEM"
-    Link="/Content/10-FTEM/FTEMAbout.htm">
+    Link="/Content/10-FTEM/FTEMAbout.htm"
+    conditions="General.Exclude">
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
