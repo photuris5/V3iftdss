@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1973" MadCap:lastWidth="1847">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2371" MadCap:lastWidth="2228">
     <head>
     </head>
     <body>
@@ -18,7 +18,7 @@
         <h2>Create the Landscape</h2>
         <p>Next, you'll create your landscape, which will serve as a starting point for the rest of the analysis. To do this:</p>
         <p>
-            <img src="../../Images/granite_crk_dta/obtain_landscape.png" alt="use the 'Landscape Tools' to add a new landscape" style="width: 748px;height: 435px;" class="border">
+            <img src="../../Images/granite_crk_dta/obtain_landscape.png" alt="use the 'Landscape Tools' to add a new landscape" class="border">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">

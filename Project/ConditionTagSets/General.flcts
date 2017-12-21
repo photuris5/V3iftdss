@@ -20,4 +20,12 @@
     BackgroundColor="#8b008b"
     Name="DeveloperNotes"
     Comment="Developer Notes - Omit from output" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="QA ONLY"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="Prod ONLY"
+    Comment="" />
 </CatapultConditionTagSet>

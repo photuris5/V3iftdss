@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="7613" MadCap:lastWidth="1288">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="6391" MadCap:lastWidth="1285">
     <head>
     </head>
     <body>
@@ -70,7 +70,7 @@
             <img src="../../Images/granite_crk_dta/dta2_runmodel.png" alt="use the 'run model' button to model the new landscape" style="width: 831px; height: 194px;" class="border">
             </img>
         </p>
-        <p>skip the Model Input tab this time, that input was saved from our last run. </p>
+        <p>Skip the Model Input tab this time, that input was saved from our last run, and we need to keep our weather parameters constant in order to compare the results of the landscape changes.</p>
         <p>Go to the <span class="UIcomponent">Run Model</span> tab and click the <span class="UIcomponent">Run Model</span> button.</p>
         <p>Next, move to the <span class="UIcomponent">Compare Alternatives </span>tab.</p>
         <p>

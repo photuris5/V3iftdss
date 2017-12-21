@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="933" MadCap:lastWidth="1340">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="1192" MadCap:lastWidth="2060">
     <head>
     </head>
     <body>
@@ -15,9 +15,9 @@
         <h3>Uphill and Downhill Winds</h3>
         <p>Selecting the wind direction as upslope or downslope utilizes the direction from the aspect feature within the  Landscape (.LCP) file for each grid cell to calculate the fire behavior characteristics. Flat cells with no aspect use the direction from the Azimuth (Degrees). </p>
         <p>This option would be appropriate for modeling the fire behavior with simple diurnal winds. Uphill winds can also be used to calculate a near-maximum fire behavior characteristics.</p>
-        <h3>Gridded Wind (WindNinja)</h3>
-        <p> <MadCap:variable name="General.ProductName" /> uses WindNinja to compute spatially varying wind fields for landscape model runs. Keep in mind, WindNinja does not predict wind for future times, rather it simulates the spatial variation of wind for one instant in time making it ideal for model runs in IFTDSS.</p>
-        <p>WindNinja uses information that is already part of a landscape model run. The landscape file provides elevation to simulate wind flow across your area and canopy characteristics and surface fuel model to approximate the drag effect that vegetation has on wind flow. The domain wind direction and wind speed needed for WindNinja are the same as those used to run landscape fire behavior in IFTDSS.</p>
+        <h3 MadCap:conditions="General.Exclude">Gridded Wind (WindNinja)</h3>
+        <p MadCap:conditions="General.Exclude"> <MadCap:variable name="General.ProductName" /> uses WindNinja to compute spatially varying wind fields for landscape model runs. Keep in mind, WindNinja does not predict wind for future times, rather it simulates the spatial variation of wind for one instant in time making it ideal for model runs in IFTDSS.</p>
+        <p MadCap:conditions="General.Exclude">WindNinja uses information that is already part of a landscape model run. The landscape file provides elevation to simulate wind flow across your area and canopy characteristics and surface fuel model to approximate the drag effect that vegetation has on wind flow. The domain wind direction and wind speed needed for WindNinja are the same as those used to run landscape fire behavior in IFTDSS.</p>
         <ul>
             <li><a href="FlamMapAbout.htm" target="_blank" style="font-weight: bold;">L</a><a href="FlamMapAbout.htm" style="font-weight: bold;" target="_blank">andscape Fire Behavior Walkthrough</a>
             </li>

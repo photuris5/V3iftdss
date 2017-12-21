@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4766" MadCap:lastWidth="1288">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4984" MadCap:lastWidth="1285">
     <head>
     </head>
     <body>
@@ -16,8 +16,8 @@
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
-            <li>First, select my "Originating Landscape" and the </li>
-            <li>Area of Interest created earlier in <MadCap:variable name="General.MapStudio"></MadCap:variable>.</li>
+            <li>First, select the "Originating Landscape" (Granite Creek LF2012 unedited) and the </li>
+            <li>Area of Interest created earlier in <MadCap:variable name="General.MapStudio"></MadCap:variable> (Granite Creek Proposed Treatment Areas).</li>
         </ol>
         <p>Notice the Right Hand Panel has some good information regarding how to use the landscapes correctly in this task. Make it a point to read through these panels for each page, they contain really helpful information.</p>
         <h3>Edit the landscape to simulate treatment scenarios</h3>
@@ -28,7 +28,9 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Double check that "Granite Creek LF2012 unedited" landscape is selected</li>
-            <li>Select the "Thin: Slash Removed default" rule</li>
+            <li>Select the "Thin: Slash Removed default" rule under the “Add Default Fuels Treatment/Disturbance Edit Rule”. </li>
+            <div><span class="notificationTip">If you hover your mouse over the “Light Thinning; Pile Burning” it will give you the details on what the rule represents.</span>
+            </div>
             <li>Choose the "Light Thinning:&#160;Pile Burning" option</li>
             <li>Select 1 year since disturbance</li>
             <li>Select the "Granite&#160;Creek Proposed Treatment Areas" mask to apply the rule to</li>
@@ -76,7 +78,10 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>First, select the edited landscape so it has a "1" next to it. Then, select the original landscape, so it has a “2” next to it. This order tells <MadCap:variable name="General.ProductName"></MadCap:variable> to calculate the difference created by our treated landscape (1) on our original landscape (2). For example, if our new landscape has flame lengths of 3 feet, and the original has flame lengths of 7 feet, the difference will be: 3 - 7 = -4. Or in other words, a 4 foot <i>reduction</i> in flame length from the treatment.</li>
-            <li>Now you'll want to view comparison outputs on the map and as a report.  First, click the <span class="UIcomponent">Compare in Summary Report</span> button so that can begin processing, next click the <span class="UIcomponent">Compare on Map</span> button to view results on the map. Wait for the map to appear in splitscreen mode, then&#160;click <span class="UIcomponent">Compare on Map</span> once more, and give the caparison layers a few seconds to download.</li>
+            <li>Now you'll want to view comparison outputs on the map and as a report.  First, click the <span class="UIcomponent">Compare in Summary Report</span> button so that can begin processing.</li>
+            <li>Click both <span class="UIcomponent">Create Report</span> buttons so they can begin processing.</li>
+            <img src="../../Images/granite_crk_dta/dta_compare_1_2.png" alt="click compare on map button" style="width: 799px; height: 232px;" class="border" />
+            <li>Next click the <span class="UIcomponent">Compare on Map</span> button to view results on the map. Wait for the map to appear in splitscreen mode, then&#160;click <span class="UIcomponent">Compare on Map</span> once more, and give the caparison layers a few seconds to download.</li>
         </ol>
     </body>
 </html>

@@ -8,10 +8,16 @@
       Link="/Content/00-Concepts/WhyIFTDSS.htm" />
     <TocEntry
       Title="What can IFTDSS Do?"
-      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#WhatCanIFTDSSDo"></TocEntry>
+      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#WhatCanIFTDSSDo"
+      conditions="General.QA ONLY"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
     <TocEntry
       Title="What data do I Need?"
-      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#NeedToRunIFTDSS" />
+      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#NeedToRunIFTDSS"
+      conditions="General.QA ONLY" />
     <TocEntry
       Title="Get an Account"
       Link="/Content/00-Concepts/Accounts/AccountSetup.htm">
@@ -19,10 +25,10 @@
         Title="Setting up an Account"
         Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Account Password"
         Link="/Content/00-Concepts/Accounts/AccountPassword.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Profile"
         Link="/Content/00-Concepts/Accounts/AccountProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
@@ -82,10 +88,10 @@
       Title="Strategic Planning"
       Link="/Content/10-PlanningCycle/StrategicPlanningAbout.htm">
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Comparing Landscapes to Develop Treatement Alternatives"
         Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Editing a Landscape to Develop Treatment Alternatives"
         Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="About Edit Rules"
@@ -114,7 +120,7 @@
     Title="Modeling"
     Link="/Content/20-Models/ModelsOverview.htm">
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Modeling in Modeling Playground"
       Link="/Content/20-Models/ModelsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Landscape Fire Behavior"
@@ -136,7 +142,7 @@
         Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Fire Behavior Fuel Models"
       Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="More To Come"
@@ -156,37 +162,37 @@
         Link="/Content/10-MapStudio/Functions/MapFunctions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         StartSection="false" />
       <TocEntry
-        Title="[%=System.LinkedTitle%] (legends)"
+        Title="Layer List (legends)"
         Link="/Content/10-MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Add Reference Data"
         Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Add Graphic"
         Link="/Content/10-MapStudio/Functions/AddGraphic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Add Shapefiles"
         Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Landscape Tools"
         Link="/Content/10-MapStudio/Functions/LandscapeTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Simulation Output Tools"
         Link="/Content/10-MapStudio/Functions/SimulationTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Edit Tools"
         Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Basemap Gallery"
         Link="/Content/10-MapStudio/Functions/BasemapGallery.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Measurement"
         Link="/Content/10-MapStudio/Functions/Measurements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Filter"
         Link="/Content/10-MapStudio/Functions/Filter.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Attribute Table"
         Link="/Content/10-MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
@@ -209,7 +215,7 @@
       Title="Using Shapefiles"
       Link="/Content/10-MapStudio/Files/ShapefileInfo.htm">
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="About Shapefiles"
         Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Create or Edit Shapefiles"
@@ -218,10 +224,10 @@
         Title="Upload a Shapefile"
         Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Saving Shapefiles"
         Link="/Content/10-MapStudio/Files/ShapefileSaving.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="Repairing Shapefiles"
         Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Using Shapefiles for Masks/Areas of Interest" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -231,7 +237,7 @@
       Title="Use My Own Data"
       Link="/Content/00-Concepts/UsingMyData.htm" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="MapStudioTips and Tricks"
       Link="/Content/10-MapStudio/MapStudioTips.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
@@ -244,13 +250,40 @@
       Title="Tutorials"
       Link="/Content/40-Tutorials/TutorialMain.htm">
       <TocEntry
+        Title="Tutorials Main Page"
+        Link="/Content/40-Tutorials/TutorialMain.htm" />
+      <TocEntry
+        Title="Beginning a Project"
+        Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Creating a Landscape and Summarize"
+        Link="/Content/40-Tutorials/Shorts/CreateLCP.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Landscape Summary Report"
+        Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Creating Treatment Polygons"
+        Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Modeling Landscape Fire Behavior in Modeling Playground"
+        Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Run a Landscape Comparison"
+        Link="/Content/40-Tutorials/Shorts/Compare.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
         Title="Comparing Landscapes"
         Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm">
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Begin a Project"
           Link="/Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Create a Landscape"
           Link="/Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Evaluate and Edit" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
@@ -266,33 +299,37 @@
           Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
+        Title="Developing Treatment Alternatives (PDF)"
+        Link="/Content/Resources/pdfs/tutorials/NW_DTA_Tutorial.pdf" />
+      <TocEntry
         Title="Developing Treatments"
-        Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm">
+        Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm"
+        conditions="General.QA ONLY">
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Previewing and Creating a Landscape"
           Link="/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Summarize and Assess the Landscape"
           Link="/Content/40-Tutorials/NWest_DTA/2_SummarizeAndAssess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Creating Areas of Interest"
           Link="/Content/40-Tutorials/NWest_DTA/3_CreateAOIs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Reviewing the Landscape Summary Report"
           Link="/Content/40-Tutorials/NWest_DTA/4_ReviewSummaryReport.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Developing Treatment Alternatives"
           Link="/Content/40-Tutorials/NWest_DTA/5_DevelopTreatmentAlts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Comparing and Adding Treatment Alternatives"
           Link="/Content/40-Tutorials/NWest_DTA/6_CompareAddTreatment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
-          Title="[%=System.LinkedTitle%]"
+          Title="Comparing Added Treatments and Concluding"
           Link="/Content/40-Tutorials/NWest_DTA/7_CompareAddedConclude.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Additional Resources"
       Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Support System">
@@ -304,7 +341,7 @@
         Link="https://iftdss.firenet.gov/landing_page/support.html" />
     </TocEntry>
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Glossary"
       Link="/Content/41-References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="References"
@@ -317,34 +354,34 @@
     Title="Known Issues"
     Link="/Content/00-AboutIFTDSS/KnownIssues.htm"
     StartSection="false"
-    conditions="General.FTEM Exlude" />
+    conditions="General.FTEM Exlude,General.Prod ONLY" />
   <TocEntry
     Title="FTEM"
     Link="/Content/10-FTEM/FTEMAbout.htm"
-    conditions="General.Exclude">
+    conditions="General.QA ONLY">
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="About FTEM"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Get Started with FTEM Permissions"
       Link="/Content/10-FTEM/AccountSetup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="How to Use FTEM"
       Link="/Content/10-FTEM/UsingFtem.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Symbology"
       Link="/Content/10-FTEM/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Monitoring Guidance"
       Link="/Content/10-FTEM/MonitoringGuidance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Reporting"
       Link="/Content/10-FTEM/Reporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="FAQ"
       Link="/Content/10-FTEM/FTEMFaq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
+      Title="Technical Documentation"
       Link="/Content/10-FTEM/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
 </CatapultToc>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1260" MadCap:lastWidth="2272">
+    <head>
+    </head>
+    <body>
+        <p>To create a landscape within the Generate Landscape Summary task, select the <span class="UIcomponent">Create Here</span> option.</p>
+        <p>
+            <img src="../../Images/lcp_gen_smmry/createininterface.png" alt="The 'create here' button lets you generate a landscape in the planning interface" />
+        </p>
+        <p>
+            <img src="../../Images/lcp_gen_smmry/lcp_interface_steps.png" style="width: 759px;height: 457px;" alt="'create landscape' interface with interactive map to the left, and drop down inputs on the right." />
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Use the zoom tools in the top left of the map to zoom to your desired location</li>
+            <li>Click the <span class="UIcomponent">Select Draw Tool</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
+            <li>Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
+            <li>Select the version of LANDFIRE data you would like to use.</li>
+            <li>Select the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
+            <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />.</li>
+            <li>Select the folder in which you would like to store your landscape file, or select the <span class="UIcomponent">create new folder button</span> <img src="../../Images/lcp_gen_smmry/landscape gen 4.png" alt="create new folder button" class="button" /> to create and name a new folder in which to place your landscape file. </li>
+            <li>Select <span class="UIcomponent">Create</span> to generate your landscape file</li>
+        </ol>
+        <p>Once you select <span class="UIcomponent">Create</span>, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, will contain the name of your newly created landscape, with an hourglass <img src="../../Images/landscapesumm/hourglass.png" alt="hourglass icon" />next to it, indicating it is being created. Once created, the hourglass will be replaced by a green checkmark.</p>
+        <div class="notificationNote">
+            <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
+        </div>
+    </body>
+</html>

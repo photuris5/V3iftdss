@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1877" MadCap:lastWidth="1464">
+    <head>
+    </head>
+    <body>
+        <h1>Modeling Landscape Fire Behavior in Modeling Playground</h1>
+        <p>It can often be helpful to run several different scenarios before going through the process of developing treatment alternatives. <span class="UIcomponent">Modeling Playground</span> is a space to run these scenarios without having to do so as part of a specific task in <MadCap:variable name="General.ProductName" />.</p>
+        <p>To familiarize yourself with this part of <MadCap:variable name="General.ProductName" />, run a fire behavior scenario for the HaypressLF2012unedited landscape:</p>
+        <p>&#160;</p>
+        <img src="../../Resources/Images/Behavior/find_behavior.png" alt="landscape fire behavior can be accessed via Modeling Playground" style="width: 895px; height: 247px;" class="border" />
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Playground</span> link in the top navigation</li>
+            <li>Select 'Landscape Fire Behavior' from the dropdown menu</li>
+            <li>Click <span class="UIcomponent">Run</span>. Note that the model runs from the landscape summary are also available in this interface, just like in <span class="UIcomponent">MyWorkspace</span>.</li>
+            <div class="notificationTip">
+                <p>All saved runs are stored in the same folder as your selected landscape, or in the ‘Playground folder’ if a new landscape is created but no folder specified.</p>
+            </div>
+        </ol>
+        <p>Populate the input fields and run the model:</p>
+        <img src="../../Resources/Images/Behavior/tutorial_LFB_inputs1.png" alt="give your model a name" style="width: 982px; height: 427px;" class="border" />
+        <ol style="list-style-type: upper-alpha;">
+            <li>Give your run a descriptive name.&#160;In this case 'Haypress_cool_wet'</li>
+            <li>Select the HaypressCrklf2012unedited landscape from the dropdown menu. Notice that your landscape details are displayed below this area once you select your landscape.</li>
+            <div>
+                <p>Next, select the input type, starting with 'Wind', and fill in the required fields and run the model:</p>
+                <p>For this example you may use any values you choose.</p>
+                <img src="../../Resources/Images/Behavior/tutorial_LFB_inputs2.png" alt="model inputs are entered in the blank fields" style="width: 978px; height: 608px;" class="border" />
+            </div>
+            <li>Specify windspeed, in miles per hour, at 20 feet above the ground or above the vegetation (allowed values 0-100 mph).</li>
+            <li>Enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees). Alternatively you may enter -1 for upslope wind, or -2 for downslope wind.</li>
+            <li>Specify a <a href="../../20-Models/FlamMap/FlamMapCrowns.htm">crown fire calculation method</a></li>
+            <li>Enter a foliar moisture value</li>
+            <li>Specify fuel moisture, in percent, for:</li>
+            <div>
+                <ul>
+                    <li>1 hour fuels (1hr FM) - allowed values 2-100</li>
+                    <li>10 hour fuels (10hr FM) - allowed values 2-100</li>
+                    <li>100 hour fuels (100hr FM) - allowed values 2-100</li>
+                    <li>Herbaceous fuels (Herb) - allowed values 30-250</li>
+                    <li>Live Woody fuels (WoodyFM) - allowed values 60-200</li>
+                </ul>
+            </div>
+            <div class="notificationNote">
+                <p>If you would like to specify fuel moisture by fuel model, you could do so by adding rows, click <span class="UIcomponent">+ add row</span>. This will would a new line with a fuel model dropdown list where you could specify your fuel model and enter moisture data for that fuel model. You may repeat this as many times as needed. </p>
+            </div>
+            <li>Upon completing the inputs, click the <span class="UIcomponent">Save and Run</span> button. You will notice a <span class="UIcomponent">Save</span> button is also available for the times when you need to close a run before completing the inputs, but want return to it later.</li>
+        </ol>
+        <p>Upon the running the model, you will be taken back to the Modeling Playground page</p>
+    </body>
+</html>

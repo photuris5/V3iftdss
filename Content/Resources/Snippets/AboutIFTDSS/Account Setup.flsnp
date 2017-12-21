@@ -1,27 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1489" MadCap:lastWidth="2249">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2183" MadCap:lastWidth="1465">
     <head>
     </head>
     <body>
+        <div>
+            <img src="../../Images/getting_started/registration_start.png" alt="IFTDSS login page with a blue registration button visible in the top right login box." title="Jump to IFTDSS login page" class="border" style="width: 589px;height: 222px;" />
+        </div>
         <ol style="list-style-type: upper-alpha;">
             <li>Go to <a href="https://iftdss.firenet.gov/landing_page/" target="_blank">https://iftdss.firenet.gov/landing_page/</a><![CDATA[  ]]></li>
             <li>Choose the <span class="UIcomponent">Login</span> option in the top right of the <MadCap:variable name="General.ProductName" /> page and click <span class="UIcomponent">Register</span> at the bottom of the Login box.</li>
             <div>
-                <img src="../../Images/getting_started/registration_start.png" alt="IFTDSS login page with a blue registration button visible in the top right login box." title="Jump to IFTDSS login page" class="border" style="width: 589px;height: 222px;" />
-            </div>
-            <li>When the <span class="UIcomponent">New User Registration</span> page displays, enter the required information and click <span class="UIcomponent">Register</span> .</li>
-            <div>Your <b>User Name</b> is displayed on many exportable <MadCap:variable name="General.ProductName" /> reports, so pick one you don't mind sharing!</div>
-            <div>
                 <img src="../../Images/getting_started/registration_info.png" style="width: 554px; height: 313px;" alt="New user registration form with fields for name, email, and other information " title="Jump to new user registration form" class="border" />
             </div>
-            <li>Once your information is submitted, you receive an email from an <MadCap:variable name="General.ProductName" /> administrator confirming your account has been created. You may log into <MadCap:variable name="General.ProductName" /> at anytime after receiving this confirmation email.</li>
+            <li>When the <span class="UIcomponent">New User Registration</span> page displays, enter the required information and click <span class="UIcomponent">Register.</span></li>
+            <div>Your <b>User Name</b> is displayed on many exportable <MadCap:variable name="General.ProductName" /> reports, so pick one you don't mind sharing!</div>
+            <div class="notificationTip"><p>When entering information into the "Justification" field, simply enter a sentence or less describing what you'd like to use <MadCap:variable name="General.ProductName" /> for.</p></div>
             <div>
-                <img src="../../Images/getting_started/registration_logni.png" alt="Login page with fields for your user name and password circled in red" title="Jump to IFTDSS login page" class="border" style="width: 617px;height: 233px;" />
+                <img src="../../Images/getting_started/Reg_confirmation.png" alt="You will see a confirmation box after registering" style="width: 905px; height: 162px;" class="border" />
+            </div>
+            <li>After clicking <span class="UIcomponent">Register</span> you will see a confirmation message verifying your registration request has been submitted. </li>
+            <div>
+                <img src="../../Images/getting_started/registration_login.png" alt="Login page with fields for your user name and password circled in red" title="Jump to IFTDSS login page" class="border" />
+            </div>
+            <li>Once your information is submitted, you receive an email from an <MadCap:variable name="General.ProductName" /> administrator that contains an access code that you will use for your first time logging in. This code remains valid for 72 hours. You may now log into <MadCap:variable name="General.ProductName" /> and set your password.</li>
+            <div>
+                <img src="../../Images/getting_started/useragreement.png" alt="You may have to click the button at the bottom of the 'Rules of Behavior' to proceed to the IFTDSS main page after logging in for the very first time." class="border" style="width: 895px;height: 330px;" title="Jump to Rules of Behavior screen" />
             </div>
             <li>When logging in for the first time, you may be prompted to accept the <MadCap:variable name="General.ProductName" /> IT&#160;Security Rules of Behavior.</li>
             <div>
-                <img src="../../Images/getting_started/useragreement.png" alt="You may have to click the button at the bottom of the 'Rules of Behavior' to proceed to the IFTDSS main page after logging in for the very first time." style="width: 895px;height: 330px;" title="Jump to Rules of Behavior screen" />
+                <img src="../../Images/getting_started/password set.png" alt="enter your password" style="width: 928px; height: 336px;" class="border" />
             </div>
+            <li>After accepting the User Agreement you will prompted to enter your temporary access code one last time, and set up your password. When finished, click <span class="UIcomponent">Set Password</span>. </li>
         </ol>
     </body>
 </html>
