@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Crown Fire Activity (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="19" />
+    <IndexCacheEntry
+      Term="surface fires:crown fires and"
+      Conditions=""
+      LocalConditions=""
+      Position="25" />
+    <IndexCacheEntry
+      Term="Direction of Maximum Spread (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="28" />
+    <IndexCacheEntry
+      Term="fires:heading direction"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="heading direction of fires"
+      Conditions=""
+      LocalConditions=""
+      Position="31" />
+    <IndexCacheEntry
+      Term="Fireline Intensity (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="34" />
+    <IndexCacheEntry
+      Term="Flame Length (parameter):IFT-FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="39" />
+    <IndexCacheEntry
+      Term="Heat per Unit Area (parameter):fire behavior (FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="44" />
+    <IndexCacheEntry
+      Term="Rate of Spread (parameter):IFT-FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="50" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

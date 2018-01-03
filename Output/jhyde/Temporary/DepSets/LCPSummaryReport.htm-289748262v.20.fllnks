@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/Summary_in_cycle.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link click.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_sections.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/myworkspace_access_report.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/SierraCity2.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/Summary_in_cycle.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link click.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_sections.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/myworkspace_access_report.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/SierraCity2.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.DeveloperNotes" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

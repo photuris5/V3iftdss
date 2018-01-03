@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_monitoringcompleted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_monitoringinprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_nonselected.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_complete.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_inprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_notdetected.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_complete.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_inprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_complete.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_inprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/ellipsis.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/completesymbol.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_monitoringcompleted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_monitoringinprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_nonselected.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_complete.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_inprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_notdetected.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_complete.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_inprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_complete.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_inprogress.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_notstarted.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/ellipsis.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/completesymbol.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/Advanced/Source.flfts" />
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/41-References/ReferenceList.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/Advanced/Source.flfts" />
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/41-References/ReferenceList.htm#Scottandburgan2005" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="moisture:estimating in live fuel"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="moisture:level of curing and"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="fuels:herbaceous:moisture and curing and"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="herbaceous fuels:estimating moisture in"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags>
+    <Tag
+      Name="Source.IFTDSSV201" />
+  </FileTags>
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="http://www.firescience.gov/" />
+    <Link
+      Url="Content/Resources/pdfs/jfsp_fire_science_digest_7.pdf" />
+    <Link
+      Url="http://iftdss.sonomatech.com/" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="http://www.firescience.gov/" />
+    <Link
+      Url="Content/Resources/pdfs/jfsp_fire_science_digest_7.pdf" />
+    <Link
+      Url="http://iftdss.sonomatech.com/" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

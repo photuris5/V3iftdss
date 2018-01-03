@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1586" MadCap:lastWidth="1295">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1750" MadCap:lastWidth="2200">
     <head>
     </head>
     <body>
-        <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> you will use the options in the <span class="UIcomponent">Landscape Tools</span> button, under the <span class="UIcomponent">Create new</span> tab.</p>
         <p>
             <img src="../../Images/lcp_gen_smmry/mapstudio_createnew.png" style="width: 636px; height: 449px;" class="border" />
         </p>
+        <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> click the <span class="UIcomponent">Landscape Tools</span> button along the bottom of <MadCap:variable name="General.MapStudio" />. In the Landscape Tools box, make sure the <span class="UIcomponent">Create new</span> tab is selected.</p>
         <p>
             <img src="../../Images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." class="border" />
         </p>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://youtu.be/31Gb1Tgzcyk" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/20-Models/ModelsOverview.htm" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/6_save.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/3_windspeed.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/4_crownfire.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://youtu.be/31Gb1Tgzcyk" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/20-Models/ModelsOverview.htm" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/6_save.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/3_windspeed.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/4_crownfire.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="LFBPickLandscape" />
+    <Anchor
+      Name="LFBWind" />
+    <Anchor
+      Name="LFBCrown" />
+    <Anchor
+      Name="LFBFM" />
+    <Anchor
+      Name="LFBSave" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Landscape Fire Behavior"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+    <IndexCacheEntry
+      Term="LFB"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Fire Behavior"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="2975" MadCap:lastWidth="1548">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1562" MadCap:lastWidth="1839">
     <head>
     </head>
     <body>
@@ -8,31 +8,19 @@
             <object src="https://youtu.be/A28UEsmlTXQ" style="width: 560px;height: 315px;">
             </object>
         </p>
-        <p>During various analyses you may want to visually compare two landscapes, or compare model run outputs such as fire behavior with various landscape attributes.. This is where the <span class="UIcomponent">Swipe</span> <img src="../../Resources/Images/mapstudio/button_slider.png" alt="swipe button" /> tool comes in handy. The <span class="UIcomponent">Swipe</span> tool allows you to click and drag a bar across the <MadCap:variable name="General.MapStudio" /> screen to view layer interactions.</p>
-        <p>To use the tool, click <span class="UIcomponent">Swipe</span> <img src="../../Resources/Images/mapstudio/button_slider.png" alt="swipe button" /> in the top right of <MadCap:variable name="General.MapStudio" />.</p>
+        <p>The <span class="UIcomponent">Swipe</span><img src="../../Resources/Images/mapstudio/button_slider.png" alt="swipe button" /> tool allows you to visually compare two layers by click and dragging the swipe bar across your map. This can helpful when comparing landscapes, model outputs, or combinations of these layers when analyzing layer interactions. </p>
+        <p>To use the Swipe tool:</p>
         <p>
-            <img src="../../Resources/Images/mapstudio/swipe_image04.png" style="width: 520px; height: 236px;" alt="the swipe button is located in the top right of the map" class="border" />
+            <img src="../../Resources/Images/mapstudio/Swipe_steps.png" alt="use 'swipe' to visually compare layers" class="border" />
         </p>
-        <p>The Swipe tool box will appear in the upper right of the map, listing the visible layers in your <span class="UIcomponent">Layer List</span>, in the order they appear (Note that you can change the order of the layers in the <span class="UIcomponent">Layer List</span> by selecting the <span class="UIcomponent">More Options</span> button <img src="../../Resources/Images/buttons_general/button_moreoptions.png" alt="more options" /> to the right of the layer and clicking the 'Move Up' or 'Move Down' options. </p>
-        <p>Select the layer want to swipe, this will be the layer that is hidden on the bottom half of the swipe bar as you move it across the map. </p>
-        <p>You may swipe between masks/polygons, landscapes, or model runs outputs.</p>
-        <p>
-            <img src="../../Resources/Images/mapstudio/swipe_image02.png" alt="Select the layer you want from the swipe dropdown menu" class="border" />
-        </p>
-        <p> In the tool dropdown the layer you select will be visible on the top part of the slider, the other layer will be visible on the bottom part of the sliders. </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Swipe</span> button</li>
+            <li>In the Swipe dropdown menu that appears in the top right, select the landscape you would like to hide in the bottom half of the swipe tool. In this example "Landscape: FlumeCrk2_LF2012_UnED" is selected, so it will appear in the top half, and disappear in the bottom half, revealing the layer below it, in this case, "Landscape:FlumeCrk2_This_Rx_1Yr".</li>
+            <li>Hold your left mouse button over the swipe bar and drag the bar up and down to evaluate these layers on your landscape.</li>
+        </ol>
+        <p>To turn off <span class="UIcomponent">Swipe</span>, click the swipe button located in the top right of the map (shown above in step A).</p>
         <div class="notificationNote">
             <p>Layers and features must already be turned on <MadCap:variable name="General.MapStudio" /> either via the <span class="UIcomponent"><a href="LayerList.htm">Layer List</a></span> or <span class="UIcomponent"><a href="SimulationTools.htm">Simulation Output Tools</a></span> buttons before they are visible in the <span class="UIcomponent">Swipe </span>dropdown menu.</p>
         </div>
-        <h2>Example of Comparing Two Different Landscapes</h2>
-        <p>In the below example, "Landscape:&#160;pete-mainenance" is the top layer in the <span class="UIcomponent">Layer List</span>, and "Landscape: Pete Example" is the bottom layer. "Landscape: pete-maintenance" is selected in the swipe tool, so as the bar is moved across the map, "Landscape: pete maintenance" is visible in the top, but hidden from view along the bottom, revealing "Landscape: Pete Example". </p>
-        <p>This is an example of <span class="UIcomponent">Swipe</span> used to compare a base landscape to an edited landscape. The upper portion of the image shows the edited landscape where rules were created to change the current fuel model to one with lower flame lengths to account for a previous fire/burn through the area.</p>
-        <p>
-            <img src="../../Resources/Images/mapstudio/swipe_image03.png" alt="a map comparing two landscapes that contain a different set of fire behavior fuel models" style="width: 1173px; height: 497px;" class="border" />
-        </p>
-        <h2>Example of Comparing a Landscape to Model Run Output</h2>
-        <p>This is an example of <span class="UIcomponent">Swipe</span> used to compare a edited landscape to an associated model run. The upper portion of the image shows the edited landscape and the lower portion of the image shows the associated model run. This tool can be helpful to use when doing landscape critiquing or model run calibrating.</p>
-        <p>
-            <img src="../../Resources/Images/mapstudio/swipe_image00.png" alt="a map comparing a landscape with modeled fire behavior" style="width: 1217px; height: 558px;" class="border" />
-        </p>
     </body>
 </html>

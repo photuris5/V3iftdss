@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_intro.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_filter.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_steps.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_checklist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filtereditbutton.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filtercheckbutton.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filterxbutton.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filterapply.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filterremove.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_shapes_alternative.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_intro.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_filter.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_steps.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_checklist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filtereditbutton.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filtercheckbutton.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filterxbutton.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filterapply.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filterremove.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filter_shapes_alternative.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

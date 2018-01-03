@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/3_windspeed.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/4_crownfire.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/6_save.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/3_windspeed.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/4_crownfire.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/6_save.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

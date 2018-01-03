@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p1.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p1.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="EditPickaLandscape" />
+    <Anchor
+      Name="DefaultRuleEdit" />
+    <Anchor
+      Name="DefaultRules" />
+    <Anchor
+      Name="UserCreatedRule" />
+    <Anchor
+      Name="ApplyingLandscapeEdits" />
+  </Anchors>
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

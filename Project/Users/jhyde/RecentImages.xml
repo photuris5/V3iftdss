@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/mapstudio/adding_reference_data.png" />
+    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
+    <Url Source="Resources/Images/mapstudio/attribute options.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list_features.png" />
+    <Url Source="Resources/Images/mapstudio/Swipe_steps.png" />
+    <Url Source="Resources/Images/mapstudio/filter_steps.png" />
+    <Url Source="Resources/Images/mapstudio/filter_intro.png" />
+    <Url Source="Resources/Images/mapstudio/filter_checklist.png" />
+    <Url Source="Resources/Images/mapstudio/Identify_steps.png" />
+    <Url Source="Resources/Images/mapstudio/identifytool.png" />
+    <Url Source="Resources/Images/mapstudio/my_location_button.png" />
     <Url Source="Resources/Images/FTEM/roels step g.png" />
     <Url Source="Resources/Images/FTEM/roles step def.png" />
     <Url Source="Resources/Images/FTEM/roles step bc.png" />
@@ -9,15 +20,4 @@
     <Url Source="Resources/Images/FTEM/viewer.png" />
     <Url Source="Resources/Images/getting_started/password set.png" />
     <Url Source="Resources/Images/getting_started/Reg_confirmation.png" />
-    <Url Source="Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
-    <Url Source="Resources/Images/granite_crk_dta/dta_compare_1_2.png" />
-    <Url Source="Resources/Images/Behavior/tutorial_LFB_inputs2.png" />
-    <Url Source="Resources/Images/Behavior/tutorial_LFB_inputs1.png" />
-    <Url Source="Resources/Images/Behavior/find_behavior.png" />
-    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
-    <Url Source="Resources/Images/landscapesumm/view_model_onMap.png" />
-    <Url Source="Resources/Images/landscapesumm/myworkspace_access_report.png" />
-    <Url Source="Resources/Images/landscapesumm/report link click.png" />
-    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
-    <Url Source="Resources/Images/landscapesumm/summary_sections.png" />
 </UrlList>

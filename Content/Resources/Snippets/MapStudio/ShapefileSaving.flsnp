@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="4121" MadCap:lastWidth="2209">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="4121" MadCap:lastWidth="2180">
     <head>
     </head>
     <body>
         <div class="notificationImportant">
             <p>Follow the steps below to permanently save an uploaded shapefile in <span class="UIcomponent">My Workspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </p>
         </div>
-        <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" /> if you follow the steps below:</p>
-        <p>A) Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10). A zipped shapefile must contain .shp, .shx, .dbf, and .prj files.</p>
+        <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" />:</p>
         <p>
             <img src="../../Images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210px; height: 288px;" class="border" />
         </p>
-        <p>B) When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
+        <p>A) Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10). A zipped shapefile must contain .shp, .shx, .dbf, and .prj files.</p>
         <p>
             <img src="../../Images/mapstudio/saved_shp_confirmation.png" class="border" />
         </p>
+        <p>B) When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
+        <img src="../../Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px; height: 432px;" class="border" />
         <p>C) To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> and open <span class="UIcomponent"> Layer List</span><img src="../../Images/mapstudio/button_layerlist.png" alt="layer list button" /> to zoom to your new shapefile:</p>
         <ol style="list-style-type: lower-alpha;">
             <li> Click the icon to the right of your shapefile and </li>
             <li>Click the <span class="UIcomponent">Zoom to</span> option</li>
-            <img src="../../Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px; height: 432px;" class="border" />
         </ol>
-        <p>D) Proceed to the next dropdown step, either 'Save a Single Uploaded Shapefile' or 'Save Multiple Shapefiles'</p>
+        <p>D) Proceed to the next dropdown step, either "Save a Single Uploaded Shapefile" or "Save Multiple Shapefiles"</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Save a single uploaded shapefile:</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
-            <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
             <p>
                 <img src="../../Images/mapstudio/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469px;height: 330px;" class="border" />
             </p>
+            <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
             <p>Next</p>
             <MadCap:dropDownBody>
                 <p>
@@ -50,10 +50,10 @@
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Save multiple polygons:</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
-            <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
             <p>
                 <img src="../../Images/mapstudio/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469px;height: 330px;" class="border" />
             </p>
+            <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
             <p>Next</p>
             <MadCap:dropDownBody>
                 <p>

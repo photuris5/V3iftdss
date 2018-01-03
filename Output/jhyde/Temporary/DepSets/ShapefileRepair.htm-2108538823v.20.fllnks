@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/ViewShapefileOnMap.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/shapefile_repair/navigate_layerlist.png" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/EditShapefile.flsnp" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_extent.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_polygon.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filling_holes.png" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/ViewShapefileOnMap.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/shapefile_repair/navigate_layerlist.png" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/EditShapefile.flsnp" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_extent.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_polygon.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/filling_holes.png" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

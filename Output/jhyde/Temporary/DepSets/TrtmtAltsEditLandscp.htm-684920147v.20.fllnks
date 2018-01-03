@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p1.flsnp" />
+    <Link
+      Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p1.flsnp" />
+    <Link
+      Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm#Originating_Landscape_(Zero_“0”_landscape)" />
+    <Link
+      Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm#Extracted_Unedited_Landscape" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
