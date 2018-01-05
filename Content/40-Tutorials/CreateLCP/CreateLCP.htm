@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="10060" MadCap:lastWidth="1799">
+    <head>
+    </head>
+    <body>
+        <h1>Starting a Project and Creating a Landscape</h1>
+        <p MadCap:conditions="General.DeveloperNotes" class="comment">NEED TO REPLACE 'IFTDSS' AND MAP STUDIO WITH VARIABLES</p>
+        <h2>Using Folders and Landscapes in IFTDSS</h2>
+        <p><b>Project Folders:</b> There is no formal definition of the term “Project” in IFTDSS. Instead, the term “Project” refers to the collection of landscape files, model runs, and associated data for your specific area. Many tasks in IFTDSS relate back to these landscape files and other information, so it is recommended that you start by creating a Folder to keep track of your files.</p>
+        <div class="notificationTip">
+            <p>Tip: Stay organized by creating a Folder each time you begin a project for analysis.  Logical naming conventions for Folders include the geographic area being analyzed.</p>
+        </div>
+        <p><b>Landscapes:</b> In IFTDSS, a landscape file refers to the spatial file that contains vegetation and fuels data.  The user defines the extent of the landscape which should be large enough to cover the entire analysis area.  IFTDSS currently generates all landscape files at 30m resolution and can accommodate large landscapes if necessary.  The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles) but if you try that now, your instructor will not be pleased. If you follow along with your own landscape, limit the size to under 100,000 acres to reduce the processing times.</p>
+        <p>If you do not specify a folder to store data in IFTDSS, files will be saved to the “Playground” Folder by default. Currently, files cannot be moved from one folder to another.</p>
+        <div class="notificationNote">
+            <p><b>Tutorial Information:</b>
+            </p>
+            <p>If you wish to follow along replicating the exact steps captured by these tutorials, we have included that information (such as landscape coordinates, model inputs, etc), in blue highlighting throughout.</p>
+            <p>You may also follow the general steps in these tutorials using your own landscape, in which case you may ignore the blue highlighted information.</p>
+        </div>
+        <h2>Create a Folder</h2>
+        <p>Folders can be created directly in <span class="UIcomponent">My Workspace</span>. They can also be created while working in IFTDSS whenever you create a new landscape or shapefile, just look for the <span class="UIcomponent">Add New Folder</span> button <img src="../../Resources/Images/buttons_general/add_new_folder.png" alt="add new folder button" class="ReduceButtonSize" /> whenever you are required to specify a folder. </p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image20.png" class="border" alt="In 'My Workspace' folders can be created." />
+        </p>
+        <p>To create a new folder from <span class="UIcomponent">My Workspace</span>:</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image3.png" alt="Click the &quot;Create Folder&quot; option at the top of the My Workspace page to add a new folder." class="border" />
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Access <span class="UIcomponent">My Workspace</span> from the top navigation menu of IFTDSS and create a folder by clicking the <span class="UIcomponent">Create Folder</span> option at the top of the <span class="UIcomponent">My Workspace</span> page.</li>
+            <div>
+                <img src="../../Resources/Images/tutorial_2_lcp/image21.png" alt="Give your folder a descriptive name." class="border" />
+            </div>
+            <li>Give your folder a name and click <span class="UIcomponent">Submit</span>. <span style="background-color: #add8e6;">For this tutorial we’ll name it “Haypress Creek Project”</span>.</li>
+        </ol>
+        <h2>Delete a Folder</h2>
+        <p>You can delete a folder in <span class="UIcomponent">My Workspace</span> if needed, but you must make sure the folder is empty first.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image9.png" alt="To delete a folder in My Workspace, hover over the folder name in the left panel, a  red 'x' will appear to the right of the folder name." class="border" />
+        </p>
+        <p>To delete a folder in <span class="UIcomponent">My Workspace</span>, hover over the folder name in the left panel, a  red <span class="UIcomponent">x</span> will appear to the right of the folder name. Click the red <span class="UIcomponent">x</span> and confirm your deletion when prompted.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image19.png" alt="To delete a folder with files,you must first open the folder and delete the individual files and then delete the folder. " class="border" />
+        </p>
+        <p>To delete a folder with files, you must first open the folder and delete the individual files and then delete the folder. File deletions will come with a warning about any dependencies and ask for verification before deletion.</p>
+        <h2>Create a Landscape</h2>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image15.png" alt="Landscapes can be created in the interface, or in map studio." class="border" />
+        </p>
+        <p>Landscapes in IFTDSS can be created from multiple locations. In most interfaces it is common to see both a dropdown menu for existing landscapes and options to create new landscapes within the interface or from Map Studio.</p>
+        <p>For this tutorial you’ll create a landscape through the <span class="UIcomponent">Landscape Summary</span> task. This serves two purposes: to create a landscape, and to do so in an interface where you can easily create a downloadable summary report describing the characteristics of your landscape.</p>
+        <div class="notificationTip">
+            <p>Tip: Landscapes created elsewhere in IFTDSS are available via the My Landscapes dropdown menu in the Landscape Summary task, so you can create summaries at any point in time.</p>
+        </div>
+        <h3>Navigate to the Landscape Summary interface</h3>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image22.png" class="border" title="Select the 'Landscape Evaluation' stage of the planning cycle." />
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate to the Planning “<span class="UIcomponent">Cycle</span>” using the top navigation menu.</li>
+            <li>Select the <span class="UIcomponent">Landscape Evaluation </span>stage of the Planning Cycle.</li>
+            <li>Click the <span class="UIcomponent">Landscape Summary</span> task.</li>
+        </ol>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image8.png" alt="Within the 'Landscape Summary' interface you can create a landscape in map studio or within the summary interface." class="border" />
+        </p>
+        <p>For the next steps we will outline creating a landscape using two methods: the <span class="UIcomponent">Create Here</span> option, and <span class="UIcomponent">Create in Map Studio</span> option.  Briefly look at each option and follow along with the option of your choosing.</p>
+        <h3>Method 1 - Creating a landscape from the Landscape Summary Interface</h3>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image2.png" alt="The 'Create Here' button." class="border" />
+        </p>
+        <p>Selecting  <span class="UIcomponent">Create Here</span> opens a small map window to zoom within, or enter coordinates.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image7.png" alt="Follow the steps outlined in text below." class="border" />
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Use the bounding box fields and enter the coordinates, in degrees, for the west, east, south, and north bounds of your area, or select the <span class="UIcomponent">Draw Tool</span> and click on the map to draw a box around your area. The dimensions of your selected area will be displayed to the left, or under your landscape coordinates, depending on what part of IFTDSS you create your landscape in. <span style="background-color: #add8e6;">We will choose a location: Tahoe National Forest, location bounds in degrees are:</span></li>
+            <div>
+                <ul>
+                    <li><span style="background-color: #add8e6;">West: -120.8856</span>
+                    </li>
+                    <li><span style="background-color: #add8e6;">East: -120.6044</span>
+                    </li>
+                    <li><span style="background-color: #add8e6;">South: 39.4463</span>
+                    </li>
+                    <li><span style="background-color: #add8e6;">North: 39.6149</span>
+                    </li>
+                </ul>
+            </div>
+            <li>Choose the version of LANDFIRE data you would like to use from the dropdown list. <span style="background-color: #add8e6;">We chose Landfire 2012</span>.</li>
+            <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file from the dropdown list. <span style="background-color: #add8e6;">We chose Fuel Model 40</span>.</li>
+            <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in IFTDSS. <span style="background-color: #add8e6;">We named this “HaypressCrklf2012unedited”</span>.</li>
+            <li>Select the folder where you would like to store your landscape file, or click <span class="UIcomponent">+ Folder</span> to create and name a new folder to place your landscape file. We saved this in the “Haypress Creek Project Folder</li>
+            <li>Click <span class="UIcomponent">Create</span> to generate your landscape file.</li>
+        </ol>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image18.png" alt="A green notification box will confirm  your landscape creation request has been submitted." class="border" />
+        </p>
+        <p>Once you click <span class="UIcomponent">Create</span>, you will be returned to the <span class="UIcomponent">Landscape Summary</span> task, and the field next to <span class="UIcomponent">My Landscapes</span> displays the name of your newly created landscape with an hourglass hourglass icon next to it. This indicates it is being created. Once created, the hourglass <img src="../../Resources/Images/tutorial_2_lcp/image11.png" alt="hourglass" class="ReduceButtonSize" /> is replaced by a green checkmark. Use the <span class="UIcomponent">Refresh</span> button <img src="../../Resources/Images/buttons_general/button_refresh.png" alt="refresh button" class="ReduceButtonSize" /> refresh next to the landscape name to see the green checkmark.</p>
+        <p>For the rest of your activities in IFTDSS this landscape will be available in the folder you specified in <span class="UIcomponent">My Workspace</span>, and accessible in Landscape dropdown menus throughout IFTDSS. If you chose these steps to create your landscape, you may skip Method 2 below.</p>
+        <h3>Method 2 - Create a Landscape in Map Studio</h3>
+        <p>Selecting <span class="UIcomponent">Create in Map Studio</span> will move you away from the <span class="UIcomponent">Landscape Summary</span> page to Map Studio. After creating your landscape in Map Studio, you must navigate back to the <span class="UIcomponent">Landscape Summary</span> page and choose your newly created landscape from the dropdown menu.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image14.png" alt="To create a landscape in Map Studio, click the Create in Map Studio button." class="border" />
+        </p>
+        <p>To create a landscape in Map Studio, click the <span class="UIcomponent">Create in Map Studio</span> button.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image16.png" alt="The 'Create New' tab." class="border" />
+        </p>
+        <p>You will be taken to Map Studio, and the <span class="UIcomponent">Landscape Tool</span>s button  <img src="../../Resources/Images/mapstudio/button_landscapetools.png" alt="Landscape Tools button" class="ReduceButtonSize" /> will automatically be opened. This displays the <span class="UIcomponent">Landscape Tools</span> interface and the “Create new” tab.</p>
+        <p>Next you will use <span class="UIcomponent">Landscape Tools</span> to create your landscape:</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image1.png" alt="Follow the steps in text below." class="border" />
+        </p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Use the Map Studio tools such as zoom, basemap layers, etc. to locate your desired area.</li>
+            <li>Click the <span class="UIcomponent">Select draw mode</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished. Alternatively you enter your coordinates directly by using the method in step C.</li>
+            <li>(Optional) If you want to enter coordinates directly, instead of drawing, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. <span style="background-color: #add8e6;">We will choose a location: Tahoe National Forest, location bounds in degrees are:</span></li>
+            <div>
+                <ul>
+                    <li><span style="background-color: #add8e6;">West: -120.8856</span>
+                    </li>
+                    <li><span style="background-color: #add8e6;">East: -120.6044</span>
+                    </li>
+                    <li><span style="background-color: #add8e6;">South: 39.4463</span>
+                    </li>
+                    <li><span style="background-color: #add8e6;">North: 39.6149</span>
+                    </li>
+                </ul>
+            </div>
+            <li>Choose the version of LANDFIRE data you would like to use. <span style="background-color: #add8e6;">We chose Landfire 2012</span>.</li>
+            <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file. <span style="background-color: #add8e6;">We chose Fuel Model 40</span>.</li>
+            <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in IFTDSS. It can be helpful to specify the Landfire Version in the name and to say unedited if you anticipate that you will need to update this file. <span style="background-color: #add8e6;">We named this “HaypressCrklf2012unedited”</span>.</li>
+            <li>Select the folder in which you would like to store your landscape file. <span style="background-color: #add8e6;">We saved this in the “Haypress Creek Project Folder”</span>.</li>
+            <li>Click <span class="UIcomponent">Create</span> to generate your landscape file.</li>
+        </ol>
+        <p>&#160;</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image10.png" alt="Use the 'Add to Map' tab in Landscape Tools to add landscapes to Map Studio." class="border" />
+        </p>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image4.png" alt="You may check the status of your landscape if it has not completed downloading." class="border" />
+        </p>
+        <p>After selecting <span class="UIcomponent">Create</span>, it may take a few minutes to generate your landscape. You may check its status by toggling to the <span class="UIcomponent">Add to Map</span> tab in <span class="UIcomponent">Landscape Tools </span>and using the <span class="UIcomponent">Refresh</span> button, or navigating to your project folder in <span class="UIcomponent">My Workspace</span> and checking its status listed next to the landscape file.</p>
+        <h2>Next Steps</h2>
+        <p>
+            <img src="../../Resources/Images/tutorial_2_lcp/image23.png" alt="Completed landscapes can be selected from the dropdown menu." class="border" />
+        </p>
+        <p>When your landscape is completed, navigate back to the <span class="UIcomponent">Landscape Summary</span> task, and select your new landscape from the dropdown menu.</p>
+        <p>You have successfully created your landscape from within the Landscape Summary interface. Stay on this task and go to the next tutorial, where you will look at the different types of summaries and finish this Landscape Summary. Note that your landscape has been permanently created, and will now be available for use throughout IFTDSS.</p>
+    </body>
+</html>

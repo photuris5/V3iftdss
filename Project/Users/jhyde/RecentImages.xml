@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/mapstudio/adding_reference_data.png" />
-    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
-    <Url Source="Resources/Images/mapstudio/attribute options.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list_features.png" />
-    <Url Source="Resources/Images/mapstudio/Swipe_steps.png" />
-    <Url Source="Resources/Images/mapstudio/filter_steps.png" />
-    <Url Source="Resources/Images/mapstudio/filter_intro.png" />
-    <Url Source="Resources/Images/mapstudio/filter_checklist.png" />
-    <Url Source="Resources/Images/mapstudio/Identify_steps.png" />
-    <Url Source="Resources/Images/mapstudio/identifytool.png" />
-    <Url Source="Resources/Images/mapstudio/my_location_button.png" />
-    <Url Source="Resources/Images/FTEM/roels step g.png" />
-    <Url Source="Resources/Images/FTEM/roles step def.png" />
-    <Url Source="Resources/Images/FTEM/roles step bc.png" />
-    <Url Source="Resources/Images/FTEM/roles step a.png" />
-    <Url Source="Resources/Images/FTEM/adminview.png" />
-    <Url Source="Resources/Images/FTEM/editorview.png" />
-    <Url Source="Resources/Images/FTEM/viewer.png" />
-    <Url Source="Resources/Images/getting_started/password set.png" />
-    <Url Source="Resources/Images/getting_started/Reg_confirmation.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image23.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image10.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image4.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image1.png" />
+    <Url Source="Resources/Images/mapstudio/button_landscapetools.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image16.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image14.png" />
+    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image11.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image18.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image6.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image7.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image2.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image8.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image22.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image15.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image9.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image19.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image21.png" />
+    <Url Source="Resources/Images/tutorial_2_lcp/image3.png" />
 </UrlList>

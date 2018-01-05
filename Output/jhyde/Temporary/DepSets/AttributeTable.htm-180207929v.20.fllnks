@@ -6,7 +6,7 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/attributes_filter_polys/attribute_table_02282017.png" />
+      Url="Content/Resources/Images/mapstudio/Attributetable_button_loc.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
@@ -28,7 +28,7 @@
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/attributes_filter_polys/attribute_table_02282017.png" />
+      Url="Content/Resources/Images/mapstudio/Attributetable_button_loc.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
