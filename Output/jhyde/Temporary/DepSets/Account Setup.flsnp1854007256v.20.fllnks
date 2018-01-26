@@ -6,11 +6,11 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/getting_started/registration_start.png" />
-    <Link
       Url="https://iftdss.firenet.gov/landing_page/" />
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/getting_started/registration_start.png" />
     <Link
       Url="Content/Resources/Images/getting_started/registration_info.png" />
     <Link
@@ -24,11 +24,11 @@
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/getting_started/registration_start.png" />
-    <Link
       Url="https://iftdss.firenet.gov/landing_page/" />
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/getting_started/registration_start.png" />
     <Link
       Url="Content/Resources/Images/getting_started/registration_info.png" />
     <Link

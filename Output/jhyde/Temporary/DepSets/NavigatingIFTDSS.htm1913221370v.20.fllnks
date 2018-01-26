@@ -12,29 +12,31 @@
     <Link
       Url="https://youtu.be/Io7P5A06bT0" />
     <Link
-      Url="Content/Resources/Images/myworkspace/myworkspace04182017.png" />
-    <Link
       Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
     <Link
       Url="Content/10-MapStudio/Files/LCPInfo.htm" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Link
-      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
+      Url="Content/Resources/Images/myworkspace/myworkspace04182017.png" />
     <Link
       Url="Content/20-Models/ModelsOverview.htm" />
     <Link
-      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
+      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
     <Link
       Url="Content/10-MapStudio/MapStudioAbout.htm" />
     <Link
-      Url="Content/Resources/Images/Cycle/LandscapeEvaluation.png" />
+      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
     <Link
       Url="Content/10-PlanningCycle/PlanningCycleAbout.htm" />
     <Link
+      Url="Content/Resources/Images/Cycle/LandscapeEvaluation.png" />
+    <Link
       Url="Content/Resources/Images/getting_started/right_top_nav.png" />
     <Link
-      Url="Content/Resources/Snippets/AboutIFTDSS/Help.flsnp" />
+      Url="Content/Resources/Images/getting_started/help.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/in_app_help.png" />
     <Link
       Url="Content/Resources/Images/getting_started/status.png" />
     <Link
@@ -48,29 +50,31 @@
     <Link
       Url="https://youtu.be/Io7P5A06bT0" />
     <Link
-      Url="Content/Resources/Images/myworkspace/myworkspace04182017.png" />
-    <Link
       Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
     <Link
       Url="Content/10-MapStudio/Files/LCPInfo.htm" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Link
-      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
+      Url="Content/Resources/Images/myworkspace/myworkspace04182017.png" />
     <Link
       Url="Content/20-Models/ModelsOverview.htm" />
     <Link
-      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
+      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
     <Link
       Url="Content/10-MapStudio/MapStudioAbout.htm" />
     <Link
-      Url="Content/Resources/Images/Cycle/LandscapeEvaluation.png" />
+      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
     <Link
       Url="Content/10-PlanningCycle/PlanningCycleAbout.htm" />
     <Link
+      Url="Content/Resources/Images/Cycle/LandscapeEvaluation.png" />
+    <Link
       Url="Content/Resources/Images/getting_started/right_top_nav.png" />
     <Link
-      Url="Content/Resources/Snippets/AboutIFTDSS/Help.flsnp" />
+      Url="Content/Resources/Images/getting_started/help.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/in_app_help.png" />
     <Link
       Url="Content/Resources/Images/getting_started/status.png" />
     <Link
@@ -87,47 +91,47 @@
       Term="My Workspace"
       Conditions=""
       LocalConditions=""
-      Position="19" />
+      Position="17" />
     <IndexCacheEntry
       Term="Landscape files"
       Conditions=""
       LocalConditions=""
-      Position="27" />
+      Position="25" />
     <IndexCacheEntry
       Term="Shapefile"
       Conditions=""
       LocalConditions=""
-      Position="31" />
+      Position="29" />
     <IndexCacheEntry
       Term="My Modeling Playground"
       Conditions=""
       LocalConditions=""
-      Position="42" />
+      Position="40" />
     <IndexCacheEntry
       Term="Map Studio"
       Conditions=""
       LocalConditions=""
-      Position="57" />
+      Position="55" />
     <IndexCacheEntry
       Term="The Fuels Planning Cycle"
       Conditions=""
       LocalConditions=""
-      Position="70" />
+      Position="68" />
     <IndexCacheEntry
       Term="Log Off"
       Conditions=""
       LocalConditions=""
-      Position="105" />
+      Position="132" />
     <IndexCacheEntry
       Term="Logging Off"
       Conditions=""
       LocalConditions=""
-      Position="106" />
+      Position="133" />
     <IndexCacheEntry
       Term="Log out"
       Conditions=""
       LocalConditions=""
-      Position="107" />
+      Position="134" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />

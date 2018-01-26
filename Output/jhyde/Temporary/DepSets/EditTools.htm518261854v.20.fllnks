@@ -24,11 +24,11 @@
     <Link
       Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
+      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/EditShapefile.flsnp" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
     <Link
       Url="Content/10-MapStudio/Functions/FilterAttributeTable.htm" />
   </Links>
@@ -52,11 +52,11 @@
     <Link
       Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
+      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/EditShapefile.flsnp" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
     <Link
       Url="Content/10-MapStudio/Functions/FilterAttributeTable.htm" />
   </LongLinks>

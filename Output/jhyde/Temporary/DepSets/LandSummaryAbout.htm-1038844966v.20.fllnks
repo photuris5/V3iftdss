@@ -8,11 +8,15 @@
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
+    <Link
       Url="Content/Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/summaryreport.png" />
-    <Link
       Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summaryreport.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/raws_details.png" />
     <Link
@@ -26,11 +30,15 @@
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
+    <Link
       Url="Content/Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/summaryreport.png" />
-    <Link
       Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summaryreport.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/raws_details.png" />
     <Link
@@ -45,7 +53,10 @@
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions />

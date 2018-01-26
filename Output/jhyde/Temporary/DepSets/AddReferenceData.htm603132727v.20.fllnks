@@ -8,9 +8,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/adding_reference_data.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/button_adref.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/adding_reference_data.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </Links>
@@ -18,9 +18,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/adding_reference_data.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/button_adref.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/adding_reference_data.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </LongLinks>

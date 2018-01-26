@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/getting_started/MyWorkspace.png" />
+    <Url Source="Resources/Images/FTEM/symbology/wildfire_poly.png" />
     <Url Source="Resources/Images/landscapesumm/OpenReport2.png" />
     <Url Source="Resources/Images/landscapesumm/get_to_summary.png" />
     <Url Source="Resources/Images/landscape_edits/naming_and_layout2.png" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/tutorial_2_lcp/image10.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image4.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image1.png" />
-    <Url Source="Resources/Images/mapstudio/button_landscapetools.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image16.png" />
 </UrlList>

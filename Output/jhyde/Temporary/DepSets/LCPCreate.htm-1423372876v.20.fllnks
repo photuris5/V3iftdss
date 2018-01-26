@@ -14,12 +14,6 @@
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
-    <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
     <Link
       Url="Content/Resources/Images/buttons_general/hourglass.png" />
@@ -37,12 +31,6 @@
       Url="Content/10-MapStudio/Files/LCPInfo.htm" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
     <Link
@@ -65,9 +53,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.Exclude" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

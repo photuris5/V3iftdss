@@ -8,11 +8,11 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/attributes_filter_polys/table_step6_02282017.png" />
-    <Link
       Url="Content/Resources/Images/attributes_filter_polys/att_table_bttn2_02282017.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/attributes_filter_polys/table_step6_02282017.png" />
     <Link
       Url="Content/Resources/Images/attributes_filter_polys/table_step5_02282017.png" />
     <Link
@@ -20,9 +20,9 @@
     <Link
       Url="Content/Resources/Images/attributes_filter_polys/table_step2_02282017.png" />
     <Link
-      Url="Content/Resources/Images/attributes_filter_polys/table_step4_02282017.png" />
-    <Link
       Url="Content/Resources/Images/attributes_filter_polys/options_20282017.png" />
+    <Link
+      Url="Content/Resources/Images/attributes_filter_polys/table_step4_02282017.png" />
     <Link
       Url="Content/Resources/Images/attributes_filter_polys/table_step3_02282017.png" />
   </Links>
@@ -30,11 +30,11 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/attributes_filter_polys/table_step6_02282017.png" />
-    <Link
       Url="Content/Resources/Images/attributes_filter_polys/att_table_bttn2_02282017.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/attributes_filter_polys/table_step6_02282017.png" />
     <Link
       Url="Content/Resources/Images/attributes_filter_polys/table_step5_02282017.png" />
     <Link
@@ -42,9 +42,9 @@
     <Link
       Url="Content/Resources/Images/attributes_filter_polys/table_step2_02282017.png" />
     <Link
-      Url="Content/Resources/Images/attributes_filter_polys/table_step4_02282017.png" />
-    <Link
       Url="Content/Resources/Images/attributes_filter_polys/options_20282017.png" />
+    <Link
+      Url="Content/Resources/Images/attributes_filter_polys/table_step4_02282017.png" />
     <Link
       Url="Content/Resources/Images/attributes_filter_polys/table_step3_02282017.png" />
   </LongLinks>

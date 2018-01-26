@@ -11,6 +11,12 @@
       Url="Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
   </Links>
   <LongLinks>
     <Link
@@ -19,6 +25,12 @@
       Url="Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -33,6 +45,9 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

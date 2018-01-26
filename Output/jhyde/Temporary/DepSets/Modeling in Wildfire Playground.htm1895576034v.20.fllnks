@@ -12,9 +12,9 @@
     <Link
       Url="Content/Resources/Images/Behavior/tutorial_LFB_inputs1.png" />
     <Link
-      Url="Content/Resources/Images/Behavior/tutorial_LFB_inputs2.png" />
-    <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/Resources/Images/Behavior/tutorial_LFB_inputs2.png" />
   </Links>
   <LongLinks>
     <Link
@@ -24,9 +24,9 @@
     <Link
       Url="Content/Resources/Images/Behavior/tutorial_LFB_inputs1.png" />
     <Link
-      Url="Content/Resources/Images/Behavior/tutorial_LFB_inputs2.png" />
-    <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/Resources/Images/Behavior/tutorial_LFB_inputs2.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

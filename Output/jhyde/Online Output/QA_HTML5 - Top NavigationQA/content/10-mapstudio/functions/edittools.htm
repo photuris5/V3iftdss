@@ -141,7 +141,7 @@
                                             <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
                                             </div>
                                         </div>
-                                        <h1><a name="kanchor36"></a>Create/Edit Shapes</h1>
+                                        <h1><a name="kanchor34"></a>Create/Edit Shapes</h1>
                                         <p class="no-print"><iframe class="youtube-player_0" src="https://www.youtube.com/embed/iwV6O8G-kQk?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
                                         </p>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />About the Edit/Create Shapes Interface</a></span>
@@ -156,55 +156,96 @@
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Upload and Save a polygon(s) you just uploaded to <span class="GeneralMapStudio">Map Studio</span></a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <div class="notificationImportant">
-                                                    <p>Follow the steps below to permanently save an uploaded shapefile in <span class="UIcomponent">My Workspace</span> for later use in <span class="GeneralProductName">IFTDSS</span>. Without this step, navigating away from <span class="GeneralMapStudio">Map Studio</span> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <span class="GeneralProductName">IFTDSS</span> release. </p>
+                                                    <p>Follow the steps below to permanently upload and save a shapefile in <span class="UIcomponent">My Workspace</span> for later use in <span class="GeneralProductName">IFTDSS</span>. Without this step, navigating away from <span class="GeneralMapStudio">Map Studio</span> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <span class="GeneralProductName">IFTDSS</span> release. </p>
                                                 </div>
-                                                <p>To retain your uploaded shapefiles in <span class="GeneralProductName">IFTDSS</span>:</p>
-                                                <p>
-                                                    <img src="../../resources/images/mapstudio/shapefile_save1_210x288.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210;height: 288;" class="border" />
-                                                </p>
-                                                <p>A) Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10). A zipped shapefile must contain .shp, .shx, .dbf, and .prj files.</p>
-                                                <p>
-                                                    <img src="../../resources/images/mapstudio/saved_shp_confirmation.png" class="border" />
-                                                </p>
-                                                <p>B) When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
-                                                <img src="../../resources/images/mapstudio/shapefile_save1_2_315x432.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315;height: 432;" class="border" />
-                                                <p>C) To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> and open <span class="UIcomponent"> Layer List</span><img src="../../resources/images/mapstudio/button_layerlist.png" alt="layer list button" /> to zoom to your new shapefile:</p>
-                                                <ol style="list-style-type: lower-alpha;">
-                                                    <li value="1"> Click the icon to the right of your shapefile and </li>
-                                                    <li value="2">Click the <span class="UIcomponent">Zoom to</span> option</li>
+                                                <h2>Upload the Shapefile</h2>
+                                                <p>Use Add Shapefile to upload a shapefile to <span class="GeneralMapStudio">Map Studio</span>:</p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Click the <span class="UIcomponent">Add Shapefile</span> button <img src="../../resources/images/mapstudio/button_addshapefile.png" alt="add shapefile" /> along the bottom of <span class="GeneralMapStudio">Map Studio</span> to open Add Shapefile.</li>
+                                                    <li value="2">
+                                                        <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/local_shapefiles.png" alt="you may upload your own shapefiles." class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Use the checkbox to select the attributes you wish to import. You may choose up to 10.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>When finished, click the <span class="UIcomponent">Add to Map</span> button.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/add_to_map.png" alt="add to map button" class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/saved_shp_confirmation.png" class="borderlist" />
+                                                        </p>
+                                                    </li>
                                                 </ol>
-                                                <p>D) Proceed to the next drop-down step, either "Save a Single Uploaded Shapefile" or "Save Multiple Shapefiles"</p>
-                                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save a single uploaded shapefile:</a></span>
-                                                    <div class="MCDropDownBody dropDownBody">
+                                                <h2>Save the Shapefile</h2>
+                                                <p>To permanently save your uploaded shapefile:</p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> if its open, then open <span class="UIcomponent"> Layer List</span><img src="../../resources/images/mapstudio/button_layerlist.png" alt="layer list button" /> </li>
+                                                    <li value="2">Zoom to your new shapefile.</li>
+                                                    <ol style="list-style-type: lower-alpha;">
+                                                        <li value="1"> Click the <span class="UIcomponent">More Options</span> button to the right of your shapefile and </li>
+                                                        <li value="2">
+                                                            <p>Click the <span class="UIcomponent">Zoom to</span> option. This will zoom to your newly uploaded shapefile.</p>
+                                                            <p>
+                                                                <img src="../../resources/images/mapstudio/shapefile_save1_2_315x432.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315;height: 432;" class="borderlist" />
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <li value="3">
+                                                        <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
                                                         <p>
-                                                            <img src="../../resources/images/mapstudio/save_uploaded_snglshape_1011x543.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011;height: 543;" class="border" />
+                                                            <img src="../../resources/images/mapstudio/create_edit_shape_469x330.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469;height: 330;" class="borderlist" />
                                                         </p>
-                                                        <ol style="list-style-type: lower-alpha;">
-                                                            <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
-                                                            <li value="2">Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
-                                                            <li value="3">Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
-                                                            <li value="4">Give your polygon a descriptive name.</li>
-                                                            <li value="5">Choose a folder in which to save your polygon.</li>
-                                                            <li value="6">Click <span class="UIcomponent">Create</span>.</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
-                                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save multiple polygons:</a></span>
-                                                    <div class="MCDropDownBody dropDownBody">
-                                                        <p>
-                                                            <img src="../../resources/images/mapstudio/save_multipart_upl_shape_975x483.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975;height: 483;" class="border" />
-                                                        </p>
-                                                        <ol style="list-style-type: lower-alpha;">
-                                                            <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
-                                                            <li value="2">Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
-                                                            <li value="3">Left mouse click your first polygon, you will notice its color turns to yellow.</li>
-                                                            <li value="4">Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
-                                                            <li value="5">Next, type a name for your polygons in the edit box.</li>
-                                                            <li value="6">Specify the folder to save the set in. </li>
-                                                            <li value="7">Click <span class="UIcomponent">Create</span>.</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p> When the <span class="UIcomponent">Create/Edit Shapes</span> box opens, you can choose to either save a single shape, or multiple shapes:</p>
+                                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save a single uploaded shapefile:</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <ol style="list-style-type: lower-alpha;">
+                                                                    <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
+                                                                    <li value="2">Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
+                                                                    <li value="3">Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
+                                                                    <li value="4">Give your polygon a descriptive name.</li>
+                                                                    <li value="5">Choose a folder in which to save your polygon.</li>
+                                                                    <li value="6">
+                                                                        <p>Click <span class="UIcomponent">Create</span>.</p>
+                                                                        <p>
+                                                                            <img src="../../resources/images/mapstudio/save_uploaded_snglshape_1011x543.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011;height: 543;" class="borderlist" />
+                                                                        </p>
+                                                                    </li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save multiple polygons:</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <ol style="list-style-type: lower-alpha;">
+                                                                    <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
+                                                                    <li value="2">Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
+                                                                    <li value="3">Left mouse click your first polygon, you will notice its color turns to yellow.</li>
+                                                                    <li value="4">Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
+                                                                    <li value="5">Next, type a name for your polygons in the edit box.</li>
+                                                                    <li value="6">Specify the folder to save the set in. </li>
+                                                                    <li value="7">
+                                                                        <p>Click <span class="UIcomponent">Create</span>.</p>
+                                                                        <p>
+                                                                            <img src="../../resources/images/mapstudio/save_multipart_upl_shape_975x483.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975;height: 483;" class="borderlist" />
+                                                                        </p>
+                                                                    </li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ol>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Draw a Polygon in <span class="GeneralMapStudio">Map Studio</span> with the extent, polygon, or freehand button and save.</a></span>
@@ -216,14 +257,29 @@
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Copy and Edit A Polygon in <span class="GeneralMapStudio">Map Studio</span></a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>Open <b>Edit Tools</b><img src="../../resources/images/mapstudio/button_edittools.png" alt="'edit tools' button" /> from the bottom of <span class="GeneralMapStudio">Map Studio</span> and click <span class="UIcomponent">Copy from Existing Features</span><img src="../../resources/images/mapstudio/button_copy_exstng_ftrs.png" alt="Copy from existing features button" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>. Scroll to the map and double left click the mouse button over the polygon you intend to edit. This displays the polygon vertices and an editing box.<img src="../../resources/images/shapefile_repair/polygon_select_562x402.png" style="width: 562;height: 402;" alt="polygon in edit mode with vertices visible around the perimeter" class="border" /></p>
-                                                <p>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </p>
-                                                <p>
-                                                    <img src="../../resources/images/shapefile_repair/polygon_vertexdelete_610x433.png" style="width: 610;height: 433;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" class="border" />
-                                                </p>
-                                                <p>Delete a vertex by hovering over it, clicking the right mouse button once, and clicking delete</p>
-                                                <p>Continue your edits until you are satisfied with your shapefile. </p>
-                                                <p>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and click <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <span class="GeneralProductName">IFTDSS</span>.</p>
+                                                <p>To Copy and Edit a shapefile:</p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Open <b>Edit Tools</b><img src="../../resources/images/mapstudio/button_edittools.png" alt="'edit tools' button" /> from the bottom of <span class="GeneralMapStudio">Map Studio</span> and click <span class="UIcomponent">Copy from Existing Features</span><img src="../../resources/images/mapstudio/button_copy_exstng_ftrs.png" alt="Copy from existing features button" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</li>
+                                                    <li value="2">
+                                                        <p>Scroll to the map and double left click the mouse button over the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/shapefile_repair/polygon_select_562x402.png" style="width: 562;height: 402;" alt="polygon in edit mode with vertices visible around the perimeter" class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="3">Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </li>
+                                                    <li value="4">
+                                                        <p>Delete a vertex by hovering over it, clicking the right mouse button once, and clicking <span class="UIcomponent">Delete</span>.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/shapefile_repair/polygon_vertexdelete_610x433.png" style="width: 610;height: 433;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>Continue your edits until you are satisfied with your shapefile. </p>
+                                                    </li>
+                                                    <li value="6">
+                                                        <p>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and click <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <span class="GeneralProductName">IFTDSS</span>.</p>
+                                                    </li>
+                                                </ol>
                                             </div>
                                         </div>
                                         <p>Trying to find a polygon on a landscape where you have many polygons displayed at once?&#160;Try <a href="filterattributetable.htm" target="_blank">filtering using the Attribute Table</a>.</p>
@@ -233,6 +289,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <p style="font-weight: bold;text-align: center;" data-mc-conditions="General.QA ONLY"> <span style="font-size: 14pt;">Send your review comments </span><a href="https://docs.google.com/forms/d/189RQorFQSWfIsr5jvO2WxpzOrYRCc35f7bkSjLdzcCU/viewform?edit_requested=true" style="font-size: 14pt;" target="_blank"> HERE</a></p>
                         </div>
                     </section><a data-close="true"></a>
                 </div>

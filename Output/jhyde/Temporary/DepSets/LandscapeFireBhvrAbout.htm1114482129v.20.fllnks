@@ -18,15 +18,11 @@
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
     <Link
-      Url="Content/Resources/Snippets/Behavior/3_windspeed.flsnp" />
+      Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
-      Url="Content/Resources/Snippets/Behavior/4_crownfire.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/Behavior/6_save.flsnp" />
+      Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
   </Links>
   <LongLinks>
     <Link
@@ -42,17 +38,16 @@
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
     <Link
-      Url="Content/Resources/Snippets/Behavior/3_windspeed.flsnp" />
+      Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
-      Url="Content/Resources/Snippets/Behavior/4_crownfire.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/Behavior/6_save.flsnp" />
+      Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="LFBSave" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

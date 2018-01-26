@@ -8,50 +8,35 @@
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p1.flsnp" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/naming_and_layout.png" />
+    <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
-    <Link
-      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p1.flsnp" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/naming_and_layout.png" />
+    <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
-    <Link
-      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
   </LongLinks>
-  <Anchors>
-    <Anchor
-      Name="EditPickaLandscape" />
-    <Anchor
-      Name="DefaultRuleEdit" />
-    <Anchor
-      Name="DefaultRules" />
-    <Anchor
-      Name="UserCreatedRule" />
-    <Anchor
-      Name="ApplyingLandscapeEdits" />
-  </Anchors>
+  <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />

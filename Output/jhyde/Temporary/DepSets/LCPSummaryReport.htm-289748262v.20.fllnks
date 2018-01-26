@@ -12,15 +12,15 @@
     <Link
       Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
-    <Link
       Url="Content/Resources/Images/buttons_general/hourglass.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
+      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/report link click.png" />
     <Link
@@ -28,9 +28,9 @@
     <Link
       Url="Content/Resources/Images/landscapesumm/myworkspace_access_report.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
-    <Link
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
     <Link
@@ -52,15 +52,15 @@
     <Link
       Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
-    <Link
       Url="Content/Resources/Images/buttons_general/hourglass.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
+      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/report link click.png" />
     <Link
@@ -68,9 +68,9 @@
     <Link
       Url="Content/Resources/Images/landscapesumm/myworkspace_access_report.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
-    <Link
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
     <Link

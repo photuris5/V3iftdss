@@ -1,20 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2668" MadCap:lastWidth="2188">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2938" MadCap:lastWidth="1200">
     <head>
     </head>
     <body>
         <h1>Creating Treatment Polygons</h1>
-        <p>To simulate and evaluate the impact of treatments, we'll delineate our planned treatment areas with shapefiles in <MadCap:variable name="General.MapStudio" />. First we will create a polygon for each treatment area, next we will combine those into one shapefile so we can use the combined file in our comparison. </p>
-        <p>First, we'll create three individual shape files:</p>
-        <p> Open <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Resources/Images/mapstudio/button_editTools.png" alt="create edit shapes button" class="button" /> , select your method, in this case the freehand draw method, and draw your polygon. </p>
-        <p>
-            <img src="../../Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" alt="using the freehand draw tool to draw a polygon on the landscape" style="width: 749px; height: 423px;" class="border" />
-        </p>
-        <p>You can use the <span class="UIcomponent">delete button</span> <img src="../../Resources/Images/mapstudio/button_edittools_clear.png" alt="delete button" class="button" /> to remove the polygon if you are not satisfied with it. In this example, draw three polygons. After your first polygon is complete, selected the freehand draw tool and draw your second, then select the freehand draw tool again, and draw the third.</p>
-        <div class="notificationNote">
-            <p>Note that your polygons do not have be an exact match with ones pictured above.</p>
-        </div>
-        <p>Your polygons will initially show up highlighted in yellow. You will want to save the three of these as one shapefile for later use in <MadCap:variable name="General.ProductName" />. To do this:</p>
+        <p>To simulate and evaluate the impact of treatments, we'll delineate our planned treatment areas with shapes in <MadCap:variable name="General.MapStudio" />. First we will create a polygon for each treatment area, next we will combine those into one shapefile so we can use the combined file in our comparison. </p>
+        <p>First, we'll create three individual shapes:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li> Open <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Resources/Images/mapstudio/button_editTools.png" alt="create edit shapes button" class="button" /> </li>
+            <li>Select your method, in this case the freehand draw method</li>
+            <li>Draw your polygon. You can use the <span class="UIcomponent">delete button</span><img src="../../Resources/Images/mapstudio/button_edittools_clear.png" alt="delete button" class="button" /> to remove the polygon if you are not satisfied with it. </li>
+            <li>Give your polygon a name, such as "Treatment Unit 1"</li>
+            <li>Specify a folder to store the file, in this case "Haypress Creek&#160;Project"</li>
+            <li>
+                <p>Click Create. Now repeat the process and draw two additional polygons. You may refer to the image at the bottom of this page for a visual reference if you prefer to approximate the polygons we drew in this example. Your polygons do not need to exactly match our example.</p>
+                <p>
+                    <img src="../../Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" alt="using the freehand draw tool to draw a polygon on the landscape" style="width: 749px; height: 423px;" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Your polygons will initially show up highlighted in yellow. You will want to save the three of these as one shape for later use in <MadCap:variable name="General.ProductName" />. To do this:</p>
         <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/Shapefile_Save_multiple.flsnp" />
         <p>When completed, your polygons will change from highlighted to a purple shaded outline on the map  as shown below.</p>
         <p>

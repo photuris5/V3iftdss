@@ -12,6 +12,8 @@
     <Link
       Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Content/Resources/Images/getting_started/zoom.png" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileSaving.htm" />
@@ -27,6 +29,8 @@
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/getting_started/zoom.png" />
     <Link
@@ -138,6 +142,9 @@
     <Tag
       Name="Source.UIdaho" />
   </FileTags>
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

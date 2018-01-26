@@ -14,11 +14,11 @@
     <Link
       Url="Content/Resources/Images/mapstudio/layerlist_checkbox.png" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/layer_list_features.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/attribute options.png" />
-    <Link
-      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
   </Links>
   <LongLinks>
     <Link
@@ -30,11 +30,11 @@
     <Link
       Url="Content/Resources/Images/mapstudio/layerlist_checkbox.png" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/layer_list_features.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/attribute options.png" />
-    <Link
-      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
   </LongLinks>
   <Anchors />
   <Keywords>

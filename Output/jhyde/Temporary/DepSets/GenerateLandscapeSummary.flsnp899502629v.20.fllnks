@@ -6,8 +6,6 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/landscapesumm/landscape_summary_start.png" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/10-MapStudio/Files/LCPCreate.htm" />
@@ -18,18 +16,18 @@
     <Link
       Url="Content/Resources/Images/buttons_general/checkmark.png" />
     <Link
+      Url="Content/Resources/Images/landscapesumm/landscape_summary_start.png" />
+    <Link
       Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/viewreport.png" />
+      Url="Content/Resources/Images/landscapesumm/OpenReport2.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/landscapesumm/landscape_summary_start.png" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/10-MapStudio/Files/LCPCreate.htm" />
@@ -40,13 +38,15 @@
     <Link
       Url="Content/Resources/Images/buttons_general/checkmark.png" />
     <Link
+      Url="Content/Resources/Images/landscapesumm/landscape_summary_start.png" />
+    <Link
       Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/viewreport.png" />
+      Url="Content/Resources/Images/landscapesumm/OpenReport2.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

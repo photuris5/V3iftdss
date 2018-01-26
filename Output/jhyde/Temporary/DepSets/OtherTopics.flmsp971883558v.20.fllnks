@@ -13,6 +13,10 @@
       Url="https://www.google.com/jsapi" />
     <Link
       Url="Project/Skins/SideMenu.flskn" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="https://docs.google.com/forms/d/189RQorFQSWfIsr5jvO2WxpzOrYRCc35f7bkSjLdzcCU/viewform" />
   </Links>
   <LongLinks>
     <Link
@@ -21,6 +25,10 @@
       Url="https://www.google.com/jsapi" />
     <Link
       Url="Project/Skins/SideMenu.flskn" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="https://docs.google.com/forms/d/189RQorFQSWfIsr5jvO2WxpzOrYRCc35f7bkSjLdzcCU/viewform?edit_requested=true" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -30,6 +38,9 @@
   <Variables />
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.QA ONLY" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

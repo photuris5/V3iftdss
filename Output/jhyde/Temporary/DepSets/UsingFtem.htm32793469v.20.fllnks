@@ -16,6 +16,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/treatments.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly.png" />
+    <Link
       Url="Content/10-FTEM/Symbology.htm" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
@@ -41,6 +43,8 @@
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link
       Url="Content/Resources/Images/FTEM/treatments.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_poly.png" />
     <Link
       Url="Content/10-FTEM/Symbology.htm" />
     <Link

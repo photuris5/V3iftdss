@@ -8,17 +8,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
+      Url="Content/Resources/Images/mapstudio/shapefile_save1_2.png" />
     <Link
-      Url="Content/10-MapStudio/Functions/ViewShapefileOnMap.htm" />
+      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_moreoptions.png" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
     <Link
-      Url="Content/Resources/Images/shapefile_repair/navigate_layerlist.png" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/EditShapefile.flsnp" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_edittools_extent.png" />
     <Link
@@ -27,24 +23,18 @@
       Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/filling_holes.png" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
+      Url="Content/Resources/Images/mapstudio/shapefile_save1_2.png" />
     <Link
-      Url="Content/10-MapStudio/Functions/ViewShapefileOnMap.htm" />
+      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_moreoptions.png" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
     <Link
-      Url="Content/Resources/Images/shapefile_repair/navigate_layerlist.png" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/EditShapefile.flsnp" />
+      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_edittools_extent.png" />
     <Link
@@ -53,8 +43,6 @@
       Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/filling_holes.png" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
   </LongLinks>
   <Anchors />
   <Keywords />

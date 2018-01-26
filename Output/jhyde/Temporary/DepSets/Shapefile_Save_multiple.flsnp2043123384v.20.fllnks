@@ -6,15 +6,15 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

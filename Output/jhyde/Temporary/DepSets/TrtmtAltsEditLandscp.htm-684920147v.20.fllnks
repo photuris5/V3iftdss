@@ -10,17 +10,17 @@
     <Link
       Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/naming_and_layout.png" />
+    <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
   </Links>
   <LongLinks>
     <Link
@@ -30,17 +30,17 @@
     <Link
       Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm#Extracted_Unedited_Landscape" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/naming_and_layout.png" />
+    <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/LandscapeEditingStart.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/EditingIntroAll_p2.flsnp" />
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditIntro.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/DefaultEditRuleList.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
   </LongLinks>
   <Anchors />
   <Keywords />

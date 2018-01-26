@@ -6,15 +6,15 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_4.png" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_4.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_4.png" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_4.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

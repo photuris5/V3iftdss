@@ -8,33 +8,31 @@
     <Link
       Url="https://youtu.be/RbRqkSNauX8" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/Introduction.flsnp" />
+      Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
     <Link
       Url="Content/Resources/Images/treatment_compare/ViewSplitMapLocation.png" />
     <Link
-      Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm" />
+      Url="Content/Resources/Images/granite_crk_dta/dta_pick_landscape.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part1.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part2.flsnp" />
+      Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/Edit_part1.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
-    <Link
-      Url="Content/Resources/Images/treatment_compare/inputs.png" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
     <Link
       Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
     <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_model_inputs.png" />
+    <Link
       Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
-      Url="Content/Resources/Images/treatment_compare/comparison_model_list.png" />
+      Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
     <Link
       Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
     <Link
@@ -42,49 +40,49 @@
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part2.flsnp" />
-    <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tumapcompare.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_slider.png" />
     <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tutswipe.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+      Url="Content/Resources/Images/treatment_compare/summery_report_bttn08012017.png" />
     <Link
-      Url="Content/Resources/Images/tutorial_1_comparison/tutsummaryreport.png" />
+      Url="Content/Resources/Images/treatment_compare/highchart_column080117.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/report_download_08012017.png" />
   </Links>
   <LongLinks>
     <Link
       Url="https://youtu.be/RbRqkSNauX8" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/Introduction.flsnp" />
+      Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
     <Link
       Url="Content/Resources/Images/treatment_compare/ViewSplitMapLocation.png" />
     <Link
-      Url="Content/00-Concepts/AboutLandscapesinIFTDSS.htm" />
+      Url="Content/Resources/Images/granite_crk_dta/dta_pick_landscape.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part1.flsnp" />
-    <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part2.flsnp" />
+      Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
       Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/Edit_part1.flsnp" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/EditLandscapeRules/AddLandscapeEditRule.flsnp" />
-    <Link
-      Url="Content/Resources/Images/treatment_compare/inputs.png" />
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
     <Link
       Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
     <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_model_inputs.png" />
+    <Link
       Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
-      Url="Content/Resources/Images/treatment_compare/comparison_model_list.png" />
+      Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
     <Link
       Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
     <Link
@@ -92,27 +90,21 @@
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
     <Link
-      Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part2.flsnp" />
-    <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tumapcompare.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/button_slider.png" />
     <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tutswipe.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+      Url="Content/Resources/Images/treatment_compare/summery_report_bttn08012017.png" />
     <Link
-      Url="Content/Resources/Images/tutorial_1_comparison/tutsummaryreport.png" />
+      Url="Content/Resources/Images/treatment_compare/highchart_column080117.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/report_download_08012017.png" />
   </LongLinks>
   <Anchors>
-    <Anchor
-      Name="Choose_Landscape" />
-    <Anchor
-      Name="Edit_Landscape" />
-    <Anchor
-      Name="Model_Inputs" />
-    <Anchor
-      Name="Run_Model" />
     <Anchor
       Name="Compare" />
   </Anchors>

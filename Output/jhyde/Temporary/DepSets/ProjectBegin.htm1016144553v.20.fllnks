@@ -10,9 +10,13 @@
     <Link
       Url="Content/Resources/Snippets/AboutIFTDSS/Account Setup.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_1.flsnp" />
+      Url="Content/Resources/Images/getting_started/MyWorkspace.png" />
     <Link
-      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_3.flsnp" />
+      Url="Content/Resources/Images/myworkspace/workspace_createfolder02062017.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/workspace_seenewfolder04182017.png" />
   </Links>
   <LongLinks>
     <Link
@@ -20,9 +24,13 @@
     <Link
       Url="Content/Resources/Snippets/AboutIFTDSS/Account Setup.flsnp" />
     <Link
-      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_1.flsnp" />
+      Url="Content/Resources/Images/getting_started/MyWorkspace.png" />
     <Link
-      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_3.flsnp" />
+      Url="Content/Resources/Images/myworkspace/workspace_createfolder02062017.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/workspace_seenewfolder04182017.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

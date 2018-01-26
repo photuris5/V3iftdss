@@ -273,6 +273,14 @@ img.border
 	height: auto;
 }
 
+img.borderlist
+{
+	border: 1px solid black;
+	margin: -10px 5px 5px 5px;
+	max-width: 100%;
+	height: auto;
+}
+
 img.AbsolutePosition
 {
 	padding: 5px;
