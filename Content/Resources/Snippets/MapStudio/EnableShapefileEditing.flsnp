@@ -1,11 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="551" MadCap:lastWidth="1334">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1286" MadCap:lastWidth="1839">
     <body>
-        <p>Open <b>Edit Tools</b><img src="../../Images/mapstudio/button_editTools.png" alt="'edit tools' button" /> from the bottom of <MadCap:variable name="General.MapStudio" /> and click <span class="UIcomponent">Copy from Existing Features</span><img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" alt="Copy from existing features button" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</p>
-        <p> Scroll to the map and double left click the mouse button over the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
-        <p>
-            <img src="../../Images/shapefile_repair/polygon_select.png" style="width: 562px; height: 402px;" alt="polygon in edit mode with vertices visible around the perimeter" class="border" />
-        </p>
+        <p>To Copy and Edit a shapefile:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Open <b>Edit Tools</b><img src="../../Images/mapstudio/button_editTools.png" alt="'edit tools' button" /> from the bottom of <MadCap:variable name="General.MapStudio" /> and click <span class="UIcomponent">Copy from Existing Features</span><img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" alt="Copy from existing features button" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</li>
+            <li>
+                <p>Scroll to the map and double left click the mouse button over the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
+                <p>
+                    <img src="../../Images/shapefile_repair/polygon_select.png" style="width: 562px; height: 402px;" alt="polygon in edit mode with vertices visible around the perimeter" class="borderlist" />
+                </p>
+            </li>
+            <li>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </li>
+            <li>
+                <p>Delete a vertex by hovering over it, clicking the right mouse button once, and clicking <span class="UIcomponent">Delete</span>.</p>
+                <p>
+                    <img src="../../Images/shapefile_repair/polygon_vertexdelete.png" style="width: 610px; height: 433px;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Continue your edits until you are satisfied with your shapefile. </p>
+            </li>
+            <li>
+                <p>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and click <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <MadCap:variable name="General.ProductName" />.</p>
+            </li>
+        </ol>
     </body>
     <head>
     </head>

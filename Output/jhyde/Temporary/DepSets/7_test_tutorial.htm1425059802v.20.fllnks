@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/3_Edit.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/4_IdPriority.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/5_treatmentPoly.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/6_Compare.htm" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutswipe.png" />
+    <Link
+      Url="https://www.youtube.com/watch" />
+    <Link
+      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_1.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_3.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Cycle/LandscapeEvaluationSummary.png" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscaperefresh.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPCreate.htm" />
+    <Link
+      Url="Content/Resources/Images/Cycle/LandscapeEvaluationEdit.png" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/create_rules.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_delete.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/rule_created.png" />
+    <Link
+      Url="Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/Summary_in_cycle.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/viewreport.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/SierraCity.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/SierraCity2.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_clear.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_polygoncloseup.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/EditTools.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_shapeconfirmation.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_shapesinworkspace.png" />
+    <Link
+      Url="Content/Resources/Images/Cycle/StrategicPlanningCompare.png" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Introduction.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part1.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Edit_part1.flsnp" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutorial_default_rule.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutorial_modelinputs.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/model_input_verification.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list_verify.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tumapcompare.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/summery_report_bttn08012017.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/highchart_column080117.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/report_download_08012017.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/3_Edit.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/4_IdPriority.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/5_treatmentPoly.htm" />
+    <Link
+      Url="Content/40-Tutorials/CompareFeature/6_Compare.htm" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutswipe.png" />
+    <Link
+      Url="https://www.youtube.com/watch?v=Io7P5A06bT0" />
+    <Link
+      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_1.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/MyWorkspace/CreateFolderPart_3.flsnp" />
+    <Link
+      Url="Content/Resources/Images/Cycle/LandscapeEvaluationSummary.png" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscaperefresh.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPCreate.htm" />
+    <Link
+      Url="Content/Resources/Images/Cycle/LandscapeEvaluationEdit.png" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/create_rules.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_delete.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_edits/rule_created.png" />
+    <Link
+      Url="Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/Summary_in_cycle.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_report_prompt.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/summary_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/report link confirmation box.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/viewreport.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/SierraCity.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/SierraCity2.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_edittools_clear.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_polygoncloseup.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/EditTools.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_combineshapefile.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_shapeconfirmation.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut1_shapesinworkspace.png" />
+    <Link
+      Url="Content/Resources/Images/Cycle/StrategicPlanningCompare.png" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Introduction.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/OriginatingLandscape_part1.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Edit_part1.flsnp" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutorial_default_rule.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutorial_modelinputs.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/model_input_verification.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list_verify.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tumapcompare.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/summery_report_bttn08012017.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/highchart_column080117.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/report_download_08012017.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

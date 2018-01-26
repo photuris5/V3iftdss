@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_here.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_2.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_3.png" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscaperefresh.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_here.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_2.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/Landscape_create_3.png" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/lcp_gen_smmry/landscaperefresh.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </FileConditions>
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

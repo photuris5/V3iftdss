@@ -12,10 +12,10 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Choose the <span class="UIcomponent">Starting Landscape</span> you want to edit.</li>
-            <li>View the Add Landscape Rule options by clicking the dropdown arrow to the far right of the <span class="UIcomponent">Add User Created Edit Rule</span> heading.</li>
+            <li>View the Add Landscape Rule options by clicking the drop-down arrow to the far right of the <span class="UIcomponent">Add User Created Edit Rule</span> heading.</li>
             <li>Specify the conditions you would like to select in the fields below <span class="UIcomponent">Where these conditions exist</span>. In this example we have selected 'Fuel Model' as the Attribute, 'is equal to' as the Operator and fire behavior fuel model '165 (TU5)' as the Value. This selected all TU5 fuel modeled areas across the landscape.</li>
             <li>Specify the conditions you would like to change by populating the fields below <span class="UIcomponent">Modify the following values</span>. In the example pictured here we have selected 'Canopy Cover' as the Attribute, 'decrease by' as the Operator, and '5' (for 5 percent) as the Value. For all TU5 fuel modeled areas, the application decreases the canopy cover by 5 percent. </li>
-            <li>The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) dropdown allows you to constrain your edits to the area within a shapefile of your choosing. When this field is left blank, the edits are applied to the entire landscape.</li>
+            <li>The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) drop-down allows you to constrain your edits to the area within a shapefile of your choosing. When this field is left blank, the edits are applied to the entire landscape.</li>
             <li>When you are ready to apply this rule select <span class="UIcomponent">Add to Rules</span>. Notice the rule has been added to the list, and the order noted. You can delete rules before saving by using the delete button <img src="../../Images/buttons_general/button_delete.png" alt="delete button" title="Image of the Delete Button" /> to the right of each rule. </li>
             <div>
                 <div class="notificationImportant">

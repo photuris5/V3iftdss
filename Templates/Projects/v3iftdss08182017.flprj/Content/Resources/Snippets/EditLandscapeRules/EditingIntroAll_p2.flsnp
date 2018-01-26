@@ -3,7 +3,7 @@
     <head>
     </head>
     <body>
-        <p>Notice you may access the Landscape rules by either clicking on the + icons under the landscape dropdown menu, or click the dropdown headings . As you select or create rules, they will be listed in the Edit Landscape section of the page.</p>
+        <p>Notice you may access the Landscape rules by either clicking on the + icons under the landscape drop-down menu, or click the drop-down headings . As you select or create rules, they will be listed in the Edit Landscape section of the page.</p>
         <div class="notificationNote">
             <p>To split your display to enable a map view of your landscape on the left side of the screen, and the landscape edit interface on the right, click the globe icon <img src="../../Images/landscape_edits/map_view.png" alt="click the globe icon in the top left of the screen to the map area for your landscape" /> at the top left of the page.</p>
         </div>

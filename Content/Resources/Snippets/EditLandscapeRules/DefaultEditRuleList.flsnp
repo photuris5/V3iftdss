@@ -4,21 +4,23 @@
     </head>
     <body>
         <h2>Landscape Edit Rules</h2>
-        <MadCap:snippetBlock src="Rule_LightThinningPileBurn.flsnp" />
-        <MadCap:snippetBlock src="Rule_HeavyThinningPileBurning.flsnp" />
-        <MadCap:snippetBlock src="Rule_ModerateThinningLopScatter.flsnp" />
-        <MadCap:snippetBlock src="Rule_ModerateThinningMasticate.flsnp" />
-        <MadCap:snippetBlock src="Rule_HeavyThinningMasticate.flsnp" />
-        <MadCap:snippetBlock src="Rule_ClearcutPrescribedFire.flsnp" />
-        <MadCap:snippetBlock src="Rule_Low Severity Fire.flsnp" />
-        <MadCap:snippetBlock src="Rule_Moderate Severity Fire.flsnp" />
-        <MadCap:snippetBlock src="Rule_High Severity Fire.flsnp" />
-        <p style="font-weight: bold;">1 Year Since Disturbance:</p>
-        <MadCap:snippetBlock src="Time_1yrSinceDist.flsnp" />
-        <p style="font-weight: bold;">2-5 Years Since Disturbance:</p>
-        <MadCap:snippetBlock src="Time_2_5yrSinceDist.flsnp" />
-        <p style="font-weight: bold;">6-10 Year Since Disturbance: </p>
-        <MadCap:snippetBlock src="Time_6_10yrSinceDist.flsnp" />
+		<ul>
+        <li><MadCap:snippetBlock src="Rule_LightThinningPileBurn.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_HeavyThinningPileBurning.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_ModerateThinningLopScatter.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_ModerateThinningMasticate.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_HeavyThinningMasticate.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_ClearcutPrescribedFire.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_Low Severity Fire.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_Moderate Severity Fire.flsnp" /></li>
+       <li> <MadCap:snippetBlock src="Rule_High Severity Fire.flsnp" /></li>
+       <li> <p style="font-weight: bold;">1 Year Since Disturbance:</p>
+        <p><MadCap:snippetBlock src="Time_1yrSinceDist.flsnp" /></p></li>
+       <li> <p style="font-weight: bold;">2-5 Years Since Disturbance:</p>
+        <p><MadCap:snippetBlock src="Time_2_5yrSinceDist.flsnp" /></p></li>
+       <li> <p style="font-weight: bold;">6-10 Year Since Disturbance: </p>
+        <p><MadCap:snippetBlock src="Time_6_10yrSinceDist.flsnp" /></p></li>
+			</ul>
         <p>You have the option of defining a <span class="UIcomponent">Landscape Mask</span> to apply your rules to. </p>
         <p>Once you have set your rule, click <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
         <div class="notificationImportant">

@@ -16,6 +16,8 @@
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
@@ -37,6 +39,8 @@
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
     <Link
@@ -61,6 +65,9 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

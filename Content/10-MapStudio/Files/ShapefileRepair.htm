@@ -1,30 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2547" MadCap:lastWidth="1308">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2823" MadCap:lastWidth="1739">
     <head>
     </head>
     <body>
-        <h1>How to Repair Uploaded Shapefiles</h1>
+        <h1>How to Edit or Repair Uploaded Shapefiles</h1>
         <p>When uploading shapefiles with multiple adjoining polygons, <MadCap:variable name="General.ProductName" /> will automatically join the polygons into a single dataset; this process may create erroneous gaps or vertices where these polygons once touched. The steps below outline the process of repairing or cleaning these polygons and re-saving them as a new shapefile. </p>
         <div class="notificationComingSoon">
             <p>These occasional gaps in adjoining polygons are a known issue which we will be resolving in a forthcoming version of <MadCap:variable name="General.ProductName" />.</p>
         </div>
-        <h2>Step 1 Viewing your shapefile in <MadCap:variable name="General.MapStudio" /> </h2>
-        <p>Once you have <a href="../Functions/AddShapefile.htm" target="_blank">uploaded and saved your shapefile</a>, navigate to the <span class="UIcomponent">Layer List</span>, a checked box to the left of the shapefile confirms your layer is operational. If this box is not checked, click on the box to select it. If your shapefile is not visible in the <span class="UIcomponent">Layer List</span>, you may have to <a href="../Functions/ViewShapefileOnMap.htm" target="_blank">add it to your map</a>. Zoom to your shapefile by selecting the<span class="UIcomponent"> Zoom To</span> option under <span class="UIcomponent">More Options</span> in the top right of the <span class="UIcomponent">Layer List </span><img src="../../Resources/Images/mapstudio/button_moreoptions.png" />.</p>
-        <p>
-            <img src="../../Resources/Images/shapefile_repair/navigate_layerlist.png" alt="an icon with three dots in the top right of 'layer list' drops down the menu where you may 'zoom to' your shapefile." style="width: 346px; height: 383px;" class="border" />
-        </p>
-        <h2>Step 2 Enable Editing</h2>
-        <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/EnableShapefileEditing.flsnp" />
-        <h2>Step 3 Edit your shapefile</h2>
-        <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/EditShapefile.flsnp" />
-        <p>You can also fill holes in shapefiles at this point in the process. Simply click the<span class="UIcomponent"> extent</span> <img src="../../Resources/Images/mapstudio/button_edittools_extent.png" alt="extent" /> <span class="UIcomponent">polygon</span> <img src="../../Resources/Images/mapstudio/button_edittools_polygon.png" alt="polygon button" /> or <span class="UIcomponent">freehand</span> <img src="../../Resources/Images/mapstudio/button_edittools_freehand.png" alt="freehand button" /> buttons within the <span class="UIcomponent">Edit Tool</span> and draw a small polygon over the hole you wish to fill. Upon saving your edits, the smaller polygon will be merged with the larger one, effectively patching the hole.</p>
-        <p>
-            <img src="../../Resources/Images/mapstudio/filling_holes.png" alt="drawing a small shape file over a hole, while in editmode, will fill that hole upon saving" style="width: 799px; height: 381px;" class="border" />
-        </p>
-        <h2>Step 4 Save your Edits</h2>
-        <p>
-            <MadCap:snippetText src="../../Resources/Snippets/MapStudio/SaveShapefileEdits.flsnp" />
-        </p>
-        <p>&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Zooming to Your Shapefile</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li> Click the <span class="UIcomponent">More Options</span> button to the right of your shapefile and </li>
+                    <li>
+                        <p>Click the <span class="UIcomponent">Zoom to</span> option. This will zoom to your newly uploaded shapefile.</p>
+                        <p>
+                            <img src="../../Resources/Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px; height: 432px;" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Editing and Saving Your Shapefile</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To Edit a shapefile:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Open <b>Edit Tools</b><img src="../../Resources/Images/mapstudio/button_editTools.png" alt="'edit tools' button" /> from the bottom of <MadCap:variable name="General.MapStudio" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</li>
+                    <li>
+                        <p>Scroll to the map and double left click the mouse button over the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
+                        <p>
+                            <img src="../../Resources/Images/shapefile_repair/polygon_select.png" style="width: 562px; height: 402px;" alt="polygon in edit mode with vertices visible around the perimeter" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </li>
+                    <li>
+                        <p>Delete a vertex by hovering over it, clicking the right mouse button once, and clicking <span class="UIcomponent">Delete</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/shapefile_repair/polygon_vertexdelete.png" style="width: 610px; height: 433px;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Continue your edits until you are satisfied with your shapefile. </p>
+                    </li>
+                    <li>
+                        <p>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and click <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <MadCap:variable name="General.ProductName" />.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Filling Holes/Gaps in Your Shapefiles and Saving</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When zoomed to your shapefile:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Open <b>Edit Tools</b><img src="../../Resources/Images/mapstudio/button_editTools.png" alt="'edit tools' button"></img> from the bottom of <MadCap:variable name="General.MapStudio"></MadCap:variable>.</li>
+                    <li>
+                        <p>Click the<span class="UIcomponent"> extent</span> <img src="../../Resources/Images/mapstudio/button_edittools_extent.png" alt="extent"></img> <span class="UIcomponent">polygon</span> <img src="../../Resources/Images/mapstudio/button_edittools_polygon.png" alt="polygon button"></img> or <span class="UIcomponent">freehand</span> <img src="../../Resources/Images/mapstudio/button_edittools_freehand.png" alt="freehand button"></img> buttons within the <span class="UIcomponent">Edit Tool</span> and draw a small polygon over the hole you wish to fill.</p>
+                        <p>
+                            <img src="../../Resources/Images/mapstudio/filling_holes.png" alt="drawing a small shape file over a hole, while in editmode, will fill that hole upon saving" style="width: 799px; height: 381px;" class="borderlist">
+                            </img> </p>
+                    </li>
+                    <li>Upon saving your edits, the smaller polygon will be merged with the larger one, effectively patching the hole.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>

@@ -1,74 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="4121" MadCap:lastWidth="2180">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5100" MadCap:lastWidth="1759">
     <head>
     </head>
     <body>
         <div class="notificationImportant">
-            <p>Follow the steps below to permanently save an uploaded shapefile in <span class="UIcomponent">My Workspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </p>
+            <p>Follow the steps below to permanently upload and save a shapefile in <span class="UIcomponent">My Workspace</span> for later use in <MadCap:variable name="General.ProductName" />. Without this step, navigating away from <MadCap:variable name="General.MapStudio" /> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <MadCap:variable name="General.ProductName" /> release. </p>
         </div>
-        <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" />:</p>
-        <p>
-            <img src="../../Images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210px; height: 288px;" class="border" />
-        </p>
-        <p>A) Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10). A zipped shapefile must contain .shp, .shx, .dbf, and .prj files.</p>
-        <p>
-            <img src="../../Images/mapstudio/saved_shp_confirmation.png" class="border" />
-        </p>
-        <p>B) When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
-        <img src="../../Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px; height: 432px;" class="border" />
-        <p>C) To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> and open <span class="UIcomponent"> Layer List</span><img src="../../Images/mapstudio/button_layerlist.png" alt="layer list button" /> to zoom to your new shapefile:</p>
-        <ol style="list-style-type: lower-alpha;">
-            <li> Click the icon to the right of your shapefile and </li>
-            <li>Click the <span class="UIcomponent">Zoom to</span> option</li>
+        <h2>Upload the Shapefile</h2>
+        <p>Use Add Shapefile to upload a shapefile to <MadCap:variable name="General.MapStudio" />:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Add Shapefile</span> button <img src="../../Images/mapstudio/button_addshapefile.png" alt="add shapefile" /> along the bottom of <MadCap:variable name="General.MapStudio" /> to open Add Shapefile.</li>
+            <li>
+                <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
+                <p>
+                    <img src="../../Images/mapstudio/local_shapefiles.png" alt="you may upload your own shapefiles." class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>Use the checkbox to select the attributes you wish to import. You may choose up to 10.</p>
+                <p>
+                    <img src="../../Images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When finished, click the <span class="UIcomponent">Add to Map</span> button.</p>
+                <p>
+                    <img src="../../Images/mapstudio/add_to_map.png" alt="add to map button" class="borderlist" />
+                </p>
+            </li>
+            <li>
+                <p>When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
+                <p>
+                    <img src="../../Images/mapstudio/saved_shp_confirmation.png" class="borderlist" />
+                </p>
+            </li>
         </ol>
-        <p>D) Proceed to the next dropdown step, either "Save a Single Uploaded Shapefile" or "Save Multiple Shapefiles"</p>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Save a single uploaded shapefile:</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <p>
-                <img src="../../Images/mapstudio/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469px;height: 330px;" class="border" />
-            </p>
-            <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
-            <p>Next</p>
-            <MadCap:dropDownBody>
+        <h2>Save the Shapefile</h2>
+        <p>To permanently save your uploaded shapefile:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> if its open, then open <span class="UIcomponent"> Layer List</span><img src="../../Images/mapstudio/button_layerlist.png" alt="layer list button" /> </li>
+            <li>Zoom to your new shapefile.</li>
+            <ol style="list-style-type: lower-alpha;">
+                <li> Click the <span class="UIcomponent">More Options</span> button to the right of your shapefile and </li>
+                <li>
+                    <p>Click the <span class="UIcomponent">Zoom to</span> option. This will zoom to your newly uploaded shapefile.</p>
+                    <p>
+                        <img src="../../Images/mapstudio/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px; height: 432px;" class="borderlist" />
+                    </p>
+                </li>
+            </ol>
+            <li>
+                <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
                 <p>
-                    <img src="../../Images/mapstudio/save_uploaded_snglshape.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011px; height: 543px;" class="border">
-                    </img>
+                    <img src="../../Images/mapstudio/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469px; height: 330px;" class="borderlist" />
                 </p>
-                <ol style="list-style-type: lower-alpha;">
-                    <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" />, </li>
-                    <li>Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
-                    <li>Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
-                    <li>Give your polygon a descriptive name.</li>
-                    <li>Choose a folder in which to save your polygon.</li>
-                    <li>Click <span class="UIcomponent">Create</span>.</li>
-                </ol>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Save multiple polygons:</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <p>
-                <img src="../../Images/mapstudio/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469px;height: 330px;" class="border" />
-            </p>
-            <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
-            <p>Next</p>
-            <MadCap:dropDownBody>
-                <p>
-                    <img src="../../Images/mapstudio/save_multipart_upl_shape.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975px; height: 483px;" class="border" />
-                </p>
-                <ol style="list-style-type: lower-alpha;">
-                    <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" />, </li>
-                    <li>Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
-                    <li>Left mouse click your first polygon, you will notice its color turns to yellow.</li>
-                    <li>Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
-                    <li>Next, type a name for your polygons in the edit box.</li>
-                    <li>Specify the folder to save the set in. </li>
-                    <li>Click <span class="UIcomponent">Create</span>.</li>
-                </ol>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+            </li>
+            <li>
+                <p> When the <span class="UIcomponent">Create/Edit Shapes</span> box opens, you can choose to either save a single shape, or multiple shapes:</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Save a single uploaded shapefile:</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" />, </li>
+                            <li>Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
+                            <li>Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
+                            <li>Give your polygon a descriptive name.</li>
+                            <li>Choose a folder in which to save your polygon.</li>
+                            <li>
+                                <p>Click <span class="UIcomponent">Create</span>.</p>
+                                <p>
+                                    <img src="../../Images/mapstudio/save_uploaded_snglshape.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011px; height: 543px;" class="borderlist" />
+                                </p>
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Save multiple polygons:</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" />, </li>
+                            <li>Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
+                            <li>Left mouse click your first polygon, you will notice its color turns to yellow.</li>
+                            <li>Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
+                            <li>Next, type a name for your polygons in the edit box.</li>
+                            <li>Specify the folder to save the set in. </li>
+                            <li>
+                                <p>Click <span class="UIcomponent">Create</span>.</p>
+                                <p>
+                                    <img src="../../Images/mapstudio/save_multipart_upl_shape.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975px; height: 483px;" class="borderlist" />
+                                </p>
+                            </li>
+                        </ol>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+        </ol>
     </body>
 </html>

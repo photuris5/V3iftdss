@@ -142,10 +142,10 @@
                                             <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
                                             </div>
                                         </div>
-                                        <h1> <a name="kanchor16"></a><a name="kanchor17"></a><a name="kanchor18"></a><a name="kanchor19"></a><a name="kanchor20"></a><a name="kanchor21"></a><a name="kanchor22"></a><a name="kanchor23"></a> About Shapefiles</h1>
+                                        <h1> <a name="kanchor6"></a><a name="kanchor7"></a><a name="kanchor8"></a><a name="kanchor9"></a><a name="kanchor10"></a><a name="kanchor11"></a><a name="kanchor12"></a><a name="kanchor13"></a> About Shapefiles</h1>
                                         <p>A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and disturbances. In <span class="GeneralProductName">IFTDSS</span> you will encounter several terms that refer to shapefiles. Different terms are used in different tasks to reflect the terminology common in the wildland fire community. Here is a brief overview of how these terms are used in IFTDSS.</p>
                                         <ul>
-                                            <li value="1"><b><a name="kanchor24"></a>Area of Interest</b>: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis.</li>
+                                            <li value="1"><b><a name="kanchor14"></a>Area of Interest</b>: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis.</li>
                                             <li value="2"><b>Landscape Mask</b>: This term is used in Landscape Editing to constrain the area your edits apply to.</li>
                                             <li value="3"><b>Polygon, Shape, Shapefile</b>: These terms are used interchangeably throughout <span class="GeneralMapStudio">Map Studio</span>.</li>
                                         </ul>
@@ -177,58 +177,99 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Saving Shapefiles for future use in <span class="GeneralProductName">IFTDSS</span></a></span>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Uploading and Saving Shapefiles for future use in <span class="GeneralProductName">IFTDSS</span></a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <div class="notificationImportant">
-                                                    <p>Follow the steps below to permanently save an uploaded shapefile in <span class="UIcomponent">My Workspace</span> for later use in <span class="GeneralProductName">IFTDSS</span>. Without this step, navigating away from <span class="GeneralMapStudio">Map Studio</span> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <span class="GeneralProductName">IFTDSS</span> release. </p>
+                                                    <p>Follow the steps below to permanently upload and save a shapefile in <span class="UIcomponent">My Workspace</span> for later use in <span class="GeneralProductName">IFTDSS</span>. Without this step, navigating away from <span class="GeneralMapStudio">Map Studio</span> results in an uploaded shapefile not being saved. This is a known issue that will be corrected in a later <span class="GeneralProductName">IFTDSS</span> release. </p>
                                                 </div>
-                                                <p>To retain your uploaded shapefiles in <span class="GeneralProductName">IFTDSS</span>:</p>
-                                                <p>
-                                                    <img src="../../resources/images/mapstudio/shapefile_save1_210x288.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210;height: 288;" class="border" />
-                                                </p>
-                                                <p>A) Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10). A zipped shapefile must contain .shp, .shx, .dbf, and .prj files.</p>
-                                                <p>
-                                                    <img src="../../resources/images/mapstudio/saved_shp_confirmation.png" class="border" />
-                                                </p>
-                                                <p>B) When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
-                                                <img src="../../resources/images/mapstudio/shapefile_save1_2_315x432.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315;height: 432;" class="border" />
-                                                <p>C) To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> and open <span class="UIcomponent"> Layer List</span><img src="../../resources/images/mapstudio/button_layerlist.png" alt="layer list button" /> to zoom to your new shapefile:</p>
-                                                <ol style="list-style-type: lower-alpha;">
-                                                    <li value="1"> Click the icon to the right of your shapefile and </li>
-                                                    <li value="2">Click the <span class="UIcomponent">Zoom to</span> option</li>
+                                                <h2>Upload the Shapefile</h2>
+                                                <p>Use Add Shapefile to upload a shapefile to <span class="GeneralMapStudio">Map Studio</span>:</p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">Click the <span class="UIcomponent">Add Shapefile</span> button <img src="../../resources/images/mapstudio/button_addshapefile.png" alt="add shapefile" /> along the bottom of <span class="GeneralMapStudio">Map Studio</span> to open Add Shapefile.</li>
+                                                    <li value="2">
+                                                        <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/local_shapefiles.png" alt="you may upload your own shapefiles." class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="3">
+                                                        <p>Use the checkbox to select the attributes you wish to import. You may choose up to 10.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p>When finished, click the <span class="UIcomponent">Add to Map</span> button.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/add_to_map.png" alt="add to map button" class="borderlist" />
+                                                        </p>
+                                                    </li>
+                                                    <li value="5">
+                                                        <p>When completed, a confirmation message will appear to verify the shapefile has been uploaded.</p>
+                                                        <p>
+                                                            <img src="../../resources/images/mapstudio/saved_shp_confirmation.png" class="borderlist" />
+                                                        </p>
+                                                    </li>
                                                 </ol>
-                                                <p>D) Proceed to the next dropdown step, either "Save a Single Uploaded Shapefile" or "Save Multiple Shapefiles"</p>
-                                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save a single uploaded shapefile:</a></span>
-                                                    <div class="MCDropDownBody dropDownBody">
+                                                <h2>Save the Shapefile</h2>
+                                                <p>To permanently save your uploaded shapefile:</p>
+                                                <ol style="list-style-type: upper-alpha;">
+                                                    <li value="1">To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> if its open, then open <span class="UIcomponent"> Layer List</span><img src="../../resources/images/mapstudio/button_layerlist.png" alt="layer list button" /> </li>
+                                                    <li value="2">Zoom to your new shapefile.</li>
+                                                    <ol style="list-style-type: lower-alpha;">
+                                                        <li value="1"> Click the <span class="UIcomponent">More Options</span> button to the right of your shapefile and </li>
+                                                        <li value="2">
+                                                            <p>Click the <span class="UIcomponent">Zoom to</span> option. This will zoom to your newly uploaded shapefile.</p>
+                                                            <p>
+                                                                <img src="../../resources/images/mapstudio/shapefile_save1_2_315x432.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315;height: 432;" class="borderlist" />
+                                                            </p>
+                                                        </li>
+                                                    </ol>
+                                                    <li value="3">
+                                                        <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
                                                         <p>
-                                                            <img src="../../resources/images/mapstudio/save_uploaded_snglshape_1011x543.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011;height: 543;" class="border" />
+                                                            <img src="../../resources/images/mapstudio/create_edit_shape_469x330.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469;height: 330;" class="borderlist" />
                                                         </p>
-                                                        <ol style="list-style-type: lower-alpha;">
-                                                            <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
-                                                            <li value="2">Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
-                                                            <li value="3">Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
-                                                            <li value="4">Give your polygon a descriptive name.</li>
-                                                            <li value="5">Choose a folder in which to save your polygon.</li>
-                                                            <li value="6">Click <span class="UIcomponent">Create</span>.</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
-                                                <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save multiple polygons:</a></span>
-                                                    <div class="MCDropDownBody dropDownBody">
-                                                        <p>
-                                                            <img src="../../resources/images/mapstudio/save_multipart_upl_shape_975x483.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975;height: 483;" class="border" />
-                                                        </p>
-                                                        <ol style="list-style-type: lower-alpha;">
-                                                            <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
-                                                            <li value="2">Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
-                                                            <li value="3">Left mouse click your first polygon, you will notice its color turns to yellow.</li>
-                                                            <li value="4">Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
-                                                            <li value="5">Next, type a name for your polygons in the edit box.</li>
-                                                            <li value="6">Specify the folder to save the set in. </li>
-                                                            <li value="7">Click <span class="UIcomponent">Create</span>.</li>
-                                                        </ol>
-                                                    </div>
-                                                </div>
+                                                    </li>
+                                                    <li value="4">
+                                                        <p> When the <span class="UIcomponent">Create/Edit Shapes</span> box opens, you can choose to either save a single shape, or multiple shapes:</p>
+                                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save a single uploaded shapefile:</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <ol style="list-style-type: lower-alpha;">
+                                                                    <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
+                                                                    <li value="2">Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
+                                                                    <li value="3">Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
+                                                                    <li value="4">Give your polygon a descriptive name.</li>
+                                                                    <li value="5">Choose a folder in which to save your polygon.</li>
+                                                                    <li value="6">
+                                                                        <p>Click <span class="UIcomponent">Create</span>.</p>
+                                                                        <p>
+                                                                            <img src="../../resources/images/mapstudio/save_uploaded_snglshape_1011x543.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011;height: 543;" class="borderlist" />
+                                                                        </p>
+                                                                    </li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Save multiple polygons:</a></span>
+                                                            <div class="MCDropDownBody dropDownBody">
+                                                                <ol style="list-style-type: lower-alpha;">
+                                                                    <li value="1">Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" />, </li>
+                                                                    <li value="2">Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
+                                                                    <li value="3">Left mouse click your first polygon, you will notice its color turns to yellow.</li>
+                                                                    <li value="4">Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../resources/images/mapstudio/button_copy_exstng_ftrs_29x29.png" style="width: 29;height: 29;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
+                                                                    <li value="5">Next, type a name for your polygons in the edit box.</li>
+                                                                    <li value="6">Specify the folder to save the set in. </li>
+                                                                    <li value="7">
+                                                                        <p>Click <span class="UIcomponent">Create</span>.</p>
+                                                                        <p>
+                                                                            <img src="../../resources/images/mapstudio/save_multipart_upl_shape_975x483.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975;height: 483;" class="borderlist" />
+                                                                        </p>
+                                                                    </li>
+                                                                </ol>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ol>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Limitations</a></span>
@@ -243,7 +284,7 @@
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" name="kanchor25"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Deleting Shapefiles</a></span>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" name="kanchor15"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Deleting Shapefiles</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>A shapefile may be deleted if it is not used by any model, or editing rule in <span class="GeneralProductName">IFTDSS</span>. To delete a shapefile in <span class="UIcomponent">My Workspace</span>, select the file and click the Delete button. A pop up box will ask you to confirm your deletion, click 'OK'. </p>
                                                 <div class="notificationImportant">
@@ -254,13 +295,13 @@
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" /></a><a name="AreasOfInterest"></a><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_">Using Shapefiles in <span class="GeneralProductName">IFTDSS</span> for Areas of Interest and Landscape Masks</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>In <span class="GeneralProductName">IFTDSS</span> you will encounter several terms that are applicable to <a href="#" target="_blank">shapefiles</a> (areas of interest). These terms all describe shapefiles, but are worded differently in different tasks to reflect the terminology common to those tasks in the wildland fire community. Here is a brief overview of how these terms are used in <span class="GeneralProductName">IFTDSS</span>.</p>
-                                                <h2><a name="kanchor26"></a>Area of Interest and Landscape Mask</h2>
+                                                <h2><a name="kanchor16"></a>Area of Interest and Landscape Mask</h2>
                                                 <p>In <span class="GeneralProductName">IFTDSS</span> you will encounter several terms that are applicable to <a href="#" target="_blank" class="selected">shapefiles</a> (areas of interest, landscape masks, polygons). These terms all describe shapefiles, but are worded differently in different tasks to reflect the terminology common to those tasks in the wildland fire community. Here is a brief overview of how these terms are used in <span class="GeneralProductName">IFTDSS</span>.</p>
                                                 <img src="../../resources/images/mapstudio/masks_341x280.png" alt="A valley with three polygons in which treatments are indicated with differing colors" style="float: right;width: 341;height: 280;" class="border" />
                                                 <h2>Area of Interest and Landscape Mask</h2>
                                                 <p><span class="Emphasis">Area of Interest</span> indicates that you can select a shapefile to constrain your modeling or analysis to a specific area, such as a treatment unit. This term is used in the Landscape Summary task and Determining Treatment Alternatives task.</p>
                                                 <p>In the Editing Landscape task, you will also see the term <span class="Emphasis">Landscape Mask</span> used. Landscape Mask will constrain your edits to a specific area.</p>
-                                                <p>While we use different terms, <span class="Emphasis">Area of Interest</span> and <span class="Emphasis">Landscape Mask</span> function in the same way. Consider for example a scenario with a landscape called ‘Shady Basin’ and a treatment unit designated by a shapefile ‘Unit A’. In Editing, you would select Shady Basin as your landscape, and use Landscape Mask dropdown menu to constrain your edits to ‘Unit A’. In modeling fire behavior, you would select your edited landscape, and use the Area of Interest dropdown menu to constrain your modeling to Unit A.</p>
+                                                <p>While we use different terms, <span class="Emphasis">Area of Interest</span> and <span class="Emphasis">Landscape Mask</span> function in the same way. Consider for example a scenario with a landscape called ‘Shady Basin’ and a treatment unit designated by a shapefile ‘Unit A’. In Editing, you would select Shady Basin as your landscape, and use Landscape Mask drop-down menu to constrain your edits to ‘Unit A’. In modeling fire behavior, you would select your edited landscape, and use the Area of Interest drop-down menu to constrain your modeling to Unit A.</p>
                                                 <h2>Shapefile, Polygon, and Mask</h2>
                                                 <p><span class="Emphasis">Shapefile</span>, <span class="Emphasis">Shape</span>, <span class="Emphasis">Polygon</span>, and <span class="Emphasis">Mask</span> are used in Map Studio to refer to shapefiles.</p>
                                                 <ul>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://youtu.be/RbRqkSNauX8" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/ViewSplitMapLocation.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_pick_landscape.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_model_inputs.png" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tumapcompare.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutswipe.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/summery_report_bttn08012017.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/highchart_column080117.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/report_download_08012017.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://youtu.be/RbRqkSNauX8" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/ViewSplitMapLocation.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_pick_landscape.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/RuleEditingWarning.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_model_inputs.png" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
+    <Link
+      Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tumapcompare.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/tutorial_1_comparison/tutswipe.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/summery_report_bttn08012017.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/highchart_column080117.png" />
+    <Link
+      Url="Content/Resources/Images/treatment_compare/report_download_08012017.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="Compare" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Comparing"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+    <IndexCacheEntry
+      Term="Comparing Landscapes"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Develop Treatment Alternative"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="Treatment Alternatives"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

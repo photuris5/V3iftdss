@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1440" MadCap:lastWidth="1235">
+    <head>
+    </head>
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Double check that your landscape is selected</li>
+            <li>Select a treatment or disturbance.</li>
+            <div class="notificationTip">
+                <p>If you hover your mouse over the “Light Thinning; Pile Burning” it will give you the details on what the rule represents. They are also listed in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm">Treatment Rule Background Topic</a></p>
+            </div>
+            <li> Use the radio buttons (if applicable) to further specify treatment details.</li>
+            <li>Select the time since disturbance.</li>
+            <li>(Optional) select a landscape mask to constrain your rule application to a specific area.</li>
+            <li>
+                <p>Click the <span class="UIcomponent">Add to Rules</span> button</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" style="width: 606px; height: 376px;" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>After clicking the <span class="UIcomponent">Add to Rules</span> button, a notification appears to confirm the rule had been added. You can continue to add rules before saving your landscape. Rules are implemented in the order you add them, for further detail see the <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Considerations Topic.</a></li>
+            <li>Once you are finished editing, scroll to the bottom of the screen, name the landscape so its easy to see what treatment it represents (e.g. GC12_Lt_Thn_PileRx_1yr), and click <span class="UIcomponent">Save New Landscape</span>.</li>
+            <div class="notificationTip">
+                <p>It is recommended to keep the landscape names around 30 characters in length for later reporting steps to run smoothly in the <MadCap:variable name="General.ProductName"></MadCap:variable> system.</p>
+            </div>
+            <li>
+                <p>Once the new landscape is saved, a notification will appear at the top of the screen that confirms it has been successfully submitted. From here you can continue the next steps in the comparison process, or select and edit another landscape.</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/dta_edit_rule_save_alternate.png" alt="you will recieve a message confirming your edit rule has been saved" style="width: 654px; height: 275px;" class="borderlist">
+                    </img>
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

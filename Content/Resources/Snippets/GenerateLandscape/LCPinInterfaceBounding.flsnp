@@ -17,8 +17,8 @@
             <div class="notificationNote">
                 <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
             </div>
-            <li>Choose the version of LANDFIRE data you would like to use from the dropdown list</li>
-            <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file from the dropdown list.</li>
+            <li>Choose the version of LANDFIRE data you would like to use from the drop-down list</li>
+            <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file from the drop-down list.</li>
             <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />.</li>
             <li>Select the folder where you would like to store your landscape file, or click <span class="UIcomponent">+ Folder</span> to create and name a new folder to place your landscape file. </li>
             <li>Click <span class="UIcomponent">Create</span> to generate your landscape file.</li>

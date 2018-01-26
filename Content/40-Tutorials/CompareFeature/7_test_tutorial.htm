@@ -7,17 +7,23 @@
         <p>In this hypothetical scenario, we have been tasked with altering LANDFIRE data in <MadCap:variable name="General.ProductName" /> to reflect the current landscape, and compare the potential effect of two fuel treatment alternatives on fire behavior under 97th percentile weather conditions for the site. </p>
         <p>This tutorial walks through the steps of creating, evaluating, and comparing fuels treatments on an example landscape. We assume you have just logged into IFTDSS for the first time, and will proceed through these operations from start to finish. In this tutorial you will:</p>
         <ol>
-            <li><a href="1_ProjectBegin.htm" target="_blank" title="Jump to beginning a project" alt="Jump to beginning a project">Begin a project
+            <li>
+                <a href="1_ProjectBegin.htm" target="_blank" title="Jump to beginning a project" alt="Jump to beginning a project">Begin a project
 				</a>
             </li>
-            <li><a href="2_CreateLCP.htm" target="_blank" title="Jump to creating a landscape" alt="Jump to creating a landscape">Create a landscape</a>
+            <li>
+                <a href="2_CreateLCP.htm" target="_blank" title="Jump to creating a landscape" alt="Jump to creating a landscape">Create a landscape</a>
             </li>
-            <li><a href="3_Edit.htm" target="_blank">Evaluate the landscape and edit it to reflect the current conditions on the ground using the Landscape Evaluation stage of the Planning Cycle</a><![CDATA[  ]]></li>
-            <li><a href="4_IdPriority.htm" target="_blank" title="Jump to identifying a priority treatment area" alt="Jump to identifying a priority treatment area">Identify a priority treatment area using the Auto97th fire behavior summary and examining wildland urban interface areas in <span class="UIcomponent">Map Studio</span></a>
+            <li>
+                <a href="3_Edit.htm" target="_blank">Evaluate the landscape and edit it to reflect the current conditions on the ground using the Landscape Evaluation stage of the Planning Cycle</a><![CDATA[  ]]></li>
+            <li>
+                <a href="4_IdPriority.htm" target="_blank" title="Jump to identifying a priority treatment area" alt="Jump to identifying a priority treatment area">Identify a priority treatment area using the Auto97th fire behavior summary and examining wildland urban interface areas in <span class="UIcomponent">Map Studio</span></a>
             </li>
-            <li><a href="5_treatmentPoly.htm" target="_blank" title="Jump to creating treatment polygons" alt="Jump to creating treatment polygons">Create treatment polygons in <MadCap:variable name="General.MapStudio" /></a>
+            <li>
+                <a href="5_treatmentPoly.htm" target="_blank" title="Jump to creating treatment polygons" alt="Jump to creating treatment polygons">Create treatment polygons in <MadCap:variable name="General.MapStudio" /></a>
             </li>
-            <li><a href="6_Compare.htm" target="_blank" title="Jumo to simulate fuels treatments for comparison" alt="Jumo to simulate fuels treatments for comparison">Simulate fuels treatments and compare the predicted effects on fire behavior using the Develop Treatment Alternatives task in the Strategic Planning stage of the planning cycle</a><![CDATA[
+            <li>
+                <a href="6_Compare.htm" target="_blank" title="Jumo to simulate fuels treatments for comparison" alt="Jumo to simulate fuels treatments for comparison">Simulate fuels treatments and compare the predicted effects on fire behavior using the Develop Treatment Alternatives task in the Strategic Planning stage of the planning cycle</a><![CDATA[
 			]]><p>We provide all the information needed to complete this tutorial; However, you may choose to use your own area or files as well.</p><p><img src="../../Resources/Images/tutorial_1_comparison/tutswipe.png" alt="swiping between two layers on the the map" style="width: 911px; height: 392px;" title="Jump to image for swiping between two layers on the map" class="border" /></p><div class="notificationTip"><p>If you are unfamiliar with I<MadCap:variable name="General.ProductName" />, we recommend watching the <a href="https://www.youtube.com/watch?v=Io7P5A06bT0" target="_blank" title="Jump to IFTDSS video tour" alt="Jump to IFTDSS video tour">4 minute tour</a> to familiarize yourself with how <MadCap:variable name="General.ProductName" /> is laid out.</p></div></li>
         </ol>
         <h1>Beginning a Project</h1>
@@ -66,10 +72,10 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Choose the <span class="UIcomponent">Starting Landscape</span> you want to edit, HaypressCrk LF2012 Unedited</li>
-            <li>View the Add User Created Edit Rule options by selecting the dropdown arrow to the far right of the <span class="UIcomponent">Add User&#160;Created Edit Rule</span> heading.</li>
+            <li>View the Add User Created Edit Rule options by selecting the drop-down arrow to the far right of the <span class="UIcomponent">Add User&#160;Created Edit Rule</span> heading.</li>
             <li>Specify the conditions you would like to select in the fields below <span class="UIcomponent">Where these conditions exist</span>. In this example we have selected 'Fuel Model' as the Attribute, 'is equal to' as the Operator and fire behavior fuel model '165 (TU5)' as the Value. This selected all TU5 fuel modeled areas across the landscape.</li>
             <li>Specify the conditions you would like to change by populating the fields below <span class="UIcomponent">Modify the following values</span>. In this example we have selected 'Canopy Cover' as the Attribute, 'decrease by' as the Operator, and '5' (for 5 percent) as the Value. For all TU5 fuel modeled areas, the application decreases the canopy cover by 5 percent. </li>
-            <li>The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) dropdown allows you to select a shapefile  these edits will be contained. We will leave this field blank, which will apply our edit to the entire landscape.</li>
+            <li>The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) drop-down allows you to select a shapefile  these edits will be contained. We will leave this field blank, which will apply our edit to the entire landscape.</li>
             <li>When you are ready to apply this rule click <span class="UIcomponent">Add to Rules</span>. Notice the rule has been added to the list, and the order noted. You can delete rules before saving by using the delete button <img src="../../Resources/Images/buttons_general/button_delete.png" alt="delete button" title="Image of the Delete Button" /> to the right of each rule. </li>
             <div>
                 <div class="notificationImportant">
@@ -175,7 +181,7 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Select HaypressCrk LF2012 EC as our starting landscape. </li>
-            <li>Use the <span class="UIcomponent">Add Default Fuels Treatment / Disturbance Edit Rule</span> dropdown</li>
+            <li>Use the <span class="UIcomponent">Add Default Fuels Treatment / Disturbance Edit Rule</span> drop-down</li>
             <li> Select a Treatment Type of 'Wildland Fire'</li>
             <li>Make sure 'low severity' is selected</li>
             <li>For Time Since Treatment, select '2-5 years'. </li>
@@ -193,7 +199,7 @@
         <div class="notificationNote">
             <p>Don't worry about losing progress, you can navigate back to the comparison steps later and your data will remain. </p>
         </div>
-        <p>Select 'HaypressCrk LF2012 EC - Auto97th', and <span class="UIcomponent">View Input</span> from the dropdown. This will take you to a page displaying wind, crown fire inputs, and initial fuel moistures used to model the behavior during the auto97th summary. When you have these values, navigate back to the comparison task and select Haypress as your landscape again. If you wait a couple seconds you will see green checkmarks appear as <MadCap:variable name="General.ProductName" /> retrieves the data. </p>
+        <p>Select 'HaypressCrk LF2012 EC - Auto97th', and <span class="UIcomponent">View Input</span> from the drop-down. This will take you to a page displaying wind, crown fire inputs, and initial fuel moistures used to model the behavior during the auto97th summary. When you have these values, navigate back to the comparison task and select Haypress as your landscape again. If you wait a couple seconds you will see green checkmarks appear as <MadCap:variable name="General.ProductName" /> retrieves the data. </p>
         <div class="notificationNote">
             <p>You may double check this by clicking the <span class="UIcomponent">Run Model</span> tab, which will list all the available landscapes, this should include the two edited treatment alternatives we created.</p>
         </div>
@@ -270,7 +276,7 @@
         <p>Using the <span class="UIcomponent">Swipe</span> tool, you can swipe back and forth between layers:</p>
         <p>For example, turn off all layers except the two model outputs for 'Modeled Output: HaypressCrk LF2012 EC&#160;Rx Low 4yrs', and </p>
         <p>'Model Output:&#160;HaypressCrk LF2012EC'.</p>
-        <p>Make sure the same feature in each one is selected (in this case flame length). Select the <span class="UIcomponent">Swipe</span> tool <img src="../../Resources/Images/mapstudio/button_slider.png" alt="swipe tool button" /> in the top right of the map interface. In the tool dropdown, select the EC layer, which will place the EC at the top of the slider (the other layer will be on the bottom).</p>
+        <p>Make sure the same feature in each one is selected (in this case flame length). Select the <span class="UIcomponent">Swipe</span> tool <img src="../../Resources/Images/mapstudio/button_slider.png" alt="swipe tool button" /> in the top right of the map interface. In the tool drop-down, select the EC layer, which will place the EC at the top of the slider (the other layer will be on the bottom).</p>
         <p>
             <img src="../../Resources/Images/tutorial_1_comparison/tutswipe.png" alt="swiping between two layers in the the map" style="width: 1113px; height: 479px;" class="border" />
         </p>

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
+    <Url Source="Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Url Source="Resources/Snippets/AboutIFTDSS/Account Setup.flsnp" />
     <Url Source="Resources/Snippets/MapStudio/Shapefile_Save_multiple.flsnp" />
     <Url Source="Resources/Snippets/AboutIFTDSS/Help.flsnp" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
     <Url Source="Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Url Source="Resources/Snippets/AreaOfInterest.flsnp" />
-    <Url Source="Resources/Snippets/EditLandscapeRules/RuleEditingWarningRulOrdr.flsnp" />
-    <Url Source="Resources/Snippets/EditRuleOrdering/BothRules3.flsnp" />
 </UrlList>

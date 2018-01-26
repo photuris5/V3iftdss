@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="5636" MadCap:lastWidth="809">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="6488" MadCap:lastWidth="1719">
     <head>
     </head>
     <body>
@@ -9,7 +9,6 @@
             <img src="../../Resources/Images/Behavior/behavior_from_map03062017.png" alt="from the modeling playground select 'landscape fire behavior' from the model drop down menu" style="width: 807px; height: 199px;" class="border" />
         </p>
         <h2>Generating the Fire Behavior Model</h2>
-        <p>&#160;</p>
         <p>
             <img src="../../Resources/Images/Behavior/firebehavior_output03062017.png" alt="flame length map showing a landscape with cooler colors indicating low flame lengths and warmer colors indicating higher flame lengths" style="width: 525px; height: 321px;" class="border" />
         </p>
@@ -22,28 +21,64 @@
             <li>Crown State (crown fire activity, No Fire, Surface Fire, Passive Fire)</li>
         </ul>
         <p>Modeling outputs will be stored in <span class="UIcomponent">Modeling Playground</span>, where they may be added to <MadCap:variable name="General.MapStudio" />, or used to generate a summary report containing tables, charts, and visual representations of your model outputs.</p>
-        <p>To generate the fire behavior model:</p>
-        <MadCap:snippetBlock src="../../Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+        <p>To Generate your Landscape Fire Behavior Model:</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>creating a new landscape from within the run interface</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Name Your Model and Choose a Landscape</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../../Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp">
+                </MadCap:snippetBlock>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>or creating a new landscape from within <MadCap:variable name="General.MapStudio" /></MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Create a New Landscape if Needed</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../../Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+                <p>If you don't have an existing landscape, you can create one here.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Create a New Landscape from Within the Run Interface</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp">
+                        </MadCap:snippetBlock>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>or Creating a New Landscape from Within <MadCap:variable name="General.MapStudio"></MadCap:variable></MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <MadCap:snippetBlock src="../../Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp">
+                        </MadCap:snippetBlock>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-		<MadCap:snippetBlock src="../../Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
-		<MadCap:snippetBlock src="../../Resources/Snippets/Behavior/3_windspeed.flsnp" />
-		<MadCap:snippetBlock src="../../Resources/Snippets/Behavior/4_crownfire.flsnp" />
-		<MadCap:snippetBlock src="../../Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
-		<MadCap:snippetBlock src="../../Resources/Snippets/Behavior/6_save.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Populating Model Parameters</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Once your landscape is selected, populate the model parameters:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Specify windspeed, in miles per hour, at 20 feet above the ground or above the vegetation (allowed values 0-100 mph). Enter wind direction as the direction the wind is blowing from (in degrees clockwise from north, with north being 0 or 360 degrees). Alternatively you may enter -1 for upslope wind, or -2 for downslope wind.</li>
+                    <li>Specify a <a href="FlamMapCrowns.htm">crown fire calculation method</a>, and the foliar moisture content (in percent).</li>
+                    <li>Specify fuel moisture, in percent, for:<ul><li>1 hour fuels (1hr FM) - allowed values 2-100</li><li>10 hour fuels (10hr FM) - allowed values 2-100</li><li>100 hour fuels (100hr FM) - allowed values 2-100</li><li>Herbaceous fuels (Herb) - allowed values 30-250</li><li>Live Woody fuels (WoodyFM) - allowed values 60-200</li><li>If you would like to specify fuel moisture by fuel model, you may do so by adding rows, click <span class="UIcomponent">+ add row</span>. This will add a new line. Using the drop down list, choose a fuel model, then specify the fuel moisture values. You may repeat this as many times as needed. </li></ul><div>If you choose to only populate one row, those fuel moistures will be applied to all fuel models in your landscape.For more guidance on choosing fuel moistures see the <a href="../../00-Concepts/Estimating Fuel Moistures.htm" target="_blank">Estimating Fuel Moistures Topic</a>.<a name="LFBSave"></a></div></li>
+                    <li>
+                        <p>When all parameters are complete, click the Save and Run button.</p>
+                        <p>
+                            <img src="../../Resources/Images/Behavior/add_inputs04072017.png" alt="dropdown boxes will contain fields for wind, crown fire, and fuel moisture inputs" style="width: 629px; height: 314px;" class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                </ol>
+                <div class="notificationTip">
+                    <p>All saved runs are stored in the same folder as your selected landscape, or in the ‘Playground folder’ if a new landscape is created but no folder specified.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>

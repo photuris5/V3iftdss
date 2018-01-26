@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3381" MadCap:lastWidth="2255">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="2834" MadCap:lastWidth="1167">
     <head>
     </head>
     <body>
         <h1>FTEM Frequently Asked Questions</h1>
-        <p class="comment" MadCap:conditions="General.DeveloperNotes">[Last Updated 10/6/17 - KE, LM]</p>
+        <p class="comment" MadCap:conditions="General.DeveloperNotes">[Last Updated 01/08/18 - KE, LM https://docs.google.com/document/d/1eoK0JMPc3qLcTFZy5zrsjK2-YYAftXESm0xDqfrqaaQ/edit ]</p>
         <h2>About FTEM&#160;Policy</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
@@ -64,19 +64,26 @@
                 <MadCap:dropDownHotspot>Where is the Wildfire data coming from?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Wildfire point data is imported into FTEM via IRWIN (Integrated Reporting of Wildland-Fire Information), a service that acts as a real time conduit for fire data between the various wildland fire applications. Wildfire perimeter data are pulled from GeoMAC (Geospatial Multi Agency Coordination), an application that is updated daily based upon input from incident intelligence sources.  <MadCap:conditionalText MadCap:conditions="General.DeveloperNotes"><span style="background-color: #ffff00;">The FTEM application XXX</span></MadCap:conditionalText></p>
+                <p>Wildfire point data are imported into FTEM via IRWIN (Integrated Reporting of Wildland-Fire Information), a service that acts as a real time conduit for fire data between the various wildland fire applications. Wildfire perimeter data are pulled from GeoMAC (Geospatial Multi Agency Coordination), an application that is updated daily based upon input from incident intelligence sources. The FTEM&#160;Application is updated daily to incorporate fires reaching controlled status from Integrated Reporting of Wildland-Fire Information (IRWIN)&#160;and GeoMAC.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>How did you determine the what treatments potentially interacted with a fire?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Why do I&#160;only see a point to represent my Wildfire?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Within FTEM, there exist both point and perimeter wildfires.  A point wildfire contains a the latitude and longitude of the point of origin as well as a size in acres, but contains no other information to define where the fire burned.  A perimeter wildfire contains a shape of the perimeter in addition to the point of origin.  The same is true for treatments.  That is, some treatments only contain a point of origin and size while other treatments include a shape as well to define their extent.</p>
-                <p>For wildfires represented by a point, an algorithm takes the reported acreage and converts that acreage to an ellipse whose length is 1.5 times its width and whose area is equal to the size of the fire.  An ellipse was used as it is a better approximation of a fire perimeter, compared to a circle. A circle with a radius that is 1.2 times longer than the length is placed on top of this ellipse.  All treatments that fall within this circular area are added to the Treatments tab and highlighted in the map as interactions when you select a fire.  At minimum, a fire point buffer is 10 acres. A user can increase the radius of the buffer to 25,000 meters (X acres) by using the “Add Treatments” button within the Treatments tab</p>
-                <p>For wildfires with an associated perimeter, a buffer is used to determine the treatment interactions.  Each fire perimeter is initially buffered by 500 meters. For treatments represented by a point, the treatment is included in the Treatments tab and highlighted in the map when a fire is selected, if the point falls within the buffered perimeter.  For treatments represented by a polygon, the treatment is included if the polygon intersects the buffered perimeter. A user can increase the buffer size to 1,500 meters to locate more distant treatments by using the “Add Treatments” button within the Treatments tab.</p>
-                <p>For a wildfire that is represented by both a point and a perimeter, FTEM will use the perimeter to generate the treatments interacting with the fire if a fire.</p>
-                <p>Regardless of how a treatment interaction is generated, it is up to the user to determine what treatments to move to the monitor tab within the FTEM application.</p>
+                <p>(This is the Drop-down text)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How did you determine what treatments potentially interacted with a fire?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Within the FTEM application, there exist both point and perimeter wildfires.  A point wildfire contains a the latitude and longitude of the point of origin as well as a size in acres, but contains no other information to define where the fire burned.  A perimeter wildfire contains a shape of the perimeter in addition to the point of origin.</p>
+                <p>For wildfires with an associated perimeter, a 500-meter buffer is applied to define the area within which treatments are added to the Treatments tab and highlighted in the map as interactions when a fire is selected.</p>
+                <p>For wildfires represented by a point, an algorithm takes the reported acreage and converts that acreage to an ellipse whose length is 1.5 times its width and whose area is equal to the reported size of the fire.  An ellipse was used as it is a better approximation of a fire perimeter, compared to a circle. A circle with a radius of 1.2 times the length of the ellipse is used to define the area within which treatments are added to the Treatments tab and highlighted in the map as interactions when you select a fire.</p>
+                <p>If a wildfire is represented by both a point and a perimeter, the FTEM application will use the perimeter buffer regardless of the buffer type,  it is up to the user to determine which treatments to move to the monitor tab within the FTEM application.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -96,7 +103,7 @@
                 <ul>
                     <li>The treatment has not been entered into the official system of record for your agency; NFPORS for all Department of Interior agencies and FACTS for the U.S. Forest Service</li>
                     <li>FTEM treatment data has not yet been updated.  FTEM treatment data will be automatically updated from FACTS and NFPORS on a weekly* basis.<div>*After weekly automatic treatment data updates are monitored for success, updates may occur on a daily basis to better integrate with any changes users perform in the systems of record.</div></li>
-                    <li>Filtering on FACTS data according to the FTEM business rules for U.S. Forest Service.  FACTS data has been filtered using the following logic:<ul><li>If a point or poly has the same SUID, only display those points or polys with the most recent Actual Completion date.</li><li>If a point or poly has the same SUID and same Actual Completion Date, filter by Treatment Category. The order of priority for treatment categories is 1) Fire, 2) Mechanical, 3) Other, and 4) Preparation for Treatment.</li><li>If a point or poly has the same SUID, same Actual Completion date, and same Treatment Category, filter by Activity Code. The point or poly with the smallest numerical Activity Code will be given priority.</li><li>If a point or poly has the same SUID, same Actual Completion Date, same Treatment Category, and same Activity Code, the data will not be filtered.</li></ul></li>
+                    <li>Filtering on FACTS polygon data according to the FTEM business rules for U.S. Forest Service.  FACTS data has been filtered using the following logic:<ul><li>If a point or poly has the same SUID, only display those points or polys with the most recent Actual Completion date.</li><li>If a point or poly has the same SUID and same Actual Completion Date, filter by Treatment Category. The order of priority for treatment categories is 1) Fire, 2) Mechanical, 3) Other, and 4) Preparation for Treatment.</li><li>If a point or poly has the same SUID, same Actual Completion date, and same Treatment Category, filter by Activity Code. The point or poly with the smallest numerical Activity Code will be given priority.</li><li>If a point or poly has the same SUID, same Actual Completion Date, same Treatment Category, and same Activity Code, the data will not be filtered.</li></ul></li>
                 </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -156,6 +163,14 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>(Content TBD)</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What file types can I upload into FTEM as attachments?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Using the Add Attachments button, users can upload MS Word documents, PDFs, JPGs,GIFs, and PNGs.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>

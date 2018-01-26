@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/landscapesumm/OpenReport2.png" />
+    <Url Source="Resources/Images/landscapesumm/get_to_summary.png" />
+    <Url Source="Resources/Images/landscape_edits/naming_and_layout2.png" />
+    <Url Source="Resources/Images/treatment_compare/user_rule_saving.png" />
+    <Url Source="Resources/Images/mapstudio/add_to_map.png" />
+    <Url Source="Resources/Images/mapstudio/local_shapefiles.png" />
+    <Url Source="Resources/Images/mapstudio/button_addshapefile.png" />
+    <Url Source="Resources/Images/getting_started/forgotpassword.png" />
+    <Url Source="Resources/Images/FTEM/grant_role_access.png" />
+    <Url Source="Resources/Images/FTEM/grant_agency_roles.png" />
+    <Url Source="Resources/Images/FTEM/agency_roles_table.png" />
+    <Url Source="Resources/Images/FTEM/access_userlist.png" />
+    <Url Source="Resources/Images/FTEM/ftem_request_email.png" />
+    <Url Source="Resources/Images/FTEM/grantuser_req.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image23.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image10.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image4.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image1.png" />
     <Url Source="Resources/Images/mapstudio/button_landscapetools.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image16.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image14.png" />
-    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image11.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image18.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image6.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image7.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image2.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image8.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image22.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image15.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image9.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image19.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image21.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image3.png" />
 </UrlList>

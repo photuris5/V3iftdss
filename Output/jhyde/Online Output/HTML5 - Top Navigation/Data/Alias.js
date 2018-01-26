@@ -10,7 +10,6 @@ xmlAliasData += '    <Map Name=\"UnitsofMeasure\" Link=\"00-concepts/unitsofmeas
 xmlAliasData += '    <Map Name=\"EstLiveFuelMoisture\" Link=\"00-concepts/estlivefuelmoisture.htm\" ResolvedId=\"1013\" />';
 xmlAliasData += '    <Map Name=\"IFTDSSInputs\" Link=\"00-concepts/iftdssinputs.htm\" ResolvedId=\"1016\" />';
 xmlAliasData += '    <Map Name=\"AccountSetup\" Link=\"00-concepts/accounts/accountsetup.htm\" ResolvedId=\"1022\" />';
-xmlAliasData += '    <Map Name=\"Alerts\" Link=\"00-concepts/alerts.htm\" ResolvedId=\"1023\" />';
 xmlAliasData += '    <Map Name=\"GettingHelp\" Link=\"00-concepts/gettinghelp.htm\" ResolvedId=\"1024\" />';
 xmlAliasData += '    <Map Name=\"NavigatingIFTDSS\" Link=\"00-concepts/navigatingiftdss.htm\" ResolvedId=\"1025\" />';
 xmlAliasData += '    <Map Name=\"WhyIFTDSS\" Link=\"00-concepts/whyiftdss.htm\" ResolvedId=\"1029\" />';
