@@ -1,5 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/mapstudio/add_layers_added_refs_available.png" />
+    <Url Source="Resources/Images/mapstudio/add_layers_add_references.png" />
+    <Url Source="Resources/Images/mapstudio/add_layers_shapesavailable.png" />
+    <Url Source="Resources/Images/mapstudio/add_layers_checkbox_mylayers.png" />
+    <Url Source="Resources/Images/mapstudio/add_layers_mylayers.png" />
     <Url Source="Resources/Images/getting_started/MyWorkspace.png" />
     <Url Source="Resources/Images/FTEM/symbology/wildfire_poly.png" />
     <Url Source="Resources/Images/landscapesumm/OpenReport2.png" />
@@ -15,9 +20,4 @@
     <Url Source="Resources/Images/FTEM/agency_roles_table.png" />
     <Url Source="Resources/Images/FTEM/access_userlist.png" />
     <Url Source="Resources/Images/FTEM/ftem_request_email.png" />
-    <Url Source="Resources/Images/FTEM/grantuser_req.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image23.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image10.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image4.png" />
-    <Url Source="Resources/Images/tutorial_2_lcp/image1.png" />
 </UrlList>
