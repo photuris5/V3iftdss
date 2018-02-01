@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="consumption, emissions, and heat release (Consume):input parameters"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Duff Moisture (parameter):Consume"
+      Conditions=""
+      LocalConditions=""
+      Position="18" />
+    <IndexCacheEntry
+      Term="Eco Region (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="23" />
+    <IndexCacheEntry
+      Term="ecoregions:list of"
+      Conditions=""
+      LocalConditions=""
+      Position="26" />
+    <IndexCacheEntry
+      Term="Bailey’s ecoregions"
+      Conditions=""
+      LocalConditions=""
+      Position="27" />
+    <IndexCacheEntry
+      Term="FCCS Fuelbed number (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="46" />
+    <IndexCacheEntry
+      Term="Moisture of 1000-hr Fuels (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="51" />
+    <IndexCacheEntry
+      Term="Percent Canopy Loading Consumed (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="56" />
+    <IndexCacheEntry
+      Term="Percent Canopy Loading Consumed (parameter):default values"
+      Conditions=""
+      LocalConditions=""
+      Position="56" />
+    <IndexCacheEntry
+      Term="Percent Shrub Blackened (parameter)"
+      Conditions=""
+      LocalConditions=""
+      Position="67" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

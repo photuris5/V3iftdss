@@ -10,13 +10,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_measurement.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_measurement.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_esriArea.png" />
+      Url="Content/Resources/Images/mapstudio/measurement/button_esriArea.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_esriDist.png" />
+      Url="Content/Resources/Images/mapstudio/measurement/button_esriDist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_esriLocation.png" />
+      Url="Content/Resources/Images/mapstudio/measurement/button_esriLocation.png" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </Links>
@@ -26,13 +26,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_measurement.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_measurement.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_esriArea.png" />
+      Url="Content/Resources/Images/mapstudio/measurement/button_esriArea.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_esriDist.png" />
+      Url="Content/Resources/Images/mapstudio/measurement/button_esriDist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_esriLocation.png" />
+      Url="Content/Resources/Images/mapstudio/measurement/button_esriLocation.png" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </LongLinks>

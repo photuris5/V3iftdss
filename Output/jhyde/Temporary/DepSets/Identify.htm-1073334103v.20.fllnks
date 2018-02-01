@@ -6,23 +6,23 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/identifytool.png" />
+      Url="Content/Resources/Images/mapstudio/identify/identifytool.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/Identify_steps.png" />
+      Url="Content/Resources/Images/mapstudio/identify/Identify_steps.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/identifytool.png" />
+      Url="Content/Resources/Images/mapstudio/identify/identifytool.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/Identify_steps.png" />
+      Url="Content/Resources/Images/mapstudio/identify/Identify_steps.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

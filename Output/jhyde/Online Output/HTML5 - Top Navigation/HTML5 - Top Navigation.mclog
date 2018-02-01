@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2017 r3 Generated Online Output/HTML5 - Top Navigation.fltar" Date="2018-01-31T17:11:33.4117231-08:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2017 r3 Generated Online Output/HTML5 - Top Navigation.fltar" Date="2018-02-01T12:23:50.5329897-08:00">
     <Messages>Compiling target HTML5 - Top Navigation...
 Removing previously generated content...
 Error validating conditional expression: Unrecognized tag: General.FTEM Exlude
@@ -29,18 +29,7 @@ Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/20
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/20-Models/FFT/DigitalPhotoSeries.htm.
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/20-Models/FFT/FCCS.htm.
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/20-Models/FFT/FEPS.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/CreateLCP.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/ProjectBegin.htm.
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/CompareFeature/7_test_tutorial.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/0_Intro.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/1_ProjectBegin.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/2_CreateLCP.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/3_Edit.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/4_IdPriority.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/5_treatmentPoly.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/6_Compare.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/Copy of CompareFeature/7_test_tutorial.htm.
-Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/CreateLCP/CreateLCP.htm.
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/NWest_DTA/0_Introduction.htm.
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm.
 Excluded from output:file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Content/40-Tutorials/NWest_DTA/2_SummarizeAndAssess.htm.
@@ -594,7 +583,7 @@ Generating final output...
 Generated index.htm
 Saving result set...
 Ignored Compiler Warnings: 127
-Output generated in 44 second(s).
+Output generated in 42 second(s).
 
 Done
 Saving log to "C:\Users\jhyde\Documents\GitHub\V3iftdss\Output\jhyde\Online Output\HTML5 - Top Navigation\HTML5 - Top Navigation.mclog"

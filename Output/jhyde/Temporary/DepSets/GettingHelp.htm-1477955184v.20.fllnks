@@ -8,20 +8,31 @@
     <Link
       Url="Project/Advanced/Source.flfts" />
     <Link
-      Url="Content/Resources/Snippets/AboutIFTDSS/Help.flsnp" />
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/getting_started/help.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/in_app_help.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/Advanced/Source.flfts" />
     <Link
-      Url="Content/Resources/Snippets/AboutIFTDSS/Help.flsnp" />
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/getting_started/help.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/in_app_help.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags>
     <Tag

@@ -10,13 +10,13 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/show_landscape.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/layer_list_and_identify.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
     <Link
@@ -24,11 +24,11 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_adref.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
     <Link
       Url="Content/10-MapStudio/Functions/EditTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
     <Link
@@ -40,11 +40,11 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/view_report_on_map.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_SimOutput.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_SimOutput.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/auto97_flame_length.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment.png" />
     <Link
@@ -58,13 +58,13 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/show_landscape.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/layer_list_and_identify.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_identify.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
     <Link
@@ -72,11 +72,11 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_adref.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
     <Link
       Url="Content/10-MapStudio/Functions/EditTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
     <Link
@@ -88,11 +88,11 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/view_report_on_map.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_SimOutput.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_SimOutput.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/auto97_flame_length.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment.png" />
     <Link

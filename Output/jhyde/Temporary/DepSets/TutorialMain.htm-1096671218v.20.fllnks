@@ -24,7 +24,7 @@
     <Link
       Url="Content/40-Tutorials/Shorts/ProjectBegin.htm" />
     <Link
-      Url="Content/40-Tutorials/Shorts/CreateLCP.htm" />
+      Url="Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm" />
     <Link
       Url="Content/40-Tutorials/Shorts/LCPSummaryReport.htm" />
     <Link
@@ -66,7 +66,7 @@
     <Link
       Url="Content/40-Tutorials/Shorts/ProjectBegin.htm" />
     <Link
-      Url="Content/40-Tutorials/Shorts/CreateLCP.htm" />
+      Url="Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm" />
     <Link
       Url="Content/40-Tutorials/Shorts/LCPSummaryReport.htm" />
     <Link
@@ -111,7 +111,7 @@
   <FileTags />
   <AllConditions>
     <Condition
-      Tag="General.QA ONLY" />
+      Tag="General.Exclude" />
   </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

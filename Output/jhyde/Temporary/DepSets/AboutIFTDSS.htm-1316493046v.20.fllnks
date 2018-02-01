@@ -10,7 +10,11 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/IFTDSSBackground.flsnp" />
+      Url="http://www.firescience.gov/" />
+    <Link
+      Url="Content/pdfs/jfsp_fire_science_digest_7.pdf" />
+    <Link
+      Url="http://iftdss.sonomatech.com/" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </Links>
@@ -20,7 +24,11 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/IFTDSSBackground.flsnp" />
+      Url="http://www.firescience.gov/" />
+    <Link
+      Url="Content/pdfs/jfsp_fire_science_digest_7.pdf" />
+    <Link
+      Url="http://iftdss.sonomatech.com/" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </LongLinks>

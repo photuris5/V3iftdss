@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="5782" MadCap:lastWidth="3000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Starting a Project and Creating a Landscape</h1>
+        <h2>Using Folders and Landscapes in IFTDSS</h2>
+        <p><b>Project Folders:</b> There is no formal definition of the term “Project" in IFTDSS. Instead, the term “<span class="Emphasis">Project”</span> refers to the collection of landscape files, model runs, and associated data for your specific area. Many tasks in IFTDSS relate back to these landscape files and other information, so it is recommended that you start by creating a <span class="Emphasis">Folder</span> to keep track of your files.</p>
+        <div class="notificationTip">
+            <p>Tip: Stay organized by creating a Folder each time you begin a project for analysis.  Logical naming conventions for Folders include the geographic area being analyzed.</p>
+        </div>
+        <p><b>Landscapes:</b> In IFTDSS, a landscape file refers to the spatial file that contains vegetation and fuels data.  The user defines the extent of the landscape which should be large enough to cover the entire analysis area.  IFTDSS currently generates all landscape files at 30m resolution and can accommodate large landscapes if necessary.  The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles) but if you try that now, your instructor will not be pleased. If you follow along with your own landscape, limit the size to under 100,000 acres to reduce the processing times.</p>
+        <p>If you do not specify a folder to store data in IFTDSS, files will be saved to the “Playground” Folder by default. Currently, files cannot be moved from one folder to another.</p>
+        <div class="notificationNote">
+            <p>Tutorial Information:</p>
+            <p>If you wish to follow along replicating the exact steps captured by these tutorials, we have included that information (such as landscape coordinates, model inputs, etc), in blue highlighting throughout.</p>
+            <p>You may also follow the general steps in these tutorials using your own landscape, in which case you may ignore the blue highlighted information.</p>
+        </div>
+        <h2>Create a Folder</h2>
+        <p>Folders can be created directly in <span class="UIcomponent">My Workspace</span>. They can also be created while working in IFTDSS whenever you create a new landscape or shapefile, just look for the <span class="UIcomponent">Add New Folder</span> button whenever you are required to specify a folder.</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>&#160;</p>
+        <p>Landscapes in <MadCap:variable name="General.ProductName" /> can be created in multiple ways. For example, you can create a landscape in <MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">Landscape Tools</span> widget <img src="../../Resources/Images/mapstudio/overview/button_landscapetools.png" alt="landscape tools button" />. You can also create a landscape from most of the <MadCap:variable name="General.ProductName" /> tasks, using the <span class="UIcomponent">Create Here</span> button as displayed in the example below.</p>
+        <p>
+            <img src="../../Resources/Images/getting_started/Landscape_create_here.png" alt="create here button" class="border" />
+        </p>
+        <p> For this example, we’ll create a new landscape using that <span class="UIcomponent">Create Here</span> button from the Landscape Summary Task in <MadCap:variable name="General.ProductName" />. This serves two purposes, to create a landscape, and to do so in the interface that allows you to easily create a landscape summary if you so choose (covered in the next tutorial).</p>
+        <p>To get to the Landscape Summary interface:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate to the <span class="UIcomponent">Planning Cycle</span> using the top navigation menu.</li>
+            <li>Select the <span class="UIcomponent">Landscape Evaluation</span> stage of the Planning Cycle.</li>
+            <li>
+                <p>Click the <span class="UIcomponent">Landscape Summary</span> task.</p>
+                <p> <img src="../../Resources/Images/getting_started/Landscape_create_2.png" alt="Landscape summary is accessed through 'landscape evaluation' from the cycle" class="borderlist" /></p>
+            </li>
+            <li>
+                <p>From the Landscape Summary page, click <span class="UIcomponent">Create Here</span>:</p>
+                <p>
+                    <img src="../../Resources/Images/getting_started/Landscape_create_3.png" alt="The create here button" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Next, you'll go through the steps of creating a landscape. As you go through the process below, use the following values:</p>
+        <ul>
+            <li>Location: Tahoe National Forest, location bounds in degrees:&#160;West: -120.8856 , East: -120.6044 , South: 39.4463  , North: 39.6149   </li>
+            <li>Landfire version: 2012</li>
+            <li>Fuel Model:&#160;Fuel Model 40</li>
+            <li>Landscape Name: HaypressCrkLf2012unedited</li>
+            <li>Folder:&#160;Specify or create: Haypress Creek Project</li>
+        </ul>
+        <div class="notificationTip">
+            <p>To help keep track of your data, we recommend including the LANDFIRE version in the name.</p>
+        </div>
+        <MadCap:snippetBlock src="../../Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+        <p>Once you click <span class="UIcomponent">Create</span>, you will be returned to the Landscape&#160;Summary task, and the field next to <span class="UIcomponent">My Landscapes</span>, displays the name of your newly created landscape, with an hourglass <img src="../../Resources/Images/buttons_general/hourglass.png" alt="hourglass icon" class="button" />next to it, indicating it is being created. Once created, the hourglass is replaced by a green checkmark. Use the <span class="UIcomponent">Refresh </span>button <img src="../../Resources/Images/buttons_general/button_refresh.png" alt="refresh" /> next to the landscape name to see the green checkmark.</p>
+        <p>
+            <img src="../../Resources/Images/lcp_gen_smmry/landscaperefresh.png" alt="Landscapes still being processed in IFTDSS often have a red hourglass next to their name" style="width: 827px; height: 418px;" class="border" />
+        </p>
+        <p>For the rest of your activities in <MadCap:variable name="General.ProductName" /> this landscape will be available in the folder you specified in <span class="UIcomponent">My Workspace</span>, and access it in drop-down menus throughout <MadCap:variable name="General.ProductName" />. </p>
+    </body>
+</html>

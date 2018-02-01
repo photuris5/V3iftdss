@@ -8,9 +8,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_clear.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_clear.png" />
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" />
     <Link
@@ -26,9 +26,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_clear.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_clear.png" />
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tut1_createshapefile.png" />
     <Link

@@ -10,19 +10,19 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_mylayers.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_checkbox_mylayers.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_checkbox_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_shapesavailable.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_shapesavailable.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_add_references.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_added_refs_available.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_adref.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/adding_reference_data.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/adding_reference_data.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </Links>
@@ -32,19 +32,19 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_mylayers.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_checkbox_mylayers.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_checkbox_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_shapesavailable.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_shapesavailable.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_add_references.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layers_added_refs_available.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_adref.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/adding_reference_data.png" />
+      Url="Content/Resources/Images/mapstudio/add_layer/adding_reference_data.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </LongLinks>

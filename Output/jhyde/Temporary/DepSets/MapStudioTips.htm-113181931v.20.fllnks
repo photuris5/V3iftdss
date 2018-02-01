@@ -8,9 +8,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileSaving.htm" />
   </Links>
@@ -18,9 +18,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileSaving.htm" />
   </LongLinks>

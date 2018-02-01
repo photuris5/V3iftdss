@@ -6,13 +6,15 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Content/Resources/Images/FlamMap5.jpg" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/41-References/ReferenceList.htm" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
@@ -23,6 +25,10 @@
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
   </Links>
   <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/FlamMap5.jpg" />
     <Link
@@ -36,8 +42,6 @@
     <Link
       Url="Content/41-References/ReferenceList.htm#Rothermel1991" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
@@ -50,9 +54,14 @@
   <Keywords>
     <IndexCacheEntry
       Term="FlamMap 5.0 Technical Documentation"
-      Conditions=""
+      Conditions="General.QA ONLY"
       LocalConditions=""
-      Position="4" />
+      Position="6" />
+    <IndexCacheEntry
+      Term="FlamMap 5.0 Technical Documentation"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="69" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />
@@ -65,7 +74,14 @@
   <FileTags />
   <AllConditions>
     <Condition
+      Tag="General.QA ONLY" />
+    <Condition
+      Tag="General.Prod ONLY" />
+    <Condition
       Tag="General.Exclude" />
   </AllConditions>
-  <Stylesheets />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Stylesheets>
 </CatapultFileLinkSet>

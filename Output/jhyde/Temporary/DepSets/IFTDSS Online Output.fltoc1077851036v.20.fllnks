@@ -40,7 +40,7 @@
     <Link
       Url="Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
+      Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
       Url="Content/10-PlanningCycle/StrategicPlanningAbout.htm" />
     <Link
@@ -56,13 +56,13 @@
     <Link
       Url="Content/20-Models/ModelsOverview.htm" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
-    <Link
       Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
     <Link
       Url="Content/10-MapStudio/Files/FBFMInfo.htm" />
     <Link
@@ -110,7 +110,7 @@
     <Link
       Url="Content/40-Tutorials/Shorts/ProjectBegin.htm" />
     <Link
-      Url="Content/40-Tutorials/Shorts/CreateLCP.htm" />
+      Url="Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm" />
     <Link
       Url="Content/40-Tutorials/Shorts/LCPSummaryReport.htm" />
     <Link

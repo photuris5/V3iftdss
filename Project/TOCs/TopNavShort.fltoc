@@ -254,7 +254,7 @@
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Creating a Landscape and Summarize"
-          Link="/Content/40-Tutorials/Shorts/CreateLCP.htm"
+          Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Landscape Summary Report"
@@ -410,7 +410,7 @@
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Creating a Landscape and Summarize"
-      Link="/Content/40-Tutorials/Shorts/CreateLCP.htm"
+      Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Landscape Summary Report"

@@ -10,9 +10,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/landscapetools_add.png" />
+      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/landscapetools_add2.png" />
+      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add2.png" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
@@ -28,9 +28,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/landscapetools_add.png" />
+      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/landscapetools_add2.png" />
+      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add2.png" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link

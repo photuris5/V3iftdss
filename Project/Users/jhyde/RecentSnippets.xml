@@ -4,7 +4,6 @@
     <Url Source="Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
     <Url Source="Resources/Snippets/AboutIFTDSS/Account Setup.flsnp" />
     <Url Source="Resources/Snippets/MapStudio/Shapefile_Save_multiple.flsnp" />
-    <Url Source="Resources/Snippets/AboutIFTDSS/Help.flsnp" />
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/7_compare and conclude.flsnp" />
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/6_compare and add.flsnp" />
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/5_DTA1.flsnp" />
@@ -12,12 +11,6 @@
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/3_AOI.flsnp" />
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/2_summarize and assess.flsnp" />
     <Url Source="Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
-    <Url Source="Resources/Snippets/Behavior/6_save.flsnp" />
-    <Url Source="Resources/Snippets/Behavior/5_fuelmoisture.flsnp" />
-    <Url Source="Resources/Snippets/Behavior/4_crownfire.flsnp" />
-    <Url Source="Resources/Snippets/Behavior/3_windspeed.flsnp" />
-    <Url Source="Resources/Snippets/Behavior/2_3_image_etc.flsnp" />
     <Url Source="Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
     <Url Source="Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
-    <Url Source="Resources/Snippets/AreaOfInterest.flsnp" />
 </UrlList>

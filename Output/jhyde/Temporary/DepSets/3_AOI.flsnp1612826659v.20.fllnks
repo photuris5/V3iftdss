@@ -10,9 +10,9 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
   </Links>
   <LongLinks>
     <Link
@@ -20,9 +20,9 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

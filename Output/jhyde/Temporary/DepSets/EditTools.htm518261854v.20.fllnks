@@ -8,23 +8,23 @@
     <Link
       Url="https://youtu.be/iwV6O8G-kQk" />
     <Link
-      Url="Content/Resources/Images/mapstudio/edit_tools1.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/edit_tools1.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_extent.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_extent.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_clear.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_clear.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_polygon.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_polygon.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Link
       Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
     <Link
@@ -36,23 +36,23 @@
     <Link
       Url="https://youtu.be/iwV6O8G-kQk" />
     <Link
-      Url="Content/Resources/Images/mapstudio/edit_tools1.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/edit_tools1.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_editTools.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_extent.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_extent.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_clear.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_clear.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_polygon.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_polygon.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_edittools_freehand.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Link
       Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
     <Link

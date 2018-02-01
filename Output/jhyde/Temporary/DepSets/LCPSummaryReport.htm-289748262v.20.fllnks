@@ -32,17 +32,17 @@
     <Link
       Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_basemapglry.png" />
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/SierraCity2.png" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Swipe.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
   </Links>
   <LongLinks>
     <Link
@@ -72,17 +72,17 @@
     <Link
       Url="Content/Resources/Images/landscapesumm/view_model_onMap.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_basemapglry.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_basemapglry.png" />
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/SierraCity2.png" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_landscapetools.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Swipe.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/button_slider.png" />
+      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
