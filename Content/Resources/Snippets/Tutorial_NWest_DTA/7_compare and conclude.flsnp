@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="7494" MadCap:lastWidth="1288">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="6373" MadCap:lastWidth="1219">
     <head>
     </head>
     <body>
@@ -9,7 +9,7 @@
         </p>
         <p>When the map opens click the <span class="UIcomponent">Compare on Map</span> button once more and open the <span class="UIcomponent">Layer List</span> to&#160;toggle between the comparison layers. </p>
         <p>Like before, select the model change layer to evaluate flame length reduction. Though we're curious about these changes to fire behavior and fuel models, this is only a comparison of the original untreated landscape with this new treated landscape. What you'll really want to know is how much of an effect this added treatment of low severity wildfire, or a broadcast burn, will have compared to just the light thinning and pile burn we applied earlier. You'll need to compare the first treatment to the second one to answer this.</p>
-        <p>To best compare these “treatments” (default disturbance edits) on the landscape, first use the <span class="UIcomponent">Swipe Tool</span>:</p>
+        <p>To best compare these “treatments” (default disturbance edits) on the landscape, first use the <span class="UIcomponent">Swipe widget</span>:</p>
         <p>
             <img src="../../Images/granite_crk_dta/dta2_newandoldbehavior.png" alt="add the two edited landscape files" class="border" style="width: 766px;height: 362px;">
             </img>
@@ -19,8 +19,8 @@
             <li>"GC12_Lt_Thn_PileRx_1yr" the first treatment of thinning and pile burning</li>
             <li>"GC12_Lt_Thn_PileRx_1yr_Rx_1Yr" the second treatment which follows the thin with a low severity burn.</li>
             <li>Make sure these layers are displayed at the top of the <span class="UIcomponent">Layer List</span> in this image the first treatment (thin and pile burn only) is the top layer, followed by the second treatment (thin and pile burn followed by a prescribed burn).</li>
-            <li>Click the <span class="UIcomponent">Swipe Tool</span>. </li>
-            <li>You can control the layers that appear in the <span class="UIcomponent">Swipe Tool</span> using the box in the top right of the map that appears once the <span class="UIcomponent">Swipe Tool</span> is clicked. The layer selected in this box will be the layer that appears in the top half of the slider, and hidden on the bottom half.</li>
+            <li>Click the <span class="UIcomponent">Swipe widget</span>. </li>
+            <li>You can control the layers that appear in the <span class="UIcomponent">Swipe widget</span> using the box in the top right of the map that appears once the <span class="UIcomponent">Swipe widget</span> is clicked. The layer selected in this box will be the layer that appears in the top half of the slider, and hidden on the bottom half.</li>
         </ol>
         <p>
             <img src="../../Images/granite_crk_dta/dta2_newoldbehavior_swipe.png" alt="swiping between fire behavior layers" class="border" style="width: 821px;height: 388px;">
@@ -36,7 +36,7 @@
             <li><span class="UIcomponent">Landscape Tools</span> <![CDATA[ ]]></li>
             <li>Select the two treatment layers</li>
             <li>Make sure these layers appear on the <span class="UIcomponent">Layer List</span></li>
-            <li>Click the <span class="UIcomponent">Swipe</span> Tool</li>
+            <li>Click the <span class="UIcomponent">Swipe</span> widget</li>
             <li>Set the layers to swipe.</li>
         </ol>
         <p>

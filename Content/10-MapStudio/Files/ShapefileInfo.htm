@@ -1,97 +1,200 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="12" MadCap:lastHeight="8376" MadCap:lastWidth="1679">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="13" MadCap:lastHeight="14814" MadCap:lastWidth="1102">
     <head>
         <meta name="description" content="Area of Interest" />
     </head>
     <body>
-        <h1> <MadCap:keyword term="area of interest" /><MadCap:keyword term="landscape mask" /><MadCap:keyword term="mask" /><MadCap:keyword term="polygon" /><MadCap:keyword term="shape" /><MadCap:keyword term="Shapefiles" /><MadCap:keyword term="Shapefile" /><MadCap:keyword term=".shp" /> About Shapefiles</h1>
-        <p>A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and disturbances. In <MadCap:variable name="General.ProductName" /> you will encounter several terms that refer to shapefiles. Different terms are used in different tasks to reflect the terminology common in the wildland fire community. Here is a brief overview of how these terms are used in IFTDSS.</p>
-        <ul>
-            <li><b><MadCap:keyword term="Area of Interest" />Area of Interest</b>: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis.</li>
-            <li><b>Landscape Mask</b>: This term is used in Landscape Editing to constrain the area your edits apply to.</li>
-            <li><b>Polygon, Shape, Shapefile</b>: These terms are used interchangeably throughout <MadCap:variable name="General.MapStudio" />.</li>
-        </ul>
-        <p>Shapefiles may be added to <MadCap:variable name="General.ProductName" /> by uploading a  .zip file containing the .shp, .shx, .dbf, and .prj files to <MadCap:variable name="General.MapStudio" />. When you add a shapefile, <MadCap:variable name="General.MapStudio" /> converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Generalize features for web display</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Shapefiles often contain large features with a lot of associated data. Smaller features with less data are often necessary for the shapefile to display properly over the web. Generalizing the features is one way to reduce the size of the shapefile and therefore improve web display. You can generalize the features using a desktop application such as ArcMap or you can have <MadCap:variable name="General.MapStudio"></MadCap:variable> do the generalization when you add the file to your map. Generalizing reduces the precision of the shapefile layer to approximately 1 meter in Web Mercator and will remove vertices within 10 meters in Web Mercator. This should maintain an informative and accurate display of your features while reducing the overall size of your data and allowing your layer to quickly display in the map.
+        <div MadCap:conditions="General.QA ONLY">
+            <h1> <MadCap:keyword term="area of interest" /><MadCap:keyword term="landscape mask" /><MadCap:keyword term="mask" /><MadCap:keyword term="polygon" /><MadCap:keyword term="shape" /><MadCap:keyword term="Shapefiles" /><MadCap:keyword term="Shapefile" /><MadCap:keyword term=".shp" /> About Shapefiles</h1>
+            <p>A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and disturbances. In <MadCap:variable name="General.ProductName" /> you will encounter several terms that refer to shapefiles. Different terms are used in different tasks to reflect the terminology common in the wildland fire community. Here is a brief overview of how these terms are used in IFTDSS.</p>
+            <ul>
+                <li><b><MadCap:keyword term="Area of Interest" />Area of Interest</b>: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis.</li>
+                <li><b>Landscape Mask</b>: This term is used in Landscape Editing to constrain the area your edits apply to.</li>
+                <li><b>Polygon, Shape, Shapefile</b>: These terms are used interchangeably throughout <MadCap:variable name="General.MapStudio" />.</li>
+            </ul>
+            <div class="notificationNote">
+                <p><b>Shapefile vs. Shape?</b>
+                </p>
+                <p>"Shapefiles" include both the geometric area, as well as accompanying data, these can be uploaded to <MadCap:variable name="General.ProductName" /> from your local machine, and are usually created in ArcMap and similar tools.</p>
+                <p>"Shapes" include only the geometric area, no associated data. These can be created in <MadCap:variable name="General.MapStudio" /> either by drawing or copying with <span class="UIcomponent">Create / Edit Shapes</span>. </p>
+                <p>Both shapes and shapefiles may be used as masks and areas of interest throughout <MadCap:variable name="General.ProductName" /></p>
+            </div>
+            <p>Shapefiles may be added to <MadCap:variable name="General.ProductName" /> by uploading a  .zip file containing the .shp, .shx, .dbf, and .prj files to <MadCap:variable name="General.MapStudio" />. When you add a shapefile, <MadCap:variable name="General.MapStudio" /> converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Generalize features for web display</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Shapefiles often contain large features with a lot of associated data. Smaller features with less data are often necessary for the shapefile to display properly over the web. Generalizing the features is one way to reduce the size of the shapefile and therefore improve web display. You can generalize the features using a desktop application such as ArcMap or you can have <MadCap:variable name="General.MapStudio"></MadCap:variable> do the generalization when you add the file to your map. Generalizing reduces the precision of the shapefile layer to approximately 1 meter in Web Mercator and will remove vertices within 10 meters in Web Mercator. This should maintain an informative and accurate display of your features while reducing the overall size of your data and allowing your layer to quickly display in the map.
 				</p>
-                <p>Generalizing doesn't work well on coincident polygon features intended for large-scale display because it will create some slivers in the polygons. For coincident polygons at large scales, you can choose to maintain the features if you have a relatively small amount of data, or if you have a large amount of data, you can publish a feature service to a GIS Server site. If you have publishing privileges in your organization, you can also create feature layers by publishing features.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Best practices for adding shapefiles</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <div class="notificationNote">
-                    <p><a name="zipshapefiles"></a>Shapefiles are added to <MadCap:variable name="General.MapStudio" /> as .zip files. The .zip file must contain the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</p>
-                </div>
-                <p>Shapefiles were originally created to perform geoprocessing on desktop apps. They are now supported in a number of web browser clients including <MadCap:variable name="General.MapStudio" />. There are some limits to what web browser clients can support.</p>
-                <p>Below are best practices for using shapefiles in  <MadCap:variable name="General.MapStudio"></MadCap:variable>:</p>
-                <ul>
-                    <li>Choose to generalize features for web display if you have a large amount of features intended to be displayed at small scales and you have not already generalized your vertices in ArcGIS Desktop.</li>
-                    <li>Create a .zip file that contains the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</li>
-                    <li>Store your shapefile directly in the root (the central directory) of the .zip archive and not in directories within the archive. If your .zip file viewer shows path information, the path should be blank.</li>
-                    <li>The name of the new layer is the same as the name of the .zip file you added. You can rename the file before adding to the map, or rename the layer once it is part of the map.</li>
-                    <li>Add standard compressed archive .zip files.</li>
-                    <li>Include no more than 1,000 shapefile features in your file.</li>
-                    <li>In some cases, when you attempt to add a file with fewer than 1,000 features, you see an error message that the shapefile is too big to add to the map. This occurs when the extracted data is too big to display in a web browser or the file is larger than 10 MB. Often, generalizing the features will reduce the overall size and allow the shapefile to be added to the map. If that doesn't work, you may need to create a feature service with ArcGIS Server. If you have publishing privileges in your organization, you can create feature layers by publishing features. You can try breaking up your features into multiple shapefiles, but this may result in a map that takes a long time to display.</li>
-                    <li>The shapefile should contain valid geometries. If you have ArcMap, you can use the Repair Geometry geoprocessing tool to correct invalid geometries in shapefiles.</li>
-                    <li>Include in the shapefile the accompanying .prj file in which the coordinate system of the data is defined. If you have ArcMap, you can define the coordinate system of a shapefile, which creates an appropriate .prj file for the shapefile.</li>
-                </ul>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Uploading and Saving Shapefiles for future use in <MadCap:variable name="General.ProductName" /></MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Limitations</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>The following limitations apply to using shapefiles in <MadCap:variable name="General.MapStudio" />:</p>
-                <ul>
-                    <li>Compression formats other than a .zip archive are not supported.</li>
-                    <li>Files containing more than 1,000 features cannot be added to a map.</li>
-                    <li>The shapefile must be less than 10 MB in size.</li>
-                    <li>The following features are not supported: multipatch or multipoint geometries, geometries that cross the dateline, or self-intersections in polygons. Shapefiles with these features cannot be added to a map.</li>
-                    <li>Shapefiles cannot be dragged directly onto <MadCap:variable name="General.MapStudio" />; you must use the <span class="UIcomponent">Add Shapefile</span> button in the <MadCap:variable name="General.MapStudio" />.</li>
-                </ul>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>
-                    <MadCap:keyword term="Deleting Shapefiles" />Deleting Shapefiles</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>A shapefile may be deleted if it is not used by any model, or editing rule in <MadCap:variable name="General.ProductName" />. To delete a shapefile in <span class="UIcomponent">My Workspace</span>, select the file and click the Delete button. A pop up box will ask you to confirm your deletion, click 'OK'. </p>
-                <div class="notificationImportant">
-                    <p>If a shapefile is used by any model, or editing rule in <MadCap:variable name="General.ProductName" /> you will not be able to delete it.</p>
-                </div>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <p MadCap:conditions="General.Exclude"><span class="comment">Added from https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm on 12/19/16 JH</span>
-        </p>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot><a name="AreasOfInterest"></a>Using Shapefiles in <MadCap:variable name="General.ProductName" /> for Areas of Interest and Landscape Masks</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>In <MadCap:variable name="General.ProductName"></MadCap:variable> you will encounter several terms that are applicable to <a href="#" target="_blank">shapefiles</a> (areas of interest). These terms all describe shapefiles, but are worded differently in different tasks to reflect the terminology common to those tasks in the wildland fire community. Here is a brief overview of how these terms are used in <MadCap:variable name="General.ProductName"></MadCap:variable>.</p>
-                <h2>
-                    <MadCap:keyword term="Area of Interest" />Area of Interest and Landscape Mask</h2>
-                <MadCap:snippetBlock src="../../Resources/Snippets/AreaOfInterest.flsnp" />
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+                    <p>Generalizing doesn't work well on coincident polygon features intended for large-scale display because it will create some slivers in the polygons. For coincident polygons at large scales, you can choose to maintain the features if you have a relatively small amount of data, or if you have a large amount of data, you can publish a feature service to a GIS Server site. If you have publishing privileges in your organization, you can also create feature layers by publishing features.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Best practices for adding shapefiles</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div class="notificationNote">
+                        <p><a name="zipshapefiles"></a>Shapefiles are added to <MadCap:variable name="General.MapStudio" /> as .zip files. The .zip file must contain the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</p>
+                    </div>
+                    <p>Shapefiles were originally created to perform geoprocessing on desktop apps. They are now supported in a number of web browser clients including <MadCap:variable name="General.MapStudio" />. There are some limits to what web browser clients can support.</p>
+                    <p>Below are best practices for using shapefiles in  <MadCap:variable name="General.MapStudio"></MadCap:variable>:</p>
+                    <ul>
+                        <li>Choose to generalize features for web display if you have a large amount of features intended to be displayed at small scales and you have not already generalized your vertices in ArcGIS Desktop.</li>
+                        <li>Create a .zip file that contains the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</li>
+                        <li>Store your shapefile directly in the root (the central directory) of the .zip archive and not in directories within the archive. If your .zip file viewer shows path information, the path should be blank.</li>
+                        <li>The name of the new layer is the same as the name of the .zip file you added. You can rename the file before adding to the map, or rename the layer once it is part of the map.</li>
+                        <li>Add standard compressed archive .zip files.</li>
+                        <li>Include no more than 1,000 shapefile features in your file.</li>
+                        <li>In some cases, when you attempt to add a file with fewer than 1,000 features, you see an error message that the shapefile is too big to add to the map. This occurs when the extracted data is too big to display in a web browser or the file is larger than 10 MB. Often, generalizing the features will reduce the overall size and allow the shapefile to be added to the map. If that doesn't work, you may need to create a feature service with ArcGIS Server. If you have publishing privileges in your organization, you can create feature layers by publishing features. You can try breaking up your features into multiple shapefiles, but this may result in a map that takes a long time to display.</li>
+                        <li>The shapefile should contain valid geometries. If you have ArcMap, you can use the Repair Geometry geoprocessing tool to correct invalid geometries in shapefiles.</li>
+                        <li>Include in the shapefile the accompanying .prj file in which the coordinate system of the data is defined. If you have ArcMap, you can define the coordinate system of a shapefile, which creates an appropriate .prj file for the shapefile.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Uploading and Saving Shapefiles for future use in <MadCap:variable name="General.ProductName" /></MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Limitations</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>The following limitations apply to using shapefiles in <MadCap:variable name="General.MapStudio" />:</p>
+                    <ul>
+                        <li>Compression formats other than a .zip archive are not supported.</li>
+                        <li>Files containing more than 1,000 features cannot be added to a map.</li>
+                        <li>The shapefile must be less than 10 MB in size.</li>
+                        <li>The following features are not supported: multipatch or multipoint geometries, geometries that cross the dateline, or self-intersections in polygons. Shapefiles with these features cannot be added to a map.</li>
+                        <li>Shapefiles cannot be dragged directly onto <MadCap:variable name="General.MapStudio" />; you must use the <span class="UIcomponent">Add Shapefile</span> widget in the <MadCap:variable name="General.MapStudio" />.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>
+                        <MadCap:keyword term="Deleting Shapefiles" />Deleting Shapefiles</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>A shapefile may be deleted if it is not used by any model, or editing rule in <MadCap:variable name="General.ProductName" />. To delete a shapefile in <span class="UIcomponent">My Workspace</span>, select the file and click the <span class="UIcomponent">Delete</span> button. A pop up box will ask you to confirm your deletion, click "OK". </p>
+                    <div class="notificationImportant">
+                        <p>If a shapefile is used by any model, or editing rule in <MadCap:variable name="General.ProductName" /> you will not be able to delete it.</p>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <p MadCap:conditions="General.Exclude"><span class="comment">Added from https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm on 12/19/16 JH</span>
+            </p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="AreasOfInterest"></a>Using Shapefiles in <MadCap:variable name="General.ProductName" /> for Areas of Interest and Landscape Masks</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>In <MadCap:variable name="General.ProductName"></MadCap:variable> you will encounter several terms that are applicable to <a href="#" target="_blank">shapefiles</a> (areas of interest). These terms all describe shapefiles, but are worded differently in different tasks to reflect the terminology common to those tasks in the wildland fire community. Here is a brief overview of how these terms are used in <MadCap:variable name="General.ProductName"></MadCap:variable>.</p>
+                    <h2>
+                        <MadCap:keyword term="Area of Interest" />Area of Interest and Landscape Mask</h2>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/AreaOfInterest.flsnp" />
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+        <p MadCap:conditions="General.QA ONLY">.</p>
+        <p MadCap:conditions="General.QA ONLY">.</p>
+        <p MadCap:conditions="General.QA ONLY">.</p>
+        <div MadCap:conditions="General.Prod ONLY">
+            <h1> <MadCap:keyword term="area of interest" /><MadCap:keyword term="landscape mask" /><MadCap:keyword term="mask" /><MadCap:keyword term="polygon" /><MadCap:keyword term="shape" /><MadCap:keyword term="Shapefiles" /><MadCap:keyword term="Shapefile" /><MadCap:keyword term=".shp" /> About Shapefiles</h1>
+            <p>A shapefile is a simple non-topographical way to store geometric location and attribute information for landscape features; they are often used to represent treatment areas, burn units, and disturbances. In <MadCap:variable name="General.ProductName" /> you will encounter several terms that refer to shapefiles. Different terms are used in different tasks to reflect the terminology common in the wildland fire community. Here is a brief overview of how these terms are used in IFTDSS.</p>
+            <ul>
+                <li><b><MadCap:keyword term="Area of Interest" />Area of Interest</b>: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis.</li>
+                <li><b>Landscape Mask</b>: This term is used in Landscape Editing to constrain the area your edits apply to.</li>
+                <li><b>Polygon, Shape, Shapefile</b>: These terms are used interchangeably throughout <MadCap:variable name="General.MapStudio" />.</li>
+            </ul>
+            <p>Shapefiles may be added to <MadCap:variable name="General.ProductName" /> by uploading a  .zip file containing the .shp, .shx, .dbf, and .prj files to <MadCap:variable name="General.MapStudio" />. When you add a shapefile, <MadCap:variable name="General.MapStudio" /> converts it to a format that web clients can quickly read and display. To help further improve the performance of the display, you can choose to generalize the features in your shapefile. Generalizing reduces the size of the shapefile by simplifying the features and is often appropriate for data at small scales.</p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Generalize features for web display</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Shapefiles often contain large features with a lot of associated data. Smaller features with less data are often necessary for the shapefile to display properly over the web. Generalizing the features is one way to reduce the size of the shapefile and therefore improve web display. You can generalize the features using a desktop application such as ArcMap or you can have <MadCap:variable name="General.MapStudio"></MadCap:variable> do the generalization when you add the file to your map. Generalizing reduces the precision of the shapefile layer to approximately 1 meter in Web Mercator and will remove vertices within 10 meters in Web Mercator. This should maintain an informative and accurate display of your features while reducing the overall size of your data and allowing your layer to quickly display in the map.
+					</p>
+                    <p>Generalizing doesn't work well on coincident polygon features intended for large-scale display because it will create some slivers in the polygons. For coincident polygons at large scales, you can choose to maintain the features if you have a relatively small amount of data, or if you have a large amount of data, you can publish a feature service to a GIS Server site. If you have publishing privileges in your organization, you can also create feature layers by publishing features.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Best practices for adding shapefiles</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <div class="notificationNote">
+                        <p><a name="zipshapefiles"></a>Shapefiles are added to <MadCap:variable name="General.MapStudio" /> as .zip files. The .zip file must contain the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</p>
+                    </div>
+                    <p>Shapefiles were originally created to perform geoprocessing on desktop apps. They are now supported in a number of web browser clients including <MadCap:variable name="General.MapStudio" />. There are some limits to what web browser clients can support.</p>
+                    <p>Below are best practices for using shapefiles in  <MadCap:variable name="General.MapStudio"></MadCap:variable>:</p>
+                    <ul>
+                        <li>Choose to generalize features for web display if you have a large amount of features intended to be displayed at small scales and you have not already generalized your vertices in ArcGIS Desktop.</li>
+                        <li>Create a .zip file that contains the .shp, .shx, .dbf, and .prj files that comprise the shapefile.</li>
+                        <li>Store your shapefile directly in the root (the central directory) of the .zip archive and not in directories within the archive. If your .zip file viewer shows path information, the path should be blank.</li>
+                        <li>The name of the new layer is the same as the name of the .zip file you added. You can rename the file before adding to the map, or rename the layer once it is part of the map.</li>
+                        <li>Add standard compressed archive .zip files.</li>
+                        <li>Include no more than 1,000 shapefile features in your file.</li>
+                        <li>In some cases, when you attempt to add a file with fewer than 1,000 features, you see an error message that the shapefile is too big to add to the map. This occurs when the extracted data is too big to display in a web browser or the file is larger than 10 MB. Often, generalizing the features will reduce the overall size and allow the shapefile to be added to the map. If that doesn't work, you may need to create a feature service with ArcGIS Server. If you have publishing privileges in your organization, you can create feature layers by publishing features. You can try breaking up your features into multiple shapefiles, but this may result in a map that takes a long time to display.</li>
+                        <li>The shapefile should contain valid geometries. If you have ArcMap, you can use the Repair Geometry geoprocessing tool to correct invalid geometries in shapefiles.</li>
+                        <li>Include in the shapefile the accompanying .prj file in which the coordinate system of the data is defined. If you have ArcMap, you can define the coordinate system of a shapefile, which creates an appropriate .prj file for the shapefile.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Uploading and Saving Shapefiles for future use in <MadCap:variable name="General.ProductName" /></MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Limitations</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>The following limitations apply to using shapefiles in <MadCap:variable name="General.MapStudio" />:</p>
+                    <ul>
+                        <li>Compression formats other than a .zip archive are not supported.</li>
+                        <li>Files containing more than 1,000 features cannot be added to a map.</li>
+                        <li>The shapefile must be less than 10 MB in size.</li>
+                        <li>The following features are not supported: multipatch or multipoint geometries, geometries that cross the dateline, or self-intersections in polygons. Shapefiles with these features cannot be added to a map.</li>
+                        <li>Shapefiles cannot be dragged directly onto <MadCap:variable name="General.MapStudio" />; you must use the <span class="UIcomponent">Add Shapefile</span> widget in the <MadCap:variable name="General.MapStudio" />.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>
+                        <MadCap:keyword term="Deleting Shapefiles" />Deleting Shapefiles</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>A shapefile may be deleted if it is not used by any model, or editing rule in <MadCap:variable name="General.ProductName" />. To delete a shapefile in <span class="UIcomponent">My Workspace</span>, select the file and click the Delete button. A pop up box will ask you to confirm your deletion, click "OK". </p>
+                    <div class="notificationImportant">
+                        <p>If a shapefile is used by any model, or editing rule in <MadCap:variable name="General.ProductName" /> you will not be able to delete it.</p>
+                    </div>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <p MadCap:conditions="General.Exclude"><span class="comment">Added from https://doc.arcgis.com/en/arcgis-online/reference/shapefiles.htm on 12/19/16 JH</span>
+            </p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><a name="AreasOfInterest"></a>Using Shapefiles in <MadCap:variable name="General.ProductName" /> for Areas of Interest and Landscape Masks</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>In <MadCap:variable name="General.ProductName"></MadCap:variable> you will encounter several terms that are applicable to <a href="#" target="_blank">shapefiles</a> (areas of interest). These terms all describe shapefiles, but are worded differently in different tasks to reflect the terminology common to those tasks in the wildland fire community. Here is a brief overview of how these terms are used in <MadCap:variable name="General.ProductName"></MadCap:variable>.</p>
+                    <h2>
+                        <MadCap:keyword term="Area of Interest" />Area of Interest and Landscape Mask</h2>
+                    <MadCap:snippetBlock src="../../Resources/Snippets/AreaOfInterest.flsnp" />
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
     </body>
 </html>

@@ -36,6 +36,8 @@
     <Link
       Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
       Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
     <Link
       Url="Content/Resources/Images/tutorial_1_comparison/tut_compare_alts_1_2.png" />
@@ -85,6 +87,8 @@
       Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
     <Link
       Url="Content/Resources/Images/treatment_compare/comparison_model_list_fin.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
       Url="Content/Resources/Snippets/CompareTreatmentAlts/Comparison_Part1.flsnp" />
     <Link

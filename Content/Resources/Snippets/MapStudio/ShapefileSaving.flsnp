@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="5100" MadCap:lastWidth="1759">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4765" MadCap:lastWidth="1167">
     <head>
     </head>
     <body>
@@ -9,7 +9,7 @@
         <h2>Upload the Shapefile</h2>
         <p>Use Add Shapefile to upload a shapefile to <MadCap:variable name="General.MapStudio" />:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Add Shapefile</span> button <img src="../../Images/mapstudio/button_addshapefile.png" alt="add shapefile" /> along the bottom of <MadCap:variable name="General.MapStudio" /> to open Add Shapefile.</li>
+            <li>Click the <span class="UIcomponent">Add Shapefile</span> widget <img src="../../Images/mapstudio/button_addshapefile.png" alt="add shapefile" /> along the bottom of <MadCap:variable name="General.MapStudio" /> to open Add Shapefile.</li>
             <li>
                 <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
                 <p>

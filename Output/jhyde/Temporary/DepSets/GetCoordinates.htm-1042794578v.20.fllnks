@@ -8,9 +8,9 @@
     <Link
       Url="Content/Resources/Images/mapstudio/tool_get_coordinates_1.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/get_coords_on_map.png" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/get_coords_on_map.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/tool_get_coordinates_2.png" />
   </Links>
@@ -18,9 +18,9 @@
     <Link
       Url="Content/Resources/Images/mapstudio/tool_get_coordinates_1.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/get_coords_on_map.png" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/get_coords_on_map.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/tool_get_coordinates_2.png" />
   </LongLinks>

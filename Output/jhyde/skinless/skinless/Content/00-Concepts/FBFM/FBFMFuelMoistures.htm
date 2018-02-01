@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="" data-mc-file-tags="Source.IFTDSSV201">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title>Moisture Inputs for Fire Behavior Fuel&#160;Models</title>
+        <link href="../../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../../Resources/Stylesheets/nostyles.css" rel="stylesheet" type="text/css" />
+        <script src="../../../Resources/Scripts/custom.modernizr.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript">
+        </script>
+    </head>
+    <body>
+        <h1><a name="kanchor181"></a>Moisture Inputs for Fire Behavior Fuel&#160;Models</h1>
+        <p>Each <a href="../../10-MapStudio/Files/FBFMSummaries.htm">fire behavior fuel model</a> requires different moisture inputs.  In this table, an “x” represents the required moisture input(s) for a particular fuel model.  For example, GR8 (high load, very coarse, humid climate grass) uses 1-hour, 10-hour, and live herbaceous moisture parameters in the calculation of surface fire behavior.</p>
+        <div class="notificationImportant">
+            <p>For moisture parameters that are not required for a particular fire behavior fuel model (as indicated by blank cells in the table), leave the IFTDSS default values in place. This is because IFTDSS requires an input value for each parameter, even if the module is not using these values in the calculations.</p>
+        </div>
+        <p>&#160;</p>
+        <table class="TableStyle-IFTDSS_PatternedRowsCenter" style="caption-side: top;mc-table-style: url('../../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css');" cellspacing="0">
+            <col style="width: 13%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <col style="width: 52%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <col style="width: 10%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <col style="width: 10%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <col style="width: 10%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <col style="width: 10%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <col style="width: 10%;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Head-Header1">
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadE-Regular-Header1" rowspan="2" style="color: #ffffff;">Fuel Model #</th>
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadE-Regular-Header1" rowspan="2" style="color: #ffffff;">Fuel Model Description</th>
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadD-Regular-Header1" colspan="5" style="color: #ffffff;">Moisture (%)
+					</th>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Head-Header1">
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadE-Regular-Header1" style="color: #ffffff;">1-hour</th>
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadE-Regular-Header1" style="color: #ffffff;">10-hour</th>
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadE-Regular-Header1" style="color: #ffffff;">100-hour</th>
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadE-Regular-Header1" style="color: #ffffff;">Live Herbaceous</th>
+                    <th class="TableStyle-IFTDSS_PatternedRowsCenter-HeadD-Regular-Header1" style="color: #ffffff;">Live Woody</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM1">FM 1</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Short grass (1 ft)
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM2">FM 2</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Timber (grass and understory)
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM3">FM 3</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Tall grass (2.5 ft)
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM4">FM 4</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Chaparral (6 ft)
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM5">FM 5</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Brush (2 ft)
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM6">FM 6</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Dormant brush, hardwood slash
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM7">FM 7</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Southern rough
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM8">FM 8</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Closed timber litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM9">FM 9</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Hardwood litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM10">FM 10</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Timber (litter and understory)
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM11">FM 11</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Light logging slash
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM12">FM 12</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Medium logging slash
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#FM13">FM 13</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Heavy logging slash
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR1">GR1 (101)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Short, sparse dry climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR2">GR2&#160; (102)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Low load, dry climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR3">GR3 (103)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Low load, very coarse, humid climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GS4">GR4 (104)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Moderate load, dry climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR5">GR5 (105)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Low load, humid climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR6">GR6 (106)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Moderate load, humid climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR7">GR7 (107)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">High load, dry climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR8">GR8 (108)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">High load, very coarse, humid climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GR9">GR9 (109)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Very high load, humid climate grass
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GS1">GS1 (121)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Low load, dry climate grass-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GS2">GS2 (122)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Moderate load, dry climate grass-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GS3">GS3 (123)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Moderate load, humid climate grass shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#GS4">GS4 (124)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">High load, humid climate grass-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH1">SH1 (141)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Low load, dry climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH2">SH2 (142)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Moderate load, dry climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH3">SH3 (143)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Moderate load, humid climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH4">SH4 (144)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Low load, humid climate timber-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH5">SH5 (145)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">High load, dry climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH6">SH6 (146)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Low load, humid climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH7">SH7 (147)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Very high load, dry climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH8">SH8 (148)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">High load, humid climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SH9">SH9 (149)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Very high load, humid climate shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TU1">TU1 (161)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Low load, dry climate timber-grass-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TU2">TU2 (162)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Moderate load, humid climate timber-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TU3">TU3 (163)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Moderate load, humid climate timber-grass-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TU4">TU4 (164)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Dwarf conifer with understory
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TU5">TU5 (165)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Very high load, dry climate timber-shrub
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL1">TL1 (181)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Low load, compact conifer litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL2">TL2 (182)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Low load, broadleaf litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL3">TL3 (183)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Moderate load, conifer litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL4">TL4 (184)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Small downed logs
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL5">TL5 (185)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">High load, conifer litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL6">TL6 (186)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Moderate load, broadleaf litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL7">TL7 (187)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Large downed logs
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL8">TL8 (188)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Long-needle litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#TL9">TL9 (189)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Very high load, broadleaf litter
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SB1">SB1 (201)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">Low load, activity fuel
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SB2">SB2 (202)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">Moderate load, activity fuel or low load, blowdown
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SB3">SB3 (203)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">High load, activity fuel or moderate load, blowdown
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+                <tr style="height: 12pt;" class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-LightRows" style="text-align: center;"><a href="../../10-MapStudio/Files/FBFMSummaries.htm#SB4">SB4 (204)</a> <![CDATA[
+					]]></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-LightRows">High load blowdown
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-LightRows" style="text-align: center;">x
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyA-Regular-LightRows" style="text-align: center;">&#160;
+					</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

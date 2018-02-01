@@ -1,22 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="10066" MadCap:lastWidth="1759">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="9012" MadCap:lastWidth="1167">
     <head>
     </head>
     <body>
         <h1>Starting a Project and Creating a Landscape</h1>
         <p MadCap:conditions="General.DeveloperNotes" class="comment">NEED TO REPLACE 'IFTDSS' AND MAP STUDIO WITH VARIABLES</p>
         <h2>Using Folders and Landscapes in IFTDSS</h2>
-        <p>
-            <b>Project Folders:</b> There is no formal definition of the term “Project” in IFTDSS. Instead, the term “Project” refers to the collection of landscape files, model runs, and associated data for your specific area. Many tasks in IFTDSS relate back to these landscape files and other information, so it is recommended that you start by creating a Folder to keep track of your files.</p>
+        <p><b>Project Folders:</b> There is no formal definition of the term “Project” in IFTDSS. Instead, the term “Project” refers to the collection of landscape files, model runs, and associated data for your specific area. Many tasks in IFTDSS relate back to these landscape files and other information, so it is recommended that you start by creating a Folder to keep track of your files.</p>
         <div class="notificationTip">
             <p>Tip: Stay organized by creating a Folder each time you begin a project for analysis.  Logical naming conventions for Folders include the geographic area being analyzed.</p>
         </div>
-        <p>
-            <b>Landscapes:</b> In IFTDSS, a landscape file refers to the spatial file that contains vegetation and fuels data.  The user defines the extent of the landscape which should be large enough to cover the entire analysis area.  IFTDSS currently generates all landscape files at 30m resolution and can accommodate large landscapes if necessary.  The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles) but if you try that now, your instructor will not be pleased. If you follow along with your own landscape, limit the size to under 100,000 acres to reduce the processing times.</p>
+        <p><b>Landscapes:</b> In IFTDSS, a landscape file refers to the spatial file that contains vegetation and fuels data.  The user defines the extent of the landscape which should be large enough to cover the entire analysis area.  IFTDSS currently generates all landscape files at 30m resolution and can accommodate large landscapes if necessary.  The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles) but if you try that now, your instructor will not be pleased. If you follow along with your own landscape, limit the size to under 100,000 acres to reduce the processing times.</p>
         <p>If you do not specify a folder to store data in IFTDSS, files will be saved to the “Playground” Folder by default. Currently, files cannot be moved from one folder to another.</p>
         <div class="notificationNote">
-            <p>
-                <b>Tutorial Information:</b>
+            <p><b>Tutorial Information:</b>
             </p>
             <p>If you wish to follow along replicating the exact steps captured by these tutorials, we have included that information (such as landscape coordinates, model inputs, etc), in blue highlighting throughout.</p>
             <p>You may also follow the general steps in these tutorials using your own landscape, in which case you may ignore the blue highlighted information.</p>
@@ -87,17 +84,13 @@
                     <li>Use the bounding box fields and enter the coordinates, in degrees, for the west, east, south, and north bounds of your area, or select the <span class="UIcomponent">Draw Tool</span> and click on the map to draw a box around your area. The dimensions of your selected area will be displayed to the left, or under your landscape coordinates, depending on what part of IFTDSS you create your landscape in. <span style="background-color: #add8e6;">We will choose a location: Tahoe National Forest, location bounds in degrees are:</span></li>
                     <div>
                         <ul>
-                            <li>
-                                <span style="background-color: #add8e6;">West: -120.8856</span>
+                            <li><span style="background-color: #add8e6;">West: -120.8856</span>
                             </li>
-                            <li>
-                                <span style="background-color: #add8e6;">East: -120.6044</span>
+                            <li><span style="background-color: #add8e6;">East: -120.6044</span>
                             </li>
-                            <li>
-                                <span style="background-color: #add8e6;">South: 39.4463</span>
+                            <li><span style="background-color: #add8e6;">South: 39.4463</span>
                             </li>
-                            <li>
-                                <span style="background-color: #add8e6;">North: 39.6149</span>
+                            <li><span style="background-color: #add8e6;">North: 39.6149</span>
                             </li>
                         </ul>
                     </div>
@@ -128,28 +121,24 @@
                 <p>
                     <img src="../../Resources/Images/tutorial_2_lcp/image16.png" alt="The 'Create New' tab." class="border" />
                 </p>
-                <p>You will be taken to Map Studio, and the <span class="UIcomponent">Landscape Tool</span>s button  <img src="../../Resources/Images/mapstudio/button_landscapetools.png" alt="Landscape Tools button" class="ReduceButtonSize" /> will automatically be opened. This displays the <span class="UIcomponent">Landscape Tools</span> interface and the “Create new” tab.</p>
+                <p>You will be taken to Map Studio, and the <span class="UIcomponent">Landscape Tool</span>s widget<![CDATA[  ]]><img src="../../Resources/Images/mapstudio/button_landscapetools.png" alt="Landscape Tools button" class="ReduceButtonSize" /> will automatically be opened. This displays the <span class="UIcomponent">Landscape Tools</span> interface and the “Create new” tab.</p>
                 <p>Next you will use <span class="UIcomponent">Landscape Tools</span> to create your landscape:</p>
                 <p>
                     <img src="../../Resources/Images/tutorial_2_lcp/image1.png" alt="Follow the steps in text below." class="border" />
                 </p>
                 <ol style="list-style-type: upper-alpha;">
-                    <li>Use the Map Studio tools such as zoom, basemap layers, etc. to locate your desired area.</li>
+                    <li>Use the Map Studio widgets such as <span class="UIcomponent">Zoom</span>, <span class="UIcomponent">Basemap Gallery</span>, and the ESRI&#160;search bar to locate your desired area.</li>
                     <li>Click the <span class="UIcomponent">Select draw mode</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished. Alternatively you enter your coordinates directly by using the method in step C.</li>
                     <li>(Optional) If you want to enter coordinates directly, instead of drawing, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. <span style="background-color: #add8e6;">We will choose a location: Tahoe National Forest, location bounds in degrees are:</span></li>
                     <div>
                         <ul>
-                            <li>
-                                <span style="background-color: #add8e6;">West: -120.8856</span>
+                            <li><span style="background-color: #add8e6;">West: -120.8856</span>
                             </li>
-                            <li>
-                                <span style="background-color: #add8e6;">East: -120.6044</span>
+                            <li><span style="background-color: #add8e6;">East: -120.6044</span>
                             </li>
-                            <li>
-                                <span style="background-color: #add8e6;">South: 39.4463</span>
+                            <li><span style="background-color: #add8e6;">South: 39.4463</span>
                             </li>
-                            <li>
-                                <span style="background-color: #add8e6;">North: 39.6149</span>
+                            <li><span style="background-color: #add8e6;">North: 39.6149</span>
                             </li>
                         </ul>
                     </div>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2371" MadCap:lastWidth="2228">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2137" MadCap:lastWidth="1206">
     <head>
     </head>
     <body>
@@ -11,7 +11,7 @@
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Access <MadCap:variable name="General.MapStudio"></MadCap:variable> from the top navigation panel, visible on any page in <MadCap:variable name="General.ProductName"></MadCap:variable>.</li>
-            <li>Use the <span class="UIcomponent">Zoom</span> buttons, and mouse, to the area. The location search box at the top of <MadCap:variable name="General.MapStudio"></MadCap:variable> can also be helpful. </li>
+            <li>Use the <span class="UIcomponent">Zoom</span> widgets, and mouse, to the area. The location search box at the top of <MadCap:variable name="General.MapStudio" /> can also be helpful. </li>
             <li>Open the  <span class="UIcomponent">Basemap Gallery</span> to get a more detailed baselayer.</li>
             <li>Select "Imagery with Labels".</li>
         </ol>
@@ -22,7 +22,7 @@
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
-            <li> Click on the <span class="UIcomponent">Landscape Tools</span> button at the bottom of the screen.</li>
+            <li> Click on the <span class="UIcomponent">Landscape Tools</span> widget at the bottom of the screen.</li>
             <li>Select the <span class="UIcomponent">Create New</span> tab to create a new landscape.</li>
             <li> Select <span class="UIcomponent">Draw Mode</span>, then drag across the area you’d like to analyze.  For this example you can follow along by inputting the coordinates below directly:</li>
             <ul>

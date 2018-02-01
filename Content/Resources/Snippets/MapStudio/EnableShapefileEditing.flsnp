@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1286" MadCap:lastWidth="1839">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1180" MadCap:lastWidth="1219">
     <body>
         <p>To Copy and Edit a shapefile:</p>
         <ol style="list-style-type: upper-alpha;">
             <li>Open <b>Edit Tools</b><img src="../../Images/mapstudio/button_editTools.png" alt="'edit tools' button" /> from the bottom of <MadCap:variable name="General.MapStudio" /> and click <span class="UIcomponent">Copy from Existing Features</span><img src="../../Images/mapstudio/button_copy_exstng_ftrs.png" alt="Copy from existing features button" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</li>
             <li>
-                <p>Scroll to the map and double left click the mouse button over the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
+                <p>Scroll to the map and double left click the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
                 <p>
                     <img src="../../Images/shapefile_repair/polygon_select.png" style="width: 562px; height: 402px;" alt="polygon in edit mode with vertices visible around the perimeter" class="borderlist" />
                 </p>
             </li>
             <li>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </li>
             <li>
-                <p>Delete a vertex by hovering over it, clicking the right mouse button once, and clicking <span class="UIcomponent">Delete</span>.</p>
+                <p>Delete a vertex by hovering over it, right clicking once, and selecting <span class="UIcomponent">Delete</span>.</p>
                 <p>
                     <img src="../../Images/shapefile_repair/polygon_vertexdelete.png" style="width: 610px; height: 433px;" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" class="borderlist">
                     </img>

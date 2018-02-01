@@ -6,20 +6,78 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_addshapefile.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/local_shapefiles.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/shapefile_save1.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/add_to_map.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/saved_shp_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/shapefile_save1_2.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/save_uploaded_snglshape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/save_multipart_upl_shape.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_addshapefile.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/local_shapefiles.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/shapefile_save1.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/add_to_map.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/saved_shp_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/shapefile_save1_2.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/save_uploaded_snglshape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/save_multipart_upl_shape.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.QA ONLY" />
+    <Condition
+      Tag="General.Prod ONLY" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

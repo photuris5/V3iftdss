@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="1439" MadCap:lastWidth="1308">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="1203" MadCap:lastWidth="1232">
     <head>
     </head>
     <body>
@@ -12,7 +12,7 @@
         <p><b>About this Page</b> - will take you to the specific topic in Help Center that addresses the page you're using in <MadCap:variable name="General.ProductName"></MadCap:variable>, generally a step by step walkthough with video links.</p>
         <p>As you use Help Center will notice Notes, Tips, and Important information</p>
         <div class="notificationImportant">
-            <p>text marked 'important' indicates information you need to know for the run or operation to successfully complete <MadCap:variable name="General.ProductName"></MadCap:variable>. </p>
+            <p>text marked "important" indicates information you need to know for the run or operation to successfully complete <MadCap:variable name="General.ProductName"></MadCap:variable>. </p>
         </div>
         <div class="notificationNote">
             <p>a note includes helpful information that applies to the task you are performing.</p>

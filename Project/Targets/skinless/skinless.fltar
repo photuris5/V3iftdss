@@ -6,7 +6,7 @@
   Destinations=""
   GlossaryTermConversion="marked"
   Skin="(none)"
-  ConditionTagExpression="include[General.shorthelp] exclude[General.Exclude or General.Online or General.PDF] "
+  ConditionTagExpression="include[&quot;General.Prod ONLY&quot; or General.shorthelp] exclude[General.DeveloperNotes or General.Exclude or General.LaterRelease or General.Online or General.PDF or &quot;General.QA ONLY&quot;] "
   MasterStylesheet="/Content/Resources/Stylesheets/nostyles.css"
   RemoveMadCapStyles="false"
   UseCustomTopicFileExtension="false"

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
+    <Url Source="Resources/Images/mapstudio/button_landscapetools.png" />
     <Url Source="Resources/Images/mapstudio/add_layers_added_refs_available.png" />
     <Url Source="Resources/Images/mapstudio/add_layers_add_references.png" />
     <Url Source="Resources/Images/mapstudio/add_layers_shapesavailable.png" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/FTEM/grant_role_access.png" />
     <Url Source="Resources/Images/FTEM/grant_agency_roles.png" />
     <Url Source="Resources/Images/FTEM/agency_roles_table.png" />
-    <Url Source="Resources/Images/FTEM/access_userlist.png" />
-    <Url Source="Resources/Images/FTEM/ftem_request_email.png" />
 </UrlList>

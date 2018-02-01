@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1995" MadCap:lastWidth="1257">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="1082" MadCap:lastWidth="1245">
     <head>
     </head>
     <body>
@@ -25,7 +25,7 @@
         <p>
             <img src="../Images/mapstudio/button_overview.png" alt="overview button" /> <span class="UIcomponent"><a href="../../MapStudio/Functions/ShowMapOverview.htm" target="_blank">Map Overview</a></span>:&#160;Allows to quick relocation of the map display area.</p>
         <h2>In the bottom left:</h2>
-        <p><span class="UIcomponent"><a href="../../MapStudio/Functions/GetCoordinates.htm" target="_blank">Get Coordinates Tool</a></span>
+        <p><span class="UIcomponent"><a href="../../MapStudio/Functions/GetCoordinates.htm" target="_blank">Get Coordinates widget</a></span>
         </p>
         <h2>In the bottom right:</h2>
         <p>

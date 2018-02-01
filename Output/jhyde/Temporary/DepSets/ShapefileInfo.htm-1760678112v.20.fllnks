@@ -7,21 +7,21 @@
   FileDescription="Area of Interest">
   <Links>
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Snippets/AreaOfInterest.flsnp" />
   </Links>
   <LongLinks>
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Snippets/AreaOfInterest.flsnp" />
   </LongLinks>
@@ -34,59 +34,114 @@
   <Keywords>
     <IndexCacheEntry
       Term="area of interest"
-      Conditions=""
-      LocalConditions=""
-      Position="5" />
-    <IndexCacheEntry
-      Term="landscape mask"
-      Conditions=""
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="6" />
     <IndexCacheEntry
-      Term="mask"
-      Conditions=""
+      Term="landscape mask"
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="7" />
     <IndexCacheEntry
-      Term="polygon"
-      Conditions=""
+      Term="mask"
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="8" />
     <IndexCacheEntry
-      Term="shape"
-      Conditions=""
+      Term="polygon"
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="9" />
     <IndexCacheEntry
-      Term="Shapefiles"
-      Conditions=""
+      Term="shape"
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="10" />
     <IndexCacheEntry
-      Term="Shapefile"
-      Conditions=""
+      Term="Shapefiles"
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="11" />
     <IndexCacheEntry
-      Term=".shp"
-      Conditions=""
+      Term="Shapefile"
+      Conditions="General.QA ONLY"
       LocalConditions=""
       Position="12" />
     <IndexCacheEntry
-      Term="Area of Interest"
-      Conditions=""
+      Term=".shp"
+      Conditions="General.QA ONLY"
       LocalConditions=""
-      Position="18" />
+      Position="13" />
+    <IndexCacheEntry
+      Term="Area of Interest"
+      Conditions="General.QA ONLY"
+      LocalConditions=""
+      Position="19" />
     <IndexCacheEntry
       Term="Deleting Shapefiles"
-      Conditions=""
+      Conditions="General.QA ONLY"
       LocalConditions=""
-      Position="81" />
+      Position="92" />
     <IndexCacheEntry
       Term="Area of Interest"
-      Conditions=""
+      Conditions="General.QA ONLY"
       LocalConditions=""
-      Position="102" />
+      Position="114" />
+    <IndexCacheEntry
+      Term="area of interest"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="121" />
+    <IndexCacheEntry
+      Term="landscape mask"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="122" />
+    <IndexCacheEntry
+      Term="mask"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="123" />
+    <IndexCacheEntry
+      Term="polygon"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="124" />
+    <IndexCacheEntry
+      Term="shape"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="125" />
+    <IndexCacheEntry
+      Term="Shapefiles"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="126" />
+    <IndexCacheEntry
+      Term="Shapefile"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="127" />
+    <IndexCacheEntry
+      Term=".shp"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="128" />
+    <IndexCacheEntry
+      Term="Area of Interest"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="134" />
+    <IndexCacheEntry
+      Term="Deleting Shapefiles"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="197" />
+    <IndexCacheEntry
+      Term="Area of Interest"
+      Conditions="General.Prod ONLY"
+      LocalConditions=""
+      Position="218" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />
@@ -101,7 +156,11 @@
   <FileTags />
   <AllConditions>
     <Condition
+      Tag="General.QA ONLY" />
+    <Condition
       Tag="General.Exclude" />
+    <Condition
+      Tag="General.Prod ONLY" />
   </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

@@ -13,6 +13,8 @@
       Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
     <Link
       Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
+    <Link
+      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
   </Links>
   <LongLinks>
     <Link
@@ -23,6 +25,8 @@
       Url="Content/Resources/Images/mapstudio/button_copy_exstng_ftrs.png" />
     <Link
       Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
+    <Link
+      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -32,6 +36,8 @@
   <Variables>
     <Variable
       Name="General.MapStudio" />
+    <Variable
+      Name="General.ProductName" />
   </Variables>
   <FileConditions />
   <FileTags />
