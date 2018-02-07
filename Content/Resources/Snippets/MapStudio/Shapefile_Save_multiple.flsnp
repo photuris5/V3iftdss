@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="798" MadCap:lastWidth="1260">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="963" MadCap:lastWidth="1466">
     <head>
     </head>
     <body>
@@ -13,7 +13,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Create</span></p>
                 <p>
-                    <img src="../../Images/tutorial_1_comparison/tut1_combineshapefile.png" alt="use Edit/Create Tools options to save multiple polygons in one file" class="borderlist" style="width: 858px; height: 425px;">
+                    <img src="../../Images/tutorial_1_comparison/tut1_combineshapefile.png" alt="use Edit/Create Tools options to save multiple polygons in one file" class="borderlist">
                     </img>
                 </p>
             </li>

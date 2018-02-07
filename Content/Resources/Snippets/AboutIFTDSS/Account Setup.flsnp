@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2820" MadCap:lastWidth="1240">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3037" MadCap:lastWidth="1453">
     <head>
     </head>
     <body>
@@ -17,13 +17,13 @@
                     <p>When entering information into the "Justification" field, simply enter a sentence or less describing what you'd like to use <MadCap:variable name="General.ProductName" /> for.</p>
                 </div>
                 <p>
-                    <img src="../../Images/getting_started/registration_info.png" style="width: 554px; height: 313px;" alt="New user registration form with fields for name, email, and other information " title="Jump to new user registration form" class="borderlist" />
+                    <img src="../../Images/getting_started/registration_info.png" alt="New user registration form with fields for name, email, and other information " title="Jump to new user registration form" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>After clicking <span class="UIcomponent">Register</span> you will see a confirmation message verifying your registration request has been submitted. </p>
                 <p>
-                    <img src="../../Images/getting_started/Reg_confirmation.png" alt="You will see a confirmation box after registering" style="width: 905px; height: 162px;" class="borderlist" />
+                    <img src="../../Images/getting_started/Reg_confirmation.png" alt="You will see a confirmation box after registering" class="borderlist" />
                 </p>
             </li>
             <li>
@@ -41,7 +41,7 @@
             <li>
                 <p>After accepting the User Agreement you will prompted to enter your temporary access code one last time, and set up your password. When finished, click <span class="UIcomponent">Set Password</span>. </p>
                 <p>
-                    <img src="../../Images/getting_started/password set.png" alt="enter your password" style="width: 928px; height: 336px;" class="borderlist" />
+                    <img src="../../Images/getting_started/password set.png" alt="enter your password" class="borderlist" />
                 </p>
             </li>
         </ol>

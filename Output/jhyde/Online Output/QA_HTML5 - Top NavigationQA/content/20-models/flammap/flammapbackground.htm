@@ -6,7 +6,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta charset="utf-8" />
         <meta name="description" content="" />
-        <meta name="author" content="" /><title>Technical Documentation - Landscape Fire Behavior with FlamMap 5.0</title>
+        <meta name="author" content="" /><title>Technical Documentation - Landscape Fire Behavior with FlamMap 6.0</title>
         <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
         <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
         <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
@@ -41,6 +41,7 @@
 
 </style>
         <link href="../../resources/stylesheets/mainstyles.css" rel="stylesheet" />
+        <link href="../../resources/tablestyles/iftdss_patternedrowscenter.css" rel="stylesheet" />
         <script src="../../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../../Resources/Scripts/jquery.min.js">
@@ -141,27 +142,69 @@
                                             <div class="MCBreadcrumbsBox_0 breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
                                             </div>
                                         </div>
-                                        <h1><a name="kanchor165"></a>Technical Documentation - Landscape Fire Behavior with FlamMap 5.0</h1>
-                                        <p>
-                                            <img src="../../resources/images/flammap5_449x336.jpg" style="float: right;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;width: 449;height: 336;" alt="Flammap 5 logo" title="Jump to image of Flammap 5 logo" />In <span class="GeneralProductName">IFTDSS</span>, Landscape Fire Behavior is driven by FlamMap. FlamMap  is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions. FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../../41-references/referencelist.htm#Rothermel1972" target="_blank">1972</a> surface fire model, Van Wagner’s <a href="../../41-references/referencelist.htm"><a href="../../41-references/referencelist.htm#VanWagner1977" target="_blank">1977</a></a> crown fire initiation model, and Rothermel’s <a href="../../41-references/referencelist.htm#Rothermel1991" target="_blank">1991</a> crown fire spread model for a single instance in time. </p>
-                                        <h2>Winds</h2>
-                                        <p>Wind is one of the most influential environmental factors affecting wildland fire behavior. Terrain causes changes in wind speed as air flows over it. Directional changes also occur due to channeling of the flow. The complex terrain and vegetation of fire-prone landscapes causes local changes in wind speed and direction that are not predicted well by standard weather models or expert judgment.</p>
-                                        <p>FlamMap uses a 20 foot wind speed and direction at one point in time to calculate fire behavior characteristics. Winds are automatically adjusted to midflame speed where appropriate using the individual cell canopy characteristics.</p>
-                                        <h3>Single Wind Direction</h3>
-                                        <p>Selecting a wind direction with the Azimuth (Degrees) applies the same wind direction for every cell in the analysis area.</p>
-                                        <h3>Uphill and Downhill Winds</h3>
-                                        <p>Selecting the wind direction as upslope or downslope utilizes the direction from the aspect feature within the  Landscape (.LCP) file for each grid cell to calculate the fire behavior characteristics. Flat cells with no aspect use the direction from the Azimuth (Degrees). </p>
-                                        <p>This option would be appropriate for modeling the fire behavior with simple diurnal winds. Uphill winds can also be used to calculate a near-maximum fire behavior characteristics.</p>
-                                        <ul>
-                                            <li value="1"><a href="flammapabout.htm" target="_blank" style="font-weight: bold;">L</a><a href="flammapabout.htm" style="font-weight: bold;" target="_blank">andscape Fire Behavior Walkthrough</a>
-                                            </li>
-                                            <li value="2"><a href="flammapinput.htm" target="_blank" class="MCXref xref">FlamMap Fire Behavior Inputs</a>
-                                            </li>
-                                            <li value="3"><a href="flammapoutput.htm" target="_blank" class="MCXref xref">FlamMap Fire Behavior Outputs</a>
-                                            </li>
-                                            <li value="4"><a href="flammapcrowns.htm" target="_blank" class="MCXref xref">Crown Fire Calculation Options</a>
-                                            </li>
-                                        </ul>
+                                        <div data-mc-conditions="General.QA ONLY">
+                                            <h1><a name="kanchor166"></a>Technical Documentation - Landscape Fire Behavior with FlamMap 6.0</h1>
+                                            <p>
+                                                <img src="../../resources/images/flammap5.jpg" style="float: right;width: 449px;height: 336px;padding-left: 5px;padding-right: 5px;padding-top: 5px;padding-bottom: 5px;" alt="Flammap 5 logo" title="Jump to image of Flammap 5 logo" />In <span class="GeneralProductName">IFTDSS</span>, Landscape Fire Behavior is driven by FlamMap. FlamMap  is a fire behavior mapping and analysis software application that computes potential fire behavior characteristics (such as spread rate, flame length, and fireline intensity) over an entire landscape under constant weather and fuel moisture conditions. FlamMap simulates surface and crown fire behavior characteristics using Rothermel’s <a href="../../41-references/referencelist.htm#Rothermel1972" target="_blank">1972</a> surface fire model, Van Wagner’s <a href="../../41-references/referencelist.htm"><a href="../../41-references/referencelist.htm#VanWagner1977" target="_blank">1977</a></a> crown fire initiation model, and Rothermel’s <a href="../../41-references/referencelist.htm#Rothermel1991" target="_blank">1991</a> crown fire spread model for a single instance in time. </p>
+                                            <h2>Winds</h2>
+                                            <p>Wind is one of the most influential environmental factors affecting wildland fire behavior. Terrain causes changes in wind speed as air flows over it. Directional changes also occur due to channeling of the flow. The complex terrain and vegetation of fire-prone landscapes causes local changes in wind speed and direction that are not predicted well by standard weather models or expert judgment.</p>
+                                            <p>FlamMap uses a 20 foot wind speed and direction at one point in time to calculate fire behavior characteristics. Winds are automatically adjusted to midflame speed where appropriate using the individual cell canopy characteristics.</p>
+                                            <h3>Single Wind Direction</h3>
+                                            <p>Selecting a wind direction with the Azimuth (Degrees) applies the same wind direction for every cell in the analysis area.</p>
+                                            <h3>Uphill and Downhill Winds</h3>
+                                            <p>Selecting the wind direction as upslope or downslope utilizes the direction from the aspect feature within the  Landscape (.LCP) file for each grid cell to calculate the fire behavior characteristics. Flat cells with no aspect use the direction from the Azimuth (Degrees). </p>
+                                            <p>This option would be appropriate for modeling the fire behavior with simple diurnal winds. Uphill winds can also be used to calculate a near-maximum fire behavior characteristics.</p>
+                                            <h3>Gridded Wind (WindNinja)</h3>
+                                            <p>Wind is one of the most influential environmental factors affecting wildland fire behavior. Terrain causes changes in wind speed as air flows over it. Directional changes also occur due to channeling of the flow. The complex terrain and vegetation of fire-prone landscapes causes local changes in wind speed and direction that are not predicted well by standard weather models or expert judgment. </p>
+                                            <p><span class="GeneralProductName">IFTDSS</span> uses WindNinja to compute spatially varying wind fields for landscape model runs. Keep in mind, WindNinja does not predict wind for future times, rather it simulates the spatial variation of wind for one instant in time making it ideal for model runs in <span class="GeneralProductName">IFTDSS</span>.</p>
+                                            <p>WindNinja uses information that is already part of a landscape model run. The landscape file provides elevation to simulate wind flow across your area and canopy characteristics and surface fuel model to approximate the drag effect that vegetation has on wind flow. The domain wind direction and wind speed needed for WindNinja are the same as those used to run landscape fire behavior in IFTDSS.</p>
+                                            <h3> Resolution</h3>
+                                            <p>The WindNinja resolution used by <span class="GeneralProductName">IFTDSS</span> depends upon your landscape size;</p>
+                                            <table style="width: 1141px;mc-table-style: url('../../resources/tablestyles/iftdss_patternedrowscenter.css');" class="TableStyle-IFTDSS_PatternedRowsCenter" cellspacing="0">
+                                                <col style="width: 624px;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+                                                <col style="width: 515px;" class="TableStyle-IFTDSS_PatternedRowsCenter-Column-Regular" />
+                                                <tbody>
+                                                    <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows" style="font-weight: bold;">Landscape size (in 30m pixels)</td>
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows" style="font-weight: bold;">Resolution (meters)</td>
+                                                    </tr>
+                                                    <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">&lt;500,000</td>
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows">30</td>
+                                                    </tr>
+                                                    <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">500,000 - 2,000,000	</td>
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows">60</td>
+                                                    </tr>
+                                                    <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-DarkerRows">2,000,000 - &lt;4,500,000</td>
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-DarkerRows">90</td>
+                                                    </tr>
+                                                    <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Body-LightRows">
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyE-Regular-LightRows">4,500,000 - &lt;8,000,000</td>
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyD-Regular-LightRows">120</td>
+                                                    </tr>
+                                                    <tr class="TableStyle-IFTDSS_PatternedRowsCenter-Body-DarkerRows">
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyB-Regular-DarkerRows">8,000,000 - &lt;12,500,000</td>
+                                                        <td class="TableStyle-IFTDSS_PatternedRowsCenter-BodyA-Regular-DarkerRows">150</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>&#160;</p>
+                                            <ul>
+                                                <li value="1"><a href="flammapabout.htm" target="_blank" style="font-weight: bold;">L</a><a href="flammapabout.htm" style="font-weight: bold;" target="_blank">andscape Fire Behavior Walkthrough</a>
+                                                </li>
+                                                <li value="2"><a href="flammapinput.htm" target="_blank" class="MCXref xref">FlamMap Fire Behavior Inputs</a>
+                                                </li>
+                                                <li value="3"><a href="flammapoutput.htm" target="_blank" class="MCXref xref">FlamMap Fire Behavior Outputs</a>
+                                                </li>
+                                                <li value="4"><a href="flammapcrowns.htm" target="_blank" class="MCXref xref">Crown Fire Calculation Options</a>
+                                                </li>
+                                            </ul>
+                                            <p>.</p>
+                                            <p>.</p>
+                                            <p>.</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

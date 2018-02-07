@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  DepSetCode="1044683179"
+  SavedSource="file:///C:/Users/jhyde/Documents/GitHub/V3iftdss/Output/jhyde/Temporary/UserGuideA8_5X11 v.1.catapulttoccache">
+  <TocEntry
+    Title="Get Started">
+    <TocEntry
+      Title="Why use [%=General.ProductName%] for Fuel Planning?"
+      Link="/Content/00-Concepts/WhyIFTDSS.htm" />
+    <TocEntry
+      Title="What can IFTDSS Do?"
+      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#WhatCanIFTDSSDo"
+      conditions="General.QA ONLY"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="What data do I Need?"
+      Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm#NeedToRunIFTDSS"
+      conditions="General.QA ONLY" />
+    <TocEntry
+      Title="Get an Account"
+      Link="/Content/00-Concepts/Accounts/AccountSetup.htm">
+      <TocEntry
+        Title="Setting up an Account"
+        Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
+      <TocEntry
+        Title="Account Password"
+        Link="/Content/00-Concepts/Accounts/AccountPassword.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Profile"
+        Link="/Content/00-Concepts/Accounts/AccountProfile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Navigate [%=General.ProductName%] (An Overview)"
+      Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Walk-throughs"
+      Link="/Content/00-AboutIFTDSS/Helpful topics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Planning Cycle"
+    Link="/Content/10-PlanningCycle/PlanningCycleAbout.htm">
+    <TocEntry
+      Title="About the Planning Cycle"
+      Link="/Content/10-PlanningCycle/PlanningCycleAbout.htm" />
+    <TocEntry
+      Title="Landscape Evaluation"
+      Link="/Content/10-PlanningCycle/LandEvalAbout.htm">
+      <TocEntry
+        Title="Landscape Summary"
+        Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm">
+        <TocEntry
+          Title="Generate Landscape Summary" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+        <TocEntry
+          Title="Auto97th Summary Technical Documentation"
+          Link="/Content/30-Tasks/Summaries/Auto97Summary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Edit a Landscape"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm">
+        <TocEntry
+          Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+        <TocEntry
+          Title="About Default Treatment/Disturbance Rules"
+          Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Applying Edit Rules"
+          Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Edit Rule Technical Documentation"
+          Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Calculate Fire Behavior"
+        Link="/Content/20-Models/FlamMap/FlamMapAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Calculate Burn Probability"
+        conditions="General.LaterRelease" />
+      <TocEntry
+        Title="Develop Project Objectives"
+        conditions="General.LaterRelease" />
+    </TocEntry>
+    <TocEntry
+      Title="Strategic Planning"
+      Link="/Content/10-PlanningCycle/StrategicPlanningAbout.htm">
+      <TocEntry
+        Title="Comparing Landscapes to Develop Treatement Alternatives"
+        Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Editing a Landscape to Develop Treatment Alternatives"
+        Link="/Content/30-Tasks/DevTrtAlts/TrtmtAltsEditLandscp.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="About Edit Rules"
+        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Quantitative Risk Assessment"
+        conditions="General.LaterRelease" />
+      <TocEntry
+        Title="Prioritize Treatments"
+        conditions="General.LaterRelease" />
+      <TocEntry
+        Title="Develop Out Year Plans"
+        conditions="General.LaterRelease" />
+    </TocEntry>
+    <TocEntry
+      Title="Implementation Planning"
+      Link="/Content/10-PlanningCycle/ImplementationPlanAbout.htm" />
+    <TocEntry
+      Title="Monitoring"
+      Link="/Content/10-PlanningCycle/MonitoringAbout.htm" />
+    <TocEntry
+      Title="Reporting"
+      Link="/Content/10-PlanningCycle/ReportingAbout.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Modeling"
+    Link="/Content/20-Models/ModelsOverview.htm">
+    <TocEntry
+      Title="Modeling in Modeling Playground"
+      Link="/Content/20-Models/ModelsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Landscape Fire Behavior"
+      Link="/Content/20-Models/FlamMap/FlamMapAbout.htm">
+      <TocEntry
+        Title="Landscape Fire Behavior Overview"
+        Link="/Content/20-Models/FlamMap/FlamMapAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="FlamMap Fire Behavior Inputs"
+        Link="/Content/20-Models/FlamMap/FlamMapInput.htm" />
+      <TocEntry
+        Title="FlamMap Fire Behavior Outputs"
+        Link="/Content/20-Models/FlamMap/FlamMapOutput.htm" />
+      <TocEntry
+        Title="Crown Fire Calculation Options"
+        Link="/Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+      <TocEntry
+        Title="Technical Documentation - Landscape Fire Behavior with FlamMap 5.0"
+        Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Fire Behavior Fuel Models"
+      Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="More To Come"
+      Link="/Content/20-Models/Modelsmoretocome.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Mapping"
+    Link="/Content/10-MapStudio/MapStudioAbout.htm">
+    <TocEntry
+      Title="Working in Map Studio"
+      Link="/Content/10-MapStudio/MapStudioAbout.htm" />
+    <TocEntry
+      Title="Map Functions"
+      Link="/Content/10-MapStudio/Functions/MapFunctions.htm">
+      <TocEntry
+        Title="Map Functions (overview)"
+        Link="/Content/10-MapStudio/Functions/MapFunctions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        StartSection="false" />
+      <TocEntry
+        Title="Layer List (legends)"
+        Link="/Content/10-MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Reference Data"
+        Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Graphic"
+        Link="/Content/10-MapStudio/Functions/AddGraphic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Shapefiles"
+        Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Landscape Tools"
+        Link="/Content/10-MapStudio/Functions/LandscapeTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Simulation Output Tools"
+        Link="/Content/10-MapStudio/Functions/SimulationTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit Tools"
+        Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Basemap Gallery"
+        Link="/Content/10-MapStudio/Functions/BasemapGallery.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Measurement"
+        Link="/Content/10-MapStudio/Functions/Measurements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Filter"
+        Link="/Content/10-MapStudio/Functions/Filter.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Attribute Table"
+        Link="/Content/10-MapStudio/Functions/AttributeTable.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Using Landscapes"
+      Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm">
+      <TocEntry
+        Title="Making Landscape Edits" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+      <TocEntry
+        Title="About Default Treatment/Disturbance Rules"
+        Link="/Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Applying Edit Rules"
+        Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Edit Rule Technical Documentation"
+        Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Using Shapefiles"
+      Link="/Content/10-MapStudio/Files/ShapefileInfo.htm">
+      <TocEntry
+        Title="About Shapefiles"
+        Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Create or Edit Shapefiles"
+        Link="/Content/10-MapStudio/Functions/EditTools.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Upload a Shapefile"
+        Link="/Content/10-MapStudio/Functions/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Saving Shapefiles"
+        Link="/Content/10-MapStudio/Files/ShapefileSaving.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Repairing Shapefiles"
+        Link="/Content/10-MapStudio/Files/ShapefileRepair.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Using Shapefiles for Masks/Areas of Interest" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        Link="/Content/10-MapStudio/Files/ShapefileInfo.htm#AreasOfInterest" />
+    </TocEntry>
+    <TocEntry
+      Title="Use My Own Data"
+      Link="/Content/00-Concepts/UsingMyData.htm" />
+    <TocEntry
+      Title="MapStudioTips and Tricks"
+      Link="/Content/10-MapStudio/MapStudioTips.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+  <TocEntry
+    Title="Resources">
+    <TocEntry
+      Title="Videos"
+      Link="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ"
+      StartSection="false" />
+    <TocEntry
+      Title="Tutorials"
+      Link="/Content/40-Tutorials/TutorialMain.htm">
+      <TocEntry
+        Title="Tutorials Main Page"
+        Link="/Content/40-Tutorials/TutorialMain.htm" />
+      <TocEntry
+        Title="Beginning a Project"
+        Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Creating a Landscape and Summarize"
+        Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Landscape Summary Report"
+        Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Creating Treatment Polygons"
+        Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Modeling Landscape Fire Behavior in Modeling Playground"
+        Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Run a Landscape Comparison"
+        Link="/Content/40-Tutorials/Shorts/Compare.htm"
+        conditions="General.QA ONLY" />
+      <TocEntry
+        Title="Comparing Landscapes"
+        Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm">
+        <TocEntry
+          Title="Begin a Project"
+          Link="/Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Create a Landscape"
+          Link="/Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Evaluate and Edit" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+          Link="/Content/40-Tutorials/CompareFeature/3_Edit.htm" />
+        <TocEntry
+          Title="Summarize and Prioritize"
+          Link="/Content/40-Tutorials/CompareFeature/4_IdPriority.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Create Treatment Polygons"
+          Link="/Content/40-Tutorials/CompareFeature/5_treatmentPoly.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Treatment Comparison"
+          Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Developing Treatment Alternatives (PDF)"
+        Link="/Content/Resources/pdfs/tutorials/NW_DTA_Tutorial.pdf" />
+      <TocEntry
+        Title="Developing Treatments"
+        Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm"
+        conditions="General.QA ONLY">
+        <TocEntry
+          Title="Previewing and Creating a Landscape"
+          Link="/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Summarize and Assess the Landscape"
+          Link="/Content/40-Tutorials/NWest_DTA/2_SummarizeAndAssess.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Creating Areas of Interest"
+          Link="/Content/40-Tutorials/NWest_DTA/3_CreateAOIs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Reviewing the Landscape Summary Report"
+          Link="/Content/40-Tutorials/NWest_DTA/4_ReviewSummaryReport.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Developing Treatment Alternatives"
+          Link="/Content/40-Tutorials/NWest_DTA/5_DevelopTreatmentAlts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Comparing and Adding Treatment Alternatives"
+          Link="/Content/40-Tutorials/NWest_DTA/6_CompareAddTreatment.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Comparing Added Treatments and Concluding"
+          Link="/Content/40-Tutorials/NWest_DTA/7_CompareAddedConclude.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Additional Resources"
+      Link="/Content/41-References/Resources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Support System">
+      <TocEntry
+        Title="Forums"
+        Link="https://iftdsshelp.freshdesk.com/support/discussions" />
+      <TocEntry
+        Title="Request Tech. Support"
+        Link="https://iftdss.firenet.gov/landing_page/support.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/41-References/Glossary.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="References"
+      Link="/Content/41-References/ReferenceList.htm" />
+    <TocEntry
+      Title="Getting Help"
+      Link="/Content/00-Concepts/GettingHelp.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Known Issues"
+    Link="/Content/00-AboutIFTDSS/KnownIssues.htm"
+    StartSection="false"
+    conditions="General.FTEM Exlude,General.Prod ONLY" />
+  <TocEntry
+    Title="FTEM"
+    Link="/Content/10-FTEM/FTEMAbout.htm"
+    conditions="General.QA ONLY">
+    <TocEntry
+      Title="About FTEM"
+      Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Create an FTEM Account"
+      Link="/Content/10-FTEM/AccountSetup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Roles and Permissions"
+      Link="/Content/10-FTEM/Roles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="How to Use FTEM"
+      Link="/Content/10-FTEM/UsingFtem.htm" />
+    <TocEntry
+      Title="Symbology"
+      Link="/Content/10-FTEM/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Monitoring Guidance"
+      Link="/Content/10-FTEM/MonitoringGuidance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="FAQ"
+      Link="/Content/10-FTEM/FTEMFaq.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Reporting"
+      Link="/Content/10-FTEM/Reporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="FTEM Administrator Page"
+      Link="/Content/10-FTEM/FTEMAdmin.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-FTEM/FTEMPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Technical Documentation"
+      Link="/Content/10-FTEM/TechDoc.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-FTEM/FTEM Data Sources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Treatment Interactions"
+      Link="/Content/10-FTEM/Adding Treatment Interactions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+  </TocEntry>
+</CatapultToc>

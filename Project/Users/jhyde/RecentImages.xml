@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
-    <Url Source="Resources/Images/getting_started/MyWorkspace.png" />
-    <Url Source="Resources/Images/FTEM/symbology/wildfire_poly.png" />
-    <Url Source="Resources/Images/landscapesumm/OpenReport2.png" />
-    <Url Source="Resources/Images/landscapesumm/get_to_summary.png" />
-    <Url Source="Resources/Images/landscape_edits/naming_and_layout2.png" />
-    <Url Source="Resources/Images/treatment_compare/user_rule_saving.png" />
-    <Url Source="Resources/Images/getting_started/forgotpassword.png" />
-    <Url Source="Resources/Images/FTEM/grant_role_access.png" />
-    <Url Source="Resources/Images/FTEM/grant_agency_roles.png" />
-    <Url Source="Resources/Images/FTEM/agency_roles_table.png" />
-    <Url Source="Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
-    <Url Source="Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
-    <Url Source="Resources/Images/mapstudio/add_layer/add_layers_checkbox_mylayers.png" />
-    <Url Source="Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
-    <Url Source="Resources/Images/mapstudio/add_layer/add_layers_shapesavailable.png" />
-    <Url Source="Resources/Images/mapstudio/shapefile_upload/add_to_map.png" />
-    <Url Source="Resources/Images/mapstudio/overview/button_addshapefile.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/layer_list_menu.png" />
+    <Url Source="Resources/Images/mapstudio/overview/button_layerlist.png" />
+    <Url Source="Resources/Images/landscapesumm/t_available_lcps.png" />
+    <Url Source="Resources/Images/mapstudio/lcp_tools/create_new_interface.png" />
+    <Url Source="Resources/Images/mapstudio/lcp_tools/create_new.png" />
     <Url Source="Resources/Images/mapstudio/overview/button_landscapetools.png" />
-    <Url Source="Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
+    <Url Source="Resources/Images/landscape_create/t_create_in_mapstdio.png" />
+    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
+    <Url Source="Resources/Images/buttons_general/hourglass.png" />
+    <Url Source="Resources/Images/landscapesumm/t_lcp_pick_confirmtn.png" />
+    <Url Source="Resources/Images/landscape_create/t_create_n_interface.png" />
+    <Url Source="Resources/Images/landscape_create/t_extent.png" />
+    <Url Source="Resources/Images/landscapesumm/t_create_lcp_here.png" />
+    <Url Source="Resources/Images/landscapesumm/t_create_lcp_zoomed.png" />
+    <Url Source="Resources/Images/landscapesumm/get_to_summary.png" />
+    <Url Source="Resources/Images/myworkspace/delete_folder.png" />
+    <Url Source="Resources/Images/myworkspace/workspace_foldername04182017.png" />
 </UrlList>

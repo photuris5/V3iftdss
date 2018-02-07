@@ -6,43 +6,83 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/Images/buttons_general/add_new_folder.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/add_folder.png" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+      Url="Content/Resources/Images/myworkspace/create_folder.png" />
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_here.png" />
+      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_2.png" />
+      Url="Content/Resources/Images/myworkspace/delete_folder.png" />
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_3.png" />
+      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
     <Link
-      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_zoomed.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_here.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_extent.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_n_interface.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/hourglass.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscaperefresh.png" />
+      Url="Content/Resources/Images/landscapesumm/t_lcp_pick_confirmtn.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_in_mapstdio.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new_interface.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_available_lcps.png" />
   </Links>
   <LongLinks>
     <Link
+      Url="Content/Resources/Images/buttons_general/add_new_folder.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/add_folder.png" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+      Url="Content/Resources/Images/myworkspace/create_folder.png" />
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_here.png" />
+      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_2.png" />
+      Url="Content/Resources/Images/myworkspace/delete_folder.png" />
     <Link
-      Url="Content/Resources/Images/getting_started/Landscape_create_3.png" />
+      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
     <Link
-      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_zoomed.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_here.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_extent.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_n_interface.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/hourglass.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscaperefresh.png" />
+      Url="Content/Resources/Images/landscapesumm/t_lcp_pick_confirmtn.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_in_mapstdio.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new_interface.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_available_lcps.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

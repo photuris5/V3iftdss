@@ -284,9 +284,10 @@ img.AbsolutePosition
 	padding: 5px;
 }
 
-img.ReduceButtonSize
+img.button
 {
-	max-height: 25px;
+	max-height: 1em;
+	width: auto;
 }
 
 img.Thumbnail
@@ -727,12 +728,13 @@ html.templateTopic div.sideContent
 
 	/*Keeps max width to fit on page*/
 
+	/*
 	img.border
 	{
 		max-width: 600px;
 		margin: 8px;
-		height: auto;
-	}
+		height:auto;
+	}*/
 
 	div.GlossaryPageDefinition
 	{

@@ -19,7 +19,8 @@
   TabletBreakpoint="1024"
   UseDeviceWidth="false"
   MobileBreakpoint="414"
-  GenerateAllSkins="false">
+  GenerateAllSkins="false"
+  PreCompileScaledImages="false">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

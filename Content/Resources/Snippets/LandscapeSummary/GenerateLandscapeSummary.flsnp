@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2329" MadCap:lastWidth="884">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1474" MadCap:lastWidth="1453">
     <head>
     </head>
     <body>
@@ -10,7 +10,7 @@
             <li>
                 <p>Click the <span class="UIcomponent">Request a Report</span> button.</p>
                 <p>
-                    <img src="../../Images/landscapesumm/landscape_summary_start.png" alt="specficy a landscape to create a summary from" style="width: 620px; height: 262px;" class="borderlist" />
+                    <img src="../../Images/landscapesumm/landscape_summary_start.png" alt="specficy a landscape to create a summary from" class="borderlist" />
                 </p>
             </li>
             <li>
@@ -35,7 +35,7 @@
         </ol>
         <p>It may also be viewed from <span class="UIcomponent">My Workspace</span>, in the same folder as the landscape you chose to summarize. You may also view your report outputs in <MadCap:variable name="General.MapStudio" />.</p>
         <p>
-            <img src="../../Images/landscapesumm/OpenReport2.png" alt="summary report is listed with other files for your landscape in MyWorkspace" />
+            <img src="../../Images/landscapesumm/OpenReport2.png" alt="summary report is listed with other files for your landscape in MyWorkspace" class="border" />
         </p>
     </body>
 </html>

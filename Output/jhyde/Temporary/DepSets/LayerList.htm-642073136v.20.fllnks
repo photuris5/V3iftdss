@@ -4,10 +4,42 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="https://www.youtube.com/watch" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layer_list_menu.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://www.youtube.com/watch?v=9ogScAHnmxo" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layer_list_menu.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+  </LongLinks>
   <Anchors />
-  <Keywords />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Layer List"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Keywords>
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />

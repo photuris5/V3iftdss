@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2560" MadCap:lastWidth="1206">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2808" MadCap:lastWidth="1453">
     <head>
     </head>
     <body>
         <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> click the <span class="UIcomponent">Landscape Tools</span> widget along the bottom of <MadCap:variable name="General.MapStudio" />. In the Landscape Tools box, make sure the <span class="UIcomponent">Create new</span> tab is selected.</p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/mapstudio_createnew.png" style="width: 636px; height: 449px;" class="borderlist" />
+            <img src="../../Images/lcp_gen_smmry/mapstudio_createnew.png" class="borderlist" />
         </p>
         <p>In the <span class="UIcomponent">Create new</span> tab specify the requirements for your landscape:</p>
         <ol style="list-style-type: upper-alpha;">

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4765" MadCap:lastWidth="1167">
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3845" MadCap:lastWidth="1414">
     <head>
     </head>
     <body>
@@ -9,7 +9,7 @@
         <h2>Upload the Shapefile</h2>
         <p>Use Add Shapefile to upload a shapefile to <MadCap:variable name="General.MapStudio" />:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Add Shapefile</span> widget <img src="../../Images/mapstudio/overview/button_addshapefile.png" alt="add shapefile" /> along the bottom of <MadCap:variable name="General.MapStudio" /> to open Add Shapefile.</li>
+            <li>Click the <span class="UIcomponent">Add Shapefile</span> <img src="../../Images/mapstudio/overview/button_addshapefile.png" alt="add shapefile" class="iftbutton" /> widget  along the bottom of <MadCap:variable name="General.MapStudio" /> to open Add Shapefile.</li>
             <li>
                 <p>Click Upload File. A browser box will open allowing you to search your local files. Select the desired shapefile. Shapefiles must be zipped to be uploaded and contain .shp, .shx, .dbf., and .prj files.</p>
                 <p>
@@ -38,21 +38,21 @@
         <h2>Save the Shapefile</h2>
         <p>To permanently save your uploaded shapefile:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> if its open, then open <span class="UIcomponent"> Layer List</span><img src="../../Images/mapstudio/overview/button_layerlist.png" alt="layer list button" /> </li>
+            <li>To select the new shapefile, exit <span class="UIcomponent">Add Shapefile</span> if its open, then open <span class="UIcomponent"> Layer List</span> <img src="../../Images/mapstudio/overview/button_layerlist.png" alt="layer list button" class="iftbutton" /> </li>
             <li>Zoom to your new shapefile.</li>
             <ol style="list-style-type: lower-alpha;">
                 <li> Click the <span class="UIcomponent">More Options</span> button to the right of your shapefile and </li>
                 <li>
                     <p>Click the <span class="UIcomponent">Zoom to</span> option. This will zoom to your newly uploaded shapefile.</p>
                     <p>
-                        <img src="../../Images/mapstudio/layer_list/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" style="width: 315px; height: 432px;" class="borderlist" />
+                        <img src="../../Images/mapstudio/layer_list/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" class="borderlist" />
                     </p>
                 </li>
             </ol>
             <li>
                 <p>Open <span class="UIcomponent">Create/Edit Shapes</span></p>
                 <p>
-                    <img src="../../Images/mapstudio/create_edit_shp/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" style="width: 469px; height: 330px;" class="borderlist" />
+                    <img src="../../Images/mapstudio/create_edit_shp/create_edit_shape.png" alt="'create/edit shapefile' button is located in the bottom center of map studio" class="borderlist" />
                 </p>
             </li>
             <li>
@@ -63,7 +63,7 @@
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
                         <ol style="list-style-type: lower-alpha;">
-                            <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" />, </li>
+                            <li>Click the <span class="UIcomponent">Copy from Existing Features <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="iftbutton" /></span> button , </li>
                             <li>Make sure the <span class="UIcomponent">Select Single Part</span> option is selected</li>
                             <li>Select the polygon you wish to save (selected polygons will turn yellow). This can be done by either left clicking the individual polygon.</li>
                             <li>Give your polygon a descriptive name.</li>
@@ -71,7 +71,7 @@
                             <li>
                                 <p>Click <span class="UIcomponent">Create</span>.</p>
                                 <p>
-                                    <img src="../../Images/mapstudio/create_edit_shp/save_uploaded_snglshape.png" alt="save a single uploaded shapefile using the steps outlined in text" style="width: 1011px; height: 543px;" class="borderlist" />
+                                    <img src="../../Images/mapstudio/create_edit_shp/save_uploaded_snglshape.png" alt="save a single uploaded shapefile using the steps outlined in text" class="borderlist" />
                                 </p>
                             </li>
                         </ol>
@@ -83,16 +83,16 @@
                     </MadCap:dropDownHead>
                     <MadCap:dropDownBody>
                         <ol style="list-style-type: lower-alpha;">
-                            <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" />, </li>
+                            <li>Click the <span class="UIcomponent">Copy from Existing Features <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="iftbutton" /></span> button , </li>
                             <li>Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
                             <li>Left mouse click your first polygon, you will notice its color turns to yellow.</li>
-                            <li>Next click <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="button" /> again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
+                            <li>Next click <span class="UIcomponent">Copy from Existing Features <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" class="iftbutton" /></span> button  again and left click on polygon two, repeat these steps for each polygon until they are all outlined in yellow.</li>
                             <li>Next, type a name for your polygons in the edit box.</li>
                             <li>Specify the folder to save the set in. </li>
                             <li>
                                 <p>Click <span class="UIcomponent">Create</span>.</p>
                                 <p>
-                                    <img src="../../Images/mapstudio/create_edit_shp/save_multipart_upl_shape.png" alt="to save a multipart shapefile, follow the steps outlined in text" style="width: 975px; height: 483px;" class="borderlist" />
+                                    <img src="../../Images/mapstudio/create_edit_shp/save_multipart_upl_shape.png" alt="to save a multipart shapefile, follow the steps outlined in text" class="borderlist" />
                                 </p>
                             </li>
                         </ol>
