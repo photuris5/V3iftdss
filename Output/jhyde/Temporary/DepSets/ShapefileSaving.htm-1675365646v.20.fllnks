@@ -10,6 +10,18 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/find_shape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/prepare_copy.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_add_folder.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/select_shape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/shape_created.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
@@ -25,8 +37,6 @@
       Url="Content/Resources/Images/mapstudio/layer_list/shapefile_save1_2.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/create_edit_shape.png" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/save_uploaded_snglshape.png" />
     <Link
@@ -38,6 +48,18 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/find_shape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/prepare_copy.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_add_folder.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/select_shape.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/shape_created.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
@@ -53,8 +75,6 @@
       Url="Content/Resources/Images/mapstudio/layer_list/shapefile_save1_2.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/create_edit_shape.png" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/save_uploaded_snglshape.png" />
     <Link

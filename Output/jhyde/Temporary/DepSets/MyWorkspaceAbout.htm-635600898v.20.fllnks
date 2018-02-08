@@ -17,6 +17,16 @@
       Url="Content/Resources/Images/myworkspace/workspace_seenewfolder04182017.png" />
     <Link
       Url="Content/Resources/Images/myworkspace/deletefolder08012017.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_download_start.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_save_confirm.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_local_save.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_use.png" />
   </Links>
   <LongLinks>
     <Link
@@ -31,6 +41,16 @@
       Url="Content/Resources/Images/myworkspace/workspace_seenewfolder04182017.png" />
     <Link
       Url="Content/Resources/Images/myworkspace/deletefolder08012017.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_download_start.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_save_confirm.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_local_save.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/raster_use.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -43,6 +63,9 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.QA ONLY" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

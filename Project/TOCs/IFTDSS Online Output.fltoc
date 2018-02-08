@@ -166,7 +166,12 @@
         Link="/Content/10-MapStudio/Functions/LayerList.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Add Reference Data"
-        Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.Prod ONLY" />
+      <TocEntry
+        Title="Add Layers"
+        Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+        conditions="General.QA ONLY" />
       <TocEntry
         Title="Add Graphic"
         Link="/Content/10-MapStudio/Functions/AddGraphic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -232,6 +237,10 @@
       <TocEntry
         Title="Using Shapefiles for Masks/Areas of Interest" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
         Link="/Content/10-MapStudio/Files/ShapefileInfo.htm#AreasOfInterest" />
+      <TocEntry
+        Title="Creating Groups of Treatments"
+        conditions="General.QA ONLY"
+        Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
     </TocEntry>
     <TocEntry
       Title="Use My Own Data"
