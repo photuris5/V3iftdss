@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1803" MadCap:lastWidth="1212">
+    <head>
+    </head>
+    <body>
+        <p>Landscape data and Landscape Fire Behavior Model outputs can be downloaded as a Geo Tiff (.tif) raster dataset for use in other applications such as ArcMap. To download a raster dataset from <MadCap:variable name="General.ProductName"></MadCap:variable>:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate to <span class="UIcomponent">My Workspace</span> from the top navigation menu</li>
+            <li>Select the file you would like to download</li>
+            <li>
+                <p>Click <span class="UIcomponent">Download</span></p>
+                <p>
+                    <img src="../Images/myworkspace/raster_download_start.png" alt="exporting is perfromed in &quot;My Workspace&quot;" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>A dialogue box will appear in which you may rename the file if desired</li>
+            <li>When ready, click <span class="UIcomponent">Download</span></li>
+            <li>
+                <p>A confirmation box will appear verifying the raster has been downloaded to your local machine in .zip file format. The file will be saved in your browsers "Downloads" folder, or whichever folder you have specified for your browser to use.</p>
+                <p>
+                    <img src="../Images/myworkspace/raster_save_confirm.png" alt="click &quot;Download&quot; to download your file." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>From your local machine, you may locate and copy the zip file, extract the contents, and store where needed.</p>
+                <p>
+                    <img src="../Images/myworkspace/raster_local_save.png" alt="uzip the file on your local computer" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>Once extracted, the file will be a GeoTif (.tif) with separate bands for each landscape feature or model output. (See the Topic on <a href="../../10-MapStudio/Files/OpenGeoTif.htm" target="_blank">Opening <MadCap:variable name="General.ProductName" /> rasters in ArcMap</a> for more details if needed)</p>
+                <p>
+                    <img src="../Images/myworkspace/raster_use.png" alt="the file will be in .tif format with a band for each landscape feature or model output." class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

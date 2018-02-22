@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3947" MadCap:lastWidth="1440">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3951" MadCap:lastWidth="1160">
     <head>
     </head>
     <body>
@@ -8,7 +8,7 @@
             <object src="https://youtu.be/-UnoaUlZEd0" style="width: 560px;height: 315px;">
             </object>
         </p>
-        <p><span class="UIcomponent">My Workspace </span>is where all your files in stored in <MadCap:variable name="General.ProductName" /> are stored, these include:</p>
+        <p><span class="UIcomponent">My Workspace </span>is where all your files in stored in <MadCap:variable name="General.ProductName" />, these include:</p>
         <ul>
             <li>Landscape Files</li>
             <li>Model Input</li>
@@ -63,7 +63,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol style="list-style-type: upper-alpha;">
-                    <li>To delete a folder in My Workspace, hover over the folder name in the left panel. Note a red "x" will appear to the right of the folder name.</li>
+                    <li>To delete a folder in <span class="UIcomponent">My Workspace</span>, hover over the folder name in the left panel. Note a red "x" will appear to the right of the folder name.</li>
                     <li>
                         <p>Click the red "x".</p>
                         <p>
@@ -77,43 +77,12 @@
                 </div>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.QA ONLY">
+        <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Exporting Landscape and Fire Behavior Raster Data</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Landscape data and Landscape Fire Behavior Model output can be downloaded as a .tif raster dataset for use in other applications such as ArcMap. To download a raster dataset from <MadCap:variable name="General.ProductName" />:</p>
-                <ol style="list-style-type: upper-alpha;">
-                    <li>Navigate to <span class="UIcomponent">My Workspace</span> from the top navigation menu</li>
-                    <li>Select the file you would like to download</li>
-                    <li>
-                        <p>Click <span class="UIcomponent">Download</span></p>
-                        <p>
-                            <img src="../Resources/Images/myworkspace/raster_download_start.png" alt="exporting is perfromed in &quot;My Workspace&quot;" class="borderlist" />
-                        </p>
-                    </li>
-                    <li>A dialogue box will appear in which you may rename the file if desired</li>
-                    <li>When ready, click <span class="UIcomponent">Download</span></li>
-                    <li>
-                        <p>A confirmation box will appear verifying the raster has been downloaded to your local machine in .zip file format. The file will be saved in your browsers "Downloads" folder, or whichever folder you have specified for your browser to use.</p>
-                        <p>
-                            <img src="../Resources/Images/myworkspace/raster_save_confirm.png" alt="click &quot;Download&quot; to download your file." class="borderlist" />
-                        </p>
-                    </li>
-                    <li>
-                        <p>From your local machine, you may locate and copy the zip file, extract the contents, and store where needed.</p>
-                        <p>
-                            <img src="../Resources/Images/myworkspace/raster_local_save.png" alt="uzip the file on your local computer" class="borderlist" />
-                        </p>
-                    </li>
-                    <li>
-                        <p>Once extracted, the file will be a .tif with separate bands for each landscape feature or model output.</p>
-                        <p>
-                            <img src="../Resources/Images/myworkspace/raster_use.png" alt="the file will be in .tif format with a band for each landscape feature or model output." class="borderlist" />
-                        </p>
-                    </li>
-                </ol>
-                <p>&#160;</p>
+                <MadCap:snippetBlock src="../Resources/Snippets/ExportRaster.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

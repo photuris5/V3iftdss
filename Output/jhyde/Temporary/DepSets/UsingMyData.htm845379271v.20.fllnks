@@ -22,7 +22,7 @@
     <Link
       Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
     <Link
-      Url="Content/10-MapStudio/Files/ShapefileInfo.htm#zipshapefiles" />
+      Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -43,8 +43,6 @@
   <Variables>
     <Variable
       Name="General.ProductName" />
-    <Variable
-      Name="General.MapStudio" />
   </Variables>
   <FileConditions />
   <FileTags>

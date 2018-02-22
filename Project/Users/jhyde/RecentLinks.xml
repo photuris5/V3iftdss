@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Images\myworkspace\raster_use.png" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Images\mapstudio\create_edit_shp\find_shape.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\10-MapStudio\Functions\Filter.htm" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\10-MapStudio\Files\ShapefileGroup.htm" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
-        <Link Value="C:\Users\jhyde\Desktop\V3iftdss\Content\Resources\Snippets\EditLandscapeRules\Steps_UserCreatedRules.flsnp" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Snippets\ExportRaster.flsnp" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertCrossReferenceDialog">
         <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\References\ReferenceList.htm" />

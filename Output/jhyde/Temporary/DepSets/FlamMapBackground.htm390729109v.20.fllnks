@@ -8,13 +8,13 @@
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/Resources/Images/FlamMap5.jpg" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/41-References/ReferenceList.htm" />
+    <Link
+      Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
@@ -28,8 +28,6 @@
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/Resources/Images/FlamMap5.jpg" />
     <Link
       Url="Project/VariableSets/General.flvar" />
@@ -41,6 +39,10 @@
       Url="Content/41-References/ReferenceList.htm#VanWagner1977" />
     <Link
       Url="Content/41-References/ReferenceList.htm#Rothermel1991" />
+    <Link
+      Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
+    <Link
+      Url="Content/41-References/ReferenceList.htm#USFS2018" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Link
@@ -54,14 +56,9 @@
   <Keywords>
     <IndexCacheEntry
       Term="FlamMap 5.0 Technical Documentation"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
-      Position="6" />
-    <IndexCacheEntry
-      Term="FlamMap 5.0 Technical Documentation"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="69" />
+      Position="5" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />
@@ -72,14 +69,7 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.QA ONLY" />
-    <Condition
-      Tag="General.Prod ONLY" />
-    <Condition
-      Tag="General.Exclude" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets>
     <Url
       Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />

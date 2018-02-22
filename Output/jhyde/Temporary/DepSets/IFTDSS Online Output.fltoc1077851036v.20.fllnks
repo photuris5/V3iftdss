@@ -22,6 +22,8 @@
     <Link
       Url="Content/00-Concepts/NavigatingIFTDSS.htm" />
     <Link
+      Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
+    <Link
       Url="Content/00-AboutIFTDSS/Helpful topics.htm" />
     <Link
       Url="Content/10-PlanningCycle/PlanningCycleAbout.htm" />
@@ -94,11 +96,23 @@
     <Link
       Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
     <Link
+      Url="Content/10-MapStudio/Files/LCPInfo.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPCreate.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCP_export.htm" />
+    <Link
       Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Link
-      Url="Content/10-MapStudio/Files/ShapefileSaving.htm" />
-    <Link
       Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
     <Link
       Url="Content/00-Concepts/UsingMyData.htm" />
     <Link

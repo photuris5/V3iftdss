@@ -22,7 +22,6 @@
     <Map Name="LCPCreate" Link="/Content/10-MapStudio/Files/LCPCreate.htm" />
     <Map Name="LCPInfo" Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
     <Map Name="ShapefileInfo" Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" />
-    <Map Name="ShapefileSaving" Link="/Content/10-MapStudio/Files/ShapefileSaving.htm" />
     <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Map Name="FlamMapBackground" Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" />
     <Map Name="FlamMapCrowns" Link="/Content/20-Models/FlamMap/FlamMapCrowns.htm" />
@@ -170,4 +169,20 @@
     <Map Name="step_monitoring_hh" Link="/Content/50-Hover/FTEM/step_monitoring_hh.htm" />
     <Map Name="step_treatments_hh" Link="/Content/50-Hover/FTEM/step_treatments_hh.htm" />
     <Map Name="step_wildfires_hh" Link="/Content/50-Hover/FTEM/step_wildfires_hh.htm" />
+    <Map Name="FTEMAdmin" Link="/Content/10-FTEM/FTEMAdmin.htm" />
+    <Map Name="Roles" Link="/Content/10-FTEM/Roles.htm" />
+    <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
+    <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
+    <Map Name="LCP_export" Link="/Content/10-MapStudio/Files/LCP_export.htm" />
+    <Map Name="OpenGeoTif" Link="/Content/10-MapStudio/Files/OpenGeoTif.htm" />
+    <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
+    <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
+    <Map Name="AOI_treatments" Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm" />
+    <Map Name="a_StartandCreateLCP" Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm" />
+    <Map Name="Compare" Link="/Content/40-Tutorials/Shorts/Compare.htm" />
+    <Map Name="LCPSummaryReport" Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm" />
+    <Map Name="Modeling_in_Wildfire_Playground" Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm" />
+    <Map Name="ProjectBegin" Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm" />
+    <Map Name="Treatment_AOI" Link="/Content/40-Tutorials/Shorts/Treatment AOI.htm" />
 </CatapultAliasFile>

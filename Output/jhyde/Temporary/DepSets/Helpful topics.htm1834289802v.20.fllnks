@@ -8,6 +8,8 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
+      Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
+    <Link
       Url="Content/10-MapStudio/Files/LCPCreate.htm" />
     <Link
       Url="Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
@@ -35,6 +37,8 @@
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
     <Link
       Url="Content/10-MapStudio/Files/LCPCreate.htm" />
     <Link

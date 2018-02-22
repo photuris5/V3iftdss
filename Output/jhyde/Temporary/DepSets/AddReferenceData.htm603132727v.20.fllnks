@@ -6,8 +6,6 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
@@ -19,17 +17,9 @@
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/adding_reference_data.png" />
-    <Link
-      Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </Links>
   <LongLinks>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
@@ -41,30 +31,14 @@
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/adding_reference_data.png" />
-    <Link
-      Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </LongLinks>
   <Anchors />
   <Keywords>
     <IndexCacheEntry
-      Term="Add"
-      Conditions="General.Prod ONLY"
+      Term="Add Layers"
+      Conditions=""
       LocalConditions=""
       Position="4" />
-    <IndexCacheEntry
-      Term="Reference Data"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="5" />
-    <IndexCacheEntry
-      Term="Add Layers"
-      Conditions="General.QA ONLY"
-      LocalConditions=""
-      Position="7" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />
@@ -77,11 +51,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.Prod ONLY" />
-    <Condition
-      Tag="General.QA ONLY" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

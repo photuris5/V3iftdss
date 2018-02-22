@@ -1,6 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/myworkspace/shapedelete.png" />
+    <Url Source="Resources/Images/buttons_general/mac_cmd.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/shapesubset_on_map.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/name_and_folder.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/choose_objects.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/create_shapefile_subset.png" />
+    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
     <Url Source="Resources/Images/myworkspace/raster_use.png" />
+    <Url Source="Resources/Images/myworkspace/arc_select_all.png" />
+    <Url Source="Resources/Images/myworkspace/doubleclick.png" />
+    <Url Source="Resources/Images/myworkspace/Arcmap_Add_Data.png" />
+    <Url Source="Resources/Images/mapstudio/shapefile_upload/save_shapefile.png" />
     <Url Source="Resources/Images/myworkspace/raster_local_save.png" />
     <Url Source="Resources/Images/myworkspace/raster_save_confirm.png" />
     <Url Source="Resources/Images/myworkspace/raster_download_start.png" />
@@ -9,15 +20,4 @@
     <Url Source="Resources/Images/mapstudio/create_edit_shp/set_up_group.png" />
     <Url Source="Resources/Images/mapstudio/create_edit_shp/group_diagram.png" />
     <Url Source="Resources/Images/mapstudio/create_edit_shp/shape_created.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/select_shape.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/prepare_copy.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/find_shape.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/button_add_folder.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/attribute options.png" />
-    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/layer_list_menu.png" />
-    <Url Source="Resources/Images/mapstudio/overview/button_layerlist.png" />
-    <Url Source="Resources/Images/landscapesumm/t_available_lcps.png" />
 </UrlList>

@@ -14,8 +14,6 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
-    <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_extent.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_clear.png" />
@@ -41,8 +39,6 @@
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
-    <Link
-      Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_extent.png" />
     <Link

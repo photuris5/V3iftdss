@@ -7,145 +7,95 @@
   FileDescription="Area of Interest">
   <Links>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
+      Url="Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Link
-      Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
+      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/masks.png" />
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/DeleteShape.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/EditTools.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeGroup.htm" />
   </Links>
   <LongLinks>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Snippets/MapStudio/ShapefileSaving.flsnp" />
+      Url="Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Link
-      Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
+      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/masks.png" />
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/DeleteShape.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/EditTools.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeGroup.htm" />
   </LongLinks>
-  <Anchors>
-    <Anchor
-      Name="zipshapefiles" />
-    <Anchor
-      Name="AreasOfInterest" />
-  </Anchors>
+  <Anchors />
   <Keywords>
     <IndexCacheEntry
       Term="area of interest"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="6" />
     <IndexCacheEntry
       Term="landscape mask"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="7" />
     <IndexCacheEntry
       Term="mask"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="8" />
     <IndexCacheEntry
       Term="polygon"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="9" />
     <IndexCacheEntry
       Term="shape"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="10" />
     <IndexCacheEntry
       Term="Shapefiles"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="11" />
     <IndexCacheEntry
       Term="Shapefile"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="12" />
     <IndexCacheEntry
       Term=".shp"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
       Position="13" />
     <IndexCacheEntry
       Term="Area of Interest"
-      Conditions="General.QA ONLY"
+      Conditions=""
       LocalConditions=""
-      Position="19" />
-    <IndexCacheEntry
-      Term="Deleting Shapefiles"
-      Conditions="General.QA ONLY"
-      LocalConditions=""
-      Position="92" />
-    <IndexCacheEntry
-      Term="Area of Interest"
-      Conditions="General.QA ONLY"
-      LocalConditions=""
-      Position="114" />
-    <IndexCacheEntry
-      Term="area of interest"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="147" />
-    <IndexCacheEntry
-      Term="landscape mask"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="148" />
-    <IndexCacheEntry
-      Term="mask"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="149" />
-    <IndexCacheEntry
-      Term="polygon"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="150" />
-    <IndexCacheEntry
-      Term="shape"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="151" />
-    <IndexCacheEntry
-      Term="Shapefiles"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="152" />
-    <IndexCacheEntry
-      Term="Shapefile"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="153" />
-    <IndexCacheEntry
-      Term=".shp"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="154" />
-    <IndexCacheEntry
-      Term="Area of Interest"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="160" />
-    <IndexCacheEntry
-      Term="Deleting Shapefiles"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="223" />
-    <IndexCacheEntry
-      Term="Area of Interest"
-      Conditions="General.Prod ONLY"
-      LocalConditions=""
-      Position="244" />
+      Position="30" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />
@@ -158,13 +108,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.QA ONLY" />
-    <Condition
-      Tag="General.Exclude" />
-    <Condition
-      Tag="General.Prod ONLY" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

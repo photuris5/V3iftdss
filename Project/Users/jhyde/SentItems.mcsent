@@ -2030,4 +2030,24 @@
     Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
     Reviewers="&lt;saved to disk&gt;"
     SendDate="2018-01-09T14:00:58.9112506-08:00" />
+  <SentItem
+    File="v3iftdss_Add Layers.fltrev"
+    Topic="Content/10-MapStudio/Functions/AddReferenceData.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-02-08T17:39:24.3877362-08:00" />
+  <SentItem
+    File="v3iftdss_Creating Groups of Treatments.fltrev"
+    Topic="Content/10-MapStudio/Files/ShapeGroup.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-02-08T17:39:59.7761872-08:00" />
+  <SentItem
+    File="v3iftdss_Upload a Shapefile.fltrev"
+    Topic="Content/10-MapStudio/Functions/AddShapefile.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-02-08T17:40:28.2092338-08:00" />
+  <SentItem
+    File="v3iftdss_Technical Documentation - Landscape Fire Behavior with FlamMap 5.0.fltrev"
+    Topic="Content/20-Models/FlamMap/FlamMapBackground.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-02-08T17:44:29.9107439-08:00" />
 </MadCapSentItems>
