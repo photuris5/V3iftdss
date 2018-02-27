@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/FTEM/integrated_pointpoly.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/FTEM/integrated_pointpoly.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

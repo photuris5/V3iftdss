@@ -17,6 +17,8 @@
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
   </Links>
   <LongLinks>
     <Link
@@ -31,6 +33,8 @@
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -43,7 +47,10 @@
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions />

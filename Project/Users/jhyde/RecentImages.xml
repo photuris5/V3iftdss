@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/FTEM/reports/report.png" />
+    <Url Source="Resources/Images/FTEM/reports/generatereport.png" />
+    <Url Source="Resources/Images/FTEM/reports/selectreports.png" />
+    <Url Source="Resources/Images/FTEM/integrated_wildfire_data.png" />
+    <Url Source="Resources/Images/FTEM/integrated_pointpoly.png" />
+    <Url Source="Resources/Images/FTEM/buffering.png" />
     <Url Source="Resources/Images/myworkspace/shapedelete.png" />
     <Url Source="Resources/Images/buttons_general/mac_cmd.png" />
     <Url Source="Resources/Images/mapstudio/layer_list/shapesubset_on_map.png" />
@@ -14,10 +20,4 @@
     <Url Source="Resources/Images/mapstudio/shapefile_upload/save_shapefile.png" />
     <Url Source="Resources/Images/myworkspace/raster_local_save.png" />
     <Url Source="Resources/Images/myworkspace/raster_save_confirm.png" />
-    <Url Source="Resources/Images/myworkspace/raster_download_start.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/available_group.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/copy_group.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/set_up_group.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/group_diagram.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/shape_created.png" />
 </UrlList>

@@ -7,10 +7,18 @@
   <Links>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/FTEM/buffering.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/integrated_wildfire_data.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/FTEM/buffering.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/integrated_wildfire_data.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

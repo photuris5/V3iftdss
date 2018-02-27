@@ -6,11 +6,19 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/FTEM/WIP.png" />
+      Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/reports/generatereport.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/reports/report.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/FTEM/WIP.png" />
+      Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/reports/generatereport.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/reports/report.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
