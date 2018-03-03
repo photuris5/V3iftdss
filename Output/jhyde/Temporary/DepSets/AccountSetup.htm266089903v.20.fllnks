@@ -31,6 +31,8 @@
       Url="Content/Resources/Images/FTEM/SetNewMapExtent.png" />
     <Link
       Url="Content/Resources/Images/FTEM/UpdateAgencyPreference.png" />
+    <Link
+      Url="Content/10-FTEM/Roles.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -59,6 +61,8 @@
       Url="Content/Resources/Images/FTEM/SetNewMapExtent.png" />
     <Link
       Url="Content/Resources/Images/FTEM/UpdateAgencyPreference.png" />
+    <Link
+      Url="Content/10-FTEM/Roles.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

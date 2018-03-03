@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1921" MadCap:lastWidth="800">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="3007" MadCap:lastWidth="1388">
     <head>
     </head>
     <body>
@@ -17,7 +17,7 @@
             <MadCap:dropDownBody>
                 <p>The Layer List menu is located in the top right, it allows you to turn all layers on or off, and expand or collapse all layers.</p>
                 <p>
-                    <img src="../../Resources/Images/mapstudio/layer_list/layer_list_menu.png" alt="the layer list menu icon is a gray checkmark set against three horizontal lines, it is located in the top right of the layer list box" />
+                    <img src="../../Resources/Images/mapstudio/layer_list/layer_list_menu.png" alt="the layer list menu icon is a gray checkmark set against three horizontal lines, it is located in the top right of the layer list box" class="border" />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
@@ -26,37 +26,73 @@
                 <MadCap:dropDownHotspot>Turn layer visibility on or off</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Use the check boxes to make different layers visible</p>
+                <p>Use the check boxes to make different layers visible.</p>
                 <p>
-                    <img src="../../Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" alt="check boxes allow turn layers on and off" />
+                    <img src="../../Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" alt="check boxes allow turn layers on and off" class="border" />
                 </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Look at individual attributes for each layer</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Controls for viewing Rasters</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Clicking to drop-down arrow to the left of each layer checkbox will display a list of the attributes within that layer.</p>
-                <p>Expand the legend for an attribute by clicking the drop-down arrow next to it.</p>
-                <p>Show or hide individual attributes by clicking the checkbox next to each one.</p>
-                <p>Zoom, move an attribute up or down, or adjust its transparency using the <span class="UIcomponent">More Options</span> <img src="../../Resources/Images/buttons_general/button_moreoptions.png" alt="more option" class="iftbutton" /> button to the right of an attribute. Click the More Options button a second time to hide these options.</p>
+                <div class="notificationNote">
+                    <p>Some raster layers in <MadCap:variable name="General.ProductName" />, LANDFIRE layers and model output layers are grouped. These groups layers contain individual attributes such as canopy cover, elevation, fire spread rate, etc.</p>
+                </div>
                 <p>
-                    <img src="../../Resources/Images/mapstudio/layer_list/attribute options.png" alt="a gray dropdown arrow to the left of the checkbox">
-                    </img>
-                </p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Moving Attributes up or Down</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>You may change the order in which map attributes appear in <MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">More Options</span><img src="../../Resources/Images/buttons_general/button_moreoptions.png" alt="more option" class="iftbutton" /> button to the right of the attribute and clicking either <span class="UIcomponent">Move Up</span> or <span class="UIcomponent">Move Down</span>. However, there are two limitations to this capability:</p>
+                    <img src="../../Resources/Images/buttons_general/dropdown.png" alt="dropdown" class="iftbutton" /> The <span class="UIcomponent">drop-down</span> to the left of a layer allows you to see the individual attributes for that layer.</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/layer_on_off.png" alt="checkbox" class="iftbutton" /> The <span class="UIcomponent">checkbox</span> to the left of a layer allows you to turn the layer on or off (visible or hidden).</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/button_moreoptions.png" alt="more options" class="iftbutton" /> The <span class="UIcomponent">More Options</span> button to the right of the layer allows you to:</p>
                 <ul>
-                    <li>Shapes and shapefiles will always appear over raster data such as landscapes and fire behavior outputs.</li>
-                    <li>Grouped layers can be moved up or down, but their attributes cannot. Grouped layers include landscape files and model output files. For Example, you may move a landscape, or a fire behavior output up or down in Layer List, but you may not move attributes within a group, such as moving the slope attribute above the elevation attribute within a landscape file.</li>
+                    <li>Zoom to the layer on the map.</li>
+                    <li>Adjust the transparency of the layer.</li>
+                    <li>Move the layer up or down in Layer List, and on the map. However, there are two limitations to this capability:<ul><li>Shapes and shapefiles will always appear over raster data such as landscapes and fire behavior outputs.</li><li>Grouped layers can be moved up or down, but their attributes cannot.</li></ul></li>
                 </ul>
+                <p>Individual attributes have very similar controls to layers:</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/dropdown.png" alt="dropdown" class="iftbutton" /> The <span class="UIcomponent">drop-down</span> to the left of an attribute allows you to see the legend for that attribute.</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/layer_on_off.png" alt="checkbox" class="iftbutton">
+                    </img> The <span class="UIcomponent">checkbox</span> to the left of an attribute allows you to turn the attribute on or off (visible or hidden).</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/button_moreoptions.png" alt="more options" class="iftbutton" /> The <span class="UIcomponent">More Options</span> button to the right of the attribute allows you to adjust the transparency.</p>
+                <img src="../../Resources/Images/mapstudio/layer_list/attribute options.png" alt="a gray dropdown arrow to the left of the checkbox" class="border">
+                </img>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Controls for viewing Shapes and Shapefiles</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <div class="notificationNote">
+                    <p><b>Shapefile vs. Shape?</b>
+                    </p>
+                    <p>"Shapefiles" include both the geometric area, as well as accompanying data, these can be uploaded to <MadCap:variable name="General.ProductName" /> from your local machine, and are usually created in ArcMap and similar tools.</p>
+                    <p>"Shapes" include only the geometric area, no associated data. These are created in <MadCap:variable name="General.MapStudio" /> either by drawing or copying with <span class="UIcomponent">Create / Edit Shapes</span>. </p>
+                    <p>Both shapes and shapefiles may be used as masks and areas of interest throughout <MadCap:variable name="General.ProductName" /></p>
+                </div>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/dropdown.png" alt="dropdown" class="iftbutton" /> The <span class="UIcomponent">drop-down</span> to the left allows you to see the legend for that attribute.</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/layer_on_off.png" alt="checkbox" class="iftbutton" /> The <span class="UIcomponent">checkbox</span> to the left allows you to turn it on or off (visible or hidden).</p>
+                <p>
+                    <img src="../../Resources/Images/buttons_general/button_moreoptions.png" alt="more options" class="iftbutton" /> The <span class="UIcomponent">More Options</span> button to the right of shows several options. These are the same for shapes and shapefiles, with the exception of <a href="../Files/ShapefileGroup.htm" target="_blank">Create Shapefile Subset</a>, which is only available for shapefiles.</p>
+                <ul>
+                    <li>Zoom to: zoom to the extent of the shape.</li>
+                    <li>Transparency: Adjust the transparency.</li>
+                    <li>Filtering: Opens the <a href="Filter.htm" target="_blank">filter widget.</a></li>
+                    <li>Disable/Enable Pop-up:&#160;Pop-ups are enabled by default, allowing you to double click on the shape and see a pop-up box containing metadata. This option lets you turn that feature on or off.</li>
+                    <li>Move up/Move down: Move the shape up or down in Layer List and on the map.</li>
+                    <li>Open Attribute Table: Opens the <a href="AttributeTable.htm" target="_blank">attribute table</a> for a shape.</li>
+                    <li>Create Shapefile Subset (for shapefiles only). Allows you to create a new shapefile by selecting a subset of data. See the <a href="../Files/ShapefileGroup.htm" target="_blank">Create Shapefile Subset Topic</a> for full details.</li>
+                </ul>
+                <p>
+                    <img src="../../Resources/Images/mapstudio/layer_list/shape_options.png" alt="shapefile options as described in text." class="border" />
+                </p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

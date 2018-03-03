@@ -6,11 +6,15 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
+      Url="Content/10-FTEM/FTEM Data Sources.htm" />
+    <Link
+      Url="Content/10-FTEM/Adding Treatment Interactions.htm" />
   </Links>
   <LongLinks>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
+      Url="Content/10-FTEM/FTEM Data Sources.htm" />
+    <Link
+      Url="Content/10-FTEM/Adding Treatment Interactions.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -20,9 +24,6 @@
   <Variables />
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.QA ONLY" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

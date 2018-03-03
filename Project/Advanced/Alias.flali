@@ -173,8 +173,8 @@
     <Map Name="Roles" Link="/Content/10-FTEM/Roles.htm" />
     <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
-    <Map Name="LCP_export" Link="/Content/10-MapStudio/Files/LCP_export.htm" />
-    <Map Name="OpenGeoTif" Link="/Content/10-MapStudio/Files/OpenGeoTif.htm" />
+    <Map Name="LCP_export" Link="/Content/10-MyWorkspace/LCP_export.htm" />
+    <Map Name="OpenGeoTif" Link="/Content/10-MyWorkspace/OpenGeoTif.htm" />
     <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
     <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />

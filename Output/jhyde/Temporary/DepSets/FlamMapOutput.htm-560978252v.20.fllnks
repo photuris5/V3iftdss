@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -18,52 +22,52 @@
       Term="FlamMap"
       Conditions=""
       LocalConditions=""
-      Position="5" />
+      Position="6" />
     <IndexCacheEntry
       Term="Crown Fire Activity (parameter)"
       Conditions=""
       LocalConditions=""
-      Position="19" />
+      Position="20" />
     <IndexCacheEntry
       Term="surface fires:crown fires and"
       Conditions=""
       LocalConditions=""
-      Position="25" />
+      Position="26" />
     <IndexCacheEntry
       Term="Direction of Maximum Spread (parameter)"
       Conditions=""
       LocalConditions=""
-      Position="28" />
+      Position="29" />
     <IndexCacheEntry
       Term="fires:heading direction"
       Conditions=""
       LocalConditions=""
-      Position="31" />
+      Position="32" />
     <IndexCacheEntry
       Term="heading direction of fires"
       Conditions=""
       LocalConditions=""
-      Position="31" />
+      Position="32" />
     <IndexCacheEntry
       Term="Fireline Intensity (parameter)"
       Conditions=""
       LocalConditions=""
-      Position="34" />
+      Position="35" />
     <IndexCacheEntry
       Term="Flame Length (parameter):IFT-FlamMap"
       Conditions=""
       LocalConditions=""
-      Position="39" />
+      Position="40" />
     <IndexCacheEntry
       Term="Heat per Unit Area (parameter):fire behavior (FlamMap)"
       Conditions=""
       LocalConditions=""
-      Position="44" />
+      Position="45" />
     <IndexCacheEntry
       Term="Rate of Spread (parameter):IFT-FlamMap"
       Conditions=""
       LocalConditions=""
-      Position="50" />
+      Position="51" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />

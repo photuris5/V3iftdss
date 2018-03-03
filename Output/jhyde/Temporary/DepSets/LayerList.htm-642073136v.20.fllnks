@@ -14,11 +14,15 @@
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/dropdown.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/layer_on_off.png" />
+    <Link
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
-    <Link
-      Url="Project/VariableSets/General.flvar" />
   </Links>
   <LongLinks>
     <Link
@@ -30,11 +34,15 @@
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/dropdown.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/layer_on_off.png" />
+    <Link
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
-    <Link
-      Url="Project/VariableSets/General.flvar" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -48,6 +56,8 @@
   <ConceptControlNames />
   <IndexControlNames />
   <Variables>
+    <Variable
+      Name="General.ProductName" />
     <Variable
       Name="General.MapStudio" />
   </Variables>

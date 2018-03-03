@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/FTEM/reports/report.png" />
-    <Url Source="Resources/Images/FTEM/reports/generatereport.png" />
-    <Url Source="Resources/Images/FTEM/reports/selectreports.png" />
-    <Url Source="Resources/Images/FTEM/integrated_wildfire_data.png" />
-    <Url Source="Resources/Images/FTEM/integrated_pointpoly.png" />
-    <Url Source="Resources/Images/FTEM/buffering.png" />
-    <Url Source="Resources/Images/myworkspace/shapedelete.png" />
-    <Url Source="Resources/Images/buttons_general/mac_cmd.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/shapesubset_on_map.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/name_and_folder.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/choose_objects.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/create_shapefile_subset.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclass_result.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/toc_color.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclass_label.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclass_sym.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_5.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_4.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_3.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_2.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_1.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/geotiff_FL.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/spatial_analyst.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/FL_new_view.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/colortable.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/FL_sym_class_3.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/FL_sym_class_2.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/FL_sym_class_1.png" />
+    <Url Source="Resources/Images/myworkspace/geotiffs/FL_properties.png" />
+    <Url Source="Resources/Images/mapstudio/layer_list/shape_options.png" />
     <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
-    <Url Source="Resources/Images/myworkspace/raster_use.png" />
-    <Url Source="Resources/Images/myworkspace/arc_select_all.png" />
-    <Url Source="Resources/Images/myworkspace/doubleclick.png" />
-    <Url Source="Resources/Images/myworkspace/Arcmap_Add_Data.png" />
-    <Url Source="Resources/Images/mapstudio/shapefile_upload/save_shapefile.png" />
-    <Url Source="Resources/Images/myworkspace/raster_local_save.png" />
-    <Url Source="Resources/Images/myworkspace/raster_save_confirm.png" />
+    <Url Source="Resources/Images/buttons_general/layer_on_off.png" />
 </UrlList>

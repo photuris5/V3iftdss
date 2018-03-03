@@ -9,12 +9,20 @@
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/FTEM/integrated_pointpoly.png" />
+    <Link
+      Url="https://www.nwcg.gov/data-standards" />
+    <Link
+      Url="https://www.treesearch.fs.fed.us/pubs/6447" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/FTEM/integrated_pointpoly.png" />
+    <Link
+      Url="https://www.nwcg.gov/data-standards" />
+    <Link
+      Url="https://www.treesearch.fs.fed.us/pubs/6447" />
   </LongLinks>
   <Anchors />
   <Keywords />

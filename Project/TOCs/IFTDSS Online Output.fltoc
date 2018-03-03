@@ -221,7 +221,7 @@
         Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-MapStudio/Files/LCP_export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-MyWorkspace/LCP_export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Using Shapes &amp; Shapefiles"
@@ -381,7 +381,8 @@
       Title="About FTEM"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
-      Title="Account &amp; Permissions">
+      Title="Account &amp; Permissions"
+      Link="/Content/10-FTEM/AccountSetup.htm">
       <TocEntry
         Title="Create an FTEM Account"
         Link="/Content/10-FTEM/AccountSetup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -390,7 +391,8 @@
         Link="/Content/10-FTEM/Roles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="How to Use FTEM">
+      Title="How to Use FTEM"
+      Link="/Content/10-FTEM/UsingFtem.htm">
       <TocEntry
         Title="How to Use FTEM"
         Link="/Content/10-FTEM/UsingFtem.htm" />
@@ -405,17 +407,14 @@
         Link="/Content/10-FTEM/FTEMPolicy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="Technical Documentation">
+      Title="Technical Documentation"
+      Link="/Content/10-FTEM/TechDoc.htm">
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/10-FTEM/FTEM Data Sources.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Treatment Interactions"
         Link="/Content/10-FTEM/Adding Treatment Interactions.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Technical Documentation"
-        Link="/Content/10-FTEM/TechDoc.htm"
-        conditions="General.Exclude" />
     </TocEntry>
     <TocEntry
       Title="Generate Reports"

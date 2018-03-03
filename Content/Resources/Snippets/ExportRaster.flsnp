@@ -31,7 +31,7 @@
                 </p>
             </li>
             <li>
-                <p>Once extracted, the file will be a GeoTif (.tif) with separate bands for each landscape feature or model output. (See the Topic on <a href="../../10-MapStudio/Files/OpenGeoTif.htm" target="_blank">Opening <MadCap:variable name="General.ProductName" /> rasters in ArcMap</a> for more details if needed)</p>
+                <p>Once extracted, the file will be a GeoTif (.tif) with separate bands for each landscape feature or model output. (See the Topic on <a href="../../10-MyWorkspace/OpenGeoTif.htm" target="_blank">Opening <MadCap:variable name="General.ProductName" /> rasters in ArcMap</a> for more details if needed)</p>
                 <p>
                     <img src="../Images/myworkspace/raster_use.png" alt="the file will be in .tif format with a band for each landscape feature or model output." class="borderlist" />
                 </p>

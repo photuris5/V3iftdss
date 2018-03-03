@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
     <Url Source="Resources/Snippets/ExportRaster.flsnp" />
     <Url Source="Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
     <Url Source="Resources/Snippets/EditLandscapeRules/Steps_Default Rules.flsnp" />
