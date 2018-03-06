@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/landscapesumm/map_streaks.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/reclass_result.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/toc_color.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/reclass_label.png" />
@@ -19,5 +20,4 @@
     <Url Source="Resources/Images/myworkspace/geotiffs/FL_properties.png" />
     <Url Source="Resources/Images/mapstudio/layer_list/shape_options.png" />
     <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
-    <Url Source="Resources/Images/buttons_general/layer_on_off.png" />
 </UrlList>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2052" MadCap:lastWidth="1212" MadCap:fileTags="Source.UIdaho">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2519" MadCap:lastWidth="1466" MadCap:fileTags="Source.UIdaho">
     <head>
     </head>
     <body>
@@ -12,6 +12,19 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Data and runs from IFTDSS 2.0 will not be available in this version of <MadCap:variable name="General.ProductName" />. This is because <MadCap:variable name="General.ProductName" />is built on an entirely new system relative to previous versions.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Horizontal Streaks in Large Landscapes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In the Develop Treatment Alternative task, on the "compare" step, horizontal "streaking" sometimes appears in the Landscape Change layer for large landscapes. These streaks do not reflect raster changes, they are introduced due to a re-sampling issues on the ArcGIS server.</p>
+                <p><b>Fix:</b> To remove the streaks, zoom in on the map and it will automatically re-draw the layer.</p>
+                <p>
+                    <img src="../Resources/Images/landscapesumm/map_streaks.png" alt="landscape change layer with horizontal streaks running across landscape." />
+                </p>
+                <p>(Reported 2/22/18)</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -85,10 +98,10 @@
                 <MadCap:dropDownHotspot>Working between <MadCap:keyword term="LANDFIR" />LANDFIRE and <MadCap:variable name="General.ProductName" /></MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>If your using IFTDSS landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See the <a href="../10-MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data Topic</a> for more information.</p>
+                <p>If you're using IFTDSS landscape extents to download additional data from the LANDFIRE&#160;Data Distribution site, you'll have to re-clip the landfire files to match the <MadCap:variable name="General.ProductName" /> if you need them to match exactly to the same extent. See the <a href="../10-MapStudio/Files/SpatialExtent.htm">Spatial Extent of <MadCap:variable name="General.ProductName" /> and LANDFIRE&#160;Data Topic</a> for more information.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.Exclude">
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Zooming to a filtered mask sometimes zooms elsewhere</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>

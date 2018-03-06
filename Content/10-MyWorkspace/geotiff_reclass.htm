@@ -1,192 +1,225 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="8795" MadCap:lastWidth="1427" MadCap:conditions="General.LaterRelease">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="8893" MadCap:lastWidth="1401" MadCap:conditions="General.LaterRelease">
     <head>
     </head>
     <body>
         <h1>Reclassing GeoTiff Flame Lengths in ArcMap</h1>
-        <p class="comment">[Insert short intro, then check the symbology and reclass sections to 1) add intro info, 2) decide to keep as is or as drop-downs]</p>
-        <p>If you only want to map your flame length output, all you need to do is change the symbology.  These changes do not allow you do further analysis and are not kept if you don’t save your ArcMap.</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>
-                <p>Add the Flame Length band from the GeoTiff. Using the <span class="UIcomponent">Add Data</span> button navigate to your GeoTiff, double click the tiff file to show the individual bands.  Select "Flame Length".</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/geotiff_FL.png" alt="select the geotiff band" class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Right click on the <span class="UIcomponent">Flame Length</span> layer in ArcMap table of contents, and click <span class="UIcomponent">Properties</span>.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/FL_properties.png" alt="symbology can be adjusted with the properties item in the menu." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Go to the <span class="UIcomponent">Symbology</span> tab in the <span class="UIcomponent">Layer Properties</span> window, and select <span class="UIcomponent">Classify</span>.  Set the Classes to 7 and click <span class="UIcomponent">Classify</span>.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/FL_sym_class_1.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>In the Classification window you will need to set the break values using the conversion table below to match the <MadCap:variable name="General.ProductName" /> bins. To do this you click on the value in the box and type what you want.  Leave the maximum value what it is for your data, not what is in the image. Then click "OK".</p>
-                <table>
-                    <col />
-                    <col />
-                    <tbody>
-                        <tr>
-                            <td style="text-align: center;font-weight: bold;">Flame length (meters)</td>
-                            <td style="text-align: center;font-weight: bold;">Flame length (feet)</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">0</td>
-                            <td style="text-align: center;">0</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">0.3048</td>
-                            <td style="text-align: center;">1</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">1.2192</td>
-                            <td style="text-align: center;">4</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">2.4384</td>
-                            <td style="text-align: center;">8</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">3.3528</td>
-                            <td style="text-align: center;">11</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">7.62</td>
-                            <td style="text-align: center;">25</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">Max value</td>
-                            <td style="text-align: center;">Max value</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/FL_sym_class_2.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Back in the Layer Properties window, you will need to change the label to be the feet equivalent.  Click OK to apply the new symbology.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/FL_sym_class_3.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Finally, you can change the colors of your new symbols by right clicking on each class and choosing the color you would like.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/colortable.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/FL_new_view.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-        </ol>
-        <p>In order to do further analysis you will need to reclassify your flame length output. You will need the Spatial Analyst Extension for ArcGIS and it will need to be turned on.</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>
-                <p>Verify you have the Spatial Analyst Extension. In the main ArcMap toolbar go to <span class="UIcomponent">Customize</span> and then select <span class="UIcomponent">Extensions</span>. When the Extensions window opens verify Spatial Analyst is listed, available, and is checked.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/spatial_analyst.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Add the Flame Length band from the GeoTiff. Using the <span class="UIcomponent">Add data</span> button, navigate to your GeoTiff, double click the tiff file to show the individual bands.  Select Flame Length.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/geotiff_FL.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Open <span class="UIcomponent">ArcToolbox</span> and navigate to the <span class="UIcomponent">Reclassify tool</span>.  It is nested under <span class="UIcomponent">Spatial Analyst Tools</span> and <span class="UIcomponent">Reclass</span>.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclassify_1.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>When the Reclassify window opens, select the Flame Length band as the Input Raster. Verify the Reclass field is Vale and click Classify.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclassify_2.png" alt="follow steps as described in text." />
-                </p>
-            </li>
-            <li>
-                <p>In the Classification window you will need to set the Classes to 7.  Do this step first otherwise you can’t change it once you start setting the Break Values. Then set the Break Values using the conversion table provided below to match the <MadCap:variable name="General.ProductName" /> bins. To do this you click on the value in the box and type what you want.  Leave the maximum value what it is for your data, not what is in the image. Then click OK.</p>
-                <table>
-                    <col />
-                    <col />
-                    <tbody>
-                        <tr>
-                            <td style="text-align: center;font-weight: bold;">Flame length (meters)</td>
-                            <td style="text-align: center;font-weight: bold;">Flame length (feet)</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">0</td>
-                            <td style="text-align: center;">0</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">0.3048</td>
-                            <td style="text-align: center;">1</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">1.2192</td>
-                            <td style="text-align: center;">4</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">2.4384</td>
-                            <td style="text-align: center;">8</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">3.3528</td>
-                            <td style="text-align: center;">11</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">7.62</td>
-                            <td style="text-align: center;">25</td>
-                        </tr>
-                        <tr>
-                            <td style="text-align: center;">Max value</td>
-                            <td style="text-align: center;">Max value</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclassify_3.png" alt="follow steps as described in text." />
-                </p>
-            </li>
-            <li>
-                <p>In the <span class="UIcomponent">Reclassify</span> window.  Change your New Values to be something meaningful to you to represent the new classification.  One suggestion is using the maximum value in the classes they represent.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclassify_4.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Go to the <span class="UIcomponent">Output raster</span> option to name and save it where you would like.  Because it is a raster, you are limited to 13 characters for the name and the only special character you can use is an underscore.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclassify_5.png" alt="follow steps as described in text." />
-                </p>
-            </li>
-            <li>When the Reclassify screen opens, click OK to generate your new raster.</li>
-            <li>
-                <p>You can change the labels by right clicking on the layer name in the table of contents, choosing <span class="UIcomponent">Properties</span>, and then the <span class="UIcomponent">Symbology tab</span>. Then typing the Label you would like.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclass_sym.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclass_label.png" alt="follow steps as described in text." class="border" />
-                </p>
-            </li>
-            <li>
-                <p>Finally, you can change the colors of your new symbols by right clicking on each class and choosing the color you would like.</p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/toc_color.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-                <p>
-                    <img src="../Resources/Images/myworkspace/geotiffs/reclass_result.png" alt="follow steps as described in text." class="borderlist" />
-                </p>
-                <p>&#160;</p>
-            </li>
-        </ol>
+        <p>When working with <MadCap:variable name="General.ProductName" /> GeoTiff data in other products, you may notice the data is displayed at as a range of values, not classes. If you need classes, the below instructions outline how to do so by changing symbology, or how to reclassify the data for further analysis. The below example focuses on the flame length, but the same steps are applicable for other outputs as well.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Viewing flame lengths as classes</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you only want to map your flame length output, all you need to do is change the symbology.  These changes do not allow you do further analysis and are not kept if you don’t save your ArcMap.</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Add the Flame Length band from the GeoTiff. Using the <span class="UIcomponent">Add Data</span> button navigate to your GeoTiff, double click the tiff file to show the individual bands. Select "Flame Length".</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/geotiff_FL.png" alt="select the geotiff band" class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Right click on the <span class="UIcomponent">Flame Length</span> layer in ArcMap table of contents, and click <span class="UIcomponent">Properties</span>.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/FL_properties.png" alt="symbology can be adjusted with the properties item in the menu." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Go to the <span class="UIcomponent">Symbology</span> tab in the <span class="UIcomponent">Layer Properties</span> window, and select <span class="UIcomponent">Classify</span>.  Set the Classes to 7 and click <span class="UIcomponent">Classify</span>.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/FL_sym_class_1.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>In the<span class="UIcomponent"> Classification</span> window you will need to set the break values using the conversion table below to match the <MadCap:variable name="General.ProductName" /> bins. To do this you click on the value in the box and enter your break values.  Leave the maximum value unchanged (In the image below it is 94.34368896, but your data will have its own max value). Then click "OK", which will close this window, leaving you at the <span class="UIcomponent">Layer Properties</span> window.</p>
+                        <table>
+                            <col>
+                            </col>
+                            <col>
+                            </col>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;font-weight: bold;">Flame length (meters)</td>
+                                    <td style="text-align: center;font-weight: bold;">Flame length (feet)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">0</td>
+                                    <td style="text-align: center;">0</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">0.3048</td>
+                                    <td style="text-align: center;">1</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1.2192</td>
+                                    <td style="text-align: center;">4</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">2.4384</td>
+                                    <td style="text-align: center;">8</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">3.3528</td>
+                                    <td style="text-align: center;">11</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">7.62</td>
+                                    <td style="text-align: center;">25</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Max value</td>
+                                    <td style="text-align: center;">Max value</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/FL_sym_class_2.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>In the <span class="UIcomponent">Layer Properties</span> window, change the label to be the feet equivalent.  Click "OK" to apply the new symbology.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/FL_sym_class_3.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>To change the colors of your new symbols, you can right click on each class and choose the new color.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/colortable.png" alt="follow steps as described in text." class="borderlist" />
+                        </p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/FL_new_view.png" alt="follow steps as described in text." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Reclassifying flame lengths</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In order to do further analysis you will need to reclassify your flame length output. You will need the Spatial Analyst Extension for ArcGIS and it will need to be turned on.</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Verify you have the Spatial Analyst Extension. In the main ArcMap toolbar go to <span class="UIcomponent">Customize</span> and then select <span class="UIcomponent">Extensions</span>. When the Extensions window opens, verify Spatial Analyst is listed, available, and is checked.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/spatial_analyst.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Add the Flame Length band from the GeoTiff. Using the <span class="UIcomponent">Add data</span> button, navigate to your GeoTiff, double click the tiff file to show the individual bands.  Select "Flame Length".</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/geotiff_FL.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Open <span class="UIcomponent">ArcToolbox</span> and navigate to the <span class="UIcomponent">Reclassify tool</span> by navigating to <span class="UIcomponent">Spatial Analyst Tools</span> and then <span class="UIcomponent">Reclass</span>.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclassify_1.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>When the <span class="UIcomponent">Reclassify</span> window opens, select the Flame Length band as the Input Raster. Verify the Reclass field is set to "Value" and click <span class="UIcomponent">Classify</span>.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclassify_2.png" alt="follow steps as described in text.">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>In the <span class="UIcomponent">Classification</span> window you will need to set the Classes to 7.  Do this step first otherwise you can’t change it once you start setting the Break Values. Then set the Break Values using the conversion table provided below to match the <MadCap:variable name="General.ProductName" /> bins. To do this you click on the value in the box and type what you want.  Leave the maximum value what it is for your data, not what is in the image. Then click OK.</p>
+                        <table>
+                            <col>
+                            </col>
+                            <col>
+                            </col>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;font-weight: bold;">Flame length (meters)</td>
+                                    <td style="text-align: center;font-weight: bold;">Flame length (feet)</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">0</td>
+                                    <td style="text-align: center;">0</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">0.3048</td>
+                                    <td style="text-align: center;">1</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">1.2192</td>
+                                    <td style="text-align: center;">4</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">2.4384</td>
+                                    <td style="text-align: center;">8</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">3.3528</td>
+                                    <td style="text-align: center;">11</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">7.62</td>
+                                    <td style="text-align: center;">25</td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;">Max value</td>
+                                    <td style="text-align: center;">Max value</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclassify_3.png" alt="follow steps as described in text.">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>In the <span class="UIcomponent">Reclassify</span> window.  Change your New Values to be something meaningful to you to represent the new classification.  One suggestion is using the maximum value in the classes they represent.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclassify_4.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Go to the <span class="UIcomponent">Output raster</span> option to name and save it where you would like.  Because it is a raster, you are limited to 13 characters for the name and the only special character you can use is an underscore.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclassify_5.png" alt="follow steps as described in text.">
+                            </img>
+                        </p>
+                    </li>
+                    <li>When the Reclassify screen opens, click OK to generate your new raster.</li>
+                    <li>
+                        <p>You can change the labels by right clicking on the layer name in the table of contents, choosing <span class="UIcomponent">Properties</span>, and then the <span class="UIcomponent">Symbology tab</span>. Then typing the Label you would like.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclass_sym.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclass_label.png" alt="follow steps as described in text." class="border">
+                            </img>
+                        </p>
+                    </li>
+                    <li>
+                        <p>Finally, you can change the colors of your new symbols by right clicking on each class and choosing the color you would like.</p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/toc_color.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                        <p>
+                            <img src="../Resources/Images/myworkspace/geotiffs/reclass_result.png" alt="follow steps as described in text." class="borderlist">
+                            </img>
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
