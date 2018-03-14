@@ -8,8 +8,6 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/Resources/Images/mapstudio/overview/map_1_29_18.png" />
     <Link
       Url="Content/10-MapStudio/Functions/SearchESRI.htm" />
@@ -81,15 +79,11 @@
       Url="Content/Resources/Images/mapstudio/overview/button_add_graphic.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddGraphic.htm" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/overview/map_3_30_17.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/Resources/Images/mapstudio/overview/map_1_29_18.png" />
     <Link
       Url="Content/10-MapStudio/Functions/SearchESRI.htm" />
@@ -161,8 +155,6 @@
       Url="Content/Resources/Images/mapstudio/overview/button_add_graphic.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddGraphic.htm" />
-    <Link
-      Url="Content/Resources/Images/mapstudio/overview/map_3_30_17.png" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -188,11 +180,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.QA ONLY" />
-    <Condition
-      Tag="General.Prod ONLY" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

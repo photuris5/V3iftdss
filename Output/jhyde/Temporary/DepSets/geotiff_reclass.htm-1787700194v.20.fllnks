@@ -6,8 +6,6 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Images/myworkspace/geotiffs/geotiff_FL.png" />
@@ -45,8 +43,6 @@
       Url="Content/Resources/Images/myworkspace/geotiffs/reclass_result.png" />
   </Links>
   <LongLinks>
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
@@ -93,14 +89,8 @@
     <Variable
       Name="General.ProductName" />
   </Variables>
-  <FileConditions>
-    <Condition
-      Tag="General.LaterRelease" />
-  </FileConditions>
+  <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.LaterRelease" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

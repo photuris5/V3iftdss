@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/41-References/ReferenceList.htm" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/41-References/ReferenceList.htm#NWCG2018" />
   </LongLinks>
   <Anchors />
   <Keywords />

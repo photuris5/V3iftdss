@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/mapstudio/overview/button_addshapefile.png" />
+    <Url Source="Resources/Images/FTEM/add_shapefile_zoomed.png" />
+    <Url Source="Resources/Images/FTEM/add_shapefile_box.png" />
+    <Url Source="Resources/Images/FTEM/add_shapefile_files.png" />
+    <Url Source="Resources/Images/FTEM/Add_Shapefile.png" />
+    <Url Source="Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
+    <Url Source="Resources/Images/getting_started/Chrome.png" />
     <Url Source="Resources/Images/landscapesumm/map_streaks.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/reclass_result.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/toc_color.png" />
@@ -13,11 +20,4 @@
     <Url Source="Resources/Images/myworkspace/geotiffs/geotiff_FL.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/spatial_analyst.png" />
     <Url Source="Resources/Images/myworkspace/geotiffs/FL_new_view.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/colortable.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/FL_sym_class_3.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/FL_sym_class_2.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/FL_sym_class_1.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/FL_properties.png" />
-    <Url Source="Resources/Images/mapstudio/layer_list/shape_options.png" />
-    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
 </UrlList>

@@ -4,8 +4,14 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
@@ -15,5 +21,8 @@
   <FileConditions />
   <FileTags />
   <AllConditions />
-  <Stylesheets />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Stylesheets>
 </CatapultFileLinkSet>

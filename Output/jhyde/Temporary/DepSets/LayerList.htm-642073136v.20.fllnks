@@ -23,6 +23,14 @@
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Filter.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/shape_options.png" />
   </Links>
   <LongLinks>
     <Link
@@ -43,6 +51,14 @@
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Filter.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/shape_options.png" />
   </LongLinks>
   <Anchors />
   <Keywords>

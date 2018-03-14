@@ -152,8 +152,8 @@ xmlAliasData += '    <Map Name=\"FTEMAdmin\" Link=\"10-ftem/ftemadmin.htm\" Reso
 xmlAliasData += '    <Map Name=\"Roles\" Link=\"10-ftem/roles.htm\" ResolvedId=\"1085\" />';
 xmlAliasData += '    <Map Name=\"AOIsMasks\" Link=\"10-mapstudio/files/aoismasks.htm\" ResolvedId=\"1087\" />';
 xmlAliasData += '    <Map Name=\"DeleteShape\" Link=\"10-mapstudio/files/deleteshape.htm\" ResolvedId=\"1088\" />';
-xmlAliasData += '    <Map Name=\"LCP_export\" Link=\"10-mapstudio/files/lcp_export.htm\" ResolvedId=\"1089\" />';
-xmlAliasData += '    <Map Name=\"OpenGeoTif\" Link=\"10-mapstudio/files/opengeotif.htm\" ResolvedId=\"1090\" />';
+xmlAliasData += '    <Map Name=\"LCP_export\" Link=\"10-myworkspace/lcp_export.htm\" ResolvedId=\"1089\" />';
+xmlAliasData += '    <Map Name=\"OpenGeoTif\" Link=\"10-myworkspace/opengeotif.htm\" ResolvedId=\"1090\" />';
 xmlAliasData += '    <Map Name=\"ShapeCopyfromRef\" Link=\"10-mapstudio/files/shapecopyfromref.htm\" ResolvedId=\"1091\" />';
 xmlAliasData += '    <Map Name=\"ShapefileGroup\" Link=\"10-mapstudio/files/shapefilegroup.htm\" ResolvedId=\"1092\" />';
 xmlAliasData += '    <Map Name=\"ShapeGroup\" Link=\"10-mapstudio/files/shapegroup.htm\" ResolvedId=\"1094\" />';

@@ -12,7 +12,11 @@
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Content/Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
+    <Link
+      Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -22,7 +26,11 @@
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Content/Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
+    <Link
+      Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -35,7 +43,10 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.LaterRelease" />
+  </AllConditions>
   <Stylesheets>
     <Url
       Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />

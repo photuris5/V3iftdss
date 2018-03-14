@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Images\landscapesumm\map_streaks.png" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Images\FTEM\UpdateAgencyPreference.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\41-References\ReferenceList.htm" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\10-MapStudio\Functions\AddReferenceData.htm" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
         <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Snippets\Behavior\Flammap_basic_units.flsnp" />
