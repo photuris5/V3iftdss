@@ -22,7 +22,7 @@
     <Link
       Url="Content/Resources/Images/FTEM/adminview.png" />
     <Link
-      Url="Content/10-FTEM/FTEMAdmin.htm" />
+      Url="Content/10-FTEM/Administrators.htm" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </Links>
@@ -44,7 +44,7 @@
     <Link
       Url="Content/Resources/Images/FTEM/adminview.png" />
     <Link
-      Url="Content/10-FTEM/FTEMAdmin.htm" />
+      Url="Content/10-FTEM/Administrators.htm" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </LongLinks>
@@ -58,7 +58,7 @@
   <FileTags />
   <AllConditions>
     <Condition
-      Tag="General.DeveloperNotes" />
+      Tag="General.Exclude" />
   </AllConditions>
   <Stylesheets>
     <Url

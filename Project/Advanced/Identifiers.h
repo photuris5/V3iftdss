@@ -23,7 +23,6 @@
 #define LCPCreate 1033
 #define LCPInfo 1034
 #define ShapefileInfo 1035
-#define ShapefileSaving 1036
 #define AddReferenceData 1037
 #define AddShapefile 1038
 #define BasemapGallery 1039
@@ -184,3 +183,10 @@
 #define Modeling_in_Wildfire_Playground 1099
 #define ProjectBegin 1101
 #define Treatment_AOI 1102
+#define Chrome 1103
+#define AgencyLeads 1104
+#define DataTreatments 1105
+#define DataUtilities 1106
+#define DataWildfires 1107
+#define AddShapefile1 1109
+#define geotiff_reclass 1110

@@ -32,7 +32,7 @@
     <Link
       Url="Content/Resources/Images/FTEM/UpdateAgencyPreference.png" />
     <Link
-      Url="Content/10-FTEM/Roles.htm" />
+      Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -62,7 +62,7 @@
     <Link
       Url="Content/Resources/Images/FTEM/UpdateAgencyPreference.png" />
     <Link
-      Url="Content/10-FTEM/Roles.htm" />
+      Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

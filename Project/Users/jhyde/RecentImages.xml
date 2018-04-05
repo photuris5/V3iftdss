@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/FTEM/reports/generatereport2.png" />
+    <Url Source="Resources/Images/FTEM/attach_confirm2.png" />
+    <Url Source="Resources/Images/FTEM/attach_confirm.png" />
+    <Url Source="Resources/Images/FTEM/attachment_localfile.png" />
+    <Url Source="Resources/Images/FTEM/clippy.png" />
+    <Url Source="Resources/Images/FTEM/attachments.png" />
+    <Url Source="Resources/Images/FTEM/attachments_download.png" />
+    <Url Source="Resources/Images/buttons_general/download_icon.png" />
+    <Url Source="Resources/Images/FTEM/paperclip.png" />
+    <Url Source="Resources/Images/FTEM/find_attachment.png" />
+    <Url Source="Resources/Images/FTEM/userlist_search.png" />
+    <Url Source="Resources/Images/Behavior/incomplete_run_3_14_18.png" />
     <Url Source="Resources/Images/mapstudio/overview/button_addshapefile.png" />
     <Url Source="Resources/Images/FTEM/add_shapefile_zoomed.png" />
     <Url Source="Resources/Images/FTEM/add_shapefile_box.png" />
@@ -8,16 +20,4 @@
     <Url Source="Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
     <Url Source="Resources/Images/getting_started/Chrome.png" />
     <Url Source="Resources/Images/landscapesumm/map_streaks.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclass_result.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/toc_color.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclass_label.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclass_sym.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_5.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_4.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_3.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_2.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/reclassify_1.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/geotiff_FL.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/spatial_analyst.png" />
-    <Url Source="Resources/Images/myworkspace/geotiffs/FL_new_view.png" />
 </UrlList>

@@ -6,7 +6,7 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/10-FTEM/AccountSetup.htm" />
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
@@ -14,27 +14,27 @@
     <Link
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link
-      Url="Content/Resources/Images/FTEM/treatments.png" />
-    <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_poly.png" />
     <Link
       Url="Content/10-FTEM/Symbology.htm" />
     <Link
+      Url="Content/Resources/Images/FTEM/treatments.png" />
+    <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
-      Url="Content/Resources/Images/FTEM/monitoring.png" />
+      Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Link
-      Url="Content/10-FTEM/MonitoringGuidance.htm" />
-    <Link
-      Url="Content/10-FTEM/Reporting.htm" />
+      Url="Content/10-FTEM/Reports/Reporting.htm" />
     <Link
       Url="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
+    <Link
+      Url="Content/Resources/Images/FTEM/monitoring.png" />
     <Link
       Url="Content/Resources/Images/FTEM/reviewtab.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/10-FTEM/AccountSetup.htm" />
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
@@ -42,21 +42,21 @@
     <Link
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link
-      Url="Content/Resources/Images/FTEM/treatments.png" />
-    <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_poly.png" />
     <Link
       Url="Content/10-FTEM/Symbology.htm" />
     <Link
+      Url="Content/Resources/Images/FTEM/treatments.png" />
+    <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
-      Url="Content/Resources/Images/FTEM/monitoring.png" />
+      Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Link
-      Url="Content/10-FTEM/MonitoringGuidance.htm" />
-    <Link
-      Url="Content/10-FTEM/Reporting.htm" />
+      Url="Content/10-FTEM/Reports/Reporting.htm" />
     <Link
       Url="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
+    <Link
+      Url="Content/Resources/Images/FTEM/monitoring.png" />
     <Link
       Url="Content/Resources/Images/FTEM/reviewtab.png" />
   </LongLinks>

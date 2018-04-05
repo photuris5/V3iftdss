@@ -91,7 +91,7 @@ xmlAliasData += '    <Map Name=\"FireBehavior\" Link=\"20-models/flammap/flammap
 xmlAliasData += '    <Map Name=\"ModelingPlayground\" Link=\"20-models/modelsoverview.htm\" ResolvedId=\"1136\" />';
 xmlAliasData += '    <Map Name=\"AccountSetup1\" Link=\"10-ftem/accountsetup.htm\" ResolvedId=\"1005\" />';
 xmlAliasData += '    <Map Name=\"FTEMAbout1\" Link=\"10-ftem/ftemabout.htm\" ResolvedId=\"1006\" />';
-xmlAliasData += '    <Map Name=\"FTEMFaq\" Link=\"10-ftem/ftemfaq.htm\" ResolvedId=\"1007\" />';
+xmlAliasData += '    <Map Name=\"FTEMFaq\" Link=\"10-ftem/faqs.htm\" ResolvedId=\"1007\" />';
 xmlAliasData += '    <Map Name=\"MonitoringGuidance\" Link=\"10-ftem/monitoringguidance.htm\" ResolvedId=\"1008\" />';
 xmlAliasData += '    <Map Name=\"Reporting\" Link=\"10-ftem/reporting.htm\" ResolvedId=\"1009\" />';
 xmlAliasData += '    <Map Name=\"Symbology\" Link=\"10-ftem/symbology.htm\" ResolvedId=\"1010\" />';
@@ -124,9 +124,9 @@ xmlAliasData += '    <Map Name=\"_4_crownfire_hh\" Link=\"50-hover/lcpfirebehavi
 xmlAliasData += '    <Map Name=\"_5_FMs_hh\" Link=\"50-hover/lcpfirebehavior/5_fms_hh.htm\" ResolvedId=\"9018\" />';
 xmlAliasData += '    <Map Name=\"Estimating_Fuel_Moistures\" Link=\"00-concepts/estimating fuel moistures.htm\" ResolvedId=\"1191\" />';
 xmlAliasData += '    <Map Name=\"SummaryFM\" Link=\"30-tasks/summaries/summaryfm.htm\" ResolvedId=\"1192\" />';
-xmlAliasData += '    <Map Name=\"Adding_Treatment_Interactions\" Link=\"10-ftem/adding treatment interactions.htm\" ResolvedId=\"1026\" />';
-xmlAliasData += '    <Map Name=\"FTEM_Data_Sources\" Link=\"10-ftem/ftem data sources.htm\" ResolvedId=\"1028\" />';
-xmlAliasData += '    <Map Name=\"FTEMPolicy\" Link=\"10-ftem/ftempolicy.htm\" ResolvedId=\"1051\" />';
+xmlAliasData += '    <Map Name=\"Adding_Treatment_Interactions\" Link=\"10-ftem/buffering.htm\" ResolvedId=\"1026\" />';
+xmlAliasData += '    <Map Name=\"FTEM_Data_Sources\" Link=\"10-ftem/datatreatments.htm\" ResolvedId=\"1028\" />';
+xmlAliasData += '    <Map Name=\"FTEMPolicy\" Link=\"10-ftem/policy.htm\" ResolvedId=\"1051\" />';
 xmlAliasData += '    <Map Name=\"GeoAreaOfInterest\" Link=\"10-ftem/geoareaofinterest.htm\" ResolvedId=\"1058\" />';
 xmlAliasData += '    <Map Name=\"Complete_hh\" Link=\"50-hover/ftem/complete_hh.htm\" ResolvedId=\"9022\" />';
 xmlAliasData += '    <Map Name=\"monitoring_hh\" Link=\"50-hover/ftem/monitoring_hh.htm\" ResolvedId=\"9021\" />';
@@ -148,7 +148,7 @@ xmlAliasData += '    <Map Name=\"step_Complete_hh\" Link=\"50-hover/ftem/step_co
 xmlAliasData += '    <Map Name=\"step_monitoring_hh\" Link=\"50-hover/ftem/step_monitoring_hh.htm\" ResolvedId=\"9024\" />';
 xmlAliasData += '    <Map Name=\"step_treatments_hh\" Link=\"50-hover/ftem/step_treatments_hh.htm\" ResolvedId=\"9025\" />';
 xmlAliasData += '    <Map Name=\"step_wildfires_hh\" Link=\"50-hover/ftem/step_wildfires_hh.htm\" ResolvedId=\"9026\" />';
-xmlAliasData += '    <Map Name=\"FTEMAdmin\" Link=\"10-ftem/ftemadmin.htm\" ResolvedId=\"1082\" />';
+xmlAliasData += '    <Map Name=\"FTEMAdmin\" Link=\"10-ftem/administrators.htm\" ResolvedId=\"1082\" />';
 xmlAliasData += '    <Map Name=\"Roles\" Link=\"10-ftem/roles.htm\" ResolvedId=\"1085\" />';
 xmlAliasData += '    <Map Name=\"AOIsMasks\" Link=\"10-mapstudio/files/aoismasks.htm\" ResolvedId=\"1087\" />';
 xmlAliasData += '    <Map Name=\"DeleteShape\" Link=\"10-mapstudio/files/deleteshape.htm\" ResolvedId=\"1088\" />';

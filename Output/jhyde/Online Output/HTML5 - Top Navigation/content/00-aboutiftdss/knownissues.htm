@@ -148,6 +148,16 @@
                                                 <p>Data and runs from IFTDSS 2.0 will not be available in this version of <span class="GeneralProductName">IFTDSS</span>. This is because <span class="GeneralProductName">IFTDSS</span>is built on an entirely new system relative to previous versions.</p>
                                             </div>
                                         </div>
+                                        <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Landscape Fire Behavior modeling output is incomplete</a></span>
+                                            <div class="MCDropDownBody dropDownBody">
+                                                <p>On some runs, FlamMap did not fully complete the modeling run, resulting in partially complete modeling outputs. This is easily seen in Map Studio when a modeling output resembles the one pictured below. The bottom of portion of the map populated with -1 for all output values.</p>
+                                                <p>
+                                                    <img src="../resources/images/behavior/incomplete_run_3_14_18.png" alt="incomplete run with bottom half of the map showing gray '-1' values, indicating the model had not completed for that area." class="borderlist" />
+                                                </p>
+                                                <p><b>Status:</b> This was patched on 3/15/18, but if you find an old report with this issue or encounter a similar bug, please send a support ticket to the Support desk.</p>
+                                                <p>(Reported 3/14/2018)</p>
+                                            </div>
+                                        </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Horizontal Streaks in Large Landscapes</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>In the Develop Treatment Alternative task, on the "compare" step, horizontal "streaking" sometimes appears in the Landscape Change layer for large landscapes. These streaks do not reflect raster changes, they are introduced due to a re-sampling issues on the ArcGIS server.</p>

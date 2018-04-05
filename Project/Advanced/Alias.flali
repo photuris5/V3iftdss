@@ -107,15 +107,15 @@
     <Map Name="_3_Edit" Link="/Content/40-Tutorials/CompareFeature/3_Edit.htm" />
     <Map Name="FireBehavior" Link="/Content/20-Models/FlamMap/FlamMapAbout.htm" />
     <Map Name="ModelingPlayground" Link="/Content/20-Models/ModelsOverview.htm" />
-    <Map Name="AccountSetup1" Link="/Content/10-FTEM/AccountSetup.htm" />
+    <Map Name="AccountSetup1" Link="/Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Map Name="FTEMAbout1" Link="/Content/10-FTEM/FTEMAbout.htm" />
-    <Map Name="FTEMFaq" Link="/Content/10-FTEM/FTEMFaq.htm" />
-    <Map Name="MonitoringGuidance" Link="/Content/10-FTEM/MonitoringGuidance.htm" />
-    <Map Name="Reporting" Link="/Content/10-FTEM/Reporting.htm" />
-    <Map Name="Symbology" Link="/Content/10-FTEM/Symbology.htm" />
-    <Map Name="TechDoc" Link="/Content/10-FTEM/TechDoc.htm" />
-    <Map Name="UsingFtem" Link="/Content/10-FTEM/UsingFtem.htm" />
-    <Map Name="WindAdjustment" Link="/Content/10-FTEM/WindAdjustment.htm" />
+    <Map Name="FTEMFaq" Link="/Content/10-FTEM/FAQs.htm" />
+    <Map Name="MonitoringGuidance" Link="/Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
+    <Map Name="Reporting" Link="/Content/10-FTEM/Reports/FTEMReporting.htm" />
+    <Map Name="Symbology" Link="/Content/10-FTEM/General/Symbology.htm" />
+    <Map Name="TechDoc" Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" />
+    <Map Name="UsingFtem" Link="/Content/10-FTEM/General/UsingFtem.htm" />
+    <Map Name="WindAdjustment" Link="/Content/10-FTEM/General/WindAdjustment.htm" />
     <Map Name="About_Hover" Link="/Content/50-Hover/About Hover.htm" />
     <Map Name="Copy_of_cycle_implementation_plan_hh" Link="/Content/50-Hover/PlanningCycle/implementation_plan_hh.htm" />
     <Map Name="Copy_of_cycle_landscape_eval_hh" Link="/Content/50-Hover/PlanningCycle/landscape_eval_hh.htm" />
@@ -144,10 +144,10 @@
     <Map Name="Estimating_Fuel_Moistures" Link="/Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Map Name="SummaryFM" Link="/Content/30-Tasks/Summaries/SummaryFM.htm" />
     <Map Name="IFTDSSFAQ" Link="/Content/00-AboutIFTDSS/IFTDSSFAQ.htm" />
-    <Map Name="Adding_Treatment_Interactions" Link="/Content/10-FTEM/Adding Treatment Interactions.htm" />
-    <Map Name="FTEM_Data_Sources" Link="/Content/10-FTEM/FTEM Data Sources.htm" />
-    <Map Name="FTEMPolicy" Link="/Content/10-FTEM/FTEMPolicy.htm" />
-    <Map Name="GeoAreaOfInterest" Link="/Content/10-FTEM/GeoAreaOfInterest.htm" />
+    <Map Name="Adding_Treatment_Interactions" Link="/Content/10-FTEM/DataTechnical/Buffering.htm" />
+    <Map Name="FTEM_Data_Sources" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
+    <Map Name="FTEMPolicy" Link="/Content/10-FTEM/Guidance/Policy.htm" />
+    <Map Name="GeoAreaOfInterest" Link="/Content/10-FTEM/General/GeoAreaOfInterest.htm" />
     <Map Name="_7_test_tutorial" Link="/Content/40-Tutorials/CompareFeature/7_test_tutorial.htm" />
     <Map Name="Complete_hh" Link="/Content/50-Hover/FTEM/Complete_hh.htm" />
     <Map Name="monitoring_hh" Link="/Content/50-Hover/FTEM/monitoring_hh.htm" />
@@ -169,8 +169,8 @@
     <Map Name="step_monitoring_hh" Link="/Content/50-Hover/FTEM/step_monitoring_hh.htm" />
     <Map Name="step_treatments_hh" Link="/Content/50-Hover/FTEM/step_treatments_hh.htm" />
     <Map Name="step_wildfires_hh" Link="/Content/50-Hover/FTEM/step_wildfires_hh.htm" />
-    <Map Name="FTEMAdmin" Link="/Content/10-FTEM/FTEMAdmin.htm" />
-    <Map Name="Roles" Link="/Content/10-FTEM/Roles.htm" />
+    <Map Name="FTEMAdmin" Link="/Content/10-FTEM/Administrators.htm" />
+    <Map Name="Roles" Link="/Content/10-FTEM/AccountsRoles/Roles.htm" />
     <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
     <Map Name="LCP_export" Link="/Content/10-MyWorkspace/LCP_export.htm" />
@@ -185,4 +185,11 @@
     <Map Name="Modeling_in_Wildfire_Playground" Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm" />
     <Map Name="ProjectBegin" Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm" />
     <Map Name="Treatment_AOI" Link="/Content/40-Tutorials/Shorts/Treatment AOI.htm" />
+    <Map Name="Chrome" Link="/Content/00-Concepts/Chrome.htm" />
+    <Map Name="AgencyLeads" Link="/Content/10-FTEM/AgencyLeads.htm" />
+    <Map Name="DataTreatments" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
+    <Map Name="DataUtilities" Link="/Content/10-FTEM/DataTechnical/Utilities.htm" />
+    <Map Name="DataWildfires" Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Map Name="AddShapefile1" Link="/Content/10-FTEM/General/AddShapefile.htm" />
+    <Map Name="geotiff_reclass" Link="/Content/10-MyWorkspace/geotiff_reclass.htm" />
 </CatapultAliasFile>

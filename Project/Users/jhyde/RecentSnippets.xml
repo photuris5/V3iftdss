@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
+    <Url Source="Resources/Snippets/FTEM/Add_info_to_system.flsnp" />
     <Url Source="Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
     <Url Source="Resources/Snippets/ExportRaster.flsnp" />
     <Url Source="Resources/Snippets/EditLandscapeRules/Steps_UserCreatedRules.flsnp" />
@@ -12,7 +14,6 @@
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/4_review summary.flsnp" />
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/3_AOI.flsnp" />
     <Url Source="Resources/Snippets/Tutorial_NWest_DTA/2_summarize and assess.flsnp" />
-    <Url Source="Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
     <Url Source="Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
     <Url Source="Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
 </UrlList>

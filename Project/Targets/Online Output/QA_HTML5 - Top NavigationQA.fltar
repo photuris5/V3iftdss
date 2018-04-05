@@ -20,7 +20,8 @@
   UseDeviceWidth="false"
   MobileBreakpoint="414"
   GenerateAllSkins="false"
-  PreCompileScaledImages="false">
+  PreCompileScaledImages="false"
+  TopNavTocPath="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"

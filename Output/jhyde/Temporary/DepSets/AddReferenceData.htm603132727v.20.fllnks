@@ -6,6 +6,8 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="https://youtu.be/WDhHrnL1xvE" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
@@ -19,6 +21,8 @@
       Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
   </Links>
   <LongLinks>
+    <Link
+      Url="https://youtu.be/WDhHrnL1xvE" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link

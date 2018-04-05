@@ -6,15 +6,23 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/10-FTEM/FTEM Data Sources.htm" />
+      Url="Content/10-FTEM/DataTreatments.htm" />
     <Link
-      Url="Content/10-FTEM/Adding Treatment Interactions.htm" />
+      Url="Content/10-FTEM/DataTechnical/DataWildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/Buffering.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/DataUtilities.htm" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/10-FTEM/FTEM Data Sources.htm" />
+      Url="Content/10-FTEM/DataTreatments.htm" />
     <Link
-      Url="Content/10-FTEM/Adding Treatment Interactions.htm" />
+      Url="Content/10-FTEM/DataTechnical/DataWildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/Buffering.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/DataUtilities.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

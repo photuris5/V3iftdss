@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1209" MadCap:lastWidth="1440">
+    <head>
+    </head>
+    <body>
+        <h1>Generating Fire Behavior Reports for an Area of Interest</h1>
+        <div class="notificationComingSoon">
+            <p>This is a workaround designed for user specified fire behavior inputs to produce model outputs and reports for an Area of Interest.  Future functionality in IFTDSS will allow users to run reports and model outputs for an Area of Interest within the Modeling Playground without having to go through the Develop Treatment Alternatives. This functionality is planned but specific timing for the release is uncertain at this time.</p>
+        </div>
+        <p>Currently <MadCap:variable name="General.ProductName" /> will generate reports for existing fire behavior runs, but those are performed for an entire landscape. To perform a fire behavior run and report just for a specific Area of Interest, you will need to use the Develop Treatment Alternative task. The report you want for just the Area of Interest is included when comparing two landscapes. Since you are not interested in the comparison part and just the report output for the Area of Interest you are going to “trick” the system by creating a phony landscape that is identical to your original landscape but has a different name. This will generate a report comparing fire behavior on the two identical landscapes. The information in this report will be what you are looking for on fire behavior in the area of interest using your own weather inputs.</p>
+        <p>To run a fire behavior model and generate a report for a specific Area of Interest:&#160;</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>From the <MadCap:variable name="General.ProductName" /> <span class="UIcomponent">Planning Cycle</span>, go to the <span class="UIcomponent">Strategic Planning</span> stage and select <span class="UIcomponent">Develop Treatment Alternatives</span>. </li>
+            <li>Use the button to display a map area to the left and the tabs on the right, then zoom into your Area of Interest.</li>
+            <li>Select your landscape from the <span class="UIcomponent">Select Landscape</span> drop-down, or create using the <span class="UIcomponent">Create on Map</span> button. If you create a landscape here remember that the landscape extent must be larger than your Area of Interest.</li>
+            <li>Select your <span class="UIcomponent">Area of Interest</span> from the drop-down and proceed to the <span class="UIcomponent">Editing tab</span>. </li>
+            <li>Select the <span class="UIcomponent">Edit tab</span> and select your landscape</li>
+            <li>
+                <p>Select <span class="UIcomponent">Add user created edit rule</span> and add the following rule (essentially you are tricking the system to create an edited landscape, but the edit rule you are building won’t change anything):</p>
+                <ul>
+                    <li>Where elevation is greater than 0, multiply the canopy cover by 1</li>
+                </ul>
+            </li>
+            <li>Save your new landscape with a name indicating that you added a rule that won’t make any changes (for example, just X1 after the landscape name to indicate you multiplied by 1).</li>
+            <li>Select the <span class="UIcomponent">Input tab</span> and add the fire behavior inputs you want to use.</li>
+            <li>Click the <span class="UIcomponent">Run tab</span> and initiate the model run for both landscapes.</li>
+            <li>
+                <p>Go to Compare Tab and click the boxes for your “0 landscape” and your “trick the system” phony edited Landscape (indicated here by X1).  Click “Compare on map” and “Compare in Summary Reports” (in this case since you specified an AOI, the report will be run on the shape or shapefile you selected as an Area of Interest) so you will get the results you want for just the Polygon and not for the entire Landscape extent. You will have to navigate back to your workspace to view the completed Reports (see step 10 below).</p>
+                <p>When you “compare on map” the Landscape change layer will display  - in this case since the rule you wrote shouldn’t have any effect on the landscape it should appear as it does below – the entire landscape with no change. This ensures that you wrote the rule correctly.</p>
+                <p>When you click compare in Summary Report you will be able to choose a report for the Landscape Layers and also for the Fire Behavior Outputs.</p>
+            </li>
+            <li>After these reports are generated and ready to view, a green checkmark will appear next to the name. You can access these reports directly from the blue link or go back to your Workspace and open them from there.</li>
+        </ol>
+        <h2>View and Understand Report Outputs</h2>
+        <p>Now that you have completed all of the steps to generate the reports, you are ready to view and use the information needed for your Area of Interest.</p>
+        <p>Below is the fire behavior report created for the Area of Interest polygon (AOI) GreatBasinShape. You can see the inputs I selected in the table at the top. The Pie chart shows the breakdown of Flame Length within the AOI polygon. There are 2 identical pie charts because I created that “phony” edited landscape that had a meaningless edit (this was necessary to trick the system so I could generate this report). You can just ignore the duplicate charts and graphs. You can download the data from the table and build your own charts and graphs in Excel if you choose.</p>
+        <p>This report shows the Landscape Layer Summary (Fuel Model) for just the Area of Interest (this is indicated by the name GreatBasinShape which was the name of the polygon I used for Area of Interest). Again there are two sets of data but essentially these are identical landscapes so you can ignore the duplicates.</p>
+        <p>Now that you have the process down, you can change the Fire Behavior Inputs and run various scenarios on your Area of Interest if you want to compare how weather inputs affect fire behavior outputs. The comparison part for Fire Behavior Inputs would have to be done outside of IFTDSS if you wanted to make charts and graphs (download the results to Excel), but you could compare the fire behavior outputs visually on the map using the Slider Tool.  You could also run the Auto97th Report through Landscape Summary workflow if you want to compare the 97th percentile info for the closest RAWS. You can of course compare Landscapes if you choose to make meaningful landscape edits, you would do this through the regular Develop Treatment Alternative Methods process.</p>
+    </body>
+</html>

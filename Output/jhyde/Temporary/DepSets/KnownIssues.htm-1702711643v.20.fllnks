@@ -10,6 +10,8 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
+      Url="Content/Resources/Images/Behavior/incomplete_run_3_14_18.png" />
+    <Link
       Url="Content/Resources/Images/landscapesumm/map_streaks.png" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
@@ -27,6 +29,8 @@
       Url="Project/Advanced/Source.flfts" />
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/Behavior/incomplete_run_3_14_18.png" />
     <Link
       Url="Content/Resources/Images/landscapesumm/map_streaks.png" />
     <Link
@@ -76,57 +80,57 @@
       Term="Gaps"
       Conditions=""
       LocalConditions=""
-      Position="32" />
+      Position="42" />
     <IndexCacheEntry
       Term="uploaded shapefiles"
       Conditions=""
       LocalConditions=""
-      Position="33" />
+      Position="43" />
     <IndexCacheEntry
       Term="My Location"
       Conditions=""
       LocalConditions=""
-      Position="41" />
+      Position="51" />
     <IndexCacheEntry
       Term="Navigating"
       Conditions=""
       LocalConditions=""
-      Position="58" />
+      Position="68" />
     <IndexCacheEntry
       Term="Operational Layer"
       Conditions=""
       LocalConditions=""
-      Position="66" />
+      Position="76" />
     <IndexCacheEntry
       Term="Shapefile Save"
       Conditions="General.Exclude"
       LocalConditions=""
-      Position="73" />
+      Position="83" />
     <IndexCacheEntry
       Term="Save"
       Conditions="General.Exclude"
       LocalConditions=""
-      Position="74" />
+      Position="84" />
     <IndexCacheEntry
       Term="Timezone"
       Conditions=""
       LocalConditions=""
-      Position="85" />
+      Position="95" />
     <IndexCacheEntry
       Term="Time"
       Conditions=""
       LocalConditions=""
-      Position="86" />
+      Position="96" />
     <IndexCacheEntry
       Term="Time zone"
       Conditions=""
       LocalConditions=""
-      Position="87" />
+      Position="97" />
     <IndexCacheEntry
       Term="LANDFIR"
       Conditions=""
       LocalConditions=""
-      Position="94" />
+      Position="104" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />
