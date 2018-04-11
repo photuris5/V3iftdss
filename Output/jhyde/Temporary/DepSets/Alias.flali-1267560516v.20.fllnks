@@ -214,23 +214,23 @@
     <Link
       Url="Content/40-Tutorials/CompareFeature/3_Edit.htm" />
     <Link
-      Url="Content/10-FTEM/AccountSetup.htm" />
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Link
       Url="Content/10-FTEM/FTEMAbout.htm" />
     <Link
-      Url="Content/10-FTEM/FTEMFaq.htm" />
+      Url="Content/10-FTEM/FAQs.htm" />
     <Link
-      Url="Content/10-FTEM/MonitoringGuidance.htm" />
+      Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Link
-      Url="Content/10-FTEM/Reporting.htm" />
+      Url="Content/10-FTEM/Reports/FTEMReporting.htm" />
     <Link
-      Url="Content/10-FTEM/Symbology.htm" />
+      Url="Content/10-FTEM/General/Symbology.htm" />
     <Link
-      Url="Content/10-FTEM/TechDoc.htm" />
+      Url="Content/10-FTEM/DataTechnical/TechDoc.htm" />
     <Link
-      Url="Content/10-FTEM/UsingFtem.htm" />
+      Url="Content/10-FTEM/General/UsingFtem.htm" />
     <Link
-      Url="Content/10-FTEM/WindAdjustment.htm" />
+      Url="Content/10-FTEM/General/WindAdjustment.htm" />
     <Link
       Url="Content/50-Hover/About Hover.htm" />
     <Link
@@ -288,13 +288,13 @@
     <Link
       Url="Content/00-AboutIFTDSS/IFTDSSFAQ.htm" />
     <Link
-      Url="Content/10-FTEM/Adding Treatment Interactions.htm" />
+      Url="Content/10-FTEM/DataTechnical/Buffering.htm" />
     <Link
-      Url="Content/10-FTEM/FTEM Data Sources.htm" />
+      Url="Content/10-FTEM/DataTechnical/Treatments.htm" />
     <Link
-      Url="Content/10-FTEM/FTEMPolicy.htm" />
+      Url="Content/10-FTEM/Guidance/Policy.htm" />
     <Link
-      Url="Content/10-FTEM/GeoAreaOfInterest.htm" />
+      Url="Content/10-FTEM/General/GeoAreaOfInterest.htm" />
     <Link
       Url="Content/40-Tutorials/CompareFeature/7_test_tutorial.htm" />
     <Link
@@ -335,6 +335,50 @@
       Url="Content/50-Hover/FTEM/step_treatments_hh.htm" />
     <Link
       Url="Content/50-Hover/FTEM/step_wildfires_hh.htm" />
+    <Link
+      Url="Content/10-FTEM/Administrators.htm" />
+    <Link
+      Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/AOIsMasks.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/DeleteShape.htm" />
+    <Link
+      Url="Content/10-MyWorkspace/LCP_export.htm" />
+    <Link
+      Url="Content/10-MyWorkspace/OpenGeoTif.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapeGroup.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/AOI_treatments.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/Compare.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/LCPSummaryReport.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/ProjectBegin.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/Treatment AOI.htm" />
+    <Link
+      Url="Content/00-Concepts/Chrome.htm" />
+    <Link
+      Url="Content/10-FTEM/AgencyLeads.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Utilities.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/General/AddShapefile.htm" />
+    <Link
+      Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
   </Links>
   <LongLinks />
   <Anchors />

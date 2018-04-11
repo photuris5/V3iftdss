@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RecentLinks>
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Images\FTEM\reports\generatereport2.png" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Images\tutorial_2_lcp\image22.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\10-FTEM\Reports\RepFTEMAdhocReport.htm" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\40-Tutorials\Shorts\EditingLandscapes.htm" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
         <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Snippets\FTEM\Attachment_size_type.flsnp" />

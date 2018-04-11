@@ -1,1 +1,1 @@
-<fileProperties conditions="General.LaterRelease" />
+<fileProperties conditions="General.QA ONLY,General.LaterRelease" />

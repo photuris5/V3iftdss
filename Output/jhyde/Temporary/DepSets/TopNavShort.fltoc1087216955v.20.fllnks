@@ -90,19 +90,19 @@
     <Link
       Url="Content/10-FTEM/FTEMAbout.htm" />
     <Link
-      Url="Content/10-FTEM/AccountSetup.htm" />
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Link
-      Url="Content/10-FTEM/UsingFtem.htm" />
+      Url="Content/10-FTEM/General/UsingFtem.htm" />
     <Link
-      Url="Content/10-FTEM/Symbology.htm" />
+      Url="Content/10-FTEM/General/Symbology.htm" />
     <Link
-      Url="Content/10-FTEM/MonitoringGuidance.htm" />
+      Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Link
-      Url="Content/10-FTEM/Reporting.htm" />
+      Url="Content/10-FTEM/Reports/FTEMReporting.htm" />
     <Link
-      Url="Content/10-FTEM/FTEMFaq.htm" />
+      Url="Content/10-FTEM/FAQs.htm" />
     <Link
-      Url="Content/10-FTEM/TechDoc.htm" />
+      Url="Content/10-FTEM/DataTechnical/TechDoc.htm" />
     <Link
       Url="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ" />
     <Link

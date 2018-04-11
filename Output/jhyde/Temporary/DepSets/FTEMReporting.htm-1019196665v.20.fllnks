@@ -8,6 +8,16 @@
     <Link
       Url="Content/10-FTEM/Reports/RepWildfireSpecificFTEM.htm" />
     <Link
+      Url="Content/10-FTEM/Reports/RepAgencySpecificFTEM.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepLongAgencyRegionWildfire.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepLongStateWildfire.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepDataDumpAll.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepFTEMAdhocReport.htm" />
+    <Link
       Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/generatereport.png" />
@@ -17,6 +27,16 @@
   <LongLinks>
     <Link
       Url="Content/10-FTEM/Reports/RepWildfireSpecificFTEM.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepAgencySpecificFTEM.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepLongAgencyRegionWildfire.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepLongStateWildfire.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepDataDumpAll.htm" />
+    <Link
+      Url="Content/10-FTEM/Reports/RepFTEMAdhocReport.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
     <Link

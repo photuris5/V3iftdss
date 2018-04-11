@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MsWordImport
+  PreserveSourceStyles="false"
+  KeepSourceLinks="false"
+  ConvertInlineFormatting="true"
+  AddContinuedLinks="false"
+  AddContinuedFromLinks="false"
+  ContinuedLinkFormat="(continued in {title})"
+  ContinuedFromLinkFormat="(continued from {title})"
+  UseMaxCharLimit="false"
+  UseMinCharLimit="true"
+  MaxCharLimit="10000"
+  MinCharLimit="50"
+  FilenameLength="24"
+  GeneratePageLayouts="false"
+  UseFirstHeadingAsTopicTitle="true"
+  ConvertEquations="true"
+  LastCollectTime="2018-04-10T17:11:19.4168315-07:00"
+  ProjectName="v3iftdss"
+  ProjectFolder="C:\Users\jhyde\Documents\GitHub\V3iftdss\"
+  AutoSync="false"
+  AutoFitTables="false"
+  UseHeaderRows="false"
+  Stylesheet="../../Content/Resources/Stylesheets/MainStyles.css"
+  LastImport="2018-04-10T17:12:01.0776912-07:00">
+  <Files>
+    <Url
+      Source="../../../../../Desktop/Tuturoial7_Editing.docx"
+      AbsoluteSource="file:///C:/Users/jhyde/Desktop/Tuturoial7_Editing.docx" />
+  </Files>
+  <ExcludedFiles />
+  <CollectedSourceFiles />
+  <SkippedSourceFiles />
+  <GeneratedFiles>
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Tuturoial7_Editing.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_1.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_2.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_3.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_4.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_5.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_6.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Images/Tuturoial7_Editing/Editing Landscape Data for_7.png"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Tuturoial7_Editing/Editing Landscape Data for.htm"
+      TimeStamp="4/10/2018 5:11:58 PM" />
+    <Url
+      Source="../TOCs/Tuturoial7_Editing.fltoc"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/MasterPages/Tuturoial7_Editing.flmsp"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+    <Url
+      Source="../../Content/Resources/Stylesheets/MainStyles_5.css"
+      TimeStamp="4/10/2018 5:11:57 PM" />
+  </GeneratedFiles>
+  <ParagraphStyles>
+    <Map
+      From="Heading 1"
+      To="h1.Heading 1" />
+    <Map
+      From="Heading 2"
+      To="h2.Heading 2" />
+    <Map
+      From="Heading 3"
+      To="h3.Heading 3" />
+    <Map
+      From="Heading 4"
+      To="h4.Heading 4" />
+    <Map
+      From="Heading 5"
+      To="h5.Heading 5" />
+    <Map
+      From="Heading 6"
+      To="h6.Heading 6" />
+  </ParagraphStyles>
+  <CharacterStyles>
+    <Map
+      From="Hyperlink"
+      To="a.(MS Word Style)" />
+  </CharacterStyles>
+  <NewTopicStyles />
+  <UsedParagraphStyles>
+    <StyleName
+      Name="Heading 1" />
+    <StyleName
+      Name="Heading 2" />
+    <StyleName
+      Name="Heading 3" />
+  </UsedParagraphStyles>
+  <UsedCharacterStyles />
+</MsWordImport>

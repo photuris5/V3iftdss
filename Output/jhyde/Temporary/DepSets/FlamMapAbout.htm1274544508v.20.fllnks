@@ -18,6 +18,8 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
+      Url="Content/20-Models/FlamMap/AOIlandscapefb.htm" />
+    <Link
       Url="Content/20-Models/ModelsOverview.htm" />
     <Link
       Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
@@ -43,6 +45,8 @@
       Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/20-Models/FlamMap/AOIlandscapefb.htm" />
     <Link
       Url="Content/20-Models/ModelsOverview.htm" />
     <Link

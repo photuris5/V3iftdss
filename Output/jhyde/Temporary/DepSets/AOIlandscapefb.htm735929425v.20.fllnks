@@ -4,16 +4,72 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_1.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_2.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_3.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_4.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_5.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_6.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_7.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_8.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_10.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_1.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_2.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_3.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_4.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_5.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_6.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_7.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_8.png" />
+    <Link
+      Url="Content/Resources/Images/Behavior/aoi_workaround_10.png" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

@@ -1,5 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/tutorial_2_lcp/image22.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_10.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_8.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_7.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_6.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_5.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_4.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_3.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_2.png" />
+    <Url Source="Resources/Images/Behavior/aoi_workaround_1.png" />
+    <Url Source="Resources/Images/buttons_general/button_showsplitmap.png" />
     <Url Source="Resources/Images/FTEM/reports/generatereport2.png" />
     <Url Source="Resources/Images/FTEM/attach_confirm2.png" />
     <Url Source="Resources/Images/FTEM/attach_confirm.png" />
@@ -9,15 +20,4 @@
     <Url Source="Resources/Images/FTEM/attachments_download.png" />
     <Url Source="Resources/Images/buttons_general/download_icon.png" />
     <Url Source="Resources/Images/FTEM/paperclip.png" />
-    <Url Source="Resources/Images/FTEM/find_attachment.png" />
-    <Url Source="Resources/Images/FTEM/userlist_search.png" />
-    <Url Source="Resources/Images/Behavior/incomplete_run_3_14_18.png" />
-    <Url Source="Resources/Images/mapstudio/overview/button_addshapefile.png" />
-    <Url Source="Resources/Images/FTEM/add_shapefile_zoomed.png" />
-    <Url Source="Resources/Images/FTEM/add_shapefile_box.png" />
-    <Url Source="Resources/Images/FTEM/add_shapefile_files.png" />
-    <Url Source="Resources/Images/FTEM/Add_Shapefile.png" />
-    <Url Source="Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
-    <Url Source="Resources/Images/getting_started/Chrome.png" />
-    <Url Source="Resources/Images/landscapesumm/map_streaks.png" />
 </UrlList>

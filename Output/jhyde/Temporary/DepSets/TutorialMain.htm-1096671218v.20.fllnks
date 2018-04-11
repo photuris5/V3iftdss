@@ -8,7 +8,13 @@
     <Link
       Url="Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/CreatingSummaryReports.htm" />
     <Link
       Url="Content/Resources/pdfs/tutorials/Tutorial 2 Creating Landscapes.pdf" />
     <Link
@@ -36,7 +42,13 @@
     <Link
       Url="Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/CreatingSummaryReports.htm" />
     <Link
       Url="Content/Resources/pdfs/tutorials/Tutorial 2 Creating Landscapes.pdf" />
     <Link
@@ -81,6 +93,9 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.LaterRelease" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

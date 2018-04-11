@@ -6,15 +6,47 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/Images/FTEM/attachments.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/clippy.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/paperclip.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/find_attachment.png" />
     <Link
+      Url="Content/Resources/Images/buttons_general/download_icon.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attachments_download.png" />
+    <Link
       Url="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attachment_localfile.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attach_confirm.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attach_confirm2.png" />
   </Links>
   <LongLinks>
     <Link
+      Url="Content/Resources/Images/FTEM/attachments.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/clippy.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/paperclip.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/find_attachment.png" />
     <Link
+      Url="Content/Resources/Images/buttons_general/download_icon.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attachments_download.png" />
+    <Link
       Url="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attachment_localfile.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attach_confirm.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/attach_confirm2.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

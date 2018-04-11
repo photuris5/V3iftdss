@@ -2050,4 +2050,19 @@
     Topic="Content/20-Models/FlamMap/FlamMapBackground.htm"
     Reviewers="email:jhyde@uidaho.edu"
     SendDate="2018-02-08T17:44:29.9107439-08:00" />
+  <SentItem
+    File="v3iftdss_FTEM Reporting.fltrev"
+    Topic="Content/10-FTEM/Reports/FTEMReporting.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-04-05T15:40:32.5818288-07:00" />
+  <SentItem
+    File="v3iftdss_Viewing Shapefiles.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-04-05T15:41:08.7893087-07:00" />
+  <SentItem
+    File="v3iftdss_Area of Interest workaround .fltrev"
+    Topic="Content/20-Models/FlamMap/AOIlandscapefb.htm"
+    Reviewers="email:jhyde@uidaho.edu"
+    SendDate="2018-04-05T15:41:30.7596479-07:00" />
 </MadCapSentItems>

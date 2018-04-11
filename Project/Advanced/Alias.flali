@@ -178,13 +178,7 @@
     <Map Name="ShapeCopyfromRef" Link="/Content/10-MapStudio/Files/ShapeCopyfromRef.htm" />
     <Map Name="ShapefileGroup" Link="/Content/10-MapStudio/Files/ShapefileGroup.htm" />
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
-    <Map Name="AOI_treatments" Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm" />
-    <Map Name="a_StartandCreateLCP" Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm" />
-    <Map Name="Compare" Link="/Content/40-Tutorials/Shorts/Compare.htm" />
-    <Map Name="LCPSummaryReport" Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm" />
-    <Map Name="Modeling_in_Wildfire_Playground" Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm" />
-    <Map Name="ProjectBegin" Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm" />
-    <Map Name="Treatment_AOI" Link="/Content/40-Tutorials/Shorts/Treatment AOI.htm" />
+    <Map Name="a_StartandCreateLCP" Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
     <Map Name="Chrome" Link="/Content/00-Concepts/Chrome.htm" />
     <Map Name="AgencyLeads" Link="/Content/10-FTEM/AgencyLeads.htm" />
     <Map Name="DataTreatments" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />

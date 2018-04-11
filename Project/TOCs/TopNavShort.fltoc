@@ -249,27 +249,22 @@
           Link="/Content/40-Tutorials/TutorialMain.htm" />
         <TocEntry
           Title="Beginning a Project"
-          Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Creating a Landscape and Summarize"
-          Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm"
+          Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Landscape Summary Report"
-          Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Creating Treatment Polygons"
-          Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Modeling Landscape Fire Behavior in Modeling Playground"
-          Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Run a Landscape Comparison"
-          Link="/Content/40-Tutorials/Shorts/Compare.htm"
           conditions="General.QA ONLY" />
         <TocEntry
           Title="Comparing Landscapes"
@@ -405,27 +400,22 @@
       Link="/Content/40-Tutorials/TutorialMain.htm" />
     <TocEntry
       Title="Beginning a Project"
-      Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Creating a Landscape and Summarize"
-      Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm"
+      Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Landscape Summary Report"
-      Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Creating Treatment Polygons"
-      Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Modeling Landscape Fire Behavior in Modeling Playground"
-      Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Run a Landscape Comparison"
-      Link="/Content/40-Tutorials/Shorts/Compare.htm"
       conditions="General.QA ONLY" />
     <TocEntry
       Title="Comparing Landscapes"

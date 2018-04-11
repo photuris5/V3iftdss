@@ -141,6 +141,9 @@
         Title="Crown Fire Calculation Options"
         Link="/Content/20-Models/FlamMap/FlamMapCrowns.htm" />
       <TocEntry
+        Title="Area of Interest workaround "
+        Link="/Content/20-Models/FlamMap/AOIlandscapefb.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="Technical Documentation - Landscape Fire Behavior with FlamMap 5.0"
         Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
@@ -272,27 +275,22 @@
         Link="/Content/40-Tutorials/TutorialMain.htm" />
       <TocEntry
         Title="Beginning a Project"
-        Link="/Content/40-Tutorials/Shorts/ProjectBegin.htm"
         conditions="General.QA ONLY" />
       <TocEntry
         Title="Creating a Landscape and Summarize"
-        Link="/Content/40-Tutorials/Shorts/a_StartandCreateLCP.htm"
+        Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm"
         conditions="General.QA ONLY" />
       <TocEntry
         Title="Landscape Summary Report"
-        Link="/Content/40-Tutorials/Shorts/LCPSummaryReport.htm"
         conditions="General.QA ONLY" />
       <TocEntry
         Title="Creating Treatment Polygons"
-        Link="/Content/40-Tutorials/Shorts/AOI_treatments.htm"
         conditions="General.QA ONLY" />
       <TocEntry
         Title="Modeling Landscape Fire Behavior in Modeling Playground"
-        Link="/Content/40-Tutorials/Shorts/Modeling in Wildfire Playground.htm"
         conditions="General.QA ONLY" />
       <TocEntry
         Title="Run a Landscape Comparison"
-        Link="/Content/40-Tutorials/Shorts/Compare.htm"
         conditions="General.QA ONLY" />
       <TocEntry
         Title="Comparing Landscapes"
@@ -413,6 +411,9 @@
       Title="Technical Documentation"
       Link="/Content/10-FTEM/DataTechnical/TechDoc.htm">
       <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/DataTechnical/TechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
         Title="Data Sources for Treatments"
         Link="/Content/10-FTEM/DataTechnical/Treatments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
@@ -427,7 +428,29 @@
     </TocEntry>
     <TocEntry
       Title="Generate Reports"
-      Link="/Content/10-FTEM/Reports/FTEMReporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Link="/Content/10-FTEM/Reports/FTEMReporting.htm">
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/FTEMReporting.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/RepAgencySpecificFTEM.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/RepDataDumpAll.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/RepFTEMAdhocReport.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/RepLongAgencyRegionWildfire.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/RepLongStateWildfire.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/Reports/RepWildfireSpecificFTEM.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
       Title="FTEM Administrator Page"
       Link="/Content/10-FTEM/Administrators.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

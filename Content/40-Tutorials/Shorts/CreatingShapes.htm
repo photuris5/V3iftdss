@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="4000" MadCap:lastWidth="1440">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 class="Heading1">Creating Shapes</h1>
+        <h2 class="Heading2">About Shapes and Shapefiles in <MadCap:variable name="General.ProductName" />:</h2>
+        <p>Shapes and Shapefiles are used in <MadCap:variable name="General.ProductName" /> to constrain your area when representing treatment alternatives, making landscape edits, or running landscape comparisons. In this tutorial you will create a shape directly within <MadCap:variable name="General.MapStudio" />, but there is also an option to upload your own shapefiles from within <MadCap:variable name="General.MapStudio" /> by using the <span class="UIcomponent">Shapefile Upload</span> button.</p>
+        <p>Throughout <MadCap:variable name="General.ProductName" /> interface you will encounter several terms that refer to shapes and shapefiles. Different terms are used in different tasks to reflect the terminology common in the wildland fire community. Here is a brief explanation of where the different terms are used throughout <MadCap:variable name="General.ProductName" />.</p>
+        <ul>
+            <li>Area of Interest: This term is used in the Landscape Summary task and Determining Treatment Alternatives task to constrain the area of your analysis.</li>
+            <li>Landscape Mask: This term is used in Landscape Editing to constrain the area your edits apply to.</li>
+            <li>Polygon, Shape, or Shapefile: These terms are used interchangeably throughout <MadCap:variable name="General.MapStudio" />.</li>
+        </ul>
+        <p>To simulate and evaluate the impact of treatments, we'll delineate our planned treatment areas with shapes in&#160;<MadCap:variable name="General.MapStudio" />.</p>
+        <div style="background-color: #add8e6;">
+            <p>Tutorial Information: If you are following along using the Haypress Creek example use that landscape in <MadCap:variable name="General.MapStudio" />, and be sure to save your shapes in the Haypress Creek Project folder. You may use the below screen capture to see approximately where the polygons are located, and look at the images below to create similar polygons, they do not need to be an exact match.<img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles.png" style="visibility: visible;mso-wrap-style: square;" /></p>
+        </div>
+        <h2 class="Heading2">Creating Shapes in <MadCap:variable name="General.MapStudio" /> to represent treatment polygons</h2>
+        <p>For this example you will create and combine three treatment areas for a landscape called Haypress Creek, but you may follow along using your own landscape if desired. We’ll draw three polygons in the area around Sierra City that correspond to wildland urban interface, and significant fire behavior. </p>
+        <p>To draw your polygons:</p>
+        <ol style="list-style-type: upper-alpha;margin-left: 36pt;" start="1">
+            <li>Open&#160;<span class="UIcomponent">Create/Edit Shapes</span>&#160;<img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_2.png" style="width: 15px; height: 15px;" alt="create edit shapes button" class="iftbutton" /></li>
+            <li>Select your method, in this case the <span class="UIcomponent">Freehand Draw method</span>.</li>
+            <li>Draw your polygon on the landscape by holding down the left mouse button and releasing when finished. Repeat steps B and C here and draw two more polygons. Note you can use the&#160;<span class="UIcomponent">delete&#160;<img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_3.png" style="width: 15px; height: 15px;" alt="delete button" class="iftbutton"></img></span>  button to remove the polygon if you are not satisfied with it. </li>
+            <li>Name your polygons, in this example we’ve named them “Haypress Treatments All”.</li>
+            <li>Specify the folder you would like to save the shape in.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Create</span>.</p>
+                <p>
+                    <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_1.png" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Once you click create polygons will change from highlighted yellow to a purple shaded outline on the map as shown below.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_4.png" alt="a zoomed view of the three treatment pologygons to the north and east of the wui" class="border" />
+        </p>
+        <p>Saved shapes are available in&#160;<span class="UIcomponent">My Workspace</span>&#160;in the folder you selected (in this case the Haypress Creek project folder). Shapes can be deleted by going into <span class="UIcomponent">My Workspace</span>, selecting the shape, and clicking <span class="UIcomponent">Delete</span>.</p>
+        <p>
+            <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_5.png" class="border" />
+        </p>
+        <p>All shapes for an available area are visible by default in <MadCap:variable name="General.MapStudio" />. To hide individual shapefiles, use the <span class="UIcomponent">Filter  <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_7.png" style="width: 15px; height: 15px;" alt="filter button" class="iftbutton"></img> button</span> in the top right of <MadCap:variable name="General.MapStudio" /></p>
+        <p>
+            <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_6.png" class="border" />
+            <br />
+        </p>
+        <p>Now that you have an area of interest, you can constrain your analysis area to represent treatments, or use it to generate more focused summary reports. Take a few minutes to generate a Landscape/Auto97th Summary report, this time, specify the Area of Interest using the newly created shapefile. Take a second to look at the differences in this new report, compared to the one generated for the entire landscape:</p>
+        <ol style="list-style-type: upper-alpha;margin-left: 36pt;" start="1">
+            <li>Navigate back to the&#160;Planning Cycle&#160;using the top navigation menu.</li>
+            <li>Select the&#160;Landscape Evaluation&#160;stage of the Planning Cycle.</li>
+            <li>
+                <p>Click the&#160;Landscape Summary&#160;task.</p>
+                <p>
+                    <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_8.png" alt="Landscape summary is accessed through 'landscape evaluation' from the cycle" class="borderlist" />
+                </p>
+            </li>
+            <li>Select your Landscape from the drop-down menu.</li>
+            <li>Select your Area of Interest from the drop-down menu. Any shapes that fall within your chosen landscapes area of interest, will be available from this menu.</li>
+            <li>
+                <p>Click Request a Report and follow the prompts to create report.</p>
+                <p>
+                    <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_9.png" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>When your report is complete, take a couple minutes to open it and review the results. Note that:</p>
+        <ol style="list-style-type: upper-alpha;margin-left: 36pt;" start="1">
+            <li>Your area of interest is displayed on the map, and described in the legend</li>
+            <li>
+                <p>Your area of interest and acreage is now listed in the top output description under the results listed for tables description.</p>
+                <p>
+                    <img src="../../Resources/Images/tutorial_6_shapes/Creating Shapefiles_10.png" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>
