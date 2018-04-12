@@ -8,19 +8,19 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/show_landscape.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/layer_list_and_identify.png" />
+      Url="Content/Resources/Images/granite_crk_dta/show_landscape.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
+      Url="Content/Resources/Images/granite_crk_dta/layer_list_and_identify.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
     <Link
@@ -56,19 +56,19 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/show_landscape.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/layer_list_and_identify.png" />
+      Url="Content/Resources/Images/granite_crk_dta/show_landscape.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
+      Url="Content/Resources/Images/granite_crk_dta/layer_list_and_identify.png" />
     <Link
       Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
     <Link

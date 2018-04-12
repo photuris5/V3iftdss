@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/mapstudio/overview/button_adref.png" />
+    <Url Source="Resources/Images/granite_crk_dta/report_confirmation.png" />
+    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
+    <Url Source="Resources/Images/granite_crk_dta/summary_2.png" />
     <Url Source="Resources/Images/tutorial_2_lcp/image22.png" />
     <Url Source="Resources/Images/Behavior/aoi_workaround_10.png" />
     <Url Source="Resources/Images/Behavior/aoi_workaround_8.png" />
@@ -16,8 +20,4 @@
     <Url Source="Resources/Images/FTEM/attach_confirm.png" />
     <Url Source="Resources/Images/FTEM/attachment_localfile.png" />
     <Url Source="Resources/Images/FTEM/clippy.png" />
-    <Url Source="Resources/Images/FTEM/attachments.png" />
-    <Url Source="Resources/Images/FTEM/attachments_download.png" />
-    <Url Source="Resources/Images/buttons_general/download_icon.png" />
-    <Url Source="Resources/Images/FTEM/paperclip.png" />
 </UrlList>

@@ -64,6 +64,8 @@
   <Variables>
     <Variable
       Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
   </Variables>
   <FileConditions />
   <FileTags />

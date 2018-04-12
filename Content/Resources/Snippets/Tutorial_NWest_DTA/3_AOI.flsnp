@@ -1,23 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1056" MadCap:lastWidth="1219">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1147" MadCap:lastWidth="1466">
     <head>
+        <MadCap:changeData>
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="1" MadCap:timestamp="2018-04-11T18:36:03.7765177-07:00" MadCap:attribute="style" MadCap:value="width: 578px; height: 378px;" />
+            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="2" MadCap:timestamp="2018-04-11T18:36:28.3334973-07:00" />
+            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="3" MadCap:timestamp="2018-04-11T18:36:31.2946498-07:00" />
+            <MadCap:BindChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="4" MadCap:timestamp="2018-04-11T18:36:37.7716198-07:00" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="5" MadCap:timestamp="2018-04-11T18:47:30.4686002-07:00" MadCap:attribute="class" />
+        </MadCap:changeData>
     </head>
     <body>
-        <p>
-            <img src="../../Images/granite_crk_dta/create_aoi_1.png" alt="set the layer list to view flame length" style="width: 578px; height: 378px;" class="border" />
+        <p MadCap:changes="3">
+            <img src="../../Images/granite_crk_dta/create_aoi_1.png" alt="set the layer list to view flame length" class="border" MadCap:changes="3,1" />
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>To create an Area of Interest, or polygon, change the <span class="UIcomponent">Basemap Gallery</span> layer to “Imagery with Labels” so you can see landscape imagery.</li>
-            <li> Then set up the <span class="UIcomponent">Layer List</span> to show my 97th percentile fire behavior output layer for Flame Lengths, and set the transparency so you can see roads and topography as you create your Area of Interest, or treatment area.</li>
-            <div>
-                <img src="../../Images/granite_crk_dta/create_treatment_polys_updated.png" alt="create shapefiles using the 'Create/Edit Shapes' option in Map Studio" style="width: 681px;height: 287px;" />
+            <li>
+                <p MadCap:changes="4"> Then set up the <span class="UIcomponent">Layer List</span> to show my 97th percentile fire behavior output layer for Flame Lengths, and set the transparency so you can see roads and topography as you create your Area of Interest, or treatment area.</p>
+                <p MadCap:changes="2">
+                    <img src="../../Images/granite_crk_dta/create_aoi_1.png" alt="set the layer list to view flame length" class="borderlist" MadCap:changes="2" />
+                </p>
+            </li>
+            <div MadCap:changes="3">
+                <img src="../../Images/granite_crk_dta/create_treatment_polys_updated.png" alt="create shapefiles using the 'Create/Edit Shapes' option in Map Studio" style="width: 681px;height: 287px;" MadCap:changes="3" />
             </div>
-            <li>Select the <span class="UIcomponent">Create/Edit Shapes</span> widget <img src="../../Images/mapstudio/create_edit_shp/button_editTools.png" alt="create or edit shapes" /> at the bottom of the screen and ensure <span class="UIcomponent">Polygons</span> is selected in the drop-down box in <span class="UIcomponent">Create/Edit Shapes</span>. </li>
-            <li>Select <span class="UIcomponent">Freehand Polygon</span><img src="../../Images/mapstudio/create_edit_shp/button_edittools_freehand.png" alt="freehand draw button" /> option, and draw a shape around one of the areas of significant fire behavior. Next, select the button again and draw a shape around the second area that exhibited significant fire behavior. You'll concentrate on these areas for developing and comparing treatments to meet the objectives of reducing the fire hazard in this area, and returning low intensity fire to this landscape.</li>
+            <li>Select the <span class="UIcomponent">Create/Edit Shapes</span> widget <img src="../../Images/mapstudio/create_edit_shp/button_editTools.png" alt="create or edit shapes" MadCap:changes="5" class="iftbutton" /> at the bottom of the screen and ensure <span class="UIcomponent">Polygons</span> is selected in the drop-down box in <span class="UIcomponent">Create/Edit Shapes</span>. </li>
+            <li>Select <span class="UIcomponent">Freehand Polygon</span><img src="../../Images/mapstudio/create_edit_shp/button_edittools_freehand.png" alt="freehand draw button" MadCap:changes="5" class="iftbutton" /> option, and draw a shape around one of the areas of significant fire behavior. Next, select the button again and draw a shape around the second area that exhibited significant fire behavior. You'll concentrate on these areas for developing and comparing treatments to meet the objectives of reducing the fire hazard in this area, and returning low intensity fire to this landscape.</li>
             <li>Name this “Granite Creek Proposed Treatment Areas”.</li>
             <li> Select the "Granite Creek Treatments" folder. This will ensure the Area of Interest is filed in the same location in <span class="UIcomponent">My Workspace</span> as all the other Granite Creek project files.</li>
             <li>
                 <p>Click <span class="UIcomponent">Create</span>. These two shapes will now be saved as a single shapefile and available in the <span class="UIcomponent">Layer List</span> in Map Studio, as well as in your "Granite Creek Treatments" folder in <span class="UIcomponent">My Workspace</span>.</p>
+                <p MadCap:changes="2">
+                    <img src="../../Images/granite_crk_dta/create_treatment_polys_updated.png" alt="create shapefiles using the 'Create/Edit Shapes' option in Map Studio" MadCap:changes="2" class="borderlist" />
+                </p>
             </li>
         </ol>
     </body>

@@ -1,18 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4984" MadCap:lastWidth="1285">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4161" MadCap:lastWidth="1466">
     <head>
+        <MadCap:changeData>
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="1" MadCap:timestamp="2018-04-11T18:21:24.2205291-07:00" MadCap:attribute="style" MadCap:value="width: 759px; height: 329px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="2" MadCap:timestamp="2018-04-11T18:21:33.8793326-07:00" MadCap:attribute="style" MadCap:value="width: 606px; height: 376px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="3" MadCap:timestamp="2018-04-11T18:21:39.5350103-07:00" MadCap:attribute="style" MadCap:value="width: 700px; height: 284px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="4" MadCap:timestamp="2018-04-11T18:21:42.6071025-07:00" MadCap:attribute="style" MadCap:value="width: 654px; height: 275px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="5" MadCap:timestamp="2018-04-11T18:21:45.2435306-07:00" MadCap:attribute="style" MadCap:value="width: 587px; height: 401px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="6" MadCap:timestamp="2018-04-11T18:21:47.9024227-07:00" MadCap:attribute="style" MadCap:value="width: 608px;height: 167px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="7" MadCap:timestamp="2018-04-11T18:21:53.4963140-07:00" MadCap:attribute="style" MadCap:value="width: 705px; height: 205px;" />
+            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="8" MadCap:timestamp="2018-04-11T18:21:57.5228323-07:00" MadCap:attribute="style" MadCap:value="width: 799px; height: 232px;" />
+        </MadCap:changeData>
     </head>
     <body>
         <p>Now that you have a baseline Landscape and Fire Behavior data, and some specific areas within the landscape for which you’d like to propose treatments to meet the preliminary objectives, you’ll move on to the Develop Treatment Alternatives workflow, under the <span class="UIcomponent">Strategic Planning</span> stage of the <span class="UIcomponent">Cycle</span>. This will allow you to develop and compare fuels treatment alternatives so you can determine how changes in the fuels characteristics affect fire behavior outputs.</p>
         <p>I select the <span class="UIcomponent">Develop Treatment Alternatives</span> task.</p>
         <p>
-            <img src="../../Images/granite_crk_dta/DTA_Task.png" alt="select the 'develop treatment alternatives' task from the 'strategic planning' stage of the planning cycle" style="width: 759px; height: 329px;" class="border">
+            <img src="../../Images/granite_crk_dta/DTA_Task.png" alt="select the 'develop treatment alternatives' task from the 'strategic planning' stage of the planning cycle" class="border" MadCap:changes="1">
             </img>
         </p>
         <p>The next screen brings up the 5 steps in the Develop Treatment Alternatives task.</p>
         <h3>Pick a landscape and area of interest</h3>
         <p>
-            <img src="../../Images/granite_crk_dta/dta_pick_landscape.png" style="width: 700px; height: 284px;" class="border">
+            <img src="../../Images/granite_crk_dta/dta_pick_landscape.png" class="border" MadCap:changes="3">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
@@ -23,7 +33,7 @@
         <h3>Edit the landscape to simulate treatment scenarios</h3>
         <p>Next, move to the <span class="UIcomponent">Edit Landscape</span> tab, where you'll select a Default Fuels Treatment rule, and apply it to the landscape to simulate a thin and pile burn. Then you can see what effect the proposed treatment has on your Area of Interest. To do this:</p>
         <p>
-            <img src="../../Images/granite_crk_dta/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" style="width: 606px; height: 376px;" class="border">
+            <img src="../../Images/granite_crk_dta/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" class="border" MadCap:changes="2">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
@@ -39,7 +49,7 @@
         <p>This rule will mimic thinning the Area of Interest to about 80% present density by removing understory up to 8” DBH, with subsequent pile burning of thinned material. This information appears if you&#160;hover over the "Light Thinning: Pile Burning" option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance Topic</a> of Help Center.</p>
         <p>You'll also like to mimic a broadcast burn after these first entries, but apply that edit in a subsequent edit session. While you&#160;could create a second rule that would be applied after the first ( See the <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Consideration help topic</a> for more details on these), you'll apply one at a time so its easier to track the results of the rule on the landscape.  It’s always a good idea to assess your landscape after editing to ensure it’s been applied correctly and makes sense.</p>
         <p>
-            <img src="../../Images/granite_crk_dta/dta_edit_rule_save.png" alt="you will recieve a message confirming your edit rule has been saved" style="width: 654px; height: 275px;" class="border">
+            <img src="../../Images/granite_crk_dta/dta_edit_rule_save.png" alt="you will recieve a message confirming your edit rule has been saved" class="border" MadCap:changes="4">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
@@ -51,7 +61,7 @@
         <h3>Enter parameters for a fire behavior modeling scenario</h3>
         <p>In the <span class="UIcomponent">Modeling Input</span> tab you'll use 97th percentile weather and fuel moisture inputs when running the fire behavior model. Open the pdf copy of the Auto97th report you saved earlier. You could also obtain this information again anytime by accessing my Auto97th report in <span class="UIcomponent">My Workspace</span>, but with a pdf, you don't have to navigate back and forth through <MadCap:variable name="General.ProductName"></MadCap:variable>.</p>
         <p>
-            <img src="../../Images/granite_crk_dta/dta_model_inputs.png" alt="enter the modeling parameters under the Model Input tab" style="width: 587px; height: 401px;" class="border">
+            <img src="../../Images/granite_crk_dta/dta_model_inputs.png" alt="enter the modeling parameters under the Model Input tab" class="border" MadCap:changes="5">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
@@ -62,7 +72,7 @@
         <h3>Running Fire Behavior</h3>
         <p>You'll want to run the fire behavior model on both of these landscapes here so you can compare the results:</p>
         <p>
-            <img src="../../Images/granite_crk_dta/dta_run_model.png" alt="click 'run model' next to each landscape you wish to model" class="border" style="width: 608px;height: 167px;">
+            <img src="../../Images/granite_crk_dta/dta_run_model.png" alt="click 'run model' next to each landscape you wish to model" class="border" MadCap:changes="6">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
@@ -73,14 +83,14 @@
         <h3>Compare Alternatives</h3>
         <p>Once on the <span class="UIcomponent">Compare Alternatives</span> tab, you'll select each landscape you want to compare. They will be numbered in the order you select them, and from reading the right hand panel information, you'll see that this order is very important:</p>
         <p>
-            <img src="../../Images/granite_crk_dta/dta_compare_1.png" alt="use the 'compare on map' and 'compare in summary report button' to compare results" style="width: 705px; height: 205px;" class="border">
+            <img src="../../Images/granite_crk_dta/dta_compare_1.png" alt="use the 'compare on map' and 'compare in summary report button' to compare results" class="border" MadCap:changes="7">
             </img>
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>First, select the edited landscape so it has a "1" next to it. Then, select the original landscape, so it has a “2” next to it. This order tells <MadCap:variable name="General.ProductName"></MadCap:variable> to calculate the difference created by our treated landscape (1) on our original landscape (2). For example, if our new landscape has flame lengths of 3 feet, and the original has flame lengths of 7 feet, the difference will be: 3 - 7 = -4. Or in other words, a 4 foot <i>reduction</i> in flame length from the treatment.</li>
             <li>Now you'll want to view comparison outputs on the map and as a report.  First, click the <span class="UIcomponent">Compare in Summary Report</span> button so that can begin processing.</li>
             <li>Click both <span class="UIcomponent">Create Report</span> buttons so they can begin processing.</li>
-            <img src="../../Images/granite_crk_dta/dta_compare_1_2.png" alt="click compare on map button" style="width: 799px; height: 232px;" class="border" />
+            <img src="../../Images/granite_crk_dta/dta_compare_1_2.png" alt="click compare on map button" class="border" MadCap:changes="8" />
             <li>Next click the <span class="UIcomponent">Compare on Map</span> button to view results on the map. Wait for the map to appear in splitscreen mode, then&#160;click <span class="UIcomponent">Compare on Map</span> once more, and give the caparison layers a few seconds to download.</li>
         </ol>
     </body>
