@@ -8,21 +8,29 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_pick_landscape.png" />
     <Link
-      Url="Project/VariableSets/General.flvar" />
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_edit_0_lcp.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_delete.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/edit_confirmation.png" />
+    <Link
       Url="Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_edit_rule_save.png" />
+      Url="Content/Resources/Images/granite_crk_dta/edited_lcp_name.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_model_inputs.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/model_run_refresh.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_compare_1.png" />
     <Link
@@ -32,21 +40,29 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_pick_landscape.png" />
     <Link
-      Url="Project/VariableSets/General.flvar" />
+      Url="Content/Resources/Images/buttons_general/button_showsplitmap.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_edit_0_lcp.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
+      Url="Content/Resources/Images/buttons_general/button_delete.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/edit_confirmation.png" />
+    <Link
       Url="Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_edit_rule_save.png" />
+      Url="Content/Resources/Images/granite_crk_dta/edited_lcp_name.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_model_inputs.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_run_model.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/model_run_refresh.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/dta_compare_1.png" />
     <Link

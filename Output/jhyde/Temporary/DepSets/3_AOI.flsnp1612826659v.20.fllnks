@@ -8,21 +8,25 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/create_aoi_1.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/treatmentareas.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Images/granite_crk_dta/create_aoi_1.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/treatmentareas.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/create_treatment_polys_updated.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

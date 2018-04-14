@@ -6,9 +6,13 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
       Url="Content/Resources/Images/granite_crk_dta/view_summary.png" />
     <Link
-      Url="Project/VariableSets/General.flvar" />
+      Url="Content/Resources/Images/buttons_general/download.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/report_save.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/report_fuel_model.png" />
     <Link
@@ -16,15 +20,17 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/report_flamelength_map.png" />
     <Link
-      Url="Content/Resources/Images/buttons_general/download.png" />
-    <Link
-      Url="Content/Resources/Images/granite_crk_dta/report_save.png" />
+      Url="Content/Resources/Images/granite_crk_dta/export_report_parts.png" />
   </Links>
   <LongLinks>
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
       Url="Content/Resources/Images/granite_crk_dta/view_summary.png" />
     <Link
-      Url="Project/VariableSets/General.flvar" />
+      Url="Content/Resources/Images/buttons_general/download.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/report_save.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/report_fuel_model.png" />
     <Link
@@ -32,9 +38,7 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/report_flamelength_map.png" />
     <Link
-      Url="Content/Resources/Images/buttons_general/download.png" />
-    <Link
-      Url="Content/Resources/Images/granite_crk_dta/report_save.png" />
+      Url="Content/Resources/Images/granite_crk_dta/export_report_parts.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

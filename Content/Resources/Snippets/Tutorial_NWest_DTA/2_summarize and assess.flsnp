@@ -1,152 +1,119 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="5797" MadCap:lastWidth="1453">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="6360" MadCap:lastWidth="1223">
     <head>
-        <MadCap:changeData>
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="1" MadCap:timestamp="2018-04-11T17:57:25.9493713-07:00" MadCap:attribute="style" MadCap:value="width: 712px; height: 413px;" />
-            <MadCap:BindChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="2" MadCap:timestamp="2018-04-11T17:57:35.1284347-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="3" MadCap:timestamp="2018-04-11T17:57:36.6810335-07:00" />
-            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="4" MadCap:timestamp="2018-04-11T17:57:39.7710545-07:00" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="5" MadCap:timestamp="2018-04-11T18:04:23.2285648-07:00" MadCap:attribute="style" MadCap:value="width: 782px; height: 450px;" />
-            <MadCap:BindChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="6" MadCap:timestamp="2018-04-11T18:04:31.8948707-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="7" MadCap:timestamp="2018-04-11T18:04:32.2936991-07:00" />
-            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="8" MadCap:timestamp="2018-04-11T18:04:35.4781654-07:00" />
-            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="9" MadCap:timestamp="2018-04-11T18:07:17.0247260-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="10" MadCap:timestamp="2018-04-11T18:07:21.3743038-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="11" MadCap:timestamp="2018-04-11T18:09:22.7409973-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="14" MadCap:timestamp="2018-04-11T18:11:48.9396985-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="17" MadCap:timestamp="2018-04-11T18:12:51.9224662-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="18" MadCap:timestamp="2018-04-11T18:14:00.2788470-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="21" MadCap:timestamp="2018-04-11T18:15:04.8756503-07:00" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="22" MadCap:timestamp="2018-04-11T18:18:42.4450705-07:00" MadCap:attribute="class" />
-            <MadCap:BindChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="23" MadCap:timestamp="2018-04-11T18:18:56.7505917-07:00" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="24" MadCap:timestamp="2018-04-11T18:18:57.0607473-07:00" />
-            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="25" MadCap:timestamp="2018-04-11T18:19:00.2193039-07:00" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="26" MadCap:timestamp="2018-04-11T18:23:37.4451405-07:00" MadCap:attribute="class" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="27" MadCap:timestamp="2018-04-11T18:31:33.2885699-07:00" MadCap:attribute="style" MadCap:value="width: 765px; height: 400px;" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="28" MadCap:timestamp="2018-04-11T18:32:18.0623798-07:00" MadCap:attribute="style" MadCap:value="width: 604px; height: 298px;" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="29" MadCap:timestamp="2018-04-11T18:32:24.9668117-07:00" MadCap:attribute="class" MadCap:value="border" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="30" MadCap:timestamp="2018-04-11T18:33:11.0112406-07:00" MadCap:attribute="class" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="31" MadCap:timestamp="2018-04-11T18:33:35.3482975-07:00" MadCap:attribute="alt" MadCap:value="add reference data" />
-            <MadCap:AddChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="32" MadCap:timestamp="2018-04-11T18:34:01.6917020-07:00" />
-            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="33" MadCap:timestamp="2018-04-11T18:34:01.6927056-07:00" />
-            <MadCap:AttributesChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="34" MadCap:timestamp="2018-04-11T18:34:19.3380965-07:00" MadCap:attribute="style" />
-            <MadCap:RemoveChange MadCap:userName="jhyde" MadCap:initials="JH" MadCap:id="35" MadCap:timestamp="2018-04-11T18:35:31.7608317-07:00" />
-        </MadCap:changeData>
     </head>
     <body>
-        <h2>Assessing the Landscape</h2>
-        <h3>Identify widget</h3>
-        <p>Assess the landscape  in <MadCap:variable name="General.MapStudio" />, first by:</p>
+        <h2>Displaying and Assessing the Landscape</h2>
+        <p>Assess the landscape  in <MadCap:variable name="General.MapStudio" />, first:</p>
         <ol style="list-style-type: upper-alpha;">
             <li>
-                <p>Using the <span class="UIcomponent">Landscape Tools</span><img src="../../Images/mapstudio/overview/button_landscapetools.png" alt="Landscape tools button" /> widget to check the landscape under the "Add to Map" tab, this adds the landscape to the map and the map's <span class="UIcomponent">Layer List</span>.</p>
+                <p>Using the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/mapstudio/overview/button_landscapetools.png" alt="Landscape tools button" class="iftbutton" /> widget to check the landscape under the "Add to Map" tab, this adds the landscape to the map and the map's <span class="UIcomponent">Layer List</span>.</p>
                 <p>
                     <img src="../../Images/granite_crk_dta/show_landscape.png" alt="Landscape Tools adds landscapes to map studio" class="borderlist">
                     </img>
                 </p>
             </li>
-            <li>After opening the <span class="UIcomponent">Layer List</span> widget <img src="../../Images/mapstudio/overview/button_layerlist.png" alt="layer list button" />, I ensure your landscape is checked, then you can check and uncheck the landscape layers you’d like to view. You'll want to look at the fuel models to make sure they correspond to what your seeing on the ground in this area, so ensure that box is checked.</li>
-            <li>Access more information for the landscape and subsequent layers via the small arrows next to the check boxes. In this case, check the box next to "Fuel Models", then click on the arrow to the left of the checkbox to drop-down to the Fuel Model layer legend.</li>
+            <li>Open the <span class="UIcomponent">Layer List</span> <img src="../../Images/mapstudio/overview/button_layerlist.png" alt="layer list button" class="iftbutton" /> widget , ensure your landscape is checked, and view the landscape layers by clicking the drop-down arrow to the left of the checkbox. You can check and uncheck the landscape layers you’d like to view. You'll want to look at the fuel models to make sure they correspond to what your seeing on the ground in this area, so ensure that box is checked.</li>
+            <li>View the legend for each layer by clicking the clicking the drop-down arrow to the left of the checkbox for that layer.  In this case, check the box next to "Fuel Models", then click on the arrow to the left of the checkbox to drop-down to the Fuel Model layer legend.</li>
             <li>
-                <p>Click the <span class="UIcomponent">Identify</span> widget <img src="../../Images/mapstudio/overview/button_identify.png" alt="indentiry" /> in the upper right corner of the page to view more information for each pixel. Select the layer I’d like to view (Granite Creek LF2014 Unedited), then click on the landscape in an area you'd like to know more about. The "Identify information box" populates with the landscape information for this pixel. For example, by clicking you can see that the green-blue pixels on the map correspond to areas of Fuel Model 188 (TL8). Continue examining various areas of interest on the landscape to learn more about what fuel models are present and where. Notice that all of the landscape characteristics come up in the Identify box when you click on the landscape with the <img src="../../Images/mapstudio/overview/button_identify.png" alt="indentiry" /> widget, not just the characteristic you specified in your <span class="UIcomponent">Layer List</span>.</p>
+                <p>Click the <span class="UIcomponent">Identify</span> <img src="../../Images/mapstudio/overview/button_identify.png" alt="indentiry" class="iftbutton" /> widget  in the upper right corner of the page to view more information for each pixel. Select the layer you’d like to view (Granite Creek LF2014 Unedited), then click on the landscape in an area you'd like to know more about. The "Identify information box" populates with the landscape information for this pixel. For example, by clicking you can see that the green-blue pixels on the map correspond to areas of Fuel Model 188 (TL8). Continue examining various areas of interest on the landscape to learn more about what fuel models are present and where. Notice that all of the landscape characteristics come up in the Identify box when you click on the landscape with the<span class="UIcomponent"> Identify</span> <img src="../../Images/mapstudio/overview/button_identify.png" alt="indentiry" class="iftbutton" /> widget, not just the characteristic you specified in your <span class="UIcomponent">Layer List</span>.</p>
                 <p>
                     <img src="../../Images/granite_crk_dta/layer_list_and_identify.png" alt="use the identify tool for more information" class="borderlist">
                     </img>
                 </p>
             </li>
         </ol>
-        <p>It may be helpful to adjust the transparency of the layer to better see roads, landscape characteristics, and other map features. To do this,&#160;click <span class="UIcomponent">More Options</span> <img src="../../Images/buttons_general/button_moreoptions.png" alt="more options" MadCap:changes="30" class="iftbutton" /> to the right of the Landscape name in <span class="UIcomponent">Layer List</span>. A drop-down box of options opens. Choose <span class="UIcomponent">Transparency</span>, which opens a slider bar allowing you to adjust the of transparency level for that layer.</p>
+        <h3>Adjust Transparency</h3>
+        <p>It may be helpful to adjust the transparency of the layer to better see roads, landscape characteristics, and other map features. To do this,&#160;click <span class="UIcomponent">More Options</span> <img src="../../Images/buttons_general/button_moreoptions.png" alt="more options" class="iftbutton" /> to the right of the Landscape name in <span class="UIcomponent">Layer List</span>. A drop-down box of options opens. Choose <span class="UIcomponent">Transparency</span>, which opens a slider bar allowing you to adjust the of transparency level for that layer. Once satisfied with the level of transparency, close the slider bar by clicking the click <span class="UIcomponent">More Options</span><img src="../../Images/buttons_general/button_moreoptions.png" alt="more options" class="iftbutton" /> button once more.</p>
         <p>
             <img src="../../Images/granite_crk_dta/transparency.png" alt="transparency can be set using the more options icon to the right of each layer" class="border">
             </img>
         </p>
-        <h3>Add reference data</h3>
-        <p> Before doing a full assessment of the landscape characteristics, I’ll want to view previous fires that may have occurred in this area. Fortunately, this is easy to do:</p>
-        <p MadCap:changes="4">
-            <img src="../../Images/granite_crk_dta/add_reference_data.png" alt="use 'add reference data' to add historic disturbance information" class="border" MadCap:changes="4,1">
-            </img>
-        </p>
+        <h3>Adding Reference Layers</h3>
+        <p> Before doing a full assessment of the landscape characteristics, you’ll want to view previous fires that may have occurred in this area. This is easy to do:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Using <span class="UIcomponent">Add <MadCap:change MadCap:changes="3">Layers </MadCap:change><MadCap:change MadCap:changes="4">Reference Data</MadCap:change></span> widget <img src="../../Images/mapstudio/overview/button_adref.png" alt="add layers" MadCap:changes="31,30" class="iftbutton" /> at the bottom of the screen, you'll see there are many options for additional data layers, including "Ownership" and "Critical Habitat Areas". </li>
-            <li>For now, focus on "Disturbance History" – both "Historic Fuel Treatment Polygons", as well as "Historic Wildfire Perimeters", and select the perimeters for years 1990-1999, 2000-2009, 2010-2012, 2013, and 2014. These will now appear in the <span class="UIcomponent">Layer List</span> and on the map.</li>
+            <li>Click the <span class="UIcomponent">Add Layers </span> <img src="../../Images/mapstudio/overview/button_adref.png" alt="add layers" class="iftbutton" /> widget  at the bottom of the screen, and make sure the "<MadCap:variable name="General.ProductName" /> Reference Layers" tab is selected. You'll notice there are many options for additional data layers, including "Ownership" and "Critical Habitat Areas". </li>
+            <li>For now, focus on disturbance history. Click the drop-down arrow next to "Disturbance History" and use the checkbox to select "Historic Fuel Treatment Polygons". Next, expand the drop-down for "Disturbance History - Historic Wildfire Perimeters", and select the perimeters for years 1990-1999, 2000-2009, 2010-2012, 2013, and 2014. These will now appear in the <span class="UIcomponent">Layer List</span> and on the map.</li>
             <li>
-                <p MadCap:changes="2">Use the <span class="UIcomponent">Identify</span> widget to identify the exact year of the Rabbit Creek and Bannock fires. Click the applicable Fire Perimeter layers on and off to compare the landscape and fuel models underneath. In this example we see they are reflective of these fires.</p>
-                <p MadCap:changes="3">
-                    <img src="../../Images/granite_crk_dta/add_reference_data.png" alt="use 'add reference data' to add historic disturbance information" class="borderlist" MadCap:changes="3">
+                <p>Use the <span class="UIcomponent">Identify</span> widget to identify the exact year of the Rabbit Creek and Bannock fires. Click the applicable Fire Perimeter layers on and off to compare the landscape and fuel models underneath. In this example we see they are reflective of these fires.</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/add_reference_data.png" alt="use 'add reference data' to add historic disturbance information" class="borderlist">
                     </img>
                 </p>
             </li>
         </ol>
         <p>Follow this same process with the Historic Fuel Treatment Polygons layer as well.</p>
-        <p>After doing an assessment of all the landscape characteristics (Elevation, Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height and Canopy Bulk Density) we determine that the Landfire 2012 data in this landscape is reflective of existing conditions, including previous fires. If there had been a more recent disturbance since this 2012 data was produced,  such as a fire or fuels treatment that you would want to represent on this landscape, it could be easy to add by <a href="../../../10-MapStudio/Functions/EditTools.htm">creating a polygon</a> using the <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Images/mapstudio/create_edit_shp/button_editTools.png" alt="add edit shapes" MadCap:changes="32" class="iftbutton" /><MadCap:change MadCap:changes="32"> <![CDATA[ ]]></MadCap:change>widget <img src="../../Images/mapstudio/create_edit_shp/button_editTools.png" alt="add edit shapes" MadCap:changes="33,30" class="iftbutton" MadCap:_temp="true" /> that reflect the area of interest, then make the appropriate landscape edits to reflect the disturbance. (More information on Landscape Editing is available via the <a href="../../../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Landscape Editing Topic</a>.</p>
+        <p>After doing an assessment of all the landscape characteristics (Elevation, Slope, Aspect, Canopy Cover, Stand Height, Canopy Base Height and Canopy Bulk Density) we determine that the Landfire 2014 data in this landscape is reflective of existing conditions, including previous fires. If there had been a more recent disturbance since this 2014 data was produced,  such as a fire or fuels treatment that you would want to represent on this landscape, it could be easy represented by <a href="../../../10-MapStudio/Functions/EditTools.htm">creating a polygon</a> using the <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Images/mapstudio/create_edit_shp/button_editTools.png" alt="add edit shapes" class="iftbutton" />  widget  to reflect the disturbance area, then using the Landscape Editing task in the planning cycle to make changes to that area and save them. (More information on Landscape Editing is available via the <a href="../../../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Landscape Editing Topic</a> in Help Center.</p>
         <p>Next, you'll run a summary report and compare these fuel models with potential landscape fire behavior. </p>
         <h2>Summarizing the Landscape</h2>
-        <p>Creating a Landscape Summary report will run fire behavior under 97th percentile weather conditions, make the outputs available in <MadCap:variable name="General.MapStudio" />, and summarize behavior and landscape features in a downloadable report with tables and charts. To create the report:</p>
-        <p MadCap:changes="8">
-            <img src="../../Images/granite_crk_dta/summary.png" alt="landscape summary will summarize features and auto97th fire behavior" class="border" MadCap:changes="8,5">
-            </img>
-        </p>
+        <p>Creating a Landscape Summary report will run fire behavior under 97th percentile weather conditions, make the outputs available in <MadCap:variable name="General.MapStudio" />, and summarize behavior and landscape features in a downloadable report with tables and charts. It will also create a model output layer that can be viewed in <MadCap:variable name="General.MapStudio" />. To create these:</p>
         <ol style="list-style-type: upper-alpha;">
             <li> Click on <span class="UIcomponent">Planning Cycle</span> in the top navigation.</li>
             <li>
-                <p MadCap:changes="6">The cycle opens on the <span class="UIcomponent">Landscape Evaluation</span> stage by default, from there click the <span class="UIcomponent">Landscape Summary</span> task.</p>
-                <p MadCap:changes="7">
-                    <img src="../../Images/granite_crk_dta/summary.png" alt="landscape summary will summarize features and auto97th fire behavior" class="border" MadCap:changes="7">
+                <p>The cycle opens on the <span class="UIcomponent">Landscape Evaluation</span> stage by default, from there click the <span class="UIcomponent">Landscape Summary</span> task.</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/summary.png" alt="landscape summary will summarize features and auto97th fire behavior" class="borderlist">
                     </img>
                 </p>
             </li>
-            <li>In <span class="UIcomponent">Landscape Summary</span>, click the drop-down <MadCap:change MadCap:changes="7">menu</MadCap:change><MadCap:change MadCap:changes="8">box</MadCap:change> next to <span class="UIcomponent">Select Landscapes</span>. If the newly created landscape didn’t appear in the drop down, use the <span class="UIcomponent">Refresh</span> button <img src="../../Images/buttons_general/button_refresh.png" alt="refresh button" /> after giving the landscape a short time to process. The landscape appears with a green check next to it (the check indicates it has downloaded completely to my <MadCap:variable name="General.ProductName" /> account). From this same screen, create an automated report to summarize not only the landscape characteristics, but also the modeled fire behavior outputs specific to this landscape based on approximated worst case (97th percentile fuel moisture and wind) conditions.</li>
-            <li>Click<MadCap:change MadCap:changes="9"> on</MadCap:change> <span class="UIcomponent">Request a Report</span><MadCap:change MadCap:changes="10">.</MadCap:change><MadCap:change MadCap:changes="9"> so the report can begin processing, it will take a few moments for the report to process. To make sure the report is complete click the</MadCap:change><span class="UIcomponent" MadCap:changes="9"> Refresh</span><MadCap:change MadCap:changes="9"> button. When complete, a green checkmark will appear next to the report name, and the name will become a hyperlink.</MadCap:change><div MadCap:changes="9"><img src="../../Images/granite_crk_dta/summary_report_refresh.png" alt="refresh summary report status" style="width: 375px; height: 189px;" class="border" MadCap:changes="9" /></div><MadCap:change MadCap:changes="9">For this example we are going to view the fire behavior aspect of the report in </MadCap:change><MadCap:variable name="General.MapStudio" MadCap:changes="9" /><MadCap:change MadCap:changes="9"> so it can be viewed with the landscape features, so close the report box and click the </MadCap:change><span class="UIcomponent" MadCap:changes="9">View in <MadCap:variable name="General.MapStudio" MadCap:changes="9" /></span><MadCap:change MadCap:changes="9"> button.</MadCap:change><div MadCap:changes="9"><img src="../../Images/granite_crk_dta/view_report_on_map.png" alt="view report on map" class="border" style="width: 893px;height: 247px;" MadCap:changes="9" /></div></li>
-            <li MadCap:changes="10">
-                <p MadCap:changes="10">Confirm your select by clicking <span MadCap:changes="10" class="UIcomponent">Create Report</span> in the box that appears. The report report will begin processing and may take a few moments.</p>
-                <p MadCap:changes="11">
-                    <img src="../../Images/granite_crk_dta/summary_2.png" alt="use the 'request a report' button to generate your report" MadCap:changes="11" class="borderlist" />
+            <li>In <span class="UIcomponent">Landscape Summary</span>, click the drop-down menu next to <span class="UIcomponent">Select Landscapes</span>. If the newly created landscape didn’t appear in the drop down, use the <span class="UIcomponent">Refresh</span> button <img src="../../Images/buttons_general/button_refresh.png" alt="refresh button" /> after giving the landscape a short time to process. The landscape appears with a green check next to it (which indicates it has downloaded completely to you <MadCap:variable name="General.ProductName" /> account). If you wanted to create a report just for an Area of Interest, you'd use the Area of Interest drop-down menu to select a shape or shapefile. For this example, leave Area of Interest blank in order to produce a report for the entire landscape.</li>
+            <li>Click <span class="UIcomponent">Request a Report</span>.</li>
+            <li>
+                <p>Confirm your select by clicking <span class="UIcomponent">Create Report</span> in the box that appears. The report  will begin processing and may take a few moments.</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/summary_2.png" alt="use the 'request a report' button to generate your report" class="borderlist" />
                 </p>
-                <p MadCap:changes="14">To make sure the report is complete click the<span class="UIcomponent" MadCap:changes="14"> Refresh </span><img src="../../Images/buttons_general/button_refresh.png" alt="refresh" MadCap:changes="17" class="iftbutton" /> that appears where the <span MadCap:changes="14" class="UIcomponent">Create Report</span> button once was. When complete, a green checkmark will appear next to the report name, and the name will become a hyperlink.</p>
-                <p MadCap:changes="18">
-                    <img src="../../Images/granite_crk_dta/report_confirmation.png" alt="the report completion will be confirmed with a green confirmation box." MadCap:changes="21" class="borderlist" />
+                <p>To make sure the report is complete click the <span class="UIcomponent"> Refresh </span><img src="../../Images/buttons_general/button_refresh.png" alt="refresh" class="iftbutton" /> button that appears where the <span class="UIcomponent">Create Report</span> button once was. When complete, a green checkmark will appear next to the report name, and the name will become a hyperlink.</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/report_confirmation.png" alt="the report completion will be confirmed with a green confirmation box." class="borderlist" />
                 </p>
             </li>
-            <li MadCap:changes="11">
-                <p MadCap:changes="11"> For this example we are going to view the fire behavior aspect of the report in <MadCap:variable name="General.MapStudio" MadCap:changes="21" /> so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent" MadCap:changes="21">View in <MadCap:variable name="General.MapStudio" MadCap:changes="21" /></span> button.</p>
-                <p MadCap:changes="21">
-                    <img src="../../Images/granite_crk_dta/view_report_on_map.png" alt="view report on map" class="borderlist" MadCap:changes="21" />
+            <li>
+                <p> For this example we are going to view the fire behavior aspect of the report in <MadCap:variable name="General.MapStudio" /> so it can be viewed with the landscape features, so close the report box and click the <span class="UIcomponent">View in <MadCap:variable name="General.MapStudio" /></span> button. The report, and <MadCap:variable name="General.MapStudio" />outputs, can be viewed anytime later by accessing them in <span class="UIcomponent">My Workspace</span>, they are saved in the same folder as the landscape they describe (in this case your Granite Creek project folder).</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/view_report_on_map.png" alt="view report on map" class="borderlist" />
                 </p>
             </li>
         </ol>
         <h3>Comparing Landscape Features and Model Outputs with the Swipe widget</h3>
-        <p>After clicking <span class="UIcomponent">View in <MadCap:variable name="General.MapStudio" /></span>, the fire model layer will automatically open. For future use, you can remove that modeling layer, or add other modeling layers later, by clicking the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/mapstudio/overview/button_SimOutput.png" alt="simulation output tools" MadCap:changes="32" class="iftbutton" style="width: 0px;height: 0px;" /><MadCap:change MadCap:changes="32"> <![CDATA[ ]]></MadCap:change>widget <img src="../../Images/mapstudio/overview/button_SimOutput.png" alt="simulation output tools" MadCap:changes="33,22,34" class="iftbutton" style="width: 0px;height: 0px;" MadCap:_temp="true" /> on the bottom of the screen.</p>
-        <p MadCap:changes="25">
-            <img src="../../Images/granite_crk_dta/auto97_flame_length.png" alt="use 'simulation output tools' to add the auto97th model outputs" style="width: 742px; height: 452px;" class="border" MadCap:changes="25">
-            </img>
-        </p>
+        <p>After clicking <span class="UIcomponent">View in <MadCap:variable name="General.MapStudio" /></span>, the fire behavior model layer will automatically open. For future use, you can remove that modeling layer, or add other modeling layers, by clicking the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/mapstudio/overview/button_SimOutput.png" alt="simulation output tools" class="iftbutton" style="width: 0px;height: 0px;" />  widget on the bottom of the screen.</p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/mapstudio/overview/button_SimOutput.png" alt="simulation output tools" MadCap:changes="32" class="iftbutton" /><MadCap:change MadCap:changes="32"> <![CDATA[ ]]></MadCap:change>widget <img src="../../Images/mapstudio/overview/button_SimOutput.png" alt="simulation output tools" MadCap:changes="33,26" class="iftbutton" MadCap:_temp="true" /> on the bottom of the screen.</li>
+            <li>If the layer did not automatically open, click the <span class="UIcomponent">Simulation Output Tools</span> <img src="../../Images/mapstudio/overview/button_SimOutput.png" alt="simulation output tools" class="iftbutton" />  widget  on the bottom of the screen.</li>
             <li>
-                <p MadCap:changes="23">Ensure the box next to “Granite Creek LF2014 unedited-Auto97th” is checked, this layer will also be visible in <span class="UIcomponent">Layer List</span>. Check the appropriate boxes in <span class="UIcomponent">Layer List</span> to view Flame Lengths and the corresponding legend.</p>
-                <p MadCap:changes="24">
-                    <img src="../../Images/granite_crk_dta/auto97_flame_length.png" alt="use 'simulation output tools' to add the auto97th model outputs" class="borderlist" MadCap:changes="24">
+                <p>Ensure the box next to “Granite Creek LF2014 unedited-Auto97th” is checked, this layer open on the map and be visible in <span class="UIcomponent">Layer List</span>. Check the appropriate boxes in <span class="UIcomponent">Layer List</span> to view Flame Lengths and the corresponding legend as displayed below.</p>
+                <p>Zoom into an orange/red area where you can see concentrated areas high Flame Lengths projected by the summary model. Next you'll look at the fuel models and topography for that area of more intense fire behavior.</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/auto97_flame_length.png" alt="use 'simulation output tools' to add the auto97th model outputs" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>
+                <p>To compare these model outputs with your landscape, add the Granite Creek LF2014 unedited landscape back to <MadCap:variable name="General.MapStudio" /> by opening the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/mapstudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget, clicking the <span class="UIcomponent">Add to Map</span> tab and using the checkbox to add the "Granite Creek LF2014 unedited". Use the dropdown arrows and checkboxs in <span class="UIcomponent">Layer List</span> display only the landscape Fuel Model layer and the Model output Flame length layer. </p>
+                <div class="notificationTip">
+                    <p>To move a layer group, such as Landscape, up or down in Layer List, click the More Options button to the right of the layer and choose "Move up" or "Move down".</p>
+                </div>
+                <p>
+                    <img src="../../Images/granite_crk_dta/move_up_down.png" alt="use the more options button to move layer groups up or down" class="borderlist" />
+                </p>
+            </li>
+        </ol>
+        <p>Next you'll compare the two using Swipe:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Click the <span class="UIcomponent">Swipe</span> <img src="../../Images/mapstudio/overview/button_slider.png" alt="swipe tool" class="iftbutton" /> widget in the top right of <MadCap:variable name="General.MapStudio" />.</li>
+            <li>
+                <p>Next, specify the layers to&#160;swipe. By default, the first layer in Layer List will be the one displayed in the Swipe box, and will appear in the top portion of the map, the next visible layer in Layer List will be the layer displayed under it. In the example below, "Model Output: Granite Creek LF2014 unedited – Auto97th" is displayed on the top, and the Landscape layer is displayed on the bottom. Slide the bar in the middle of the screen up and down. Notice that the areas with high flame lengths correspond to areas of Fuel Model 188 (TL8) with small patches 165 (TU5).</p>
+                <p>
+                    <img src="../../Images/granite_crk_dta/swipe_pretreatment.png" alt="using the swipe tool in the top right can help evaluate our landscape" class="borderlist">
                     </img>
                 </p>
             </li>
         </ol>
-        <p>Zoom into an orange/red area where you can see concentrated areas high Flame Lengths projected by the summary model. Next you'll look at the fuel models and topography for that area of more intense fire behavior.</p>
-        <p>Set up the <span class="UIcomponent">Layer List</span> to have the Fuel Model checked for the Granite Creek Landscape layer, as well as Flame Lengths for the Auto97th modeled fire behavior output. You can quickly switch between layers to view changes by checking/unchecking the layers, or by using <span class="UIcomponent">Swipe</span><img src="../../Images/mapstudio/overview/button_slider.png" alt="swipe tool"></img>.</p>
+        <p>Next you'll want to view the topography to see how it corresponds to the areas displaying more intense fire behavior. Uncheck the boxes in the <span class="UIcomponent">Layer List</span> then re-check the "Granite Creek LF2014 unedited – Auto97th" layer. This will display only that behavior layer, and allow you to see the topography underneath. If this does not occur on your map, move your mouse up to the swipe box and make sure the Model Output layer is selected (For more about the Swipe widget, see the <a href="../../../10-MapStudio/Functions/Swipe.htm" target="_blank">Swipe widget Help Topic</a>).</p>
         <p>
-            <img src="../../Images/granite_crk_dta/swipe_pretreatment.png" alt="using the swipe tool in the top right can help evaluate our landscape" class="borderlist" MadCap:changes="27,29">
+            <img src="../../Images/granite_crk_dta/swipe_pretreatment2.png" alt="swipe tool showing topography below the layer" class="borderlist">
             </img>
         </p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Swipe widget</span><img src="../../Images/mapstudio/overview/button_slider.png" alt="swipe tool" />.</li>
-            <li>Next, specify the layers to&#160;swipe - the first layer selected will be the layer viewed on the top of the slider bar, the second layer checked in <span class="UIcomponent">Layer List</span> will be the layer on the bottom of the slider bar. In this case, "Granite Creek LF2014 unedited – Auto97th". Slide the bar in the middle of the screen up and down and notice that the areas with high flame lengths correspond to areas of Fuel Model 188 (TL8) with small patches 165 (TU5).</li>
-        </ol>
-        <p>
-            <img src="../../Images/granite_crk_dta/swipe_pretreatment2.png" alt="swipe tool showing topography below the layer" class="borderlist" MadCap:changes="28,29">
-            </img>
-        </p>
-        <p>Next you'll want to view the topography to see if there is a theme in the areas displaying more intense fire behavior. Uncheck the boxes in the <span class="UIcomponent">Layer List</span> then re-check the "Granite Creek LF2014 unedited – Auto97th" layer. This will display only that behavior layer, and allow you to see the topography underneath. If this does not occur on your map, try selecting the Model Output: Granite Creek by clicking on it from the Swipe dialog that appears in the top right of <MadCap:variable name="General.MapStudio" />. (For more about the Swipe widget, see the <a href="../../../10-MapStudio/Functions/Swipe.htm" target="_blank">Swipe widget Help Topic</a>).</p>
-        <p>As you swipe up and down you can see that the areas displaying the more intense fire behavior are all west or northwest facing slopes. Wrapping up this analysis by repeating this process in the northern part of the landscape, you notice there appears to be several areas that would produce more intense fire behavior. Also compare other aspects of fire behavior, such as Rate of Spread and Crown Fire Activity.</p>
+        <p>As you swipe up and down you'll notice all the areas displaying more intense fire behavior are west or northwest facing slopes. Wrapping up this analysis by repeating this process in the northern part of the landscape, you notice there appears to be several areas that would produce more intense fire behavior. Also compare other aspects of fire behavior, such as Rate of Spread and Crown Fire Activity.</p>
         <p>With this information, you decide to create two Areas of Interest, or areas on which you’d like to focus the analysis and treatments.</p>
-        <p MadCap:changes="35">&#160;</p>
     </body>
 </html>

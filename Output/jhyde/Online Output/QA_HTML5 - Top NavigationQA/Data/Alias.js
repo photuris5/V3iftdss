@@ -157,13 +157,7 @@ xmlAliasData += '    <Map Name=\"OpenGeoTif\" Link=\"10-myworkspace/opengeotif.h
 xmlAliasData += '    <Map Name=\"ShapeCopyfromRef\" Link=\"10-mapstudio/files/shapecopyfromref.htm\" ResolvedId=\"1091\" />';
 xmlAliasData += '    <Map Name=\"ShapefileGroup\" Link=\"10-mapstudio/files/shapefilegroup.htm\" ResolvedId=\"1092\" />';
 xmlAliasData += '    <Map Name=\"ShapeGroup\" Link=\"10-mapstudio/files/shapegroup.htm\" ResolvedId=\"1094\" />';
-xmlAliasData += '    <Map Name=\"AOI_treatments\" Link=\"40-tutorials/shorts/aoi_treatments.htm\" ResolvedId=\"1095\" />';
-xmlAliasData += '    <Map Name=\"a_StartandCreateLCP\" Link=\"40-tutorials/shorts/a_startandcreatelcp.htm\" ResolvedId=\"1096\" />';
-xmlAliasData += '    <Map Name=\"Compare\" Link=\"40-tutorials/shorts/compare.htm\" ResolvedId=\"1097\" />';
-xmlAliasData += '    <Map Name=\"LCPSummaryReport\" Link=\"40-tutorials/shorts/lcpsummaryreport.htm\" ResolvedId=\"1098\" />';
-xmlAliasData += '    <Map Name=\"Modeling_in_Wildfire_Playground\" Link=\"40-tutorials/shorts/modeling in wildfire playground.htm\" ResolvedId=\"1099\" />';
-xmlAliasData += '    <Map Name=\"ProjectBegin\" Link=\"40-tutorials/shorts/projectbegin.htm\" ResolvedId=\"1101\" />';
-xmlAliasData += '    <Map Name=\"Treatment_AOI\" Link=\"40-tutorials/shorts/treatment aoi.htm\" ResolvedId=\"1102\" />';
+xmlAliasData += '    <Map Name=\"a_StartandCreateLCP\" Link=\"40-tutorials/shorts/startandcreatelcp.htm\" ResolvedId=\"1096\" />';
 xmlAliasData += '    <Map Name=\"Chrome\" Link=\"00-concepts/chrome.htm\" ResolvedId=\"1103\" />';
 xmlAliasData += '    <Map Name=\"AgencyLeads\" Link=\"10-ftem/agencyleads.htm\" ResolvedId=\"1104\" />';
 xmlAliasData += '    <Map Name=\"DataTreatments\" Link=\"10-ftem/datatechnical/treatments.htm\" ResolvedId=\"1105\" />';

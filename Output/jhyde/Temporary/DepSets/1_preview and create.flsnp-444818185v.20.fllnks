@@ -10,6 +10,8 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/map_studio_explore.png" />
     <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+    <Link
       Url="Content/Resources/Images/granite_crk_dta/obtain_landscape.png" />
   </Links>
   <LongLinks>
@@ -17,6 +19,8 @@
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/map_studio_explore.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/obtain_landscape.png" />
   </LongLinks>

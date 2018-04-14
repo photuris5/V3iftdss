@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="787" MadCap:lastWidth="1466">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="899" MadCap:lastWidth="1466">
     <head>
     </head>
     <body>
@@ -16,8 +16,7 @@
         </ul>
         <p>You'll use <MadCap:variable name="General.ProductName" /> to plan a treatment around these objectives.</p>
         <p>
-            <img src="../../Images/granite_crk_dta/trees1.png" alt="a crowded conifer stand" class="border" style="width: 386px;height: 323px;" />
-            <img src="../../Images/granite_crk_dta/location.png" alt="granite creek is about 26 miles northeast from Boise Idaho" style="width: 514px;height: 323px;" class="border" />
+            <img src="../../Images/granite_crk_dta/location.png" alt="granite creek is about 26 miles northeast from Boise Idaho" class="border" />
         </p>
     </body>
 </html>

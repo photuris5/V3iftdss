@@ -8,15 +8,11 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/trees1.png" />
-    <Link
       Url="Content/Resources/Images/granite_crk_dta/location.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
-    <Link
-      Url="Content/Resources/Images/granite_crk_dta/trees1.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/location.png" />
   </LongLinks>

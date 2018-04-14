@@ -22,9 +22,9 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
     <Link
       Url="Content/10-MapStudio/Functions/EditTools.htm" />
     <Link
@@ -36,7 +36,9 @@
     <Link
       Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/summary_report_refresh.png" />
+      Url="Content/Resources/Images/granite_crk_dta/summary_2.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/report_confirmation.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/view_report_on_map.png" />
     <Link
@@ -44,13 +46,15 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/auto97_flame_length.png" />
     <Link
+      Url="Content/Resources/Images/granite_crk_dta/move_up_down.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment2.png" />
-    <Link
       Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment2.png" />
   </Links>
   <LongLinks>
     <Link
@@ -70,9 +74,9 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/transparency.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
-    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/add_reference_data.png" />
     <Link
       Url="Content/10-MapStudio/Functions/EditTools.htm" />
     <Link
@@ -84,7 +88,9 @@
     <Link
       Url="Content/Resources/Images/buttons_general/button_refresh.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/summary_report_refresh.png" />
+      Url="Content/Resources/Images/granite_crk_dta/summary_2.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/report_confirmation.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/view_report_on_map.png" />
     <Link
@@ -92,13 +98,15 @@
     <Link
       Url="Content/Resources/Images/granite_crk_dta/auto97_flame_length.png" />
     <Link
+      Url="Content/Resources/Images/granite_crk_dta/move_up_down.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
     <Link
       Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment2.png" />
-    <Link
       Url="Content/10-MapStudio/Functions/Swipe.htm" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/swipe_pretreatment2.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
