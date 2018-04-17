@@ -274,25 +274,6 @@
         Title="Tutorials Main Page"
         Link="/Content/40-Tutorials/TutorialMain.htm" />
       <TocEntry
-        Title="Beginning a Project"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="Creating a Landscape and Summarize"
-        Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="Landscape Summary Report"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="Creating Treatment Polygons"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="Modeling Landscape Fire Behavior in Modeling Playground"
-        conditions="General.QA ONLY" />
-      <TocEntry
-        Title="Run a Landscape Comparison"
-        conditions="General.QA ONLY" />
-      <TocEntry
         Title="Comparing Landscapes"
         Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm">
         <TocEntry
@@ -315,12 +296,14 @@
           Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
-        Title="Developing Treatment Alternatives (PDF)"
-        Link="/Content/Resources/pdfs/tutorials/NW_DTA_Tutorial.pdf" />
-      <TocEntry
-        Title="Developing Treatments"
+        Title="Tutorial: Developing Treatments"
         Link="/Content/40-Tutorials/NWest_DTA/0_Introduction.htm"
-        conditions="General.QA ONLY">
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        ReplaceMergeNode="false">
         <TocEntry
           Title="Previewing and Creating a Landscape"
           Link="/Content/40-Tutorials/NWest_DTA/1_PreviewAndCreate.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

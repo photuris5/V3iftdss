@@ -5,7 +5,7 @@
     </Dialog>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\40-Tutorials\Shorts\EditingLandscapes.htm" />
+        <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\pdfs\tutorials\Developing Treatment Alternatives Tutorial.pdf" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
         <Link Value="C:\Users\jhyde\Documents\GitHub\V3iftdss\Content\Resources\Snippets\FTEM\Attachment_size_type.flsnp" />

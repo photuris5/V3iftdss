@@ -732,7 +732,7 @@ html.templateTopic div.sideContent
 
 	img.border
 	{
-    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-before: avoid; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
     page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
     page-break-inside: avoid; /* or 'auto' */
 	}
@@ -741,9 +741,9 @@ html.templateTopic div.sideContent
 	{
     border: 1px solid black;
 	margin:0px 5px 5px 5px;
-	max-width:100%;
+	max-width: 100%;
 	height:auto;
-    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-before: avoid; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
     page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
     page-break-inside: avoid; /* or 'auto' */
 	}

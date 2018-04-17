@@ -135,6 +135,15 @@ xmlAliasData += '    <Map Name=\"wildfires_hh\" Link=\"50-hover/ftem/wildfires_h
 xmlAliasData += '    <Map Name=\"table\" Link=\"resources/tablestyles/table.html\" ResolvedId=\"1070\" />';
 xmlAliasData += '    <Map Name=\"table1\" Link=\"resources/tablestyles/table.html\" ResolvedId=\"1072\" />';
 xmlAliasData += '    <Map Name=\"Helpful_topics\" Link=\"00-aboutiftdss/helpful topics.htm\" ResolvedId=\"1065\" />';
+xmlAliasData += '    <Map Name=\"_0_Introduction\" Link=\"40-tutorials/nwest_dta/0_introduction.htm\" ResolvedId=\"1067\" />';
+xmlAliasData += '    <Map Name=\"_1_PreviewAndCreate\" Link=\"40-tutorials/nwest_dta/1_previewandcreate.htm\" ResolvedId=\"1068\" />';
+xmlAliasData += '    <Map Name=\"_2_SummarizeAndAssess\" Link=\"40-tutorials/nwest_dta/2_summarizeandassess.htm\" ResolvedId=\"1069\" />';
+xmlAliasData += '    <Map Name=\"_3_CreateAOIs\" Link=\"40-tutorials/nwest_dta/3_createaois.htm\" ResolvedId=\"1074\" />';
+xmlAliasData += '    <Map Name=\"_4_ReviewSummaryReport\" Link=\"40-tutorials/nwest_dta/4_reviewsummaryreport.htm\" ResolvedId=\"1075\" />';
+xmlAliasData += '    <Map Name=\"_5_DevelopTreatmentAlts\" Link=\"40-tutorials/nwest_dta/5_developtreatmentalts.htm\" ResolvedId=\"1076\" />';
+xmlAliasData += '    <Map Name=\"_6_CompareAddTreatment\" Link=\"40-tutorials/nwest_dta/6_compareaddtreatment.htm\" ResolvedId=\"1078\" />';
+xmlAliasData += '    <Map Name=\"_7_CompareAddedConclude\" Link=\"40-tutorials/nwest_dta/7_compareaddedconclude.htm\" ResolvedId=\"1079\" />';
+xmlAliasData += '    <Map Name=\"All\" Link=\"40-tutorials/nwest_dta/all.htm\" ResolvedId=\"1080\" />';
 xmlAliasData += '    <Map Name=\"step_Complete_hh\" Link=\"50-hover/ftem/step_complete_hh.htm\" ResolvedId=\"9023\" />';
 xmlAliasData += '    <Map Name=\"step_monitoring_hh\" Link=\"50-hover/ftem/step_monitoring_hh.htm\" ResolvedId=\"9024\" />';
 xmlAliasData += '    <Map Name=\"step_treatments_hh\" Link=\"50-hover/ftem/step_treatments_hh.htm\" ResolvedId=\"9025\" />';
@@ -148,6 +157,7 @@ xmlAliasData += '    <Map Name=\"OpenGeoTif\" Link=\"10-myworkspace/opengeotif.h
 xmlAliasData += '    <Map Name=\"ShapeCopyfromRef\" Link=\"10-mapstudio/files/shapecopyfromref.htm\" ResolvedId=\"1091\" />';
 xmlAliasData += '    <Map Name=\"ShapefileGroup\" Link=\"10-mapstudio/files/shapefilegroup.htm\" ResolvedId=\"1092\" />';
 xmlAliasData += '    <Map Name=\"ShapeGroup\" Link=\"10-mapstudio/files/shapegroup.htm\" ResolvedId=\"1094\" />';
+xmlAliasData += '    <Map Name=\"a_StartandCreateLCP\" Link=\"40-tutorials/shorts/startandcreatelcp.htm\" ResolvedId=\"1096\" />';
 xmlAliasData += '    <Map Name=\"Chrome\" Link=\"00-concepts/chrome.htm\" ResolvedId=\"1103\" />';
 xmlAliasData += '    <Map Name=\"AgencyLeads\" Link=\"10-ftem/agencyleads.htm\" ResolvedId=\"1104\" />';
 xmlAliasData += '    <Map Name=\"DataTreatments\" Link=\"10-ftem/datatechnical/treatments.htm\" ResolvedId=\"1105\" />';
