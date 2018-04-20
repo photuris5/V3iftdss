@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://youtu.be/5dX66IX9Gh4" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layer_list_menu.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/dropdown.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/layer_on_off.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Filter.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/shape_options.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://youtu.be/5dX66IX9Gh4" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layer_list_menu.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/layerlist_checkbox.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/dropdown.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/layer_on_off.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_moreoptions.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/attribute options.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileGroup.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/Filter.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/layer_list/shape_options.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Layer List"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

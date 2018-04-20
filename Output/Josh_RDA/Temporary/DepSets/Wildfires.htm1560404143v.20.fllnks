@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/FTEM/integrated_wildfire_data.png" />
+    <Link
+      Url="Content/Resources/Snippets/FTEM/Add_info_to_system.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/FTEM/integrated_wildfire_data.png" />
+    <Link
+      Url="Content/Resources/Snippets/FTEM/Add_info_to_system.flsnp" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

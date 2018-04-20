@@ -36,8 +36,21 @@
       Link="/Content/00-Concepts/NavigatingIFTDSS.htm"
       StartSection="false" />
     <TocEntry
-      Title="[%=System.LinkedTitle%]"
-      Link="/Content/10-MyWorkspace/MyWorkspaceAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      Title="My Workspace"
+      Link="/Content/10-MyWorkspace/MyWorkspaceAbout.htm">
+      <TocEntry
+        Title="My Workspace"
+        Link="/Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
+      <TocEntry
+        Title="Exporting Raster Data"
+        Link="/Content/10-MyWorkspace/LCP_export.htm"></TocEntry>
+      <TocEntry
+        Title="Opening GeoTiffs"
+        Link="/Content/10-MyWorkspace/OpenGeoTif.htm" />
+      <TocEntry
+        Title="Reclassing in GeoTiffs"
+        Link="/Content/10-MyWorkspace/geotiff_reclass.htm" />
+    </TocEntry>
     <TocEntry
       Title="Walk-throughs"
       Link="/Content/00-AboutIFTDSS/Helpful topics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

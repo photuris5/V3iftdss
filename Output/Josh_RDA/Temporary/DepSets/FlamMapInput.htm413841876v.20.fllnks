@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="1-hr Fuel Moisture (parameter):fire behavior (FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="23" />
+    <IndexCacheEntry
+      Term="10-hr Fuel Moisture (parameter):fire behavior (IFT-FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="28" />
+    <IndexCacheEntry
+      Term="100-hr Fuel Moisture (parameter):fire behavior (IFT-FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="33" />
+    <IndexCacheEntry
+      Term="Live Herbaceous Fuel Moisture (parameter):fire behavior (IFT-FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="38" />
+    <IndexCacheEntry
+      Term="Live Woody Fuel Moisture (parameter):fire behavior (FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="43" />
+    <IndexCacheEntry
+      Term="20-ft Wind Speed (parameter):fire behavior (IFT-FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="51" />
+    <IndexCacheEntry
+      Term="Wind Direction (parameter):fire behavior (FlamMap)"
+      Conditions=""
+      LocalConditions=""
+      Position="56" />
+    <IndexCacheEntry
+      Term="wind and wind speeds:direction and speed"
+      Conditions=""
+      LocalConditions=""
+      Position="59" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables />
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

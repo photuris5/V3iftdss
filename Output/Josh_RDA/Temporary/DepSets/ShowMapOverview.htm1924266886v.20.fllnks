@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_overview.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/show_mp_ovrvw/overview_tool_1.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_overview.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/show_mp_ovrvw/overview_tool_1.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

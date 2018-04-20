@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="https://youtu.be/31Gb1Tgzcyk" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/20-Models/FlamMap/AOIlandscapefb.htm" />
+    <Link
+      Url="Content/20-Models/ModelsOverview.htm" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+    <Link
+      Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
+    <Link
+      Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="https://youtu.be/31Gb1Tgzcyk" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/FlamMapBackground.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/20-Models/FlamMap/AOIlandscapefb.htm" />
+    <Link
+      Url="Content/20-Models/ModelsOverview.htm" />
+    <Link
+      Url="Content/Resources/Snippets/Behavior/1_2_FlammapPickLandscape.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinInterface.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
+    <Link
+      Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
+    <Link
+      Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
+  </LongLinks>
+  <Anchors>
+    <Anchor
+      Name="LFBPickLandscape" />
+    <Anchor
+      Name="LFBSave" />
+    <Anchor
+      Name="LFBCrown" />
+  </Anchors>
+  <Keywords>
+    <IndexCacheEntry
+      Term="Landscape Fire Behavior"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+    <IndexCacheEntry
+      Term="LFB"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="Fire Behavior"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/Advanced/Source.flfts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/Behavior/incomplete_run_3_14_18.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/map_streaks.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/getting_started/zoom.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
+    <Link
+      Url="Content/Resources/Images/issues_errors/Error_DTA_behaviormodel07122017.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/Advanced/Source.flfts" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/Behavior/incomplete_run_3_14_18.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/map_streaks.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Images/getting_started/zoom.png" />
+    <Link
+      Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
+    <Link
+      Url="Content/Resources/Images/issues_errors/Error_DTA_behaviormodel07122017.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords>
+    <IndexCacheEntry
+      Term="Known Issues"
+      Conditions=""
+      LocalConditions=""
+      Position="4" />
+    <IndexCacheEntry
+      Term="Issues"
+      Conditions=""
+      LocalConditions=""
+      Position="5" />
+    <IndexCacheEntry
+      Term="bugs"
+      Conditions=""
+      LocalConditions=""
+      Position="6" />
+    <IndexCacheEntry
+      Term="problems"
+      Conditions=""
+      LocalConditions=""
+      Position="7" />
+    <IndexCacheEntry
+      Term="errors"
+      Conditions=""
+      LocalConditions=""
+      Position="8" />
+    <IndexCacheEntry
+      Term="IFTDSS 2.0"
+      Conditions=""
+      LocalConditions=""
+      Position="14" />
+    <IndexCacheEntry
+      Term="Gaps"
+      Conditions=""
+      LocalConditions=""
+      Position="42" />
+    <IndexCacheEntry
+      Term="uploaded shapefiles"
+      Conditions=""
+      LocalConditions=""
+      Position="43" />
+    <IndexCacheEntry
+      Term="My Location"
+      Conditions=""
+      LocalConditions=""
+      Position="51" />
+    <IndexCacheEntry
+      Term="Navigating"
+      Conditions=""
+      LocalConditions=""
+      Position="68" />
+    <IndexCacheEntry
+      Term="Operational Layer"
+      Conditions=""
+      LocalConditions=""
+      Position="76" />
+    <IndexCacheEntry
+      Term="Shapefile Save"
+      Conditions="General.Exclude"
+      LocalConditions=""
+      Position="83" />
+    <IndexCacheEntry
+      Term="Save"
+      Conditions="General.Exclude"
+      LocalConditions=""
+      Position="84" />
+    <IndexCacheEntry
+      Term="Timezone"
+      Conditions=""
+      LocalConditions=""
+      Position="95" />
+    <IndexCacheEntry
+      Term="Time"
+      Conditions=""
+      LocalConditions=""
+      Position="96" />
+    <IndexCacheEntry
+      Term="Time zone"
+      Conditions=""
+      LocalConditions=""
+      Position="97" />
+    <IndexCacheEntry
+      Term="LANDFIR"
+      Conditions=""
+      LocalConditions=""
+      Position="104" />
+  </Keywords>
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags>
+    <Tag
+      Name="Source.UIdaho" />
+  </FileTags>
+  <AllConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </AllConditions>
+  <Stylesheets />
+</CatapultFileLinkSet>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPCreate.htm" />
+    <Link
+      Url="Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/LandscapeFireBhvrAbout.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/EditTools.htm" />
+    <Link
+      Url="Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPInfo.htm" />
+    <Link
+      Url="Content/10-MapStudio/MapStudioAbout.htm" />
+    <Link
+      Url="Content/40-Tutorials/TutorialMain.htm" />
+    <Link
+      Url="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPCreate.htm" />
+    <Link
+      Url="Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
+    <Link
+      Url="Content/20-Models/FlamMap/LandscapeFireBhvrAbout.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
+    <Link
+      Url="Content/10-MapStudio/Functions/EditTools.htm" />
+    <Link
+      Url="Content/30-Tasks/DevTrtAlts/TrtmtAltsCompareLndscp.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/ShapefileInfo.htm" />
+    <Link
+      Url="Content/10-MapStudio/Files/LCPInfo.htm" />
+    <Link
+      Url="Content/10-MapStudio/MapStudioAbout.htm" />
+    <Link
+      Url="Content/40-Tutorials/TutorialMain.htm" />
+    <Link
+      Url="https://www.youtube.com/channel/UC-Rwe70dxm0FTbxWZnigQsQ" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>

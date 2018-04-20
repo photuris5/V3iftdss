@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileSearchable="true"
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Content/Resources/Images/buttons_general/add_new_folder.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/add_folder.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/create_folder.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/delete_folder.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_zoomed.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_here.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_extent.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_n_interface.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_lcp_pick_confirmtn.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_in_mapstdio.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new_interface.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_available_lcps.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Content/Resources/Images/buttons_general/add_new_folder.png" />
+    <Link
+      Url="Content/Resources/Images/getting_started/add_folder.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/create_folder.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
+    <Link
+      Url="Content/Resources/Images/myworkspace/delete_folder.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_zoomed.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_create_lcp_here.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_extent.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_n_interface.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/hourglass.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/button_refresh.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_lcp_pick_confirmtn.png" />
+    <Link
+      Url="Content/Resources/Images/landscape_create/t_create_in_mapstdio.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/lcp_tools/create_new_interface.png" />
+    <Link
+      Url="Content/Resources/Images/landscapesumm/t_available_lcps.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions />
+  <Stylesheets />
+</CatapultFileLinkSet>
