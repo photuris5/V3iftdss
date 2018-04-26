@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileLinkSet
+  FileTitle=""
+  FileLanguage="en-us"
+  FileSearchable="true"
+  FileConditionTagExpression="include[General.LaterRelease] "
+  OnlyLocalStylesheets="false"
+  FileTimeEstimate="0"
+  FilePriority="0">
+  <Links>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles_1.css" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_2.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/myworkspace_edit.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/layout.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/start_custom_edit.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/basic_edit_attribute_select.png" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/basic_edit_attribute_change.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/saving_edits.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/new_edited_landscape_basic.png" />
+    <Link
+      Url="Content/40-Tutorials/NWest_DTA/0_Introduction.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/add_reference.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/create_shape.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/map button.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/selecting_aoi.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/jackstraw_rule.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/jackstraw_rule_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_12.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_13.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_14.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_15.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_16.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_17.png" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
+      Url="Content/Resources/Stylesheets/MainStyles_1.css" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_2.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/myworkspace_edit.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/layout.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/start_custom_edit.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/basic_edit_attribute_select.png" />
+    <Link
+      Url="Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/basic_edit_attribute_change.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/saving_edits.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/new_edited_landscape_basic.png" />
+    <Link
+      Url="Content/40-Tutorials/NWest_DTA/0_Introduction.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/add_reference.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/create_shape.png" />
+    <Link
+      Url="Content/Resources/Images/granite_crk_dta/DTA_Task.png" />
+    <Link
+      Url="Content/Resources/Images/buttons_general/map button.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/selecting_aoi.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/jackstraw_rule.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/jackstraw_rule_confirmation.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_12.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_13.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_14.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_15.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_16.png" />
+    <Link
+      Url="Content/Resources/Images/Editing LANDFIRE Data Exercise1/Editing LANDFIRE Data in IFTDSS_17.png" />
+  </LongLinks>
+  <Anchors />
+  <Keywords />
+  <Concepts />
+  <ConceptControlNames />
+  <IndexControlNames />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+    <Variable
+      Name="General.MapStudio" />
+  </Variables>
+  <FileConditions />
+  <FileTags />
+  <AllConditions>
+    <Condition
+      Tag="General.LaterRelease" />
+  </AllConditions>
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/Stylesheets/MainStyles_1.css" />
+  </Stylesheets>
+</CatapultFileLinkSet>

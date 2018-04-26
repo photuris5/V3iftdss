@@ -8,6 +8,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/2017-09-12_17-12-57 copy.png" />
     <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
       Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Link
       Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
@@ -27,6 +29,8 @@
   <LongLinks>
     <Link
       Url="Content/Resources/Images/FTEM/2017-09-12_17-12-57 copy.png" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Link
@@ -49,7 +53,10 @@
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions />

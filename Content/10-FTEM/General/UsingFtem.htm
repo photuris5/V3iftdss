@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="4206" MadCap:lastWidth="1375">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="6291" MadCap:lastWidth="918">
     <head>
     </head>
     <body>
         <h1>How to Use FTEM</h1>
-        <p>The FTEM interface is arranged to walk you through the FTEM process. Use the tabs to select a wildfire, select your treatment areas, enter monitoring data, review, and submit your data. Below, we walk through each stage of this process. The following steps assume you have an FTEM account. If not, visit the <a href="../AccountsRoles/AccountSetup.htm" target="_blank">FTEM&#160;Setup Topic</a> for instructions. Upon opening FTEM, you will see wildfires with a split view of <MadCap:variable name="General.MapStudio" /> on the left, and a table view on the right.</p>
+        <p>The FTEM interface is arranged to walk you through the treatment monitoring process. Use the tabs to select a wildfire, select your treatments, enter monitoring data, and review and complete your monitoring. Below, we walk through each stage of this process. The following steps assume you have an FTEM account. If not, visit the <a href="../AccountsRoles/AccountSetup.htm" target="_blank">FTEM&#160;Setup Topic</a> for instructions. Upon opening FTEM, you will see wildfires with a split view of <MadCap:variable name="General.MapStudio" /> on the left, and a table view on the right.</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>FTEM interface controls</MadCap:dropDownHotspot>
@@ -14,6 +14,7 @@
                 <p>
                     <img src="../../Resources/Images/FTEM/pickafire_diagram.png" alt="A layout map of common FTEM controls" class="border" />
                 </p>
+                <p>By default, the interface is split, displaying a map on the left, and monitoring tabs on the right. Change the interface at anytime to show only the tabs or only the map by clicking the <span class="UIcomponent">split screen <img src="../../Resources/Images/FTEM/arrowbuttons.png" alt="arrows" class="iftbutton"></img> buttons</span> in the top of the screen just below the top navigation menu.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -21,12 +22,12 @@
                 <MadCap:dropDownHotspot>Step 1: Pick Your Wildfire</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Pick a wildfire based on year and wildfire name:</p>
+                <p><a name="wildfire"></a>Pick a wildfire based on year and wildfire name:</p>
                 <ol style="list-style-type: upper-alpha;">
                     <li>Enter a Wildfire Year, the year the wildfire was declared under control, or extinguished.</li>
-                    <li>(Optional) Filter your results by agency. If you are not an administrator or dual agency editor, this option may not be visible.</li>
+                    <li>(Optional) If you are affiliated with multiple agencies, filter your results by agency. If you are not an administrator or dual agency editor, this option may not be visible.</li>
                     <li>(Optional) Use the wildfire search field to further constrain your results by entering the fire name.</li>
-                    <li>Left-click to select the desired fire name from the list.</li>
+                    <li>Click to select the desired fire name from the list.</li>
                     <div class="notificationTip">
                         <p>Need to de-select your fire? Move the mouse cursor to the Wildfire tab and click the black X to the left of the wildfire name.</p>
                     </div>
@@ -48,39 +49,38 @@
                 <MadCap:dropDownHotspot>Step 2:&#160;Select Treatments</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p> In this step you will choose all the treatments for your agency that you know interacted or influenced the fire. Monitoring data for each of these will be added via the Monitoring tab. This step can be thought of as your "shopping cart" where you place the treatments needing monitoring, and remove the ones that don't. </p>
+                <p> <a name="treatments"></a>In this step you will choose all the treatments for your agency that you know interacted or influenced the fire to form your list of interacting treatments. You will add monitoring data for the listed treatments via the Monitoring tab. You can think of this treatment select step as your "shopping cart" where you place the treatments that require monitoring, and remove the ones that don't. </p>
                 <ol style="list-style-type: upper-alpha;">
-                    <li>(Optional)&#160;If you know there are treatments that interacted with the wildfire, but do not see them here, click the <span class="UIcomponent">Add Treatment(s)</span> button to search and select treatments near the fire (This option allows you to choose a buffer distance to search within).</li>
-                    <div class="notificationTip">
-                        <p>By using the check box for one or more treatment, you may choose to enter data for treatments individually, or in batches. Note that when running batches some fields will still need to be revisited and filled individually for each treatment, such as time of burn and acres burned.</p>
-                    </div>
-                    <li>If there are treatments that did not interact with the fire, use the check box to select them and click the <span class="UIcomponent">Remove Treatment(s)</span> button. If you need to add these back in later, you may do so by using the <span class="UIcomponent">Add Treatments(s)</span> button.</li>
-                    <li>Once you have all desired treatments, select them either individually by clicking the check box to the left of the treatment name(s), or by using the <span class="UIcomponent">Select All</span> button. <div class="notificationTip"><p>Note the colored icons to the left of the treatment names. In this example the polygon icons <img src="../../Resources/Images/FTEM/symbology/wildfire_poly.png" alt="polgygon" /> indicate these treatments are polygons, and their red color indicates monitoring/data entry for them has not been started. Learn more about these symbols by visiting the <a href="Symbology.htm" target="_blank">FTEM&#160;Symbology Topic</a>.</p></div></li>
+                    <li>If you know there are treatments that interacted with the wildfire, but do not see them here, use the <span class="UIcomponent">Add Treatment(s)</span> button to search and select treatments. This button allows you to search a list of all treatments within a specific buffer distance from the fire.</li>
+                    <li>If there are treatments that did not interact with the fire, use the check box to select them and use the <span class="UIcomponent">Remove Treatment(s)</span> button. Removed treatments may be added back to the list using the <span class="UIcomponent">Add Treatments(s)</span> button.</li>
+                    <li>Once you have all the necessary treatments, select them using the chekboxes, or using the <span class="UIcomponent">Select All</span> button. <div class="notificationTip"><p>Note the colored icons to the left of the treatment names. In this example the polygon icons <img src="../../Resources/Images/FTEM/symbology/wildfire_poly.png" alt="polgygon" /> indicate these treatments are polygons, and their red color indicates monitoring/data entry for them has not been started. Learn more about these symbols by visiting the <a href="Symbology.htm" target="_blank">FTEM&#160;Symbology Topic</a>.</p></div></li>
                     <li>
-                        <p>Proceed to the <span class="UIcomponent">Monitor </span> tab. You may also get to Monitoring by clicking <span class="UIcomponent">Monitor Treatment(s)</span> button at the bottom right of the list.</p>
+                        <p>Proceed to the <span class="UIcomponent">Monitor </span> tab either by clicking <span class="UIcomponent">Monitor Treatment(s)</span> button at the bottom right of the list.</p>
                         <p>
                             <img src="../../Resources/Images/FTEM/treatments.png" alt="use the table to select your treatment" class="borderlist" />
                         </p>
                     </li>
                 </ol>
-                <div class="notificationNote">
-                    <p>Notice that each treatment listed is followed by information, left to right, describing the treatment ID, type of treatment, date of completion,agency, number of acres, control date, jurisdiction unit, and the number of interactions.</p>
+                <div class="notificationTip">
+                    <p>Notice that each treatment listed is followed by information, left to right, describing the treatment ID, type of treatment, date of completion, agency, number of acres, control date, jurisdiction unit, and the number of interactions.</p>
                 </div>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Step 3: Enter Monitoring Data</MadCap:dropDownHotspot>
-                <MadCap:conditionalText MadCap:conditions="General.DeveloperNotes" class="comment">
-                    <MadCap:dropDownHotspot MadCap:conditions="General.QA ONLY"> - Note, these "save" buttons in the UI&#160;may change before release</MadCap:dropDownHotspot>
-                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Step 3: Enter Monitoring Data</MadCap:dropDownHotspot><a name="monitoring"></a>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <ol style="list-style-type: upper-alpha;">
-                    <li>Select the treatments for data entry by clicking the check box next to each treatment(s).</li>
-                    <li>Click the <span class="UIcomponent">Enter Data</span> button.</li>
-                    <li>A series of questions for the treatment(s) interaction  appears. Notice that each blue heading expands to a list of specific questions. The first header, Interaction Details and Treatment Effects, is required. Enter data into each field. We briefly describe guidance for data in each field in the <a href="../Guidance/MonitoringGuidance.htm" target="_blank">FTEM Required Questions Guidance Topic</a>.</li>
-                    <li>Proceed to any optional fields and enter data. We briefly describe guidance for data in each field in the <a href="../Reports/FTEMReporting.htm" target="_blank">FTEM Optional Questions Guidance Topic</a>.</li>
+                    <li>Select a treatment to monitor using the checkbox next to it</li>
+                    <li>
+                        <p> Click the <span class="UIcomponent">Enter Data</span> button. to start monitoring the treatment</p>
+                        <div class="notificationTip">
+                            <p>By using the check box for one or more treatment, you may choose to enter data for treatments individually, or in batches. Note that when running batches, some fields will still need to be revisited and filled individually for each treatment such as time of burn and acres burned.</p>
+                        </div>
+                    </li>
+                    <li>A series of questions for the treatment(s) interaction  appears as a series of drop-down headings addressing specific monitoring questions. The first header, "Interaction Details and Treatment Effects" is required. Enter data into each field. Guidance for monitoring each required field is described in the <a href="../Guidance/MonitoringGuidance.htm" target="_blank">FTEM Required Questions Guidance Topic</a>.</li>
+                    <li>Proceed to any optional fields and enter data. Guidance for monitoring each optional field is described in the <a href="../Reports/FTEMReporting.htm" target="_blank">FTEM Optional Questions Guidance Topic</a>.</li>
                     <li>Once your data is entered, click <span class="UIcomponent">Save and Close</span> to proceed. If you want to save your partially completed work and resume the rest of the process later, click <span class="UIcomponent">Save</span>.</li>
                     <div class="notificationTip">
                         <p>Note that in this example two of three treatments are selected for data entry. You can choose to enter the same data for all your treatments, or like this example, enter data for some treatments, and later enter different data for other treatments. This can be useful if multiple treatments were affected, but burned under different conditions.</p>
@@ -103,7 +103,7 @@
                 <MadCap:dropDownHotspot>Step 4:&#160;Complete the Process by Reviewing and Submitting your Data</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>In the <span class="UIcomponent">Complete</span> tab:</p>
+                <p><a name="complete"></a>In the <span class="UIcomponent">Complete</span> tab:</p>
                 <ol style="list-style-type: upper-alpha;">
                     <li>Click the <span class="UIcomponent">Table Summary</span> button to generate a review table of treatments and data entered. You may also review attachments using the <span class="UIcomponent">Attachments</span> button. At this point, if you are satisfied with your treatment data, you may proceed to Step B. However, if you find a data entry that needs editing or additional information, you can use the tabs to navigate back, select treatments, and modify data.</li>
                     <li>
