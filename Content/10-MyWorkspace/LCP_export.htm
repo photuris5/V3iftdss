@@ -1,13 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2644" MadCap:lastWidth="1427">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3022" MadCap:lastWidth="1056">
     <head>
-        <link href="../Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>Exporting Raster Data from <MadCap:variable name="General.ProductName" /></h1>
         <MadCap:snippetBlock src="../Resources/Snippets/ExportRaster.flsnp" />
-        <p MadCap:conditions="General.LaterRelease">A&#160;list of outputs for fire behavior and their units can be referenced below:</p>
-        <MadCap:snippetBlock src="../Resources/Snippets/Behavior/Flammap_basic_units.flsnp" MadCap:conditions="General.LaterRelease" />
-        <p>For instructions on how to reclass outputs such as flame length in ArcMap, see the <a href="geotiff_reclass.htm" target="_blank">Reclassing GeoTiff Features in ArcMap Topic</a>.</p>
+        <p>The GeoTiff landscape file download includes 12 bands.  There are 4 in addition to the 8 that are visible within the IFTDSS application.  The downloads also have different units than IFTDSS presents.</p>
+        <table style="width: 100%;mc-table-style: url('../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRowsLeft" cellspacing="0">
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 117px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 550px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 170px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="background-color: #2e3e4f;"> <span style="color: #ffffff; font-weight: bold;">Band #</span></td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Band Name</span>
+                    </td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Units - GeoTiff</span>
+                    </td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Units - IFTDSS (Reports)</span>
+                    </td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">1</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Elevation</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">meters</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">feet</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">2</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Slope</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">degrees</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">degrees</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">3</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Aspect</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">degrees</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">degrees</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">4</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Fuel Model</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">categorical</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">categorical</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">5</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Canopy Cover</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">%</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">%</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Stand Height</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">meters * 10</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">meters</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">7</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Canopy Base Height</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">meters * 10</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">meters</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">8</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Canopy Bulk Density</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">kg/m<sup>3</sup> * 100</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">kg/m<sup>3</sup></td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">9</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">EVT (Existing Vegetation Type)</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">categorical</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">N/A</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">10</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">EVC (Existing Vegetation Cover)</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">categorical</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">N/A</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">11</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">EVH (Existing Vegetation Height)</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">categorical</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">N/A</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-LightRows" style="text-align: center;">12</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-LightRows">Zone (LANDFIRE&#160;Map Zone)</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-LightRows" style="text-align: center;">categorical</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyA-Regular-LightRows" style="text-align: center;">N/A</td>
+                </tr>
+            </tbody>
+        </table>
+        <ul>
+            <li>For instructions on how to reclass outputs such as flame length in ArcMap, see the <a href="geotiff_reclass.htm" target="_blank">Reclassing GeoTiff Features in ArcMap Topic</a>.</li>
+            <li>For instructions on using the exported layers in FlamMap, see the help Topic on L<a href="LoadingGeoIntoFlammap.htm" target="_blank">oading GeoTiff Files into FlamMap 5.0</a>.</li>
+        </ul>
     </body>
 </html>

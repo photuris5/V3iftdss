@@ -6,10 +6,6 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/10-MapStudio/Functions/AddReferenceData.htm" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
@@ -27,6 +23,10 @@
       Url="Content/40-Tutorials/NWest_DTA/0_Introduction.htm" />
     <Link
       Url="Content/Resources/pdfs/tutorials/Developing Treatment Alternatives Tutorial.pdf" />
+    <Link
+      Url="Content/40-Tutorials/EditingUserRuleTutorial.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/40-Tutorials/CompareFeature/0_Intro.htm" />
     <Link
@@ -38,10 +38,6 @@
   </Links>
   <LongLinks>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/10-MapStudio/Functions/AddReferenceData.htm" />
-    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
@@ -59,6 +55,10 @@
       Url="Content/40-Tutorials/NWest_DTA/0_Introduction.htm" />
     <Link
       Url="Content/Resources/pdfs/tutorials/Developing Treatment Alternatives Tutorial.pdf" />
+    <Link
+      Url="Content/40-Tutorials/EditingUserRuleTutorial.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/40-Tutorials/CompareFeature/0_Intro.htm" />
     <Link

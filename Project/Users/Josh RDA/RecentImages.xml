@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/table_export.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/report_exports.png" />
+    <Url Source="Resources/Images/myworkspace/flammap_landscape.png" />
+    <Url Source="Resources/Images/myworkspace/flammap_selectfile.png" />
+    <Url Source="Resources/Images/myworkspace/flammap_open.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/layout.png" />
     <Url Source="Resources/Images/buttons_general/download.png" />
     <Url Source="Resources/Images/buttons_general/button_refresh.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/report_CC_difference.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/report_FM_difference.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/report_FM_bar.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/dta_report_ready.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/dta_compare.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/dta_run.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/dta_modeling.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/jackstraw_rule_confirmation.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/jackstraw_rule.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/selecting_aoi.png" />
     <Url Source="Resources/Images/buttons_general/map button.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/create_shape.png" />
-    <Url Source="Resources/Images/Editing LANDFIRE Data Exercise1/add_reference.png" />
     <Url Source="Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
     <Url Source="Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Url Source="Resources/Images/mapstudio/overview/button_adref.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/add_reference.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/create_shape.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/dta_compare.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/dta_modeling.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/dta_report_ready.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/dta_run.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/jackstraw_rule.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/jackstraw_rule_confirmation.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/report_CC_difference.png" />
+    <Url Source="Resources/Images/tutorial_editing_userR/report_exports.png" />
 </UrlList>

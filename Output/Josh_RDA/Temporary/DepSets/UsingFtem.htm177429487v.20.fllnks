@@ -12,6 +12,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/pickafire_diagram.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/arrowbuttons.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link
       Url="Content/10-FTEM/General/Attachments.htm" />
@@ -21,8 +23,6 @@
       Url="Content/10-FTEM/General/Symbology.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/treatments.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Link
@@ -42,6 +42,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/pickafire_diagram.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/arrowbuttons.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link
       Url="Content/10-FTEM/General/Attachments.htm" />
@@ -51,8 +53,6 @@
       Url="Content/10-FTEM/General/Symbology.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/treatments.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
     <Link
@@ -64,7 +64,16 @@
     <Link
       Url="Content/Resources/Images/FTEM/reviewtab.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="wildfire" />
+    <Anchor
+      Name="treatments" />
+    <Anchor
+      Name="monitoring" />
+    <Anchor
+      Name="complete" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />
@@ -75,11 +84,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.DeveloperNotes" />
-    <Condition
-      Tag="General.QA ONLY" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

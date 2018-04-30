@@ -6,31 +6,27 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
-    <Link
       Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
+    <Link
+      Url="Content/10-MyWorkspace/LoadingGeoIntoFlammap.htm" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Snippets/Behavior/Flammap_basic_units.flsnp" />
-    <Link
       Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
+    <Link
+      Url="Content/10-MyWorkspace/LoadingGeoIntoFlammap.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -43,12 +39,9 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.LaterRelease" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets>
     <Url
-      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
   </Stylesheets>
 </CatapultFileLinkSet>
