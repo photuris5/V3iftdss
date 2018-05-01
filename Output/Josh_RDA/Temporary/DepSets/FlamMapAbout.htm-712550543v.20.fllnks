@@ -31,6 +31,8 @@
       Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
       Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -59,14 +61,14 @@
       Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
       Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
+    <Link
+      Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
   </LongLinks>
   <Anchors>
     <Anchor
       Name="LFBPickLandscape" />
     <Anchor
       Name="LFBSave" />
-    <Anchor
-      Name="LFBCrown" />
   </Anchors>
   <Keywords>
     <IndexCacheEntry

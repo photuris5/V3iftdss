@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/getting_started/lcp_fire_ex.jpg" />
+    <Url Source="Resources/Images/getting_started/lcp_Pinebarren_ex2.jpg" />
+    <Url Source="Resources/Images/getting_started/lcp_Pinebarren_ex.jpg" />
     <Url Source="Resources/Images/myworkspace/flammap_landscape.png" />
     <Url Source="Resources/Images/myworkspace/flammap_selectfile.png" />
     <Url Source="Resources/Images/myworkspace/flammap_open.png" />
@@ -17,7 +20,4 @@
     <Url Source="Resources/Images/tutorial_editing_userR/dta_report_ready.png" />
     <Url Source="Resources/Images/tutorial_editing_userR/dta_run.png" />
     <Url Source="Resources/Images/tutorial_editing_userR/jackstraw_rule.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/jackstraw_rule_confirmation.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/report_CC_difference.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/report_exports.png" />
 </UrlList>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3217" MadCap:lastWidth="1440">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="11" MadCap:lastHeight="4293" MadCap:lastWidth="1425">
     <head>
+        <link href="../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
         <h1>About Landscapes in <MadCap:variable name="General.ProductName" /></h1>
@@ -17,20 +18,7 @@
                 <MadCap:dropDownHotspot>What are Landscape files in <MadCap:variable name="General.ProductName" />?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <MadCap:variable name="General.ProductName" /> contain information describing:</p>
-                <img src="../Resources/Images/mapstudio/layer_list/Lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;padding-left: 4px;float: right;" class="border" />
-                <ul>
-                    <li>Aspect</li>
-                    <li>Canopy base height</li>
-                    <li>Canopy bulk density</li>
-                    <li>Canopy cover</li>
-                    <li>Canopy height</li>
-                    <li>Elevation</li>
-                    <li><a href="../10-MapStudio/Files/FBFMInfo.htm" target="_blank">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
-                    <li>Slope</li>
-                </ul>
-                <p>In <MadCap:variable name="General.ProductName" />, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <MadCap:variable name="General.ProductName" /> application, and in many places throughout these help documents, we refer to "creating a .lcp file". During this process, you are actually downloading the .lcp file for your chosen area from <a href="LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
-                <p>There are multiple places in <MadCap:variable name="General.ProductName" /> where Landscape files from which Landscape files may be created. Visit the <a href="../10-MapStudio/Files/LCPCreate.htm" target="_blank">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
+                <MadCap:snippetBlock src="../Resources/Snippets/LCPs/about_lcps.flsnp" />
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -47,6 +35,7 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Landscape editing can occur in both the Landscape Evaluation stage of the Planning Cycle under <span class="UIcomponent">Landscape Edit</span>, or within the Strategic Planning stage under <span class="UIcomponent">Develop Treatment Alternatives</span>. Menu options and results are the same for both. A key distinction between the two editing options is the landscapes that are available to be edited: In editing sessions accessed from the Landscape Evaluation stage any landscape can be edited. In editing sessions accessed from  the <span class="UIcomponent">Develop Treatment Alternatives</span> task in the Strategic Planning stage, your Originating Landscape (the landscape you choose to specify your editing area for simulating treatment alternatives) must be an unedited landscape. Other landscapes that match the extent of this unedited landscape (ie one you've already edited in the Landscape Evaluation stage) will become available during this process. This limitation on landscape availability is to ensure that you are comparing "like" landscapes and outputs in your comparisons. </p>
+                <p>For a step by step walk-through of making edits in <MadCap:variable name="General.ProductName" />, see the <a href="../30-Tasks/LndscpEdit/LandscapeEditAbout.htm" target="_blank">Landscape Editing topic</a>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -54,7 +43,7 @@
                 <MadCap:dropDownHotspot>Landscape Terminology in IFTDSS</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>There are only 2 types of landscapes in <MadCap:variable name="General.ProductName"></MadCap:variable>, unedited or edited. However, there are a variety of terms that reference these different landscape types depending on how they are being used. We will outline them below: </p>
+                <p>There are only two types of landscapes in <MadCap:variable name="General.ProductName" />, unedited or edited. However, there are a variety of terms that reference these different landscape types depending on how they are being used. We will outline them below: </p>
                 <div class="notificationNote">
                     <p>Some terms are not mutually exclusive.</p>
                 </div>

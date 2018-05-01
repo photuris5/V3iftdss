@@ -1,22 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="537" MadCap:lastWidth="1219">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="9" MadCap:lastHeight="2282" MadCap:lastWidth="1451">
     <head>
+        <link href="../../Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
     <body>
-        <h1>Landscape (.lcp) Files</h1>
-        <p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <MadCap:variable name="General.ProductName" /> contain information describing:</p>
-        <img src="../../Resources/Images/mapstudio/layer_list/Lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;padding-left: 3px;float: right;" class="border" />
+        <h1>Landscape (.LCP) Files</h1>
+        <MadCap:snippetBlock src="../../Resources/Snippets/LCPs/about_lcps.flsnp" />
+        <h2>Editing Considerations</h2>
+        <p>Landscape features are not dependent upon each other when editing. When editing an LCP with User Created Edit Rules, changing one feature such as Fire Behavior Fuel Model, will not make changes to other features such as canopy height cover, etc. For example, changing a Timber Understory Fuel Model to a Grass Fuel Model will change the Fuel Model, but all the timber canopy features will remain until you edit them as well.</p>
+        <h2>Versions and Metadata</h2>
+        <p>Currently, LCP&#160;files are available for:</p>
         <ul>
-            <li>Aspect</li>
-            <li>Canopy base height</li>
-            <li>Canopy bulk density</li>
-            <li>Canopy cover</li>
-            <li>Canopy height</li>
-            <li>Elevation</li>
-            <li><a href="FBFMInfo.htm" target="_blank">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
-            <li>Slope</li>
+            <li>LANDFIRE 2014</li>
+            <li>LANDFIRE 2012 1.3.0</li>
         </ul>
-        <p>In <MadCap:variable name="General.ProductName" />, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <MadCap:variable name="General.ProductName" /> application, and in many places throughout these help documents, we refer to "creating a .lcp file". During this process, you are actually downloading the .lcp file for your chosen area from <a href="../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
-        <p>There are multiple places in <MadCap:variable name="General.ProductName" /> where Landscape files from which Landscape files may be created. Visit the <a href="LCPCreate.htm" target="_blank">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
+        <p>Follow the <a href="https://www.landfire.gov/lcp.php" target="_blank">LANDFIRE&#160;LCP&#160;link <i class="fa fa-external-link" aria-hidden="true"></i></a> to go directly to LANDFIRE's LCP&#160;information and metadata page.</p>
     </body>
 </html>

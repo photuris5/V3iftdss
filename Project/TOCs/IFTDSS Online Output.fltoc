@@ -62,6 +62,9 @@
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-MyWorkspace/MyWorkspaceAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
+      Title="About Landscapes"
+      Link="/Content/10-MapStudio/Files/LCPInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/10-MyWorkspace/LCP_export.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
@@ -73,6 +76,9 @@
     <TocEntry
       Title="Loading GeoTiff into FlamMap 5.0"
       Link="/Content/10-MyWorkspace/LoadingGeoIntoFlammap.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
   </TocEntry>
   <TocEntry
     Title="Cycle"

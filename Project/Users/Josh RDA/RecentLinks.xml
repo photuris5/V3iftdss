@@ -2,9 +2,12 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\myworkspace\flammap_landscape.png" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\getting_started\lcp_fire_ex.jpg" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\10-MyWorkspace\LoadingGeoIntoFlammap.htm" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\30-Tasks\LndscpEdit\LandscapeEditAbout.htm" />
+    </Dialog>
+    <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Snippets\LCPs\about_lcps.flsnp" />
     </Dialog>
 </RecentLinks>

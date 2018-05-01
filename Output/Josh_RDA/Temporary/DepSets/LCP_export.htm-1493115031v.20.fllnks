@@ -12,6 +12,8 @@
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
     <Link
+      Url="Content/Resources/Snippets/LCPs/lcp table.flsnp" />
+    <Link
       Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
     <Link
       Url="Content/10-MyWorkspace/LoadingGeoIntoFlammap.htm" />
@@ -23,6 +25,8 @@
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
+    <Link
+      Url="Content/Resources/Snippets/LCPs/lcp table.flsnp" />
     <Link
       Url="Content/10-MyWorkspace/geotiff_reclass.htm" />
     <Link

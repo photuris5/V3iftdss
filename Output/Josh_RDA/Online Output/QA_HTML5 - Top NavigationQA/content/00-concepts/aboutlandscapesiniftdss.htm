@@ -41,6 +41,7 @@
 
 </style>
         <link href="../resources/stylesheets/mainstyles.css" rel="stylesheet" />
+        <link href="../resources/tablestyles/iftdss_patternedrowsleft.css" rel="stylesheet" />
         <script src="../../Resources/Scripts/custom.modernizr.js">
         </script>
         <script src="../../Resources/Scripts/jquery.min.js">
@@ -146,20 +147,128 @@
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />What are Landscape files in <span class="GeneralProductName">IFTDSS</span>?</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>A Landscape file (.lcp) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. The .lcp files used by <span class="GeneralProductName">IFTDSS</span> contain information describing:</p>
-                                                <img src="../resources/images/mapstudio/layer_list/lcp_file_fbfms.png" alt="fire behavior fuel models from an lcp file displayed across a map of mountainous terrain" style="width: 403px;height: 266px;padding-left: 4px;float: right;" class="border" />
-                                                <ul>
-                                                    <li value="1">Aspect</li>
-                                                    <li value="2">Canopy base height</li>
-                                                    <li value="3">Canopy bulk density</li>
-                                                    <li value="4">Canopy cover</li>
-                                                    <li value="5">Canopy height</li>
-                                                    <li value="6">Elevation</li>
-                                                    <li value="7"><a href="../10-mapstudio/files/fbfminfo.htm" target="_blank">Fire Behavior Fuel Model</a> (FBFM 13 or 40)</li>
-                                                    <li value="8">Slope</li>
-                                                </ul>
-                                                <p>In <span class="GeneralProductName">IFTDSS</span>, a Landscape file is the basic file needed to define your project area and run most of the modeling operations. In the <span class="GeneralProductName">IFTDSS</span> application, and in many places throughout these help documents, we refer to "creating a .lcp file". During this process, you are actually downloading the .lcp file for your chosen area from <a href="landfire.htm" target="_blank">LANDFIRE</a>.</p>
-                                                <p>There are multiple places in <span class="GeneralProductName">IFTDSS</span> where Landscape files from which Landscape files may be created. Visit the <a href="../10-mapstudio/files/lcpcreate.htm" target="_blank">Create Landscapes Topic</a> for a list of methods and step by step details.</p>
+                                                <p>A Landscape file (.LCP) is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model. </p>
+                                                <p>A Landscape file is the basic file needed to define your project area and run most of the modeling operations currently within <span class="GeneralProductName">IFTDSS</span>. When you generate an LCP&#160;in <span class="GeneralProductName">IFTDSS</span>, the data is derived from <a href="landfire.htm" target="_blank">LANDFIRE</a>.</p>
+                                                <p>The LCP&#160;files used by <span class="GeneralProductName">IFTDSS</span> contains information describing:</p>
+                                                <table style="width: 100%;mc-table-style: url('../resources/tablestyles/iftdss_patternedrowsleft.css');" class="TableStyle-IFTDSS_PatternedRowsLeft" cellspacing="0">
+                                                    <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 117px;" />
+                                                    <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 550px;" />
+                                                    <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 170px;" />
+                                                    <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" />
+                                                    <tbody>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Band #</span>
+                                                            </td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Band Name</span>
+                                                            </td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Units - GeoTiff</span>
+                                                            </td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="background-color: #2e3e4f;"><span style="color: #ffffff; font-weight: bold;">Units - IFTDSS (Reports)</span>
+                                                            </td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">1</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Elevation</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">meters</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">feet</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">2</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Slope</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">degrees</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">degrees</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">3</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Aspect</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">degrees</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">degrees</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">4</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Fuel Model</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">categorical</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">categorical</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">5</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Canopy Cover</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">%</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">%</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">6</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Stand Height</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">meters * 10</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">meters</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">7</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Canopy Base Height</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">meters * 10</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">meters</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">8</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Canopy Bulk Density</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">kg/m<sup>3</sup> * 100</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">kg/m<sup>3</sup></td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">9</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">EVT (Existing Vegetation Type)</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">categorical</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">N/A</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">10</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">EVC (Existing Vegetation Cover)</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">categorical</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">N/A</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">11</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">EVH (Existing Vegetation Height)</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">categorical</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">N/A</td>
+                                                        </tr>
+                                                        <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-LightRows" style="text-align: center;">12</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-LightRows">Zone (LANDFIRE&#160;Map Zone)</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-LightRows" style="text-align: center;">categorical</td>
+                                                            <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyA-Regular-LightRows" style="text-align: center;">N/A</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div data-mc-conditions="General.QA ONLY">
+                                                    <h2>About LCP files in <span class="GeneralProductName">IFTDSS</span></h2>
+                                                    <p>It is important to know that canopy cover, canopy base height, canopy bulk density, stand height in <span class="GeneralProductName">IFTDSS</span> refer to <span class="Emphasis">Forest canopy</span> characteristics. If you are working in an area classified as shrub or grass by LANDFIRE, your cover and base height values will be zero. However, when you export LCP&#160;data from <span class="GeneralProductName">IFTDSS</span>, you will have additional layers available, the Existing Vegetation Cover (EVC) and Existing Vegetation Height (EVH) layers. These layers will reflect cover and height data for tree, shrub, and herb lifeforms.</p>
+                                                    <p>There can still be confusing cases, as illustrated by the examples below:</p>
+                                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Example:&#160;No canopy cover in an area I&#160;know contains trees</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p><b>Southern New Jersey Coastal Pitch Pine Barrens:</b>
+                                                            </p>
+                                                            <p>In <span class="GeneralProductName">IFTDSS</span>, the stand height for much of this area is listed as zero, why are the trees not shown? Exporting the LCP&#160;and examining it in Arcmap, there is an EVH reporting much of the area as pine barrens. However, the EVT for much of the area is classified as a non-forested fuel type. </p>
+                                                            <p>
+                                                                <img src="../resources/images/getting_started/lcp_pinebarren_ex.jpg" class="border" />
+                                                            </p>
+                                                            <p>Based on the map zone, EVT, and very short tree heights, this area was classified as a shrub fuel type, which makes sense from a fire behavior perspective, but can be confusing from a vegetative perspective.</p>
+                                                            <p>
+                                                                <img src="../resources/images/getting_started/lcp_pinebarren_ex2.jpg" class="border" />
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Example:&#160;57 foot tall shrubs</a></span>
+                                                        <div class="MCDropDownBody dropDownBody">
+                                                            <p><b>Blue Water Fire:</b>
+                                                            </p>
+                                                            <p>In <span class="GeneralProductName">IFTDSS</span>, much of the area is mapped as Fuel Model 122, a brush fuel model. However, there are stand heights of 7.5 meters, and in some places 17.5 meters. Zooming into the imagery base layer reveals that the area does indeed have some trees with associated stand heights. However, the brush fuel model appears correct from a fire behavior standpoint.</p>
+                                                            <p>
+                                                                <img src="../resources/images/getting_started/lcp_fire_ex.jpg" class="border" />
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Choosing Your Landscape Size or Extent</a></span>
@@ -170,11 +279,12 @@
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Landscape Editing Overview</a></span>
                                             <div class="MCDropDownBody dropDownBody">
                                                 <p>Landscape editing can occur in both the Landscape Evaluation stage of the Planning Cycle under <span class="UIcomponent">Landscape Edit</span>, or within the Strategic Planning stage under <span class="UIcomponent">Develop Treatment Alternatives</span>. Menu options and results are the same for both. A key distinction between the two editing options is the landscapes that are available to be edited: In editing sessions accessed from the Landscape Evaluation stage any landscape can be edited. In editing sessions accessed from  the <span class="UIcomponent">Develop Treatment Alternatives</span> task in the Strategic Planning stage, your Originating Landscape (the landscape you choose to specify your editing area for simulating treatment alternatives) must be an unedited landscape. Other landscapes that match the extent of this unedited landscape (ie one you've already edited in the Landscape Evaluation stage) will become available during this process. This limitation on landscape availability is to ensure that you are comparing "like" landscapes and outputs in your comparisons. </p>
+                                                <p>For a step by step walk-through of making edits in <span class="GeneralProductName">IFTDSS</span>, see the <a href="../30-tasks/lndscpedit/landscapeeditabout.htm" target="_blank">Landscape Editing topic</a>.</p>
                                             </div>
                                         </div>
                                         <div class="MCDropDown MCDropDown_Open dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0);" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage"><img class="MCDropDown_Image_Icon" src="../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="20" alt="Closed" data-mc-alt2="Open" />Landscape Terminology in IFTDSS</a></span>
                                             <div class="MCDropDownBody dropDownBody">
-                                                <p>There are only 2 types of landscapes in <span class="GeneralProductName">IFTDSS</span>, unedited or edited. However, there are a variety of terms that reference these different landscape types depending on how they are being used. We will outline them below: </p>
+                                                <p>There are only two types of landscapes in <span class="GeneralProductName">IFTDSS</span>, unedited or edited. However, there are a variety of terms that reference these different landscape types depending on how they are being used. We will outline them below: </p>
                                                 <div class="notificationNote">
                                                     <p>Some terms are not mutually exclusive.</p>
                                                 </div>
