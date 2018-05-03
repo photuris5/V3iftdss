@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/FTEM/reports/rep_data.png" />
+    <Url Source="Resources/Images/FTEM/reports/rep_StateSum.png" />
+    <Url Source="Resources/Images/FTEM/reports/rep_RegionSum.png" />
+    <Url Source="Resources/Images/FTEM/reports/rep_AgencySum.png" />
+    <Url Source="Resources/Images/FTEM/reports/rep_WildfireSum.png" />
+    <Url Source="Resources/Images/FTEM/geomac_files.png" />
+    <Url Source="Resources/Images/FTEM/geomac_firedetail.png" />
+    <Url Source="Resources/Images/FTEM/geomac_website.png" />
+    <Url Source="Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" />
+    <Url Source="Resources/Images/FTEM/ftem_rhp.png" />
     <Url Source="Resources/Images/FTEM/paperclip.png" />
     <Url Source="Resources/Images/FTEM/attachments.png" />
     <Url Source="Resources/Images/FTEM/role_approve_dialogue.png" />
@@ -8,16 +18,6 @@
     <Url Source="Resources/Images/FTEM/amend_record_1.png" />
     <Url Source="Resources/Images/FTEM/audit_log_ex.png" />
     <Url Source="Resources/Images/FTEM/Audit_log.png" />
-    <Url Source="Resources/Images/lcp_gen_smmry/lcp_interface_steps.png" />
-    <Url Source="Resources/Images/lcp_gen_smmry/createininterface.png" />
     <Url Source="Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
     <Url Source="Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
-    <Url Source="Resources/Images/getting_started/lcp_fire_ex.jpg" />
-    <Url Source="Resources/Images/getting_started/lcp_Pinebarren_ex2.jpg" />
-    <Url Source="Resources/Images/getting_started/lcp_Pinebarren_ex.jpg" />
-    <Url Source="Resources/Images/myworkspace/flammap_landscape.png" />
-    <Url Source="Resources/Images/myworkspace/flammap_selectfile.png" />
-    <Url Source="Resources/Images/myworkspace/flammap_open.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/layout.png" />
-    <Url Source="Resources/Images/buttons_general/download.png" />
 </UrlList>

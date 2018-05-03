@@ -762,10 +762,10 @@
     <Url
       Source="Resources/TableStyles/StandardOnDarkBackground.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 13/Flare.app/Resources/Schemas/xhtml.css" />
+      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/xhtml.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 13/Flare.app/Resources/Schemas/MadCapEditor.css" />
+      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/MadCapEditor.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 13/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
+      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
   </SourceUrls>
 </CatapultGlobalStyleCache>

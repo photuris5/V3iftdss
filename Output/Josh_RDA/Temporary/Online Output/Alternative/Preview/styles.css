@@ -18,8 +18,6 @@ body
 
 .off-canvas-content .outer-row
 {
-    padding-left: 1em;
-    padding-right: 1em;
     margin: 0 auto;
 }
 
@@ -33,9 +31,11 @@ img
 	vertical-align: baseline;
 }
 
-.navigation-wrapper
-{
+.navigation-wrapper {
     float: left;
+    flex: 1 1;
+    align-self: flex-start;
+    display: flex;
 }
 
 .title-bar-section.middle > div
@@ -43,8 +43,7 @@ img
 }
 
 /* Topbar (Navigation) Dropdown Styles*/
-ul.navigation
-{
+ul.navigation {
     height: 100%;
     padding-top: 0;
     padding-bottom: 0;
@@ -58,6 +57,7 @@ ul.navigation
     background-repeat: no-repeat;
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 0;
 }
 
     ul.navigation, ul.navigation ul
@@ -130,7 +130,6 @@ ul.navigation
     {
         text-decoration: none;
         color: #fff;
-        height: 100%;
         outline: none;
     }
 
@@ -139,7 +138,6 @@ ul.navigation
         position: relative;
         list-style: none;
         margin: 0;
-        height: 100%;
     }
     
     ul.navigation li > a
@@ -195,24 +193,29 @@ ul.navigation
             top: 9px;
         }
 
-nav.title-bar
-{
-    height: auto;
+nav.title-bar {
+    padding: 10px 0;
     background-color: #292928;
     line-height: inherit;
-    padding: 10px 0;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-nav.title-bar .menu-icon
-{
+nav.title-bar .menu-icon {
     display: none;
+}
+
+.title-bar-layout {
+    display: flex;
+    direction: ltr;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .title-bar-section
 {
-    position: relative;
+    position: absolute;
 }
 
 .title-bar-section.middle
@@ -224,17 +227,21 @@ nav.title-bar .menu-icon
     min-height: 2.5em;
 }
 
-.title-bar-section a.logo
-{
-    width: 182px;
-    height: 42px;
+.title-bar-layout .logo-wrapper {
+    display: flex;
+    flex: 0 1 auto;
+}
+
+.title-bar-layout a.logo {
     border: none;
     padding: 0;
     margin: 0;
-    position: absolute;
+    width: 182px;
+    height: 42px;
     background: url("Images/GeneralGreenLogo.png");
     background-position: center center;
     background-repeat: no-repeat;
+    z-index: 1;
 }
 
 .title-bar-container
@@ -257,9 +264,23 @@ nav.title-bar .menu-icon
 
 /* Search */
 
-.nav-search
+.nav-search-wrapper {
+    flex: 1 1 auto;
+    display: flex;
+}
+
+.nav-search 
 {
-    margin-top: 10px;
+    /* override .row Foundation css styles */
+    /* supports V11 home page template */
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+}
+
+.search-bar 
+{
+    width: 100%;
 }
 
 .search-bar .search-field
@@ -363,6 +384,68 @@ ul.off-canvas-list li
     z-index: 1001;
 }
 
+/* Side Nav */
+
+.sidenav-layout 
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidenav-layout.row::before, .sidenav-layout.row::after
+{
+    display: none;
+}
+
+html[dir='rtl'] .sidenav-layout 
+{
+    flex-direction: row-reverse;
+}
+
+.sidenav-wrapper 
+{
+    flex: 0 1 auto;
+    overflow: auto;
+    background-position: top center;
+    width: 20%;
+}
+
+.sidenav-wrapper ul ul.is-accordion-submenu 
+{
+    background: inherit;
+}
+
+.body-container 
+{
+    flex: 1 1;
+    overflow: auto;
+}
+
+ul.sidenav li a:hover 
+{
+    background-color: #303335;
+}
+
+ul.sidenav ul > li > a 
+{
+    margin-left: 1em;
+}
+
+ul.sidenav ul ul > li > a 
+{
+    margin-left: 2em;
+}
+
+ul.sidenav ul ul ul > li > a 
+{
+    margin-left: 3em;
+}
+
+ul.sidenav ul ul ul ul > li > a 
+{
+    margin-left: 4em;
+}
+
 /* Pulse.htm */
 
 html.pulseTopic .main-section .row.outer-row 
@@ -376,13 +459,4 @@ html.pulseTopic .main-section .row.outer-row
 .gsc-results
 {
 	line-height: normal;
-}
-
-
-@media print 
-{
-    .off-canvas-content 
-    {
-        box-shadow: none;
-    }
 }

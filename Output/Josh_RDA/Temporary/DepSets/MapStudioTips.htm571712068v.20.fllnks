@@ -8,6 +8,8 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
+      Url="Content/Resources/Snippets/LCPs/max_size.flsnp" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link
       Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
@@ -15,6 +17,8 @@
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Snippets/LCPs/max_size.flsnp" />
     <Link
       Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
     <Link

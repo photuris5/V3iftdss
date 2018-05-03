@@ -1,41 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="2048" MadCap:lastWidth="1302">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
         <h1>Add Shapefile</h1>
-        <p>The FTEM&#160;<span class="UIcomponent">Add Shapefile <img src="../../Resources/Images/mapstudio/overview/button_addshapefile.png" alt="add shapefile" class="iftbutton" /></span> feature adds a shapefile to the&#160;map interface from your local computer. To add your shapefile, it must be compressed as a .zip file, and contain at least shp, .shx, .dbf, and .prj files.</p>
+        <p>For larger point wildfires with no perimeter (polygon) showing in FTEM, you may find it helpful to upload and view a polygon yourself using GeoMac.gov or your own file, and the <span class="UIcomponent">Upload Shape</span> widget on the FTEM map. You can tell there is no polygon coming into FTEM by the Wildfire point <img src="../../Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" alt="point" class="iftbutton" /> symbol.</p>
         <div class="notificationImportant">
             <p>Note that this will not save your shapefile, it is intended to be viewed while working with wildfires in treatments in the&#160;FTEM&#160;system. To permanently add wildfires and treatments to FTEM, please contact your Agency Lead, their contact information is displayed on the FTEM mainpage.</p>
         </div>
-        <p>To add a shapefile from your local computer:</p>
-        <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Add Shapefile <img src="../../Resources/Images/mapstudio/overview/button_addshapefile.png" alt="add shapefile" class="iftbutton" /></span> widget.</li>
-            <li>
-                <p>Click <span class="UIcomponent">Upload File</span>.</p>
-                <p>
-                    <img src="../../Resources/Images/FTEM/Add_Shapefile.png" alt="use the add shapefile widget to add a shapefile to the map" class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Search your local computer file directory, select it, and click Open.</p>
-                <p>
-                    <img src="../../Resources/Images/FTEM/add_shapefile_files.png" alt="choose your file from your computer" class="borderlist" />
-                </p>
-            </li>
-            <li>Check any fields  to include.</li>
-            <li>
-                <p>Click <span class="UIcomponent">Add to Map</span>.</p>
-                <p>
-                    <img src="../../Resources/Images/FTEM/add_shapefile_box.png" alt="choose your fileds and click add to map" class="borderlist" />
-                </p>
-            </li>
-            <li>
-                <p>Your shapefile is added to the map and you are automatically zoomed to its extent.</p>
-                <p>
-                    <img src="../../Resources/Images/FTEM/add_shapefile_zoomed.png" alt="the map will zoome to the extent of your shapefile" class="borderlist" />
-                </p>
-            </li>
-        </ol>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>To add a shapefile from your local computer:</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li><a name="addshape"></a>Click the <span class="UIcomponent">Add Shapefile <img src="../../Resources/Images/mapstudio/overview/button_addshapefile.png" alt="add shapefile" class="iftbutton" /></span> widget.</li>
+                    <li>
+                        <p>Click <span class="UIcomponent">Upload File</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/Add_Shapefile.png" alt="use the add shapefile widget to add a shapefile to the map" class="borderlist" />
+                        </p>
+                        <p>The FTEM&#160;<span class="UIcomponent">Add Shapefile <img src="../../Resources/Images/mapstudio/overview/button_addshapefile.png" alt="add shapefile" class="iftbutton" /></span> feature adds a shapefile to the&#160;map interface from your local computer. To add your shapefile, it must be compressed as a .zip file, and contain at least shp, .shx, .dbf, and .prj files.</p>
+                    </li>
+                    <li>
+                        <p>Search your local computer file directory, select it, and click Open.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/add_shapefile_files.png" alt="choose your file from your computer" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>Check any fields  to include.</li>
+                    <li>
+                        <p>Click <span class="UIcomponent">Add to Map</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/add_shapefile_box.png" alt="choose your fileds and click add to map" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Your shapefile is added to the map and you are automatically zoomed to its extent.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/add_shapefile_zoomed.png" alt="the map will zoome to the extent of your shapefile" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>To obtain a shapefile from GeoMac and add it</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Note your fire name, date and state in FTEM.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/geomac_firedetail.png" alt="Fire shown in FTEM Wildfire tab displaying information in text format" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>Open a new browser window and navigate to https://www.geomac.gov/</li>
+                    <li>
+                        <p>Select the Download Data option from GeoMac's website (currently found in the left-hand menu)</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/geomac_website.png" alt="fire shapefiles are available at geomac.gov" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>In the file list that opens, narrow your search by date, state, and fire, then scroll down to the bottom of the list until you see a .zip file listed</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/geomac_files.png" alt="a zip file visible at the bottom of the list of files." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>Download the zip file to your local machine.</li>
+                    <li>Use “Upload Shapefile” widget from within FTEM, <a href="#addshape">described earlier on this topic page</a>.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>

@@ -12,6 +12,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/grantuser_req.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/role_approve_dialogue.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/userlist_search.png" />
     <Link
       Url="Content/Resources/Images/FTEM/grant_agency_roles.png" />
@@ -19,8 +21,6 @@
       Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/agency_roles_table.png" />
-    <Link
-      Url="Content/Resources/Images/FTEM/grant_role_access.png" />
     <Link
       Url="Content/Resources/Images/FTEM/Audit_log.png" />
     <Link
@@ -40,6 +40,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/grantuser_req.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/role_approve_dialogue.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/userlist_search.png" />
     <Link
       Url="Content/Resources/Images/FTEM/grant_agency_roles.png" />
@@ -47,8 +49,6 @@
       Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/agency_roles_table.png" />
-    <Link
-      Url="Content/Resources/Images/FTEM/grant_role_access.png" />
     <Link
       Url="Content/Resources/Images/FTEM/Audit_log.png" />
     <Link

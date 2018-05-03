@@ -14,6 +14,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_point_nonselected.png" />
     <Link
+      Url="Content/10-FTEM/AgencyLeads.htm" />
+    <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_complete.png" />
     <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_inprogress.png" />
@@ -51,6 +53,8 @@
       Url="Content/Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" />
     <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_point_nonselected.png" />
+    <Link
+      Url="Content/10-FTEM/AgencyLeads.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/symbology/wildfire_poly_int_complete.png" />
     <Link

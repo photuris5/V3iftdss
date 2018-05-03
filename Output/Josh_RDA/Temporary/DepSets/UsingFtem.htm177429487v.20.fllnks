@@ -14,6 +14,14 @@
     <Link
       Url="Content/Resources/Images/FTEM/arrowbuttons.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/ftem_rhp.png" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Treatments.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Buffering.htm" />
+    <Link
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link
       Url="Content/10-FTEM/General/Attachments.htm" />
@@ -43,6 +51,14 @@
       Url="Content/Resources/Images/FTEM/pickafire_diagram.png" />
     <Link
       Url="Content/Resources/Images/FTEM/arrowbuttons.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/ftem_rhp.png" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Treatments.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Buffering.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/pickwildfire.png" />
     <Link

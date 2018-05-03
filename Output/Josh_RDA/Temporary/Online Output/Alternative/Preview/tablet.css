@@ -30,11 +30,11 @@ nav.title-bar .menu-icon
     display: block;
     border: none;
     z-index: 100;
-    top: 50%;
-    margin-top: -24px;
     position: absolute;
     background: transparent;
     cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 nav.title-bar
@@ -48,7 +48,7 @@ nav.title-bar
 {
 }
 
-ul.navigation
+.navigation-wrapper, ul.navigation
 {
     display: none;
 }
@@ -60,12 +60,12 @@ ul.navigation
     height: 60px;
 }
 
-.title-bar-section a.logo
+.title-bar-layout a.logo
 {
     background-position: center center;
     background-repeat: no-repeat;
     top: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .title-bar .menu-icon span
@@ -181,4 +181,18 @@ ul.off-canvas-accordion-rtl ul ul ul ul > li > a
 {
     margin-left: inherit;
     margin-right: 4em;
+}
+
+/* Side Nav */
+
+.sidenav-layout {
+    height: inherit;
+}
+
+.sidenav-wrapper {
+    display: none;
+}
+
+.body-container {
+    overflow: inherit;
 }

@@ -6,6 +6,8 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
     <Link
       Url="Content/Resources/Images/FTEM/Add_Shapefile.png" />
@@ -15,9 +17,19 @@
       Url="Content/Resources/Images/FTEM/add_shapefile_box.png" />
     <Link
       Url="Content/Resources/Images/FTEM/add_shapefile_zoomed.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/geomac_firedetail.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/geomac_website.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/geomac_files.png" />
+    <Link
+      Url="Content/10-FTEM/General/AddShapefile.htm" />
   </Links>
   <LongLinks>
     <Link
+      Url="Content/Resources/Images/FTEM/symbology/wildfire_point_notstarted.png" />
+    <Link
       Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
     <Link
       Url="Content/Resources/Images/FTEM/Add_Shapefile.png" />
@@ -27,8 +39,19 @@
       Url="Content/Resources/Images/FTEM/add_shapefile_box.png" />
     <Link
       Url="Content/Resources/Images/FTEM/add_shapefile_zoomed.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/geomac_firedetail.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/geomac_website.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/geomac_files.png" />
+    <Link
+      Url="Content/10-FTEM/General/AddShapefile.htm#addshape" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="addshape" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

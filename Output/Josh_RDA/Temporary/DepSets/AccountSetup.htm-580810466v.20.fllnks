@@ -14,6 +14,8 @@
     <Link
       Url="Content/10-FTEM/General/GeoAreaOfInterest.htm" />
     <Link
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
+    <Link
       Url="Content/Resources/Images/FTEM/Request_account_1st_time.png" />
     <Link
       Url="Content/Resources/Images/FTEM/1st_request_confirmation.png" />
@@ -44,6 +46,8 @@
     <Link
       Url="Content/10-FTEM/General/GeoAreaOfInterest.htm" />
     <Link
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm#FTEMRoleChange" />
+    <Link
       Url="Content/Resources/Images/FTEM/Request_account_1st_time.png" />
     <Link
       Url="Content/Resources/Images/FTEM/1st_request_confirmation.png" />
@@ -64,7 +68,10 @@
     <Link
       Url="Content/10-FTEM/AccountsRoles/Roles.htm" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="FTEMRoleChange" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

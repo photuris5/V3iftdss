@@ -10,6 +10,8 @@
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
     <Link
+      Url="Content/Resources/Snippets/LCPs/max_size.flsnp" />
+    <Link
       Url="Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
@@ -23,6 +25,8 @@
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
+    <Link
+      Url="Content/Resources/Snippets/LCPs/max_size.flsnp" />
     <Link
       Url="Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
     <Link

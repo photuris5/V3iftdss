@@ -6,11 +6,11 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/Images/FTEM/paperclip.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/attachments.png" />
     <Link
       Url="Content/Resources/Images/FTEM/clippy.png" />
-    <Link
-      Url="Content/Resources/Images/FTEM/paperclip.png" />
     <Link
       Url="Content/Resources/Images/FTEM/find_attachment.png" />
     <Link
@@ -28,11 +28,11 @@
   </Links>
   <LongLinks>
     <Link
+      Url="Content/Resources/Images/FTEM/paperclip.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/attachments.png" />
     <Link
       Url="Content/Resources/Images/FTEM/clippy.png" />
-    <Link
-      Url="Content/Resources/Images/FTEM/paperclip.png" />
     <Link
       Url="Content/Resources/Images/FTEM/find_attachment.png" />
     <Link

@@ -6,43 +6,35 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/10-FTEM/Reports/RepWildfireSpecificFTEM.htm" />
+      Url="Content/10-FTEM/Reports/WildfireReport.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepAgencySpecificFTEM.htm" />
+      Url="Content/10-FTEM/Reports/RepAgencySmry.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepLongAgencyRegionWildfire.htm" />
+      Url="Content/10-FTEM/Reports/RepRegionSmry.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepLongStateWildfire.htm" />
+      Url="Content/10-FTEM/Reports/RepStateSmry.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepDataDumpAll.htm" />
-    <Link
-      Url="Content/10-FTEM/Reports/RepFTEMAdhocReport.htm" />
+      Url="Content/10-FTEM/Reports/RepData.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/generatereport.png" />
-    <Link
-      Url="Content/Resources/Images/FTEM/reports/generatereport2.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/10-FTEM/Reports/RepWildfireSpecificFTEM.htm" />
+      Url="Content/10-FTEM/Reports/WildfireReport.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepAgencySpecificFTEM.htm" />
+      Url="Content/10-FTEM/Reports/RepAgencySmry.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepLongAgencyRegionWildfire.htm" />
+      Url="Content/10-FTEM/Reports/RepRegionSmry.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepLongStateWildfire.htm" />
+      Url="Content/10-FTEM/Reports/RepStateSmry.htm" />
     <Link
-      Url="Content/10-FTEM/Reports/RepDataDumpAll.htm" />
-    <Link
-      Url="Content/10-FTEM/Reports/RepFTEMAdhocReport.htm" />
+      Url="Content/10-FTEM/Reports/RepData.htm" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/generatereport.png" />
-    <Link
-      Url="Content/Resources/Images/FTEM/reports/generatereport2.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

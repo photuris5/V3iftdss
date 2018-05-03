@@ -22,6 +22,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/adminview.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/Audit_log.png" />
+    <Link
       Url="Content/10-FTEM/Administrators.htm" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
@@ -43,6 +45,8 @@
       Url="Content/Resources/Images/FTEM/editorview.png" />
     <Link
       Url="Content/Resources/Images/FTEM/adminview.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/Audit_log.png" />
     <Link
       Url="Content/10-FTEM/Administrators.htm" />
     <Link
