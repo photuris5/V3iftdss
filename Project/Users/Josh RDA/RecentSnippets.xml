@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/LCPs/max_size.flsnp" />
     <Url Source="Resources/Snippets/LCPs/about_lcps.flsnp" />
     <Url Source="Resources/Snippets/LCPs/lcp table.flsnp" />
 </UrlList>

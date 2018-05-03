@@ -21,6 +21,16 @@
       Url="Content/Resources/Images/FTEM/agency_roles_table.png" />
     <Link
       Url="Content/Resources/Images/FTEM/grant_role_access.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/Audit_log.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/audit_log_ex.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/amend_record_1.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/amend_record_2.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/amend_record_3.png" />
   </Links>
   <LongLinks>
     <Link
@@ -39,6 +49,16 @@
       Url="Content/Resources/Images/FTEM/agency_roles_table.png" />
     <Link
       Url="Content/Resources/Images/FTEM/grant_role_access.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/Audit_log.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/audit_log_ex.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/amend_record_1.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/amend_record_2.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/amend_record_3.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -1,5 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/FTEM/paperclip.png" />
+    <Url Source="Resources/Images/FTEM/attachments.png" />
+    <Url Source="Resources/Images/FTEM/role_approve_dialogue.png" />
+    <Url Source="Resources/Images/FTEM/amend_record_2.png" />
+    <Url Source="Resources/Images/FTEM/amend_record_3.png" />
+    <Url Source="Resources/Images/FTEM/amend_record_1.png" />
+    <Url Source="Resources/Images/FTEM/audit_log_ex.png" />
+    <Url Source="Resources/Images/FTEM/Audit_log.png" />
+    <Url Source="Resources/Images/lcp_gen_smmry/lcp_interface_steps.png" />
+    <Url Source="Resources/Images/lcp_gen_smmry/createininterface.png" />
+    <Url Source="Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
+    <Url Source="Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
     <Url Source="Resources/Images/getting_started/lcp_fire_ex.jpg" />
     <Url Source="Resources/Images/getting_started/lcp_Pinebarren_ex2.jpg" />
     <Url Source="Resources/Images/getting_started/lcp_Pinebarren_ex.jpg" />
@@ -8,16 +20,4 @@
     <Url Source="Resources/Images/myworkspace/flammap_open.png" />
     <Url Source="Resources/Images/tutorial_editing_userR/layout.png" />
     <Url Source="Resources/Images/buttons_general/download.png" />
-    <Url Source="Resources/Images/buttons_general/button_refresh.png" />
-    <Url Source="Resources/Images/buttons_general/map button.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
-    <Url Source="Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
-    <Url Source="Resources/Images/mapstudio/overview/button_adref.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/add_reference.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/create_shape.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/dta_compare.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/dta_modeling.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/dta_report_ready.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/dta_run.png" />
-    <Url Source="Resources/Images/tutorial_editing_userR/jackstraw_rule.png" />
 </UrlList>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4361" MadCap:lastWidth="1414">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
@@ -7,7 +7,7 @@
         <p>An FTEM&#160;Administrator role allows you to manage accounts for your agency by approving new users, or editing the roles for existing users.&#160;Administrators may also delete monitoring interactions if needed. Click on the topic below for instructions on how to perform these functions:</p>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Approving a new FTEM User</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Approving a New FTEM User</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>FTEM&#160;Administrators will be notified via email when a user requests access to FTEM, or when they need to change their user role.</p>
@@ -26,9 +26,15 @@
                     </li>
                     <li>Click on the row of the User List that contains the requester's User name.</li>
                     <li>
-                        <p>Click the <span class="UIcomponent">Grant FTEM&#160;Access</span> button. This will grant the User FTEM&#160;access, and automatically send them a notification email. If you scroll to the top of the User List, you will see an acknowledgment indicating the user has been approved.</p>
+                        <p>Click the <span class="UIcomponent">Grant FTEM&#160;Access</span> button. This will open an approval dialogue box to complete the approval. You also have the option to deny the request from here.</p>
                         <p>
                             <img src="../Resources/Images/FTEM/grantuser_req.png" alt="Click the row containing the user name to approve their account." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>To finalize the account approval, briefly review the information in the dialogue box, and if editor role was requested approve the request by checking the box next to "Grant editor role". When ready, finish by clicking the <span class="UIcomponent">Grant Access</span> button.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/role_approve_dialogue.png" alt="a dialogue box displaying the requesting user's information for review." class="borderlist" />
                         </p>
                     </li>
                 </ol>
@@ -48,7 +54,7 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Changing a Users role</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Changing a Users Role</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>FTEM&#160;Administrators will be notified via email when a user requests a different role in FTEM.</p>
@@ -83,22 +89,66 @@
                         </p>
                     </li>
                     <li>
-                        <p>You will be prompted to review your selection. If accurate, click <span class="UIcomponent">Grant Access</span>. You will then see a green confirmation message verifying your change, and the User will automatically receive an email to inform them of the change.</p>
-                        <p>
-                            <img src="../Resources/Images/FTEM/grant_role_access.png" alt="You will be asked to confirm your selection." class="borderlist" />
-                        </p>
+                        <p>The user will be automatically sent an email to inform them of the role change.</p>
                     </li>
                 </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Deleting Monitoring data</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Check the Monitoring History of a Fire</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>As an Administrator, you may delete monitoring data if needed. This can be useful if the wrong treatment was incorrectly monitored.</p>
-                <p>To delete monitoring data for a treatment:</p>
-                <p>Start from the FTEM&#160;Monitoring Page: <span class="comment">This Needs to be Completed 01-2018</span></p>
+                <p>To see the entire system history for monitoring within a wildfire:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Go to the <span class="UIcomponent">Wildfire</span> tab and choose your wildfire.</li>
+                    <li>
+                        <p>Click the Audit Log button.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/Audit_log.png" alt="the audit log button is located after clicking on a fire in the 'wildfire' tab." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>An exportable report will open detailing all information changes, and which user entered them.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/audit_log_ex.png" alt="audit log example spreadsheet with a row for each action." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Amending Monitoring Data</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>As an Administrator, you may need to amend or edit monitoring data.</p>
+                <p>To amend a treatment</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Locate the fire on the <span class="UIcomponent">Wildfire</span> tab and click on it.</li>
+                    <li>Skip to the <span class="UIcomponent">Complete</span> tab.</li>
+                    <li>
+                        <p>Click the <span class="UIcomponent">Amend Wildfire</span> button.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/amend_record_1.png" alt="amend a record with the 'amend button' in the 'complete' tab." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Provide the reason for your amendment when prompted.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/amend_record_2.png" alt="a text field prompts you to describe the reason for the amendment." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>Navigate to the <span class="UIcomponent">Monitoring</span> or <span class="UIcomponent">Treatment</span> tabs and update with data as needed.</li>
+                    <li>When finished, return to the <span class="UIcomponent">Complete</span> tab and click the <span class="UIcomponent">Complete Wildfire Monitoring</span> button.</li>
+                    <li>
+                        <p>The wildfire treatment monitoring will now appear with a version number to indicate the update.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/amend_record_3.png" alt="treatment record marked with a version number next to it." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

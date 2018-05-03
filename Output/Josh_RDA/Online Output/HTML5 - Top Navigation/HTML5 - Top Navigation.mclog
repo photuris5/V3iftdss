@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MadCapLog Protocol="2" Description="MadCap Flare 2017 r3 Generated Online Output/HTML5 - Top Navigation.fltar" Date="2018-04-30T17:18:41.2313629-07:00">
+<MadCapLog Protocol="2" Description="MadCap Flare 2017 r3 Generated Online Output/HTML5 - Top Navigation.fltar" Date="2018-05-01T16:24:26.0105109-07:00">
     <Messages>Compiling target HTML5 - Top Navigation...
 Removing previously generated content...
 Error validating conditional expression: Unrecognized tag: General.FTEM Exlude
@@ -653,7 +653,7 @@ Generating final output...
 Generated index.htm
 Saving result set...
 Ignored Compiler Warnings: 169
-Output generated in 38 second(s).
+Output generated in 32 second(s).
 
 Done
 Saving log to "C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Output\Josh_RDA\Online Output\HTML5 - Top Navigation\HTML5 - Top Navigation.mclog"

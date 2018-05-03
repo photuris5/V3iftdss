@@ -1,14 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="550" MadCap:lastWidth="1206">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1762" MadCap:lastWidth="925">
     <head>
     </head>
     <body>
         <p>To create landscape from within <MadCap:variable name="General.MapStudio" /> you will use the options in the <span class="UIcomponent">Landscape Tools</span> widget, under the <span class="UIcomponent">Create new</span> tab.</p>
         <p>
-            <img src="../../Images/lcp_gen_smmry/mapstudio_createnew.png" style="width: 636px;height: 449px;" />
-        </p>
-        <p>
-            <img src="../../Images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." />
+            <img src="../../../../../../../Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" class="border" />
         </p>
         <ol style="list-style-type: upper-alpha;">
             <li>Use the <MadCap:variable name="General.MapStudio" /> tools such as zoom, basemap layers, etc. to locate your desired area.</li>
@@ -18,14 +15,20 @@
             <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>
             <li>Give your landscape a descriptive name, this will be helpful as you accumulate more landscape files in <MadCap:variable name="General.ProductName" />.</li>
             <li>Select the folder in which you would like to store your landscape file.</li>
-            <li>Click <span class="UIcomponent">Create</span> to generate your landscape file.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Create</span> to generate your landscape file.</p>
+                <p>
+                    <img src="../../../../../../../Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" alt="Draw and dropdown options under the 'create new' tab let you generate a landscape from within map studio." class="borderlist" />
+                </p>
+            </li>
         </ol>
         <p>After selecting <span class="UIcomponent">Create</span>, it may take a few minutes to generate your landscape. You may check its status by refreshing the Layer List in <MadCap:variable name="General.MapStudio" />.</p>
         <div class="notificationNote">
             <p>If you have created a landscape in&#160;<MadCap:variable name="General.MapStudio" /> using the <span class="UIcomponent">Create in <MadCap:variable name="General.MapStudio" /></span> button (for example, this is an option in Landscape Summary, and other tasks) you will need to navigate back to your task to continue that process using your newly created landscape.</p>
         </div>
         <div class="notificationNote">
-            <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
+            <p>
+                <MadCap:snippetText src="../../../../../../../Content/Resources/Snippets/LCPs/max_size.flsnp" />.</p>
         </div>
     </body>
 </html>

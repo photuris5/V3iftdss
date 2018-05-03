@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="2808" MadCap:lastWidth="1453">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2435" MadCap:lastWidth="1286">
     <head>
     </head>
     <body>
@@ -13,7 +13,9 @@
             <li>Click the <span class="UIcomponent">Select draw mode</span>, mouse to your location on the map, hold down the left mouse key, and draw a rectangle around your desired area, releasing the button when you are finished.</li>
             <li>Alternatively, if you wish to enter exact coordinates rather than draw a box around your area, you may do so by entering the coordinates, in degrees, for the west, east, south, and north bounds of your desired area. </li>
             <div class="notificationNote">
-                <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
+                <p>
+                    <MadCap:snippetText src="../LCPs/max_size.flsnp" />
+                </p>
             </div>
             <li>Choose the version of LANDFIRE data you would like to use.</li>
             <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) you would like included in your landscape file.</li>

@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="722" MadCap:lastWidth="1440">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="937" MadCap:lastWidth="1286">
     <head>
     </head>
     <body>
         <ol style="list-style-type: upper-alpha;">
             <li>Use the bounding box fields and enter the coordinates, in degrees, for the west, east, south, and north bounds of your area. </li>
             <div class="notificationNote">
-                <p>The maximum area for a landscape is 12,188,160 acres (138 miles x 138 miles).</p>
+                <p>
+                    <MadCap:snippetText src="../LCPs/max_size.flsnp" />
+                </p>
             </div>
             <li>Choose the version of LANDFIRE data you would like to use from the drop-down list</li>
             <li>Choose the fire behavior fuel model (Fuel Model 40 or Fuel Model 13) to include in your landscape file from the drop-down list.</li>
