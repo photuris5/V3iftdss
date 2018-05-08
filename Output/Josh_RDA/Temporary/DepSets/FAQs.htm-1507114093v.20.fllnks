@@ -10,9 +10,9 @@
     <Link
       Url="Content/41-References/ReferenceList.htm" />
     <Link
-      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
-    <Link
       Url="Content/10-FTEM/General/AddShapefile.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -20,9 +20,9 @@
     <Link
       Url="Content/41-References/ReferenceList.htm#NWCG2018" />
     <Link
-      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
-    <Link
       Url="Content/10-FTEM/General/AddShapefile.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

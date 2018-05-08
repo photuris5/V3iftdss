@@ -2,7 +2,7 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\FTEM\reports\rep_data.png" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\FTEM\reports\rep_StateSum.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
         <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\10-FTEM\Reports\FTEMReporting.htm" />
