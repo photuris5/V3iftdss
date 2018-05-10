@@ -158,8 +158,8 @@
                                             <p class="comment" style="font-weight: bold;">UNDER&#160;DEVELOPMENT</p>
                                             <p>The Fuels Treatment Effectiveness Monitoring (FTEM) process relies on geospatial datasets to depict wildfire locations from participating NWCG agencies, including four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) and the Department of Agriculture (USDA Forest Service). These geospatial datasets consist of both point and polygon features.The FTEM wildfire locations datasets are derived from data stored in:</p>
                                             <ul>
-                                                <li value="1">The <a href="https://www.forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml" target="_blank">Integrated Reporting of Wildland Fire Information</a> (IRWIN) data exchange service. This service provides point locations and fire-related data for fires across the United States.</li>
-                                                <li value="2">The <a href="https://www.geomac.gov/" target="_blank">Geospatial Multi-Agency Coordination</a> (GeoMAC) program. This service provides fire perimeter (polygon) data, where it exists.</li>
+                                                <li value="1">The <a href="https://www.forestsandrangelands.gov/WFIT/applications/IRWIN/index.shtml" target="_blank">Integrated Reporting of Wildland Fire Information  <i class="fa fa-external-link" aria-hidden="true"></i></a> (IRWIN) data exchange service. This service provides point locations and fire-related data for fires across the United States.</li>
+                                                <li value="2">The <a href="https://www.geomac.gov/" target="_blank">Geospatial Multi-Agency Coordination  <i class="fa fa-external-link" aria-hidden="true"></i></a> (GeoMAC) program. This service provides fire perimeter (polygon) data, where it exists.</li>
                                             </ul>
                                             <p>
                                                 <img src="../../resources/images/ftem/integrated_wildfire_data.png" alt="data as described in text" class="border" />
@@ -189,10 +189,12 @@
                                             </p>
                                             <ol>
                                                 <li value="1">
-                                                    <p>"ModifiedOnDateTime &gt; &lt;&lt;date of last pull&gt;&gt; and (ControlDateTime is not NULL or FireOutDateTime is not NULL or ContainmentDateTime is not NULL) and isvalid = 1 and incidenttypecategory ='WF'"</p>
+                                                    <p><span class="code">"ModifiedOnDateTime &gt; &lt;&lt;date of last pull&gt;&gt; and (ControlDateTime is not NULL or FireOutDateTime is not NULL or ContainmentDateTime is not NULL) and isvalid = 1 and incidenttypecategory ='WF'"</span>
+                                                    </p>
                                                 </li>
                                                 <li value="2">
-                                                    <p>ModifiedOnDateTime &gt; &lt;&lt;date of last pull minus 55 days&gt;&gt;  and ModifiedOnDateTime &lt; &lt;&lt;date of last pull minus 45 days&gt;&gt; and (ControlDateTime is NULL and FireOutDateTime is NULL and ContainmentDateTime is NULL) and isvalid = 1 and incidenttypecategory ='WF'"</p>
+                                                    <p><span class="code">ModifiedOnDateTime &gt; &lt;&lt;date of last pull minus 55 days&gt;&gt;  and ModifiedOnDateTime &lt; &lt;&lt;date of last pull minus 45 days&gt;&gt; and (ControlDateTime is NULL and FireOutDateTime is NULL and ContainmentDateTime is NULL) and isvalid = 1 and incidenttypecategory ='WF'"</span>
+                                                    </p>
                                                 </li>
                                             </ol>
                                             <p><b>Fields</b>:</p>

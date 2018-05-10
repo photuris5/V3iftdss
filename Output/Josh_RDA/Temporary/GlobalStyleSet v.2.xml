@@ -300,6 +300,8 @@
       <Class
         Name="UIcomponent" />
       <Class
+        Name="code" />
+      <Class
         Name="ListBegin" />
       <Class
         Name="FigureNum" />

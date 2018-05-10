@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/mapstudio/overview/button_adref.png" />
+    <Url Source="Resources/Images/FTEM/arrowbuttons.png" />
     <Url Source="Resources/Images/FTEM/reports/rep_StateSum.png" />
     <Url Source="Resources/Images/FTEM/reports/rep_data.png" />
     <Url Source="Resources/Images/FTEM/reports/rep_RegionSum.png" />
@@ -18,6 +20,4 @@
     <Url Source="Resources/Images/FTEM/amend_record_1.png" />
     <Url Source="Resources/Images/FTEM/audit_log_ex.png" />
     <Url Source="Resources/Images/FTEM/Audit_log.png" />
-    <Url Source="Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
-    <Url Source="Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
 </UrlList>
