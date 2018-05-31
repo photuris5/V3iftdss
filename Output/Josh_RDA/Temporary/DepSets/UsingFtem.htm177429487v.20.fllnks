@@ -40,6 +40,10 @@
     <Link
       Url="Content/Resources/Images/FTEM/monitoring.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/reviewtab.png" />
   </Links>
   <LongLinks>
@@ -78,6 +82,10 @@
     <Link
       Url="Content/Resources/Images/FTEM/monitoring.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/reviewtab.png" />
   </LongLinks>
   <Anchors>
@@ -87,6 +95,8 @@
       Name="treatments" />
     <Anchor
       Name="monitoring" />
+    <Anchor
+      Name="completionnote" />
     <Anchor
       Name="complete" />
   </Anchors>

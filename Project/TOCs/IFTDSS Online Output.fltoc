@@ -347,7 +347,7 @@
         Link="/Content/10-FTEM/AccountsRoles/AccountSetup.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Roles and Permissions"
-        Link="/Content/10-FTEM/AccountsRoles/Roles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-FTEM/AccountsRoles/Roles_Intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="FTEM Administrator Page"

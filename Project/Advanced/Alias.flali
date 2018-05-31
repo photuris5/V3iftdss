@@ -170,7 +170,7 @@
     <Map Name="step_treatments_hh" Link="/Content/50-Hover/FTEM/step_treatments_hh.htm" />
     <Map Name="step_wildfires_hh" Link="/Content/50-Hover/FTEM/step_wildfires_hh.htm" />
     <Map Name="FTEMAdmin" Link="/Content/10-FTEM/Administrators.htm" />
-    <Map Name="Roles" Link="/Content/10-FTEM/AccountsRoles/Roles.htm" />
+    <Map Name="Roles" Link="/Content/10-FTEM/AccountsRoles/Roles_Intro.htm" />
     <Map Name="AOIsMasks" Link="/Content/10-MapStudio/Files/AOIsMasks.htm" />
     <Map Name="DeleteShape" Link="/Content/10-MapStudio/Files/DeleteShape.htm" />
     <Map Name="LCP_export" Link="/Content/10-MyWorkspace/LCP_export.htm" />

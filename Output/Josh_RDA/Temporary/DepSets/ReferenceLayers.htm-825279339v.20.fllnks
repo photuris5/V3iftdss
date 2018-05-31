@@ -4,14 +4,33 @@
   OnlyLocalStylesheets="false"
   FileTimeEstimate="0"
   FilePriority="0">
-  <Links />
-  <LongLinks />
+  <Links>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/Reference_layers.flsnp" />
+  </Links>
+  <LongLinks>
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="Content/Resources/Snippets/MapStudio/Reference_layers.flsnp" />
+  </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.MapStudio" />
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions />

@@ -2,10 +2,10 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\mapstudio\overview\button_adref.png" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\FTEM\email_nonfed_view_nonfedagency.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\10-FTEM\General\UsingFtem.htm" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\pdfs\tutorials\NW_DTA_Tutorial.pdf" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
         <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Snippets\MapStudio\Reference_layers.flsnp" />

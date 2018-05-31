@@ -8,6 +8,8 @@
     <Link
       Url="Content/Resources/Stylesheets/NoTopNav.css" />
     <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm" />
+    <Link
       Url="Content/10-FTEM/FAQs.htm" />
     <Link
       Url="Content/10-FTEM/Guidance/Policy.htm" />
@@ -15,6 +17,8 @@
   <LongLinks>
     <Link
       Url="Content/Resources/Stylesheets/NoTopNav.css" />
+    <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm#complete" />
     <Link
       Url="Content/10-FTEM/FAQs.htm" />
     <Link

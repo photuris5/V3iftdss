@@ -321,13 +321,6 @@ p.MCWebHelpFramesetLink
 	display: none;
 }
 
-iframe.youtube-player_0
-{
-	display: inline-block;
-	width: 560px;
-	height: 315px;
-}
-
 .dropDown
 {
 	margin-bottom: 6px;

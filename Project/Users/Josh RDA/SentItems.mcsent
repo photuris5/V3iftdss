@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapSentItems>
+  <SentItem
+    File="DTA_page_3.fltrev"
+    Topic="Content/40-Tutorials/NWest_DTA/3_CreateAOIs.htm"
+    Reviewers="&lt;saved to disk&gt;"
+    SendDate="2018-05-15T13:57:17.8309565-07:00" />
+  <SentItem
+    File="DTA_page_3.fltrev"
+    Topic="Content/Resources/Snippets/Tutorial_NWest_DTA/3_AOI.flsnp"
+    Reviewers="&lt;saved to disk&gt;"
+    SendDate="2018-05-15T13:57:17.8314569-07:00" />
+  <SentItem
+    File="UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    Reviewers="&lt;saved to disk&gt;"
+    SendDate="2018-05-21T05:15:33.4695156-07:00" />
+  <SentItem
+    File="UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    Reviewers="&lt;saved to disk&gt;"
+    SendDate="2018-05-21T05:15:33.4699826-07:00" />
+</MadCapSentItems>

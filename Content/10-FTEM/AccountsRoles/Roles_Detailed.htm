@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Detailed FTEM Roles and Permissions</h1>
+        <p>Expand the topics below to see how FTEM&#160;roles and privilege behave in specific scenarios. FTEM user</p>
+        <h2>FTEM Roles and Privileges</h2>
+        <ul>
+            <li>For a user requesting FTEM access for the first time, they are auto granted Agency viewer access if their email domain is :<ul><li>Bia.gov only is auto-granted viewer access to BIA.</li><li>Nps.gov only is auto-granted viewer access to NPS.</li><li>Fs.fed.us only is auto-granted viewer access to FS.</li><li>Fws.gov only is auto-granted viewer access to FWS.</li><li>Blm.gov only is auto-granted viewer access to BLM.</li></ul></li>
+            <li>No user will be auto granted Agency edit access-they can request it and be auto-granted viewer privileges but an administrator has to grant a user Editor access.</li>
+            <li>Pre-approved email domains receive automatic access to FTEM as Agency Viewers (with access code).</li>
+            <li>FTEM Viewer is a role only granted to those users that select a non-core agency upon registration.</li>
+            <li>The Editor checkbox is not available to users that select a non-core agency upon registration.</li>
+            <li>FTEM Viewers require approval from FTEM Admins.</li>
+            <li>A User’s role can be changed to FTEM Viewer by an Admin by de-selecting all checkboxes in the Agency Roles / Requests dialogue for a given user.</li>
+            <li>FTEM Admins will receive account request emails and are responsible for approving account requests for the following:<ul><li><p>User requests for Agency Regions that do not have an assigned Agency Admin-regardless of email domain.</p></li><li><p>User requests for all non-core agencies (FTEM Viewers).</p></li></ul></li>
+            <li>Only users with pre-approved email domains requesting access for a core  agency will receive auto approval (Viewer only) via an FTEM access code.  They are only auto approved, however, if their email domain matches the core agency they select upon requesting FTEM access.   All other user/role requests require Admin approval.</li>
+        </ul>
+        <p>&#160;</p>
+        <h2>Pre-approved User Requests</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>1. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Pre-approved user requests Viewer access for their agency (the agency that matches their email domain) and region, the edit box was not checked</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In this scenario FTEM Agency Administrators will not receive a request. A Pre-approved user is automatically granted permission for the viewer role as follows:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Pre-approved User requests access for a core agency and region.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/role_request.png" alt="ftem user role page with information fields" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Pre-approved User will automatically be emailed with an activation code to gain access to FTEM as an Agency Viewer.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/preapproved_viewer_email.png" alt="Example email text for pre-approved accounts" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>3. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Pre-approved user requests Editor access for their agency and region (the edit box is checked)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Pre-approved User requests access for a core agency and region.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/role_request.png" alt="ftem user role page with information fields" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Pre-approved User will automatically be emailed with an activation code to gain access to FTEM as an Agency Viewer.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/preapproved_viewer_email.png" alt="Example email text for pre-approved accounts" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>The FTEM&#160;Agency Admin assigned to the Pre-approved User's Agency/Region will receive an email from the system notifying them that there is a pending Editor request for the user.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_preappoved_req_editor.png" alt="example email notifying ftem administrator that a preapproved user has requested editor access" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>FTEM Agency Admin accesses the FTEM user list and filters by All (users with pre-approved email domains are automatically Agency Viewers and are never Pending), Agency Viewer, Agency, and Region to find their user.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/ftem_userlist_agencyfilter.png" alt="filtering by agency and region can be perfomed using the filter text displayed on the left" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Agency Admin clicks <span class="UIcomponent">Grant FTEM Access</span> under the user’s name to select and  validate the role they are approving.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/dialogue_grant_editor_access.png" alt="a dialogue box will display the available roles an admin may assign a user." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>The pre-approved User will receive an email informing them that their role has been changed to Editor.  Upon login, the user will see that they are now an Agency Editor in FTEM.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_preapproved_editorgranted.png" alt="example email informing a pre-approved user their request for editing role has been granted" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>5. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Pre-approved user requests Viewer access for a non-core agency and region.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>N<span style="background-color: #ffff00;">EED&#160;TO&#160;ASK&#160;ABOUT&#160;THIS&#160;ONE- DO&#160;THEY&#160;GET&#160;AUTOMATICALLY&#160;APPROVED?</span></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>8. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Pre-approved user requests viewer/editor access to an agency other than what their pre-approved email domain is (NPS email domain requesting access to BLM)</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p><span style="background-color: #ffff00;">This one is pending some changes</span>
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>7. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Agency Viewer with a non pre-approved email domain requests Editor role for their Agency</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>Pre-approved User requests access for a core agency that is not affiliated with their email.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/role_request.png" alt="ftem user role page with information fields" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User’s Viewer request is sent to the assigned FTEM&#160;Agency Admin(s) via email.  If no FTEM Agency Admin is assigned to the selected Agency/Region, the request will be sent to all FTEM Admins via email.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_non_approved_req.png" alt="example of email request to an anministrator to approve a non pre-approved account request" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Agency Admin accesses the FTEM user list and filter by Pending, Agency, and Region to find their user. </p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/userlist_filter_find.png" alt="user list may be filtered by clicking the text categories displayed to the left of the list." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>FTEM&#160;Agency Admin clicks <span class="UIcomponent">Grant FTEM Access</span> under the user’s name and validates the role they are approving.</p>
+                    </li>
+                    <li>
+                        <p>FTEM Agency Admin checks the <span class="UIcomponent">Grant editor role </span>box and clicks <span class="UIcomponent">Grant Access</span> in the Grant Access dialogue. The user may now enter FTEM with their requested agency affiliation and role.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/editor_approval_checked_nonagency.png" alt="a dialogue will allow the administrator to view account details before granting editor access" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User receives a notification email telling them that their FTEM Privileges have been modified.  They can now log in with heir requested agency affiliation and role.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_user_editor_confirm.png" alt="example email confirming a user now has FTEM editor role." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>&#160;</p>
+        <h2>User Requests</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>2. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Non pre-approved User requests Viewer access for a pre-approved agency, the edit box was not checked.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>User requests access for a core agency and region.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/role_request.png" alt="ftem user role page with information fields" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User’s Viewer request is sent to the assigned FTEM&#160;Agency Admin(s) via email.  If no FTEM Agency Admin is assigned to the selected Agency/Region, the request will be sent to all FTEM Admins via email.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_non_approved_req.png" alt="example of email request to an anministrator to approve a non pre-approved account request" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>FTEM&#160;Agency Admin accesses the FTEM user list and filters by Pending, Agency, and Region to find the user.  Users with email domains that are not pre-approved will remain in the Pending list until they are granted (or denied) viewer privileges by an Admin.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/userlist_filter_find.png" alt="user list may be filtered by clicking the text categories displayed to the left of the list." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Agency Admin clicks Grant FTEM Access under the user’s name and validates the role they are approving.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/approval_dialogue_for_user.png" alt="a dialogue box will appear asking the administrator to approve the request." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Agency Admin clicks Grant Access in the Grant Access dialogue and user can now enter FTEM as an Agency Viewer for their requested Agency</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_user_reqcore.png" alt="example of approval email sent to users when they are approved to view FTEM" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:conditionalText MadCap:conditions="General.Exclude">
+                    <MadCap:dropDownHotspot>4. </MadCap:dropDownHotspot>
+                </MadCap:conditionalText>
+                <MadCap:dropDownHotspot>Non pre-approved User requests Viewer access for a pre-approved agency, the edit box is checked.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: lower-alpha;">
+                    <li>
+                        <p>User requests access for a core agency and region.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/role_request.png" alt="ftem user role page with information fields" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User’s Viewer request is sent to the assigned FTEM&#160;Agency Admin(s) via email.  If no FTEM Agency Admin is assigned to the selected Agency/Region, the request will be sent to all FTEM Admins via email.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_non_approved_req.png" alt="example of email request to an anministrator to approve a non pre-approved account request" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Agency Admin accesses the FTEM user list and filters by Pending, Agency, and Region to find their user.  Users with email domains that are not pre-approved will remain in the Pending list until they are granted viewer privileges by an Admin.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/userlist_filter_find.png" alt="user list may be filtered by clicking the text categories displayed to the left of the list." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>FTEM&#160;Agency Admin clicks <span class="UIcomponent">Grant FTEM Access</span> under the user’s name and validates the role they are approving.</p>
+                    </li>
+                    <li>
+                        <p>FTEM Agency Admin checks the <span class="UIcomponent">Grant editor role </span>box and clicks <span class="UIcomponent">Grant Access</span> in the Grant Access dialogue. The user may now enter FTEM as an Agency Editor for their selected Agency.</p>
+                        <p>&#160;</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/editor_approval_checked_nonagency.png" alt="a dialogue will allow the administrator to view account details before granting editor access" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>User receives a notification email telling them that their FTEM Privileges have been modified.  They can now log in as Agency Editor.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_user_editor_confirm.png" alt="example email confirming a user now has FTEM editor role." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>6. User requests Viewer access for a non-core agency and region</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>User requests access for a non core agency and region.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/role_request_nonfed.png" alt="user request viewer for non-federal agency" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>FTEM Admin are automatically notified of the request.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_nonfed_request_nonfedarea.png" alt="example email sent to FTEM admin that non-federal user requests viewing role for a non-federal agency" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>FTEM&#160;Admin approve the request.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/userlist_approve_nonfedagencyview.png" alt="userlist filtered to show non-federal agency requests" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>The user receives an email confirming their access as and FTEM&#160;Viewer and may now access FTEM&#160;as a Viewer.</p>
+                        <p>
+                            <img src="../../Resources/Images/FTEM/email_nonfed_view_nonfedagency.png" alt="example email informing a user they are approved to view non-federal agency information in FTEM" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

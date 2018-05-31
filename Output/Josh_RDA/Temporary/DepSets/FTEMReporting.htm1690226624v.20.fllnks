@@ -16,6 +16,8 @@
     <Link
       Url="Content/10-FTEM/Reports/RepData.htm" />
     <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm" />
+    <Link
       Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/generatereport.png" />
@@ -31,6 +33,8 @@
       Url="Content/10-FTEM/Reports/RepStateSmry.htm" />
     <Link
       Url="Content/10-FTEM/Reports/RepData.htm" />
+    <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm#completionnote" />
     <Link
       Url="Content/Resources/Images/FTEM/reports/selectreports.png" />
     <Link
