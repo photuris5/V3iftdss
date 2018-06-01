@@ -6,11 +6,17 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+    <Link
+      Url="Content/Resources/Snippets/FTEM/Ftem roles.flsnp" />
+    <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/FTEM/role_request.png" />
     <Link
       Url="Content/Resources/Images/FTEM/preapproved_viewer_email.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/role_request_edit.png" />
     <Link
       Url="Content/Resources/Images/FTEM/email_preappoved_req_editor.png" />
     <Link
@@ -42,11 +48,17 @@
   </Links>
   <LongLinks>
     <Link
+      Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+    <Link
+      Url="Content/Resources/Snippets/FTEM/Ftem roles.flsnp" />
+    <Link
       Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/Resources/Images/FTEM/role_request.png" />
     <Link
       Url="Content/Resources/Images/FTEM/preapproved_viewer_email.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/role_request_edit.png" />
     <Link
       Url="Content/Resources/Images/FTEM/email_preappoved_req_editor.png" />
     <Link
@@ -90,5 +102,8 @@
     <Condition
       Tag="General.LaterRelease" />
   </AllConditions>
-  <Stylesheets />
+  <Stylesheets>
+    <Url
+      Source="Content/Resources/TableStyles/IFTDSS_PatternedRowsLeft.css" />
+  </Stylesheets>
 </CatapultFileLinkSet>

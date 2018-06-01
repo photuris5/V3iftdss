@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/FTEM/role_request_edit.png" />
+    <Url Source="Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
+    <Url Source="Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
+    <Url Source="Resources/Images/FTEM/symbology/wildfire_poly.png" />
+    <Url Source="Resources/Images/FTEM/reviewtab.png" />
+    <Url Source="Resources/Images/FTEM/monitoring.png" />
+    <Url Source="Resources/Images/FTEM/treatments.png" />
+    <Url Source="Resources/Images/FTEM/pickwildfire.png" />
+    <Url Source="Resources/Images/FTEM/ftem_rhp.png" />
     <Url Source="Resources/Images/FTEM/email_nonfed_view_nonfedagency.png" />
     <Url Source="Resources/Images/FTEM/userlist_approve_nonfedagencyview.png" />
     <Url Source="Resources/Images/FTEM/email_nonfed_request_nonfedarea.png" />
@@ -11,13 +20,4 @@
     <Url Source="Resources/Images/FTEM/email_preapproved_editorgranted.png" />
     <Url Source="Resources/Images/FTEM/email_preappoved_req_editor.png" />
     <Url Source="Resources/Images/FTEM/approval_dialogue_for_user.png" />
-    <Url Source="Resources/Images/FTEM/userlist_filter_find.png" />
-    <Url Source="Resources/Images/FTEM/email_non_approved_req.png" />
-    <Url Source="Resources/Images/FTEM/email_user_reqcore.png" />
-    <Url Source="Resources/Images/FTEM/preapproved_viewer_email.png" />
-    <Url Source="Resources/Images/FTEM/role_request.png" />
-    <Url Source="Resources/Images/granite_crk_dta/location.png" />
-    <Url Source="Resources/Images/buttons_general/button_moreoptions.png" />
-    <Url Source="Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
-    <Url Source="Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
 </UrlList>

@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapReceivedItems
+  SavedSource="file:///C:/Users/Josh RDA/Documents/GitHub/v3IFTDSS/Output/Josh_RDA/ReceivedItems.mctrec">
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_4.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:22:12.3391908-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_4.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:22:12.3391908-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_4.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:22:12.3391908-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_3.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:17:45.5425277-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:16:49.8248532-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/test1.fltrev"
+    Topic="Content/10-FTEM/General/AddShapefile.htm"
+    TargetTopic="Content/10-FTEM/General/AddShapefile.htm"
+    CommentCount="0"
+    SendDate="2018-05-31T14:28:54.5349065-07:00"
+    ReturnDate="2018-05-31T14:39:02.8551364-07:00"
+    ChangesCount="1" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:41:03.8426513-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:41:03.8426513-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:41:03.8426513-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:41:03.8426513-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21_2.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T14:47:07.3538900-07:00"
+    ChangesCount="13" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:05:00.6453175-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:10:38.2051532-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:57:51.3532848-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:57:51.3532848-07:00"
+    ChangesCount="0" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/10-FTEM/General/UsingFtem.htm"
+    TargetTopic="Content/10-FTEM/General/UsingFtem.htm"
+    CommentCount="2"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:57:51.3532848-07:00"
+    ChangesCount="55" />
+  <ReceivedItem
+    File="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    TargetTopic="Content/Resources/Snippets/FTEM/Attachment_size_type.flsnp"
+    CommentCount="0"
+    SendDate="2018-05-21T05:15:22.1008084-07:00"
+    ReturnDate="2018-05-31T15:57:51.3532848-07:00"
+    ChangesCount="0" />
+  <Source>
+    <Url
+      Source="Project/Users/Josh RDA/Inbox/UsingFtem_5_21.fltrev"
+      TimeStamp="5/31/2018 15:57:51" />
+  </Source>
+</MadCapReceivedItems>

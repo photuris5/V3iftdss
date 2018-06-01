@@ -8,6 +8,8 @@
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
     <Link
+      Url="Content/Resources/Snippets/FTEM/Ftem roles.flsnp" />
+    <Link
       Url="Content/Resources/Images/FTEM/roles step a.png" />
     <Link
       Url="Content/Resources/Images/FTEM/roles step bc.png" />
@@ -29,6 +31,8 @@
   <LongLinks>
     <Link
       Url="Content/Resources/TableStyles/IFTDSS_PatternedRowsCenter.css" />
+    <Link
+      Url="Content/Resources/Snippets/FTEM/Ftem roles.flsnp" />
     <Link
       Url="Content/Resources/Images/FTEM/roles step a.png" />
     <Link

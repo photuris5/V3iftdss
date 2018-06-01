@@ -186,6 +186,7 @@ ul.off-canvas-accordion-rtl ul ul ul ul > li > a
 /* Side Nav */
 
 .sidenav-layout {
+    display: block;
     height: inherit;
 }
 
