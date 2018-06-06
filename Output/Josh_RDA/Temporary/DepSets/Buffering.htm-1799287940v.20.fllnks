@@ -16,7 +16,12 @@
     <Link
       Url="Content/Resources/Images/FTEM/buffering.png" />
   </LongLinks>
-  <Anchors />
+  <Anchors>
+    <Anchor
+      Name="Wildfire_Points" />
+    <Anchor
+      Name="Wildfire_perimeters" />
+  </Anchors>
   <Keywords />
   <Concepts />
   <ConceptControlNames />

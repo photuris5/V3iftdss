@@ -13,6 +13,8 @@
       Url="Content/10-FTEM/General/AddShapefile.htm" />
     <Link
       Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/TechDoc.htm" />
   </Links>
   <LongLinks>
     <Link
@@ -23,6 +25,8 @@
       Url="Content/10-FTEM/General/AddShapefile.htm" />
     <Link
       Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/DataTechnical/TechDoc.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

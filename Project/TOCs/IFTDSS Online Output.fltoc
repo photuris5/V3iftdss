@@ -348,6 +348,9 @@
       <TocEntry
         Title="Roles and Permissions"
         Link="/Content/10-FTEM/AccountsRoles/Roles_Intro.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="How to Use FTEM"
