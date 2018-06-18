@@ -20,6 +20,8 @@
     <Link
       Url="Content/Resources/Images/FTEM/geomac_firedetail.png" />
     <Link
+      Url="https://www.geomac.gov/" />
+    <Link
       Url="Content/Resources/Images/FTEM/geomac_website.png" />
     <Link
       Url="Content/Resources/Images/FTEM/geomac_files.png" />
@@ -41,6 +43,8 @@
       Url="Content/Resources/Images/FTEM/add_shapefile_zoomed.png" />
     <Link
       Url="Content/Resources/Images/FTEM/geomac_firedetail.png" />
+    <Link
+      Url="https://www.geomac.gov/" />
     <Link
       Url="Content/Resources/Images/FTEM/geomac_website.png" />
     <Link

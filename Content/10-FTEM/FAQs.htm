@@ -94,7 +94,6 @@
                 <MadCap:dropDownHotspot>How did you determine what treatments potentially interacted with a wildfire?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p style="background-color: #ffff00;" MadCap:conditions="General.LaterRelease">Address</p>
                 <p>Within the FTEM application, there exist both point and perimeter wildfires.  A point wildfire contains a the latitude and longitude of the point of origin as well as a size in acres, but contains no other information to define where the fire burned.  A perimeter wildfire contains a shape of the perimeter in addition to the point of origin.</p>
                 <p>For wildfires with an associated perimeter, any treatment that enters that perimeter is displayed.</p>
                 <p>For wildfires represented by a point, a circle with its center at the wildfire’s point of origin is used to determine the potential treatment interactions for a wildfire.  The radius of the circle is based upon calculating the length of an ellipse whose length is 1.5 times its width and whose area is equal to the size of the wildfire.  The radius of the circle equals the length of the ellipse.</p>
@@ -118,7 +117,7 @@
                 <p>There are a few reasons why you may not be seeing the treatment data you are expecting.</p>
                 <ul>
                     <li>The treatment has not been entered into the official system of record for your agency; NFPORS for all Department of Interior agencies and FACTS for the U.S. Forest Service</li>
-                    <li style="background-color: #ffff00;" MadCap:conditions="General.LaterRelease">FTEM treatment data has not yet been updated.  FTEM treatment data will be automatically updated from FACTS and NFPORS on a weekly* basis.<div style="background-color: #ffff00;">*After weekly automatic treatment data updates are monitored for success, updates may occur on a daily basis to better integrate with any changes users perform in the systems of record.</div></li>
+                    <li>FTEM treatment data has not yet been updated.  FTEM treatment data will be automatically updated from FACTS and NFPORS on a nightly basis.</li>
                     <li>Filtering on FACTS polygon data according to the FTEM business rules for U.S. Forest Service.  FACTS data has been filtered using the following logic:<ul><li>If a point or poly has the same SUID, only display those points or polys with the most recent Actual Completion date.</li><li>If a point or poly has the same SUID and same Actual Completion Date, filter by Treatment Category. The order of priority for treatment categories is 1) Fire, 2) Mechanical, 3) Other, and 4) Preparation for Treatment.</li><li>If a point or poly has the same SUID, same Actual Completion date, and same Treatment Category, filter by Activity Code. The point or poly with the smallest numerical Activity Code will be given priority.</li><li>If a point or poly has the same SUID, same Actual Completion Date, same Treatment Category, and same Activity Code, the data will not be filtered.</li></ul></li>
                 </ul>
             </MadCap:dropDownBody>

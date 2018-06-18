@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="3037" MadCap:lastWidth="1453">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
     </head>
     <body>
         <ol style="list-style-type: upper-alpha;">
-            <li>Go to <a href="https://iftdss.firenet.gov/landing_page/" target="_blank">https://iftdss.firenet.gov/landing_page/</a></li>
+            <li>Go to <a href="https://iftdss.firenet.gov/landing_page/" target="_blank">https://iftdss.firenet.gov/landing_page/.</a></li>
             <li>
-                <p>Choose the <span class="UIcomponent">Login</span> option in the top right of the <MadCap:variable name="General.ProductName" /> page and click <span class="UIcomponent">Register</span> at the bottom of the Login box.</p>
+                <p>Choose <span class="UIcomponent">Login</span> at the top right of the <MadCap:variable name="General.ProductName" /> page and click <span class="UIcomponent">Register</span> at the bottom of the Login box.</p>
                 <p>
                     <img src="../../Images/getting_started/registration_start.png" alt="IFTDSS login page with a blue registration button visible in the top right login box." title="Jump to IFTDSS login page" class="borderlist" />
                 </p>
