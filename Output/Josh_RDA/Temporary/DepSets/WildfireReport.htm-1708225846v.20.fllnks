@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_WildfireSum.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/FTEM_wildfire_report.pdf" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_WildfireSum.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/FTEM_wildfire_report.pdf" />
   </LongLinks>
   <Anchors />
   <Keywords />

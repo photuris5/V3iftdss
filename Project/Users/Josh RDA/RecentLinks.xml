@@ -5,7 +5,7 @@
         <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\FTEM\role_request.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\10-FTEM\FTEMAbout.htm" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\pdfs\reportExamples\excelsheets\FTEMAgencySummary_NPS_062018.xlsx" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
         <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Snippets\FTEM\Ftem roles.flsnp" />

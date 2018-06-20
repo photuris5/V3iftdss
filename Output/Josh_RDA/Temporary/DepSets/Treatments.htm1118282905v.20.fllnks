@@ -39,8 +39,6 @@
   <AllConditions>
     <Condition
       Tag="General.DeveloperNotes" />
-    <Condition
-      Tag="General.LaterRelease" />
   </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>

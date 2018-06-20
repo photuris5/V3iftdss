@@ -131,12 +131,24 @@
                 <p>*After weekly automatic treatment data updates are monitored for success, updates may occur on a daily basis to better integrate with any changes users perform in the systems of record.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown style="background-color: #ffff00;" MadCap:conditions="General.LaterRelease">
+        <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Why isn’t the wildfire I am looking for showing up?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>Why don’t I see my wildfire in FTEM?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>(Content TBD) - suggested delete</p>
+                <p>Wildfires within FTEM are pulled from the systems of record (GeoMac and IRWIN) nightly. Fires for the current and the previous fiscal year are pulled based on their containment date, control date, or out date, depending on what data is available in the records. If none of these dates are specified in the records, FTEM assigns a date 45 after the start date. Therefore, some fires may not be visible in FTEM up to 45 days after their start date. For more details see the <a href="DataTechnical/Wildfires.htm" target="_blank">FTEM Wildfire Data Topic</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Can I upload a shapefile for a wildfire that is only contained in FTEM&#160;as a point?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can upload a shapefile to FTEM&#160;to aid in your treatment monitoring, but the polygon will not be saved (it will disappear as soon as you navigate away from FTEM).</p>
+                <ul>
+                    <li>Follow the <a href="General/AddShapefile.htm" target="_blank">Add Shapefile Topic</a> to temporarily add a polygon in FTEM.</li>
+                    <li>Follow up with your <a href="AgencyLeads.htm" target="_blank">FTEM Agency Lead</a> to permanently add a fire polygon to FTEM.</li>
+                </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown MadCap:conditions="General.LaterRelease">
@@ -195,6 +207,20 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Currently, the best way to dismiss fires that really do not require FTEM is to remove all the interactions associated with the fire.  The fire will change in the map and in the Wildfire list from red (which that indicates that interactions have been detected and FTEM has not been started yet), to grey (which indicates that no interactions have been detected any interactions).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How do I make a fire not show up "Check for interactions" (displayed in a red color) I know no treatments interacted or need monitoring?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If a fire shows up "Check for interactions" (displayed in a red color), but you know it should show up as "No Interactions Detected", you may remove the treatments from the auto-populated treatment list. To do this:</p>
+                <ol>
+                    <li>Select the wildfire.</li>
+                    <li>Move to the treatments tab.</li>
+                    <li>Select all the treatments.</li>
+                    <li>Use the <span class="UIcomponent">Remove Treatments </span>button to remove them.</li>
+                </ol>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>

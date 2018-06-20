@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_data.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/excelsheets/FTEMDataDownload.csv" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_data.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/excelsheets/FTEMDataDownload.csv" />
   </LongLinks>
   <Anchors />
   <Keywords />

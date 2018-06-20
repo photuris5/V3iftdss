@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_StateSum.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/excelsheets/FTEMStateSummary_California_062018.xlsx" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_StateSum.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/excelsheets/FTEMStateSummary_California_062018.xlsx" />
   </LongLinks>
   <Anchors />
   <Keywords />

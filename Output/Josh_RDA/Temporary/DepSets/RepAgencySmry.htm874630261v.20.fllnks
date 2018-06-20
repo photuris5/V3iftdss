@@ -7,10 +7,14 @@
   <Links>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_AgencySum.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/excelsheets/FTEMAgencySummary_NPS_062018.xlsx" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Images/FTEM/reports/rep_AgencySum.png" />
+    <Link
+      Url="Content/Resources/pdfs/reportExamples/excelsheets/FTEMAgencySummary_NPS_062018.xlsx" />
   </LongLinks>
   <Anchors />
   <Keywords />

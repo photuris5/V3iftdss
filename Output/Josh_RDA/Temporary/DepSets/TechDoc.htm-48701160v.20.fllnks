@@ -12,6 +12,8 @@
     <Link
       Url="Content/10-FTEM/DataTechnical/Buffering.htm" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Content/10-FTEM/DataTechnical/Utilities.htm" />
   </Links>
   <LongLinks>
@@ -21,6 +23,8 @@
       Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
     <Link
       Url="Content/10-FTEM/DataTechnical/Buffering.htm" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/10-FTEM/DataTechnical/Utilities.htm" />
   </LongLinks>
@@ -32,6 +36,9 @@
   <Variables />
   <FileConditions />
   <FileTags />
-  <AllConditions />
+  <AllConditions>
+    <Condition
+      Tag="General.LaterRelease" />
+  </AllConditions>
   <Stylesheets />
 </CatapultFileLinkSet>
