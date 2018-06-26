@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/getting_started/password_reset.png" />
+    <Url Source="Resources/Images/getting_started/cutandpastepassword.png" />
+    <Url Source="Resources/Images/FTEM/noncore_userlist.png" />
+    <Url Source="Resources/Images/FTEM/noncore_email_to_admins.png" />
+    <Url Source="Resources/Images/FTEM/non_core_request.png" />
+    <Url Source="Resources/Images/FTEM/agency_toggle.png" />
+    <Url Source="Resources/Images/mapstudio/overview/button_adref.png" />
     <Url Source="Resources/Images/FTEM/role_request_edit.png" />
     <Url Source="Resources/Images/FTEM/symbology/trt_poly_int_nointeraction.png" />
     <Url Source="Resources/Images/FTEM/symbology/trt_point_int_nointeraction.png" />
@@ -13,11 +20,4 @@
     <Url Source="Resources/Images/FTEM/userlist_approve_nonfedagencyview.png" />
     <Url Source="Resources/Images/FTEM/email_nonfed_request_nonfedarea.png" />
     <Url Source="Resources/Images/FTEM/role_request_nonfed.png" />
-    <Url Source="Resources/Images/FTEM/email_user_editor_confirm.png" />
-    <Url Source="Resources/Images/FTEM/editor_approval_checked_nonagency.png" />
-    <Url Source="Resources/Images/FTEM/dialogue_grant_editor_access.png" />
-    <Url Source="Resources/Images/FTEM/ftem_userlist_agencyfilter.png" />
-    <Url Source="Resources/Images/FTEM/email_preapproved_editorgranted.png" />
-    <Url Source="Resources/Images/FTEM/email_preappoved_req_editor.png" />
-    <Url Source="Resources/Images/FTEM/approval_dialogue_for_user.png" />
 </UrlList>

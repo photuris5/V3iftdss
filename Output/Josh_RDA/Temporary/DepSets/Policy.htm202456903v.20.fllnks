@@ -6,6 +6,8 @@
   FilePriority="0">
   <Links>
     <Link
+      Url="Content/Resources/pdfs/Policies/BIAFuelsTreatmentEffectivenessMemo.pdf" />
+    <Link
       Url="Content/Resources/pdfs/Policies/blm_ftem_policy.pdf" />
     <Link
       Url="Content/Resources/pdfs/Policies/usfs_ftem_policy.pdf" />
@@ -13,6 +15,8 @@
       Url="Content/10-FTEM/Guidance/MonitoringGuidance.htm" />
   </Links>
   <LongLinks>
+    <Link
+      Url="Content/Resources/pdfs/Policies/BIAFuelsTreatmentEffectivenessMemo.pdf" />
     <Link
       Url="Content/Resources/pdfs/Policies/blm_ftem_policy.pdf" />
     <Link

@@ -6,43 +6,60 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/41-References/ReferenceList.htm" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/10-FTEM/General/AddShapefile.htm" />
     <Link
-      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
-    <Link
       Url="Content/10-FTEM/DataTechnical/TechDoc.htm" />
     <Link
-      Url="Content/10-FTEM/AgencyLeads.htm" />
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm" />
+    <Link
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="https://iftdsshelp.freshdesk.com/support/discussions/forums/22000059283" />
   </Links>
   <LongLinks>
     <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
       Url="Content/41-References/ReferenceList.htm#NWCG2018" />
+    <Link
+      Url="Project/VariableSets/General.flvar" />
+    <Link
+      Url="Project/ConditionTagSets/General.flcts" />
     <Link
       Url="Content/10-FTEM/General/AddShapefile.htm" />
     <Link
-      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
-    <Link
       Url="Content/10-FTEM/DataTechnical/TechDoc.htm" />
     <Link
-      Url="Content/10-FTEM/AgencyLeads.htm" />
+      Url="Content/10-FTEM/DataTechnical/Wildfires.htm" />
+    <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm#treatments" />
+    <Link
+      Url="Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
+    <Link
+      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+    <Link
+      Url="https://iftdsshelp.freshdesk.com/support/discussions/forums/22000059283" />
   </LongLinks>
   <Anchors />
   <Keywords />
   <Concepts />
   <ConceptControlNames />
   <IndexControlNames />
-  <Variables />
+  <Variables>
+    <Variable
+      Name="General.ProductName" />
+  </Variables>
   <FileConditions />
   <FileTags />
   <AllConditions>
-    <Condition
-      Tag="General.DeveloperNotes" />
     <Condition
       Tag="General.LaterRelease" />
   </AllConditions>

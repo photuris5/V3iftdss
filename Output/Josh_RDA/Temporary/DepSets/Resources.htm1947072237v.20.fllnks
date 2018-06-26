@@ -10,6 +10,8 @@
     <Link
       Url="https://www.feis-crs.org/feis/" />
     <Link
+      Url="https://www.frames.gov/" />
+    <Link
       Url="https://www.frames.gov/search/" />
     <Link
       Url="https://www.fs.fed.us/rm/pubs/rmrs_gtr322.pdf" />
@@ -25,6 +27,12 @@
       Url="https://www.nwcg.gov/sites/default/files/publications/pms484.pdf" />
     <Link
       Url="https://www.nwcg.gov/sites/default/files/publications/pms424.pdf" />
+    <Link
+      Url="https://tools.airfire.org/" />
+    <Link
+      Url="https://www.fs.fed.us/pnw/fera/fft/index.shtml" />
+    <Link
+      Url="https://www.firelab.org/project/fofem" />
     <Link
       Url="https://fireadaptednetwork.org/science-thursday-must-evolve-fire/" />
     <Link
@@ -38,6 +46,8 @@
     <Link
       Url="https://www.feis-crs.org/feis/" />
     <Link
+      Url="https://www.frames.gov/" />
+    <Link
       Url="https://www.frames.gov/search/" />
     <Link
       Url="https://www.fs.fed.us/rm/pubs/rmrs_gtr322.pdf" />
@@ -53,6 +63,12 @@
       Url="https://www.nwcg.gov/sites/default/files/publications/pms484.pdf" />
     <Link
       Url="https://www.nwcg.gov/sites/default/files/publications/pms424.pdf" />
+    <Link
+      Url="https://tools.airfire.org/" />
+    <Link
+      Url="https://www.fs.fed.us/pnw/fera/fft/index.shtml" />
+    <Link
+      Url="https://www.firelab.org/project/fofem" />
     <Link
       Url="https://fireadaptednetwork.org/science-thursday-must-evolve-fire/" />
     <Link
