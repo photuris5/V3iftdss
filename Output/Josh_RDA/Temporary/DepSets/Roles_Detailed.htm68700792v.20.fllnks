@@ -26,13 +26,21 @@
     <Link
       Url="Content/Resources/Images/FTEM/email_preapproved_editorgranted.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/non_core_request.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/noncore_email_to_admins.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/noncore_userlist.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/email_user_editor_confirm.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/email_non_approved_req.png" />
     <Link
       Url="Content/Resources/Images/FTEM/userlist_filter_find.png" />
     <Link
       Url="Content/Resources/Images/FTEM/editor_approval_checked_nonagency.png" />
     <Link
-      Url="Content/Resources/Images/FTEM/email_user_editor_confirm.png" />
+      Url="Content/Resources/Images/FTEM/agency_toggle.png" />
     <Link
       Url="Content/Resources/Images/FTEM/approval_dialogue_for_user.png" />
     <Link
@@ -68,13 +76,21 @@
     <Link
       Url="Content/Resources/Images/FTEM/email_preapproved_editorgranted.png" />
     <Link
+      Url="Content/Resources/Images/FTEM/non_core_request.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/noncore_email_to_admins.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/noncore_userlist.png" />
+    <Link
+      Url="Content/Resources/Images/FTEM/email_user_editor_confirm.png" />
+    <Link
       Url="Content/Resources/Images/FTEM/email_non_approved_req.png" />
     <Link
       Url="Content/Resources/Images/FTEM/userlist_filter_find.png" />
     <Link
       Url="Content/Resources/Images/FTEM/editor_approval_checked_nonagency.png" />
     <Link
-      Url="Content/Resources/Images/FTEM/email_user_editor_confirm.png" />
+      Url="Content/Resources/Images/FTEM/agency_toggle.png" />
     <Link
       Url="Content/Resources/Images/FTEM/approval_dialogue_for_user.png" />
     <Link
@@ -99,8 +115,6 @@
   <AllConditions>
     <Condition
       Tag="General.Exclude" />
-    <Condition
-      Tag="General.LaterRelease" />
   </AllConditions>
   <Stylesheets>
     <Url

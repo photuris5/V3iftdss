@@ -186,4 +186,20 @@
     <Map Name="DataWildfires" Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" />
     <Map Name="AddShapefile1" Link="/Content/10-FTEM/General/AddShapefile.htm" />
     <Map Name="geotiff_reclass" Link="/Content/10-MyWorkspace/geotiff_reclass.htm" />
+    <Map Name="Roles_Detailed" Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" />
+    <Map Name="Attachments" Link="/Content/10-FTEM/General/Attachments.htm" />
+    <Map Name="RepAgencySmry" Link="/Content/10-FTEM/Reports/RepAgencySmry.htm" />
+    <Map Name="RepData" Link="/Content/10-FTEM/Reports/RepData.htm" />
+    <Map Name="RepRegionSmry" Link="/Content/10-FTEM/Reports/RepRegionSmry.htm" />
+    <Map Name="RepStateSmry" Link="/Content/10-FTEM/Reports/RepStateSmry.htm" />
+    <Map Name="WildfireReport" Link="/Content/10-FTEM/Reports/WildfireReport.htm" />
+    <Map Name="ReferenceLayers" Link="/Content/10-MapStudio/Files/ReferenceLayers.htm" />
+    <Map Name="LoadingGeoIntoFlammap" Link="/Content/10-MyWorkspace/LoadingGeoIntoFlammap.htm" />
+    <Map Name="AOIlandscapefb" Link="/Content/20-Models/FlamMap/AOIlandscapefb.htm" />
+    <Map Name="EditingUserRuleTutorial" Link="/Content/40-Tutorials/EditingUserRuleTutorial.htm" />
+    <Map Name="CreatingShapes" Link="/Content/40-Tutorials/Shorts/CreatingShapes.htm" />
+    <Map Name="CreatingSummaryReports" Link="/Content/40-Tutorials/Shorts/CreatingSummaryReports.htm" />
+    <Map Name="EditingLandscapes" Link="/Content/40-Tutorials/Shorts/EditingLandscapes.htm" />
+    <Map Name="RunningLFBmodels" Link="/Content/40-Tutorials/Shorts/RunningLFBmodels.htm" />
+    <Map Name="ViewingOutputsMapStudio" Link="/Content/40-Tutorials/Shorts/ViewingOutputsMapStudio.htm" />
 </CatapultAliasFile>

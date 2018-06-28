@@ -85,4 +85,14 @@
     Topic="Content/10-FTEM/Administrators.htm"
     Reviewers="&lt;saved to disk&gt;"
     SendDate="2018-06-13T15:09:09.7619059-07:00" />
+  <SentItem
+    File="FTEM_Detailed_Roles.fltrev"
+    Topic="Content/10-FTEM/AccountsRoles/Roles_Detailed.htm"
+    Reviewers="&lt;saved to disk&gt;"
+    SendDate="2018-06-26T15:34:45.2579422-07:00" />
+  <SentItem
+    File="FTEM_Detailed_Roles.fltrev"
+    Topic="Content/Resources/Snippets/FTEM/Ftem roles.flsnp"
+    Reviewers="&lt;saved to disk&gt;"
+    SendDate="2018-06-26T15:34:45.2584379-07:00" />
 </MadCapSentItems>
