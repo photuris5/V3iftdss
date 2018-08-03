@@ -11,7 +11,6 @@
     <Map Name="DeveloperTools" Link="/Content/00-AboutIFTDSS/Developers/DeveloperTools.htm" />
     <Map Name="SystemAdmin" Link="/Content/00-AboutIFTDSS/Developers/SystemAdmin.htm" />
     <Map Name="AccountSetup" Link="/Content/00-Concepts/Accounts/AccountSetup.htm" />
-    <Map Name="Alerts" Link="/Content/00-Concepts/Alerts.htm" />
     <Map Name="GettingHelp" Link="/Content/00-Concepts/GettingHelp.htm" />
     <Map Name="NavigatingIFTDSS" Link="/Content/00-Concepts/NavigatingIFTDSS.htm" />
     <Map Name="UserProfiles" Link="/Content/00-Concepts/Accounts/UserProfiles.htm" />
@@ -23,15 +22,15 @@
     <Map Name="LCPInfo" Link="/Content/10-MapStudio/Files/LCPInfo.htm" />
     <Map Name="ShapefileInfo" Link="/Content/10-MapStudio/Files/ShapefileInfo.htm" />
     <Map Name="AddReferenceData" Link="/Content/10-MapStudio/Functions/AddReferenceData.htm" />
-    <Map Name="FlamMapBackground" Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" />
+    <Map Name="FlamMapBackground" Link="/Content/20-Models/FlamMap/LFBTechDoc.htm" />
     <Map Name="FlamMapCrowns" Link="/Content/20-Models/FlamMap/FlamMapCrowns.htm" />
-    <Map Name="FlamMapInput" Link="/Content/20-Models/FlamMap/FlamMapInput.htm" />
-    <Map Name="FlamMapOutput" Link="/Content/20-Models/FlamMap/FlamMapOutput.htm" />
+    <Map Name="FlamMapInput" Link="/Content/20-Models/FlamMap/LFBInput.htm" />
+    <Map Name="FlamMapOutput" Link="/Content/20-Models/FlamMap/LFBOutput.htm" />
     <Map Name="MyWorkspaceAbout" Link="/Content/10-MyWorkspace/MyWorkspaceAbout.htm" />
     <Map Name="ImplementationPlanAbout" Link="/Content/10-PlanningCycle/ImplementationPlanAbout.htm" />
     <Map Name="LandEvalAbout" Link="/Content/10-PlanningCycle/LandEvalAbout.htm" />
     <Map Name="LandscapeEditAbout" Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
-    <Map Name="LandscapeFireBhvrAbout" Link="/Content/20-Models/FlamMap/LandscapeFireBhvrAbout.htm" />
+    <Map />
     <Map Name="LandSummaryAbout" Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/10-PlanningCycle/PlanningCycleAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/10-PlanningCycle/MonitoringAbout.htm" />
@@ -52,7 +51,7 @@
     <Map Name="ConsumeOut" Link="/Content/20-Models/FFT/ConsumeOut.htm" />
     <Map Name="DigitalPhotoSeries" Link="/Content/20-Models/FFT/DigitalPhotoSeries.htm" />
     <Map Name="FEPS" Link="/Content/20-Models/FFT/FEPS.htm" />
-    <Map Name="FlamMapAbout" Link="/Content/20-Models/FlamMap/FlamMapAbout.htm" />
+    <Map Name="FlamMapAbout" Link="/Content/20-Models/FlamMap/LFBAbout.htm" />
     <Map Name="FBFMHeatValues" Link="/Content/00-Concepts/FBFM/FBFMHeatValues.htm" />
     <Map Name="KnownIssues" Link="/Content/00-AboutIFTDSS/KnownIssues.htm" />
     <Map Name="EditTools" Link="/Content/10-MapStudio/Functions/EditTools.htm" />
@@ -105,7 +104,7 @@
     <Map Name="Resources" Link="/Content/41-References/Resources.htm" />
     <Map Name="myworkspace_folders_hh" Link="/Content/50-Hover/MyWorkspace/myworkspace_folders_hh.htm" />
     <Map Name="_3_Edit" Link="/Content/40-Tutorials/CompareFeature/3_Edit.htm" />
-    <Map Name="FireBehavior" Link="/Content/20-Models/FlamMap/FlamMapAbout.htm" />
+    <Map Name="FireBehavior" Link="/Content/20-Models/FlamMap/LFBAbout.htm" />
     <Map Name="ModelingPlayground" Link="/Content/20-Models/ModelsOverview.htm" />
     <Map Name="AccountSetup1" Link="/Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Map Name="FTEMAbout1" Link="/Content/10-FTEM/FTEMAbout.htm" />

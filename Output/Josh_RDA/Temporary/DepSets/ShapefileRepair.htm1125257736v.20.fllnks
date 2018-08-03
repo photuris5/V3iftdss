@@ -8,41 +8,41 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/layer_list/shapefile_save1_2.png" />
+      Url="Content/Resources/Images/MapStudio/layer_list/shapefile_save1_2.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_repair/polygon_select.png" />
     <Link
-      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_repair/polygon_vertexdelete.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_extent.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_edittools_extent.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_polygon.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_edittools_polygon.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_edittools_freehand.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/filling_holes.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/filling_holes.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/layer_list/shapefile_save1_2.png" />
+      Url="Content/Resources/Images/MapStudio/layer_list/shapefile_save1_2.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_editTools.png" />
     <Link
-      Url="Content/Resources/Images/shapefile_repair/polygon_select.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_repair/polygon_select.png" />
     <Link
-      Url="Content/Resources/Images/shapefile_repair/polygon_vertexdelete.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_repair/polygon_vertexdelete.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_extent.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_edittools_extent.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_polygon.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_edittools_polygon.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_edittools_freehand.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_edittools_freehand.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/filling_holes.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/filling_holes.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

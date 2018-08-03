@@ -6,19 +6,19 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/myworkspace/flammap_open.png" />
+      Url="Content/Resources/Images/MyWorkspace/flammap_open.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/flammap_selectfile.png" />
+      Url="Content/Resources/Images/MyWorkspace/flammap_selectfile.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/flammap_landscape.png" />
+      Url="Content/Resources/Images/MyWorkspace/flammap_landscape.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/myworkspace/flammap_open.png" />
+      Url="Content/Resources/Images/MyWorkspace/flammap_open.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/flammap_selectfile.png" />
+      Url="Content/Resources/Images/MyWorkspace/flammap_selectfile.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/flammap_landscape.png" />
+      Url="Content/Resources/Images/MyWorkspace/flammap_landscape.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

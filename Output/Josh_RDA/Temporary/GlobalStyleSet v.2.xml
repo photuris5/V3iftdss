@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultGlobalStyleCache
-  SavedSource="file:///C:/Users/Josh RDA/Documents/GitHub/v3IFTDSS/Output/Josh_RDA/Temporary/GlobalStyleSet v.2.xml">
+  SavedSource="file:///C:/Users/Josh RDA/Desktop/Current Work Flare/Output/Josh_RDA/Temporary/GlobalStyleSet v.2.xml">
   <Media>
     <Medium
       Name="print" />
@@ -738,8 +738,6 @@
     <Url
       Source="Resources/Stylesheets/MainStyles.css" />
     <Url
-      Source="Resources/Stylesheets/MainStyles_1.css" />
-    <Url
       Source="Resources/Stylesheets/nostyles.css" />
     <Url
       Source="Resources/Stylesheets/NoTopNav.css" />
@@ -764,10 +762,10 @@
     <Url
       Source="Resources/TableStyles/StandardOnDarkBackground.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/xhtml.css" />
+      Source="../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/xhtml.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/MadCapEditor.css" />
+      Source="../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/MadCapEditor.css" />
     <Url
-      Source="../../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
+      Source="../../../../../Program Files/MadCap Software/MadCap Flare 14/Flare.app/Resources/Schemas/MadCapEditorFlare.css" />
   </SourceUrls>
 </CatapultGlobalStyleCache>

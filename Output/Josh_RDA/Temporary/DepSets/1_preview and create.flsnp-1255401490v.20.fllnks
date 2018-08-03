@@ -8,21 +8,21 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/map_studio_explore.png" />
+      Url="Content/Resources/Images/MapStudio/dta_map_studio_explore.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_landscapetools.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/obtain_landscape.png" />
+      Url="Content/Resources/Images/MapStudio/dta_obtain_landscape.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/map_studio_explore.png" />
+      Url="Content/Resources/Images/MapStudio/dta_map_studio_explore.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_landscapetools.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/obtain_landscape.png" />
+      Url="Content/Resources/Images/MapStudio/dta_obtain_landscape.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

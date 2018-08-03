@@ -8,25 +8,25 @@
     <Link
       Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_edit_0_lcp.png" />
+      Url="Content/Resources/Images/DTA/dta_edit_0_lcp.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_edit_rule_save_alternate.png" />
+      Url="Content/Resources/Images/Editing/dta_edit_rule_save_alternate.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_edit_0_lcp.png" />
+      Url="Content/Resources/Images/DTA/dta_edit_0_lcp.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_edit_rule_save_alternate.png" />
+      Url="Content/Resources/Images/Editing/dta_edit_rule_save_alternate.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

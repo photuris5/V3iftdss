@@ -8,11 +8,11 @@
     <Link
       Url="Content/Resources/Stylesheets/NoTopNav.css" />
     <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm" />
+    <Link
       Url="Content/10-FTEM/General/Attachments.htm" />
     <Link
       Url="Content/10-FTEM/General/Symbology.htm" />
-    <Link
-      Url="Content/10-FTEM/General/UsingFtem.htm" />
     <Link
       Url="Content/10-FTEM/FAQs.htm" />
     <Link
@@ -21,6 +21,8 @@
   <LongLinks>
     <Link
       Url="Content/Resources/Stylesheets/NoTopNav.css" />
+    <Link
+      Url="Content/10-FTEM/General/UsingFtem.htm#completionnote" />
     <Link
       Url="Content/10-FTEM/General/Attachments.htm" />
     <Link

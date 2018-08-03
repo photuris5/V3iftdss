@@ -8,17 +8,17 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_overview.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_overview.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/show_mp_ovrvw/overview_tool_1.png" />
+      Url="Content/Resources/Images/MapStudio/show_mp_ovrvw/overview_tool_1.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_overview.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_overview.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/show_mp_ovrvw/overview_tool_1.png" />
+      Url="Content/Resources/Images/MapStudio/show_mp_ovrvw/overview_tool_1.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

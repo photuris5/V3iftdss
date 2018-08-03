@@ -10,9 +10,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/Behavior/incomplete_run_3_14_18.png" />
+      Url="Content/Resources/Images/MapStudio/incomplete_run_3_14_18.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/map_streaks.png" />
+      Url="Content/Resources/Images/Summary/map_streaks.png" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
     <Link
@@ -23,6 +23,8 @@
       Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
     <Link
       Url="Content/Resources/Images/issues_errors/Error_DTA_behaviormodel07122017.png" />
+    <Link
+      Url="Content/Resources/Images/issues_errors/boundary_knownissue.png" />
   </Links>
   <LongLinks>
     <Link
@@ -30,9 +32,9 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/Behavior/incomplete_run_3_14_18.png" />
+      Url="Content/Resources/Images/MapStudio/incomplete_run_3_14_18.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/map_streaks.png" />
+      Url="Content/Resources/Images/Summary/map_streaks.png" />
     <Link
       Url="Content/10-MapStudio/Files/ShapefileRepair.htm" />
     <Link
@@ -43,6 +45,8 @@
       Url="Content/10-MapStudio/Files/SpatialExtent.htm" />
     <Link
       Url="Content/Resources/Images/issues_errors/Error_DTA_behaviormodel07122017.png" />
+    <Link
+      Url="Content/Resources/Images/issues_errors/boundary_knownissue.png" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -80,57 +84,57 @@
       Term="Gaps"
       Conditions=""
       LocalConditions=""
-      Position="42" />
+      Position="43" />
     <IndexCacheEntry
       Term="uploaded shapefiles"
       Conditions=""
       LocalConditions=""
-      Position="43" />
+      Position="44" />
     <IndexCacheEntry
       Term="My Location"
       Conditions="General.Exclude"
       LocalConditions=""
-      Position="51" />
+      Position="53" />
     <IndexCacheEntry
       Term="Navigating"
       Conditions=""
       LocalConditions=""
-      Position="68" />
+      Position="71" />
     <IndexCacheEntry
       Term="Operational Layer"
       Conditions=""
       LocalConditions=""
-      Position="76" />
+      Position="80" />
     <IndexCacheEntry
       Term="Shapefile Save"
       Conditions="General.Exclude"
       LocalConditions=""
-      Position="83" />
+      Position="87" />
     <IndexCacheEntry
       Term="Save"
       Conditions="General.Exclude"
       LocalConditions=""
-      Position="84" />
+      Position="88" />
     <IndexCacheEntry
       Term="Timezone"
       Conditions=""
       LocalConditions=""
-      Position="95" />
+      Position="100" />
     <IndexCacheEntry
       Term="Time"
       Conditions=""
       LocalConditions=""
-      Position="96" />
+      Position="101" />
     <IndexCacheEntry
       Term="Time zone"
       Conditions=""
       LocalConditions=""
-      Position="97" />
+      Position="102" />
     <IndexCacheEntry
       Term="LANDFIR"
       Conditions=""
       LocalConditions=""
-      Position="104" />
+      Position="110" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />

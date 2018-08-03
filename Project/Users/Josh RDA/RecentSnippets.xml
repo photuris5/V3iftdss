@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Snippets/LCPs/LCPinInterface.flsnp" />
     <Url Source="Resources/Snippets/FTEM/Ftem roles.flsnp" />
     <Url Source="Resources/Snippets/MapStudio/Reference_layers.flsnp" />
     <Url Source="Resources/Snippets/FTEM/Attachment_size_type.flsnp" />
     <Url Source="Resources/Snippets/LCPs/max_size.flsnp" />
     <Url Source="Resources/Snippets/LCPs/about_lcps.flsnp" />
     <Url Source="Resources/Snippets/LCPs/lcp table.flsnp" />
+    <Url Source="Resources/Snippets/LFBehavior/ChooseLCP.flsnp" />
 </UrlList>

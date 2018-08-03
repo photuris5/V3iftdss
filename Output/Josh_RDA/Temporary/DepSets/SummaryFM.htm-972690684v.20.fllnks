@@ -8,17 +8,17 @@
     <Link
       Url="Content/Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/OpenReportForFM.png" />
+      Url="Content/Resources/Images/Summary/OpenReportForFM.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/raws_details.png" />
+      Url="Content/Resources/Images/Reports/raws_details.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Content/Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/OpenReportForFM.png" />
+      Url="Content/Resources/Images/Summary/OpenReportForFM.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/raws_details.png" />
+      Url="Content/Resources/Images/Reports/raws_details.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

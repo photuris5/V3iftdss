@@ -8,6 +8,8 @@
     <Link
       Url="Project/Advanced/Source.flfts" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="http://www.firescience.gov/" />
@@ -15,13 +17,13 @@
       Url="Content/pdfs/jfsp_fire_science_digest_7.pdf" />
     <Link
       Url="http://iftdss.sonomatech.com/" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/Advanced/Source.flfts" />
     <Link
+      Url="Project/ConditionTagSets/General.flcts" />
+    <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
       Url="http://www.firescience.gov/" />
@@ -29,14 +31,12 @@
       Url="Content/pdfs/jfsp_fire_science_digest_7.pdf" />
     <Link
       Url="http://iftdss.sonomatech.com/" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
   </LongLinks>
   <Anchors />
   <Keywords>
     <IndexCacheEntry
       Term="About IFTDSS"
-      Conditions=""
+      Conditions="General.Exclude"
       LocalConditions=""
       Position="4" />
   </Keywords>
@@ -47,7 +47,10 @@
     <Variable
       Name="General.ProductName" />
   </Variables>
-  <FileConditions />
+  <FileConditions>
+    <Condition
+      Tag="General.Exclude" />
+  </FileConditions>
   <FileTags>
     <Tag
       Name="Source.IFTDSSV201" />

@@ -10,13 +10,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/myworkspace/workspace_createfolder02062017.png" />
+      Url="Content/Resources/Images/MyWorkspace/workspace_createfolder02062017.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
+      Url="Content/Resources/Images/MyWorkspace/workspace_foldername04182017.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/workspace_seenewfolder04182017.png" />
+      Url="Content/Resources/Images/MyWorkspace/workspace_seenewfolder04182017.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/deletefolder08012017.png" />
+      Url="Content/Resources/Images/MyWorkspace/deletefolder08012017.png" />
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
   </Links>
@@ -26,13 +26,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/myworkspace/workspace_createfolder02062017.png" />
+      Url="Content/Resources/Images/MyWorkspace/workspace_createfolder02062017.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/workspace_foldername04182017.png" />
+      Url="Content/Resources/Images/MyWorkspace/workspace_foldername04182017.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/workspace_seenewfolder04182017.png" />
+      Url="Content/Resources/Images/MyWorkspace/workspace_seenewfolder04182017.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/deletefolder08012017.png" />
+      Url="Content/Resources/Images/MyWorkspace/deletefolder08012017.png" />
     <Link
       Url="Content/Resources/Snippets/ExportRaster.flsnp" />
   </LongLinks>

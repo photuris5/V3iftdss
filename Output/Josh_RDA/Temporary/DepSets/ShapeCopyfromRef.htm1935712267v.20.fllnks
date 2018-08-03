@@ -8,33 +8,33 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/find_shape.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/find_shape.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/prepare_copy.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/prepare_copy.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_add_folder.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_add_folder.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/select_shape.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/select_shape.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/shape_created.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/shape_created.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/find_shape.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/find_shape.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_copy_exstng_ftrs.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/prepare_copy.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/prepare_copy.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_add_folder.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_add_folder.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/select_shape.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/select_shape.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/shape_created.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/shape_created.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

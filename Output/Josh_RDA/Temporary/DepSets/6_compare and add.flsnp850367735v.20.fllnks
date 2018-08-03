@@ -6,55 +6,55 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_compare_lcpchange.png" />
+      Url="Content/Resources/Images/DTA/dta_compare_lcpchange.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_compare_flamelengths.png" />
+      Url="Content/Resources/Images/DTA/dta_compare_flamelengths.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/workspace report.png" />
+      Url="Content/Resources/Images/MyWorkspace/dta_workspace report.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_fuelmodel.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_fuelmodel.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_fuelmodelcharts.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_fuelmodelcharts.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_flamelenths.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_flamelenths.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_flamelenthcharts.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_flamelenthcharts.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_picklcp.png" />
+      Url="Content/Resources/Images/DTA/dta2_picklcp.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_edit_lcp.png" />
+      Url="Content/Resources/Images/DTA/dta2_edit_lcp.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_runmodel.png" />
+      Url="Content/Resources/Images/DTA/dta2_runmodel.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_comparebuttons.png" />
+      Url="Content/Resources/Images/DTA/dta2_comparebuttons.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_compare_lcpchange.png" />
+      Url="Content/Resources/Images/DTA/dta_compare_lcpchange.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_compare_flamelengths.png" />
+      Url="Content/Resources/Images/DTA/dta_compare_flamelengths.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/workspace report.png" />
+      Url="Content/Resources/Images/MyWorkspace/dta_workspace report.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_fuelmodel.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_fuelmodel.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_fuelmodelcharts.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_fuelmodelcharts.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_flamelenths.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_flamelenths.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta_comparereport1_flamelenthcharts.png" />
+      Url="Content/Resources/Images/Reports/dta_comparereport1_flamelenthcharts.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_picklcp.png" />
+      Url="Content/Resources/Images/DTA/dta2_picklcp.png" />
     <Link
       Url="Content/30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_edit_lcp.png" />
+      Url="Content/Resources/Images/DTA/dta2_edit_lcp.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_runmodel.png" />
+      Url="Content/Resources/Images/DTA/dta2_runmodel.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_comparebuttons.png" />
+      Url="Content/Resources/Images/DTA/dta2_comparebuttons.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -12,16 +12,16 @@
             <li>
                 <p>When you are ready to apply this rule select <span class="UIcomponent">Add to Rules</span>.</p>
                 <p>
-                    <img src="../../Images/landscape_edits/create_rules_alternate.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" title="Jump to Edit a Landscape page" class="borderlist">
+                    <img src="../../Images/Editing/create_rules_alternate.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" title="Jump to Edit a Landscape page" class="borderlist">
                     </img>
                 </p>
             </li>
-            <li>When added, the rule will appear in a list at the top of page, just under the Starting Landscape field, and the order will be noted if you have multiple rules. You can delete rules before saving by using the delete button <img src="../../Images/buttons_general/button_delete.png" alt="delete button" title="Image of the Delete Button"></img> to the right of each rule. Rules are applied top to bottom in the order in which you add them. You may continue to create and apply rules, or name or save your landscape if you are finished.</li>
+            <li>When added, the rule will appear in a list at the top of page, just under the Starting Landscape field, and the order will be noted if you have multiple rules. You can delete rules before saving by using the delete button <img src="../../Images/ButtonsGeneral/button_delete.png" alt="delete button" title="Image of the Delete Button"></img> to the right of each rule. Rules are applied top to bottom in the order in which you add them. You may continue to create and apply rules, or name or save your landscape if you are finished.</li>
             <li>Give your landscape a descriptive name so you will know what edits were made, and click the <span class="UIcomponent">Save New Landscape</span> button.</li>
             <li>
                 <p>You will see a confirmation that your landscape has been saved.</p>
                 <p>
-                    <img src="../../Images/treatment_compare/user_rule_saving.png" alt="name your edited landscape when finished and save." class="borderlist">
+                    <img src="../../Images/DTA/user_rule_saving.png" alt="name your edited landscape when finished and save." class="borderlist">
                     </img>
                 </p>
             </li>

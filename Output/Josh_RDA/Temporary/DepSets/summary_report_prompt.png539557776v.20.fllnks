@@ -13,7 +13,16 @@
   <IndexControlNames />
   <Variables />
   <FileConditions />
-  <FileTags />
+  <FileTags>
+    <Tag
+      Name="Images.Cycle" />
+    <Tag
+      Name="Images.Reports" />
+    <Tag
+      Name="Images.Summary" />
+    <Tag
+      Name="Images.Workspace" />
+  </FileTags>
   <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

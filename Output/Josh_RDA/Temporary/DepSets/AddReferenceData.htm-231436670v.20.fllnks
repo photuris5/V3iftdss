@@ -10,15 +10,15 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_checkbox_mylayers.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_checkbox_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_shapesavailable.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_shapesavailable.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_add_references.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_added_refs_available.png" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/Reference_layers.flsnp" />
   </Links>
@@ -28,15 +28,15 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_mylayers.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_checkbox_mylayers.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_checkbox_mylayers.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_shapesavailable.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_shapesavailable.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_add_references.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_add_references.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/add_layer/add_layers_added_refs_available.png" />
+      Url="Content/Resources/Images/MapStudio/add_layer/add_layers_added_refs_available.png" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/Reference_layers.flsnp" />
   </LongLinks>

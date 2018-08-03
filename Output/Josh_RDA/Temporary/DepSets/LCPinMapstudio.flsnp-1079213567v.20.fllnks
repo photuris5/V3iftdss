@@ -8,33 +8,25 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/mapstudio_createnew.png" />
     <Link
       Url="Content/Resources/Snippets/LCPs/max_size.flsnp" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/lcp_mapstudio_steps.png" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/mapstudio_createnew.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/mapstudio_createnew.png" />
     <Link
       Url="Content/Resources/Snippets/LCPs/max_size.flsnp" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/lcp_mapstudio_steps.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/lcp_mapstudio_steps.png" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" />
   </LongLinks>
   <Anchors />
   <Keywords />
@@ -49,9 +41,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.Exclude" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

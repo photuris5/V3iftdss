@@ -8,13 +8,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/view_shapefile.png" />
+      Url="Content/Resources/Images/MapStudio/view_shapefile.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/view_shapefile.png" />
+      Url="Content/Resources/Images/MapStudio/view_shapefile.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -4,11 +4,11 @@
     </head>
     <body>
         <p>
-            <img src="../../Images/myworkspace/workspace_foldername04182017.png" title="Jump to the 'create work folder' dialogue box " MadCap:mediastyle="@media print { width: 473px;height: 193px; }" alt="The 'create work folder' dialogue box contains a text field to name your folder, and buttons to submit or cancel" class="border" />
+            <img src="../../Images/MyWorkspace/workspace_foldername04182017.png" title="Jump to the 'create work folder' dialogue box " MadCap:mediastyle="@media print { width: 473px;height: 193px; }" alt="The 'create work folder' dialogue box contains a text field to name your folder, and buttons to submit or cancel" class="border" />
         </p>
         <p>Your new folder will now be visible in the <span class="UIcomponent">Folders</span> list.</p>
         <p>
-            <img src="../../Images/myworkspace/workspace_seenewfolder04182017.png" alt="Folders are visible on the left side of the screen in the 'Folders' list" MadCap:mediastyle="@media print { width: 410px;height: 211px; }" title="Jump to folders in My Workspace" class="border" />
+            <img src="../../Images/MyWorkspace/workspace_seenewfolder04182017.png" alt="Folders are visible on the left side of the screen in the 'Folders' list" MadCap:mediastyle="@media print { width: 410px;height: 211px; }" title="Jump to folders in My Workspace" class="border" />
         </p>
     </body>
 </html>

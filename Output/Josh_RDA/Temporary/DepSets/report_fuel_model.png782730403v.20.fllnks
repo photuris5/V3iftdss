@@ -13,7 +13,34 @@
   <IndexControlNames />
   <Variables />
   <FileConditions />
-  <FileTags />
+  <FileTags>
+    <Tag
+      Name="Images.Crown" />
+    <Tag
+      Name="Images.Cycle" />
+    <Tag
+      Name="Images.DTA" />
+    <Tag
+      Name="Images.Editing" />
+    <Tag
+      Name="Images.Flammap" />
+    <Tag
+      Name="Images.FuelMoisture" />
+    <Tag
+      Name="Images.LFB" />
+    <Tag
+      Name="Images.MapStudio" />
+    <Tag
+      Name="Images.Playground" />
+    <Tag
+      Name="Images.Reports" />
+    <Tag
+      Name="Images.Summary" />
+    <Tag
+      Name="Images.Wind" />
+    <Tag
+      Name="Images.Workspace" />
+  </FileTags>
   <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

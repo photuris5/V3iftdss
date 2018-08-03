@@ -4,7 +4,7 @@
     </head>
     <body>
         <p>
-            <img src="../../Images/treatment_compare/compare.png" alt="select landscapes from the list to the right of the map to compare them" style="float: right;width: 818px;height: 421px;" class="border" />The <span class="UIcomponent">Compare Alternatives</span> tab lists all the landscapes we have included in the comparison process. Note landscapes that have had fire behavior runs modeled for them are indicated with green checkmarks. </p>
+            <img src="../../Images/DTA/compare.png" alt="select landscapes from the list to the right of the map to compare them" style="float: right;width: 818px;height: 421px;" class="border" />The <span class="UIcomponent">Compare Alternatives</span> tab lists all the landscapes we have included in the comparison process. Note landscapes that have had fire behavior runs modeled for them are indicated with green checkmarks. </p>
         <p>To compare these landscapes, use the checkboxes next to the landscapes you wish to compare:</p>
         <ul>
             <li>Select the checkbox for <span class="Emphasis">two</span> landscapes and model runs you would like to compare

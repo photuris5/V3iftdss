@@ -6,7 +6,7 @@
         <p>Now that you have a baseline data for the landscape and fire behavior, and specific areas for which you’d like to propose treatments, you’ll move on to the Develop Treatment Alternatives workflow. This task is under the <span class="UIcomponent">Strategic Planning</span> stage of the <span class="UIcomponent">Cycle</span>. Here you will develop and compare fuels treatment alternatives so you can determine how changes in the fuels characteristics affect fire behavior outputs.</p>
         <p>Start by selecting the <span class="UIcomponent">Develop Treatment Alternatives</span> task.</p>
         <p>
-            <img src="../../Images/granite_crk_dta/DTA_Task.png" alt="select the 'develop treatment alternatives' task from the 'strategic planning' stage of the planning cycle" class="border">
+            <img src="../../Images/Cycle/DTA_Task.png" alt="select the 'develop treatment alternatives' task from the 'strategic planning' stage of the planning cycle" class="border">
             </img>
         </p>
         <p>The Develop Treatment Alternatives screen contains five tabs, or steps. You'll proceed through each one using the steps below.</p>
@@ -16,7 +16,7 @@
             <li>
                 <p>Select the AOI created earlier in <MadCap:variable name="General.MapStudio" /> (Granite Creek Proposed Treatment Areas). This will constrain the analysis to the treatment areas. If Area of Interest was left blank, the analysis would be applied to the entire landscape.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_pick_landscape.png" class="borderlist">
+                    <img src="../../Images/DTA/dta_pick_landscape.png" class="borderlist">
                     </img>
                 </p>
                 <p>Notice the Right Hand Panel has some good information regarding how to use the landscapes correctly in this task. Make it a point to read through these panels for each page, they contain really helpful information.</p>
@@ -25,7 +25,7 @@
         <h3>Edit the landscape to simulate treatment scenarios</h3>
         <p>Next, move to the <span class="UIcomponent">Edit Landscape</span> tab, where you'll select a Default Fuels Treatment rule, and apply it to the&#160;AOI to simulate a thin and pile burn. This will create a version of your landscape with edits applied to your areas of interest. Later, you'll see how this proposed treatment affects fire behavior. To create the edited landscape: </p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Select the "Granite Creek LF2014 unedited" landscape as your starting landscape. If you'd like to see your selected landscape while editing, click the <span class="UIcomponent">Split Screen</span> <img src="../../Images/buttons_general/button_showsplitmap.png" alt="split" class="iftbutton" /> button in the top left.</li>
+            <li>Select the "Granite Creek LF2014 unedited" landscape as your starting landscape. If you'd like to see your selected landscape while editing, click the <span class="UIcomponent">Split Screen</span> <img src="../../Images/ButtonsGeneral/button_showsplitmap.png" alt="split" class="iftbutton" /> button in the top left.</li>
             <li>Click <span class="UIcomponent">Add Default Fuels Treatment/Disturbance Edit Rule</span> to display editing options.</li>
             <li>
                 <p>Click <span class="UIcomponent">Thin: Slash Removed</span>, then select the "Light Thinning; Pile Burning" option.</p>
@@ -39,21 +39,21 @@
             <li>
                 <p>Click the <span class="UIcomponent">Add to Rules</span> button.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" class="borderlist" />
+                    <img src="../../Images/DTA/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" class="borderlist" />
                 </p>
                 <p>This rule will mimic thinning the AOI to about 80% present density by removing understory up to 8” DBH, with subsequent pile burning of thinned material. This information appears if you&#160;hover over the "Light Thinning: Pile Burning" option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance Topic</a> of the Help Center.</p>
             </li>
             <li>
-                <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">delete</span> <img src="../../Images/buttons_general/button_delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
+                <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">delete</span> <img src="../../Images/ButtonsGeneral/button_delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/edit_confirmation.png" alt="a green edit confirmation box appears when a rule is added. " class="borderlist" />
+                    <img src="../../Images/Editing/dta_edit_confirmation.png" alt="a green edit confirmation box appears when a rule is added. " class="borderlist" />
                 </p>
                 <p>Later, you'll also mimic a broadcast burn after the thin and pile. While you&#160;could create a second rule that would be applied after the first (See the <a href="../../../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Consideration help topic</a> for more details on these), you'll apply one at a time so its easier to track the results of the rule on the landscape.  It’s always a good idea to assess your landscape after editing to ensure the rule been applied correctly and the result makes sense.</p>
             </li>
             <li>
-                <p>To finalize and create your edited landscape, scroll to the bottom of the editing page, input a landscape name that is representative of the edits (GC14_Lt_Thn_Pilebrn_1yr), and click <span class="UIcomponent">Save New Landscape</span>.</p>
+                <p>To finalize and create your edited landscape, scroll to the bottom of the editing page, input a landscape name that is representative of the edits (GC14 Lt Thn Pilebrn 1yr), and click <span class="UIcomponent">Save New Landscape</span>.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/edited_lcp_name.png" alt="name and save the new landscape" class="borderlist" />
+                    <img src="../../Images/Editing/dta_edited_lcp_name.png" alt="name and save the new landscape" class="borderlist" />
                 </p>
                 <div class="notificationImportant">
                     <p>Keep the landscape names around 30 characters in length so they run smoothly through the comparison and reporting process within <MadCap:variable name="General.ProductName" />.</p>
@@ -69,7 +69,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Save Inputs</span> at the bottom of the screen and move to the <span class="UIcomponent">Run Model</span> tab.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_model_inputs.png" alt="enter the modeling parameters under the Model Input tab" class="borderlist">
+                    <img src="../../Images/DTA/dta_model_inputs.png" alt="enter the modeling parameters under the Model Input tab" class="borderlist">
                     </img>
                 </p>
             </li>
@@ -81,14 +81,14 @@
             <li>
                 <p>Click <span class="UIcomponent">Run Model</span> next to each landscape.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_run_model.png" alt="click 'run model' next to each landscape you wish to model" class="borderlist">
+                    <img src="../../Images/DTA/dta_run_model.png" alt="click 'run model' next to each landscape you wish to model" class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>Give the models a couple minutes to run. Hit the refresh button to the right of "Run Status"&#160;to see the model status, until both are completed.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/model_run_refresh.png" alt="model runs may take a couple minutes to process" class="borderlist" />
+                    <img src="../../Images/DTA/dta_model_run_refresh.png" alt="model runs may take a couple minutes to process" class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -104,14 +104,14 @@
             <li>
                 <p>Click both <span class="UIcomponent">Create Report</span> buttons.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_compare_1.png" alt="use the 'compare on map' and 'compare in summary report button' to compare results" class="borderlist">
+                    <img src="../../Images/DTA/dta_compare_1.png" alt="use the 'compare on map' and 'compare in summary report button' to compare results" class="borderlist">
                     </img>
                 </p>
             </li>
             <li>
                 <p>Next click the <span class="UIcomponent">Compare on Map</span> button to view results on the map. Wait for the map to appear in splitscreen mode, then&#160;click <span class="UIcomponent">Compare on Map</span> once more and give the caparison layers a few seconds to download.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_compare_1_2.png" alt="click compare on map button" class="borderlist" />
+                    <img src="../../Images/DTA/dta_compare_1_2.png" alt="click compare on map button" class="borderlist" />
                 </p>
             </li>
         </ol>

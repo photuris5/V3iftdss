@@ -4,7 +4,7 @@
     </head>
     <body>
         <ol style="list-style-type: upper-alpha;">
-            <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/mapstudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" />, in <span class="UIcomponent">Create/Edit Shapes</span></li>
+            <li>Click the <span class="UIcomponent">Copy from Existing Features</span> button <img src="../../Images/MapStudio/create_edit_shp/button_copy_exstng_ftrs.png" style="width: 29px; height: 29px;" alt="Copy from Existing Features button" />, in <span class="UIcomponent">Create/Edit Shapes</span></li>
             <li>Make sure the <span class="UIcomponent">Select multipart</span> option is selected, then</li>
             <li>Left mouse click your first polygon, you will notice its color changes from yellow to green. This color will change back to yellow as you selected the other polygons, but the shape is still being saved. </li>
             <li>Left click on polygon two, then three. </li>

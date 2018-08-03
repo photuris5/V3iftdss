@@ -8,7 +8,7 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_adref.png" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/Reference_layers.flsnp" />
   </Links>
@@ -16,7 +16,7 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_adref.png" />
     <Link
       Url="Content/Resources/Snippets/MapStudio/Reference_layers.flsnp" />
   </LongLinks>

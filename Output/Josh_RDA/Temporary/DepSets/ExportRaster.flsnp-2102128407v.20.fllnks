@@ -8,29 +8,29 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_download_start.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_download_start.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_save_confirm.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_save_confirm.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_local_save.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_local_save.png" />
     <Link
       Url="Content/10-MyWorkspace/OpenGeoTif.htm" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_use.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_use.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_download_start.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_download_start.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_save_confirm.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_save_confirm.png" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_local_save.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_local_save.png" />
     <Link
       Url="Content/10-MyWorkspace/OpenGeoTif.htm" />
     <Link
-      Url="Content/Resources/Images/myworkspace/raster_use.png" />
+      Url="Content/Resources/Images/MyWorkspace/raster_use.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -8,13 +8,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/location.png" />
+      Url="Content/Resources/Images/MapStudio/dta_location.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/location.png" />
+      Url="Content/Resources/Images/MapStudio/dta_location.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

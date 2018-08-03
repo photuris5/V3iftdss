@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CatapultAliasFile>
     <Map Name="Home" Link="home.htm" ResolvedId="1000" />
-    <Map Name="AboutIFTDSS" Link="00-aboutiftdss/aboutiftdss.htm" ResolvedId="1001" />
     <Map Name="Disclaimer" Link="00-aboutiftdss/disclaimer.htm" ResolvedId="1002" />
     <Map Name="FBFMFuelMoistures" Link="00-concepts/fbfm/fbfmfuelmoistures.htm" ResolvedId="1014" />
     <Map Name="UsingMyData" Link="00-concepts/usingmydata.htm" ResolvedId="1019" />
@@ -19,15 +18,14 @@
     <Map Name="LCPInfo" Link="10-mapstudio/files/lcpinfo.htm" ResolvedId="1034" />
     <Map Name="ShapefileInfo" Link="10-mapstudio/files/shapefileinfo.htm" ResolvedId="1035" />
     <Map Name="AddReferenceData" Link="10-mapstudio/functions/addreferencedata.htm" ResolvedId="1037" />
-    <Map Name="FlamMapBackground" Link="20-models/flammap/flammapbackground.htm" ResolvedId="1060" />
+    <Map Name="FlamMapBackground" Link="20-models/flammap/lfbtechdoc.htm" ResolvedId="1060" />
     <Map Name="FlamMapCrowns" Link="20-models/flammap/flammapcrowns.htm" ResolvedId="1061" />
-    <Map Name="FlamMapInput" Link="20-models/flammap/flammapinput.htm" ResolvedId="1062" />
-    <Map Name="FlamMapOutput" Link="20-models/flammap/flammapoutput.htm" ResolvedId="1063" />
+    <Map Name="FlamMapInput" Link="20-models/flammap/lfbinput.htm" ResolvedId="1062" />
+    <Map Name="FlamMapOutput" Link="20-models/flammap/lfboutput.htm" ResolvedId="1063" />
     <Map Name="MyWorkspaceAbout" Link="10-myworkspace/myworkspaceabout.htm" ResolvedId="1066" />
     <Map Name="ImplementationPlanAbout" Link="10-planningcycle/implementationplanabout.htm" ResolvedId="1073" />
     <Map Name="LandEvalAbout" Link="10-planningcycle/landevalabout.htm" ResolvedId="1081" />
     <Map Name="LandscapeEditAbout" Link="30-tasks/lndscpedit/landscapeeditabout.htm" ResolvedId="1083" />
-    <Map Name="LandscapeFireBhvrAbout" Link="20-models/flammap/landscapefirebhvrabout.htm" ResolvedId="1084" />
     <Map Name="LandSummaryAbout" Link="30-tasks/summaries/landsummaryabout.htm" ResolvedId="1086" />
     <Map Name="PlanningCycleAbout" Link="10-planningcycle/planningcycleabout.htm" ResolvedId="1017" />
     <Map Name="MonitoringAbout" Link="10-planningcycle/monitoringabout.htm" ResolvedId="1093" />
@@ -40,7 +38,7 @@
     <Map Name="Measurements" Link="10-mapstudio/functions/measurements.htm" ResolvedId="1045" />
     <Map Name="SimulationTools" Link="10-mapstudio/functions/simulationtools.htm" ResolvedId="1046" />
     <Map Name="ModelsOverview" Link="20-models/modelsoverview.htm" ResolvedId="1050" />
-    <Map Name="FlamMapAbout" Link="20-models/flammap/flammapabout.htm" ResolvedId="1059" />
+    <Map Name="FlamMapAbout" Link="20-models/flammap/lfbabout.htm" ResolvedId="1059" />
     <Map Name="FBFMHeatValues" Link="00-concepts/fbfm/fbfmheatvalues.htm" ResolvedId="1015" />
     <Map Name="KnownIssues" Link="00-aboutiftdss/knownissues.htm" ResolvedId="1003" />
     <Map Name="EditTools" Link="10-mapstudio/functions/edittools.htm" ResolvedId="1040" />
@@ -79,7 +77,7 @@
     <Map Name="AccountProfile" Link="00-concepts/accounts/accountprofile.htm" ResolvedId="1178" />
     <Map Name="Resources" Link="41-references/resources.htm" ResolvedId="1182" />
     <Map Name="myworkspace_folders_hh" Link="50-hover/myworkspace/myworkspace_folders_hh.htm" ResolvedId="1190" />
-    <Map Name="FireBehavior" Link="20-models/flammap/flammapabout.htm" ResolvedId="1135" />
+    <Map Name="FireBehavior" Link="20-models/flammap/lfbabout.htm" ResolvedId="1135" />
     <Map Name="ModelingPlayground" Link="20-models/modelsoverview.htm" ResolvedId="1136" />
     <Map Name="AccountSetup1" Link="10-ftem/accountsroles/accountsetup.htm" ResolvedId="1005" />
     <Map Name="FTEMAbout1" Link="10-ftem/ftemabout.htm" ResolvedId="1006" />

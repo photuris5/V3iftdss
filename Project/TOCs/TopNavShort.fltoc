@@ -44,7 +44,7 @@
         </TocEntry>
         <TocEntry
           Title="Calculate Fire Behavior"
-          Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/LFBTechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="Calculate Burn Probability"
           conditions="General.LaterRelease"></TocEntry>
@@ -92,22 +92,22 @@
         Link="/Content/20-Models/ModelsOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="Landscape Fire Behavior"
-        Link="/Content/20-Models/FlamMap/FlamMapAbout.htm">
+        Link="/Content/20-Models/FlamMap/LFBAbout.htm">
         <TocEntry
           Title="Landscape Fire Behavior Overview"
-          Link="/Content/20-Models/FlamMap/FlamMapAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/LFBAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="FlamMap Fire Behavior Inputs"
-          Link="/Content/20-Models/FlamMap/FlamMapInput.htm" />
+          Link="/Content/20-Models/FlamMap/LFBInput.htm" />
         <TocEntry
           Title="FlamMap Fire Behavior Outputs"
-          Link="/Content/20-Models/FlamMap/FlamMapOutput.htm" />
+          Link="/Content/20-Models/FlamMap/LFBOutput.htm" />
         <TocEntry
           Title="Crown Fire Calculation Options"
           Link="/Content/20-Models/FlamMap/FlamMapCrowns.htm" />
         <TocEntry
           Title="Technical Documentation - Landscape Fire Behavior with FlamMap 5.0"
-          Link="/Content/20-Models/FlamMap/FlamMapBackground.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/20-Models/FlamMap/LFBTechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Fire Behavior Fuel Models"

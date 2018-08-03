@@ -15,7 +15,7 @@
             <li>
                 <p>Click the <span class="UIcomponent">Add to Rules</span> button</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" class="borderlist">
+                    <img src="../../Images/DTA/dta_edit_0_lcp.png" alt="using the default edit rules is a quick way to simulate treatments on the landscape" class="borderlist">
                     </img>
                 </p>
             </li>
@@ -27,7 +27,7 @@
             <li>
                 <p>Once the new landscape is saved, a notification will appear at the top of the screen that confirms it has been successfully submitted. From here you can continue the next steps in the comparison process, or select and edit another landscape.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/dta_edit_rule_save_alternate.png" alt="you will recieve a message confirming your edit rule has been saved" class="borderlist">
+                    <img src="../../Images/Editing/dta_edit_rule_save_alternate.png" alt="you will recieve a message confirming your edit rule has been saved" class="borderlist">
                     </img>
                 </p>
             </li>

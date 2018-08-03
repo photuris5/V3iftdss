@@ -16,7 +16,7 @@
         </ul>
         <p>You'll use <MadCap:variable name="General.ProductName" /> to plan a treatment around these objectives.</p>
         <p>
-            <img src="../../Images/granite_crk_dta/location.png" alt="granite creek is about 26 miles northeast from Boise Idaho" class="border" MadCap:mediastyle="@media print { width: auto; }" />
+            <img src="../../Images/MapStudio/dta_location.png" alt="granite creek is about 26 miles northeast from Boise Idaho" class="border" MadCap:mediastyle="@media print { width: auto; }" />
         </p>
     </body>
 </html>

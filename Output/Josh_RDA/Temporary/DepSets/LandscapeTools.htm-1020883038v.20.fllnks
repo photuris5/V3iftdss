@@ -10,17 +10,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscapetools_add.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add2.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscapetools_add2.png" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" />
   </Links>
   <LongLinks>
     <Link
@@ -28,17 +24,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscapetools_add.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/lcp_tools/landscapetools_add2.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscapetools_add2.png" />
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_submitted_confirmation.png" />
-    <Link
-      Url="Project/ConditionTagSets/General.flcts" />
-    <Link
-      Url="Content/Resources/Images/lcp_gen_smmry/landscape_created_confirmation.png" />
+      Url="Content/Resources/Images/MapStudio/lcp_tools/landscape_submitted_confirmation.png" />
   </LongLinks>
   <Anchors />
   <Keywords>
@@ -59,9 +51,6 @@
   </Variables>
   <FileConditions />
   <FileTags />
-  <AllConditions>
-    <Condition
-      Tag="General.DeveloperNotes" />
-  </AllConditions>
+  <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

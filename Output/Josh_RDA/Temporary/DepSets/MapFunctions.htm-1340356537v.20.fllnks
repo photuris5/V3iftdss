@@ -8,75 +8,75 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/map_1_29_18.png" />
+      Url="Content/Resources/Images/MapStudio/overview/map_1_29_18.png" />
     <Link
       Url="Content/10-MapStudio/Functions/SearchESRI.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_zoomin.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_zoomin.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_zoomout.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_zoomout.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_defaultextent.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_defaultextent.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_Location.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_Location.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LocationButton.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_identify.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Identify.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_filter.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_filter.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Filter.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_slider.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Swipe.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_overview.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_overview.png" />
     <Link
       Url="Content/10-MapStudio/Functions/ShowMapOverview.htm" />
     <Link
       Url="Content/10-MapStudio/Functions/GetCoordinates.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_layers.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_layers.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_layerlist.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_adref.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_addshapefile.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LandscapeTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_SimOutput.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_SimOutput.png" />
     <Link
       Url="Content/10-MapStudio/Functions/SimulationTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Content/10-MapStudio/Functions/EditTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_basemapglry.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_basemapglry.png" />
     <Link
       Url="Content/10-MapStudio/Functions/BasemapGallery.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_measurement.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_measurement.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Measurements.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_add_graphic.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_add_graphic.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddGraphic.htm" />
   </Links>
@@ -84,75 +84,75 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/map_1_29_18.png" />
+      Url="Content/Resources/Images/MapStudio/overview/map_1_29_18.png" />
     <Link
       Url="Content/10-MapStudio/Functions/SearchESRI.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_zoomin.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_zoomin.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_zoomout.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_zoomout.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_defaultextent.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_defaultextent.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_Location.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_Location.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LocationButton.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_identify.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_identify.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Identify.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_filter.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_filter.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Filter.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_slider.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Swipe.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_overview.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_overview.png" />
     <Link
       Url="Content/10-MapStudio/Functions/ShowMapOverview.htm" />
     <Link
       Url="Content/10-MapStudio/Functions/GetCoordinates.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_layers.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_layers.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AttributeTable.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_layerlist.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_layerlist.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_adref.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_adref.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddReferenceData.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_addshapefile.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddShapefile.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_landscapetools.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_landscapetools.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LandscapeTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_SimOutput.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_SimOutput.png" />
     <Link
       Url="Content/10-MapStudio/Functions/SimulationTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/create_edit_shp/button_editTools.png" />
+      Url="Content/Resources/Images/MapStudio/create_edit_shp/button_editTools.png" />
     <Link
       Url="Content/10-MapStudio/Functions/EditTools.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_basemapglry.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_basemapglry.png" />
     <Link
       Url="Content/10-MapStudio/Functions/BasemapGallery.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_measurement.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_measurement.png" />
     <Link
       Url="Content/10-MapStudio/Functions/Measurements.htm" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_add_graphic.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_add_graphic.png" />
     <Link
       Url="Content/10-MapStudio/Functions/AddGraphic.htm" />
   </LongLinks>

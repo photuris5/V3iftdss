@@ -8,7 +8,7 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/legendtooltip.png" />
+      Url="Content/Resources/Images/MapStudio/layer_list/legendtooltip.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </Links>
@@ -16,7 +16,7 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/legendtooltip.png" />
+      Url="Content/Resources/Images/MapStudio/layer_list/legendtooltip.png" />
     <Link
       Url="Content/10-MapStudio/Functions/LayerList.htm" />
   </LongLinks>

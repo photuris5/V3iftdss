@@ -321,3 +321,76 @@ p.MCWebHelpFramesetLink
 	display: none;
 }
 
+.xref
+{
+	color: #2D8DCC;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.xref:hover
+{
+	color: #e67d27;
+}
+
+iframe.youtube-player_0
+{
+	display: inline-block;
+	width: 560px;
+	height: 315px;
+}
+
+.dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+
+.dropDownHotspot
+{
+	color: #404040;
+	text-decoration: none;
+}
+
+.dropDownHotspot:link
+{
+	color: #404040;
+	text-decoration: none;
+}
+
+.dropDownHotspot:hover
+{
+	color: #e67d27;
+}
+
+.MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('file:///C:/Users/Josh RDA/Desktop/Current Work Flare/Content/Resources/Images/droparrowdown.png');
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+.MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
+{
+	background-position: left;
+	background-image: url('file:///C:/Users/Josh RDA/Desktop/Current Work Flare/Content/Resources/Images/droparrowright.png');
+	padding-left: 25px;
+	padding-right: 0;
+}
+
+.dropDownHead
+{
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 10px;
+	line-height: normal;
+	text-decoration: none;
+}
+
+.dropDownBody
+{
+	border-bottom: solid 1px #e67d27;
+}
+

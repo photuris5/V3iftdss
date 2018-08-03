@@ -6,9 +6,9 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
+      Url="Content/Resources/Images/DTA/behavior_from_map03062017.png" />
     <Link
-      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
+      Url="Content/Resources/Images/MapStudio/firebehavior_output08012018.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
@@ -18,17 +18,21 @@
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
+      Url="Content/20-Models/FlamMap/FlamMapWinds.htm" />
+    <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
     <Link
       Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
-      Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
+      Url="Content/Resources/Images/LandscapeFireBehavior/LFB_inputs.png" />
+    <Link
+      Url="Content/Resources/Images/MyPlayground/Saved_input.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/Behavior/behavior_from_map03062017.png" />
+      Url="Content/Resources/Images/DTA/behavior_from_map03062017.png" />
     <Link
-      Url="Content/Resources/Images/Behavior/firebehavior_output03062017.png" />
+      Url="Content/Resources/Images/MapStudio/firebehavior_output08012018.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
@@ -38,11 +42,15 @@
     <Link
       Url="Content/Resources/Snippets/GenerateLandscape/LCPinMapstudio.flsnp" />
     <Link
+      Url="Content/20-Models/FlamMap/FlamMapWinds.htm" />
+    <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
     <Link
       Url="Content/00-Concepts/Estimating Fuel Moistures.htm" />
     <Link
-      Url="Content/Resources/Images/Behavior/add_inputs04072017.png" />
+      Url="Content/Resources/Images/LandscapeFireBehavior/LFB_inputs.png" />
+    <Link
+      Url="Content/Resources/Images/MyPlayground/Saved_input.png" />
   </LongLinks>
   <Anchors>
     <Anchor

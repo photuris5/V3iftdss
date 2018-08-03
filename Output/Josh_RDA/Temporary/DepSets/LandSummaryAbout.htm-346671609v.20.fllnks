@@ -10,19 +10,19 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
+      Url="Content/Resources/Images/Cycle/get_to_summary.png" />
     <Link
       Url="Content/Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Link
       Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/summaryreport.png" />
+      Url="Content/Resources/Images/Reports/summaryreport.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/raws_details.png" />
+      Url="Content/Resources/Images/Reports/raws_details.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/download_button.png" />
+      Url="Content/Resources/Images/Reports/download_button.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/printsummary.png" />
+      Url="Content/Resources/Images/Summary/printsummary.png" />
     <Link
       Url="Content/Resources/Snippets/LandscapeSummary/Auto97.flsnp" />
   </Links>
@@ -32,19 +32,19 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/get_to_summary.png" />
+      Url="Content/Resources/Images/Cycle/get_to_summary.png" />
     <Link
       Url="Content/Resources/Snippets/LandscapeSummary/GenerateLandscapeSummary.flsnp" />
     <Link
       Url="Content/30-Tasks/Summaries/Auto97Summary.htm" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/summaryreport.png" />
+      Url="Content/Resources/Images/Reports/summaryreport.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/raws_details.png" />
+      Url="Content/Resources/Images/Reports/raws_details.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/download_button.png" />
+      Url="Content/Resources/Images/Reports/download_button.png" />
     <Link
-      Url="Content/Resources/Images/landscapesumm/printsummary.png" />
+      Url="Content/Resources/Images/Summary/printsummary.png" />
     <Link
       Url="Content/Resources/Snippets/LandscapeSummary/Auto97.flsnp" />
   </LongLinks>

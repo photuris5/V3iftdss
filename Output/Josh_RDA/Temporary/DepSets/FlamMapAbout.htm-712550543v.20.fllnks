@@ -8,9 +8,9 @@
     <Link
       Url="https://youtu.be/31Gb1Tgzcyk" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
+      Url="Content/20-Models/FlamMap/LFBInput.htm" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
+      Url="Content/20-Models/FlamMap/LFBOutput.htm" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
     <Link
@@ -38,9 +38,9 @@
     <Link
       Url="https://youtu.be/31Gb1Tgzcyk" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapInput.htm" />
+      Url="Content/20-Models/FlamMap/LFBInput.htm" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapOutput.htm" />
+      Url="Content/20-Models/FlamMap/LFBOutput.htm" />
     <Link
       Url="Content/20-Models/FlamMap/FlamMapCrowns.htm" />
     <Link
@@ -87,10 +87,15 @@
       LocalConditions=""
       Position="6" />
     <IndexCacheEntry
-      Term="FlamMap"
+      Term="LFB"
       Conditions=""
       LocalConditions=""
       Position="7" />
+    <IndexCacheEntry
+      Term="FlamMap"
+      Conditions=""
+      LocalConditions=""
+      Position="8" />
   </Keywords>
   <Concepts />
   <ConceptControlNames />

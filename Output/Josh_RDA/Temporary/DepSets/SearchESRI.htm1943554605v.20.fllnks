@@ -8,17 +8,17 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/search/esri_search_box.png" />
+      Url="Content/Resources/Images/MapStudio/search/esri_search_box.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/search/esri_search_example.png" />
+      Url="Content/Resources/Images/MapStudio/search/esri_search_example.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/search/esri_search_box.png" />
+      Url="Content/Resources/Images/MapStudio/search/esri_search_box.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/search/esri_search_example.png" />
+      Url="Content/Resources/Images/MapStudio/search/esri_search_example.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

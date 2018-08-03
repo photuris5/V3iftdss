@@ -13,7 +13,20 @@
   <IndexControlNames />
   <Variables />
   <FileConditions />
-  <FileTags />
+  <FileTags>
+    <Tag
+      Name="Images.DTA" />
+    <Tag
+      Name="Images.Editing" />
+    <Tag
+      Name="Images.Flammap" />
+    <Tag
+      Name="Images.FuelMoisture" />
+    <Tag
+      Name="Images.LFB" />
+    <Tag
+      Name="Images.Wind" />
+  </FileTags>
   <AllConditions />
   <Stylesheets />
 </CatapultFileLinkSet>

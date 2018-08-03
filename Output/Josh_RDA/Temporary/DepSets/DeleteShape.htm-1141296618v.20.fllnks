@@ -8,13 +8,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/myworkspace/shapedelete.png" />
+      Url="Content/Resources/Images/MyWorkspace/shapedelete.png" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/myworkspace/shapedelete.png" />
+      Url="Content/Resources/Images/MyWorkspace/shapedelete.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

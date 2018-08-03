@@ -6,43 +6,43 @@
   FilePriority="0">
   <Links>
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_mapcompareflamelength.png" />
+      Url="Content/Resources/Images/DTA/dta2_mapcompareflamelength.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_slider.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_newandoldbehavior.png" />
+      Url="Content/Resources/Images/MapStudio/dta2_newandoldbehavior.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_other_layers.png" />
+      Url="Content/Resources/Images/MapStudio/dta2_other_layers.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_flamelength1.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_flamelength1.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_flamelength2.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_flamelength2.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_fuelmodelcompare1.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_fuelmodelcompare1.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_fuelmodelcompare2.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_fuelmodelcompare2.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_firebehaviorcomparison_end.png" />
+      Url="Content/Resources/Images/Reports/dta2_firebehaviorcomparison_end.png" />
   </Links>
   <LongLinks>
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_mapcompareflamelength.png" />
+      Url="Content/Resources/Images/DTA/dta2_mapcompareflamelength.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_slider.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_slider.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_newandoldbehavior.png" />
+      Url="Content/Resources/Images/MapStudio/dta2_newandoldbehavior.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_other_layers.png" />
+      Url="Content/Resources/Images/MapStudio/dta2_other_layers.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_flamelength1.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_flamelength1.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_flamelength2.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_flamelength2.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_fuelmodelcompare1.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_fuelmodelcompare1.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_report_fuelmodelcompare2.png" />
+      Url="Content/Resources/Images/Reports/dta2_report_fuelmodelcompare2.png" />
     <Link
-      Url="Content/Resources/Images/granite_crk_dta/dta2_firebehaviorcomparison_end.png" />
+      Url="Content/Resources/Images/Reports/dta2_firebehaviorcomparison_end.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

@@ -8,17 +8,17 @@
     <Link
       Url="https://youtu.be/EaYEOFuhOzo" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_addshapefile.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/local_shapefiles.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/shapefile_save1.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/shapefile_save1.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/save_shapefile.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/save_shapefile.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/saved_shp_confirmation.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/saved_shp_confirmation.png" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </Links>
@@ -26,17 +26,17 @@
     <Link
       Url="https://youtu.be/EaYEOFuhOzo" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_addshapefile.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_addshapefile.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/local_shapefiles.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/local_shapefiles.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/shapefile_save1.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/shapefile_save1.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/save_shapefile.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/save_shapefile.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/shapefile_upload/saved_shp_confirmation.png" />
+      Url="Content/Resources/Images/MapStudio/shapefile_upload/saved_shp_confirmation.png" />
     <Link
       Url="Project/ConditionTagSets/General.flcts" />
   </LongLinks>

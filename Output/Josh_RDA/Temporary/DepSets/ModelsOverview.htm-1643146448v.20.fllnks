@@ -8,13 +8,13 @@
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
+      Url="Content/20-Models/FlamMap/LFBAbout.htm" />
   </Links>
   <LongLinks>
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/20-Models/FlamMap/FlamMapAbout.htm" />
+      Url="Content/20-Models/FlamMap/LFBAbout.htm" />
   </LongLinks>
   <Anchors />
   <Keywords />

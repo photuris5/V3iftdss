@@ -8,49 +8,49 @@
     <Link
       Url="https://youtu.be/Pl2XG565VVQ" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_filter.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_filter.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filter_steps.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filter_steps.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filter_checklist.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filter_checklist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filtereditbutton.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filtereditbutton.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filtercheckbutton.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filtercheckbutton.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filterxbutton.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filterxbutton.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filterapply.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filterapply.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filterremove.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filterremove.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filter_shapes_alternative.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filter_shapes_alternative.png" />
   </Links>
   <LongLinks>
     <Link
       Url="https://youtu.be/Pl2XG565VVQ" />
     <Link
-      Url="Content/Resources/Images/mapstudio/overview/button_filter.png" />
+      Url="Content/Resources/Images/MapStudio/overview/button_filter.png" />
     <Link
       Url="Project/VariableSets/General.flvar" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filter_steps.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filter_steps.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filter_checklist.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filter_checklist.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filtereditbutton.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filtereditbutton.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filtercheckbutton.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filtercheckbutton.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filterxbutton.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filterxbutton.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filterapply.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filterapply.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filterremove.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filterremove.png" />
     <Link
-      Url="Content/Resources/Images/mapstudio/filter/filter_shapes_alternative.png" />
+      Url="Content/Resources/Images/MapStudio/filter/filter_shapes_alternative.png" />
   </LongLinks>
   <Anchors />
   <Keywords />

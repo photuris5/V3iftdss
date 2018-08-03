@@ -12,7 +12,7 @@
             <li>
                 <p>Select "Imagery with Labels".</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/map_studio_explore.png" alt="use map studio to explore your area" class="borderlist">
+                    <img src="../../Images/MapStudio/dta_map_studio_explore.png" alt="use map studio to explore your area" class="borderlist">
                     </img>
                 </p>
             </li>
@@ -20,7 +20,7 @@
         <h2>Create the Landscape</h2>
         <p>The landscape serves as a starting point for the rest of the analysis. To create a landscape:</p>
         <ol style="list-style-type: upper-alpha;">
-            <li> Click on the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/mapstudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget at the bottom of the screen.</li>
+            <li> Click on the <span class="UIcomponent">Landscape Tools</span> <img src="../../Images/MapStudio/overview/button_landscapetools.png" alt="landscape tools" class="iftbutton" /> widget at the bottom of the screen.</li>
             <li>Select the <span class="UIcomponent">Create New</span> tab to create a new landscape.</li>
             <li> Select <span class="UIcomponent">Draw Mode</span>, then drag across the area you’d like to analyze.  For this example you can follow along by inputting the coordinates below directly into the fields:</li>
             <ul>
@@ -42,7 +42,7 @@
             <li>
                 <p>Once everything looks good, click <span class="UIcomponent">Create</span> and wait  for the landscape to process.</p>
                 <p>
-                    <img src="../../Images/granite_crk_dta/obtain_landscape.png" alt="use the 'Landscape Tools' to add a new landscape" class="borderlist">
+                    <img src="../../Images/MapStudio/dta_obtain_landscape.png" alt="use the 'Landscape Tools' to add a new landscape" class="borderlist">
                     </img>
                 </p>
             </li>
