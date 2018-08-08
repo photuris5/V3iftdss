@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="84" MadCap:lastWidth="1216">
-    <head>
-    </head>
-    <body>
-        <p>A specific attribute for a given cell can only be changed once per editing session. It is the <span class="Emphasis">first</span> edit of an attribute for a cell that affects the change. Subsequent rules that prescribe changes to a cell that has already been changed by a previous rule in the same editing session are  ignored.</p>
-    </body>
-</html>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <body>
-        <div class="notificationImportant">
-            <p>We also include in this project folder a copy of the 'Identifiers.h' file, which IBM uses to link to specific help topics from within the <MadCap:variable name="General.ProductName" /> application. Before the final project is pushed to Github, copy the Identifiers.h file and paste the copy into the output folder.</p>
-        </div>
-    </body>
-</html>

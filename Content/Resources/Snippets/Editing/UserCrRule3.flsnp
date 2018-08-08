@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="62" MadCap:lastWidth="1216">
-    <head>
-    </head>
-    <body>
-        <p>When applying multiple User Created Edit Rules, the selection criteria cannot be contingent on another change that is being made in the same editing session.</p>
-    </body>
-</html>

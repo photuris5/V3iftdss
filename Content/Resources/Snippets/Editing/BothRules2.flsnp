@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="84" MadCap:lastWidth="1216">
-    <head>
-    </head>
-    <body>
-        <p>When Default Fuels Treatment / Disturbance Edit rules and User Created Edit rules are applied to areas that do not spatially overlap (i.e., are applied to spatially distinct <a href="../../../10-MapStudio/Files/ShapefileInfo.htm#AreasOfInterest" target="_blank">Landscape Masks</a>) all rules will be retained.</p>
-    </body>
-</html>
