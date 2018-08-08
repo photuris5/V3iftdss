@@ -2,10 +2,10 @@
 <RecentLinks>
     <Dialog Name="B3.XmlTextKit.MultimediaGeneralDialogPage" />
     <Dialog Name="B3.XmlMdiEditorKit.ImageGeneralDialogPage">
-        <Link Value="C:\Users\Josh RDA\Documents\GitHub\v3IFTDSS\Content\Resources\Images\MapStudio\firebehavior_output03062017.png" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\V3iftdssHelp\Content\Resources\Images\MapStudio\buffering_edits_1.png" />
     </Dialog>
     <Dialog Name="B3.XmlTextKit.InsertHyperlinkDialog">
-        <Link Value="C:\Users\Josh RDA\Desktop\Current Work Flare\Content\30-Tasks\CreateLCP\LCPCreateFromButton.htm" />
+        <Link Value="C:\Users\Josh RDA\Documents\GitHub\V3iftdssHelp\Content\10-MapStudio\Files\LCPInfo.htm" />
     </Dialog>
     <Dialog Name="B3.CatapultProjectUserInterfaceKit.InsertSnippetDialog">
         <Link Value="C:\Users\Josh RDA\Desktop\Current Work Flare\Content\Resources\Snippets\LCPs\LCPinInterface.flsnp" />

@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UrlList>
+    <Url Source="Resources/Images/MapStudio/buffering_edits_1.png" />
+    <Url Source="Resources/Images/MyWorkspace/NoBufferLandscapes.png" />
+    <Url Source="Resources/Images/MapStudio/BufferedLandscape.png" />
+    <Url Source="Resources/Images/MapStudio/overview/button_layerlist.png" />
+    <Url Source="Resources/Images/MapStudio/shapefile_upload/saved_shp_confirmation.png" />
+    <Url Source="Resources/Images/MapStudio/shapefile_upload/shapefile_save1.png" />
     <Url Source="Resources/Images/MyPlayground/Saved_input.png" />
     <Url Source="Resources/Images/LandscapeFireBehavior/LFB_picklandscape.png" />
     <Url Source="Resources/Images/FTEM/noncore_userlist.png" />
@@ -14,10 +20,4 @@
     <Url Source="Resources/Images/FTEM/monitoring.png" />
     <Url Source="Resources/Images/FTEM/treatments.png" />
     <Url Source="Resources/Images/FTEM/pickwildfire.png" />
-    <Url Source="Resources/Images/FTEM/ftem_rhp.png" />
-    <Url Source="Resources/Images/FTEM/email_nonfed_view_nonfedagency.png" />
-    <Url Source="Resources/Images/GetStarted/cutandpastepassword.png" />
-    <Url Source="Resources/Images/GetStarted/forgotpassword.png" />
-    <Url Source="Resources/Images/GetStarted/password_reset.png" />
-    <Url Source="Resources/Images/ErrorsIssues/boundary_knownissue.png" />
 </UrlList>

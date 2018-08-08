@@ -321,25 +321,6 @@ p.MCWebHelpFramesetLink
 	display: none;
 }
 
-.xref
-{
-	color: #2D8DCC;
-	font-weight: bold;
-	text-decoration: underline;
-}
-
-.xref:hover
-{
-	color: #e67d27;
-}
-
-iframe.youtube-player_0
-{
-	display: inline-block;
-	width: 560px;
-	height: 315px;
-}
-
 .dropDown
 {
 	margin-bottom: 6px;
@@ -366,7 +347,7 @@ iframe.youtube-player_0
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('file:///C:/Users/Josh RDA/Desktop/Current Work Flare/Content/Resources/Images/droparrowdown.png');
+	background-image: url('file:///C:/Users/Josh RDA/Documents/GitHub/V3iftdssHelp/Content/Resources/Images/droparrowdown.png');
 	padding-left: 25px;
 	padding-right: 0;
 }
@@ -374,7 +355,7 @@ iframe.youtube-player_0
 .MCDropDown_Closed .MCDropDownHotSpot_.MCHotSpotImage
 {
 	background-position: left;
-	background-image: url('file:///C:/Users/Josh RDA/Desktop/Current Work Flare/Content/Resources/Images/droparrowright.png');
+	background-image: url('file:///C:/Users/Josh RDA/Documents/GitHub/V3iftdssHelp/Content/Resources/Images/droparrowright.png');
 	padding-left: 25px;
 	padding-right: 0;
 }

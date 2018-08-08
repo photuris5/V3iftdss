@@ -9,7 +9,7 @@
         <p>To retain your uploaded shapefiles in <MadCap:variable name="General.ProductName" /> if you follow the steps below:</p>
         <p>Upload a zipped shapefile, ensure you select which attributes you would like to include (you may choose up to 10).</p>
         <p>
-            <img src="../../Images/mapstudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210px;height: 288px;" />
+            <img src="../../Images/MapStudio/shapefile_save1.png" alt="The 'Add Shapefile' box with specific features checked to be imported" style="width: 210px;height: 288px;" />
         </p>
         <p>When completed, a confirmation message will appear to verify the shapefile has been uploaded</p>
         <p>
