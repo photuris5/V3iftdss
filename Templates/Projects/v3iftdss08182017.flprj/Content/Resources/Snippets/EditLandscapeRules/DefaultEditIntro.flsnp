@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="565" MadCap:lastWidth="2157">
+    <head>
+    </head>
+    <body>
+        <p>Default Fuel Treatment / Disturbance Edit Rules use previously existing LANDFIRE Lookup tables (LFLU) and Fuel Model Lookup (FMLU) tables. The LFLU tables were created in an effort to improve the LANDFIRE fuels layers between versions. The LFLU tables are used to adjust the fuel attributes of cells, including fuel model, canopy cover, stand height, canopy base height, and canopy bulk density, based on the type and intensity of treatment or disturbance and the time that has elapsed since that treatment or disturbance. For more technical details on these rules, visit the <a href="../../../PCLandscapeEval/LandscapeEditTechTopic.htm" target="_blank">Default Edit Rule Technical Documentation Topic</a>.</p>
+        <p>
+            <img src="../../Images/landscape_edits/default_rules.png" alt="default landscape edit rule buttons as described in text" style="width: 984px;height: 366px;" title="Jump to Add Default Fuels Treatment/Disturbance Edit Rules page" />
+        </p>
+    </body>
+</html>

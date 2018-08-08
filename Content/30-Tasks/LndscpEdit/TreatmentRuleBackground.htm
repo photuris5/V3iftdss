@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1938" MadCap:lastWidth="1756">
+    <head>
+    </head>
+    <body>
+        <h1>Landscape Editing - Default Fuel Treatment and Disturbance </h1>
+        <p>In <MadCap:variable name="General.ProductName" /> you may choose to edit your landscape using your own custom rules, or default rules meant to replicate landscape treatments or disturbances. The default rules often have additional options that specify the severity or breadth of the treatment or disturbance. </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Purpose of Default Fuel Treatment / Disturbance Edit Rules</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>In <MadCap:variable name="General.ProductName"></MadCap:variable> you may choose to edit your landscape by adding you own editing rules, or using  Default Fuel Treatment / Disturbance Edit Rules. Default Fuel Treatment and Disturbance Edit Rules use previously existing LANDFIRE Lookup tables (LFLUs) and Fuel Model Lookup (FMLU) tables. The LFLU tables were created in an effort to improve the LANDFIRE fuels layers between versions. The LFLU tables are used to adjust the fuel attributes of cells, including: fuel model, canopy cover, stand height, canopy base height, and canopy bulk density, based on the type and intensity of treatment or disturbance and the time that has elapsed since that treatment or disturbance. The rules work by taking into account Existing Vegetation Type (EVT), Existing Vegetation Cover (EVC), and Existing Vegetation Height (EVH) and then using the LANDFIRE Look Up (LFLU) table as a crosswalk to account for changes in vegetation attributes, based on treatment or disturbance type, intensity and timing. The resulting vegetation is then crosswalked to one of the 40 fuel models.  In the continental US, only 36 of the 40 fuel models are used, the 4 fuel models that aren’t used are 109, 164, 201, and 202. As of now the LFLU rules are not available in AK or HI.</p>
+                <p>
+To streamline the process of making a landscape representative of the current conditions and gaming out potential treatments, the <MadCap:variable name="General.ProductName" /> team has made the LFLU tables available to IFTDSS users. These rules are an improvement over previous methods of landscape edits in that each pixel is updated independently based on EVT, EVC, and EVH. This allows for the rules to apply differently based on the known responses of a particular EVT to a particular disturbance or treatment. A user may apply Default Fuels Treatment / Disturbance Rules based on a mask (polygon) or on the full extent of the landscape. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Below we have outlined the details describing the specific treatment or disturbance details associated with each default rule:</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Thin: Slash Removed</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_LightThinningPileBurn.flsnp" />
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/EditLandscapeRules/Rule_HeavyThinningPileBurning.flsnp" />
+                </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Thin:&#160;Slash Remains</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_ModerateThinningLopScatter.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_ModerateThinningMasticate.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_HeavyThinningMasticate.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Clear Cut</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_ClearcutPrescribedFire.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Wildland Fire</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_Low Severity Fire.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_Moderate Severity Fire.flsnp" />
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Rule_High Severity Fire.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Time Since Disturbance: 1 Year</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Time_1yrSinceDist.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Time Since Disturbance: 2-5 Years</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Time_2_5yrSinceDist.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Time Since Disturbance: 6-10 Years</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <MadCap:snippetBlock src="../../Resources/Snippets/EditLandscapeRules/Time_6_10yrSinceDist.flsnp" />
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Considerations for Using Default Rulesets</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The use of the Default Fuel Treatment or  Disturbance Edit rules can greatly increase the efficiency of your landscape updates, calibrations and projections. To make the best use of these default rules it is critical to have an understanding of how landscape edits are being applied to your landscape. If you are new to an area or are working in an unfamiliar vegetation type, these rules helpful as well because the LFLU tables are using the best current knowledge in relationship to the most representative edits to show fuel attribute changes post treatment/disturbance. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>Visit the <a href="LandscapeEditTechTopic.htm">Landscape Edit Rules Technical Documentation Topic</a> for more details on Landscape Edit Rules</p>
+    </body>
+</html>

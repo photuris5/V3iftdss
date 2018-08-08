@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment="online only"
+    Name="Online"
+    BackgroundColor="#90ee90" />
+  <ConditionTag
+    Comment="print only"
+    Name="PDF"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Exclude"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="shorthelp"
+    Comment="For field-level help text, 1-2 sentences max." />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="LaterRelease"
+    Comment="Content to release later" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="DeveloperNotes"
+    Comment="Developer Notes" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="FTEMInclude"
+    Comment="Put this in the ftem output"
+    OriginalName="FTEMInclude" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="FTEM Exlude"
+    Comment="Leave this out of FTEM Output" />
+</CatapultConditionTagSet>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h2>Comparing the Alternatives </h2>
+        <p>After clicking <span class="UIcomponent">Compare on Map</span>, the map appears in splitscreen mode. This allows you to view information from each tab on the right side of the screen, while allowing you to view my map on the left. You can open or close this feature anytime by selecting the opposing arrows icon at the top of the screen.</p>
+        <p>Initially you'll see a simple landscape change map, indicating which pixels experienced a Fuel Model change post-treatment.</p>
+        <p>
+            <img src="../../Images/DTA/dta_compare_lcpchange.png" alt="the landscape change layer indicates pixels with a new fire behavior fuel model" class="borderlist">
+            </img>
+        </p>
+        <p>To view the change in Flame Length after the treatment, open <span class="UIcomponent">Layer List</span> and check the box next to: "Model Output Change: GC14 Lt Thn Pilebrn 1yr/Granite Creek LF2014 unedited". This layer shows the difference between post-treatment and pre-treatment Flame Lengths. With a glance you can see that all the dark blue showing on those West/Northwest facing slopes that had initially shown very high flame lengths, are now indicating significantly decreased flame lengths and fire intensity. </p>
+        <p>
+            <img src="../../Images/DTA/dta_compare_flamelengths.png" alt="model change layer depicts changes in model results between the two landscapes" class="border">
+            </img>
+        </p>
+        <p>To return to these maps later, you can either access them in your project folder in <span class="UIcomponent">My Workspace</span>, or select this landscape in the <span class="UIcomponent">Develop Treatment Alternatives</span> task, and click through each tab to get back to this point. </p>
+        <p>To access the summary reports, you can either find them in your project folder in <span class="UIcomponent">My Workspace</span>, or click the <span class="UIcomponent">Compare in Summary Report</span> button again and click on the links displayed in the pop-up box.</p>
+        <p>In this case,&#160;go to <span class="UIcomponent">My Workspace</span> and first select "GC14 Lt Thn Pilebrn 1yr/Granite Creek LF2014 unedited - compareLCP...", you may have to hover over the shortened name to display the full name. Once this is selected, click <span class="UIcomponent">View Summary</span>. </p>
+        <p>
+            <img src="../../Images/MyWorkspace/dta_workspace report.png" alt="reports are stored in our project folder in My Workspace" class="border">
+            </img>
+        </p>
+        <p>In the first bar graph, note the acreage for the AOI is displayed. This is a quick way to confirm the Develop Treatment Alternative task and resulting reports were actually run to quantify only the AOI, not the entire landscape.</p>
+        <p>Review the pre- and post-treatment results for each landscape characteristic. These reports have the same quantitative components as the reports you viewed earlier, but they compare the change in acreages in the specified treatment area, or mask, before and after the selected treatment was applied.</p>
+        <p>In the Fuel Model bar graph you can see that green corresponds to pre-treatment fuel models in the treatment area, while blue corresponds to post-treatment. It appears that most of the TL8 acres were changed to TL6 post-treatment. Looking at the tabular data below, you can see that in fact, 59% of the treatment area in now Fuel Model TL6 following this treatment.</p>
+        <p>
+            <img src="../../Images/Reports/dta_comparereport1_fuelmodel.png" alt="fuel models are compared via bar chart and table" class="border">
+            </img>
+        </p>
+        <p>The Fuel Model Percent Difference graph and pie charts tell the same story.</p>
+        <p>
+            <img src="../../Images/Reports/dta_comparereport1_fuelmodelcharts.png" alt="fuel models are compared via change chart and pie chart" class="border">
+            </img>
+        </p>
+        <p>Next, go to <span class="UIcomponent">My Workspace</span> and navigate to the Fire Behavior (Model) Compare Report, "GC14 Lt Thn Pilebrn 1yr/Granite Creek LF2014 unedited - compare model...", and click <span class="UIcomponent">View Report</span>.</p>
+        <p>As in the landscape Compare Report, green correlates to pre-treatment, while blue indicates post-treatment results in the bar chart. You can see from this bar chart that the number of acres in the lower Flame Length bins goes up post-treatment, while the number in the higher Flame Length bins goes down, indicating a decrease in higher Flame Length post-treatment. The table to the right quantitatively supports this, clearly showing the acres shifting toward the lower flame length bins, post-treatment.</p>
+        <p>
+            <img src="../../Images/Reports/dta_comparereport1_flamelenths.png" alt="flame lengths compared via bar chart and table">
+            </img>
+        </p>
+        <p>The Percent Difference Graph for Flame Lengths demonstrates the shift toward lower Flame Lengths post-treatment. You can see the positive percent difference in the 1-4 foot bin, while the bins correlating to higher Flame Lengths indicate a drop in the percent difference. The Pie Charts tell the same story, plainly showing the smaller sections of red/orange/yellow in the post-treatment chart.</p>
+        <p>
+            <img src="../../Images/Reports/dta_comparereport1_flamelenthcharts.png" alt="flame lengths compared via change chart and pie chart">
+            </img>
+        </p>
+        <p>Scroll through the rest of the Fire Behavior Compare Summary Report to view the rest of fire behavior characteristics. </p>
+        <h2>Adding an Additional Treatment to Treatment Alternatives</h2>
+        <p>Now you'll look at the effects of applying a subsequent broadcast burn after the light thinning/pile burning. One of the initial objectives is to re-introduce low intensity fire in this area and  it’s an important step in treating this landscape. Additionally, you can see how this follow-up treatment will affect modeled fire behavior:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Navigate to the Develop Treatment Alternatives workflow again and select the same Originating Landscape and AOI. </li>
+            <li>
+                <p>Navigate&#160;to the <span class="UIcomponent">Edit Landscape </span>tab.</p>
+                <p>
+                    <img src="../../Images/DTA/dta2_picklcp.png" alt="we have picked the same originating landscape and area of interest as before." class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>This time,  choose the landscape with your earlier edits as the Starting Landscape: "GC14 Lt Thn Pilebrn 1yr".</li>
+            <li>Select the <span class="UIcomponent">Wildfire</span> Default Rule.</li>
+            <li>Specify <span class="UIcomponent">Low severity fire</span>. As before, you&#160;can hover over this text or consult the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">help topic</a> page for the detailed explanation of the rule.</li>
+            <li>Select a treatment time of 1 Year.</li>
+            <li>Apply this rule to your "Granite Creek Proposed Treatment Areas" mask.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Add to Rules</span>.</p>
+                <p>
+                    <img src="../../Images/DTA/dta2_edit_lcp.png" class="borderlist" alt="edit the first treatment landscape with a new low severity wildfire rule">
+                    </img>
+                </p>
+            </li>
+            <li>After the rule is added, give the landscape a detailed name (GC14 Lt Thn Pilebrn 1yr Rx 1yr) and click <span class="UIcomponent">Save New Landscape</span>.</li>
+        </ol>
+        <p>Skip the Model Input tab this time, that input was saved from your last run, and the weather parameters must be kept constant in order to compare the results of the landscape changes.</p>
+        <p>Go to the <span class="UIcomponent">Run Model</span> tab and click <span class="UIcomponent">Run Model</span>.</p>
+        <p>
+            <img src="../../Images/DTA/dta2_runmodel.png" alt="use the 'run model' button to model the new landscape" class="border">
+            </img>
+        </p>
+        <p>Next, move to the <span class="UIcomponent">Compare Alternatives </span>tab.</p>
+        <p>Compare the original landscape with this new one by selecting:</p>
+        <ol style="list-style-type: upper-alpha;">
+            <li>"GC14 Lt Thn Pilebrn 1yr Rx 1yr" as landscape "1".</li>
+            <li>Select "Granite Creek LF2014 unedited" as landscape "2".</li>
+            <li>Click <span class="UIcomponent">Compare in Summary Report</span> and initiate those reports.</li>
+            <li>
+                <p>Click <span class="UIcomponent">Compare on map</span>, to get a map view of your changes.</p>
+                <p>
+                    <img src="../../Images/DTA/dta2_comparebuttons.png" alt="first select the new edited landscape, then the original landscape" class="border">
+                    </img>
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

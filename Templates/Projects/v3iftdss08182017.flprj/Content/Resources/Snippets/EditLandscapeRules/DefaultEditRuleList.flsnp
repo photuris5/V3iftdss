@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1205" MadCap:lastWidth="1776">
+    <head>
+    </head>
+    <body>
+        <h2>Landscape Edit Rules</h2>
+        <MadCap:snippetBlock src="Rule_LightThinningPileBurn.flsnp" />
+        <MadCap:snippetBlock src="Rule_HeavyThinningPileBurning.flsnp" />
+        <MadCap:snippetBlock src="Rule_ModerateThinningLopScatter.flsnp" />
+        <MadCap:snippetBlock src="Rule_ModerateThinningMasticate.flsnp" />
+        <MadCap:snippetBlock src="Rule_HeavyThinningMasticate.flsnp" />
+        <MadCap:snippetBlock src="Rule_ClearcutPrescribedFire.flsnp" />
+        <MadCap:snippetBlock src="Rule_Low Severity Fire.flsnp" />
+        <MadCap:snippetBlock src="Rule_Moderate Severity Fire.flsnp" />
+        <MadCap:snippetBlock src="Rule_High Severity Fire.flsnp" />
+        <p style="font-weight: bold;">1 Year Since Disturbance:</p>
+        <MadCap:snippetBlock src="Time_1yrSinceDist.flsnp" />
+        <p style="font-weight: bold;">2-5 Years Since Disturbance:</p>
+        <MadCap:snippetBlock src="Time_2_5yrSinceDist.flsnp" />
+        <p style="font-weight: bold;">6-10 Year Since Disturbance: </p>
+        <MadCap:snippetBlock src="Time_6_10yrSinceDist.flsnp" />
+        <p>You have the option of defining a <span class="UIcomponent">Landscape Mask</span> to apply your rules to. </p>
+        <p>Once you have set your rule, click <span class="UIcomponent">Add to Rules</span>. You may add as many rules as necessary.</p>
+        <div class="notificationImportant">
+            <p>Rules are applied top to bottom, first by Default Fuels Treatment / Disturbance Edit Rules then by User Created Edit Rules. Currently there is no way to order your rules other than by the order in which you enter them, so be deliberate about how you apply rules and in what order you enter them.</p>
+        </div>
+        <MadCap:snippetBlock src="RuleEditReturnWarning.flsnp" />
+    </body>
+</html>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>A <a href="../../../10-MapStudio/Files/LCPInfo.htm" target="_blank">Landscape file (.LCP)</a> is a multi-band raster format commonly used by wildland fire behavior and fire effects models such as FARSITE and FlamMap. The bands of an .LCP file store data describing terrain, tree canopy, and fuel model (outlined in the table below). The .LCP file defines your project area and is the first input needed to run most models in <MadCap:variable name="General.ProductName" />. LCP's generated in <MadCap:variable name="General.ProductName" /> are derived from  <a href="../../../00-Concepts/LANDFIRE.htm" target="_blank">LANDFIRE</a>.</p>
+        <p>Data contained in <MadCap:variable name="General.ProductName" /> LCP files:</p>
+        <MadCap:snippetBlock src="lcp table.flsnp" />
+        <div>
+            <h2>Buffering Around Landscapes</h2>
+            <p>Landscapes created in IFTDSS will be given a 4980 meter (149,400 pixel) buffer, as see below outside of the blue boundary. This buffer is useful in modeling scenarios where you need to work outside of your landscape such as:</p>
+            <ul>
+                <li>Minimum Travel Time (MTT) modeling where you may want to simulate an igition that occurs outside your landscape and burns into it.</li>
+                <li>Modeling Risk/Landscape Probability which requires an ignitions placed outside of a landscape so that a fire burns through the landscape, thereby avoiding erroneous edge effects.</li>
+            </ul>
+            <p>
+                <img src="../../Images/MapStudio/BufferedLandscape.png" alt="landscape with a buffer visibile in all directions beyond the blue landscape boundary line" class="border" />
+            </p>
+            <p>Landscapes created in earlier versions of <MadCap:variable name="General.ProductName" /> (before 9/20/2018) were not assigned a buffer because that feature did not exist yet. These early landscapes will also have blue boundary, but lack the surrounding buffer. They are identified throughout <MadCap:variable name="General.ProductName" /> by the prefix "NB" at the end of the landscape name, or preceding the file type. "NB" indicates "No Buffer". For example, an old landscape that used to be named "Light Thin Pile Burn All" will now appear as "Light Thin Pile Burn All-NB" and be identified as an "NB Landscape" in <span class="UIcomponent">MyWorkspace</span>. </p>
+            <p>
+                <img src="../../Images/MyWorkspace/NoBufferLandscapes.png" alt="Landscape names ending in 'NB' do not have a buffer around them" class="border" />
+            </p>
+            <h3>Editing Buffered Landscapes</h3>
+            <p>Edits will be applied to your landscape as well as this buffer area, this includes landscape edits and edits constrained by an area of interest. However, it is important to note that summary reports generated for your landscape will only include the area inside the blue landscape boundary. If a mask is used in generating a landscape summary, only the area of the mask that intercepts the landscape area is analyzed and included in the report.</p>
+            <p>
+                <img src="../../Images/MapStudio/buffering_edits_1.png" alt="series of edits behaving as described in text." class="border" />
+            </p>
+            <h2>About LCP files in <MadCap:variable name="General.ProductName" /></h2>
+            <p>It is important to know that canopy cover, canopy base height, canopy bulk density, stand height in <MadCap:variable name="General.ProductName" /> refer to <span class="Emphasis">Forest canopy</span> characteristics. If you are working in an area classified as shrub or grass by LANDFIRE, your cover and base height values will be zero. However, when you export LCP&#160;data from <MadCap:variable name="General.ProductName" />, you will have additional layers available, the Existing Vegetation Cover (EVC) and Existing Vegetation Height (EVH) layers. These layers will reflect cover and height data for tree, shrub, and herb lifeforms.</p>
+            <p>There can still be confusing cases, as illustrated by the examples below:</p>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Example:&#160;No canopy cover in an area I&#160;know contains trees</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p><b>Southern New Jersey Coastal Pitch Pine Barrens:</b>
+                    </p>
+                    <p>In <MadCap:variable name="General.ProductName" />, the stand height for much of this area is listed as zero, why are the trees not shown? Exporting the LCP&#160;and examining it in Arcmap, there is an EVH reporting much of the area as pine barrens. However, the EVT for much of the area is classified as a non-forested fuel type. </p>
+                    <p>
+                        <img src="../../Images/GetStarted/lcp_Pinebarren_ex.jpg" class="border" />
+                    </p>
+                    <p>Based on the map zone, EVT, and very short tree heights, this area was classified as a shrub fuel type, which makes sense from a fire behavior perspective, but can be confusing from a vegetative perspective.</p>
+                    <p>
+                        <img src="../../Images/GetStarted/lcp_Pinebarren_ex2.jpg" class="border" />
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Example:&#160;57 foot tall shrubs</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p><b>Blue Water Fire:</b>
+                    </p>
+                    <p>In <MadCap:variable name="General.ProductName" />, much of the area is mapped as Fuel Model 122, a brush fuel model. However, there are stand heights of 7.5 meters, and in some places 17.5 meters. Zooming into the imagery base layer reveals that the area does indeed have some trees with associated stand heights. However, the brush fuel model appears correct from a fire behavior standpoint.</p>
+                    <p>
+                        <img src="../../Images/GetStarted/lcp_fire_ex.jpg" class="border" />
+                    </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+    </body>
+</html>

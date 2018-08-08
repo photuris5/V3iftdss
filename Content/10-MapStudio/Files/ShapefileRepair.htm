@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>How to Edit or Repair Uploaded Shapefiles</h1>
+        <p>When uploading shapefiles with multiple adjoining polygons, <MadCap:variable name="General.ProductName" /> will automatically join the polygons into a single dataset; this process may create erroneous gaps or vertices where these polygons once touched. The steps below outline the process of repairing or cleaning these polygons and re-saving them as a new shapefile. </p>
+        <div class="notificationComingSoon">
+            <p>These occasional gaps in adjoining polygons are a known issue which we will be resolving in a forthcoming version of <MadCap:variable name="General.ProductName" />.</p>
+        </div>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Zooming to Your Shapefile</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ol style="list-style-type: upper-alpha;">
+                    <li> Click the <span class="UIcomponent">More Options</span> button to the right of your shapefile and </li>
+                    <li>
+                        <p>Click the <span class="UIcomponent">Zoom to</span> option. This will zoom to your newly uploaded shapefile.</p>
+                        <p>
+                            <img src="../../Resources/Images/MapStudio/layer_list/shapefile_save1_2.png" alt="use the 'zoom to' option to find your shapefile on the map" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Editing and Saving Your Shapefile</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>To Edit a shapefile:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Open <b>Edit Tools</b><img src="../../Resources/Images/MapStudio/create_edit_shp/button_editTools.png" alt="'edit tools' button" /> from the bottom of <MadCap:variable name="General.MapStudio" />. To  edit only one polygon, choose <span class="UIcomponent">Select Singlepart</span>, or to edit multiple polygons choose <span class="UIcomponent">Select multipart</span>.</li>
+                    <li>
+                        <p>Scroll to the map and double left click  the polygon you intend to edit. This displays the polygon vertices and an editing box.</p>
+                        <p>
+                            <img src="../../Resources/Images/MapStudio/shapefile_repair/polygon_select.png" alt="polygon in edit mode with vertices visible around the perimeter" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>Move a vertex by hovering over it, holding down the left mouse key, and dragging it to the correct position. </li>
+                    <li>
+                        <p>Delete a vertex by hovering over it, right clicking it once, and selecting <span class="UIcomponent">Delete</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/MapStudio/shapefile_repair/polygon_vertexdelete.png" alt="right clicking a vertex will cause the 'delete' option to pop up next to that vertex" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Continue your edits until you are satisfied with your shapefile. </p>
+                    </li>
+                    <li>
+                        <p>When you are finished, save the corrections as a new shapefile by giving it a descriptive name in <span class="UIcomponent">Edit Tools</span>, specify the folder to save the file to, and click <span class="UIcomponent">Create</span>. The new shapefile will now be available in <span class="UIcomponent">My Workspace</span> for use throughout <MadCap:variable name="General.ProductName" />.</p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Filling Holes/Gaps in Your Shapefiles and Saving</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>When zoomed to your shapefile:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>Open <b>Edit Tools</b><img src="../../Resources/Images/MapStudio/create_edit_shp/button_editTools.png" alt="'edit tools' button"></img> from the bottom of <MadCap:variable name="General.MapStudio"></MadCap:variable>.</li>
+                    <li>
+                        <p>Click the<span class="UIcomponent"> extent</span> <img src="../../Resources/Images/MapStudio/create_edit_shp/button_edittools_extent.png" alt="extent"></img> <span class="UIcomponent">polygon</span> <img src="../../Resources/Images/MapStudio/create_edit_shp/button_edittools_polygon.png" alt="polygon button"></img> or <span class="UIcomponent">freehand</span> <img src="../../Resources/Images/MapStudio/create_edit_shp/button_edittools_freehand.png" alt="freehand button"></img> buttons within the <span class="UIcomponent">Edit Tool</span> and draw a small polygon over the hole you wish to fill.</p>
+                        <p>
+                            <img src="../../Resources/Images/MapStudio/create_edit_shp/filling_holes.png" alt="drawing a small shape file over a hole, while in editmode, will fill that hole upon saving" class="borderlist">
+                            </img> </p>
+                    </li>
+                    <li>Upon saving your edits, the smaller polygon will be merged with the larger one, effectively patching the hole.</li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

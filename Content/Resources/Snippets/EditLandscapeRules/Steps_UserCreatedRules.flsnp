@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1604" MadCap:lastWidth="1466">
+    <head>
+    </head>
+    <body>
+        <ol style="list-style-type: upper-alpha;">
+            <li>Choose the <span class="UIcomponent">Starting Landscape</span> you want to edit.</li>
+            <li>Click the <span class="UIcomponent">Add User Created Edit Rule</span> to view the <span class="UIcomponent">Add Landscape Rule</span> options by.</li>
+            <li>Specify the conditions you would like to select in the fields below <span class="UIcomponent">Where these conditions exist</span>. In this example we have selected "Fuel Model" as the Attribute, "is equal to" as the Operator and fire behavior fuel model "165 (TU5)" as the Value. This selected all TU5 fuel modeled areas.</li>
+            <li>Specify the conditions you would like to change by populating the fields below <span class="UIcomponent">Modify the following values</span>. In the example pictured here we have selected "Canopy Cover" as the Attribute, "decrease by" as the Operator, and "5" (for 5 percent) as the Value. For all TU5 fuel modeled areas, the application decreases the canopy cover by 5 percent. </li>
+            <li>The <span class="UIcomponent">Apply to Landscape Mask</span> (optional) drop-down allows you to constrain your edits to the area within a mask of your choosing. When this field is left blank, the edits are applied to the entire landscape.</li>
+            <li>
+                <p>When you are ready to apply this rule select <span class="UIcomponent">Add to Rules</span>.</p>
+                <p>
+                    <img src="../../Images/Editing/create_rules_alternate.png" alt="Adding a landscape edit rule using the dropdown and text fields to specify attributes, operators, modifiers, and values" title="Jump to Edit a Landscape page" class="borderlist">
+                    </img>
+                </p>
+            </li>
+            <li>When added, the rule will appear in a list at the top of page, just under the Starting Landscape field, and the order will be noted if you have multiple rules. You can delete rules before saving by using the delete button <img src="../../Images/ButtonsGeneral/button_delete.png" alt="delete button" title="Image of the Delete Button"></img> to the right of each rule. Rules are applied top to bottom in the order in which you add them. You may continue to create and apply rules, or name or save your landscape if you are finished.</li>
+            <li>Give your landscape a descriptive name so you will know what edits were made, and click the <span class="UIcomponent">Save New Landscape</span> button.</li>
+            <li>
+                <p>You will see a confirmation that your landscape has been saved.</p>
+                <p>
+                    <img src="../../Images/DTA/user_rule_saving.png" alt="name your edited landscape when finished and save." class="borderlist">
+                    </img>
+                </p>
+            </li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <h1>Treatment Interactions and Buffering in FTEM</h1>
+        <p MadCap:conditions="General.DeveloperNotes"><span class="comment">Based on this document, entered 10/9/2017: https://docs.google.com/document/d/16DdfFh68uAHbGS8zBzEtDji_UuhS4Lncg8pmy0oS958/edit</span>
+        </p>
+        <p MadCap:conditions="General.DeveloperNotes"><span class="comment">Edited 3/2/18 with input from Andy</span>
+        </p>
+        <p>Within FTEM, there exist both wildfire points and perimeters: </p>
+        <ul>
+            <li>A wildfire point consists of a geographic location (latitude and longitude of the approximate point of origin) as well as a size in acres but contains no other information to define where the fire burned.  </li>
+            <li>A wildfire perimeter consists of one or more polygons representing its outer burned edge, or perimeter, in addition to a point representing is approximate point of origin.  </li>
+        </ul>
+        <p>The same is true for treatments.  That is, some treatments only contain a point location and size while other treatments also include a multi-polygon shape to define their extent.  The purpose of this topic is two-fold.  That is, it discusses how wildfire treatment interactions are initially determined by a utility program as well as how they can be updated by FTEM users within the application.</p>
+        <p><a name="Wildfire_Points"></a>
+        </p>
+        <h2>Wildfire Points</h2>
+        <p>In all cases, a circle with its center at the wildfire’s point of origin is used to determine the potential treatment interactions for a wildfire point.  For the utility program, the radius of the circle is based upon calculating the length of an ellipse whose length is 1.5 times its width and whose area is equal to the size of the wildfire.  The radius of the circle equals the length of the ellipse. While the exact length of the ellipse varies by acreage, the distances below provide an indication of typical buffering distances given fire size:</p>
+        <ul>
+            <li>0.1 acre fire = 27 meter buffer</li>
+            <li>1 acre fire = 97 meter buffer</li>
+            <li>3 acre fire = 50 meter buffer</li>
+            <li>10 acre fire = 275 meter (0.17 mile) buffer </li>
+            <li>100 acre fire = 864 meter (0.53 mile) buffer </li>
+            <li>640 acre fire = 2187 meter (1.4 mile) buffer </li>
+            <li>5000 acre fire = 6116  meter (3.8 mile) buffer </li>
+            <li>10,000 acre fire = 8650 meter (5.4 mile) buffer </li>
+        </ul>
+        <p>Within the FTEM application, users may choose to specify the radius of the circle.  The maximum permitted value is 25000 meters. (This value is specified in the database and can be changed).</p>
+        <p>Regardless of how the treatment interaction is added the area of intersection is not set since no perimeter exists for the fire.  Consequently, the area of intersection must be set manually by a user entering information from the monitoring tab of the FTEM application.</p>
+        <p>
+            <img src="../../Resources/Images/FTEM/buffering.png" alt="buffering as described in text" class="border" />
+        </p>
+        <h2><a name="Wildfire_perimeters"></a>Wildfire Perimeters</h2>
+        <p>In all cases, a buffered perimeter is used to determine the treatment interactions for a wildfire with an associated perimeter.  For the utility program, the perimeter is buffered by 1 meter.  Within the FTEM application, users may choose to specify a buffer size up to 1500 meters to buffer the perimeter.  For point treatments, the treatment is included if the point falls within the buffered perimeter.  For polygon treatments, the treatment is included if the polygon intersects the buffered perimeter.</p>
+        <p>The area of intersection for polygon treatments is the area of intersection between the actual fire perimeter (as opposed to the buffered perimeter) and the polygon treatment.  The area of intersection must be set manually for point treatments.</p>
+        <h2>Automated Setting of Treatment Interactions</h2>
+        <p>Potential treatment interactions are only added when a fire is first added to FTEM.  When a new fire is added, a flag is set within the record for the wildfire indicating that treatment interactions have not been initialized for the wildfire.  A separate utility is run that uses this flag to determine that treatment interactions need to be set for a given wildfire.  During normal processing, wildfires (and updates to existing wildfires) are first pulled from IRWIN.  Next, perimeters (new as well as updates) are pulled from GeoMAC.  After this step is completed, point treatments are updated followed by polygon treatments.  The last utility to run is the utility that adds the potential treatment interactions.</p>
+        <p>For fire polygons, treatment interactions are defined by real spatial intersection between the perimeter and treatment points and polygons. If the fire has a perimeter (polygon) the treatment interaction is defined by real spatial interaction between the fire perimeter and the treatment point or polygons. </p>
+        <p>For fire points, treatment interaction is defined by real spatial interaction between the treatment point or polygons and a buffer created around the fire point. The buffer is created around the fire point using the following formula:&#160;</p>
+        <p style="font-style: italic;">Buffer in meters = math.sqrt(1.5 * 4046.85642 * dailyAcres / math.pi) * 2 </p>
+        <p>If no dailyAcres is specified a default value of 10 is used.</p>
+    </body>
+</html>

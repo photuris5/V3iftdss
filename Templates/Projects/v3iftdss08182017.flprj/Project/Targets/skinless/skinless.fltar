@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="(none)"
+  ConditionTagExpression="include[General.shorthelp] exclude[General.Exclude or General.Online or General.PDF] "
+  MasterStylesheet="/Content/Resources/Stylesheets/nostyles.css"
+  RemoveMadCapStyles="false"
+  UseCustomTopicFileExtension="false"
+  MasterStylesheetOverride="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/iftdss test.fldes" />
+  </Destinations>
+</CatapultTarget>

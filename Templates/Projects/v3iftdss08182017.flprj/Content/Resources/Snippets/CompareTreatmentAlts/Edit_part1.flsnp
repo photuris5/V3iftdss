@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="827" MadCap:lastWidth="836">
+    <body>
+        <p>
+            <img src="../../Images/treatment_compare/edit.png" alt="The edit landscape interface with default treatment rule options that can be selected upon clicking, or landscape edit rules that can be created by the user." style="width: 660px;height: 324px;float: right;padding-left: 5px;padding-right: 5px;" />Here you will edit landscapes to develop your treatment alternatives. The landscape(s) available here will include: </p>
+        <ul>
+            <li>your unedited LANDFIRE landscape chosen or created in the previous step (these will be referred to as the “0” landscape) </li>
+            <li>and any landscapes matching that extent. </li>
+        </ul>
+        <p>Create your treatment alternatives by altering your your Existing Condition landscape.</p>
+        <p>You may use Default Treatment/Disturbance Rules to edit and create your alternatives, or custom rules to create your alternatives.</p>
+        <p>Each option is described in detail in the <a href="../../../PCStrategicPlanning/TrtmtAltsEditLandscp.htm" target="_blank">Editing a Landscape to Develop Treatment Alternatives</a> Topic.</p>
+    </body>
+</html>

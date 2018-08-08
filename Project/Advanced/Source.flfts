@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultFileTagSet
+  Type="Author"
+  Comment="My set of author tags">
+  <FileTag
+    Name="ESRI"
+    Comment="Content from ESRI ArcMap Online Help" />
+  <FileTag
+    Name="WFMRDA"
+    Comment="Content directly from WFMRDA Subject Matter Expert" />
+  <FileTag
+    Name="IBM"
+    Comment="Content from IBM" />
+  <FileTag
+    Name="UIdaho"
+    Comment="Content mainly authored by U Idaho" />
+  <FileTag
+    Name="IFTDSSV201"
+    Comment="Content adapted from IFTDSS v. 2.0.1 documentation" />
+</CatapultFileTagSet>
