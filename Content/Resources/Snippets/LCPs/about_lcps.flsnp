@@ -9,7 +9,7 @@
         <MadCap:snippetBlock src="lcp table.flsnp" />
         <div>
             <h2>Buffering Around Landscapes</h2>
-            <p>Landscapes created in IFTDSS will be given a 4980 meter buffer, as seen below outside of the blue boundary. This buffer is useful in modeling scenarios where you need to work outside of your landscape such as:</p>
+            <p>Landscapes created in IFTDSS are automatically given a 4980 meter buffer, as seen below outside of the blue boundary. This buffer is useful in modeling scenarios where you need to work outside of your landscape such as:</p>
             <ul>
                 <li>Minimum Travel Time Fire Spread (MTT Fire Spread) modeling where you may want to simulate an ignition that occurs outside your landscape and burns into it.</li>
                 <li>Modeling Landscape Burn Probability  requiring ignitions placed outside of a landscape so that fires can burn onto the landscape. Additionally, fires that start within the landscape must be able to burn into the buffer to avoid erroneous edge effects.</li>
@@ -21,6 +21,11 @@
             <p>Landscapes created in earlier versions of <MadCap:variable name="General.ProductName" /> <MadCap:conditionalText MadCap:conditions="General.LaterRelease">(<span style="background-color: #ffff00;">before 9/20/2018</span>)</MadCap:conditionalText> were not assigned a buffer because that feature did not exist yet. These early landscapes will also have blue boundary, but lack the surrounding buffer. They are identified throughout <MadCap:variable name="General.ProductName" /> by the prefix "NB" at the end of the landscape name, or preceding the file type. "NB" indicates "No Buffer". For example, an old landscape that used to be named "Light Thin Pile Burn All" will now appear as "Light Thin Pile Burn All-NB" and be identified as an "NB Landscape" in <span class="UIcomponent">MyWorkspace</span>. </p>
             <p>
                 <img src="../../Images/MyWorkspace/NoBufferLandscapes.png" alt="Landscape names ending in 'NB' do not have a buffer around them" class="border" />
+            </p>
+            <h3>Generating Reports with Buffered Landscapes</h3>
+            <p>The buffer around your landscape (the area outside the blue landscape boundary) IS&#160;NOT included in summary report statistics generated in <MadCap:variable name="General.ProductName" />. Only the area inside the landscape boundary is included in reports.</p>
+            <p>
+                <img src="../../Images/MapStudio/buffer_inclusion.png" alt="only the area within the green boundary is included in reports" class="border" />
             </p>
             <h3>Editing Buffered Landscapes</h3>
             <p>Edits will be applied to your landscape as well as this buffer area, this includes landscape edits and edits constrained by a mask. However, it is important to note that summary reports generated for your landscape will only include the area inside the blue landscape boundary. If an area of interest (AOI) is used in generating a landscape summary, only the region of the AOI  that intercepts the landscape area is analyzed and included in the report.</p>

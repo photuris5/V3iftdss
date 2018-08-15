@@ -4,7 +4,122 @@
     </head>
     <body>
         <h1>FTEM Frequently Asked Questions</h1>
-        <h2>What Data To Enter</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How do I find my treatments?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Treatments in FTEM&#160;are organized by wildfire, <a href="General/UsingFtem.htm#wildfire" target="_blank">pick your wildfire</a> first using the date list and wildfire name search. Once you have chosen your wildfire, click the <span class="UIcomponent">Treatments</span> button to see a list of the treatments interactions for that fire. Use the <a href="General/UsingFtem.htm#treatments" target="_blank">Add or Remove Treatment buttons to refine your treatment list</a>.</p>
+                <p>What about my region? When you create your FTEM&#160;account you will be asked to specify a region. This does not limit the treatments or wildfires you see. Your region simply constrains the map extent you see when you first open FTEM. You are still free to scroll and search for fires/treatments anywhere on the FTEM&#160;map.<img src="../Resources/Images/FTEM/choose_treatments.png" alt="treatments are selected based on the wildfire you choose." class="border" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What if my treatment is missing, or my wildfire is missing?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>There are a few reasons why you may not be seeing the treatment or wildfire you are expecting.</p>
+                <ul>
+                    <li>
+                        <p>The treatment or wildfire has not yet been entered into the official system of record for your agency.</p>
+                    </li>
+                    <li>
+                        <p>The treatment or wildfire has been entered into the system of record, but has not yet been captured by FTEM&#160;(data updates nightly).</p>
+                    </li>
+                    <li>
+                        <p>A fire could have been entered into the system of record without an containment date, control date, or out date. If none of these dates are specified in the records, FTEM assigns a date 45 after the start date. Therefore, some fires may not be visible in FTEM up to 45 days after their start date. For more details see the <a href="DataTechnical/Wildfires.htm" target="_blank">FTEM wildfire Data Topic</a>.</p>
+                    </li>
+                    <li>
+                        <p>For Forest Service treatments, data in FACTS may be missing, or the treatment may not be of the correct keypoint. Only treatments that are for Hazardous Fuels Reduction, or non-NFP (Keypoint 3 or 6) are included, they must have a completion date, and that date must be after 1/1/2005. More details on the FTEM&#160;filtering approach can be found in the technical details topic for treatments.</p>
+                    </li>
+                </ul>
+                <p>If none of the above seem to be the case, you have searched, and still don't see a treatment in FTEM, you must follow up with your FTEM&#160;Agency Administrator to have the treatment entered into the official system of record (FACTS for USFS and NFPORS for all DOI agencies).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>My wildfire didn't interact with treatments but FTEM&#160;says it did, how do I correct it?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This question most often comes up when a wildfire shows up in FTEM as "Check for interactions" (displayed in a red color), but the person monitoring knows no treatments interacted or need monitoring.</p>
+                <p>In this case you'll need to change the remove the treatments so that the fire appears with  "No Interactions Detected", rather than "Check for interactions". To do this:</p>
+                <ol>
+                    <li>Select the wildfire.</li>
+                    <li>
+                        <p>Move to the <span class="UIcomponent">Treatments</span> tab.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/selecting_a_wildfire.png" alt="select a wildfire before moving to the treatments tab" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Select all the treatments.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/select_all_treatments.png" alt="use the 'select all' button to select all treatments" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Use the <span class="UIcomponent">Remove treatments</span> button to remove them.</p>
+                        <p>
+                            <img src="../Resources/Images/FTEM/remove_all_treatments.png" alt="use the 'remove all' button to remove all the selected treatments" class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How do I monitor a fire that interacts with treatments from multiple agencies?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For FTEM monitoring, each agency will enter data on their own treatments. </p>
+                <p>If you find it helpful, you may view different agency treatment layers using the <span class="UIcomponent">Add layers </span><img src="../Resources/Images/MapStudio/overview/button_adref.png" alt="add layers" class="iftbutton" /> widget when in the map view.</p>
+                <p>For those generating FTEM&#160;reports, the reports for all agencies will be available once the monitoring is completed.</p>
+                <h3>If you need an FTEM&#160;role for more than one agency:</h3>
+                <p>Request access to more than agency role from your FTEM&#160;User Profile. Each role must be approved by a FTEM Agency Administrator. To see the full details on how to do this, see the <a href="AccountsRoles/AccountSetup.htm" target="_blank">drop-down on updating your User Role in the FTEM&#160;Account Topic</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Can I upload a shapefile if my wildfire is just represented in FTEM by a point?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Yes, temporarily. You can <a href="General/AddShapefile.htm" target="_blank">upload shapes for viewing purposes</a> to help you complete your monitoring, the shapes are not retained when you leave the system.</p>
+                <p>To permanently add a shapefile for a fire or treatment you'll need to update the systems of record FTEM&#160;uses (FACTS or NFPORS for treatments, IRWIN or GEOMAC for wildfires).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What if not all the treatment listed for a fire need monitoring?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can add or remove treatments from the treatment list with the <span class="UIcomponent">Add</span> or<span class="UIcomponent"> Remove treatment</span> buttons.</p>
+                <p>
+                    <img src="../Resources/Images/FTEM/add_or_remove_treatments.png" alt="add or remove treatment buttons under the treatments tab will let you add treatments or remove selected treatments" class="border">
+                    </img>
+                </p>
+                <p> See the <a href="General/UsingFtem.htm#treatments" target="_blank">treatments section of the FTEM walk-through</a> topic for more detail on this.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Where does FTEM&#160;data come from &amp; where does it go?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h3>Wildfire Data</h3>
+                <p>wildfire point data are imported into FTEM via IRWIN (Integrated Reporting of Wildland-Fire Information), a service that acts as a real time conduit for fire data between the various wildland fire applications. wildfire perimeter data are pulled from GeoMAC (Geospatial Multi Agency Coordination), an application that is updated daily based upon input from incident intelligence sources. The FTEM&#160;Application is updated daily to incorporate fires reaching controlled status from Integrated Reporting of Wildland-Fire Information (IRWIN)&#160;and GeoMAC. For more information, see the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM&#160;Technical Documentation Topic</a>.</p>
+                <h3>Treatment Data</h3>
+                <p>The FTEM process relies on geospatial Integrated Point and Polygon Fuels treatment Layers that depict completed fuels treatments from four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) as well as the US Forest Service. The FTEM Integrated Point and Polygon Fuels treatment Layers are derived from data stored in:</p>
+                <ul>
+                    <li>The Hazardous Fuels Reduction (HFR) Module of the National Fire Plan Operations and Reporting System (NFPORS). NFPORS is the national system for tracking fuels accomplishments for all agencies in the Department of Interior.</li>
+                    <li>The Forest Service Activity Tracking System (FACTS). FACTS is the official system for tracking U.S. Forest Service fuels accomplishments.</li>
+                </ul>
+                <p>For more information, see the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM&#160;Technical Documentation Topic</a>.</p>
+                <h3>Once you enter data into FTEM...</h3>
+                <p>FTEM data is summarized and analyzed at multiple levels and across various scales to demonstrate the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>&#160;</h2>
+        <h2>Other Common Questions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Is completing FTEM a requirement or optional?</MadCap:dropDownHotspot>
@@ -29,67 +144,6 @@
                 <p>Data prior to 2017 is not loaded into the current version of FTEM. If you need to view that data you will have to access the legacy FTEM system and contact the agency lead for FTEM.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>When do I need to have my monitoring completed?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Depends on your agency:</p>
-                <ul>
-                    <li>USFS:&#160;treatments must be monitored within 90 days</li>
-                </ul>
-                <p>&#160;</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <p>&#160;</p>
-        <h2>A wildfire or treatment is Missing</h2>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Can I upload shapes for fires or treatments that are just shown as points?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Yes, temporarily. You can <a href="General/AddShapefile.htm" target="_blank">upload shapes for viewing purposes</a> to help you complete your monitoring, the shapes are not retained when you leave the system.</p>
-                <p>To permanently add a shapefile for a fire or treatment you'll need to update the systems of record FTEM&#160;uses (FACTS or NFPORS for treatments, IRWIN or GEOMAC for wildfires).</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>I don't see a wildfire or treatment I'm looking for, what next?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>There are a few reasons why you may not be seeing the treatments or wildfire you are expecting.</p>
-                <ul>
-                    <li>The treatment or wildfire has not yet been entered into the official system of record for your agency.</li>
-                    <li>The treatment or wildfire has been entered into the system of record, but has not yet been captured by FTEM&#160;(data updates nightly).</li>
-                </ul>
-                <p>If neither of the above seem to be the case, you may need to follow up with your FTEM&#160;Agency Administrator to make sure a treatment or wildfire as entered into the system of record. For more details on FTEM&#160;data, see the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM&#160;Technical Documentation Topic</a>.</p>
-                <h3>When wildfires are added to FTEM</h3>
-                <p>Fires for the current and the previous fiscal year are pulled based on their containment date, control date, or out date, depending on what data is available in the records. If none of these dates are specified in the records, FTEM assigns a date 45 after the start date. Therefore, some fires may not be visible in FTEM up to 45 days after their start date. For more details see the <a href="DataTechnical/Wildfires.htm" target="_blank">FTEM wildfire Data Topic</a>.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>What if treatments that need monitoring are missing from my treatments list? What if treatments are on the list that don't need monitoring?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>You can add or remove treatments from the treatment list with the Add or Remove treatment buttons. See the <a href="General/UsingFtem.htm#treatments" target="_blank">treatments section of the FTEM walk-through</a> topic for more detail on this.</p>
-                <p>If you have searched and still don't see a treatment in FTEM, you must follow up with your FTEM&#160;Agency Administrator to have the treatment entered into the official system of record (FACTS for USFS and NFPORS for all DOI agencies.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>A wildfire shows up in FTEM as "Check for interactions" (displayed in a red color). I know no treatments interacted or need monitoring, how to I&#160;change the status to No Interactions?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>If a fire shows up "Check for interactions" (displayed in a red color), but you know it should show up as "No Interactions Detected", you may remove the treatments from the auto-populated treatment list. To do this:</p>
-                <ol>
-                    <li>Select the wildfire.</li>
-                    <li>Move to the treatments tab.</li>
-                    <li>Select all the treatments.</li>
-                    <li>Use the <span class="UIcomponent">Remove treatments </span>button to remove them.</li>
-                </ol>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Why do I&#160;only see a point to represent my wildfire?</MadCap:dropDownHotspot>
@@ -100,74 +154,6 @@
                 <p>If you have a wildfire point and would like to view polygon data from your local machine when monitoring, Please see the <a href="General/AddShapefile.htm" target="_blank">FTEM Adding Shapes</a> topic.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <p>&#160;</p>
-        <h2>Multiple Agencies are Involved</h2>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>I am responsible for entering data for more than one agency. Can I get access to multiple agencies with one account?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Yes. From your FTEM&#160;User Profile you may request access to more than agency role. Each role must be approved by a FTEM Agency Administrator. To see more details see the <a href="AccountsRoles/AccountSetup.htm" target="_blank">drop-down on updating your User Role in the FTEM&#160;Account Topic</a>.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>How do I monitor or summarize a fire that intersects treatments from multiple agencies?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>For FTEM monitoring, each agency will enter data on their own treatments. If you find it helpful, you may view different agency treatment layers using the Add Layers widget when in the map view.</p>
-                <p>For those generating FTEM&#160;reports, the reports for all agencies will be available once the monitoring is completed.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Where a fire intersects treatments from multiple agencies will there be one report to show the full picture or will there be separate agency reports?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Each agency will report on their own treatment and you will see the reports for all agencies once they are completed. You can add different agency treatment from the Add layers <img src="../Resources/Images/MapStudio/overview/button_adref.png" alt="add layers" class="iftbutton"></img> widget to view on the map.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>If a treatment unit has had multiple treatment entries is the last treatment what is listed or is there a way to identify if the current treatment is FTI, FTF or FTM?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>(This is the Drop-down text)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <p>&#160;</p>
-        <h2>Where the data comes from &amp; where it goes</h2>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Where is the wildfire data coming from?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>wildfire point data are imported into FTEM via IRWIN (Integrated Reporting of Wildland-Fire Information), a service that acts as a real time conduit for fire data between the various wildland fire applications. wildfire perimeter data are pulled from GeoMAC (Geospatial Multi Agency Coordination), an application that is updated daily based upon input from incident intelligence sources. The FTEM&#160;Application is updated daily to incorporate fires reaching controlled status from Integrated Reporting of Wildland-Fire Information (IRWIN)&#160;and GeoMAC.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Where is the fuels treatment data coming from?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>The FTEM process relies on geospatial Integrated Point and Polygon Fuels treatment Layers that depict completed fuels treatments from four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) as well as the US Forest Service. The FTEM Integrated Point and Polygon Fuels treatment Layers are derived from data stored in:</p>
-                <ul>
-                    <li>The Hazardous Fuels Reduction (HFR) Module of the National Fire Plan Operations and Reporting System (NFPORS). NFPORS is the national system for tracking fuels accomplishments for all agencies in the Department of Interior.</li>
-                    <li>The Forest Service Activity Tracking System (FACTS). FACTS is the official system for tracking U.S. Forest Service fuels accomplishments.</li>
-                </ul>
-                <p>For more information, see the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM&#160;Technical Documentation Topic</a>.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Where does my data go once entered into FTEM?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>FTEM data is summarized and analyzed at multiple levels and across various scales to demonstrate the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <p>&#160;</p>
-        <h2>Other Common Questions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>If I complete monitoring and later need to update or edit, can I do that? If so, how?</MadCap:dropDownHotspot>
@@ -217,60 +203,6 @@
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>This aspect of FTEM&#160;is not currently planned to be changed. If you would like to suggest that, please submit a Support Desk ticket, or use the <a href="https://iftdsshelp.freshdesk.com/support/discussions/forums/22000059283" target="_blank">Ideas Exchange Forum</a> if that is an enhancement that is important for you to do your work.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <p>&#160;</p>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Should I guess on fire behavior and weather and other optional fields or just leave them blank?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>(Content TBD)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>I didn't observe this wildfire intersecting my fuel treatment and I can't find anyone who did. How should I&#160;answer the required questions?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>(Added - Content TBD)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>The only treatment my wildfire is interacting with is pretty old, do I complete FTEM for this older treatment and wildfire interaction?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>(Content TBD)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>How do I correct the wildfire perimeter data that I see in the FTEM&#160;application</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>(Content TBD)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>I obtained information about fire behavior and weather after I completed my monitoring record.  Should I amend the record? What situations warrant amending a monitoring record?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>(Content TBD)</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown MadCap:conditions="General.LaterRelease">
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Why isn’t my treatment data showing up?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>There are a few reasons why you may not be seeing the treatment data you are expecting.</p>
-                <ul>
-                    <li>The treatment has not been entered into the official system of record for your agency; NFPORS for all Department of Interior agencies and FACTS for the U.S. Forest Service</li>
-                    <li>FTEM treatment data has not yet been updated.  FTEM treatment data will be automatically updated from FACTS and NFPORS on a nightly basis.</li>
-                    <li>Filtering on FACTS polygon data according to the FTEM business rules for U.S. Forest Service.  FACTS data has been filtered using the following logic:<ul><li>If a point or poly has the same SUID, only display those points or polys with the most recent Actual Completion date.</li><li>If a point or poly has the same SUID and same Actual Completion Date, filter by treatment Category. The order of priority for treatment categories is 1) Fire, 2) Mechanical, 3) Other, and 4) Preparation for treatment.</li><li>If a point or poly has the same SUID, same Actual Completion date, and same treatment Category, filter by Activity Code. The point or poly with the smallest numerical Activity Code will be given priority.</li><li>If a point or poly has the same SUID, same Actual Completion Date, same treatment Category, and same Activity Code, the data will not be filtered.</li></ul></li>
-                </ul>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
     </body>
