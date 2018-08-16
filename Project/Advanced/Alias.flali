@@ -30,7 +30,6 @@
     <Map Name="ImplementationPlanAbout" Link="/Content/10-PlanningCycle/ImplementationPlanAbout.htm" />
     <Map Name="LandEvalAbout" Link="/Content/10-PlanningCycle/LandEvalAbout.htm" />
     <Map Name="LandscapeEditAbout" Link="/Content/30-Tasks/LndscpEdit/LandscapeEditAbout.htm" />
-    <Map />
     <Map Name="LandSummaryAbout" Link="/Content/30-Tasks/Summaries/LandSummaryAbout.htm" />
     <Map Name="PlanningCycleAbout" Link="/Content/10-PlanningCycle/PlanningCycleAbout.htm" />
     <Map Name="MonitoringAbout" Link="/Content/10-PlanningCycle/MonitoringAbout.htm" />
@@ -45,7 +44,7 @@
     <Map Name="BurnUnitLvl" Link="/Content/10-MapStudio/ScaleWlkThru/BurnUnitLvl.htm" />
     <Map Name="LandscapeLvl" Link="/Content/10-MapStudio/ScaleWlkThru/LandscapeLvl.htm" />
     <Map Name="ProjectLvl" Link="/Content/10-MapStudio/ScaleWlkThru/ProjectLvl.htm" />
-    <Map Name="ModelsOverview" Link="/Content/20-Models/ModelsOverview.htm" />
+    <Map Name="ModelsOverview" Link="/Content/10-MyPlayground/ModelsOverview.htm" />
     <Map Name="Consume" Link="/Content/20-Models/FFT/Consume.htm" />
     <Map Name="ConsumeIn" Link="/Content/20-Models/FFT/ConsumeIn.htm" />
     <Map Name="ConsumeOut" Link="/Content/20-Models/FFT/ConsumeOut.htm" />
@@ -89,12 +88,6 @@
     <Map Name="LandscapeEditTechTopic" Link="/Content/30-Tasks/LndscpEdit/LandscapeEditTechTopic.htm" />
     <Map Name="Glossary1" Link="/Content/41-References/Glossary.htm" />
     <Map Name="RuleOrdering" Link="/Content/30-Tasks/LndscpEdit/RuleOrdering.htm" />
-    <Map Name="_0_Intro" Link="/Content/40-Tutorials/CompareFeature/0_Intro.htm" />
-    <Map Name="_1_ProjectBegin" Link="/Content/40-Tutorials/CompareFeature/1_ProjectBegin.htm" />
-    <Map Name="_2_CreateLCP" Link="/Content/40-Tutorials/CompareFeature/2_CreateLCP.htm" />
-    <Map Name="_4_IdPriority" Link="/Content/40-Tutorials/CompareFeature/4_IdPriority.htm" />
-    <Map Name="_5_treatmentPoly" Link="/Content/40-Tutorials/CompareFeature/5_treatmentPoly.htm" />
-    <Map Name="_6_Compare" Link="/Content/40-Tutorials/CompareFeature/6_Compare.htm" />
     <Map Name="publishing" Link="/Content/99-HelpProjectInfo/publishing.htm" />
     <Map Name="Writing_and_image_style" Link="/Content/99-HelpProjectInfo/Writing and image style.htm" />
     <Map Name="CaseStudies" Link="/Content/00-AboutIFTDSS/CaseStudies.htm" />
@@ -103,9 +96,8 @@
     <Map Name="chs_updates" Link="/Content/99-HelpProjectInfo/chs_updates.htm" />
     <Map Name="Resources" Link="/Content/41-References/Resources.htm" />
     <Map Name="myworkspace_folders_hh" Link="/Content/50-Hover/MyWorkspace/myworkspace_folders_hh.htm" />
-    <Map Name="_3_Edit" Link="/Content/40-Tutorials/CompareFeature/3_Edit.htm" />
     <Map Name="FireBehavior" Link="/Content/20-Models/FlamMap/LFBAbout.htm" />
-    <Map Name="ModelingPlayground" Link="/Content/20-Models/ModelsOverview.htm" />
+    <Map Name="ModelingPlayground" Link="/Content/10-MyPlayground/ModelsOverview.htm" />
     <Map Name="AccountSetup1" Link="/Content/10-FTEM/AccountsRoles/AccountSetup.htm" />
     <Map Name="FTEMAbout1" Link="/Content/10-FTEM/FTEMAbout.htm" />
     <Map Name="FTEMFaq" Link="/Content/10-FTEM/FAQs.htm" />
@@ -147,7 +139,6 @@
     <Map Name="FTEM_Data_Sources" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
     <Map Name="FTEMPolicy" Link="/Content/10-FTEM/Guidance/Policy.htm" />
     <Map Name="GeoAreaOfInterest" Link="/Content/10-FTEM/General/GeoAreaOfInterest.htm" />
-    <Map Name="_7_test_tutorial" Link="/Content/40-Tutorials/CompareFeature/7_test_tutorial.htm" />
     <Map Name="Complete_hh" Link="/Content/50-Hover/FTEM/Complete_hh.htm" />
     <Map Name="monitoring_hh" Link="/Content/50-Hover/FTEM/monitoring_hh.htm" />
     <Map Name="treatments_hh" Link="/Content/50-Hover/FTEM/treatments_hh.htm" />
@@ -201,4 +192,13 @@
     <Map Name="EditingLandscapes" Link="/Content/40-Tutorials/Shorts/EditingLandscapes.htm" />
     <Map Name="RunningLFBmodels" Link="/Content/40-Tutorials/Shorts/RunningLFBmodels.htm" />
     <Map Name="ViewingOutputsMapStudio" Link="/Content/40-Tutorials/Shorts/ViewingOutputsMapStudio.htm" />
+    <Map Name="simulation_time_hh" Link="/Content/50-Hover/MTT/simulation_time_hh.htm" />
+    <Map Name="spotting_hh" Link="/Content/50-Hover/MTT/spotting_hh.htm" />
+    <Map Name="DeadFMConditioning" Link="/Content/00-Concepts/DeadFMConditioning.htm" />
+    <Map Name="FlamMapWinds" Link="/Content/20-Models/FlamMap/FlamMapWinds.htm" />
+    <Map Name="MTTAbout" Link="/Content/20-Models/FlamMap/MTTAbout.htm" />
+    <Map Name="MTTInputs" Link="/Content/20-Models/FlamMap/MTTInputs.htm" />
+    <Map Name="MTTOutputs" Link="/Content/20-Models/FlamMap/MTTOutputs.htm" />
+    <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
+    <Map Name="template_hh" Link="/Content/50-Hover/MTT/template_hh.htm" />
 </CatapultAliasFile>

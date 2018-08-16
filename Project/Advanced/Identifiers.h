@@ -206,3 +206,12 @@
 #define EditingLandscapes 1129
 #define RunningLFBmodels 1130
 #define ViewingOutputsMapStudio 1131
+#define simulation_time_hh 9190
+#define spotting_hh 9191
+#define DeadFMConditioning 1139
+#define FlamMapWinds 1140
+#define MTTAbout 1152
+#define MTTInputs 1157
+#define MTTOutputs 1173
+#define LCPCreateFromButton 1174
+#define template_hh 1175

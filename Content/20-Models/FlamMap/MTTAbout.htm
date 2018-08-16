@@ -4,13 +4,82 @@
     </head>
     <body>
         <h1>Minimum Travel Time (MTT)</h1>
-        <p>Minimum Travel Time (MTT) is a two dimensional fire growth model. To run MTT from the <MadCap:variable name="General.ProductName" /> Modeling Playground:</p>
-        <p>Click Playground in the top navigation bar.</p>
-        <p>Select MTT from the drop-down menu.</p>
-        <p>Select a landscape or create a new one using the Create Here button.</p>
-        <p>Ignition: Choose a shape, or a specific point from the drop-down menu</p>
-        <p>Wind: Select whether to implement Gridded Winds, Static Direction Winds, or Winds Blowing Uphill/Downhill. Next enter windspeed and wind direction</p>
-        <p>Spotting:&#160;Calculate the spotting probability </p>
-        <p>&#160;</p>
+        <p>
+            <img src="../../Resources/Images/placeholder.png" />
+        </p>
+        <p style="font-weight: bold;"><a href="MTTInputs.htm" target="_blank">Model Inputs</a>
+        </p>
+        <p style="font-weight: bold;"><a href="MTTOutputs.htm" target="_blank">Model Outputs</a>
+        </p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Running MTT Fire Spread</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Minimum Travel Time (MTT) is a two dimensional fire growth model. To run MTT from the <MadCap:variable name="General.ProductName"></MadCap:variable> Modeling Playground:</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>
+                        <p>Select <span class="UIcomponent">MTT Fire Spread</span> from the <span class="UIcomponent">Select Model to Run</span> drop-down menu and click <span class="UIcomponent">Create Run</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/SelectMTT.png" alt="click the MTT Fire Spread option to go to the modeling inputs page." class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Select a landscape from the drop-down list or create a new one using the <span class="UIcomponent">Create Here</span> button.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/select_landscape.png" alt="landscapes can be chosen from the dropdown, or created in the interface" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Click on the drop-down heading for each input and fill out each as shown in the steps below.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/dropdown_headers.png" alt="use the dropdown for each input type to reveal the input fields." class="borderlist" />
+                            <br />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Select the type of wind you would like to represent, and input the windspeed in mph, and wind direction in degrees. See the <a href="FlamMapWinds.htm" target="_blank">wind assessment topic</a> for more details on picking a wind type.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/choose_wind.png" alt="select a wind type, speed, and direction" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Choose a <a href="FlamMapCrowns.htm" target="_blank">crown fire method</a> and fuel moisture.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/crown_fire.png" alt="crown fire method may be selected from the dropdown" class="borderlist" />
+                        </p>
+                        <p>Input the fuel moistures for woody and herbaceous fuels. If needed, you may create additional rows to use a different fuel moisture for each fuel model on your landscape. Need help representing fuel moistures? See the <a href="../../00-Concepts/Estimating Fuel Moistures.htm" target="_blank">fuel moisture estimation topic</a>.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/fuel_moisture.png" alt="input fuel moistures" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Specify the ignition for your landscape from the drop-down. You may either choose a specific shape on your landscape, or simulate ignition in the center of your landscape.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/ignition.png" alt="select an ignition point from the dropdown" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Enter the simulation time. You will enter a time length for the burn period, in hours, and the number of burn periods.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/simulation_time.png" alt="specify the burn period length and number of burn periods" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Enter a spotting probability in percent.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/spotting.png" alt="enter a spotting probability in percent" class="borderlist" />
+                        </p>
+                    </li>
+                    <li>
+                        <p>Give your run a descriptive name and click <span class="UIcomponent">Run</span>. When finished your run will be available in <span class="UIcomponent">Modeling&#160;Playground</span> and <span class="UIcomponent">My&#160;Workspace</span>.</p>
+                        <p>
+                            <img src="../../Resources/Images/MTTSpread/name_run.png" alt="name your run and save, or press 'run' to save and run." class="borderlist" />
+                        </p>
+                    </li>
+                </ol>
+                <p>&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
     </body>
 </html>
