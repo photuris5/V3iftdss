@@ -201,4 +201,5 @@
     <Map Name="MTTOutputs" Link="/Content/20-Models/FlamMap/MTTOutputs.htm" />
     <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
     <Map Name="template_hh" Link="/Content/50-Hover/MTT/template_hh.htm" />
+    <Map Name="ignition_hh" Link="/Content/50-Hover/MTT/ignition_hh.htm" />
 </CatapultAliasFile>

@@ -12,7 +12,6 @@
 #define DeveloperTools 1020
 #define SystemAdmin 1021
 #define AccountSetup 1022
-#define Alerts 1023
 #define GettingHelp 1024
 #define NavigatingIFTDSS 1025
 #define UserProfiles 1027
@@ -89,13 +88,6 @@
 #define LandscapeEditTechTopic 1160
 #define Glossary1 1161
 #define RuleOrdering 1162
-#define _0_Intro 1163
-#define _1_ProjectBegin 1164
-#define _2_CreateLCP 1165
-#define _3_Edit 1166
-#define _4_IdPriority 1167
-#define _5_treatmentPoly 1168
-#define _6_Compare 1169
 #define publishing 1170
 #define Writing_and_image_style 1171
 #define CaseStudies 1172
@@ -146,7 +138,6 @@
 #define FTEM_Data_Sources 1028
 #define FTEMPolicy 1051
 #define GeoAreaOfInterest 1058
-#define _7_test_tutorial 1064
 #define Complete_hh 9022
 #define monitoring_hh 9021
 #define treatments_hh 9020
@@ -178,11 +169,6 @@
 #define ShapeGroup 1094
 #define AOI_treatments 1095
 #define a_StartandCreateLCP 1096
-#define Compare 1097
-#define LCPSummaryReport 1098
-#define Modeling_in_Wildfire_Playground 1099
-#define ProjectBegin 1101
-#define Treatment_AOI 1102
 #define Chrome 1103
 #define AgencyLeads 1104
 #define DataTreatments 1105
@@ -215,3 +201,4 @@
 #define MTTOutputs 1173
 #define LCPCreateFromButton 1174
 #define template_hh 1175
+#define ignition_hh 9192

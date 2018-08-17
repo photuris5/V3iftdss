@@ -196,12 +196,18 @@
         Title="MTT Inputs"
         Link="/Content/20-Models/FlamMap/MTTInputs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
+        Title="MTT Outputs"
         Link="/Content/20-Models/FlamMap/MTTOutputs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="MTT Technical Documentation"
+        Link="/Content/20-Models/FlamMap/MTTTechDoc.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/20-Models/FlamMap/FlamMapWinds.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/00-Concepts/DeadFMConditioning.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Fire Behavior Fuel Models"
       Link="/Content/10-MapStudio/Files/FBFMInfo.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="General.QA ONLY">
+    <head>
+    </head>
+    <body>
+        <h1>Minimum Travel Time (MTT) Fire Spread Technical Documentation <span style="background-color: #ffff00;">- PLACEHOLDER</span></h1>
+        <p>Minimum travel time (MTT) Fire Spread is a two-dimensional fire growth 
+ model (<a href="../../41-References/ReferenceList.htm#Finney2002" target="_blank">Finney, 2002</a>). MTT calculates fire growth and behavior by searching 
+ for the set of pathways with minimum fire spread times from point, line, 
+ or polygon ignition sources. In theory, the results are identical to wave-front 
+ expansion used in Farsite with the exception that all weather and fuel 
+ moisture conditions are held constant over time with MTT but are allowed 
+ to vary with time in Farsite.</p>
+        <h2>Ignitions</h2>
+        <h3><a name="Ignition_From_File" id="Ignition_From_File"></a>From File</h3>
+        <p>Ignitions can be shapefiles created elsewhere or within FlamMap by selecting 
+ one of the <span class="Code-Command"><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Drawing_Shapefiles.htm">Option 
+ &gt; Pointer Mode &gt; Create...</a></span>options.</p>
+        <h3>
+            <MadCap:keyword term="Ignition:Random">
+            </MadCap:keyword><a name="RandomIgnitions" id="RandomIgnitions"></a>Random</h3>
+        <p>In addition to calculating fire growth for single or multiple ignitions, 
+ MTT can be used to <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Tech_Topics/Tech_MTT.htm#BurnProbability"><MadCap:keyword term="Burn Probabilities"></MadCap:keyword>compute 
+ burn probabilities</a> for a specified number of randomly located ignition 
+ points each of a constant duration. Selecting the <span class="Code-Command">Random</span> 
+ radio button requires an additional input for the <span class="Code-Command">Number 
+ of Random Ignitions:</span> spin box. The default number of 100 ignitions 
+ is likely too low for most landscapes. Considerations when determining 
+ the number of random ignitions to use;</p>
+        <ul style="list-style: circle;">
+            <li class="p">
+                <p>Setting the number of ignitions requires some trial 
+	 and error, for best results the output map should contain only minor 
+	 amounts of zero probability, ideally only the non-burnable areas.</p>
+            </li>
+            <li class="p">
+                <p>Since the size of each random ignition (thus it's 
+	 contribution to the probability) also depends on fire duration, specified 
+	 in the <span class="Code-Command"><a href="#MaxSimTime">Maximum Simulation 
+	 Time</a></span> spin box, simulation times may affect results if a 
+	 relativity small number of ignitions is used.</p>
+            </li>
+            <li class="p">
+                <p>Larger landscapes will require more ignitions than 
+	 smaller ones.</p>
+            </li>
+            <li class="p">
+                <p>Landscapes with faster rates of spread will need fewer 
+	 ignitions than "slower" landscapes of the same size.</p>
+            </li>
+            <li class="p">
+                <p>Since the ignitions are random, separate runs with 
+	 the same inputs will give different results.</p>
+            </li>
+            <li class="p">
+                <p>Numbers of ignitions greater than that needed to burn 
+	 the entire landscape do not significantly change the results (differences 
+	 do occur with the random variability of the ignitions) but do increase 
+	 processing times.</p>
+            </li>
+        </ul>
+        <p>Burn probabilities provide one method of evaluating the effectiveness 
+ of fuel treatments that removes the uncertainty of ignition sources. A 
+ large sample size of ignitions (say 1000’s or 10,000’s) on the treated 
+ and pre-treatment landscape gives an indication of the overall effectiveness 
+ of the landscape pattern in retarding the growth of large fires. To do 
+ this type of analysis you will need to create different Landscape (.LCP) 
+ Files that reflect the different treatments in terms of the five fuel 
+ themes. If <span class="Code-Command">Random</span> ignitions are selected 
+ only Burn Probabilities, Perimeters, FLP, and Fire Size List outputs are 
+ available.</p>
+        <p>Note: this process is very CPU intensive when simulating fire growth 
+ from thousands of random ignitions. This is best performed on multi-processor 
+ computers or when long computing times are acceptable.</p>
+        <h3>From Fire List 
+ File</h3>
+        <p>Burn probabilities can also be computed from a previously defined list 
+ of fires contained in a text file. This <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Fire_Size_List_File.htm">Fire 
+ List File</a> is typically generated from a previous MTT run using random 
+ ignitions or a FSim large fire simulator run and is named the FireSizeList 
+ (because it also contain information on the sizes of the random fires).</p>
+        <p>Computing burn probabilities from a fixed list of fires eliminates the 
+ variability between runs caused by the random selection of ignitions. 
+ This can be an advantage when comparing burn probability results from 
+ runs using different input parameters. Make sure the list of fires is 
+ large enough to give good burn probabilities - typically most of the burnable 
+ landscape should end up with a burn probability greater than zero. &#160;</p>
+        <h2>Inputs</h2>
+        <p>To use the minimum travel time feature, you must supply several inputs 
+ in addition to those required for basic fire behavior computation (i.e. 
+ initial fuel moisture file, wind speed and wind direction). These additional 
+ inputs include:</p>
+        <h3>Resolution of the calculations</h3>
+        <p>This is independent of the resolution of the landscape data and dictates 
+ the spacing of nodes used to calculate minimum travel times and output 
+ grids. Below is shown a 30m fuel grid overlaid with a 60m node resolution. 
+ MTT performs the fire behavior calculations at the nodes.</p>
+        <p>
+            <img src="../../Resources/Images/MTTSpread/NodeResolution.gif" alt="Node overladed on fuel model grid" title="Node overladed on fuel model grid" style="border: none;" width="674" height="511" border="0">
+            </img>
+        </p>
+        <p>This setting is the most significant way to control the computational 
+ intensity (i.e. run time) of your simulation. For example, doubling the 
+ resolution from 30m to 60m would decrease run time by 75% since there 
+ would be only 25% of the nodes to preform calculations on. However setting 
+ the resolution greater than the Landscape (.LCP) File cell size will cause 
+ some of the cells to be "skipped over" for the calculations. 
+ Setting the resolution smaller than the cell size provides no additional 
+ precision and only increases the computation time.</p>
+        <p>The Resolution distance units (meters, feet, or kilometers) are the 
+ Grid Distance Units of the Landscape (.LCP) File.</p>
+        <h3>Maximum Simulation Time</h3>
+        <p>This specifies the duration (in minutes) of the fire growth calculations 
+ for the set of constant fuel moisture and wind conditions entered on the 
+ <span class="Code-Command"><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Runs/Inputs_Tab.htm">Inputs</a></span> 
+ tab. For example, if you want to simulate a fire for three days where 
+ the burning period is five hours/day (for which you specified maximum 
+ burning period conditions), enter 900 minutes. (3 days x 5 hours/day x 
+ 60 minute/hour)</p>
+        <p>A "0" (zero) simulation time behaves differently depending 
+ on the ignition type. Using a shapefile as the ignition indicates that 
+ you want to run the simulation until all burnable nodes on the landscape 
+ have "burned". On "slow" or large analysis areas or 
+ with moderate weather conditions this can cause very long runtimes. </p>
+        <p>With random ignitions or a list a zero simulation time means exactly 
+ that. An ignition shapefile is created but no spread occurs. </p>
+        <h3>Interval for Minimum Travel 
+ Paths</h3>
+        <p>This controls how the program selects and outputs the MTT Major Paths 
+ at a specified distance interval. Shown below are 600m (left)and 300m 
+ intervals for the major paths. This setting changes only the display of 
+ the Major Paths, it does not affect the calculation of the Influence Grid, 
+ from which the Major Paths are derived.</p>
+        <p>
+            <img src="../../Resources/Images/MTTSpread/MajorPaths1.png" alt="Major paths at 300m and 600m resolutions" title="Major paths at 300m and 600m resolutions" style="border: none;" width="653" height="325" border="0">
+            </img>
+        </p>
+        <p>The Interval distance units (meters, feet, or kilometers) are the Grid 
+ Distance Units of the Landscape (.LCP) File.</p>
+        <h3>Spot Probability</h3>
+        <p>Launching embers from every crown fire node can be computational intensive, 
+ resulting in a long running simulation which often doesn't change results. 
+ The <span class="Code-Command">Spot Probability:</span> setting controls 
+ how many of the nodes where <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/LegacyFARSITE/Tech_Crown_Fire.htm">crown 
+ fire is initiated</a> actually launch embers which can start new fires. 
+ A setting of 1.00 will compute a spot distance and direction for each 
+ crown fire node and a setting of 0.00 will prevent any spot fires. Settings 
+ between 0.01 and 1.00 proportionally control how many crown fire nodes 
+ launch a spot. See <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/LegacyFARSITE/Tech_Spotting.htm">Spotting 
+ (technical documentation)</a> for more information.</p>
+        <p><span style="font-weight: bold;">NOTE:</span> Users will probably want 
+ to set <span class="Code-Command">Spot Probability:</span> higher for 
+ FlamMap than for <span class="Code-Command">Ember Spot Probability:</span> 
+ in Farsite or NTFB fire simulators.</p>
+        <h3>Spotting Delay</h3>
+        <p>The <span class="Code-Command">Spotting Delay:</span> setting is the 
+ time delay between when a ember lands on a burnable node and it begins 
+ to spread. This is typically set between 0-60 minutes with shorter delays 
+ associated with drier burning conditions.</p>
+        <h3>Lateral &amp; Vertical Search 
+ Depths</h3>
+        <p>When searching for the fastest path MTT cannot realistically look at 
+ every possible path between nodes. To limit how far MTT searches for a 
+ faster path the <span class="Code-Command">Lateral</span> &amp; <span class="Code-Command">Vertical Search Depth</span>s control how long 
+ MTT will look for a faster (lower arrival time) node.</p>
+        <p>These search depths are actually thresholds for sequentially failing 
+ to find a faster arrival time. For example, if the lateral search depth 
+ is set to "3", MTT will keep searching farther and farther to 
+ the right or left from the starting point, as long as it succeeds in finding 
+ the fastest path, until it fails 3 times in sequence. Larger values will 
+ cause longer computation times because it will require more sequential 
+ failures before it gives up in a given direction. The way the algorithm 
+ is structured, the lateral search depth is better set higher than the 
+ vertical search depth (require more rows before failure than columns).</p>
+        <p>For homogeneous landscapes, larger values will increase the chance that 
+ the fastest paths are found between cells (nodes) with farther separation. 
+ In other words, MTT will be more accurate. For very heterogeneous landscapes 
+ (e.g. every cell has different spread rates or maximum spread directions) 
+ then the settings for search depths will matter much less.</p>
+        <p>Default values for normal use are: Vertical = 4 and lateral = 6. To 
+ increase speed or for very heterogeneous landscapes, settings might be 
+ reduced to Vertical = 2 and Lateral = 3.</p>
+        <h3>Wind direction (on the Inputs Tab)</h3>
+        <p>When using the MTT feature one of the <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Runs/Inputs_Tab.htm#Winds"><span class="Code-Command">Winds</span> radio buttons</a> should be selected 
+ on the <span class="Code-Command">Inputs</span> tab. This wind direction 
+ should reflect the results of a separate wind analysis done to find the 
+ prevailing wind speeds and directions.</p>
+        <h2>Barriers</h2>
+        <p>Shapefiles can be used in FlamMap runs to simulate barriers to fire 
+ spread that may not be represented in the landscape. For instance, if 
+ you know that a creek or road is a barrier to surface fire spread, but 
+ landscape data show that some or all of the cells are burnable in the 
+ area represented by the creek, you could create a barrier file. Keep in 
+ mind that fire barriers will block surface fire spread. However, torching 
+ trees could cause the fire to spot over the barrier (in reality as well 
+ as within the fire behavior model).</p>
+        <p>Barriers can be created as a line or polygon shapefile outside of FlamMap, 
+ or <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Drawing_Shapefiles.htm">using the drawing tools</a> 
+ within FlamMap.</p>
+    </body>
+</html>

@@ -3,7 +3,224 @@
     <head>
     </head>
     <body>
-        <h1>MTT Outputs</h1>
-        <p>Outputs generated from MTT runs include:</p>
+        <h1>MTT Outputs<span style="background-color: #ffff00;"> - Placeholder</span></h1>
+        <p>The output grids are calculated at the cell size specified in the <span class="Code-Command">Resolution of calculations</span> spin box described 
+ above. The MTT method produces output similar to that produced by the 
+ <span style="font-style: italic;">FARSITE</span> fire growth models with 
+ the addition of data on the routes taken by fire spreading from one node 
+ to the other.</p>
+        <p>&#160;</p>
+        <table style="border-collapse: separate;border-collapse: separate;" cellspacing="0" width="86.652%" border="1">
+            <col style="width: 32.237%;">
+            </col>
+            <col style="width: 67.763%;">
+            </col>
+            <tr>
+                <td style="border: Solid 1px #000000;" bgcolor="#C0C0C0">
+                    <p style="text-align: center;font-family: 'Arial Black', sans-serif;">MTT Output Theme</p>
+                </td>
+                <td style="border-top: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;" bgcolor="#C0C0C0">
+                    <p style="text-align: center;font-family: 'Arial Black', sans-serif;">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_OUT_Spread_Rate.htm#MTTROSgrid" target="_popup">MTT Rate 
+		 of Spread Grid</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Spread rate of the fire as it encountered each 
+		 node along the minimum travel time path. These are different values 
+		 from the rate of spread grid calculated on the <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Runs/Fire_Behavior_Options_Tab.htm"><span class="Code-Command">Fire Behavior Outputs</span> tab</a>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Node_Influence.htm#MTTNodeInfluence" target="_popup">MTT Influence 
+		 Grid</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Logarithm of the number of nodes burning as 
+		 a result of burning through that particular node. The log-transform 
+		 is required because the node counts can range over 4 or 5 orders 
+		 of magnitude (e.g. from 1-10000) making the details difficult 
+		 to visualize if the scale remains linear.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Arrival_Time.htm#ArrivalTimeGrid" target="_popup">MTT Arrival 
+		 Time Grid</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">The elapsed time when the fire arrived at each 
+		 node. A default contour of this grid is also displayed. You can 
+		 also <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_Grid_Files.htm#ContourAuxGrid">create 
+		 contours</a> of this grid at any desired interval.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_OUT_Fireline_Intensity.htm#MTTFLIgrid" target="_popup">MTT Fireline 
+		 Intensity Grid</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Fireline intensity of each node burned by the 
+		 fire as it follows the minimum travel time path. These are different 
+		 values from the fireline intensity grid calculated on the <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/Runs/Fire_Behavior_Options_Tab.htm"><span class="Code-Command">Fire Behavior Outputs</span> tab</a>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Flow_Paths_Themes.htm#MTTFlowPaths" target="_popup">MTT Flow 
+		 Paths vector theme</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Minimum travel time pathways among all nodes. 
+		 This theme can be very cluttered at small node resolutions and 
+		 is better viewed by <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/DisplayCMDs/RH_View_Menu.htm#ZoomIn">zooming 
+		 in</a>.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Flow_Paths_Themes.htm#MTTMajorPaths" target="_popup">MTT Major 
+		 Paths vector theme</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Major paths identified at the user-specified 
+		 <span class="Code-Command">Interval for Minimum Travel Paths</span> 
+		 described above in the <span class="Code-Command">Inputs</span> 
+		 section.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Arrival_Time.htm#ArrivalTimeContour">MTT 
+		 Arrival Time Contour</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">A contour representation of the MTT Arrival 
+		 Time grid. The default contour interval is the maximum value of 
+		 the MTT Arrival Time grid divided by 10.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Ignition_Grid.htm">MTT 
+		 Ignition Grid</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">The raster interpretation of the ignition and 
+		 barrier vectors by the MTT model.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/MTT_Ember_Outputs.htm#Ember_Landing_Locations">Ember 
+		 Landing Locations</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">point shapefile</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/MTT_Ember_Outputs.htm#Ember_List">Ember 
+		 List</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Comma separated value file (CSV) with launch 
+		 coordinates, landing coordinates, launch time, and landing time. 
+		 </p>
+                </td>
+            </tr>
+        </table>
+        <p>When burn probabilities are calculated from either <span class="Code-Command"><a href="#RandomIgnitions">Random</a></span> ignitions or <span class="Code-Command"><a href="#From_Fire_List_File">From Fire List File</a></span> the following 
+ outputs are &#160;available.</p>
+        <table style="border-collapse: separate;border-collapse: separate;" cellspacing="0" width="86.652%" border="1">
+            <col style="width: 32.237%;">
+            </col>
+            <col style="width: 67.763%;">
+            </col>
+            <tr>
+                <td style="border: Solid 1px #000000;" bgcolor="#C0C0C0">
+                    <p style="text-align: center;font-family: 'Arial Black', sans-serif;">Burn Probability 
+		 Output Theme</p>
+                </td>
+                <td style="border-top: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;" bgcolor="#C0C0C0">
+                    <p style="text-align: center;font-family: 'Arial Black', sans-serif;">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Burn_Probabilities.htm" id="a511">Burn 
+		 Probabilities</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Single output grid that contains the fraction 
+		 of the number of fires that encountered each node (0.0 to 1.0).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/MTT_Perimeters.htm">MTT 
+		 Perimeters</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Vector theme of perimeters for the modeled fires 
+		 generated by the specified random ignitions.</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Flame_Length_Probability.htm">FLP 
+		 - 6 Bin English</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Text file with the flame length probability 
+		 in English units (feet).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Flame_Length_Probability.htm">FLP 
+		 - 20 Bin Metric</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Text file with the flame length probability 
+		 in metric units (meters).</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-left: Solid 1px #000000;border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p><a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/Fire_Size_List_File.htm">Fire 
+		 Size List</a>
+                    </p>
+                </td>
+                <td style="border-right: Solid 1px #000000;border-bottom: Solid 1px #000000;">
+                    <p class="Table">Text file containing the ignition point and 
+		 size, in acres, for each fire used in the burn probability run.</p>
+                </td>
+            </tr>
+        </table>
+        <p>Four default grids are included in every FlamMap run, three of <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_OUT_Elliptical_Dimen.htm">Elliptical 
+ Dimensions</a> and one for <a href="../../../../../../Desktop/Flare_tests/Flammap/Content/FileTypes/PU_OUT_Max_Spread_Dir.htm">Maximum 
+ Spread Direction</a>. These are intermediate products of the MTT model 
+ and made available for research and creating unique output products.</p>
     </body>
 </html>
