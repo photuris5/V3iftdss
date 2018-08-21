@@ -317,8 +317,8 @@ MadCap|dropDown
 {
 	margin-bottom: 6px;
 	margin-top: 6px;
-	mc-closed-image: url('../Images/droparrowright.png');
-	mc-open-image: url('../Images/droparrowdown.png');
+	mc-closed-image: url('../Images/plus.png');
+	mc-open-image: url('../Images/minus.png');
 }
 /* The .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage class below enlarges the dropdown to be H2 size once expanded for easy reading and better printing */
 .MCDropDown_Open .MCDropDownHotSpot_.MCHotSpotImage
@@ -333,8 +333,8 @@ MadCap|dropDown
 MadCap|dropDown.SecondLevel
 {
 	margin-left: 10px;
-	mc-closed-image: url('../Images/droparrowright.png');
-	mc-open-image: url('../Images/droparrowdown.png');
+	mc-closed-image: url('../Images/plus.png');
+	mc-open-image: url('../Images/minus.png');
 }
 
 MadCap|dropDownBody

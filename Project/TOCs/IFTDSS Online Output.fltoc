@@ -314,6 +314,9 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/10-MapStudio/Files/SpatialExtent.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/10-MapStudio/Files/DeleteShape.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="[%=System.LinkedTitle%]"
@@ -363,6 +366,41 @@
       Title="About FTEM"
       Link="/Content/10-FTEM/FTEMAbout.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
+      Title="Using FTEM"
+      Link="/Content/10-FTEM/General/UsingFtem.htm">
+      <TocEntry
+        Title="How to Use FTEM"
+        Link="/Content/10-FTEM/General/UsingFtem.htm" />
+      <TocEntry
+        Title="Symbology"
+        Link="/Content/10-FTEM/General/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Viewing Shapefiles"
+        Link="/Content/10-FTEM/General/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add and View Attachments"
+        Link="/Content/10-FTEM/General/Attachments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Add Treatments Using Buffer"
+        Link="/Content/10-FTEM/General/SearchBuffer.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Missing Fires &amp; Treatments"
+        Link="/Content/10-FTEM/General/Missing Data.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
+      Title="Answering Monitoring Questions"
+      Link="/Content/10-FTEM/Guidance/Policy.htm">
+      <TocEntry
+        Title="Monitoring Guidance"
+        Link="/Content/10-FTEM/Guidance/MonitoringGuidance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Agency Specific Policies"
+        Link="/Content/10-FTEM/Guidance/Policy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Contact Administrators"
+        Link="/Content/10-FTEM/Guidance/AgencyLeads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="Account &amp; Permissions"
       Link="/Content/10-FTEM/AccountsRoles/AccountSetup.htm">
       <TocEntry
@@ -375,28 +413,6 @@
         Title="[%=System.LinkedTitle%]"
         Link="/Content/10-FTEM/AccountsRoles/Roles_Detailed.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
-    <TocEntry
-      Title="How to Use FTEM"
-      Link="/Content/10-FTEM/General/UsingFtem.htm">
-      <TocEntry
-        Title="How to Use FTEM"
-        Link="/Content/10-FTEM/General/UsingFtem.htm" />
-      <TocEntry
-        Title="Symbology"
-        Link="/Content/10-FTEM/General/Symbology.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Viewing Shapefiles"
-        Link="/Content/10-FTEM/General/AddShapefile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-FTEM/General/Attachments.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
-    <TocEntry
-      Title="Monitoring Guidance"
-      Link="/Content/10-FTEM/Guidance/MonitoringGuidance.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Policies"
-      Link="/Content/10-FTEM/Guidance/Policy.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     <TocEntry
       Title="Reports"
       Link="/Content/10-FTEM/Reports/FTEMReporting.htm">
@@ -450,7 +466,7 @@
         conditions="General.QA ONLY" />
       <TocEntry
         Title="[%=System.LinkedTitle%]"
-        Link="/Content/10-FTEM/AgencyLeads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/10-FTEM/Guidance/AgencyLeads.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="FAQ"

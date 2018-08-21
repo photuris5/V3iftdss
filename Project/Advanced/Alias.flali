@@ -170,7 +170,7 @@
     <Map Name="ShapeGroup" Link="/Content/10-MapStudio/Files/ShapeGroup.htm" />
     <Map Name="a_StartandCreateLCP" Link="/Content/40-Tutorials/Shorts/StartandCreateLCP.htm" />
     <Map Name="Chrome" Link="/Content/00-Concepts/Chrome.htm" />
-    <Map Name="AgencyLeads" Link="/Content/10-FTEM/AgencyLeads.htm" />
+    <Map Name="AgencyLeads" Link="/Content/10-FTEM/Guidance/AgencyLeads.htm" />
     <Map Name="DataTreatments" Link="/Content/10-FTEM/DataTechnical/Treatments.htm" />
     <Map Name="DataUtilities" Link="/Content/10-FTEM/DataTechnical/Utilities.htm" />
     <Map Name="DataWildfires" Link="/Content/10-FTEM/DataTechnical/Wildfires.htm" />
@@ -202,4 +202,7 @@
     <Map Name="LCPCreateFromButton" Link="/Content/30-Tasks/CreateLCP/LCPCreateFromButton.htm" />
     <Map Name="template_hh" Link="/Content/50-Hover/MTT/template_hh.htm" />
     <Map Name="ignition_hh" Link="/Content/50-Hover/MTT/ignition_hh.htm" />
+    <Map Name="MISSING_DATA" Link="/Content/10-FTEM/General/Missing Data.htm" />
+    <Map Name="SEARCHBUFFER" Link="/Content/10-FTEM/General/SearchBuffer.htm" />
+    <Map Name="MTTTECHDOC" Link="/Content/20-Models/FlamMap/MTTTechDoc.htm" />
 </CatapultAliasFile>

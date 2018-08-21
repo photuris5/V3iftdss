@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How do I find my treatments?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Treatments in FTEM&#160;are organized by wildfire, <a href="../../../10-FTEM/General/UsingFtem.htm#wildfire" target="_blank">pick your wildfire</a> first using the date list and wildfire name search. Once you have chosen your wildfire, click the <span class="UIcomponent">Treatments</span> button to see a list of the treatments interactions for that fire. Use the <a href="../../../10-FTEM/General/UsingFtem.htm#treatments" target="_blank">Add or Remove Treatment buttons to refine your treatment list</a>.</p>
+                <p>What about my region? When you create your FTEM&#160;account you will be asked to specify a region. This does not limit the treatments or wildfires you see. Your region simply constrains the map extent you see when you first open FTEM. You are still free to scroll and search for fires/treatments anywhere on the FTEM&#160;map.<img src="../../Images/FTEM/choose_treatments.png" alt="treatments are selected based on the wildfire you choose." class="border" /></p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

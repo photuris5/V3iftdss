@@ -202,3 +202,6 @@
 #define LCPCreateFromButton 1174
 #define template_hh 1175
 #define ignition_hh 9192
+#define MISSING_DATA 1023
+#define SEARCHBUFFER 1064
+#define MTTTECHDOC 1097

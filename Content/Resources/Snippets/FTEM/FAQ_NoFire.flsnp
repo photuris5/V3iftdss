@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+    </head>
+    <body>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What if I don't see my wildfire?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p> Wildfire data is pulled into the FTEM&#160;system nightly from IRWIN and GEOMAC.</p>
+                <p>The most common reason a wildfire is not visible in FTEM&#160;is a lack of Control Date, Containment Date, or Out Date in the system of record.</p>
+                <ol style="list-style-type: upper-alpha;">
+                    <li>If this date remains blank, it will not become visible in FTEM&#160;until 45 days after the start date.</li>
+                    <li>For those familiar with WFDSS who have the proper permissions, they could update those date fields, and the wildfire would be pulled into FTEM the following day.</li>
+                    <li>Alternatively, an FTEM user could contact their <a href="../../../10-FTEM/Guidance/AgencyLeads.htm" target="_blank">FTEM&#160;Agency Administrator</a> to let them know the fire is not appearing, and to check for this issue in the system of record.</li>
+                </ol>
+                <p>For more details see the <a href="../../../10-FTEM/DataTechnical/Wildfires.htm" target="_blank">FTEM Wildfire Technical Topic</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
