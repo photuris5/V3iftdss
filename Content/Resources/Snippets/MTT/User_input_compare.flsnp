@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This is a matrix of how the inputs are shared across the FlamMap family of models in IFTDSS. This only includes the inputs a user can control.</p>
+        <table style="width: 100%;mc-table-style: url('../../TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRowsLeft" cellspacing="0">
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 199px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 194px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 171px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 118px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 108px;" />
+            <tbody>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Input Group</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Input</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Landscape Fire Behavior</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">MTT Fire Spread</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="font-weight: bold;">Landscape Burn Probability</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Wind</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Wind Type</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Wind Speed</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Wind Direction</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Crown Fire Input</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Crown Fire Method</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Foliar Moisture Content</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Initial Fuel Moisture</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Initial Fuel &#160;Moisture</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Fuel Moisture Conditioning</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Conditioning Type</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Conditioning Details</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Simulation Time</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Burn Period Length</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows"># of Burn Periods</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Ignition</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Ignition File</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Barrier</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Barrier File</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">&#160;</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">Spotting</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">Spotting Probability</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyA-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+            </tbody>
+        </table>
+        <p MadCap:conditions="General.Exclude" class="comment">From:&#160;https://docs.google.com/document/d/1Ve9nvSrFVwVNQLmnquWIKCbcD8ytkoHmXINNcyrg62M/edit</p>
+    </body>
+</html>
