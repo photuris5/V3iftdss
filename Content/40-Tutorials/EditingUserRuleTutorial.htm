@@ -30,17 +30,17 @@
         </ul>
         <p>This will create a small (~3,000 acre) landscape in northwest Utah dominated by a Low Load, Dry Climate Grass fuel model. Take a moment to complete the summary process by clicking the <span class="UIcomponent">Request a Report</span> button and examining the PDF summary report that is generated.</p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/Editing LANDFIRE Data in IFTDSS_2.png" class="border" />
+            <img src="../Resources/Images/MapStudio/Editing LF Data in IFTDSS_2_tut.png" class="border" />
             <br />
         </p>
         <p>You're going to make a simple edit  to simulate a prolonged drought. You’re going to change the GR2 (low load, dry climate grass) to a GR1, which is a short, sparse, dry climate grass.</p>
         <p>To begin editing a landscape, you may either find the landscape file in <span class="UIcomponent">MyWorkspace</span> and click <span class="UIcomponent">Edit</span>, or use the <span class="UIcomponent">Planning Cycle</span>, and navigate to <span class="UIcomponent">Landscape Evaluation</span> and then <span class="UIcomponent">Edit Landscape</span>. The editing interface is identical regardless of the method you choose. </p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/myworkspace_edit.png" alt="editing can be accessed from more than one place in IFTDSS" class="borderlist" />
+            <img src="../Resources/Images/Cycle/myworkspace_edit_tut.png" alt="editing can be accessed from more than one place in IFTDSS" class="borderlist" />
         </p>
         <p>Take a moment to become familiar with the editing interface.</p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/layout.png" alt="editing interface layout with dropdown menus for editing rules" class="border" />
+            <img src="../Resources/Images/Editing/layout_tut.png" alt="editing interface layout with dropdown menus for editing rules" class="border" />
         </p>
         <p>Now, select the landscape you just created and begin editing. From the Editing Interface:</p>
         <ol style="list-style-type: upper-alpha;">
@@ -53,13 +53,13 @@
             <li>
                 <p>Click <span class="UIcomponent">Add Row</span> to start setting the conditions to which the rule will apply.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/start_custom_edit.png" alt="click and editing rule heading to start choosing or creating rules." class="borderlist" />
+                    <img src="../Resources/Images/Editing/start_custom_edit_tut.png" alt="click and editing rule heading to start choosing or creating rules." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>Use the drop-down fields to specify a rule that will apply where:&#160;Fuel Model is equal to 102(GR2) exists.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/basic_edit_attribute_select.png" alt="the first part of using customized rules is to specify your selection criteria" class="borderlist" />
+                    <img src="../Resources/Images/Editing/basic_edit_attribute_select_tut.png" alt="the first part of using customized rules is to specify your selection criteria" class="borderlist" />
                 </p>
             </li>
             <li>In the fields under<span class="UIcomponent"> Modify the following values</span> click the <span class="UIcomponent">add row</span> button and add use the drop-down fields to specify the change that will occur when then criteria are met:&#160;Fuel Model set to 101(GR1).</li>
@@ -67,19 +67,19 @@
             <li>
                 <p>When finished creating the rule, click <span class="UIcomponent">Add to Rules</span>. Note that your new rule will be listed toward the top of the page, between your landscape name and the editing fields. If you wanted to apply additional rules that could be done here before naming and generating the newly edited landscape. Take a look at the <a href="../30-Tasks/LndscpEdit/RuleOrdering.htm" target="_blank">Rule Ordering Topic,</a> which details the order in which multiple editing rules are applied. </p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/basic_edit_attribute_change.png" alt="speficy the changes you want to apply to pixels that meet the selection criteria." class="borderlist" />
+                    <img src="../Resources/Images/Editing/basic_edit_attribute_change_tut.png" alt="speficy the changes you want to apply to pixels that meet the selection criteria." class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>To apply the rule and create the edited landscape, give your landscape a descriptive name, in this case "Grass Valley Drought", and click <span class="UIcomponent">Save New Landscape</span>.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/saving_edits.png" alt="name your edited landcape and save" class="borderlist" />
+                    <img src="../Resources/Images/Editing/saving_edits_tut.png" alt="name your edited landcape and save" class="borderlist" />
                 </p>
             </li>
         </ol>
         <p>Your original landscape, as well as the newly edited landscape are now available in <span class="UIcomponent">My Workspace</span>. Selecting the new landscape and clicking <span class="UIcomponent">View on Map</span>, will display the new landscape in <MadCap:variable name="General.MapStudio" />. Using <span class="UIcomponent">Identify</span>, you can confirm that the edit has worked, all the areas that were GR2 are now GR1:</p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/new_edited_landscape_basic.png" alt="landscape with GR1 fuel model displaying across the map" class="border" />
+            <img src="../Resources/Images/MapStudio/new_edited_lcp_basic_tut.png" alt="landscape with GR1 fuel model displaying across the map" class="border" />
         </p>
         <h2>Editing Landscapes Part Two</h2>
         <p>Now that you have completed an easy edit you will practice with a more complex edit using some different methods. In this scenario you'll examine a specific area, the Cruches Basin Wilderness. You'll make edits within the wilderness area to reflect aspen stands, represented by fuel model TU1(161), that have recently experienced high mortality on dry south-facing slopes. These southerly aspect stands now have many jackstrawed dead down logs  dry enough to burn.</p>
@@ -106,14 +106,14 @@
             <li>
                 <p>Open <span class="UIcomponent">Add Layers</span> <img src="../Resources/Images/MapStudio/overview/button_adref.png" alt="add layers" class="iftbutton" />, select the <span class="UIcomponent"> IFTDSS Reference Layer</span> tab, expand the "Designated Areas" category, and select "Wilderness" to display it on the map. You will see the area appear over your landscape.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/add_reference.png" alt="add reference layers with the 'add layers' widget." class="borderlist" />
+                    <img src="../Resources/Images/MapStudio/add_reference_tut.png" alt="add reference layers with the 'add layers' widget." class="borderlist" />
                 </p>
             </li>
-            <li>Open the <span class="UIcomponent">Create/Edit shapes <img src="../Resources/Images/MapStudio/create_edit_shp/button_editTools.png" alt="create edit shapes" style="width: 14px; height: 14px;" class="iftbutton" /></span> widget and select the <span class="UIcomponent">Copy from Existing Features <img src="../Resources/Images/MapStudio/create_edit_shp/button_copy_exstng_ftrs.png" alt="copy existing features" class="iftbutton" /></span> button. Leave the option for <span class="UIcomponent">Select Singlepart</span> selected, this will only select the shape you click on. If <span class="UIcomponent">Select Multipart</span> were selected you would be able to capture multiple shapes associated with a feature by clicking on it once.</li>
+            <li>Open the <span class="UIcomponent">Create/Edit shapes <img src="../Resources/Images/MapStudio/overview/button_editTools.png" alt="create edit shapes" style="width: 14px; height: 14px;" class="iftbutton" /></span> widget and select the <span class="UIcomponent">Copy from Existing Features <img src="../Resources/Images/MapStudio/create_edit_shp/button_copy_exstng_ftrs.png" alt="copy existing features" class="iftbutton" /></span> button. Leave the option for <span class="UIcomponent">Select Singlepart</span> selected, this will only select the shape you click on. If <span class="UIcomponent">Select Multipart</span> were selected you would be able to capture multiple shapes associated with a feature by clicking on it once.</li>
             <li>
-                <p>Click the "Cruches Basin Wilderness" area to select it. In <span class="UIcomponent">Create/Edit shapes <img src="../Resources/Images/MapStudio/create_edit_shp/button_editTools.png" alt="create edit shapes" style="width: 14px; height: 14px;" class="iftbutton" /></span>, name the selection "Cruches Basin Wilderness", specify the "Landscape Edit" folder to store the shape in, and click <span class="UIcomponent">Create</span>.</p>
+                <p>Click the "Cruches Basin Wilderness" area to select it. In <span class="UIcomponent">Create/Edit shapes <img src="../Resources/Images/MapStudio/overview/button_editTools.png" alt="create edit shapes" style="width: 14px; height: 14px;" class="iftbutton" /></span>, name the selection "Cruches Basin Wilderness", specify the "Landscape Edit" folder to store the shape in, and click <span class="UIcomponent">Create</span>.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/create_shape.png" alt="use 'create/edit shapes' to create a shape based on the reference layer" class="borderlist" />
+                    <img src="../Resources/Images/MapStudio/create_shape_tut.png" alt="use 'create/edit shapes' to create a shape based on the reference layer" class="borderlist" />
                 </p>
             </li>
         </ol>
@@ -129,7 +129,7 @@
             <li>
                 <p>In the <span class="UIcomponent">Area of Interest</span> field select "Cruches Basin Wilderness". This will constrain comparison reports, which you will generate later, to that area of interest. If left blank the reports would be generated for the entire landscape. To split the screen and display a map of the area on the left, you may use the <span class="UIcomponent">split screen <img src="../Resources/Images/ButtonsGeneral/map button.png" alt="show map" class="iftbutton" /></span> button to the right of the Select Landscape field. </p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/selecting_aoi.png" alt="select the Cruches Wilderness area of interest" class="borderlist" />
+                    <img src="../Resources/Images/Editing/selecting_aoi_tut.png" alt="select the Cruches Wilderness area of interest" class="borderlist" />
                 </p>
             </li>
             <li>Proceed to the <span class="UIcomponent">Edit Landscape</span> tab. You will notice this is the exact same editing interface as we used earlier. Because the edit will simulate a jackstrawed area on south facing slopes, you'll create a rule that will change the Fuel Model and Canopy Cover at a specific aspect.</li>
@@ -138,12 +138,12 @@
             <li>
                 <p>In the <span class="UIcomponent">Apply to Landscape Mask </span>field, use the drop-down to select "Cruches Basin Wilderness". This rule will find all TU1 areas between 113-292 apsect within the Cruches Basin Wilderness mask, and change the fuel to timber litter and reduce the canopy cover by 35%. You may consider modifying canopy bulk density as well, but this is at low value already, and we are not concerned that live aspen crowns will burn. If crown fire were a concern, then this value should be edited as well.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/jackstraw_rule.png" alt="Jackstraw editing interface showing rule as outlined in text" class="borderlist" /> </p>
+                    <img src="../Resources/Images/Editing/jackstraw_rule_tut.png" alt="Jackstraw editing interface showing rule as outlined in text" class="borderlist" /> </p>
             </li>
             <li>
                 <p>Click <span class="UIcomponent">Add to Rules</span>. You will see your new rule added to Landscape Edit Rule list above. You may notice the editor has changed the order of your rows, but the important thing is, does the rule language make sense?</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/jackstraw_rule_confirmation.png" alt="confirmation message displaying the rule" class="borderlist" />
+                    <img src="../Resources/Images/Editing/jackstraw_rule_confirmation_tut.png" alt="confirmation message displaying the rule" class="borderlist" />
                 </p>
             </li>
             <li>
@@ -164,50 +164,50 @@
                     <li>Woody Fuel Moisture: 60</li>
                 </ul>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/dta_modeling.png" alt="modeling inputs as described in text." class="borderlist" />
+                    <img src="../Resources/Images/DTA/dta_modeling_tut.png" alt="modeling inputs as described in text." class="borderlist" />
                 </p>
             </li>
             <li>
-                <p>Click the <span class="UIcomponent">Run Model</span> tab. Leave the name for each landscape run as-is and click <span class="UIcomponent">Run Model </span>for each one. You may use the <span class="UIcomponent">Refresh <img src="../Resources/Images/ButtonsGeneral/button_refresh.png" alt="refresh" class="iftbutton" /> button</span> next to Run Status to see when the runs have finished.</p>
+                <p>Click the <span class="UIcomponent">Run Model</span> tab. Leave the name for each landscape run as-is and click <span class="UIcomponent">Run Model </span>for each one. You may use the <span class="UIcomponent">Refresh <img src="../Resources/Images/ButtonsGeneral/refresh.png" alt="refresh" class="iftbutton" /> button</span> next to Run Status to see when the runs have finished.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/dta_run.png" alt="run the model for all landscapes" class="borderlist" />
+                    <img src="../Resources/Images/DTA/dta_run_tut.png" alt="run the model for all landscapes" class="borderlist" />
                 </p>
             </li>
             <li>Click on the <span class="UIcomponent">Compare Alternatives</span> tab. This is where comparison summaries are generated, either as map layers, or PDF reports. For this tutorial you will generate a PDF report.</li>
             <li>Select "Cruches Basin 184 cc .65" as your first landscape, and "Cruches Basin LF14" as your second.</li>
             <li>
-                <p>Click <span class="UIcomponent">Compare in Summary Report</span>. A box will appear showing report options. Click <span class="UIcomponent">Create Report</span> next to the Landscape Compare&#160;Summary Report option. The report may take a minute to generate. Click the <span class="UIcomponent">Refresh <img src="../Resources/Images/ButtonsGeneral/button_refresh.png" alt="refresh" class="iftbutton" /> button</span> to check the report status.</p>
+                <p>Click <span class="UIcomponent">Compare in Summary Report</span>. A box will appear showing report options. Click <span class="UIcomponent">Create Report</span> next to the Landscape Compare&#160;Summary Report option. The report may take a minute to generate. Click the <span class="UIcomponent">Refresh <img src="../Resources/Images/ButtonsGeneral/refresh.png" alt="refresh" class="iftbutton" /> button</span> to check the report status.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/dta_compare.png" alt="click the 'Compare in Summary Report' button" class="borderlist" />
+                    <img src="../Resources/Images/DTA/dta_compare_tut.png" alt="click the 'Compare in Summary Report' button" class="borderlist" />
                 </p>
             </li>
             <li>
                 <p>When the report name turns blue, indicating your report is ready, click on the report name. This will open your comparison report in a new tab.</p>
                 <p>
-                    <img src="../Resources/Images/tutorial_editing_userR/dta_report_ready.png" alt="click the report hyperlink to open the report" class="borderlist" />
+                    <img src="../Resources/Images/DTA/dta_report_ready_tut.png" alt="click the report hyperlink to open the report" class="borderlist" />
                 </p>
             </li>
         </ol>
         <h3>Reviewing the Landscape Compare Summary Report</h3>
         <p>This report compares the two landscapes side by side. From the first graph, you can see fuel model TL4 is present on your edited landscape but not on the original landscape. </p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/report_FM_bar.png" alt="TL4 is visible on the newly edited landscape." class="border" />
+            <img src="../Resources/Images/Reports/report_FM_bar_tut.png" alt="TL4 is visible on the newly edited landscape." class="border" />
         </p>
         <p>Scrolling down to the Percent Difference chart, you will also see that TL4 has increased by approximately 6%, and TU1 had decreased by the same. This confirms that your edits moved some of the TU1 to TL4. The other tables and charts confirm this as you scroll down further. </p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/report_FM_difference.png" alt="difference chart showing a shift from TU1 to TL1" class="border" />
+            <img src="../Resources/Images/Reports/report_FM_difference_tut.png" alt="difference chart showing a shift from TU1 to TL1" class="border" />
         </p>
         <p>Review the charts and tables for Canopy Cover. Do these reflect the edits you made to the canopy cover? </p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/report_CC_difference.png" alt="canopy cover difference chart showing changes in canopy cover" class="border" />
+            <img src="../Resources/Images/Reports/report_CC_difference_tut.png" alt="canopy cover difference chart showing changes in canopy cover" class="border" />
         </p>
         <p>This report is very powerful. Individual sections can be exported in various formats using the button in the top right, as shown below, and entire reports may be downloaded using the download <img src="../Resources/Images/ButtonsGeneral/download.png" alt="download" class="iftbutton" /> button in the top right of the PDF. </p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/report_exports.png" alt="export button for charts is in the top right next to each chart" class="border" />
+            <img src="../Resources/Images/Reports/report_exports_tut.png" alt="export button for charts is in the top right next to each chart" class="border" />
         </p>
         <p>Additionally, data displayed in tables can be exported in CSV, Excel, or PDF format or copied for written reports or printed, and data can be exported in CSV or Excel format for further analysis or display with other graphs or tables.&#160; </p>
         <p>
-            <img src="../Resources/Images/tutorial_editing_userR/table_export.png" alt="export buttons appear above report tables." class="border" />
+            <img src="../Resources/Images/Reports/table_export_tut.png" alt="export buttons appear above report tables." class="border" />
         </p>
         <h3>Another Look</h3>
         <p> Return to the Comparison tab summary reports option. This time, generate a report for fire behavior comparison and review it. </p>

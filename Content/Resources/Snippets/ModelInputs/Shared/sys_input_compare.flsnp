@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../TableStyles/IFTDSS_PatternedRowsLeft.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <p>This is a matrix of default inputs shared across the FlamMap family of models in IFTDSS. This only includes defaults the user cannot change.</p>
+        <table style="width: 100%;mc-table-style: url('../../../TableStyles/IFTDSS_PatternedRowsLeft.css');" class="TableStyle-IFTDSS_PatternedRowsLeft" cellspacing="0">
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 119px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 157px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 170px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 98px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" style="width: 183px;" />
+            <col class="TableStyle-IFTDSS_PatternedRowsLeft-Column-Regular" />
+            <tbody>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Input&#160;Group</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Input</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Value</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">Landscape Fire Behavior</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="font-weight: bold;">MTT Fire Spread</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="font-weight: bold;">Landscape Burn Probability</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Search Depths</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Lateral</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">6</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Vertical</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">4</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Spotting</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Spotting Delay</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">0 min</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Spotting Speed</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Randomly generated</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows" style="text-align: center;">x</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Ignition</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows"># Random Ignitions</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">Pyrome-based</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-DarkerRows" style="text-align: center;">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-DarkerRows" style="text-align: center;">x</td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-LightRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Resolution of&#160;Calculations</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">Based on Landscape Size and Model Dependent</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">30 m</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyE-Regular-LightRows">
+                        <ul>
+                            <li>&lt; 1 million acres: 30m</li>
+                            <li>&gt;1 million acres: 60m</li>
+                        </ul>
+                    </td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyD-Regular-LightRows">
+                        <ul>
+                            <li>&lt; 250K acres: 30 m</li>
+                            <li>250 K - 1 million acres: 60 m</li>
+                            <li>1 to &lt;2.5 million acres: 90 m</li>
+                            <li>2.5 - &lt;5 million acres:120 m</li>
+                            <li>&gt;5 million acres: 150 m</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="TableStyle-IFTDSS_PatternedRowsLeft-Body-DarkerRows">
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">Travel Paths</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">Interval for Minimum Travel Paths</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">&#160;</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyB-Regular-DarkerRows">300 m</td>
+                    <td class="TableStyle-IFTDSS_PatternedRowsLeft-BodyA-Regular-DarkerRows">&#160;</td>
+                </tr>
+            </tbody>
+        </table>
+        <p MadCap:conditions="General.Exclude" class="comment">From:&#160;https://docs.google.com/document/d/1Ve9nvSrFVwVNQLmnquWIKCbcD8ytkoHmXINNcyrg62M/edit</p>
+    </body>
+</html>

@@ -25,7 +25,7 @@
         <h3>Edit the landscape to simulate treatment scenarios</h3>
         <p>Next, move to the <span class="UIcomponent">Edit Landscape</span> tab, where you'll select a Default Fuels Treatment rule, and apply it to the&#160;AOI to simulate a thin and pile burn. This will create a version of your landscape with edits applied to your areas of interest. Later, you'll see how this proposed treatment affects fire behavior. To create the edited landscape: </p>
         <ol style="list-style-type: upper-alpha;">
-            <li>Select the "Granite Creek LF2014 unedited" landscape as your starting landscape. If you'd like to see your selected landscape while editing, click the <span class="UIcomponent">Split Screen</span> <img src="../../Images/ButtonsGeneral/button_showsplitmap.png" alt="split" class="iftbutton" /> button in the top left.</li>
+            <li>Select the "Granite Creek LF2014 unedited" landscape as your starting landscape. If you'd like to see your selected landscape while editing, click the <span class="UIcomponent">Split Screen</span> <img src="../../Images/ButtonsGeneral/showsplitmap.png" alt="split" class="iftbutton" /> button in the top left.</li>
             <li>Click <span class="UIcomponent">Add Default Fuels Treatment/Disturbance Edit Rule</span> to display editing options.</li>
             <li>
                 <p>Click <span class="UIcomponent">Thin: Slash Removed</span>, then select the "Light Thinning; Pile Burning" option.</p>
@@ -44,7 +44,7 @@
                 <p>This rule will mimic thinning the AOI to about 80% present density by removing understory up to 8” DBH, with subsequent pile burning of thinned material. This information appears if you&#160;hover over the "Light Thinning: Pile Burning" option described in step C above. Alternatively, the description of each default rule can be read in the <a href="../../../30-Tasks/LndscpEdit/TreatmentRuleBackground.htm" target="_blank">Landscape Editing - Default Fuel Treatment and Disturbance Topic</a> of the Help Center.</p>
             </li>
             <li>
-                <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">delete</span> <img src="../../Images/ButtonsGeneral/button_delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
+                <p>Your rule will be displayed at the top of the screen along with a green confirmation box. Leave this rule as-is, but know that if you had made a mistake and needed to discard the rule, it could be deleted using the <span class="UIcomponent">delete</span> <img src="../../Images/ButtonsGeneral/delete.png" alt="delete" class="iftbutton" /> button shown to the right of the rule.</p>
                 <p>
                     <img src="../../Images/Editing/dta_edit_confirmation.png" alt="a green edit confirmation box appears when a rule is added. " class="borderlist" />
                 </p>

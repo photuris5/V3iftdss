@@ -12,7 +12,7 @@
                     <img src="../../Images/MapStudio/dta_create_aoi_1.png" alt="set the layer list to view flame length" class="borderlist" />
                 </p>
             </li>
-            <li>Select the <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Images/MapStudio/create_edit_shp/button_editTools.png" alt="create or edit shapes" class="iftbutton" /> widget  at the bottom of the screen and ensure <span class="UIcomponent">Polygons</span> is selected in the drop-down box in <span class="UIcomponent">Create/Edit Shapes</span>. </li>
+            <li>Select the <span class="UIcomponent">Create/Edit Shapes</span> <img src="../../Images/MapStudio/overview/button_editTools.png" alt="create or edit shapes" class="iftbutton" /> widget  at the bottom of the screen and ensure <span class="UIcomponent">Polygons</span> is selected in the drop-down box in <span class="UIcomponent">Create/Edit Shapes</span>. </li>
             <li>
                 <p>Next you will create two shapes similar to those shown below (they need not match exactly). Select the <span class="UIcomponent">Freehand Polygon</span> <img src="../../Images/MapStudio/create_edit_shp/button_edittools_freehand.png" alt="freehand draw button" class="iftbutton" /> option, and draw a shape around one of the areas of significant fire behavior.</p>
                 <p>

@@ -13,7 +13,7 @@
             <li>
                 <p>Click <span class="UIcomponent">Create</span></p>
                 <p>
-                    <img src="../../Images/tutorial_1_comparison/tut1_combineshapefile.png" alt="use Edit/Create Tools options to save multiple polygons in one file" class="borderlist">
+                    <img src="../../Images/MapStudio/combine_shpfile_tut.png" alt="use Edit/Create Tools options to save multiple polygons in one file" class="borderlist">
                     </img>
                 </p>
             </li>
