@@ -68,7 +68,10 @@
             <li>By not clicking <span class="UIcomponent">+ add row</span> under the "Initial Fuel Moisture" section, the fuel moistures will remain the same for all fuel models across the landscape. If you had  clicked <span class="UIcomponent">+ add row</span>, you could enter specific fuel models and assign unique moisture conditions for each one. </li>
             <li>
                 <p>Click <span class="UIcomponent">Save Inputs</span> at the bottom of the screen and move to the <span class="UIcomponent">Run Model</span> tab.</p>
-                <p>
+                <p MadCap:conditions="General.Prod ONLY">
+                    <img src="../../Images/V3-0-1/dta_model_inputs.png" alt="inputs as described in text" class="borderlist" />
+                </p>
+                <p MadCap:conditions="General.QA ONLY">
                     <img src="../../Images/DTA/dta_model_inputs.png" alt="enter the modeling parameters under the Model Input tab" class="borderlist">
                     </img>
                 </p>
