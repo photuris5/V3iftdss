@@ -4,9 +4,84 @@
     </head>
     <body>
         <h1>FTEM Frequently Asked Questions</h1>
+        <p>FAQs are organized by the following subjects:</p>
+        <ul>
+            <li><a href="#Wildfire">Wildfires</a>
+            </li>
+            <li><a href="#Treatmen">Treatments</a>
+            </li>
+            <li><a href="#Treatmen2">Treatment Interactions</a>
+            </li>
+            <li><a href="#Policy">Policy and Data Questions</a>
+            </li>
+            <li><a href="#General">General</a>
+            </li>
+        </ul>
+        <h2><a name="Wildfire"></a>Wildfires</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoFire.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How Does my Region affect what fires I see in FTEM?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p> When you create your FTEM&#160;account you will be asked to specify a region. This does not limit the treatments or wildfires you see. Your region simply constrains the map extent you see when you first open FTEM. You are still free to scroll and search for fires/treatments anywhere on the FTEM&#160;map.</p>
+                <p>The list of fires and interactions you see in FTEM&#160;is determined by the map area you are zoomed into. The fires that appear for your agency are not limited to those that started on land your agency owns, they also include fires that burn onto and through your agency lands. </p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Why do I&#160;only see a point to represent my wildfire?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The wildfire Data is pulled from IRWIN for points and GeoMac for perimeters.  If no perimeter has been loaded in GeoMac for your wildfire, you will only see a point representing it, regardless of the acreage. You can temporarily upload a perimeter for viewing purposes if you have one available (details in this are available in the <a href="General/AddShapefile.htm" target="_blank">Add shapes in FTEM Topic</a>.)</p>
+                <p>Please see the <a href="DataTechnical/Wildfires.htm" target="_blank">wildfire Technical Documentation</a> for more detail.</p>
+                <p>If you have a wildfire point and would like to view polygon data from your local machine when monitoring, Please see the <a href="General/AddShapefile.htm" target="_blank">FTEM Adding Shapes</a> topic.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2><a name="Treatmen"></a>Treatments</h2>
         <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FindTreatment.flsnp" />
         <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoTreatment.flsnp" />
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What if not all the treatment listed for a fire need monitoring?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>You can add or remove treatments from the treatment list with the <span class="UIcomponent">Add</span> or<span class="UIcomponent"> Remove treatment</span> buttons.</p>
+                <p>
+                    <img src="../Resources/Images/FTEM/add_or_remove_treatments.png" alt="add or remove treatment buttons under the treatments tab will let you add treatments or remove selected treatments" class="border">
+                    </img>
+                </p>
+                <p> See the <a href="General/UsingFtem.htm#treatments" target="_blank">treatments section of the FTEM walk-through</a> topic for more detail on this.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>What if treatments are loaded into FTEM after I've started monitoring a wildfire?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The new treatments will be available once in FTEM for users to add manually but the auto detect system will not pick them up once a fire has had monitoring started on it. So if you are missing treatments or think they have been updated in the system, you must select them on the map and add them from their or choose the add treatments button in the treatments tab to add them. We can wordsmith later.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Some of the treatments listed in the treatments Tab belong to a different unit or subunit, should I remove them?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Consult with the other unit or subunit before removing their treatments from the treatment list. When monitoring has been completed on all the treatments in the treatment list, FTEM will notify system administrators that upward reporting can now occur. A wildfire where FTEM has been completed can be amended, but any treatments removed would have to be manually added back in one at a time using the <span class="UIcomponent">Add treatments</span> button.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>How is the treatments list automatically populated once I select a wildfire?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>For wildfires with an associated perimeter, any treatment that enters that perimeter is displayed.</p>
+                <p>For wildfires represented by a point, a circle with its center at the wildfire’s point of origin is used to determine the potential treatment interactions for a wildfire.  The radius of the circle is based upon calculating the length of an ellipse whose length is 1.5 times its width and whose area is equal to the size of the wildfire.  The radius of the circle equals the length of the ellipse.</p>
+                <p>If a wildfire is represented by both a point and a perimeter, the FTEM application will use the perimeter buffer regardless of the buffer type,  it is up to the user to determine which treatments to move to the monitor tab within the FTEM application.</p>
+                <p>For more detail you may consult the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM Technical Documentation Topics on buffering, treatments, and wildfires</a>.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2><a name="Treatmen2"></a>Treatment Interactions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>My wildfire didn't interact with treatments but FTEM&#160;says it did, how do I correct it?</MadCap:dropDownHotspot>
@@ -51,26 +126,13 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Can I upload a shapefile if my wildfire is just represented in FTEM by a point?</MadCap:dropDownHotspot>
+                <MadCap:dropDownHotspot>If I complete monitoring and later need to update or edit, can I do that? If so, how?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
-                <p>Yes, temporarily. You can <a href="General/AddShapefile.htm" target="_blank">upload shapes for viewing purposes</a> to help you complete your monitoring, the shapes are not retained when you leave the system.</p>
-                <p>To permanently add a shapefile for a fire or treatment you'll need to update the systems of record FTEM&#160;uses (FACTS or NFPORS for treatments, IRWIN or GEOMAC for wildfires).</p>
+                <p>A wildfire where FTEM has been completed can be updated or edited.  Once you locate your fire in FTEM, go to the <span class="UIcomponent">Complete</span> tab and select <span class="UIcomponent">Amend</span>.  Provide a simple justification for the change into the pop-up box and you will be able to make any necessary adjustments.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>What if not all the treatment listed for a fire need monitoring?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>You can add or remove treatments from the treatment list with the <span class="UIcomponent">Add</span> or<span class="UIcomponent"> Remove treatment</span> buttons.</p>
-                <p>
-                    <img src="../Resources/Images/FTEM/add_or_remove_treatments.png" alt="add or remove treatment buttons under the treatments tab will let you add treatments or remove selected treatments" class="border">
-                    </img>
-                </p>
-                <p> See the <a href="General/UsingFtem.htm#treatments" target="_blank">treatments section of the FTEM walk-through</a> topic for more detail on this.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
+        <h2><a name="Policy"></a>Policy and Data Questions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Where does FTEM&#160;data come from &amp; where does it go?</MadCap:dropDownHotspot>
@@ -89,14 +151,30 @@
                 <p>FTEM data is summarized and analyzed at multiple levels and across various scales to demonstrate the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
-        <h2>&#160;</h2>
-        <h2>Other Common Questions</h2>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>Is completing FTEM a requirement or optional?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p><span class="Emphasis">Requirement</span>. Anytime a wildfire starts in or interacts with a fuel treatment area, all agencies require that the outcome is documented to examine whether the treatment had the desired effect of reduced fire behavior and/or provided opportunities to firefighters for effective management of the wildfire (2017 Interagency Standards for Fire and Fire Aviation Operations “<a href="../41-References/ReferenceList.htm#NWCG2018" target="_blank">Red Book</a>”). The FTEM application provides the framework for documenting these outcomes consistently across agencies in a manner that demonstrates the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Many of the fires that show wildfire/treatment interactions for my unit are wildfires less than &lt;0.25 acres in size and the treatment didn’t necessarily contribute to success.  How do I dismiss these types of fires in the application?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Currently, the best way to dismiss fires that really do not require FTEM is to remove all the interactions associated with the fire.  The fire will change in the map and in the wildfire list from red (which that indicates that interactions have been detected and FTEM has not been started yet), to gray (which indicates that no interactions have been detected any interactions).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2><a name="General"></a>General</h2>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Can I upload a shapefile if my wildfire is just represented in FTEM by a point?</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Yes, temporarily. You can <a href="General/AddShapefile.htm" target="_blank">upload shapes for viewing purposes</a> to help you complete your monitoring, the shapes are not retained when you leave the system.</p>
+                <p>To permanently add a shapefile for a fire or treatment you'll need to update the systems of record FTEM&#160;uses (FACTS or NFPORS for treatments, IRWIN or GEOMAC for wildfires).</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -117,55 +195,10 @@
         </MadCap:dropDown>
         <MadCap:dropDown>
             <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Why do I&#160;only see a point to represent my wildfire?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>The wildfire Data is pulled from IRWIN for points and GeoMac for perimeters.  If no perimeter has been loaded in GeoMac for your wildfire, you will only see a point representing it, regardless of the acreage. You can temporarily upload a perimeter for viewing purposes if you have one available (details in this are available in the <a href="General/AddShapefile.htm" target="_blank">Add shapes in FTEM Topic</a>.)</p>
-                <p>Please see the <a href="DataTechnical/Wildfires.htm" target="_blank">wildfire Technical Documentation</a> for more detail.</p>
-                <p>If you have a wildfire point and would like to view polygon data from your local machine when monitoring, Please see the <a href="General/AddShapefile.htm" target="_blank">FTEM Adding Shapes</a> topic.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>If I complete monitoring and later need to update or edit, can I do that? If so, how?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>A wildfire where FTEM has been completed can be updated or edited.  Once you locate your fire in FTEM, go to the <span class="UIcomponent">Complete</span> tab and select <span class="UIcomponent">Amend</span>.  Provide a simple justification for the change into the pop-up box and you will be able to make any necessary adjustments.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Some of the treatments listed in the treatments Tab belong to a different unit or subunit, should I remove them?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Consult with the other unit or subunit before removing their treatments from the treatment list. When monitoring has been completed on all the treatments in the treatment list, FTEM will notify system administrators that upward reporting can now occur. A wildfire where FTEM has been completed can be amended, but any treatments removed would have to be manually added back in one at a time using the <span class="UIcomponent">Add treatments</span> button.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
                 <MadCap:dropDownHotspot>What file types can I upload into FTEM as attachments?</MadCap:dropDownHotspot>
             </MadCap:dropDownHead>
             <MadCap:dropDownBody>
                 <p>Using the<span class="UIcomponent"> Add Attachments</span> button, users can upload MS Word documents, PDFs, JPGs, GIFs, and PNGs.</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>Many of the fires that show wildfire/treatment interactions for my unit are wildfires less than &lt;0.25 acres in size and the treatment didn’t necessarily contribute to success.  How do I dismiss these types of fires in the application?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>Currently, the best way to dismiss fires that really do not require FTEM is to remove all the interactions associated with the fire.  The fire will change in the map and in the wildfire list from red (which that indicates that interactions have been detected and FTEM has not been started yet), to gray (which indicates that no interactions have been detected any interactions).</p>
-            </MadCap:dropDownBody>
-        </MadCap:dropDown>
-        <MadCap:dropDown>
-            <MadCap:dropDownHead>
-                <MadCap:dropDownHotspot>How is the treatments list automatically populated once I select a wildfire?</MadCap:dropDownHotspot>
-            </MadCap:dropDownHead>
-            <MadCap:dropDownBody>
-                <p>For wildfires with an associated perimeter, any treatment that enters that perimeter is displayed.</p>
-                <p>For wildfires represented by a point, a circle with its center at the wildfire’s point of origin is used to determine the potential treatment interactions for a wildfire.  The radius of the circle is based upon calculating the length of an ellipse whose length is 1.5 times its width and whose area is equal to the size of the wildfire.  The radius of the circle equals the length of the ellipse.</p>
-                <p>If a wildfire is represented by both a point and a perimeter, the FTEM application will use the perimeter buffer regardless of the buffer type,  it is up to the user to determine which treatments to move to the monitor tab within the FTEM application.</p>
-                <p>For more detail you may consult the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM Technical Documentation Topics on buffering, treatments, and wildfires</a>.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
         <MadCap:dropDown>
@@ -176,5 +209,197 @@
                 <p>This aspect of FTEM&#160;is not currently planned to be changed. If you would like to suggest that, please submit a Support Desk ticket, or use the <a href="https://iftdsshelp.freshdesk.com/support/discussions/forums/22000059283" target="_blank">Ideas Exchange Forum</a> if that is an enhancement that is important for you to do your work.</p>
             </MadCap:dropDownBody>
         </MadCap:dropDown>
+        <div MadCap:conditions="General.Exclude">
+            <p class="comment">OLD&#160;FORMAT</p>
+            <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoFire.flsnp" />
+            <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FindTreatment.flsnp" />
+            <MadCap:snippetBlock src="../Resources/Snippets/FTEM/FAQ_NoTreatment.flsnp" />
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>My wildfire didn't interact with treatments but FTEM&#160;says it did, how do I correct it?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>This question most often comes up when a wildfire shows up in FTEM as "Check for interactions" (displayed in a red color), but the person monitoring knows no treatments interacted or need monitoring.</p>
+                    <p>In this case you'll need to change the remove the treatments so that the fire appears with  "No Interactions Detected", rather than "Check for interactions". To do this:</p>
+                    <ol>
+                        <li>Select the wildfire.</li>
+                        <li>
+                            <p>Move to the <span class="UIcomponent">Treatments</span> tab.</p>
+                            <p>
+                                <img src="../Resources/Images/FTEM/selecting_a_wildfire.png" alt="select a wildfire before moving to the treatments tab" class="borderlist" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Select all the treatments.</p>
+                            <p>
+                                <img src="../Resources/Images/FTEM/select_all_treatments.png" alt="use the 'select all' button to select all treatments" class="borderlist" />
+                            </p>
+                        </li>
+                        <li>
+                            <p>Use the <span class="UIcomponent">Remove treatments</span> button to remove them.</p>
+                            <p>
+                                <img src="../Resources/Images/FTEM/remove_all_treatments.png" alt="use the 'remove all' button to remove all the selected treatments" class="borderlist" />
+                            </p>
+                        </li>
+                    </ol>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>How do I monitor a fire that interacts with treatments from multiple agencies?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>For FTEM monitoring, each agency will enter data on their own treatments. </p>
+                    <p>If you find it helpful, you may view different agency treatment layers using the <span class="UIcomponent">Add layers </span><img src="../Resources/Images/MapStudio/overview/button_adref.png" alt="add layers" class="iftbutton" /> widget when in the map view.</p>
+                    <p>For those generating FTEM&#160;reports, the reports for all agencies will be available once the monitoring is completed.</p>
+                    <h3>If you need an FTEM&#160;role for more than one agency:</h3>
+                    <p>Request access to more than agency role from your FTEM&#160;User Profile. Each role must be approved by a FTEM Agency Lead. To see the full details on how to do this, see the <a href="AccountsRoles/AccountSetup.htm" target="_blank">drop-down on updating your User Role in the FTEM&#160;Account Topic</a>.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Can I upload a shapefile if my wildfire is just represented in FTEM by a point?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Yes, temporarily. You can <a href="General/AddShapefile.htm" target="_blank">upload shapes for viewing purposes</a> to help you complete your monitoring, the shapes are not retained when you leave the system.</p>
+                    <p>To permanently add a shapefile for a fire or treatment you'll need to update the systems of record FTEM&#160;uses (FACTS or NFPORS for treatments, IRWIN or GEOMAC for wildfires).</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>What if not all the treatment listed for a fire need monitoring?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>You can add or remove treatments from the treatment list with the <span class="UIcomponent">Add</span> or<span class="UIcomponent"> Remove treatment</span> buttons.</p>
+                    <p>
+                        <img src="../Resources/Images/FTEM/add_or_remove_treatments.png" alt="add or remove treatment buttons under the treatments tab will let you add treatments or remove selected treatments" class="border">
+                        </img>
+                    </p>
+                    <p> See the <a href="General/UsingFtem.htm#treatments" target="_blank">treatments section of the FTEM walk-through</a> topic for more detail on this.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>What if treatments are loaded into FTEM after I've started monitoring a wildfire?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>The new treatments will be available once in FTEM for users to add manually but the auto detect system will not pick them up once a fire has had monitoring started on it. So if you are missing treatments or think they have been updated in the system, you must select them on the map and add them from their or choose the add treatments button in the treatments tab to add them. We can wordsmith later.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Where does FTEM&#160;data come from &amp; where does it go?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <h3>Wildfire Data</h3>
+                    <p>wildfire point data are imported into FTEM via IRWIN (Integrated Reporting of Wildland-Fire Information), a service that acts as a real time conduit for fire data between the various wildland fire applications. wildfire perimeter data are pulled from GeoMAC (Geospatial Multi Agency Coordination), an application that is updated daily based upon input from incident intelligence sources. The FTEM&#160;Application is updated daily to incorporate fires reaching controlled status from Integrated Reporting of Wildland-Fire Information (IRWIN)&#160;and GeoMAC. For more information, see the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM&#160;Technical Documentation Topic</a>.</p>
+                    <h3>Treatment Data</h3>
+                    <p>The FTEM process relies on geospatial Integrated Point and Polygon Fuels treatment Layers that depict completed fuels treatments from four land management Agencies within the Department of Interior (National Park Service, Bureau of Land Management, US Fish and Wildlife Service, and Bureau of Indian Affairs) as well as the US Forest Service. The FTEM Integrated Point and Polygon Fuels treatment Layers are derived from data stored in:</p>
+                    <ul>
+                        <li>The Hazardous Fuels Reduction (HFR) Module of the National Fire Plan Operations and Reporting System (NFPORS). NFPORS is the national system for tracking fuels accomplishments for all agencies in the Department of Interior.</li>
+                        <li>The Forest Service Activity Tracking System (FACTS). FACTS is the official system for tracking U.S. Forest Service fuels accomplishments.</li>
+                    </ul>
+                    <p>For more information, see the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM&#160;Technical Documentation Topic</a>.</p>
+                    <h3>Once you enter data into FTEM...</h3>
+                    <p>FTEM data is summarized and analyzed at multiple levels and across various scales to demonstrate the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <h2>&#160;</h2>
+            <h2>Other Common Questions</h2>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Is completing FTEM a requirement or optional?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p><span class="Emphasis">Requirement</span>. Anytime a wildfire starts in or interacts with a fuel treatment area, all agencies require that the outcome is documented to examine whether the treatment had the desired effect of reduced fire behavior and/or provided opportunities to firefighters for effective management of the wildfire (2017 Interagency Standards for Fire and Fire Aviation Operations “<a href="../41-References/ReferenceList.htm#NWCG2018" target="_blank">Red Book</a>”). The FTEM application provides the framework for documenting these outcomes consistently across agencies in a manner that demonstrates the utility of the Hazardous Fuels Reduction program for all interested entities including, the Departments of Interior and Agriculture, Office of Management and Budget (OMB), Congress, Program Managers, Interest groups, and the public.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>A treatment for 2018 has already been entered into the legacy FTEM&#160;system, do I need to enter it again here?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>No. You do not need to re-enter 2018 data into the FTEM new version of <MadCap:variable name="General.ProductName" />, if you have already entered it in the legacy system.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>How Does my Region affect what fires I see in FTEM?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p> When you create your FTEM&#160;account you will be asked to specify a region. This does not limit the treatments or wildfires you see. Your region simply constrains the map extent you see when you first open FTEM. You are still free to scroll and search for fires/treatments anywhere on the FTEM&#160;map.</p>
+                    <p>The list of fires and interactions you see in FTEM&#160;is determined by the map area you are zoomed into. The fires that appear for your agency are not limited to those that started on land your agency owns, they also include fires that burn onto and through your agency lands. </p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Was data that had been loaded into FTEM in the years before 2017 included in the new system?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Data prior to 2017 is not loaded into the current version of FTEM. If you need to view that data you will have to access the legacy FTEM system and contact the agency lead for FTEM.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Why do I&#160;only see a point to represent my wildfire?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>The wildfire Data is pulled from IRWIN for points and GeoMac for perimeters.  If no perimeter has been loaded in GeoMac for your wildfire, you will only see a point representing it, regardless of the acreage. You can temporarily upload a perimeter for viewing purposes if you have one available (details in this are available in the <a href="General/AddShapefile.htm" target="_blank">Add shapes in FTEM Topic</a>.)</p>
+                    <p>Please see the <a href="DataTechnical/Wildfires.htm" target="_blank">wildfire Technical Documentation</a> for more detail.</p>
+                    <p>If you have a wildfire point and would like to view polygon data from your local machine when monitoring, Please see the <a href="General/AddShapefile.htm" target="_blank">FTEM Adding Shapes</a> topic.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>If I complete monitoring and later need to update or edit, can I do that? If so, how?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>A wildfire where FTEM has been completed can be updated or edited.  Once you locate your fire in FTEM, go to the <span class="UIcomponent">Complete</span> tab and select <span class="UIcomponent">Amend</span>.  Provide a simple justification for the change into the pop-up box and you will be able to make any necessary adjustments.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Some of the treatments listed in the treatments Tab belong to a different unit or subunit, should I remove them?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Consult with the other unit or subunit before removing their treatments from the treatment list. When monitoring has been completed on all the treatments in the treatment list, FTEM will notify system administrators that upward reporting can now occur. A wildfire where FTEM has been completed can be amended, but any treatments removed would have to be manually added back in one at a time using the <span class="UIcomponent">Add treatments</span> button.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>What file types can I upload into FTEM as attachments?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Using the<span class="UIcomponent"> Add Attachments</span> button, users can upload MS Word documents, PDFs, JPGs, GIFs, and PNGs.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Many of the fires that show wildfire/treatment interactions for my unit are wildfires less than &lt;0.25 acres in size and the treatment didn’t necessarily contribute to success.  How do I dismiss these types of fires in the application?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>Currently, the best way to dismiss fires that really do not require FTEM is to remove all the interactions associated with the fire.  The fire will change in the map and in the wildfire list from red (which that indicates that interactions have been detected and FTEM has not been started yet), to gray (which indicates that no interactions have been detected any interactions).</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>How is the treatments list automatically populated once I select a wildfire?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>For wildfires with an associated perimeter, any treatment that enters that perimeter is displayed.</p>
+                    <p>For wildfires represented by a point, a circle with its center at the wildfire’s point of origin is used to determine the potential treatment interactions for a wildfire.  The radius of the circle is based upon calculating the length of an ellipse whose length is 1.5 times its width and whose area is equal to the size of the wildfire.  The radius of the circle equals the length of the ellipse.</p>
+                    <p>If a wildfire is represented by both a point and a perimeter, the FTEM application will use the perimeter buffer regardless of the buffer type,  it is up to the user to determine which treatments to move to the monitor tab within the FTEM application.</p>
+                    <p>For more detail you may consult the <a href="DataTechnical/TechDoc.htm" target="_blank">FTEM Technical Documentation Topics on buffering, treatments, and wildfires</a>.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot>Local Times? I understand the wildfire data comes in from IRWIN. The start times for my wildfires in AZ seem to be in Greenwich Mean Time and are 7 hours ahead. The Control, Contain, and Out times are all 5 hours ahead. Will that be changed to reflect local times?</MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <p>This aspect of FTEM&#160;is not currently planned to be changed. If you would like to suggest that, please submit a Support Desk ticket, or use the <a href="https://iftdsshelp.freshdesk.com/support/discussions/forums/22000059283" target="_blank">Ideas Exchange Forum</a> if that is an enhancement that is important for you to do your work.</p>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
     </body>
 </html>
