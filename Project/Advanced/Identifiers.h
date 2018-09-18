@@ -205,3 +205,5 @@
 #define MISSING_DATA 1023
 #define SEARCHBUFFER 1064
 #define MTTTECHDOC 1097
+#define Privacy 1098
+#define LCPCreateAbout 1099

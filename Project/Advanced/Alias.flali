@@ -205,4 +205,6 @@
     <Map Name="MISSING_DATA" Link="/Content/10-FTEM/General/Missing Data.htm" />
     <Map Name="SEARCHBUFFER" Link="/Content/10-FTEM/General/SearchBuffer.htm" />
     <Map Name="MTTTECHDOC" Link="/Content/20-Models/FlamMap/MTTTechDoc.htm" />
+    <Map Name="Privacy" Link="/Content/00-AboutIFTDSS/Privacy.htm" />
+    <Map Name="LCPCreateAbout" Link="/Content/30-Tasks/CreateLCP/LCPCreateAbout.htm" />
 </CatapultAliasFile>

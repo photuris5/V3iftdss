@@ -3,6 +3,6 @@
     <head>
     </head>
     <body>
-        <p>If GeoTiffs exported from <MadCap:variable name="General.ProductName" /> are edited outside of <MadCap:variable name="General.ProductName" /> for use in FlamMap on your desktop, save them as .LCP files. Editing an <MadCap:variable name="General.ProductName" /> GeoTiff outside of <MadCap:variable name="General.ProductName" /> and saving it as a GeoTiff will cause FlamMap to crash. </p>
+        <p>If a landscape GeoTiff exported from <MadCap:variable name="General.ProductName" /> is edited in FlamMap on your desktop, save it as a .LCP file. Saving it as GeoTiff will cause FlamMap to crash.</p>
     </body>
 </html>
